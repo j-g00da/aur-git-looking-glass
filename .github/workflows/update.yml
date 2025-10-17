@@ -1,0 +1,42 @@
+name: Update AUR packages
+
+permissions:
+  contents: read
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Looking Glass
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+        with:
+          path: aur-git-looking-glass
+      - name: Checkout ALPM mirror
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+        with:
+          repository: archlinux/alpm
+          path: alpm
+      - name: Set up Rust
+        uses: dtolnay/rust-toolchain@6d653acede28d24f02e3cd41383119e8b1b35921 # master
+        with:
+          toolchain: stable
+      - uses: Swatinem/rust-cache@f13886b937689c021905a6b90929199931d60db1 # v2
+      - name: Download AUR and extract packages
+        run: |
+          cd alpm
+          cargo run -p dev-scripts -- test-files download aur
+      - name: Copy extracted packages into the Looking Glass repository
+        run: cp -a ~/.cache/alpm/testing/aur/. ./aur-git-looking-glass/
+      - name: Push changes
+        run: |
+          cd aur-git-looking-glass
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "update AUR packages"
+          git push
