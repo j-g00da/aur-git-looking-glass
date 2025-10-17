@@ -19,4 +19,4 @@ Packages are synchronized weekly using a GitHub Action.
    All contents are automatically downloaded from [aur.git mirror](https://github.com/archlinux/aur).
 3. Any use of the provided files is at your own risk.
 
-*not and actual mirror
+*not an actual mirror
