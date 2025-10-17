@@ -1,0 +1,13 @@
+pkgbase = notwaita-cursor-theme
+	pkgdesc = A cursor theme inspired by the Adwaita icons from the GNOME Project for Windows and Linux with HiDPI support.
+	pkgver = 1.0.0_alpha1
+	pkgrel = 1
+	url = https://github.com/ful1e5/notwaita-cursor
+	arch = any
+	license = LGPL-3.0-only
+	source = notwaita-cursor-theme-1.0.0-alpha1.tar.xz::https://github.com/ful1e5/notwaita-cursor/releases/download/v1.0.0-alpha1/Notwaita.tar.xz
+	source = COPYING_LGPL::https://raw.githubusercontent.com/ful1e5/notwaita-cursor/refs/heads/main/COPYING_LGPL
+	sha256sums = 93928d9c64e2aa61e061efcfbdbf67ae15c458095c6d82f5ad790a1402d46cf2
+	sha256sums = da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768
+
+pkgname = notwaita-cursor-theme

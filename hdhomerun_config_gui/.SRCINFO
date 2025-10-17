@@ -1,0 +1,21 @@
+pkgbase = hdhomerun_config_gui
+	pkgdesc = GUI for configuring a HDHomeRun device
+	pkgver = 20250506
+	pkgrel = 1
+	url = https://www.silicondust.com/downloads
+	arch = i686
+	arch = x86_64
+	arch = arm
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = GPL3
+	depends = gtk2
+	depends = libhdhomerun
+	optdepends = vlc: stream live channels directly from HDHomeRun
+	optdepends = mythtv: use HDHomeRun as PVR source
+	optdepends = hdhomerun-firmware-bin: firmware files for hdhomerun devices
+	source = https://download.silicondust.com/hdhomerun/hdhomerun_config_gui_20250506.tgz
+	sha512sums = e0b1294d33d925bfef0015df4b746c88b47dde1118912ff40ff01891fc766e8732daa2eebb66479ab5995174934f1e15fbad8f97f5f4a8e7b7766af3c01ebf09
+
+pkgname = hdhomerun_config_gui

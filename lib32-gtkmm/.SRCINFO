@@ -1,0 +1,25 @@
+pkgbase = lib32-gtkmm
+	pkgdesc = C++ bindings for GTK+ 2 (32-bit)
+	pkgver = 2.24.5
+	pkgrel = 1
+	url = https://www.gtkmm.org
+	arch = x86_64
+	license = LGPL-2.1-or-later
+	makedepends = mm-common
+	depends = gtkmm
+	depends = lib32-atkmm>=2.22.2
+	depends = lib32-cairomm
+	depends = lib32-gcc-libs
+	depends = lib32-gdk-pixbuf2
+	depends = lib32-glib2
+	depends = lib32-glibc
+	depends = lib32-glibmm>=2.27.93
+	depends = lib32-gtk2>=2.24
+	depends = lib32-libsigc++
+	depends = lib32-pangomm>=2.27.1
+	provides = libgdkmm-2.4.so
+	provides = libgtkmm-2.4.so
+	source = gtkmm-2.24.5.tar.xz::https://download.gnome.org/sources/gtkmm/2.24/gtkmm-2.24.5.tar.xz
+	sha256sums = 0680a53b7bf90b4e4bf444d1d89e6df41c777e0bacc96e9c09fc4dd2f5fe6b72
+
+pkgname = lib32-gtkmm

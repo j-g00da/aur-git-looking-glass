@@ -1,0 +1,21 @@
+pkgbase = ocaml-ppx_bin_prot
+	pkgdesc = Generation of bin_prot readers and writers from types
+	pkgver = 0.17.1
+	pkgrel = 1
+	epoch = 1
+	url = https://github.com/janestreet/ppx_bin_prot
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = dune>=3.11.0
+	depends = ocaml>=5.1.0
+	depends = ocaml-base>=0.17.0
+	depends = ocaml-bin_prot>=0.17.0
+	depends = ocaml-ppx_here>=0.17.0
+	depends = ocaml-ppxlib_jane>=0.17.0
+	depends = ocaml-ppxlib>=0.36.0
+	options = !strip
+	source = ocaml-ppx_bin_prot-0.17.1.tar.gz::https://github.com/janestreet/ppx_bin_prot/archive/v0.17.1.tar.gz
+	b2sums = 6364305d05da7a47a89b46372ae53d750158d49c963919e8ec19020dfaf40e3a85a067b83ef7375d290385b573924acadefc920b577f891f548eee6c8d85fcbf
+
+pkgname = ocaml-ppx_bin_prot

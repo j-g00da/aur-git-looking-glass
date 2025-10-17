@@ -1,0 +1,13 @@
+pkgbase = r-ruvnormalizedata
+	pkgdesc = Gender data for the RUVnormalize package
+	pkgver = 1.28.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/RUVnormalizeData
+	arch = any
+	license = GPL-3.0-only
+	depends = r-biobase
+	source = https://bioconductor.org/packages/release/data/experiment/src/contrib/RUVnormalizeData_1.28.0.tar.gz
+	md5sums = 324f0f2be61d1098a83c065bf97f21e7
+	b2sums = bd95d9495ae92f2c6bcec0193c0760fd7dfd60b4ad12e377a9c0677438c503b73b325e5e44783657b63a4d27c3187ab5b6b8404adaca4e673471a898a0cee250
+
+pkgname = r-ruvnormalizedata

@@ -1,0 +1,22 @@
+pkgbase = dottie-bin
+	pkgdesc = Makes working with .env files easy
+	pkgver = 0.16.0
+	pkgrel = 1
+	url = https://github.com/jippi/dottie
+	license = MIT
+	conflicts = dottie
+	provides = dottie
+	arch = aarch64
+	source_aarch64 = https://github.com/jippi/dottie/releases/download/v0.16.0/dottie_Linux_arm64.tar.gz
+	sha256sums_aarch64 = 95f6eb110dfefb97c57e7a32b00534118f9fc17f19642097a5db18d10b89ccd5
+	arch = armv7h
+	source_armv7h = https://github.com/jippi/dottie/releases/download/v0.16.0/dottie_Linux_armv7.tar.gz
+	sha256sums_armv7h = dbc3ffeb00209b4b297a516c20d44115dff89e94ba14eb3de23844b45c866b2e
+	arch = i686
+	source_i686 = https://github.com/jippi/dottie/releases/download/v0.16.0/dottie_Linux_i386.tar.gz
+	sha256sums_i686 = 91b754ca9d0ef46a8dd91398674de74de03cb224ed90803bbbebbc9261833878
+	arch = x86_64
+	source_x86_64 = https://github.com/jippi/dottie/releases/download/v0.16.0/dottie_Linux_x86_64.tar.gz
+	sha256sums_x86_64 = 7b948ade2d1459fe5b4de223f106fb48ca8bd02363931f4a6af8df12110ce496
+	
+pkgname = dottie-bin

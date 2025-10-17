@@ -1,0 +1,21 @@
+pkgbase = vapoursynth-plugin-jvsfunc-git
+	pkgdesc = Plugin for Vapoursynth: jvsfunc (GIT version)
+	pkgver = 1.0.16.1.g0200b4f
+	pkgrel = 1
+	url = https://github.com/dnjulek/jvsfunc.git
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = python-build
+	makedepends = python-wheel
+	makedepends = python-installer
+	makedepends = python-setuptools
+	depends = vapoursynth-plugin-vsutil-git
+	depends = vapoursynth-plugin-lvsfunc-git
+	depends = vapoursynth-plugin-vsjetpack-git
+	provides = vapoursynth-plugin-jvsfunc
+	conflicts = vapoursynth-plugin-jvsfunc
+	source = jvsfunc::git+https://github.com/dnjulek/jvsfunc.git
+	sha256sums = SKIP
+
+pkgname = vapoursynth-plugin-jvsfunc-git

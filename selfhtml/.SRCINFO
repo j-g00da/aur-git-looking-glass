@@ -1,0 +1,25 @@
+pkgbase = selfhtml
+	pkgdesc = An excellent HTML reference which also covers other web topics
+	pkgver = 8.1.2
+	pkgrel = 5
+	url = http://selfhtml.org
+	arch = any
+	license = custom
+	source = http://files.ax86.net/mirror/selfhtml/selfhtml812.tar.xz
+	source = http://files.ax86.net/mirror/selfhtml/selfhtml80fr.tar.xz
+	source = http://files.ax86.net/mirror/selfhtml/selfhtml80fr_update812.tar.xz
+	md5sums = 498cef61ba58aca47e5601d8b41181e1
+	md5sums = a92011c71a6a211c727a7dc87910aa4e
+	md5sums = f4c45c2fe4a28eb8b27a29cb59d5b474
+	sha384sums = 26b02844e55de2974257fdfbc6fea88caadc516735097167d3522a247d077911b77d4d059c9bd08d0e0d37ebc2704193
+	sha384sums = b9bc42c0d2ec0846e1040618eb0d965129b4bcabcc96109c35b059ac212d97d8d6f0e3ec0b4f2fbcafed2982e612cdf9
+	sha384sums = fa1e53b7511d77bf00ce7744fff1dedd975273ed894148870f398a683f762f530d4df6f7cc578b95d0fad85f448c91f0
+
+pkgname = selfhtml-de
+	pkgdesc = An excellent HTML reference which also covers other web topics (German version)
+	url = http://de.selfhtml.org
+
+pkgname = selfhtml-fr
+	pkgdesc = An excellent HTML reference which also covers other web topics (French version)
+	url = http://fr.selfhtml.org
+

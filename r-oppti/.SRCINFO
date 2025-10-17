@@ -1,0 +1,21 @@
+pkgbase = r-oppti
+	pkgdesc = Outlier Protein and Phosphosite Target Identifier
+	pkgver = 1.21.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/oppti
+	arch = any
+	license = MIT
+	depends = r
+	depends = r-devtools
+	depends = r-ggplot2
+	depends = r-knitr
+	depends = r-limma
+	depends = r-paralleldist
+	depends = r-pheatmap
+	depends = r-rcolorbrewer
+	depends = r-reshape
+	optdepends = r-markdown
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/oppti_1.21.0.tar.gz
+	sha256sums = d762d751acc21703d124ca9246f273166534bc1e42ef3ca4465dd6e171f2f06c
+
+pkgname = r-oppti

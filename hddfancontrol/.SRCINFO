@@ -1,0 +1,18 @@
+pkgbase = hddfancontrol
+	pkgdesc = Regulate fan speed according to hard drive temperature
+	pkgver = 2.0.5
+	pkgrel = 1
+	url = https://github.com/desbma/hddfancontrol
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = cargo
+	depends = gcc-libs
+	depends = hddtemp
+	depends = hdparm
+	depends = smartmontools
+	optdepends = sdparm: SAS drive support
+	backup = etc/conf.d/hddfancontrol
+	source = hddfancontrol-2.0.5.tar.gz::https://github.com/desbma/hddfancontrol/archive/2.0.5.tar.gz
+	sha512sums = 656d18ae8639c42adee272950e31c10c4d194e3b72a146d40c4cff45f36c2859abd557799e33867743d897dee1cca4fb8cf74fbd85544a867ae0054f211a0982
+
+pkgname = hddfancontrol

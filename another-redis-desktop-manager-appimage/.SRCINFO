@@ -1,0 +1,19 @@
+pkgbase = another-redis-desktop-manager-appimage
+	pkgdesc = A faster, better and more stable redis desktop manager
+	pkgver = 1.7.1
+	pkgrel = 1
+	url = https://github.com/qishibo/AnotherRedisDesktopManager
+	arch = x86_64
+	license = MIT
+	depends = fuse2
+	provides = another-redis-desktop-manager
+	provides = another-redis-desktop-manager-appimage
+	conflicts = another-redis-desktop-manager
+	noextract = another-redis-desktop-manager-appimage-1.7.1.AppImage
+	options = !strip
+	source = LICENSE-1.7.1::https://raw.githubusercontent.com/qishibo/AnotherRedisDesktopManager/v1.7.1/LICENSE
+	sha512sums = 3e70ee6355d1e4451927a9ac288154573684b02f82443ef4ed8fd0fd37257fa8d32ff76a4b1fef5273a8bd69f84eb4e604157334d27e8269ef66ef5c78ac4fb2
+	source_x86_64 = another-redis-desktop-manager-appimage-1.7.1.AppImage::https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.7.1/Another-Redis-Desktop-Manager-linux-1.7.1-x86_64.AppImage
+	sha512sums_x86_64 = 7b1e7976681fde7263a462a9dfd827e9d088623a5b4ff95b2142f421683e525345ad7739dc80fe130b637683ec60590484b51b00ccfee00bd2fb12926b608d1c
+
+pkgname = another-redis-desktop-manager-appimage

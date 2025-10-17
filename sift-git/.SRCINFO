@@ -1,0 +1,16 @@
+pkgbase = sift-git
+	pkgdesc = A fast and powerful open source alternative to grep.
+	pkgver = r70.2ca9471
+	pkgrel = 1
+	url = https://github.com/svent/sift
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = git
+	makedepends = go
+	conflicts = sift
+	conflicts = sift-bin
+	source = sift-git::git+https://github.com/svent/sift
+	md5sums = SKIP
+
+pkgname = sift-git

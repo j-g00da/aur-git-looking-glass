@@ -1,0 +1,15 @@
+pkgbase = brioche
+	pkgdesc = a package manager and build tool for building and running complex software projects
+	pkgver = 0.1.5
+	pkgrel = 1
+	url = https://brioche.dev
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	depends = glibc
+	options = !lto
+	source = https://github.com/brioche-dev/brioche/archive/v0.1.5/brioche-0.1.5.tar.gz
+	sha256sums = a6589432cf11bb8af42aa4eb48275ec6eabc65009f637c25dc21c01bc5929f44
+
+pkgname = brioche

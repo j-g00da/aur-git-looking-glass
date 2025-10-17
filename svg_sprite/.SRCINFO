@@ -1,0 +1,18 @@
+pkgbase = svg_sprite
+	pkgdesc = Create SVG sprites using SVG links.
+	pkgver = 1.0.3
+	pkgrel = 1
+	url = https://github.com/fnando/svg_sprite
+	arch = any
+	license = MIT
+	depends = ruby
+	depends = ruby-nokogiri
+	depends = ruby-svg_optimizer
+	depends = ruby-thor
+	provides = ruby-svg_sprite
+	noextract = svg_sprite-1.0.3.gem
+	options = !emptydirs
+	source = https://rubygems.org/downloads/svg_sprite-1.0.3.gem
+	sha1sums = 7332f056e2591b23cdb6f97a5a6400e8c1309751
+
+pkgname = svg_sprite

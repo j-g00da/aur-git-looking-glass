@@ -1,0 +1,15 @@
+pkgbase = ttf-maoken-unbounded-sans
+	pkgdesc = 无界黑-本字型是在 Dela Gothic One 的基础上补上简化字和简体中文常用字符。目前本字体支援 GB/T 2312 及元素周期表的元素名称。
+	pkgver = 1.100
+	pkgrel = 1
+	url = https://www.maoken.com/unbound
+	arch = any
+	license = OFL-1.1
+	conflicts = maoken-unbounded-sans
+	conflicts = ttf-maoken-unbounded-sans
+	source = ttf-maoken-unbounded-sans-regular-1.100.ttf::https://raw.githubusercontent.com/maoken-fonts/unbounded-sans/v1.100/fonts/UnboundedSans-Regular.ttf
+	source = LICENSE-1.100.txt::https://raw.githubusercontent.com/maoken-fonts/unbounded-sans/v1.100/OFL.txt
+	sha256sums = d37d10dbb85c7403b164a4565e4e2c837cbbb10005ec812a721104600fc9686d
+	sha256sums = eb01489da86293bac8dc8c6f046a4b6364991278d9c8afaafb2b7374e6d04e1a
+
+pkgname = ttf-maoken-unbounded-sans

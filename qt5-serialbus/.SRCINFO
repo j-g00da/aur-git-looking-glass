@@ -1,0 +1,17 @@
+pkgbase = qt5-serialbus
+	pkgdesc = Qt module for general purpose serial bus access
+	pkgver = 5.15.17
+	pkgrel = 1
+	url = https://www.qt.io
+	arch = x86_64
+	groups = qt5
+	license = GPL3
+	license = LGPL3
+	license = FDL
+	license = custom
+	makedepends = git
+	depends = qt5-serialport
+	source = kde-qtserialbus::git+https://invent.kde.org/qt/qt/qtserialbus#commit=971adee604b772d79686126fe8b1e333824f67dc
+	sha256sums = fa28b2d5b0756f410b99a8cb82ab27da189449a065e80dab076ffc417824256d
+
+pkgname = qt5-serialbus

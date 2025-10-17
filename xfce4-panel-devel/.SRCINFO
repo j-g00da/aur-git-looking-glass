@@ -1,0 +1,33 @@
+pkgbase = xfce4-panel-devel
+	pkgdesc = Panel for the Xfce desktop environment (development release)
+	pkgver = 4.21.0
+	pkgrel = 1
+	url = https://docs.xfce.org/xfce/xfce4-panel/start
+	arch = i686
+	arch = x86_64
+	arch = armv7h
+	arch = aarch64
+	groups = xfce4-devel
+	license = GPL-2.0-or-later
+	makedepends = meson
+	makedepends = xfce4-dev-tools
+	makedepends = gtk-doc
+	makedepends = gobject-introspection
+	makedepends = vala
+	makedepends = glib2-devel
+	depends = garcon
+	depends = libxfce4ui>=4.21.0
+	depends = xfconf
+	depends = hicolor-icon-theme
+	depends = desktop-file-utils
+	depends = libdbusmenu-gtk3
+	depends = libxfce4windowing
+	depends = gtk-layer-shell
+	provides = xfce4-panel=4.21.0
+	conflicts = xfce4-panel
+	conflicts = xfce4-statusnotifier-plugin
+	replaces = xfce4-statusnotifier-plugin
+	source = https://archive.xfce.org/src/xfce/xfce4-panel/4.21/xfce4-panel-4.21.0.tar.xz
+	sha256sums = 7c9ba71aa692448b0801a349ca94543463072be375604bca1873d8a418f423eb
+
+pkgname = xfce4-panel-devel

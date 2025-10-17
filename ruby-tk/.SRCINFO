@@ -1,0 +1,17 @@
+pkgbase = ruby-tk
+	pkgdesc = Tk interface module using tcltklib.
+	pkgver = 0.5.1
+	pkgrel = 1
+	url = https://github.com/ruby/tk
+	arch = i686
+	arch = x86_64
+	license = BSD-2-Clause
+	depends = ruby
+	depends = tk
+	depends = tcl
+	noextract = tk-0.5.1.gem
+	options = !emptydirs
+	source = https://rubygems.org/downloads/tk-0.5.1.gem
+	sha1sums = 12e159b52240139154c0c3738662bb73cef110e5
+
+pkgname = ruby-tk

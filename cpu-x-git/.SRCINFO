@@ -1,0 +1,36 @@
+pkgbase = cpu-x-git
+	pkgdesc = A Free software that gathers information on CPU, motherboard and more
+	pkgver = 5.3.0.r17.g8f886d14
+	pkgrel = 1
+	url = https://thetumultuousunicornofdarkness.github.io/CPU-X
+	arch = i686
+	arch = x86_64
+	arch = armv7h
+	arch = aarch64
+	license = GPL3
+	makedepends = git
+	makedepends = cmake
+	makedepends = ninja
+	makedepends = nasm
+	makedepends = vulkan-headers
+	makedepends = opencl-headers
+	makedepends = polkit
+	depends = gtkmm3
+	depends = ncurses
+	depends = libcpuid>=0.8.0
+	depends = pciutils
+	depends = libglvnd
+	depends = vulkan-icd-loader
+	depends = opencl-icd-loader
+	depends = procps-ng>=4.0.0
+	optdepends = opengl-driver: packaged openGL driver
+	optdepends = vulkan-driver: packaged Vulkan driver
+	optdepends = opencl-driver: packaged OpenCL driver
+	provides = cpu-x
+	conflicts = cpu-x
+	options = !strip
+	options = debug
+	source = git+https://github.com/TheTumultuousUnicornOfDarkness/CPU-X.git
+	sha512sums = SKIP
+
+pkgname = cpu-x-git

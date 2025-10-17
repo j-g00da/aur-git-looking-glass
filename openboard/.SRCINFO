@@ -1,0 +1,24 @@
+pkgbase = openboard
+	pkgdesc = Interactive whiteboard software for schools and universities
+	pkgver = 1.7.3
+	pkgrel = 1
+	url = http://openboard.ch/index.en.html
+	arch = x86_64
+	arch = i686
+	license = GPL3
+	makedepends = cmake
+	makedepends = qt6-tools
+	depends = qt6-base
+	depends = qt6-declarative
+	depends = qt6-multimedia
+	depends = qt6-svg
+	depends = qt6-webchannel
+	depends = qt6-webengine
+	depends = openssl
+	depends = ffmpeg
+	depends = quazip-qt6
+	depends = poppler
+	source = https://github.com/OpenBoard-org/OpenBoard/archive/v1.7.3.tar.gz
+	sha256sums = 55532df042e3a5b36e1f6f1e29916d3bbd01796d920782fa1f8a03438dcddd9c
+
+pkgname = openboard

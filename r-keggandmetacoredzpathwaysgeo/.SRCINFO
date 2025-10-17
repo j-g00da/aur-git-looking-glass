@@ -1,0 +1,14 @@
+pkgbase = r-keggandmetacoredzpathwaysgeo
+	pkgdesc = Disease Datasets from GEO
+	pkgver = 1.28.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/KEGGandMetacoreDzPathwaysGEO
+	arch = any
+	license = GPL-2.0-only
+	depends = r-biobase
+	depends = r-biocgenerics
+	source = https://bioconductor.org/packages/release/data/experiment/src/contrib/KEGGandMetacoreDzPathwaysGEO_1.28.0.tar.gz
+	md5sums = 1ae6a75a7c982b3739a890c70255aa28
+	b2sums = 51000a22c50cdaf74ea40deaff9050c740fd5d62e7ca67a6e9206aa3a1d9d2ee9876abbc03d163035fb1496dc024da351321b85c40420275bcc09d73fb31e2a5
+
+pkgname = r-keggandmetacoredzpathwaysgeo

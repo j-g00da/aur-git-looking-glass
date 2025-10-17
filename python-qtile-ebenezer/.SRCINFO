@@ -1,0 +1,21 @@
+pkgbase = python-qtile-ebenezer
+	pkgdesc = This repository provides a collection of widgets and behaviors spanning Desktop to Qtile Tiling Window Manager. (Git version)
+	pkgver = 0.1.36
+	pkgrel = 1
+	url = https://github.com/williampsena/qtile-ebenezer.git
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = python-setuptools
+	makedepends = python-setuptools-scm
+	makedepends = python-wheel
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-ruamel-yaml
+	depends = python
+	provides = python-qtile-ebenezer
+	conflicts = python-qtile-ebenezer
+	source = git+https://github.com/williampsena/qtile-ebenezer#tag=v0.1.36
+	sha256sums = SKIP
+
+pkgname = python-qtile-ebenezer

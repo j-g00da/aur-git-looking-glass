@@ -1,0 +1,14 @@
+pkgbase = svgalib
+	pkgdesc = A low-level SuperVGA graphics library
+	pkgver = 1.9.27
+	pkgrel = 1
+	url = http://www.svgalib.org/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	depends = perl
+	source = https://github.com/akosela/svgalib/archive/refs/tags/1.9.27.tar.gz
+	md5sums = 8e39672cfe081062819a255e71ff03d6
+
+pkgname = svgalib
+

@@ -1,0 +1,20 @@
+pkgbase = xdg-desktop-portal-phosh
+	pkgdesc = xdg-desktop-portal implementation using GTK/GNOME/Phosh
+	pkgver = 0.46.0
+	pkgrel = 0
+	url = https://gitlab.gnome.org/guidog/xdg-desktop-portal-phosh
+	arch = x86_64
+	arch = aarch64
+	arch = riscv64
+	license = GPL-3.0-or-later
+	makedepends = meson
+	makedepends = cargo
+	depends = gsettings-desktop-schemas
+	depends = xdg-desktop-portal
+	depends = gnome-desktop-4
+	depends = libadwaita
+	source = git+https://gitlab.gnome.org/guidog/xdg-desktop-portal-phosh.git#tag=v0.46.0
+	validpgpkeys = 0DB3932762F78E592F6522AFBB5A2C77584122D3
+	sha256sums = 38353443bf594145ab9e760a25b25335b906f99cd0e77dc1e25e31a700725c1d
+
+pkgname = xdg-desktop-portal-phosh

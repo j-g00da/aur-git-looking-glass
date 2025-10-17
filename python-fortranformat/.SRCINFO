@@ -1,0 +1,16 @@
+pkgbase = python-fortranformat
+	pkgdesc = Mimics Fortran textual IO in Python
+	pkgver = 2.0.3
+	pkgrel = 1
+	url = https://github.com/brendanarnold/py-fortranformat
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	source = fortranformat-2.0.3.tar.gz::https://github.com/brendanarnold/py-fortranformat/archive/v2.0.3.tar.gz
+	sha512sums = e6a02c32f65b55bd7524d36e2fbcd7479d333db828a3d5a184b0a110369223d8335bade43e1882d261b8a1377e3e97bcd1e505992344523d5eb6cbea3cefe359
+
+pkgname = python-fortranformat

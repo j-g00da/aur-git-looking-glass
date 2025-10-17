@@ -1,0 +1,16 @@
+pkgbase = alden
+	pkgdesc = Detachable terminal sessions without breaking scrollback
+	pkgver = 0.2
+	pkgrel = 1
+	url = https://ansuz.sooke.bc.ca/entry/389
+	changelog = CHANGELOG
+	arch = x86_64
+	arch = aarch64
+	license = GPL-3.0-only
+	depends = base-devel
+	source = https://files.northcoastsynthesis.com/alden-0.2.tar.gz
+	sha256sums = 6ba8e069ea509c320e4c84a6d2ba9d0091b34338cf7204be3e944178dd2c8e2f
+	sha512sums = ffc2e796c5484120e31517b0410b81cf4841fbacb4b141890e80b5f50491aa8949c7d9d382a59d10a8fa547a06541ac339b643adc93e8dbd61d3977fe2dd8445
+	b2sums = e6d48e4542638ab3e8a09d5712e4df279b04b6a3607e955c604d009ac8f02afe833b855401885b5f40e34cafb0deeca5083dc26a63db5ee4f3f0616a5261f838
+
+pkgname = alden

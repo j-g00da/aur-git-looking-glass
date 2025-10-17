@@ -1,0 +1,26 @@
+pkgbase = furmark
+	pkgdesc = Lightweight but intensive GPU stress test and benchmarking tool for OpenGL and Vulkan
+	pkgver = 2.9.0.0
+	pkgrel = 1
+	url = https://www.geeks3d.com/furmark/v2/
+	arch = x86_64
+	arch = aarch64
+	license = custom:freeware
+	makedepends = 7zip
+	depends = gcc-libs
+	depends = opengl-driver
+	depends = glu
+	depends = libxcb
+	optdepends = vulkan-driver: Vulkan benchmark support
+	backup = etc/opt/furmark/settings.lua
+	backup = etc/opt/furmark/conf.xml
+	source = furmark-gui.desktop
+	source = https://geeks3d.com/furmark/i/20240220-furmark-logo-02.png
+	sha256sums = SKIP
+	sha256sums = 12A8564204C4985FF601CA83C601ADAF69B948C62EA76F213C4848EACB05C3B8
+	source_x86_64 = https://gpumagick.com/downloads/files/2025/fm2/FurMark_2.9.0.0_linux64.7z
+	sha256sums_x86_64 = E1A28817AD9A12C916BAD7579BE6CF7BD8EE35717CBF7C4078CD585E0986B240
+	source_aarch64 = https://gpumagick.com/downloads/files/2025/fm2/FurMark_2.9.0.0_arm64.7z
+	sha256sums_aarch64 = 3D4037358375783A6F5A3FD81092CB4D6C37DC79D4149DE9797D4F604103F50E
+
+pkgname = furmark

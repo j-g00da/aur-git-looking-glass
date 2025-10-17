@@ -1,0 +1,13 @@
+pkgbase = gpto-bin
+	pkgdesc = A tiny unofficial OpenAI client
+	pkgver = 0.2.2
+	pkgrel = 1
+	url = https://github.com/alanvardy/gpto
+	arch = x86_64
+	license = MIT
+	provides = gpto
+	conflicts = gpto
+	source = https://github.com/alanvardy/gpto/releases/download/v0.2.2/gpto-0.2.2-x86_64.tar.gz
+	sha256sums = 3dd1ab6f82b41d592417734ba6398997554c1bd7ecc4df73bf718639e9382325
+
+pkgname = gpto-bin

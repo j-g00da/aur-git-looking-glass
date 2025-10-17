@@ -1,0 +1,18 @@
+pkgbase = ht-term-bin
+	pkgdesc = headless terminal: wrap any binary with a terminal interface
+	pkgver = 0.4.0
+	pkgrel = 1
+	url = https://github.com/andyk/ht
+	arch = x86_64
+	arch = aarch64
+	license = Apache-2.0
+	depends = glibc
+	depends = gcc-libs
+	provides = ht
+	conflicts = ht
+	source_x86_64 = ht-0.4.0-x86_64::https://github.com/andyk/ht/releases/download/v0.4.0/ht-x86_64-unknown-linux-gnu
+	sha256sums_x86_64 = 44f16107bb35091aa3dca0d79e0fa249bf7d301adabe92b9a59187130bd10000
+	source_aarch64 = ht-0.4.0-aarch64::https://github.com/andyk/ht/releases/download/v0.4.0/ht-aarch64-unknown-linux-gnu
+	sha256sums_aarch64 = aa2a0055996e634aef7a9448a5f1b28a6d1b4cee93b687f5b800f01b8a540a74
+
+pkgname = ht-term-bin

@@ -1,0 +1,20 @@
+pkgbase = r-tidydr
+	pkgdesc = Unify Dimensionality Reduction Results
+	pkgver = 0.0.6
+	pkgrel = 1
+	url = https://cran.r-project.org/package=tidydr
+	arch = any
+	license = Artistic-2.0
+	depends = r-ggfun
+	depends = r-ggplot2
+	depends = r-rlang
+	optdepends = r-knitr
+	optdepends = r-prettydoc
+	optdepends = r-rmarkdown
+	optdepends = r-singlecellexperiment
+	optdepends = r-summarizedexperiment
+	source = https://cran.r-project.org/src/contrib/tidydr_0.0.6.tar.gz
+	md5sums = e8ed646669fb6a8ac418f9273844df05
+	b2sums = 608f96e8a573b850c554cd4715b82d1564ccc1685aa8c4e82a19ce30e4ffff54a5bec141d28796135fd4cfcc08e02b8b90e314be2d0d11fa43ab912db68de64c
+
+pkgname = r-tidydr

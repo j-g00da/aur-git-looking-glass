@@ -1,0 +1,19 @@
+pkgbase = inkscape-paths2openscad
+	pkgdesc = Inkscape extension for converting SVG paths to OpenSCAD
+	pkgver = 0.27.r7.g0fe1a00
+	pkgrel = 1
+	epoch = 1
+	url = https://github.com/fablabnbg/inkscape-paths2openscad
+	arch = any
+	license = GPL-2.0-or-later
+	makedepends = git
+	depends = inkscape
+	depends = python
+	optdepends = cura: default slicer for STL post-processing
+	optdepends = openscad: to view .scad files
+	source = git+https://github.com/fablabnbg/inkscape-paths2openscad.git#commit=0fe1a007176d7482beaf44dd174620398ee39c98
+	source = git+https://github.com/l0b0/make-includes.git
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = inkscape-paths2openscad

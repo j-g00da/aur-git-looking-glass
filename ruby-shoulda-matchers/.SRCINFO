@@ -1,0 +1,16 @@
+pkgbase = ruby-shoulda-matchers
+	pkgdesc = Shoulda Matchers provides RSpec- and Minitest-compatible one-liners
+	pkgver = 6.5.0
+	pkgrel = 1
+	url = https://github.com/thoughtbot/shoulda-matchers
+	arch = any
+	license = MIT
+	makedepends = rubygems
+	makedepends = ruby-rdoc
+	depends = ruby
+	depends = ruby-activesupport
+	options = !emptydirs
+	source = https://github.com/thoughtbot/shoulda-matchers/archive/v6.5.0.tar.gz
+	sha256sums = 72e30297306206b9f2d23490ce73d85c3d73368643823604a111395becdf735b
+
+pkgname = ruby-shoulda-matchers

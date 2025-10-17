@@ -1,0 +1,14 @@
+pkgbase = dc3dd
+	pkgdesc = is a patch to the GNU dd program, this version has several features intended for forensic acquisition of data.
+	pkgver = 7.3.1
+	pkgrel = 1
+	url = http://sourceforge.net/projects/dc3dd/
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = autoconf
+	makedepends = perl-locale-gettext
+	source = https://downloads.sourceforge.net/project/dc3dd/dc3dd/7.3.1/dc3dd-7.3.1.zip
+	sha256sums = bd1b66d20a4020ab94b512e56d76cb5f86470d0216081586d596366927cb8d8b
+
+pkgname = dc3dd

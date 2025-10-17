@@ -1,0 +1,15 @@
+pkgbase = r-fishalyser
+	pkgdesc = FISHalyseR a package for automated FISH quantification
+	pkgver = 1.42.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/FISHalyseR
+	arch = any
+	license = Artistic2.0
+	depends = r
+	depends = r-abind
+	depends = r-ebimage
+	optdepends = r-knitr
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/FISHalyseR_1.42.0.tar.gz
+	sha256sums = dcf84228eba25b83282aa493220690186154d3f8c4771e100d6ab9b9ecf5bffc
+
+pkgname = r-fishalyser

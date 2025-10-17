@@ -1,0 +1,20 @@
+pkgbase = ttyper-git
+	pkgdesc = Terminal-based typing test
+	pkgver = 1.6.0.r2.g6d34398
+	pkgrel = 1
+	url = https://github.com/max-niederman/ttyper
+	arch = x86_64
+	arch = aarch64
+	arch = i686
+	arch = armv7h
+	license = MIT
+	makedepends = cargo
+	makedepends = git
+	depends = gcc-libs
+	depends = glibc
+	provides = ttyper=1.6.0
+	conflicts = ttyper
+	source = ttyper::git+https://github.com/max-niederman/ttyper.git
+	sha256sums = SKIP
+
+pkgname = ttyper-git

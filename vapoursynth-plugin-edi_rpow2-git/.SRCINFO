@@ -1,0 +1,17 @@
+pkgbase = vapoursynth-plugin-edi_rpow2-git
+	pkgdesc = Plugins for Vapoursynth : nnedi3_rpow2, znedi3_rpow2, nnedi3cl_rpow2, eedi3_rpow2 and eedi2_rpow2
+	pkgver = r30.90fa697
+	pkgrel = 1
+	url = http://forum.doom9.org/showthread.php?t=172652
+	arch = any
+	license = custom:WTFPL
+	makedepends = git
+	depends = vapoursynth
+	optdepends = vapoursynth-plugin-eedi2-git: needed for eedi2_rpow2
+	optdepends = vapoursynth-plugin-nnedi3-git: needed for nnedi3_rpow2
+	optdepends = vapoursynth-plugin-nnedi3cl-git: needed for nnedi3cl_rpow2
+	optdepends = vapoursynth-plugin-znedi3-git: needed for znedi3_rpow2
+	source = vapoursynth-plugin-edi_rpow2-git::git+https://gist.github.com/sbruder/0189649de03e7243c5dc453bd15d8fbb.git
+	sha1sums = SKIP
+
+pkgname = vapoursynth-plugin-edi_rpow2-git

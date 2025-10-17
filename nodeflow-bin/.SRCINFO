@@ -1,0 +1,19 @@
+pkgbase = nodeflow-bin
+	pkgdesc = An Editor for creating simple or complex OCR workflows.(Prebuilt version.Use system-wide electron)
+	pkgver = 0.0.2_alpha
+	pkgrel = 10
+	url = https://github.com/maxnth/NodeFlow
+	arch = x86_64
+	license = MIT
+	makedepends = fuse2
+	depends = electron23
+	provides = nodeflow=0.0.2_alpha
+	conflicts = nodeflow
+	source = nodeflow-0.0.2_alpha.AppImage::https://github.com/maxnth/NodeFlow/releases/download/0.0.2-alpha/NodeFlow-0.0.2.AppImage
+	source = LICENSE-0.0.2_alpha::https://raw.githubusercontent.com/maxnth/NodeFlow/0.0.2-alpha/License
+	source = nodeflow.sh
+	sha256sums = fd1bb578d47245a95ba7c206f7f64aa013e56afe2247511dea48e62190d4a545
+	sha256sums = 2fa2313855f0dfa9399163896c8a91747298ae501fb1f915e6a8479dc60f3791
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = nodeflow-bin

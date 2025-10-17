@@ -1,0 +1,26 @@
+pkgbase = polymc-qt5-bin
+	pkgdesc = Minecraft launcher with the ability to manage multiple instances.
+	pkgver = 7.0
+	pkgrel = 1
+	url = https://github.com/PolyMC/PolyMC
+	arch = x86_64
+	license = GPL3
+	depends = java-runtime
+	depends = libgl
+	depends = qt5-base
+	depends = qt5-svg
+	depends = qt5-imageformats
+	depends = qt5-charts
+	depends = zlib
+	depends = hicolor-icon-theme
+	optdepends = java-runtime=8: support for Minecraft versions < 1.17
+	optdepends = java-runtime=17: support for Minecraft versions >= 1.17
+	provides = polymc
+	provides = polymc-qt5
+	conflicts = polymc
+	conflicts = polymc-qt5
+	noextract = PolyMC-Linux-7.0.tar.gz
+	source = https://github.com/PolyMC/PolyMC/releases/download/7.0/PolyMC-Linux-7.0.tar.gz
+	sha256sums = c19e6cda127d95852f3f5e62b0503962908d9002a3bbd691456e66edac87415c
+
+pkgname = polymc-qt5-bin

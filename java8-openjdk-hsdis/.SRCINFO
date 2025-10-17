@@ -1,0 +1,16 @@
+pkgbase = java8-openjdk-hsdis
+	pkgdesc = Disassembler for HotSpot
+	pkgver = 8.u402
+	pkgrel = 1
+	url = http://openjdk.java.net/
+	arch = i686
+	arch = x86_64
+	license = GPL2
+	source = https://github.com/openjdk/jdk8u/archive/refs/tags/jdk8u402-b06.tar.gz
+	source = http://ftp.gnu.org/gnu/binutils/binutils-2.34.tar.bz2
+	source = binutils-compat.patch
+	sha256sums = 8bad7ce8ab8bef779d5cb3d60e04dc676ef840a9f6cf955e4bdb323aa3c0ea79
+	sha256sums = 89f010078b6cf69c23c27897d686055ab89b198dddf819efb0a4f2c38a0b36e6
+	sha256sums = 1ce6f6dccf01aa7172f2a600384244ac7bc91a9cf1bcaa0a9d4e453c775357f5
+
+pkgname = java8-openjdk-hsdis

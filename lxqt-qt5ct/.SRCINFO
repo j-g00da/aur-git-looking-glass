@@ -1,0 +1,17 @@
+pkgbase = lxqt-qt5ct
+	pkgdesc = LXQt Qt5ct integration
+	pkgver = 1.0
+	pkgrel = 3
+	url = https://gitlab.com/Zatherz/lxqt-qt5ct
+	arch = i686
+	arch = x86_64
+	license = LGPL2.1
+	depends = lxqt-session
+	depends = qt5ct
+	provides = lxqt-qt5ct
+	conflicts = startlxqt-qt5ct
+	source = https://gitlab.com/Zatherz/lxqt-qt5ct/repository/archive.tar.gz?ref=1.0
+	md5sums = 4685ac0ff9f5df43b54d3928444a3a14
+
+pkgname = lxqt-qt5ct
+

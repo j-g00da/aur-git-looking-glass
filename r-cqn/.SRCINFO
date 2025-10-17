@@ -1,0 +1,18 @@
+pkgbase = r-cqn
+	pkgdesc = Conditional quantile normalization
+	pkgver = 1.54.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/cqn
+	arch = any
+	license = Artistic2.0
+	depends = r
+	depends = r-mclust
+	depends = r-nor1mix
+	depends = r-preprocesscore
+	depends = r-quantreg
+	optdepends = r-edger
+	optdepends = r-scales
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/cqn_1.54.0.tar.gz
+	sha256sums = 25fe5a0753f00f2f09f8665b33aa97fdcb47a20c790ceb55b0bbb2d498d03017
+
+pkgname = r-cqn

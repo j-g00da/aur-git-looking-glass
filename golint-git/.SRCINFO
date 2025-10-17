@@ -1,0 +1,15 @@
+pkgbase = golint-git
+	pkgdesc = A linter for Go source code.
+	pkgver = 20210508.6edffad
+	pkgrel = 2
+	url = https://golang.org/x/lint
+	arch = x86_64
+	license = MIT
+	makedepends = go
+	makedepends = git
+	provides = golint
+	conflicts = golint
+	source = git+https://github.com/golang/lint.git
+	sha512sums = SKIP
+
+pkgname = golint-git

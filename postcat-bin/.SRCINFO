@@ -1,0 +1,17 @@
+pkgbase = postcat-bin
+	pkgdesc = An extensible API tool platform. A collection of basic API management and testing capabilities, and can simplify your API development work through plugins, allowing you to create APIs faster and better.(Prebuilt version.Use system-wide electron)
+	pkgver = 0.5.1
+	pkgrel = 9
+	url = https://postcat.com/
+	arch = x86_64
+	license = Apache-2.0
+	depends = electron22
+	depends = nodejs
+	provides = postcat=0.5.1
+	conflicts = postcat
+	source = postcat-0.5.1.AppImage::https://github.com/Postcatlab/postcat/releases/download/v0.5.1/Postcat-0.5.1.AppImage
+	source = postcat.sh
+	sha256sums = 9a1a3928d64df829b151d9aac4a69a4a8a0db6427f478c8af1cead260383e1ae
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = postcat-bin

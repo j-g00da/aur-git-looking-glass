@@ -1,0 +1,23 @@
+pkgbase = fukayo-bin
+	pkgdesc = A desktop application to read your favorite manga/manhwa/manhua from your favorite websites.(Prebuilt version.Use system-wide electron)
+	pkgver = 0.20.7_beta
+	pkgrel = 1
+	url = https://github.com/JiPaix/Fukayo
+	arch = x86_64
+	license = MIT
+	makedepends = fuse2
+	depends = electron24
+	depends = nodejs
+	provides = fukayo=0.20.7_beta
+	conflicts = fukayo
+	options = !strip
+	options = !emptydirs
+	options = !staticlibs
+	source = fukayo-0.20.7_beta.AppImage::https://github.com/JiPaix/Fukayo/releases/download/v0.20.7-beta/Fukayo-0.20.7-beta.AppImage
+	source = LICENSE-0.20.7_beta::https://raw.githubusercontent.com/JiPaix/fukayo/v0.20.7-beta/LICENSE
+	source = fukayo.sh
+	sha256sums = 2cdc42b92e6d82d4cc9c0c45a669d75c580c3dfd8e19b3d3c016f0c7068eec2b
+	sha256sums = c3fb2affb5fa8ed0b1866d379461e7e0c845ac7011f67aa7410cfe080f8d753a
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = fukayo-bin

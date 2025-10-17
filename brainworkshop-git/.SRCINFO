@@ -1,0 +1,22 @@
+pkgbase = brainworkshop-git
+	pkgdesc = Brain Workshop is a free open-source version of the Dual N-Back mental exercise
+	pkgver = r236.c9548bd
+	pkgrel = 1
+	url = https://github.com/samcv/brainworkshop
+	install = brainworkshop.install
+	arch = any
+	license = GPL
+	makedepends = git
+	depends = python-pyglet
+	depends = openal
+	depends = ffmpeg
+	provides = brainworkshop
+	conflicts = brainworkshop
+	source = git+https://github.com/samcv/brainworkshop.git
+	source = brainworkshop.sh
+	source = brainworkshop.desktop
+	sha256sums = SKIP
+	sha256sums = 95f09471b03db40eb23d48584c43f398800ae2141b6c69b8ebf926aedb531a92
+	sha256sums = 1e645c18ce0648f82285da25a5bbbad1e63e282bfe9d5c31329eb9d04c23f21c
+
+pkgname = brainworkshop-git

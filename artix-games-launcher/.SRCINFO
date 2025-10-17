@@ -1,0 +1,15 @@
+pkgbase = artix-games-launcher
+	pkgdesc = One app. All your favorite Artix games.
+	pkgver = 2.20
+	pkgrel = 1
+	url = https://www.artix.com/downloads/artixlauncher/
+	arch = x86_64
+	license = LicenseRef-Proprietary
+	depends = fuse2
+	options = !strip
+	source = https://launch.artix.com/latest/Artix_Games_Launcher-x86_64.AppImage
+	source = LICENSE.html::https://www.artix.com/policy-terms
+	sha512sums = 35cbe8230f2abaaaa99b5f1861744d469bfe1f28a2d906b8aaed6c8553c2fc282a11fe42cf6ab10d09650dad7c7b988fdf758ef88c2db082fa07e60d936ab683
+	sha512sums = SKIP
+
+pkgname = artix-games-launcher

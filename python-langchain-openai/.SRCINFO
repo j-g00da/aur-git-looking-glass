@@ -1,0 +1,17 @@
+pkgbase = python-langchain-openai
+	pkgdesc = An integration package connecting OpenAI and LangChain
+	pkgver = 0.3.28
+	pkgrel = 1
+	url = https://pypi.org/project/langchain-openai/
+	arch = x86_64
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	makedepends = python-hatchling
+	makedepends = python-pdm-backend
+	source = https://files.pythonhosted.org/packages/6b/1d/90cd764c62d5eb822113d3debc3abe10c8807d2c0af90917bfe09acd6f86/langchain_openai-0.3.28.tar.gz
+	sha256sums = 6c669548dbdea325c034ae5ef699710e2abd054c7354fdb3ef7bf909dc739d9e
+
+pkgname = python-langchain-openai

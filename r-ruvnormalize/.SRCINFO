@@ -1,0 +1,15 @@
+pkgbase = r-ruvnormalize
+	pkgdesc = RUV for normalization of expression array data
+	pkgver = 1.42.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/RUVnormalize
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-biobase
+	depends = r-ruvnormalizedata
+	optdepends = r-spams
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/RUVnormalize_1.42.0.tar.gz
+	sha256sums = 6a0fdd56e9a867fd0a0e9ea7abf356e60bc5adf242277fdc3a4342bed134208f
+
+pkgname = r-ruvnormalize

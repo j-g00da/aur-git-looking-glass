@@ -1,0 +1,20 @@
+pkgbase = appium-inspector-appimage
+	pkgdesc = A GUI inspector for mobile apps and more, powered by a (separately installed) Appium server.
+	pkgver = 2025.8.2
+	pkgrel = 1
+	url = https://github.com/appium/appium-inspector/
+	arch = x86_64
+	license = Apache Version 2.0
+	makedepends = grep
+	makedepends = curl
+	makedepends = coreutils
+	depends = zlib
+	depends = hicolor-icon-theme
+	noextract = appium-inspector-appimage-2025.8.2.AppImage
+	options = !strip
+	source_x86_64 = appium-inspector-appimage-2025.8.2.AppImage::https://github.com/appium/appium-inspector/releases/download/v2025.8.2/Appium-Inspector-2025.8.2-linux-x86_64.AppImage
+	source_x86_64 = https://raw.githubusercontent.com/appium/appium-inspector/v2025.8.2/LICENSE
+	sha256sums_x86_64 = 240c0888907ce05104635f326f19d659130914b0abb8dff4a0d764dabcdf9b59
+	sha256sums_x86_64 = 5cb791a45cafc4bdaef57f3ba49fb7691a98c756e8148467f9e241295728490f
+
+pkgname = appium-inspector-appimage

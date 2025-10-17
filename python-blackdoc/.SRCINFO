@@ -1,0 +1,24 @@
+pkgbase = python-blackdoc
+	pkgdesc = Run Black on documentation code snippets
+	pkgver = 0.4.3
+	pkgrel = 1
+	url = https://github.com/keewis/blackdoc
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-setuptools-scm
+	makedepends = python-wheel
+	depends = python-black
+	depends = python-more-itertools
+	depends = python-pathspec
+	depends = python-rich
+	depends = python-tomli
+	optdepends = ipython: for working with .ipynb files
+	optdepends = python-tokenize-rt: for working with .ipynb files
+	source = https://files.pythonhosted.org/packages/source/b/blackdoc/blackdoc-0.4.3.tar.gz
+	sha256sums = a48cdda12ed1a2fa8d5ebd028047f66d90225132c46b98bdb40af71de39cf61e
+
+pkgname = python-blackdoc

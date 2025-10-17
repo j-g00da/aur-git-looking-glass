@@ -1,0 +1,26 @@
+pkgbase = ugrd-git
+	pkgdesc = Minimalistic POSIX initramfs generator, designed for encrypted systems
+	pkgver = 2.0.2.r7.g2713866
+	pkgrel = 1
+	url = https://github.com/desultory/ugrd
+	arch = any
+	license = GPL-2.0-only
+	makedepends = git
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = bc
+	depends = pax-utils
+	depends = python
+	depends = python-pycpio
+	depends = python-zenlib
+	optdepends = python-zstandard: zstd cpio compression
+	provides = initramfs
+	provides = ugrd
+	conflicts = ugrd
+	backup = etc/ugrd/config.toml
+	source = git+https://github.com/desultory/ugrd
+	sha256sums = SKIP
+
+pkgname = ugrd-git

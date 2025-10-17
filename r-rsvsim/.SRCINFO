@@ -1,0 +1,20 @@
+pkgbase = r-rsvsim
+	pkgdesc = RSVSim: an R/Bioconductor package for the simulation of structural variations
+	pkgver = 1.48.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/RSVSim
+	arch = any
+	license = LGPL
+	depends = r
+	depends = r-biostrings
+	depends = r-genomicranges
+	depends = r-iranges
+	depends = r-shortread
+	optdepends = r-bsgenome.hsapiens.ucsc.hg19
+	optdepends = r-bsgenome.hsapiens.ucsc.hg19.masked
+	optdepends = r-mass
+	optdepends = r-rtracklayer
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/RSVSim_1.48.0.tar.gz
+	sha256sums = 4878f53fabf3114f942acc5a84370b49a022c9a2c0b04cab05b12d29805e8729
+
+pkgname = r-rsvsim

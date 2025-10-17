@@ -1,0 +1,13 @@
+pkgbase = ttf-fluent-emoji
+	pkgdesc = fluent-emoji by Microsoft
+	pkgver = 0.8.2
+	pkgrel = 2
+	url = https://github.com/tetunori/fluent-emoji-webfont
+	arch = any
+	license = MIT
+	depends = fontconfig
+	provides = emoji-font
+	source = https://github.com/tetunori/fluent-emoji-webfont/archive/refs/tags/v0.8.2.tar.gz
+	sha256sums = 8eff57d0f6034440bebe79784fca3de13233bee4edab0fbe661614a0b9d63f11
+
+pkgname = ttf-fluent-emoji

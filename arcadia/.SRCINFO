@@ -1,0 +1,18 @@
+pkgbase = arcadia
+	pkgdesc = A light IDE for Ruby
+	pkgver = 1.1.1
+	pkgrel = 0
+	url = http://arcadia.rubyforge.org/
+	install = arcadia.install
+	arch = any
+	license = RUBY
+	depends = ruby
+	depends = ruby-coderay>1.0
+	optdepends = ctags: other languages support
+	optdepends = xterm: termina integration
+	optdepends = ruby-debug: debug support
+	source = http://rubygems.org/downloads/arcadia-1.1.1.gem
+	md5sums = d458d6208f229be446b6dcdbf1c127cd
+
+pkgname = arcadia
+

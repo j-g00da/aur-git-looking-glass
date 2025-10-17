@@ -1,0 +1,16 @@
+pkgbase = python-periphery
+	pkgdesc = A pure Python 2/3 library for peripheral I/O (GPIO, LED, PWM, SPI, I2C, MMIO, Serial) in Linux
+	pkgver = 2.4.1
+	pkgrel = 1
+	url = https://github.com/vsergeev/python-periphery
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python
+	source = python-periphery-2.4.1.tar.gz::https://github.com/vsergeev/python-periphery/archive/v2.4.1.tar.gz
+	sha512sums = 3ea16ce51f135aefc4b438d80bbd15c1ec867c87f2224e3ee28ba41f636cc6f61a383c7bb63077e18c31fa63a441efa3f30ad9b550430e24cb7ef403439e98ba
+
+pkgname = python-periphery

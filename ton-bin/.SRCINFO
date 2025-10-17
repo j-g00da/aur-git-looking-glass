@@ -1,0 +1,12 @@
+pkgbase = ton-bin
+	pkgdesc = Ultra-scalable blockchain, designed by Telegram to onboard billions of users.
+	pkgver = 2025.07
+	pkgrel = 1
+	url = https://github.com/ton-blockchain/ton
+	arch = x86_64
+	license = LGPL2
+	depends = pacman>5
+	source = ton-bin.tar.gz::https://github.com/ton-blockchain/packages/releases/latest/download/ton-linux-x86-64.tar.gz
+	sha256sums = 48556764324586ecdf094fce7c2cbb19e289ee2c07d86dbe0ecb954d42568527
+
+pkgname = ton-bin

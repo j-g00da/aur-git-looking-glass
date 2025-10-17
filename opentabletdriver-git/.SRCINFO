@@ -1,0 +1,30 @@
+pkgbase = opentabletdriver-git
+	pkgdesc = A cross-platform open source tablet driver
+	pkgver = 0.6.6.0.r41.g61c2318c
+	pkgrel = 2
+	url = https://opentabletdriver.net
+	install = notes.install
+	arch = x86_64
+	license = LGPL-3.0-or-later
+	makedepends = git
+	makedepends = dotnet-sdk>=8.0
+	makedepends = jq
+	depends = dotnet-runtime-8.0
+	depends = gtk3
+	depends = libevdev
+	optdepends = libxrandr: x11 display querying support
+	optdepends = libx11
+	provides = opentabletdriver
+	conflicts = opentabletdriver
+	conflicts = digimend-kernel-drivers-dkms-git
+	conflicts = digimend-drivers-git-dkms
+	conflicts = digimend-kernel-drivers-dkms
+	conflicts = digimend-kernel-drivers
+	options = !strip
+	options = !debug
+	source = git+https://github.com/OpenTabletDriver/OpenTabletDriver#branch=0.6.x
+	source = notes.install
+	sha256sums = SKIP
+	sha256sums = 33e50caf00ab290463acaa09b024bcd8bcf6a39911db2fc506e88495171bf3e3
+
+pkgname = opentabletdriver-git

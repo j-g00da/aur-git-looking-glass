@@ -1,0 +1,15 @@
+pkgbase = posixovl
+	pkgdesc = A FUSE filesystem that provides POSIX functionality, a modern equivalent to UMSDOS
+	pkgver = 1.4
+	pkgrel = 1
+	url = https://inai.de/projects/posixovl/
+	arch = i686
+	arch = x86_64
+	arch = armv7h
+	arch = armv6h
+	license = GPL2
+	depends = fuse
+	source = https://codeberg.org/jengelh/posixovl/releases/download/v1.4/posixovl-1.4.tar.xz
+	sha1sums = 26189531d1c56ca1180fced165ad2e834bf35507
+
+pkgname = posixovl

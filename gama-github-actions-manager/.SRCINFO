@@ -1,0 +1,18 @@
+pkgbase = gama-github-actions-manager
+	pkgdesc = Manage your GitHub Actions from Terminal with great UI
+	pkgver = 1.2.1
+	pkgrel = 1
+	url = https://github.com/termkit/gama
+	arch = i686
+	arch = x86_64
+	arch = armv6h
+	arch = aarch64
+	license = GPL-3.0-only
+	makedepends = go
+	depends = glibc
+	options = strip
+	options = buildflags
+	source = https://github.com/termkit/gama/archive/refs/tags/v1.2.1/gama-github-actions-manager-1.2.1.tar.gz
+	sha256sums = d2fad1280142b0cc8cb311a5e328590feb0c5a1642c47e3f8e0aaf1b713f6c7b
+
+pkgname = gama-github-actions-manager

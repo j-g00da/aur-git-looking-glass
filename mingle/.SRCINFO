@@ -1,0 +1,16 @@
+pkgbase = mingle
+	pkgdesc = A simple GTK4-Libadwaita app to play with Google's Emoji Kitchen.
+	pkgver = 0.20
+	pkgrel = 1
+	url = https://github.com/halfmexican/mingle
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = blueprint-compiler
+	makedepends = meson
+	makedepends = vala
+	depends = libadwaita
+	depends = libgee
+	source = mingle-0.20.tar.gz::https://github.com/halfmexican/mingle/archive/refs/tags/v0.20.tar.gz
+	sha256sums = 5e06519081e3407c7eb05bc6ceb5905f436ccd5bb0816bf127ca2ad461d0546d
+
+pkgname = mingle

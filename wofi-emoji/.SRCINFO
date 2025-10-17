@@ -1,0 +1,19 @@
+pkgbase = wofi-emoji
+	pkgdesc = Emoji picker for Wayland using wofi and wtype
+	pkgver = 1.2
+	pkgrel = 3
+	url = https://github.com/Zeioth/wofi-emoji
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = jq
+	makedepends = curl
+	depends = wofi
+	depends = wtype
+	depends = wl-clipboard
+	provides = wofi-emoji
+	conflicts = wofi-emoji-git
+	source = git+https://github.com/Zeioth/wofi-emoji#commit=524fd0db66f8a96a2365f5af85b5b08032680359
+	sha256sums = SKIP
+
+pkgname = wofi-emoji

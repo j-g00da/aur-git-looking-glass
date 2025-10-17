@@ -1,0 +1,18 @@
+pkgbase = bookord-bin
+	pkgdesc = A desktop Epub reader.(Prebuilt version.Use system-wide electron)
+	pkgver = 0.3.3
+	pkgrel = 2
+	url = https://github.com/LiprikON2/Bookord
+	arch = x86_64
+	license = MIT
+	depends = electron29
+	optdepends = espeak-ng
+	optdepends = speech-dispatcher
+	provides = bookord=0.3.3
+	conflicts = bookord
+	source = bookord-0.3.3.rpm::https://github.com/LiprikON2/Bookord/releases/download/v0.3.3/bookord-0.3.3-1.x86_64.rpm
+	source = bookord.sh
+	sha256sums = 15871cc876824aba77d4db61dd48a6c48848e985c6fc1d687f681a6a355e0294
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = bookord-bin

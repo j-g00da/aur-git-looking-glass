@@ -1,0 +1,14 @@
+pkgbase = draft-bin
+	pkgdesc = Draft client
+	pkgver = 0.17.6
+	pkgrel = 1
+	url = http://draft.sh
+	arch = x86_64
+	arch = aarch64
+	license = mit
+	source_x86_64 = draft-0.17.6::https://github.com/Azure/draft/releases/download/v0.17.6/draft-linux-amd64
+	md5sums_x86_64 = de77390d33a13a32c4de2b7b10df2ca8
+	source_aarch64 = draft-0.17.6::https://github.com/Azure/draft/releases/download/v0.17.6/draft-linux-arm64
+	md5sums_aarch64 = 180f700055ad0fc4a6e72c6ee246f07d
+
+pkgname = draft-bin

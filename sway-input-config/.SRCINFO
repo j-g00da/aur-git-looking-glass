@@ -1,0 +1,19 @@
+pkgbase = sway-input-config
+	pkgdesc = Sway Input Configurator
+	pkgver = 1.4.3
+	pkgrel = 2
+	url = https://github.com/Sunderland93/sway-input-config
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = python-setuptools
+	depends = qt6-wayland
+	depends = python-pyqt6
+	depends = python-i3ipc
+	depends = sway
+	provides = sway-input-config
+	conflicts = sway-input-config
+	source = https://codeload.github.com/Sunderland93/sway-input-config/zip/refs/tags/v1.4.3
+	sha256sums = ccf37846d6b82af682ffb3f36cc41799b47481f0a2c549c120f36a9b84497b73
+
+pkgname = sway-input-config

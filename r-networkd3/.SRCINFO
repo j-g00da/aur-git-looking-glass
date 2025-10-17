@@ -1,0 +1,20 @@
+pkgbase = r-networkd3
+	pkgdesc = D3 JavaScript Network Graphs from R
+	pkgver = 0.4.1
+	pkgrel = 1
+	url = https://cran.r-project.org/package=networkD3
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-data.tree
+	depends = r-htmlwidgets
+	depends = r-igraph
+	depends = r-magrittr
+	optdepends = r-htmltools
+	optdepends = r-jsonlite
+	optdepends = r-knitr
+	optdepends = r-shiny
+	source = https://cran.r-project.org/src/contrib/networkD3_0.4.1.tar.gz
+	sha256sums = 5be36aa5dd3722b1cd52a149c50af2dbef0714b2dab2b4dbf7552c628925f64e
+
+pkgname = r-networkd3

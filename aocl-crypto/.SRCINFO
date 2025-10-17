@@ -1,0 +1,19 @@
+pkgbase = aocl-crypto
+	pkgdesc = AOCL-Cryptography is a library consisting of cryptographic optimized functions for Zen.
+	pkgver = 5.1
+	pkgrel = 1
+	url = https://github.com/amd/aocl-crypto
+	arch = x86_64
+	makedepends = cmake
+	makedepends = ninja
+	makedepends = gcc
+	makedepends = clang
+	makedepends = lsb-release
+	depends = aocl-utils
+	options = staticlibs
+	source = aocl-crypto.tar.gz::https://github.com/amd/aocl-crypto/archive/refs/tags/5.1.tar.gz
+	source = out.patch
+	sha256sums = a2f768b7d37516c5c29cca0034aba90b91d02e477c762f2fa0fe4b1c30613973
+	sha256sums = 52cc9e42ac1584a0872c70b09b1a443a655a21c6a2099dad980a2b38f608188c
+
+pkgname = aocl-crypto

@@ -1,0 +1,21 @@
+pkgbase = vnite-git
+	pkgdesc = A versatile game management software designed to provide a unified interface for recording, managing, and synchronizing your gaming journey.(Use system-wide electron)
+	pkgver = 4.3.1.r0.ga3ff975
+	pkgrel = 1
+	url = https://vnite.ximu.dev/
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = npm
+	makedepends = git
+	makedepends = nvm
+	makedepends = gendesk
+	makedepends = curl
+	depends = electron35
+	provides = vnite=4.3.1
+	conflicts = vnite
+	source = vnite.git::git+https://github.com/ximu3/vnite.git
+	source = vnite.sh
+	sha256sums = SKIP
+	sha256sums = 31ad33b633744f5361abd964be306cea53ae1050e760c787115f7eca60045ae6
+
+pkgname = vnite-git

@@ -1,0 +1,14 @@
+pkgbase = python-fastdownload
+	pkgdesc = Easily download, verify, and extract arcrhives. To be used with fast.ai
+	pkgver = 0.0.6
+	pkgrel = 1
+	url = https://github.com/fastai/fastdownload
+	arch = any
+	license = Apache-2.0
+	makedepends = python-setuptools
+	depends = python-fastcore
+	depends = python-fastprogress
+	source = fastdownload-0.0.6.tar.gz::https://github.com/fastai/fastdownload/archive/refs/tags/0.0.6.tar.gz
+	sha512sums = 62168f8c20eafc7aa94017a363b2dfb68062ec337b88eb3d601d50234074be1e1a3337354d52483fe801d173534f6139e4c97041f3cdd9eb79b9179ee91325a2
+
+pkgname = python-fastdownload

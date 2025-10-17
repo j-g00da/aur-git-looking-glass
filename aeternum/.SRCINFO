@@ -1,0 +1,19 @@
+pkgbase = aeternum
+	pkgdesc = A simple and minimal upscaler built in 🦀 rust (WIP)
+	pkgver = v0.1.2.beta.1
+	pkgrel = 1
+	url = https://github.com/cloudy-org/aeternum
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = git
+	makedepends = cargo
+	depends = libxcb
+	depends = libxkbcommon
+	depends = openssl
+	depends = upscayl-ncnn
+	provides = aeternum
+	conflicts = aeternum-bin
+	source = git+https://github.com/cloudy-org/aeternum.git#tag=v0.1.2-beta.1
+	sha256sums = d5fed1e41ef2fdef465b2059bd447a463aa2cf00d9c8ddb9a4a6d76462021b9e
+
+pkgname = aeternum

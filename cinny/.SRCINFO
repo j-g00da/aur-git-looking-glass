@@ -1,0 +1,15 @@
+pkgbase = cinny
+	pkgdesc = Yet another matrix client — web version
+	pkgver = 4.10.1
+	pkgrel = 1
+	url = https://github.com/cinnyapp/cinny
+	arch = any
+	license = AGPL-3.0-or-later
+	makedepends = npm
+	makedepends = yarn
+	source = cinny-4.10.1.tar.gz::https://github.com/cinnyapp/cinny/archive/refs/tags/v4.10.1.tar.gz
+	sha512sums = 58acf0f9961533652da991256949b303e0f47bae75533f967045f3ffaf77d083391b2c677c589f589c47e9ce9ba712c2a49f4cfed5016d68923f0c6e6b1ec72d
+
+pkgname = cinny-web
+	url = https://github.com/cinnyapp/cinny
+	backup = etc/webapps/cinny/config.json

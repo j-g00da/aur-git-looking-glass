@@ -1,0 +1,28 @@
+pkgbase = kde-material-you-colors-git
+	pkgdesc = Automatic Material You Colors generator from your wallpaper for the Plasma Desktop
+	pkgver = 1.10.1.r0.gd4c8998
+	pkgrel = 1
+	url = https://github.com/luisbocanegra/kde-material-you-colors
+	arch = x86_64
+	license = GPL3
+	makedepends = git
+	makedepends = extra-cmake-modules
+	makedepends = python-setuptools
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = libplasma
+	depends = python
+	depends = python-dbus
+	depends = python-numpy
+	depends = python-materialyoucolor
+	depends = plasma5support
+	depends = python-pillow
+	depends = python-pywal16
+	provides = kde-material-you-colors
+	conflicts = kde-material-you-colors
+	options = !debug
+	source = kde-material-you-colors-git::git+https://github.com/luisbocanegra/kde-material-you-colors.git#branch=main
+	sha256sums = SKIP
+
+pkgname = kde-material-you-colors-git

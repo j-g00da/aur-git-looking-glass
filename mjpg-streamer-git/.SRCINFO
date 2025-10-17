@@ -1,0 +1,25 @@
+pkgbase = mjpg-streamer-git
+	pkgdesc = Stream mjpeg frames from a webcam via http
+	pkgver = 1.0.1.r1.g44a278f
+	pkgrel = 2
+	epoch = 1
+	url = https://github.com/jacksonliam/mjpg-streamer
+	arch = x86_64
+	arch = i686
+	arch = armv7h
+	arch = aarch64
+	license = GPL-2.0-only
+	makedepends = git
+	makedepends = cmake
+	makedepends = python-numpy
+	depends = protobuf-c
+	depends = zeromq
+	depends = sdl12-compat
+	depends = libgphoto2
+	depends = v4l-utils
+	provides = mjpg-streamer
+	conflicts = mjpg-streamer
+	source = git+https://github.com/LMBernardo/mjpg-streamer.git
+	sha256sums = SKIP
+
+pkgname = mjpg-streamer-git

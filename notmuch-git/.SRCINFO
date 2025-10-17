@@ -1,0 +1,77 @@
+pkgbase = notmuch-git
+	pkgver = 0.28.2.20.ge5253502
+	pkgrel = 1
+	epoch = 3
+	url = https://notmuchmail.org/
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = python
+	makedepends = python-sphinx
+	makedepends = emacs
+	makedepends = git
+	makedepends = gnupg
+	makedepends = ruby
+	makedepends = pkgconfig
+	makedepends = xapian-core
+	makedepends = gmime
+	makedepends = talloc
+	options = !distcc
+	source = git+https://git.notmuchmail.org/git/notmuch
+	md5sums = SKIP
+
+pkgname = notmuch-emacs-git
+	pkgdesc = Not much of an email program -default interface to emacs
+	arch = any
+	depends = notmuch-runtime
+	optdepends = emacs: for using the emacs interface
+	optdepends = gnupg: for email encryption
+	provides = notmuch
+	conflicts = notmuch
+
+pkgname = notmuch-runtime-git
+	pkgdesc = Runtime for notmuch and notmuch-mutt
+	arch = i686
+	arch = x86_64
+	depends = xapian-core
+	depends = gmime
+	depends = talloc
+	provides = notmuch-runtime
+	conflicts = notmuch-runtime
+
+pkgname = notmuch-python-git
+	pkgdesc = Python bindings for notmuch
+	arch = any
+	depends = notmuch-runtime
+	optdepends = python: for using the python bindings
+	provides = notmuch-python
+	conflicts = notmuch-python
+
+pkgname = notmuch-ruby-git
+	pkgdesc = Ruby bindings for notmuch
+	arch = i686
+	arch = x86_64
+	depends = notmuch-runtime
+	optdepends = ruby: for using the ruby bindings
+	provides = notmuch-ruby
+	conflicts = notmuch-ruby
+
+pkgname = notmuch-vim-git
+	pkgdesc = Vim plugins for notmuch
+	arch = any
+	depends = notmuch-runtime
+	optdepends = vim: for using the vim interface
+	provides = notmuch-vim
+	conflicts = notmuch-vim
+
+pkgname = notmuch-mutt-git
+	pkgdesc = The mail indexer
+	arch = any
+	depends = notmuch-runtime
+	depends = perl-mailtools
+	depends = perl-mail-box
+	depends = perl-term-readline-gnu
+	depends = perl-string-shellquote
+	depends = perl-file-which
+	provides = notmuch-mutt
+	conflicts = notmuch-mutt

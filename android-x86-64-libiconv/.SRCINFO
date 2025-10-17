@@ -1,0 +1,20 @@
+pkgbase = android-x86-64-libiconv
+	pkgdesc = Provides libiconv.so and libcharset.so (Android x86-64)
+	pkgver = 1.18
+	pkgrel = 1
+	url = http://www.gnu.org/software/libiconv/
+	arch = any
+	license = LGPL
+	makedepends = android-ndk
+	makedepends = android-configure
+	conflicts = android-libiconv-x86_64
+	replaces = android-libiconv-x86_64
+	options = !libtool
+	options = !buildflags
+	options = staticlibs
+	options = !strip
+	options = !emptydirs
+	source = http://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.18.tar.gz
+	sha256sums = 3b08f5f4f9b4eb82f151a7040bfd6fe6c6fb922efe4b1659c66ea933276965e8
+
+pkgname = android-x86-64-libiconv

@@ -1,0 +1,25 @@
+pkgbase = python-autoray
+	pkgdesc = Abstract your array operations
+	pkgver = 0.8.0
+	pkgrel = 1
+	url = https://github.com/jcmgray/autoray
+	arch = any
+	license = Apache-2.0
+	checkdepends = python-pytest
+	checkdepends = python-dask
+	checkdepends = python-tensorflow
+	checkdepends = python-pytorch
+	checkdepends = python-jax
+	checkdepends = python-sparse
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-hatch-vcs
+	makedepends = python-wheel
+	depends = python
+	optdepends = python-matplotlib: for visualizations
+	optdepends = python-networkx: for computational graph drawing
+	optdepends = python-pygraphviz: for graph layouts
+	source = autoray-0.8.0.tar.gz::https://github.com/jcmgray/autoray/archive/v0.8.0.tar.gz
+	sha512sums = 67ca7a574701e9893c238c32ebf8e94b4374a831623f3af3d96f97b3fd195c22f59ee4dc8384a1b8b1bb177812c164c04356c472af79fa212c215c9c33fd3d33
+
+pkgname = python-autoray

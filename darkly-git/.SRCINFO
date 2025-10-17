@@ -1,0 +1,10 @@
+pkgbase = darkly-git
+	pkgdesc = metapackage - migrate to darkly-qt6-git
+	pkgver = 0.5.23
+	pkgrel = 1
+	arch = any
+	license = None
+	depends = darkly-qt6-git
+	optdepends = darkly-qt5-git: for KF5/Qt5
+
+pkgname = darkly-git

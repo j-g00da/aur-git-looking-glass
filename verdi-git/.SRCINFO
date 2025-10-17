@@ -1,0 +1,24 @@
+pkgbase = verdi-git
+	pkgdesc = The elegant Wayland compositor
+	pkgver = r248.be53f55
+	pkgrel = 1
+	url = https://github.com/verdiwm/verdi
+	arch = x86_64
+	arch = aarch64
+	groups = verdi
+	license = EUPL-1.2
+	makedepends = git
+	makedepends = cargo
+	makedepends = clang
+	makedepends = lld
+	makedepends = libgit2
+	depends = gcc-libs
+	depends = glibc
+	depends = systemd-libs
+	depends = libinput
+	provides = verdi
+	conflicts = verdi
+	source = git+https://github.com/verdiwm/verdi.git
+	sha256sums = SKIP
+
+pkgname = verdi-git

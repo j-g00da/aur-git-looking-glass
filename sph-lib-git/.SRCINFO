@@ -1,0 +1,17 @@
+pkgbase = sph-lib-git
+	pkgdesc = more than 80 gpl3+ licensed guile scheme libraries
+	pkgver = 739.g4c68433
+	pkgrel = 1
+	url = https://sph.mn/computer/software/sph-lib.html
+	arch = x86_64
+	license = GPL3
+	makedepends = git
+	makedepends = gcc
+	makedepends = pkgconf
+	depends = guile
+	provides = sph-lib
+	conflicts = sph-lib
+	source = sph-lib::git+https://github.com/sph-mn/sph-lib.git
+	sha256sums = SKIP
+
+pkgname = sph-lib-git

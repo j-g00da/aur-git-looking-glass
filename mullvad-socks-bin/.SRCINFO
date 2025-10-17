@@ -1,0 +1,17 @@
+pkgbase = mullvad-socks-bin
+	pkgdesc = Filter Mullvad's SOCKS5 proxies by country, city, weight and online status.
+	pkgver = 1.4.1
+	pkgrel = 1
+	url = https://github.com/APT37/mullvad-socks
+	arch = x86_64
+	license = MIT-0
+	provides = mullvad-socks
+	conflicts = mullvad-socks
+	conflicts = mullvad-socks-git
+	options = !lto
+	source = mvs-cli+1.4.1::https://github.com/APT37/mullvad-socks/releases/download/1.4.1/mvs-cli
+	source = mvs-web+1.4.1::https://github.com/APT37/mullvad-socks/releases/download/1.4.1/mvs-web
+	sha256sums = 185d99794b667c3e3e9413677d862925581e3946af08fb53488e3a59c79e0ead
+	sha256sums = 24805f410d49011639929bdbf3513c18c6c93ac5690f34a473b4d37222e7ecb1
+
+pkgname = mullvad-socks-bin

@@ -1,0 +1,13 @@
+pkgbase = vimix-kanagawa-cursors
+	pkgdesc = XCursor theme using Kanagawa colours, based on Vimix cursors
+	pkgver = 2.2.0
+	pkgrel = 1
+	url = https://github.com/walldmtd/vimix-kanagawa-cursors
+	arch = any
+	license = GPL-3.0-or-later
+	source = vimix-kanagawa-cursors-wave-2.2.0.tar.gz::https://github.com/walldmtd/vimix-kanagawa-cursors/releases/download/v2.2.0/vimix-kanagawa-cursors-wave.tar.gz
+	source = vimix-kanagawa-cursors-lotus-2.2.0.tar.gz::https://github.com/walldmtd/vimix-kanagawa-cursors/releases/download/v2.2.0/vimix-kanagawa-cursors-lotus.tar.gz
+	b2sums = 39ab2c47aa305d3540095fe07e15686cf5eac248320a7e0f90113976dbd797c2a4cef31b9704e0089a0cfba8b03d9130aa2493f4158b5f5c8579bc146cba405e
+	b2sums = f3e1cfb67ab739360e9a281e46062110ed6b7390490df7b0971358699fa79602319cb414c7d31893fb58510b6bab4a569bff0a7e85df747d67d3aa3a37b40e39
+
+pkgname = vimix-kanagawa-cursors

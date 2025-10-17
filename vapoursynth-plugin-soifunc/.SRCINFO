@@ -1,0 +1,21 @@
+pkgbase = vapoursynth-plugin-soifunc
+	pkgdesc = Plugin for Vapoursynth: soifunc
+	pkgver = 0.12.0
+	pkgrel = 1
+	url = https://github.com/shssoichiro/soifunc
+	arch = any
+	license = MIT
+	makedepends = python-installer
+	depends = vapoursynth
+	depends = vapoursynth-plugin-znedi3
+	depends = vapoursynth-plugin-vsjetpack
+	optdepends = vapoursynth-plugin-bm3dcuda: BM3D support, GPU version
+	optdepends = vapoursynth-plugin-bm3dcuda-cpu: BM3D support, CPU version
+	optdepends = vapoursynth-plugin-dfttest2: dfttest support, GPU version
+	optdepends = vapoursynth-plugin-dfttest2-cpu: dfttest support, CPU version
+	optdepends = vapoursynth-plugin-mlrt: frame interpolation functions
+	optdepends = vapoursynth-plugin-mlrt-ext-models-rife: frame interpolation functions
+	source = https://files.pythonhosted.org/packages/fb/c6/06022ef57b9f46c566e2188898f43f2f08288e37cfb252f342e899a4348b/soifunc-0.12.0-py3-none-any.whl
+	sha256sums = 97ae447011d7f8afc67f7e34bb50244178c95d68da234523770bfe96e1ea239e
+
+pkgname = vapoursynth-plugin-soifunc

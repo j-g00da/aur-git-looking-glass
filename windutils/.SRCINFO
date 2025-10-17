@@ -1,0 +1,14 @@
+pkgbase = windutils
+	pkgver = 1.0
+	pkgrel = 1
+	arch = any
+	license = MIT
+	source = iwdtui.sh
+	source = syssertui.sh
+	md5sums = SKIP
+	md5sums = SKIP
+
+pkgname = windutils
+	pkgdesc = A collection of TUIs made with gum for popular CLIs. Currently providing TUIs for: iwd, systemctl
+	depends = gum
+	depends = iwd

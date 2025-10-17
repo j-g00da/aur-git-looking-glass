@@ -1,0 +1,24 @@
+pkgbase = python-dokuwikidumper
+	pkgdesc = A tool for archiving DokuWiki
+	pkgver = 0.2.3
+	pkgrel = 1
+	url = https://github.com/saveweb/dokuwiki-dumper
+	arch = any
+	license = GPLv3
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-pdm-backend
+	depends = python
+	depends = python-lxml
+	depends = python-requests
+	depends = python-internetarchive
+	depends = python-rich
+	depends = python-beautifulsoup4
+	depends = python-slugify
+	depends = 7zip
+	depends = python-typing_extensions
+	source = https://pypi.io/packages/source/d/dokuwikidumper/dokuwikidumper-0.2.3.tar.gz
+	sha256sums = a65e4df3a2495c49e10da4a30caba4c03ce6693b91913eeeb8fed946e1c1f86d
+
+pkgname = python-dokuwikidumper

@@ -1,0 +1,23 @@
+pkgbase = embree-git
+	pkgdesc = A collection of high-performance ray tracing kernels.
+	pkgver = r17292.1372ca086
+	pkgrel = 1
+	url = https://github.com/RenderKit/embree
+	arch = x86_64
+	license = Apache-2.0
+	makedepends = git
+	makedepends = cmake
+	makedepends = ispc
+	makedepends = freeglut
+	makedepends = libxmu
+	makedepends = openexr
+	depends = glibc
+	depends = gcc-libs
+	depends = sh
+	depends = tbb
+	provides = embree
+	conflicts = embree
+	source = git+https://github.com/RenderKit/embree.git
+	sha256sums = SKIP
+
+pkgname = embree-git

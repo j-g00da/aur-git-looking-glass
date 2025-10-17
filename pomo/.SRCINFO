@@ -1,0 +1,13 @@
+pkgbase = pomo
+	pkgdesc = Pomodoro Command Line Interface
+	pkgver = 0.8.2
+	pkgrel = 1
+	url = https://codeberg.org/kevinschoon/pomo
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = go
+	source = https://codeberg.org/kevinschoon/pomo/archive/0.8.2.tar.gz
+	sha512sums = ceae02d1cc324bd456e176d966eba3bd6822692c53d51b1683ef09791dd5729f650eb8fbaecffd1b8e69f9cd6ca66837abe747540a22c9d5e5abd9a26fa2775d
+
+pkgname = pomo

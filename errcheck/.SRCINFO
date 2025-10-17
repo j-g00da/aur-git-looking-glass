@@ -1,0 +1,12 @@
+pkgbase = errcheck
+	pkgdesc = A program for checking for unchecked errors in go programs.
+	pkgver = 1.9.0
+	pkgrel = 1
+	url = https://github.com/kisielk/errcheck
+	arch = x86_64
+	license = MIT
+	makedepends = go
+	source = errcheck-1.9.0.tar.gz::https://github.com/kisielk/errcheck/archive/v1.9.0.tar.gz
+	sha512sums = 99e83004c6a265d4a0808822425c7676372d2db5ce511936ddf3dd84877dc3aeb6bbc6ae5d7a9f327e27ebbf533a06f2b0677e808999b338c8341fbf8eab577a
+
+pkgname = errcheck

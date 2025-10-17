@@ -1,0 +1,25 @@
+pkgbase = typhoon-bin
+	pkgdesc = A stylish weather app based on Stormcloud
+	pkgver = 1.2
+	pkgrel = 1
+	url = https://github.com/archisman-panigrahi/typhoon
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = tar
+	depends = gtk3
+	depends = webkit2gtk
+	depends = python
+	depends = python-dbus
+	depends = python-gobject
+	depends = python-cairosvg
+	depends = bash
+	depends = gdk-pixbuf2
+	depends = webkit2gtk
+	depends = imagemagick
+	depends = libportal
+	provides = typhoon
+	conflicts = typhoon
+	source = https://github.com/archisman-panigrahi/typhoon/releases/download/v1.2/typhoon_1.2_all.deb
+	sha256sums = f9a6d5e323bcfdb2ec38be4bab4fe4aa85ac99b13f9668f3ee1880c45f73053c
+
+pkgname = typhoon-bin

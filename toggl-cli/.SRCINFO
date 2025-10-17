@@ -1,0 +1,15 @@
+pkgbase = toggl-cli
+	pkgdesc = Unofficial CLI for Toggl Track written in Rust, using the v9 API.
+	pkgver = 0.4.10
+	pkgrel = 1
+	url = https://github.com/watercooler-labs/toggl-cli
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = openssl
+	conflicts = toggl-cli-bin
+	source = toggl-cli-0.4.10.tar.gz::https://github.com/watercooler-labs/toggl-cli/archive/refs/tags/v0.4.10.tar.gz
+	sha512sums = 076c99260a4c52d8ef4f91626aee1b83fc94f520be68448ade70a84ef51e176b02e5a974c29716edd09b2dda4b0d429e67bee90376902cb9c7c3df683b11049e
+
+pkgname = toggl-cli

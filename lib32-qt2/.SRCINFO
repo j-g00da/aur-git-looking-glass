@@ -1,0 +1,32 @@
+pkgbase = lib32-qt2
+	pkgdesc = A cross-platform application and UI framework (32-bit)
+	pkgver = 2.3.2+kde+r63
+	pkgrel = 1
+	url = https://www.qt.io
+	arch = x86_64
+	license = QPL-1.0 OR GPL-2.0-only
+	makedepends = byacc
+	makedepends = cmake>=3.2
+	makedepends = lib32-glu
+	makedepends = lib32-freeglut
+	makedepends = libxft
+	depends = lib32-fontconfig
+	depends = lib32-gcc-libs
+	depends = lib32-glibc
+	depends = lib32-libgl
+	depends = lib32-libice
+	depends = lib32-libjpeg-turbo
+	depends = lib32-libmng
+	depends = lib32-libpng
+	depends = lib32-libsm
+	depends = lib32-libx11
+	depends = lib32-libxext
+	depends = lib32-libxft
+	depends = lib32-libxmu
+	depends = lib32-zlib
+	depends = qt2>=2.3.2+kde+r63
+	provides = libqt2.so
+	source = qt2-6f380baa9866bce8ccc34e166dfeca3ff3cd978e.tar.gz::https://invent.kde.org/sandsmark/qt2/-/archive/6f380baa9866bce8ccc34e166dfeca3ff3cd978e/qt2-6f380baa9866bce8ccc34e166dfeca3ff3cd978e.tar.gz
+	b2sums = 1d68e61f41a2b059e5319374875503421ba5ed0165f046808b38827bbae466527146b431c0900a7a14e2deccaebf08dbd0b78ff37de711b6ad9435a0661119c2
+
+pkgname = lib32-qt2

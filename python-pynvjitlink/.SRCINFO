@@ -1,0 +1,21 @@
+pkgbase = python-pynvjitlink
+	pkgdesc = nvJitLink Python binding
+	pkgver = 0.7.0
+	pkgrel = 1
+	url = https://github.com/rapidsai/pynvjitlink
+	arch = x86_64
+	license = Apache-2.0
+	makedepends = python-setuptools
+	makedepends = cmake
+	makedepends = python-scikit-build-core
+	makedepends = python-rapids-build-backend
+	makedepends = ninja
+	makedepends = cython
+	depends = cuda
+	depends = python
+	source = https://github.com/rapidsai/pynvjitlink/archive/refs/tags/v0.7.0.tar.gz
+	source = dynamic-lib.patch
+	sha256sums = 350abe5e45a9f137c947f8cd06095a02c982689e1ed174e4d9bd06ba675268ca
+	sha256sums = 56bdc91c0d769efed7e99bb36dd5168943e554d728a174e64e8b896f90c50444
+
+pkgname = python-pynvjitlink

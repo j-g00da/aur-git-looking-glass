@@ -1,0 +1,25 @@
+pkgbase = cavasik
+	pkgdesc = Audio visualizer based on CAVA
+	pkgver = v3.2.0
+	pkgrel = 1
+	url = https://github.com/TheWisker/Cavasik
+	arch = any
+	license = GPL-3.0-or-later
+	checkdepends = appstream-glib
+	makedepends = git
+	makedepends = meson
+	depends = cava
+	depends = libadwaita
+	depends = python
+	depends = python-gobject
+	depends = python-cairo
+	depends = python-pydbus
+	depends = glib2
+	depends = hicolor-icon-theme
+	depends = gtk4
+	depends = dconf
+	conflicts = cavasik-git
+	source = cavasik-v3.2.0::git+https://github.com/TheWisker/Cavasik#tag=v3.2.0
+	sha512sums = 4a3c58e437d2c44fd5aa39e2c2f1cb7d97d9447e014dd71c97d58b5dffe0a9137444a2864d6f1618c5c98db4d694243a1fe41370a867d41a54e91d3065f1ac29
+
+pkgname = cavasik

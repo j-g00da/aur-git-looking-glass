@@ -1,0 +1,37 @@
+pkgbase = perl-dbix-class-schema-loader
+	pkgdesc = Create a DBIx::Class::Schema based on a database
+	pkgver = 0.07053
+	pkgrel = 1
+	url = https://metacpan.org/release/DBIx-Class-Schema-Loader
+	arch = any
+	license = Artistic-1.0-Perl
+	checkdepends = perl-test-deep>=0.107
+	checkdepends = perl-test-differences>=0.60
+	checkdepends = perl-test-exception>=0.31
+	checkdepends = perl-test-warn>=0.21
+	depends = perl>=5.8.1
+	depends = perl-carp-clan
+	depends = perl-class-accessor-grouped>=0.10008
+	depends = perl-class-c3-componentised>=1.0008
+	depends = perl-class-inspector>=1.27
+	depends = perl-class-unload>=0.07
+	depends = perl-dbd-sqlite>=1.29
+	depends = perl-dbix-class>=0.08127
+	depends = perl-data-dump>=1.06
+	depends = perl-hash-merge>=0.12
+	depends = perl-lingua-en-inflect-number>=1.1
+	depends = perl-lingua-en-inflect-phrase>=0.15
+	depends = perl-lingua-en-tagger>=0.23
+	depends = perl-mro-compat>=0.09
+	depends = perl-scope-guard>=0.20
+	depends = perl-string-camelcase>=0.04
+	depends = perl-string-toidentifier-en>=0.05
+	depends = perl-try-tiny
+	depends = perl-curry>=1.000000
+	depends = perl-namespace-clean>=0.23
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/V/VE/VEESH/DBIx-Class-Schema-Loader-0.07053.tar.gz
+	md5sums = a9222cdd26740228177f0e9479931efd
+	sha512sums = a3d3c638a3fb971bb75b12900c834584d092432cdcd6d6dc0d16efd8715d5985ae142aae59dbea359af52aed6441b52f6308ef9049f85bd7756363d1d213a645
+
+pkgname = perl-dbix-class-schema-loader

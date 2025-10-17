@@ -1,0 +1,30 @@
+pkgbase = libinput-three-finger-drag
+	pkgdesc = Input device management and event handling library
+	pkgver = 1.29.1
+	pkgrel = 1
+	url = https://gitlab.freedesktop.org/libinput/libinput
+	arch = x86_64
+	license = MIT
+	checkdepends = python-pytest
+	makedepends = gtk4
+	makedepends = meson
+	makedepends = wayland-protocols
+	makedepends = check
+	depends = mtdev
+	depends = libevdev
+	depends = libwacom
+	depends = systemd-libs
+	depends = glibc
+	optdepends = gtk4: libinput debug-gui
+	optdepends = python-pyudev: libinput measure
+	optdepends = python-libevdev: libinput measure
+	optdepends = python-yaml: used by various tools
+	provides = libinput=1.29.1
+	conflicts = libinput
+	source = git+https://gitlab.freedesktop.org/libinput/libinput.git?signed#tag=1.29.1
+	source = 0001-enable-3fg-drag-by-default.patch
+	validpgpkeys = 3C2C43D9447D5938EF4551EBE23B7E70B467F0BF
+	b2sums = SKIP
+	b2sums = 4cab0e36984cb4f08d1fcbe126e049b3b7906a98e37786dc1fdb2d84a0aa5bc748a181e1bd5c814b7d25503b6600f801dd3d9dc089096a4277dbe25d92825572
+
+pkgname = libinput-three-finger-drag

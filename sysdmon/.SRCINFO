@@ -1,0 +1,14 @@
+pkgbase = sysdmon
+	pkgdesc = A system tool for monitoring and alerting you, if there is anything wrong with system logs.
+	pkgver = 1
+	pkgrel = 1
+	url = https://github.com/RafCodes-del/sysdmon
+	arch = x86_64
+	license = GPL3
+	depends = libsystemd
+	depends = libnotify
+	depends = glib2
+	source = sysdmon-1.tar.gz::https://github.com/RafCodes-del/sysdmon/archive/refs/tags/v1.tar.gz
+	sha256sums = 3e003894620ba9c255c04148090df9b433390163f8413a878ede0ff8ff69757b
+
+pkgname = sysdmon

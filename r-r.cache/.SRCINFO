@@ -1,0 +1,16 @@
+pkgbase = r-r.cache
+	pkgdesc = Fast and Light-Weight Caching (Memoization) of Objects and Results to Speed Up Computations
+	pkgver = 0.17.0
+	pkgrel = 1
+	url = https://cran.r-project.org/package=R.cache
+	arch = any
+	license = LGPL
+	depends = r
+	depends = r-digest
+	depends = r-r.methodss3
+	depends = r-r.oo
+	depends = r-r.utils
+	source = https://cran.r-project.org/src/contrib/R.cache_0.17.0.tar.gz
+	sha256sums = e265953212edd15be12cdfcc4fa8829cc0dcf3b06ab3e0aa1758108544822d21
+
+pkgname = r-r.cache

@@ -1,0 +1,22 @@
+pkgbase = way-edges-git
+	pkgdesc = Hidden widget on screen edges
+	pkgver = r677.12f81fc
+	pkgrel = 1
+	url = https://github.com/way-edges/way-edges
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = cargo
+	makedepends = git
+	depends = cairo
+	depends = wayland
+	depends = libpulse
+	optdepends = hyprland: A C++ Compositor
+	optdepends = niri: A Rust Compositor based on smithay
+	provides = way-edges
+	conflicts = way-edges-bin
+	options = !debug
+	source = git+https://github.com/way-edges/way-edges.git
+	sha256sums = SKIP
+
+pkgname = way-edges-git

@@ -1,0 +1,13 @@
+pkgbase = hunspell-vi
+	pkgdesc = Vietnamese dictionaries for Hunspell
+	pkgver = 20160915
+	pkgrel = 1
+	url = https://github.com/1ec5/hunspell-vi
+	arch = any
+	license = LGPL3
+	depends = hunspell
+	source = vi_spellchecker_ooo3.oxt
+	sha256sums = SKIP
+
+pkgname = hunspell-vi
+

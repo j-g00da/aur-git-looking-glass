@@ -1,0 +1,17 @@
+pkgbase = otf-operator-mono
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://www.typography.com/fonts/operator/overview/
+	arch = any
+	license = custom:HCo
+	source = otf-operator-fonts.zip::https://github.com/beichensky/Font/archive/refs/heads/master.zip
+	sha1sums = f8abc06f021d48af59d57f6bd9c17b3d7c7f6e35
+
+pkgname = otf-operator-mono
+	pkgdesc = Operator: the non-typewriter typewriter face
+
+pkgname = otf-operator-lig-mono
+	pkgdesc = Operator: the non-typewriter typewriter face, With ligatures added
+
+pkgname = otf-operator-ssm-mono
+	pkgdesc = Operator: the non-typewriter typewriter face, ScreenSmart version

@@ -1,0 +1,15 @@
+pkgbase = bug-git
+	pkgdesc = Distributed bug tracking with the filesystem and hg or git
+	pkgver = r246.d7f4e7f
+	pkgrel = 1
+	url = https://github.com/driusan/bug
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = git
+	makedepends = go>=1.9
+	conflicts = bug
+	source = bug-git::git+https://github.com/driusan/bug
+	md5sums = SKIP
+
+pkgname = bug-git

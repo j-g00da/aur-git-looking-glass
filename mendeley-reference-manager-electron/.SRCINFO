@@ -1,0 +1,18 @@
+pkgbase = mendeley-reference-manager-electron
+	pkgdesc = Mendeley Reference Manager using system provided electron for increased security and performance
+	pkgver = 2.130.2
+	pkgrel = 1
+	url = https://www.mendeley.com/download-reference-manager
+	arch = x86_64
+	license = custom
+	depends = electron
+	depends = harfbuzz
+	depends = libgl
+	depends = libxss
+	provides = mendeley-reference-manager
+	conflicts = mendeley-reference-manager
+	options = !strip
+	source = https://static.mendeley.com/bin/desktop/mendeley-reference-manager-2.130.2-x86_64.AppImage
+	sha256sums = 1cb514a16fa3d16f62106bb422b6ddff2ed5823dab0864fbb4318cce6321dea2
+
+pkgname = mendeley-reference-manager-electron

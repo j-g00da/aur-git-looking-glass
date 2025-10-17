@@ -1,0 +1,19 @@
+pkgbase = android-aarch64-libxft
+	pkgdesc = FreeType-based font drawing library for X (Android aarch64)
+	pkgver = 2.3.9
+	pkgrel = 1
+	url = https://xorg.freedesktop.org/
+	arch = any
+	groups = android-libxft
+	license = custom
+	makedepends = android-configure
+	depends = android-aarch64-fontconfig
+	depends = android-aarch64-libxrender
+	options = !strip
+	options = !buildflags
+	options = staticlibs
+	options = !emptydirs
+	source = https://xorg.freedesktop.org//releases/individual/lib/libXft-2.3.9.tar.xz
+	md5sums = d378be0fcbd1f689f9a132e0d642bc4b
+
+pkgname = android-aarch64-libxft

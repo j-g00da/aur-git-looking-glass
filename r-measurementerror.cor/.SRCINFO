@@ -1,0 +1,13 @@
+pkgbase = r-measurementerror.cor
+	pkgdesc = Measurement Error model estimate for correlation coefficient
+	pkgver = 1.80.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/MeasurementError.cor
+	arch = any
+	license = LGPL-2.0-or-later
+	depends = r
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/MeasurementError.cor_1.80.0.tar.gz
+	md5sums = 2bdf1fdc1bbd878af0d4de2f20bbd740
+	b2sums = 19f90de3f08ff5b2d5b35e5b1c581e78af6116d1855446ad65044844d373c3d7e24db2127adea97edc1f7cdceecf0e136ce0c65f8d7e3fb95d9ddd5f000aa4fe
+
+pkgname = r-measurementerror.cor

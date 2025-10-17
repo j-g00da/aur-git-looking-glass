@@ -1,0 +1,22 @@
+pkgbase = qbpm-git
+	pkgdesc = A profile manager for qutebrowser
+	pkgver = 2.0.rc1.r4
+	pkgrel = 1
+	url = https://github.com/pvsr/qbpm
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = git
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-flit-core
+	makedepends = scdoc
+	depends = python
+	depends = python-click
+	depends = python-xdg-base-dirs
+	depends = python-dacite
+	provides = qbpm
+	source = git+https://github.com/pvsr/qbpm
+	sha512sums = SKIP
+
+pkgname = qbpm-git

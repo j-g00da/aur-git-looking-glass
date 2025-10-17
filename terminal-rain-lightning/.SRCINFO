@@ -1,0 +1,18 @@
+pkgbase = terminal-rain-lightning
+	pkgdesc = A terminal rain and lightning animation using Python and curses
+	pkgver = 0.1.0
+	pkgrel = 1
+	url = https://github.com/rmaake1/terminal-rain-lightning
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = python-pip
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	makedepends = python-build
+	makedepends = python-installer
+	depends = python
+	source = git+https://github.com/rmaake1/terminal-rain-lightning.git
+	sha256sums = SKIP
+
+pkgname = terminal-rain-lightning

@@ -1,0 +1,26 @@
+pkgbase = xq-bin
+	pkgdesc = Command-line XML and HTML beautifier and content extractor
+	pkgver = 1.3.0
+	pkgrel = 1
+	url = https://github.com/sibprogrammer/xq
+	arch = x86_64
+	arch = i686
+	arch = aarch64
+	license = MIT
+	makedepends = help2man
+	depends = glibc
+	provides = xq
+	conflicts = xq
+	conflicts = yq
+	source = LICENSE-1.3.0::https://raw.githubusercontent.com/sibprogrammer/xq/v1.3.0/LICENSE
+	source = README-1.3.0.md::https://raw.githubusercontent.com/sibprogrammer/xq/v1.3.0/README.md
+	sha256sums = 394421490c78d4bdc96539abe41466a3d5716dc1a624e6a531b886756edba64d
+	sha256sums = fcac2bef46c99cdb98d416a81210290da0245dbdf5ce764951051c627cd873e1
+	source_x86_64 = https://github.com/sibprogrammer/xq/releases/download/v1.3.0/xq_1.3.0_linux_amd64.tar.gz
+	sha256sums_x86_64 = 8328bf901a44c2e7fb13c06ab7987ab8a0057e5bc55c4ff9a4ea0d83ec52e417
+	source_i686 = https://github.com/sibprogrammer/xq/releases/download/v1.3.0/xq_1.3.0_linux_386.tar.gz
+	sha256sums_i686 = 19cfd638f99fd811b994a29fbb487f8f44a638d0874af75e3b0df73b578a8bdd
+	source_aarch64 = https://github.com/sibprogrammer/xq/releases/download/v1.3.0/xq_1.3.0_linux_arm64.tar.gz
+	sha256sums_aarch64 = 264928277ca1b77f93e778b2e62c5b6bb8bf573f6c11f0466e7c565184f61dd0
+
+pkgname = xq-bin

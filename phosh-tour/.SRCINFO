@@ -1,0 +1,18 @@
+pkgbase = phosh-tour
+	pkgdesc = Simple tour through phosh
+	pkgver = 0.47.0
+	pkgrel = 1
+	url = https://gitlab.gnome.org/World/Phosh/phosh-tour
+	arch = x86_64
+	arch = aarch64
+	arch = armv7h
+	license = GPL-3.0-or-later
+	makedepends = meson
+	makedepends = git
+	makedepends = glib2-devel
+	depends = libadwaita
+	depends = libgmobile
+	source = https://gitlab.gnome.org/World/Phosh/phosh-tour/-/archive/v0.47.0/phosh-tour-v0.47.0.tar.gz
+	sha256sums = 3d82ac023b20e74fee4949ab386ddfc8cfcc2702549a25f606471d89e1aa311a
+
+pkgname = phosh-tour

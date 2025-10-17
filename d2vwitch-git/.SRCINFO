@@ -1,0 +1,44 @@
+pkgbase = d2vwitch-git
+	pkgdesc = Cross-platform D2V creator. (GIT version)
+	pkgver = 5.5.gf002376
+	pkgrel = 1
+	url = http://forum.doom9.org/showthread.php?t=173090
+	arch = x86_64
+	license = LGPL2.1
+	license = ISC
+	makedepends = git
+	makedepends = meson
+	depends = gcc-libs
+	depends = glibc
+	depends = bzip2
+	depends = zlib
+	depends = xz
+	depends = qt6-base
+	depends = xdg-utils
+	depends = vapoursynth-plugin-d2vsource-git
+	provides = d2vwitch
+	conflicts = d2vwitch
+	options = debug
+	source = d2vwitch::git+https://github.com/dubhater/D2VWitch.git
+	source = d2vwitch.desktop
+	source = d2vwitch.png
+	source = git+https://git.ffmpeg.org/ffmpeg.git#branch=release/6.0
+	source = https://github.com/dubhater/D2VWitch/pull/18.diff
+	sha256sums = SKIP
+	sha256sums = ae75722403c34d53ea2e55b1b53abdfb02cdb4eaaf4e642e84bee0d26e2ab5d1
+	sha256sums = c63a756f6e375ef4a6f220fcdde3f4a05f7a101c0c0dc3743ce9207730719bd5
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = d2vwitch-git
+	depends = gcc-libs
+	depends = glibc
+	depends = bzip2
+	depends = zlib
+	depends = xz
+	depends = qt6-base
+	depends = xdg-utils
+	depends = vapoursynth-plugin-d2vsource-git
+	depends = libbz2.so
+	depends = liblzma.so
+	depends = libz.so

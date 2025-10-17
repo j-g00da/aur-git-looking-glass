@@ -1,0 +1,15 @@
+pkgbase = ksuid
+	pkgdesc = K-Sortable Globally Unique IDs
+	pkgver = d337249
+	pkgrel = 1
+	epoch = 1
+	url = https://github.com/segmentio/ksuid
+	arch = x86_64
+	license = MIT
+	makedepends = go
+	makedepends = git
+	depends = glibc
+	source = git+https://github.com/segmentio/ksuid.git
+	sha512sums = SKIP
+
+pkgname = ksuid

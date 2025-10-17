@@ -1,0 +1,18 @@
+pkgbase = obs-draw
+	pkgdesc = The Draw plugin for OBS Studio allows you to draw on your stream output in a dock.
+	pkgver = 0.2.4
+	pkgrel = 1
+	url = https://obsproject.com/forum/resources/draw.2081/
+	arch = x86_64
+	arch = aarch64
+	license = GPL-2.0-or-later
+	makedepends = cmake
+	depends = obs-studio>=28
+	depends = glibc
+	depends = gcc-libs
+	depends = qt6-base
+	options = debug
+	source = obs-draw-0.2.4.tar.gz::https://github.com/exeldro/obs-draw/archive/refs/tags/0.2.4.tar.gz
+	sha256sums = b686e33a98d78a4ae44e852ead5f2c5b27678ab5aaa8531abad682ee0943748c
+
+pkgname = obs-draw

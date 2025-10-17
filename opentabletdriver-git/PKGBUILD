@@ -1,0 +1,70 @@
+# Maintainer: Sebastian 'gonX' Jensen <gonx@gonx.dk>
+# Maintainer: jamesbt365 <jamesbt365@mothoxi.de>
+# Contibutor: MoeLava <me@lava.moe>
+# Contibutor: InfinityGhost <infinityghostgit@gmail.com>
+pkgname=opentabletdriver-git
+_pkgname=OpenTabletDriver
+_lpkgname=opentabletdriver
+_spkgname=otd
+pkgver=0.6.6.0.r41.g61c2318c
+pkgrel=2
+pkgdesc="A cross-platform open source tablet driver"
+arch=('x86_64')
+url="https://opentabletdriver.net"
+license=('LGPL-3.0-or-later')
+depends=('dotnet-runtime-8.0' 'gtk3' 'libevdev')
+optdepends=('libxrandr: x11 display querying support' 'libx11')
+makedepends=('git' 'dotnet-sdk>=8.0' 'jq')
+provides=("opentabletdriver")
+conflicts=(
+  'opentabletdriver'
+  'digimend-kernel-drivers-dkms-git'
+  'digimend-drivers-git-dkms'
+  'digimend-kernel-drivers-dkms'
+  'digimend-kernel-drivers'
+)
+install="notes.install"
+
+# unified binary dotnet releases break when stripped
+# see https://github.com/dotnet/runtime/issues/54947
+#
+# disabling debug is necessary for the time being
+# see https://gitlab.archlinux.org/archlinux/packaging/packages/pacman/-/issues/19
+options=('!strip' '!debug')
+source=('git+https://github.com/OpenTabletDriver/OpenTabletDriver#branch=0.6.x'
+        "notes.install"
+        )
+
+sha256sums=('SKIP'
+            '33e50caf00ab290463acaa09b024bcd8bcf6a39911db2fc506e88495171bf3e3')
+
+pkgver() {
+    cd "$srcdir/$_pkgname"
+    git describe --long --tags | sed 's/v//;s/\([^-]*-g\)/r\1/;s/-/./g'
+}
+
+build() {
+    export DOTNET_CLI_TELEMETRY_OPTOUT=1
+    export DOTNET_SKIP_FIRST_TIME_EXPERIENCE=true
+
+    cd "$srcdir/$_pkgname"
+    VERSION_SUFFIX="$(git describe --long --tags | sed 's/\([^-]*-g\)/r\1/;s/[^-]*-\(.*\)/\1/;s/-/./g')"
+
+    if check_option "strip" y; then
+        EXTRA_OPTIONS="/p:DebugType=None /p:DebugSymbols=false"
+    fi
+
+    export OTD_CONFIGURATIONS="${PWD}/OpenTabletDriver.Configurations/Configurations"
+    ./eng/linux/package.sh --dog-food "false" --package Generic -- /p:VersionSuffix="$VERSION_SUFFIX" $EXTRA_OPTIONS
+}
+
+package() {
+    cd "${srcdir}/${_pkgname}"
+    cp -r ./dist/files/* "${pkgdir}/"
+
+    # moving LICENSE to the suggested Arch folder is also tracked upstream:
+    # https://github.com/OpenTabletDriver/OpenTabletDriver/issues/3572
+    mkdir -p "$pkgdir"/usr/share/licenses/$pkgname
+    mv "$pkgdir"/usr/share/doc/opentabletdriver/LICENSE "$pkgdir"/usr/share/licenses/$pkgname/LICENSE
+    rmdir -p --ignore-fail-on-non-empty "$pkgdir"/usr/share/doc/opentabletdriver
+}

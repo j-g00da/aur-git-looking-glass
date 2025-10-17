@@ -1,0 +1,20 @@
+pkgbase = ccpkip11
+	pkgdesc = PKCS #11 driver for CryptoTech smart cards
+	pkgver = 2.00.00261
+	pkgrel = 1
+	epoch = 1
+	url = https://www.cryptotech.com.pl/en/technical-support/smart-card-software
+	arch = x86_64
+	license = LicenseRef-CryptoTech
+	makedepends = patchelf
+	depends = gcc-libs
+	depends = glibc
+	depends = pcsclite
+	source = ccs_2.00-00261.amd64.zip::https://download.cryptotech.com.pl/?key=standardlinuxccs64&mode=2
+	source = LICENSE.html
+	source = ccpkip11.module
+	sha256sums = 97c8efb035d3214e3951157213a9ee6007c747ebc57c1fb00f52bff58f5eef77
+	sha256sums = 361a2c17332988b84272676815bc711f26f1a4e460aa68b02009a7b2c8b0b538
+	sha256sums = 40d59f898853a0389b75f22701278d39e116acb8ee0d7d95380cec201640b268
+
+pkgname = ccpkip11

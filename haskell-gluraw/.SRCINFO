@@ -1,0 +1,17 @@
+pkgbase = haskell-gluraw
+	pkgdesc = A raw binding for the OpenGL graphics system
+	pkgver = 2.0.0.5
+	pkgrel = 2
+	url = http://hackage.haskell.org/package/GLURaw
+	arch = i686
+	arch = x86_64
+	license = custom:BSD3
+	makedepends = ghc
+	depends = ghc-libs
+	depends = haskell-openglraw>=3.0.0.0
+	depends = libgl
+	depends = glu
+	source = https://hackage.haskell.org/packages/archive/GLURaw/2.0.0.5/GLURaw-2.0.0.5.tar.gz
+	sha512sums = 518cb837e6680c0c91297fa291e2bf3c47c94420bc26dba5c337888b87ec0f8e2bde9fe0740cc870062a4f02fe4e0093df55ed0de54371839233e89af6d97a56
+
+pkgname = haskell-gluraw

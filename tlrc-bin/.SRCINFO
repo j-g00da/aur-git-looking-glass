@@ -1,0 +1,14 @@
+pkgbase = tlrc-bin
+	pkgdesc = Official tldr client written in Rust
+	pkgver = 1.12.0
+	pkgrel = 1
+	url = https://github.com/tldr-pages/tlrc
+	arch = x86_64
+	license = MIT
+	depends = gcc-libs
+	provides = tldr
+	conflicts = tldr
+	source = https://github.com/tldr-pages/tlrc/releases/download/v1.12.0/tlrc-v1.12.0-x86_64-unknown-linux-gnu.tar.gz
+	b2sums = 0ca8f9add052ec05a1ddac5745a65e7c185e3d72e59b8e70b405e1db1a97b5809f2fb0ac5ad836b8bb1124308b2babc48800e9aa6cf08c6a196c3036a4ab05aa
+
+pkgname = tlrc-bin

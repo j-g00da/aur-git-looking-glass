@@ -1,0 +1,21 @@
+pkgbase = haskell-extensions
+	pkgdesc = Parse Haskell Language Extensions
+	pkgver = 0.1.0.3
+	pkgrel = 1
+	url = https://github.com/kowainik/extensions
+	arch = x86_64
+	license = MPL-2.0
+	makedepends = ghc
+	makedepends = haskell-hedgehog
+	makedepends = haskell-hspec
+	makedepends = haskell-hspec-hedgehog
+	makedepends = uusi
+	depends = ghc-libs
+	depends = haskell-colourista
+	depends = haskell-optparse-applicative
+	source = https://hackage.haskell.org/packages/archive/extensions/0.1.0.3/extensions-0.1.0.3.tar.gz
+	source = 0001-switch-to-Cabal-syntax-allow-cabal-3.8-.-3.14.patch
+	sha256sums = 95fef562d93a63146bd1a99b653023462610a9c97648c67660f283d99c0f7aba
+	sha256sums = 0f549524ad59f36a48ce5b39993f28595767b6e33ecf5afbac733caa5738e711
+
+pkgname = haskell-extensions

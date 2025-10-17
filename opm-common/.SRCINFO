@@ -1,0 +1,45 @@
+pkgbase = opm-common
+	pkgdesc = Open Porous Media Initiative shared infrastructure
+	pkgver = 2025.04
+	pkgrel = 1
+	url = https://github.com/OPM/opm-common
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = dune-common>=2.10.0
+	makedepends = boost
+	makedepends = fmt
+	makedepends = cjson
+	makedepends = suitesparse
+	makedepends = texlive-basic
+	makedepends = doxygen
+	makedepends = graphviz
+	makedepends = pybind11
+	makedepends = python-scikit-build
+	makedepends = python-setuptools-scm
+	makedepends = python-pytest-runner
+	options = !emptydirs
+	source = opm-common-release-2025.04-final.tar.gz::https://github.com/OPM/opm-common/archive/release/2025.04/final.tar.gz
+	sha512sums = 7eca3251b6e317f6fcaf078970892e64ca149426ae8c5b6369d9ef350977afe1dc6579a8e0962c57deb766542007ef28bfdcce7a55e3c4beee01900f0a7adb14
+
+pkgname = opm-common
+	depends = dune-common>=2.10.0
+	depends = boost
+	depends = fmt
+	depends = cjson
+	optdepends = bash-completion: for completion when using bash
+	optdepends = man-db: manual pages for compareECL, convertECL, opmhash, opmpack, rst_deck and summary
+	provides = arraylist
+	provides = co2brinepvt
+	provides = compareECL
+	provides = convertECL
+	provides = opmhash
+	provides = opmi
+	provides = opmpack
+	provides = rewriteEclFile
+	provides = rst_deck
+	provides = summary
+
+pkgname = python-opm-common
+	pkgdesc = Open Porous Media Initiative shared infrastructure (python bindings)
+	depends = opm-common>=2025.04
+	depends = python-numpy

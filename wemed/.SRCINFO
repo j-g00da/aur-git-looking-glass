@@ -1,0 +1,19 @@
+pkgbase = wemed
+	pkgdesc = Multipart MIME (eml,mhtml,rf822) editor
+	pkgver = 0.7
+	pkgrel = 1
+	url = http://wemed.ohwg.net
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = cmake
+	depends = gmime3
+	depends = webkit2gtk
+	depends = gtksourceview3
+	depends = hicolor-icon-theme
+	depends = desktop-file-utils
+	options = strip
+	source = https://github.com/ohwgiles/wemed/archive/v0.7.tar.gz
+	md5sums = 00ba5f79910039dcf36f59c114677b4b
+
+pkgname = wemed

@@ -1,0 +1,16 @@
+pkgbase = universal-pidff-dkms-git
+	pkgdesc = Development package for hid-pidff and hid-universal-pidff
+	pkgver = 0.1.0
+	pkgrel = 5
+	url = https://github.com/JacKeTUs/universal-pidff
+	arch = x86_64
+	license = GPL2
+	makedepends = git
+	makedepends = gcc
+	makedepends = glibc
+	depends = dkms
+	provides = universal-pidff-dkms
+	source = git+https://github.com/JacKeTUs/universal-pidff
+	sha256sums = SKIP
+
+pkgname = universal-pidff-dkms-git

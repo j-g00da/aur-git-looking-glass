@@ -1,0 +1,21 @@
+pkgbase = perl-spreadsheet-parsexlsx
+	pkgdesc = parse XLSX files
+	pkgver = 0.36
+	pkgrel = 1
+	url = https://metacpan.org/release/Spreadsheet-ParseXLSX
+	arch = any
+	license = PerlArtistic
+	license = GPL
+	depends = perl-archive-zip>=1.34
+	depends = perl-cryptx>=0
+	depends = perl-graphics-colorutils>=0
+	depends = perl-ole-storage-lite>=0
+	depends = perl-spreadsheet-parseexcel>=0
+	depends = perl-xml-twig>=0
+	depends = perl>=5.010
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/N/NU/NUDDLEGG/Spreadsheet-ParseXLSX-0.36.tar.gz
+	md5sums = 41ee9438720f7ed57bbe2e288c0a58d9
+	sha512sums = 359062b92000b5efd072b92e39c4be5334681f4af9291e0d0a0dc25c9419d3fe49e8ea06b27258017c49a193be272aa3ac2dabc58d22446cfca18dc4d5dffa71
+
+pkgname = perl-spreadsheet-parsexlsx

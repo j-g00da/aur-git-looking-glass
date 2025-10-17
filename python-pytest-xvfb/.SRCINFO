@@ -1,0 +1,24 @@
+pkgbase = python-pytest-xvfb
+	pkgdesc = Pytest plugin to run Xvfb for tests
+	pkgver = 3.1.1
+	pkgrel = 1
+	url = https://github.com/The-Compiler/pytest-xvfb
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	checkdepends = python-pyvirtualdisplay
+	checkdepends = python-pyqt5-webengine
+	checkdepends = xorg-server-xvfb
+	checkdepends = xorg-server-xephyr
+	checkdepends = tigervnc
+	checkdepends = tk
+	makedepends = python-setuptools
+	makedepends = python-build
+	makedepends = python-installer
+	source = https://files.pythonhosted.org/packages/source/p/pytest_xvfb/pytest_xvfb-3.1.1.tar.gz
+	md5sums = 67449595dfccedbea3f036facf50ba9d
+
+pkgname = python-pytest-xvfb
+	depends = python>=3.9
+	depends = python-pytest>=2.8.1
+	depends = python-pyvirtualdisplay>=1.3

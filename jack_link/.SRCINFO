@@ -1,0 +1,23 @@
+pkgbase = jack_link
+	pkgdesc = JACK transport bridge to Ableton Link
+	pkgver = 0.2.4
+	pkgrel = 1
+	url = https://github.com/rncbc/jack_link
+	arch = aarch64
+	arch = x86_64
+	groups = pro-audio
+	license = GPL-2.0-or-later
+	makedepends = asio
+	makedepends = git
+	makedepends = jack
+	depends = gcc-libs
+	depends = glibc
+	source = git+https://github.com/rncbc/jack_link#tag=v0.2.4
+	source = git+https://github.com/Ableton/link
+	sha256sums = 6f19378c1004f2512758c6f91bd5fad230526f6a11a5daabf3d33549749bdf9f
+	sha256sums = SKIP
+
+pkgname = jack_link
+	depends = gcc-libs
+	depends = glibc
+	depends = libjack.so

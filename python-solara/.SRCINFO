@@ -1,0 +1,46 @@
+pkgbase = python-solara
+	pkgdesc = A pure Python, React-style web framework
+	pkgver = 1.51.0
+	pkgrel = 1
+	url = https://solara.dev
+	arch = any
+	license = MIT
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python
+	depends = python-click>=7.1.0
+	depends = python-filelock
+	depends = python-ipykernel
+	depends = python-jinja
+	depends = python-jupyter-client
+	depends = python-jupyter-core
+	depends = python-jupyter-events
+	depends = python-rich-click
+	depends = python-humanize
+	depends = python-ipyvue>=1.9.0
+	depends = python-ipyvuetify>=1.6.10
+	depends = python-ipywidgets>=7.7
+	depends = python-reacton>=1.9
+	depends = python-requests
+	depends = python-jupyter-client
+	depends = jupyter-nbformat
+	depends = python-markdown
+	depends = python-markupsafe
+	depends = pymdown-extensions
+	depends = python-starlette
+	depends = uvicorn
+	depends = python-watchdog
+	depends = python-watchfiles
+	depends = python-websockets
+	depends = python-cachetools
+	noextract = solara-1.51.0-py3-none-any.whl
+	noextract = solara_ui-1.51.0-py3-none-any.whl
+	noextract = solara_server-1.51.0-py3-none-any.whl
+	source = https://files.pythonhosted.org/packages/py3/s/solara/solara-1.51.0-py3-none-any.whl
+	source = https://files.pythonhosted.org/packages/py3/s/solara_ui/solara_ui-1.51.0-py3-none-any.whl
+	source = https://files.pythonhosted.org/packages/py3/s/solara-server/solara_server-1.51.0-py3-none-any.whl
+	sha256sums = 82427f6450fb61a98dfe6a59ec43c9aaa17405ce4f0960f1ba28a8df14127360
+	sha256sums = 7e92b01321b02248928ad1abfa47dd356a9a7695468e2264da5af51a625080f3
+	sha256sums = 743b6fa78783adb57bc0918360b2e27ea74119acc3f48d68a29fe28e1aced5da
+
+pkgname = python-solara

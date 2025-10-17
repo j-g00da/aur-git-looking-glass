@@ -1,0 +1,18 @@
+pkgbase = pipelight-git
+	pkgdesc = A Rust based quick automation tool
+	pkgver = 0.7.20
+	pkgrel = 1
+	url = https://gitea.com/pipelight/pipelight.git
+	arch = any
+	license = GPL2
+	makedepends = git
+	makedepends = make
+	makedepends = cargo
+	depends = deno
+	depends = watchexec
+	provides = pipelight-git
+	conflicts = pipelight
+	source = git+https://gitea.com/pipelight/pipelight.git
+	md5sums = SKIP
+
+pkgname = pipelight-git

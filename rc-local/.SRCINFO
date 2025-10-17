@@ -1,0 +1,16 @@
+pkgbase = rc-local
+	pkgdesc = Support for legacy rc.local scripts
+	pkgver = 4
+	pkgrel = 1
+	url = https://aur.archlinux.org/packages/rc-local/
+	install = rc-local.install
+	arch = any
+	license = LGPL-2.1-or-later
+	depends = systemd
+	backup = etc/rc.local
+	source = rc.local
+	source = rc-local.service
+	sha512sums = 4c3f8498957d47cf2c6ed6d755f6d6a6e42a59ac176b5a752ea4cdd23418d009c180bd53609bc34a1b11f720d71e702d71b4014ae4f98008c89f86323dc9afab
+	sha512sums = 85c7eafe5d79c4829b48c4df867e28bdb0b4464cab3581fd67e288648d416ceb69fe4e6b5193f86517f1e9578ef05fba8f708097625de6b903c6794fbec5078e
+
+pkgname = rc-local

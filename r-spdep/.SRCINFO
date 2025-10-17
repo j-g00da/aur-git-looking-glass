@@ -1,0 +1,37 @@
+pkgbase = r-spdep
+	pkgdesc = Spatial Dependence: Weighting Schemes, Statistics
+	pkgver = 1.4.1
+	pkgrel = 1
+	url = https://cran.r-project.org/package=spdep
+	arch = x86_64
+	license = GPL-2.0-or-later
+	checkdepends = r-tinytest
+	depends = r-deldir
+	depends = r-e1071
+	depends = r-s2
+	depends = r-sf
+	depends = r-sp
+	depends = r-spdata
+	depends = r-units
+	optdepends = r-classint
+	optdepends = r-dbscan
+	optdepends = r-ggplot2
+	optdepends = r-igraph
+	optdepends = r-knitr
+	optdepends = r-rcolorbrewer
+	optdepends = r-rmarkdown
+	optdepends = r-rspectra
+	optdepends = r-spam
+	optdepends = r-spatialreg
+	optdepends = r-tinytest
+	optdepends = r-tmap
+	optdepends = r-xtable
+	optdepends = r-rgeoda
+	optdepends = r-mipfp
+	optdepends = r-guerry
+	optdepends = r-codingmatrices
+	source = https://cran.r-project.org/src/contrib/spdep_1.4-1.tar.gz
+	md5sums = 55fb98138eef16224339fd319ba8a4f2
+	b2sums = bc76621c0bcb2cae23bd7dc513edd052da0ea6a634fa482dd69b9d051caa754b72d7927d3333cff7a649d36ea4eebc4deb18e507a3d1ca6f69e42a56a43c5d5d
+
+pkgname = r-spdep

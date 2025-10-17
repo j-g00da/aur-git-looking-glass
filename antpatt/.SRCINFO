@@ -1,0 +1,22 @@
+pkgbase = antpatt
+	pkgdesc = Antenna pattern plotting and analysis software.
+	pkgver = 1.1.1
+	pkgrel = 1
+	url = https://github.com/kkonradpl/antpatt
+	arch = any
+	license = GPL2
+	makedepends = git
+	makedepends = cmake
+	makedepends = ninja
+	makedepends = pkgconf
+	makedepends = gtk3
+	makedepends = json-c
+	makedepends = zlib
+	makedepends = gsl
+	depends = gtk3
+	provides = antpatt
+	conflicts = antpatt
+	source = https://github.com/kkonradpl/antpatt/archive/refs/tags/v1.1.1.tar.gz
+	sha256sums = 4712b792483c373873d300fc842e996212ed7cc20ccf5771cc513c10e34f2226
+
+pkgname = antpatt

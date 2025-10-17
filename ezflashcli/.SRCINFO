@@ -1,0 +1,15 @@
+pkgbase = ezflashcli
+	pkgdesc = Command line tools to manage flash devices connected to the Dialog Smartbond™ device family
+	pkgver = 1.0.28
+	pkgrel = 2
+	url = https://github.com/ezflash/ezFlashCLI
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = python-setuptools
+	depends = python
+	depends = python-pyserial
+	source = https://github.com/ezflash/ezFlashCLI/archive/refs/tags/v1.0.28.tar.gz
+	sha256sums = c44803939a87bb8a83b5e5bb5f4eb3850076cf0b61b035d83cdd4a69e39a76c3
+
+pkgname = ezflashcli

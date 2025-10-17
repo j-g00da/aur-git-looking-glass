@@ -1,0 +1,26 @@
+pkgbase = gcc-arm-none-eabi-bin
+	pkgdesc = GNU Tools ARM Embedded Processors (binary distribution, includes newlib, does NOT include GDB)
+	pkgver = 14.2.rel1
+	pkgrel = 1
+	url = https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/downloads
+	arch = aarch64
+	arch = x86_64
+	license = custom
+	depends = glibc
+	optdepends = arm-none-eabi-gdb: GNU Debugger for ARM EABI
+	provides = gcc-arm-none-eabi
+	provides = arm-none-eabi-gcc
+	provides = arm-none-eabi-binutils
+	provides = arm-none-eabi-newlib
+	conflicts = gcc-arm-none-eabi
+	conflicts = arm-none-eabi-gcc
+	conflicts = arm-none-eabi-binutils
+	conflicts = arm-none-eabi-newlib
+	options = !strip
+	options = staticlibs
+	source_aarch64 = https://armkeil.blob.core.windows.net/developer/Files/downloads/gnu/14.2.rel1/binrel/arm-gnu-toolchain-14.2.rel1-aarch64-arm-none-eabi.tar.xz
+	sha256sums_aarch64 = 87330bab085dd8749d4ed0ad633674b9dc48b237b61069e3b481abd364d0a684
+	source_x86_64 = https://armkeil.blob.core.windows.net/developer/Files/downloads/gnu/14.2.rel1/binrel/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi.tar.xz
+	sha256sums_x86_64 = 62a63b981fe391a9cbad7ef51b17e49aeaa3e7b0d029b36ca1e9c3b2a9b78823
+
+pkgname = gcc-arm-none-eabi-bin

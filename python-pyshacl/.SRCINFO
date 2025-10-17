@@ -1,0 +1,17 @@
+pkgbase = python-pyshacl
+	pkgdesc = Python SHACL Validator
+	pkgver = 0.30.1
+	pkgrel = 1
+	url = https://github.com/RDFLib/pySHACL
+	arch = x86_64
+	license = APACHE
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = poetry
+	depends = python-rdflib
+	provides = python-pyshacl
+	source = https://files.pythonhosted.org/packages/source/p/pyshacl/pyshacl-0.30.1.tar.gz
+	md5sums = acc71b21ec292f64526cb323dc446786
+
+pkgname = python-pyshacl

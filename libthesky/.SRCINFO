@@ -1,0 +1,21 @@
+pkgbase = libthesky
+	pkgdesc = Fortran library to compute the positions of celestial bodies and events with great accuracy
+	pkgver = 0.4.3
+	pkgrel = 1
+	url = https://libthesky.sourceforge.net/
+	changelog = ChangeLog
+	arch = i686
+	arch = x86_64
+	arch = arm
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = GPL3
+	makedepends = cmake
+	makedepends = gcc-fortran
+	depends = libsufr
+	depends = libthesky-data
+	source = https://sourceforge.net/projects/libthesky/files/libthesky-0.4.3.tar.gz
+	sha512sums = f859f6ac73928b36cefdf5cb3b6f74c3170eb0fc890e4b5f18beab62debf36beb8e26ac964d803524b38f2d07e8bd148eeb2f3bc556cdbff4ee2e24e749584f2
+
+pkgname = libthesky

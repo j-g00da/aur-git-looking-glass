@@ -1,0 +1,19 @@
+pkgbase = chwifi-git
+	pkgdesc = network profile manager for wireless networks with rolling password systems
+	pkgver = r186.aacddbb
+	pkgrel = 1
+	url = https://github.com/falkecarlsen/chwifi
+	arch = any
+	license = GPL3
+	makedepends = git
+	depends = sudo
+	depends = netctl>=1.20
+	depends = perl>=5.28.1
+	depends = curl>=7.64.0
+	depends = libxml2>=2.9.9
+	optdepends = macchanger: required for MAC-address spoofing
+	provides = chwifi
+	source = chwifi-r186.aacddbb::git+https://github.com/cogitantium/chwifi.git
+	md5sums = SKIP
+
+pkgname = chwifi-git

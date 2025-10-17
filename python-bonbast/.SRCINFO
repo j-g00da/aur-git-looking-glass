@@ -1,0 +1,19 @@
+pkgbase = python-bonbast
+	pkgdesc = Get currencies exchange rates for IRR from Bonbast.com
+	pkgver = 1.0.2
+	pkgrel = 1
+	url = https://github.com/SamadiPour/bonbast
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python
+	depends = python-rich
+	depends = python-requests
+	depends = python-beautifulsoup4
+	depends = python-click
+	source = https://files.pythonhosted.org/packages/source/b/bonbast/bonbast-1.0.2.tar.gz
+	sha256sums = dc00114c00c5c976b1144d65741c30ede003d3b0313942a33298e8d3264597a1
+
+pkgname = python-bonbast

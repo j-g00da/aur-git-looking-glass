@@ -1,0 +1,21 @@
+pkgbase = steam-tui-bin
+	pkgdesc = Rust TUI client for steamcmd
+	pkgver = 0.3.0
+	pkgrel = 2
+	url = https://github.com/dmadisetti/steam-tui
+	arch = x86_64
+	license = MIT
+	depends = gcc-libs
+	depends = glibc
+	depends = openssl
+	depends = steamcmd
+	optdepends = wine: Launch Windows games
+	conflicts = steam-tui
+	source = LICENSE-0.3.0::https://raw.githubusercontent.com/dmadisetti/steam-tui/main/LICENSE
+	source = README-0.3.0.md::https://raw.githubusercontent.com/dmadisetti/steam-tui/main/README.md
+	sha512sums = fa4585beeb62d89ed337fa651c5fcc0be0416c72f214312dcb01ccb872a7d651d76ec53644b0abcee74a385707b01318b15bc3cbbb12af33777a45cd7787af37
+	sha512sums = f741ef0a08d01ffaebf8b3121e0053de244de5aaa3e2562460e108bbab6d8c7b4ddf605883d4ead29d4e0b7b377e0d2ebbdf7c2b848c9082dfeaa33defcb2f09
+	source_x86_64 = steam-tui-0.3.0::https://github.com/dmadisetti/steam-tui/releases/download/0.3.0/steam-tui
+	sha512sums_x86_64 = 0b69d7ebd45d425417bb92b6629015c7dcd73fd41843081c051c428513d254deb4fbcbf54bc240271a4a92b823f3fb12b78d45b291b7101cfb0b96832e356143
+
+pkgname = steam-tui-bin

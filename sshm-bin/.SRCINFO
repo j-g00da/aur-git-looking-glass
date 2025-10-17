@@ -1,0 +1,16 @@
+pkgbase = sshm-bin
+	pkgdesc = A modern, interactive SSH Manager for your terminal
+	pkgver = 1.9.0
+	pkgrel = 1
+	url = https://github.com/Gu1llaum-3/sshm
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	provides = sshm
+	conflicts = sshm
+	source_x86_64 = sshm-x86_64-1.9.0.tar.gz::https://github.com/Gu1llaum-3/sshm/releases/download/v1.9.0/sshm_linux_x86_64.tar.gz
+	sha256sums_x86_64 = fc5817ec908e7d469bb6615fe9a53df6e2a81c26286d0311d40c967e218aed73
+	source_aarch64 = sshm-aarch64-1.9.0.tar.gz::https://github.com/Gu1llaum-3/sshm/releases/download/v1.9.0/sshm_linux_arm64.tar.gz
+	sha256sums_aarch64 = 8399555f8d7da5e0574feb9c234f6a9a2d7e54177455ebfd9435f619e0776af2
+
+pkgname = sshm-bin

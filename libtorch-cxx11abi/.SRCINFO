@@ -1,0 +1,27 @@
+pkgbase = libtorch-cxx11abi
+	pkgdesc = Tensors and Dynamic neural networks in Python with strong GPU acceleration (with CXX11 ABI)
+	pkgver = 2.6.0
+	pkgrel = 1
+	url = https://pytorch.org
+	arch = x86_64
+	license = BSD
+	depends = pybind11
+	options = !strip
+	options = !debug
+	options = libtool
+	options = staticlibs
+
+pkgname = libtorch-cxx11abi-cuda
+	pkgdesc = Tensors and Dynamic neural networks in Python with strong GPU acceleration (with CXX11 ABI) (with CUDA support)
+	depends = pybind11
+	provides = libtorch-cxx11abi-cuda
+
+pkgname = libtorch-cxx11abi-rocm
+	pkgdesc = Tensors and Dynamic neural networks in Python with strong GPU acceleration (with CXX11 ABI) (with ROCM support)
+	depends = pybind11
+	provides = libtorch-cxx11abi-rocm
+
+pkgname = libtorch-cxx11abi-cpu
+	pkgdesc = Tensors and Dynamic neural networks in Python with strong GPU acceleration (with CXX11 ABI) (CPU only)
+	depends = pybind11
+	provides = libtorch-cxx11abi-cpu

@@ -1,0 +1,16 @@
+pkgbase = gay
+	pkgdesc = Gayer version of lolcat
+	pkgver = 1.3.4
+	pkgrel = 4
+	url = https://github.com/ms-jpq/gay
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	makedepends = python-installer
+	depends = python>=3.7
+	source = gay-1.3.4.tar.gz::https://files.pythonhosted.org/packages/source/g/gay/gay-1.3.4.tar.gz
+	sha256sums = a52c51ad79efe2d7eeedac159ceb10c02d99392e2ab1f0a984547f7e94cd74f7
+
+pkgname = gay

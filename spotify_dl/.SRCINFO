@@ -1,0 +1,17 @@
+pkgbase = spotify_dl
+	pkgdesc = Downloads songs from your Spotify Playlist
+	pkgver = 8.9.0
+	pkgrel = 2
+	url = https://github.com/SathyaBhat/spotify-dl
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python-sentry_sdk
+	depends = yt-dlp
+	depends = python-spotipy
+	depends = python-mutagen
+	depends = python-rich
+	source = https://files.pythonhosted.org/packages/source/s/spotify_dl/spotify_dl-8.9.0.tar.gz
+	sha256sums = 71392ed45f8a7c6ffb674ecdf47acad08738ad63376eacb88f72ed35869372a7
+
+pkgname = spotify_dl

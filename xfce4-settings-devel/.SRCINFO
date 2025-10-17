@@ -1,0 +1,38 @@
+pkgbase = xfce4-settings-devel
+	pkgdesc = Settings manager for xfce
+	pkgver = 4.21.0
+	pkgrel = 1
+	url = https://docs.xfce.org/xfce/xfce4-settings/start
+	arch = i686
+	arch = x86_64
+	arch = armv7h
+	arch = aarch64
+	groups = xfce4-devel
+	license = GPL-2.0-or-later
+	makedepends = meson
+	makedepends = xfce4-dev-tools
+	makedepends = xf86-input-libinput
+	makedepends = glib2-devel
+	depends = garcon
+	depends = libxfce4ui>=4.21.0
+	depends = xfconf
+	depends = libnotify
+	depends = libcanberra
+	depends = colord
+	depends = libxklavier
+	depends = adwaita-icon-theme
+	depends = gnome-themes-extra
+	depends = wayland
+	depends = gtk-layer-shell
+	optdepends = python: xfce4-compose-mail -- "mailto:" URI handling
+	optdepends = xiccd: for displays support in xfce4-color-settings
+	optdepends = cups: for printers support in xfce4-color-settings
+	optdepends = sane: for scanners support in xfce4-color-settings
+	provides = xfce4-settings=4.21.0
+	conflicts = xfce4-settings
+	source = https://archive.xfce.org/src/xfce/xfce4-settings/4.21/xfce4-settings-4.21.0.tar.xz
+	source = enable-antialias-by-default.patch
+	sha256sums = 7190c72917577be4eeb474d9978ade4a254653b34882df784c419578f490f37a
+	sha256sums = fea2dd8ace227a7e3ebaea687eae43680595d8fd6e1ade532a1e62805c5f0f14
+
+pkgname = xfce4-settings-devel

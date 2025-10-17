@@ -1,0 +1,16 @@
+pkgbase = r-prroc
+	pkgdesc = Precision-Recall and ROC Curves for Weighted and Unweighted Data
+	pkgver = 1.4
+	pkgrel = 1
+	url = https://cran.r-project.org/package=PRROC
+	arch = any
+	license = GPL-3.0-only
+	depends = r-rlang
+	optdepends = r-ggplot2
+	optdepends = r-rocr
+	optdepends = r-testthat
+	source = https://cran.r-project.org/src/contrib/PRROC_1.4.tar.gz
+	md5sums = 229140aa270cdad059daf08783b083bb
+	b2sums = 5dfafbc8836d8620e68b7a64ff64b416b9362b920dd57e80910858b6c35078d469d4ec003054a99ff028015f8a469d9792f80d27926de3dd46eb5db54c6658ed
+
+pkgname = r-prroc

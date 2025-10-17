@@ -1,0 +1,14 @@
+pkgbase = epson-inkjet-printer-l800
+	pkgdesc = Epson inkjet printer driver (L800)
+	pkgver = 1.0.1
+	pkgrel = 1
+	url = https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+	arch = x86_64
+	license = custom:Epson End User Software License Agreement
+	depends = epson-inkjet-printer-filter
+	depends = gcc-libs
+	depends = glibc
+	source = https://download3.ebz.epson.net/dsc/f/03/00/15/65/10/ee0ea5c87f40fda2030a270a79bd2152cb4acfc8/epson-inkjet-printer-l800-1.0.1-1.src.rpm
+	sha256sums = 8df9bd92ff71d4147d440eaa4a9f87ccafbd3a82dcea37012e1263485bcf2c58
+
+pkgname = epson-inkjet-printer-l800

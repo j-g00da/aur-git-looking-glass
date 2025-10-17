@@ -1,0 +1,12 @@
+pkgbase = dynamorio-bin
+	pkgdesc = A dynamic binary instrumentation framework
+	pkgver = 11.3.0
+	pkgrel = 1
+	url = http://dynamorio.org
+	arch = x86_64
+	arch = i686
+	license = BSD
+	source = https://github.com/DynamoRIO/dynamorio/releases/download/release_11.3.0-1/DynamoRIO-Linux-11.3.0.tar.gz
+	sha256sums = ae02049df5c4daeb82d4087aaa0d38bf58cdd26b38fb6042dccf27cbc32ceed9
+
+pkgname = dynamorio-bin

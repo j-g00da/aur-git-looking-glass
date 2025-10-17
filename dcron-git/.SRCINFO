@@ -1,0 +1,23 @@
+pkgbase = dcron-git
+	pkgdesc = dillon's lightweight cron daemon (Git version).
+	pkgver = 4.6.r1.g1f53001
+	pkgrel = 1
+	url = http://www.jimpryor.net/linux/dcron.html
+	arch = i686
+	arch = x86_64
+	arch = armv6h
+	arch = armv7h
+	license = GPL
+	makedepends = git
+	depends = bash
+	optdepends = msmtp-mta: sending cron job output via email
+	provides = cron
+	conflicts = cron
+	backup = var/spool/cron/root
+	backup = etc/conf.d/crond
+	source = dcron-git::git+https://github.com/ptchinster/dcron.git
+	source = service
+	md5sums = SKIP
+	md5sums = 2eefc422db24bf2ac38e3a16292ccdc4
+
+pkgname = dcron-git

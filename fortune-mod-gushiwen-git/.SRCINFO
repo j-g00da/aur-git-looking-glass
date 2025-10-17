@@ -1,0 +1,15 @@
+pkgbase = fortune-mod-gushiwen-git
+	pkgdesc = Chinese gushiwen for fortune-mod
+	pkgver = r2.00d7cec
+	pkgrel = 2
+	url = https://github.com/shenyunhang/fortune-zh-data
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = git
+	depends = fortune-mod
+	provides = fortune-mod-gushiwen
+	conflicts = fortune-mod-gushiwen
+	source = git+https://github.com/shenyunhang/fortune-zh-data
+	md5sums = SKIP
+
+pkgname = fortune-mod-gushiwen-git

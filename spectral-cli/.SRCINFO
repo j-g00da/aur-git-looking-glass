@@ -1,0 +1,15 @@
+pkgbase = spectral-cli
+	pkgdesc = JSON/YAML linter with custom rulesets
+	pkgver = 6.15.0
+	pkgrel = 1
+	url = https://github.com/stoplightio/spectral
+	arch = any
+	license = Apache-2.0
+	makedepends = npm
+	depends = nodejs
+	depends = bash
+	noextract = spectral-cli-6.15.0.tgz
+	source = http://registry.npmjs.org/@stoplight/spectral-cli/-/spectral-cli-6.15.0.tgz
+	b2sums = 599647edeb95bdfa4a8582fc695e59a13a79006a53c4100911917e15626480941df43fce317ed539cd0780ebafcc163ceaedd8b1025ca464745254d2860fcffd
+
+pkgname = spectral-cli

@@ -1,0 +1,19 @@
+pkgbase = sleuthkit-java
+	pkgdesc = Java bindings for The Sleuth Kit.
+	pkgver = 4.14.0
+	pkgrel = 2
+	url = http://www.sleuthkit.org/sleuthkit
+	arch = x86_64
+	license = CPL-1.0
+	license = IPL-1.0
+	license = GPL-2.0-only
+	makedepends = ant
+	makedepends = java-environment=17
+	depends = java-runtime=17
+	depends = java-openjfx=17
+	depends = sleuthkit
+	optdepends = sqlite-jdbc: For JDBC SQLite support
+	source = https://github.com/sleuthkit/sleuthkit/releases/download/sleuthkit-4.14.0/sleuthkit-4.14.0.tar.gz
+	sha512sums = cc486ced49595f830e473bf3831b0b02525305c29795e3e17f0292231a0c25c619463b02584c3266b61c33a77912b73eefc257ff9aa3c9af68102b49e3e99105
+
+pkgname = sleuthkit-java

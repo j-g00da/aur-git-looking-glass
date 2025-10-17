@@ -1,0 +1,19 @@
+pkgbase = xsystem35-sdl2
+	pkgdesc = This is a multi-platform port of xsystem35, a free implementation of AliceSoft's System 3.x game engine.
+	pkgver = 2.16.1
+	pkgrel = 1
+	url = https://github.com/kichikuou/xsystem35-sdl2
+	arch = x86_64
+	license = GPL-2.0-only
+	makedepends = cmake
+	makedepends = asciidoctor
+	depends = gtk3
+	depends = sdl2
+	depends = sdl2_ttf
+	depends = sdl2_mixer
+	depends = libwebp
+	depends = portmidi
+	depends = cjson
+	conflicts = xsystem35
+
+pkgname = xsystem35-sdl2

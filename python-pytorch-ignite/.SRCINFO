@@ -1,0 +1,22 @@
+pkgbase = python-pytorch-ignite
+	pkgdesc = High-level library to help with training and evaluating neural networks in PyTorch flexibly and transparently.
+	pkgver = 0.5.2
+	pkgrel = 1
+	url = https://pytorch-ignite.ai
+	arch = any
+	license = BSD-3-Clause
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python-numpy
+	depends = python-matplotlib
+	depends = python-scikit-learn
+	depends = python-packaging
+	depends = python-clearml
+	depends = python-pytorch
+	depends = python-torchvision
+	conflicts = python-pytorch-ignite-git
+	source = https://github.com/pytorch/ignite/archive/v0.5.2.tar.gz
+	sha256sums = f11777f5ab9f74d72c66adfb9214ae16ad1752ca0e866d6bf6f1c0738c5e99c2
+
+pkgname = python-pytorch-ignite

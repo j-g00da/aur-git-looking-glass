@@ -1,0 +1,20 @@
+pkgbase = scalapack
+	pkgdesc = Subset of scalable LAPACK routines redesigned for distributed memory computers
+	pkgver = 2.2.2
+	pkgrel = 2
+	url = http://www.netlib.org/scalapack
+	arch = i686
+	arch = x86_64
+	arch = aarch64
+	license = BSD-3-Clause
+	makedepends = cmake
+	makedepends = gcc-fortran
+	depends = glibc
+	depends = openmpi
+	depends = blas
+	depends = lapack
+	provides = blacs
+	source = https://github.com/Reference-ScaLAPACK/scalapack/archive/v2.2.2/scalapack-2.2.2.tar.gz
+	sha512sums = 1b91b94a081cd808dc6fa7d23a9f4054f4d23de293cae1686f7708237c28404561a6f4185e7f27a0a56cd0916622f8db444803f8ed19d56368af54a44c455d44
+
+pkgname = scalapack

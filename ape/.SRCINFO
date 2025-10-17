@@ -1,0 +1,14 @@
+pkgbase = ape
+	pkgdesc = A plasmid editor
+	pkgver = 3.1.8.1
+	pkgrel = 2
+	url = https://jorgensen.biology.utah.edu/wayned/ape/
+	arch = any
+	license = proprietary
+	makedepends = imagemagick
+	depends = tclkit
+	depends = sdx
+	source = https://jorgensen.biology.utah.edu/wayned/ape/Download/Linux/ApE_linux_current.zip
+	md5sums = c2bb6143c15261d872d709fa1115a10c
+
+pkgname = ape

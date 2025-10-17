@@ -1,0 +1,19 @@
+pkgbase = oxfuse-dmd
+	pkgdesc = High-level binding to libfuse3 for the D programming language
+	pkgver = 0.5.0
+	pkgrel = 0
+	url = https://gitlab.com/os-18/oxfuse
+	arch = x86_64
+	license = BSL-1.0 or LGPL-3+
+	makedepends = bash
+	makedepends = chrpath
+	makedepends = findutils
+	makedepends = pkg-config
+	makedepends = fuse3
+	makedepends = dmd
+	depends = fuse3
+	depends = dmd
+	source = oxfuse-dmd-0.5.0.tar.gz::https://gitlab.com/os-18/oxfuse/-/archive/v0.5.0/oxfuse-v0.5.0.tar.gz
+	sha256sums = 7d55858b1a574b382568d64ec1554806cea8778ec0ff42aa336ed5a212da746d
+
+pkgname = oxfuse-dmd

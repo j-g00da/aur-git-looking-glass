@@ -1,0 +1,34 @@
+#Maintainer: sukanka <su975853527 AT gmail.com>
+_pkgname=jaspAudit
+_pkgver=0.95.3
+pkgname=r-${_pkgname,,}
+pkgver=0.95.3
+pkgrel=1
+pkgdesc="Audit Module for JASP"
+arch=('any')
+url="https://github.com/jasp-stats/${_pkgname}"
+license=('GPL')
+depends=(r
+  r-bstats
+  r-digittests
+  r-extradistr
+  r-ggplot2
+  r-ggrepel
+  r-jaspbase
+  r-jaspgraphs
+  r-jfa
+)
+groups=(r-jasp r-jaspextra)
+source=("${_pkgname}_${_pkgver}.tar.gz::${url}/archive/refs/tags/v${_pkgver}.tar.gz")
+sha256sums=('08a97bd3223fe0fa2b99eee371b04f3309061eaf34e74882ed6dd8157c0d869b')
+
+
+build() {
+
+  R CMD INSTALL ${_pkgname}_${_pkgver}.tar.gz -l "${srcdir}"
+}
+
+package() {
+  install -dm0755 "${pkgdir}/usr/lib/R/library"
+  cp -a --no-preserve=ownership "${_pkgname}" "${pkgdir}/usr/lib/R/library"
+}

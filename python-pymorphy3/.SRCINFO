@@ -1,0 +1,18 @@
+pkgbase = python-pymorphy3
+	pkgdesc = Morphological analyzer (POS tagger + inflection engine) for Russian language.
+	pkgver = 2.0.2
+	pkgrel = 1
+	url = https://github.com/no-plagiarism/pymorphy3
+	arch = any
+	license = custom:MIT License
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python
+	depends = python-dawg-python
+	depends = python-pymorphy3-dicts-ru
+	source = https://files.pythonhosted.org/packages/df/fd/d9f54e7053986ebfa1ef0b7aff831b51a2c5e0144285c46c7664f2b7b470/pymorphy3-2.0.2.tar.gz
+	sha256sums = 5192660028a0bfdf33ff19e827b73d6467dea32be87ad0faae9f2425e40d701c
+
+pkgname = python-pymorphy3

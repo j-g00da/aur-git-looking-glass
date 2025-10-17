@@ -1,0 +1,16 @@
+pkgbase = algolia
+	pkgdesc = Interact with and configure Algolia applications
+	pkgver = 1.7.0
+	pkgrel = 1
+	url = https://www.algolia.com/doc/tools/cli
+	arch = aarch64
+	arch = armv7h
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = go
+	depends = glibc
+	source = cli-1.7.0.tar.gz::https://github.com/algolia/cli/archive/refs/tags/v1.7.0.tar.gz
+	sha256sums = 34083ff0480baef9cc4fe3339fa605cec9b66f7da89aecadca1256477799f396
+
+pkgname = algolia

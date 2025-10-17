@@ -1,0 +1,25 @@
+pkgbase = casaos-gateway
+	pkgdesc = CasaOS Gateway is a dynamic API gateway service that can be used to expose APIs from different other HTTP based services.
+	pkgver = 0.4.15
+	pkgrel = 1
+	url = https://github.com/IceWhaleTech/CasaOS-Gateway
+	arch = x86_64
+	arch = aarch64
+	arch = armv7h
+	groups = casaos
+	license = APACHE
+	backup = etc/casaos/gateway.ini
+	source_x86_64 = https://github.com/IceWhaleTech/CasaOS-Gateway/releases/download/v0.4.15-alpha1/linux-amd64-casaos-gateway-v0.4.15-alpha1.tar.gz
+	source_x86_64 = https://github.com/IceWhaleTech/CasaOS-Gateway/releases/download/v0.4.15-alpha1/linux-amd64-casaos-gateway-migration-tool-v0.4.15-alpha1.tar.gz
+	sha256sums_x86_64 = c0ddf7b41fd52c34d9bee8dedf0dacfcc328e1114e1a2a3b7a765637c16252c1
+	sha256sums_x86_64 = 587f35cd2f8f25cf42fe372dcbaea0bdb54b086668465fc4cd0f21c144154f8e
+	source_aarch64 = https://github.com/IceWhaleTech/CasaOS-Gateway/releases/download/v0.4.15-alpha1/linux-arm64-casaos-gateway-v0.4.15-alpha1.tar.gz
+	source_aarch64 = https://github.com/IceWhaleTech/CasaOS-Gateway/releases/download/v0.4.15-alpha1/linux-arm64-casaos-gateway-migration-tool-v0.4.15-alpha1.tar.gz
+	sha256sums_aarch64 = f3220a041a395c662978f1e598fb718ef49ca4caf28e7ff2dc05298fe2cebb9b
+	sha256sums_aarch64 = 8ca14628b87e2375771056a74a4f252e033a832d9c8f9a2279ac4ec98c72ff54
+	source_armv7h = https://github.com/IceWhaleTech/CasaOS-Gateway/releases/download/v0.4.15-alpha1/linux-arm-7-casaos-gateway-v0.4.15-alpha1.tar.gz
+	source_armv7h = https://github.com/IceWhaleTech/CasaOS-Gateway/releases/download/v0.4.15-alpha1/linux-arm-7-casaos-gateway-migration-tool-v0.4.15-alpha1.tar.gz
+	sha256sums_armv7h = 442c53c416c30bd0e53620e54c3aa3d721ecbc94860e0ab3031cabc6a26fe413
+	sha256sums_armv7h = d112a337452a0290b59d51b30f48e473022bcb7754e9cb7174657dd43f620b20
+
+pkgname = casaos-gateway

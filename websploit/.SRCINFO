@@ -1,0 +1,17 @@
+pkgbase = websploit
+	pkgdesc = An open source project for, social engineering works, scanning, crawling and analysis, automatic exploiter, and network attacks
+	pkgver = 4.0.4
+	pkgrel = 1
+	url = https://github.com/f4rih/websploit
+	arch = any
+	license = Unknown
+	depends = python
+	depends = scapy
+	depends = python-wheel
+	depends = python-build
+	depends = python-installer
+	depends = python-setuptools
+	source = websploit-4.0.4.tar.gz::https://github.com/f4rih/websploit/archive/4.0.4.tar.gz
+	md5sums = cb3aa7333c99d4498658e63708f41d76
+
+pkgname = websploit

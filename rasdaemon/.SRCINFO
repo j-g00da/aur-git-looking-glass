@@ -1,0 +1,19 @@
+pkgbase = rasdaemon
+	pkgdesc = Logging daemon for Platform Reliability, Availability and Serviceability (RAS), replacing mcelog
+	pkgver = 0.8.3
+	pkgrel = 1
+	url = https://github.com/mchehab/rasdaemon
+	arch = i686
+	arch = x86_64
+	license = GPL-2.0-or-later
+	depends = libtraceevent
+	depends = sqlite
+	depends = dmidecode
+	depends = perl
+	depends = perl-dbd-sqlite
+	source = https://www.infradead.org/~mchehab/rasdaemon/rasdaemon-0.8.3.tar.bz2
+	source = buffer-overflow.patch
+	sha256sums = 44ca3b02951e45411ea75a9fa5314ff4efb424ab029f196807632b905645c37b
+	sha256sums = 87f4e9584fdebcb80060fbfea720733b80ffd98aebdef099c62dad778e3916d1
+
+pkgname = rasdaemon

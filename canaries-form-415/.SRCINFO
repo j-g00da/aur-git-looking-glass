@@ -1,0 +1,17 @@
+pkgbase = canaries-form-415
+	pkgdesc = Helper program for filling out Modelo 415 of Agencia Tributaria Canaria
+	pkgver = 6.9.0
+	pkgrel = 1
+	url = https://www3.gobiernodecanarias.org/tributos/atc/jsf/publico/asistenciaContribuyente/modelos/listado.jsp?tributo=IGIC
+	install = canaries-form-415.install
+	arch = x86_64
+	license = custom
+	makedepends = gendesk
+	makedepends = libarchive
+	makedepends = imagemagick
+	depends = java-runtime=11
+	depends = ttf-ms-fonts
+	source = canaries-form-415-6.9.0.zip::https://www.gobiernodecanarias.org/tributos/atc/estatico/asistencia_contribuyente/modelos/ref_y_propios/igic/mod415/bin/M415V690E23.zip
+	sha256sums = 5e58153315bcb8d0eae3e6a5d5c9d1b90bc46491050b49018bf35893e0b33aa0
+
+pkgname = canaries-form-415

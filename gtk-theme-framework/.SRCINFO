@@ -1,0 +1,32 @@
+pkgbase = gtk-theme-framework
+	pkgdesc = GTK themes built with the GTK Theme Framework
+	pkgver = 0.2.3
+	pkgrel = 1
+	url = https://github.com/jaxwilko/gtk-theme-framework
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = git
+	depends = gtk3
+	optdepends = gtk-engine-murrine: GTK2 theme support
+	optdepends = gtk-engines: GTK2 theme support
+	conflicts = material-gtk-framework
+	options = !strip
+	source = gtk-theme-framework-0.2.3.tar.gz::https://github.com/jaxwilko/gtk-theme-framework/archive/v0.2.3.tar.gz
+	source = git+https://github.com/vinceliuice/vimix-icon-theme.git
+	sha256sums = 03321d21359f303f05872db688e78698d3fc9c22e66190ecf0afd0fa57cb605d
+	sha256sums = SKIP
+
+pkgname = palenight-gtk-theme
+	pkgdesc = Palenight GTK theme & icon set: built with the GTK Theme Framework
+
+pkgname = amarena-gtk-theme
+	pkgdesc = Amarena GTK theme & icon set: built with the GTK Theme Framework
+
+pkgname = gruvterial-gtk-theme
+	pkgdesc = Gruvterial GTK theme & icon set: built with the GTK Theme Framework
+
+pkgname = oceanic-gtk-theme
+	pkgdesc = Oceanic GTK theme & icon set: built with the GTK Theme Framework
+
+pkgname = spacx-gtk-theme
+	pkgdesc = Spacex GTK theme & icon set: built with the GTK Theme Framework

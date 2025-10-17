@@ -1,0 +1,16 @@
+pkgbase = r-gpfit
+	pkgdesc = Gaussian processes modeling
+	pkgver = 1.0.9
+	pkgrel = 5
+	url = https://cran.r-project.org/package=GPfit
+	arch = any
+	license = GPL-3.0-only
+	checkdepends = r-testthat
+	depends = r-lhs
+	depends = r-lattice
+	optdepends = r-testthat
+	source = https://cran.r-project.org/src/contrib/GPfit_1.0-9.tar.gz
+	md5sums = d1a3afbda6c0c9d98231d2e99a28483f
+	b2sums = baca5f19dff19134bc2d991518b02515554454c9fdac38c3298ce560cc67857bc074b0c8ba19069e3465d9fd03c9f5f2d6e89f7a34d7837d8e60e2a4e485938a
+
+pkgname = r-gpfit

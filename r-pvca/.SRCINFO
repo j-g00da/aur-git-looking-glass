@@ -1,0 +1,16 @@
+pkgbase = r-pvca
+	pkgdesc = Principal Variance Component Analysis (PVCA)
+	pkgver = 1.48.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/pvca
+	arch = any
+	license = LGPL
+	depends = r
+	depends = r-biobase
+	depends = r-lme4
+	depends = r-vsn
+	optdepends = r-golubesets
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/pvca_1.48.0.tar.gz
+	sha256sums = 5ce0da978d2ce7c13a447fa2f4137e019408c581c186ff13b903690bf3f8185e
+
+pkgname = r-pvca

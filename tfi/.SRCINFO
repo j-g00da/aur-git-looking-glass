@@ -1,0 +1,19 @@
+pkgbase = tfi
+	pkgdesc = Text From Image allows user to extract and modify text from images
+	pkgver = 1.0.3
+	pkgrel = 3
+	url = https://github.com/WTS012201/Text-From-Image.git
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = git
+	depends = fmt
+	depends = hdf5
+	depends = jsoncpp
+	depends = opencv
+	depends = qt6-base
+	depends = tesseract-data-eng
+	depends = vtk
+	source = git+https://github.com/WTS012201/Text-From-Image.git#commit=da8c5fd648fcaa6dd6082d8da14ab91345609e33
+	sha256sums = 5ac442b904d4b4eaafde5dc1a0bfbc8d2eabe8e00258fc83a4c7843e3eaec072
+
+pkgname = tfi

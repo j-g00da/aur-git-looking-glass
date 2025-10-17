@@ -1,0 +1,19 @@
+pkgbase = pidgin-sipe-git
+	pkgdesc = Third-party Pidgin plugin for Microsoft Office 365/Lync/LCS/OCS
+	pkgver = 1.25.0.r11.gcb7e7be2
+	pkgrel = 1
+	url = https://sipe.sourceforge.net/
+	arch = x86_64
+	license = GPL-2.0-or-later
+	makedepends = git
+	makedepends = intltool
+	depends = gmime3
+	depends = libpurple
+	optdepends = freerdp: Desktop sharing
+	optdepends = krb5: Kerberos support
+	provides = pidgin-sipe
+	conflicts = pidgin-sipe
+	source = pidgin-sipe-git::git+https://repo.or.cz/siplcs.git#branch=mob
+	sha256sums = SKIP
+
+pkgname = pidgin-sipe-git

@@ -1,0 +1,28 @@
+pkgbase = nomacs
+	pkgdesc = A Qt image viewer
+	pkgver = 3.21.0
+	pkgrel = 2
+	epoch = 1
+	url = https://github.com/nomacs/nomacs
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = cmake
+	makedepends = git
+	makedepends = git-lfs
+	makedepends = qt6-tools
+	makedepends = python
+	depends = exiv2
+	depends = gcc-libs
+	depends = glibc
+	depends = libraw
+	depends = libtiff
+	depends = opencv
+	depends = qt6-base
+	depends = qt6-svg
+	depends = quazip-qt6
+	optdepends = qt6-imageformats: support additional image formats
+	optdepends = kimageformats: support QOI (Quite OK Image Format)
+	source = git+https://github.com/nomacs/nomacs.git#tag=3.21.0
+	b2sums = 3360bfeab0c1d323903240b136c2d9baf58f49cf0d672d69bc1473fbb0fe00103885f7d0194ee2200259cb548ad8c6d77127c96486f82055493cc89488bd9f99
+
+pkgname = nomacs

@@ -1,0 +1,20 @@
+pkgbase = manx
+	pkgdesc = Blazing-fast CLI tool for developers to find documentation, code snippets, and answers instantly
+	pkgver = 0.5.4
+	pkgrel = 1
+	url = https://github.com/neur0map/manx
+	arch = x86_64
+	arch = i686
+	arch = aarch64
+	arch = arm
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	depends = glibc
+	depends = openssl
+	provides = manx
+	options = !lto
+	source = manx-0.5.4.tar.gz::https://github.com/neur0map/manx/archive/v0.5.4.tar.gz
+	sha256sums = 65bc5933b4d65a52722a154a72098ab3f959d6b0093c6264025e11c8ce6378ad
+
+pkgname = manx

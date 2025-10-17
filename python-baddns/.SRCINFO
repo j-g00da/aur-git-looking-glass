@@ -1,0 +1,23 @@
+pkgbase = python-baddns
+	pkgdesc = Check subdomains for subdomain takeovers and other DNS tomfoolery
+	pkgver = 1.9.132
+	pkgrel = 1
+	url = https://github.com/blacklanternsecurity/baddns
+	arch = any
+	license = GPL-3.0-only
+	makedepends = python-poetry-core
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-poetry-dynamic-versioning
+	depends = python
+	depends = python-pyyaml
+	depends = python-dnspython
+	depends = python-colorama
+	depends = python-whois
+	depends = python-tldextract
+	depends = python-dateutil
+	depends = python-httpx
+	source = https://files.pythonhosted.org/packages/7c/30/b193668dc19374b22962d9358853fa601131e0503356315f880624eb5134/baddns-1.9.132.tar.gz
+	sha256sums = 64bbafe0a6c2f9c226323f499aa1b7447d9828eb75908b75b4d389171165cdda
+
+pkgname = python-baddns

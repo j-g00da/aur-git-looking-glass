@@ -1,0 +1,13 @@
+pkgbase = base-devel-selinux
+	pkgdesc = Meta package that substitutes base-devel group with SELinux support
+	pkgver = 2
+	pkgrel = 1
+	url = https://github.com/archlinuxhardened/selinux
+	arch = any
+	groups = selinux
+	license = GPL
+	depends = base-devel
+	depends = base-selinux
+	depends = sudo-selinux
+
+pkgname = base-devel-selinux

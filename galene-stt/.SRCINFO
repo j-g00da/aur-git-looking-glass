@@ -1,0 +1,17 @@
+pkgbase = galene-stt
+	pkgdesc = Real-time speech-to-text support for Galene
+	pkgver = 0.1
+	pkgrel = 2
+	url = https://galene.org
+	arch = i686
+	arch = x86_64
+	license = MIT
+	depends = go
+	depends = opus
+	depends = whisper.cpp
+	optdepends = whisper.cpp-model-medium: a model for whisper.cpp
+	optdepends = whisper.cpp-model-large: a model for whisper.cpp
+	source = https://github.com/jech/galene-stt/archive/galene-stt-0.1.tar.gz
+	sha256sums = 1bd076de68c59c3c0775f43026f54a26e544a15ca1889080dc6377483cad4642
+
+pkgname = galene-stt

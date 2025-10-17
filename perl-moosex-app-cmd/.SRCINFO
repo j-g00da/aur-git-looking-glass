@@ -1,0 +1,24 @@
+pkgbase = perl-moosex-app-cmd
+	pkgdesc = Mashes up MooseX::Getopt and App::Cmd
+	pkgver = 0.32
+	pkgrel = 1
+	url = https://metacpan.org/release/MooseX-App-Cmd
+	arch = any
+	license = PerlArtistic
+	license = GPL
+	checkdepends = perl-test-output
+	depends = perl-app-cmd>=0.321
+	depends = perl-getopt-long-descriptive>=0.091
+	depends = perl-moose
+	depends = perl-moosex-getopt
+	depends = perl-moosex-nonmoose
+	depends = perl-yaml
+	depends = perl-namespace-autoclean
+	depends = perl>=5.8.5
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/E/ET/ETHER/MooseX-App-Cmd-0.32.tar.gz
+	md5sums = 3499156dc87db7f6399ab8194bf0a3c1
+	sha512sums = 5cafa97703907ddaa2b4bd993bb5b093842e4fa8a680df38426904fa1ea71112363756e8b9f2c6a67a6105c9ad00e59cbdc9ec112c386d3f8b92473b83b728ad
+
+pkgname = perl-moosex-app-cmd
+

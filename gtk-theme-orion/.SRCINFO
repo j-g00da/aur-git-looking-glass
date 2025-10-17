@@ -1,0 +1,13 @@
+pkgbase = gtk-theme-orion
+	pkgdesc = A modern and light GTK theme
+	pkgver = 1.5
+	pkgrel = 5
+	url = http://deviantart.com/view/281431756
+	arch = any
+	license = GPL3
+	optdepends = gtk-engine-murrine: For the GTK2 theme
+	source = https://github.com/shimmerproject/Orion/archive/master.zip
+	md5sums = 13282665487538b53f3de5b9c2e79435
+
+pkgname = gtk-theme-orion
+

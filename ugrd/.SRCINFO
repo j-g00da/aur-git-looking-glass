@@ -1,0 +1,23 @@
+pkgbase = ugrd
+	pkgdesc = Minimalistic POSIX initramfs generator, designed for encrypted systems
+	pkgver = 2.0.2
+	pkgrel = 1
+	url = https://github.com/desultory/ugrd
+	arch = any
+	license = GPL-2.0-only
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = bc
+	depends = pax-utils
+	depends = python
+	depends = python-pycpio
+	depends = python-zenlib
+	optdepends = python-zstandard: zstd cpio compression
+	provides = initramfs
+	backup = etc/ugrd/config.toml
+	source = ugrd-2.0.2.tar.gz::https://github.com/desultory/ugrd/archive/refs/tags/2.0.2.tar.gz
+	b2sums = 31a8307fc1e516c94eac5a75ff70e10adcec041359d065fcb24e708f3578b219907ce8144a6d8ad0fb168127040c620cb5bbdcdaedd9e9dd86a61ff72fb7ce00
+
+pkgname = ugrd

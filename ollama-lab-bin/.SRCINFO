@@ -1,0 +1,17 @@
+pkgbase = ollama-lab-bin
+	pkgdesc = Yet another (unofficial) Ollama GUI (binary)
+	pkgver = 0.4.6
+	pkgrel = 1
+	url = https://github.com/ollama-lab/ollama-lab
+	arch = x86_64
+	license = MIT
+	depends = gtk3
+	depends = sqlite
+	depends = webkit2gtk-4.1
+	optdepends = ollama
+	provides = ollama-lab
+	conflicts = ollama-lab
+	source = https://github.com/ollama-lab/ollama-lab/releases/download/v0.4.6/ollama-lab_0.4.6_amd64.deb
+	sha256sums = 2c06e8a7e76858d014e7efa4cf8a6253ca7993d9862f0bef8bbe1d270da31bc7
+
+pkgname = ollama-lab-bin

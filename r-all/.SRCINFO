@@ -1,0 +1,13 @@
+pkgbase = r-all
+	pkgdesc = A data package
+	pkgver = 1.50.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/ALL
+	arch = any
+	license = Artistic-2.0
+	depends = r-biobase
+	source = https://bioconductor.org/packages/release/data/experiment/src/contrib/ALL_1.50.0.tar.gz
+	md5sums = 5c2b983e5ffda7fd346beaaa937f1f4d
+	b2sums = 7f18b6491aa3e2ba45e278f72562f81c4b907e1d7c5ce0b3a3ea8e1e432caa0092258914e3f86f6d579663f1685bf956cdd6017ae33dccc79830357fe5f02cd3
+
+pkgname = r-all

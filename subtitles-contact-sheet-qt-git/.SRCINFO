@@ -1,0 +1,26 @@
+pkgbase = subtitles-contact-sheet-qt-git
+	pkgdesc = Create subtitles/video contact sheets, previews, small animations, screenshots and thumbnails
+	pkgver = 1.11.1.r0.g8fbc8e5
+	pkgrel = 3
+	url = https://vongoob9.gitlab.io/subtitles_contact_sheet_qt
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = git
+	makedepends = pandoc-cli
+	depends = qt6-base
+	depends = ffmpeg
+	optdepends = ttf-dejavu: default font for scs
+	conflicts = subtitles-contact-sheet-qt-cli
+	conflicts = subtitles-contact-sheet-qt-gui
+	source = git+https://gitlab.com/vongooB9/subtitles_contact_sheet_qt.git?signed
+	validpgpkeys = 883E040428F1A5905BD28E0704DE76C43E231674
+	b2sums = SKIP
+
+pkgname = subtitles-contact-sheet-qt-cli-git
+	pkgdesc = Create subtitles/video contact sheets, previews, small animations, screenshots and thumbnails (CLI)
+
+pkgname = subtitles-contact-sheet-qt-gui-git
+	pkgdesc = Create subtitles/video contact sheets, previews, small animations, screenshots and thumbnails (Qt GUI)
+	depends = qt6-base
+	depends = ffmpeg
+	depends = subtitles-contact-sheet-qt-cli-git

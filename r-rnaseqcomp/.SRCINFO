@@ -1,0 +1,16 @@
+pkgbase = r-rnaseqcomp
+	pkgdesc = Benchmarks for RNA-seq Quantification Pipelines
+	pkgver = 1.38.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/rnaseqcomp
+	arch = any
+	license = GPL-3.0-only
+	depends = r-rcolorbrewer
+	optdepends = r-biocstyle
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/rnaseqcomp_1.38.0.tar.gz
+	md5sums = 723a0d8d2e5770ef70322d5d94907af1
+	b2sums = 43b73be293b8f2d746536ba4328af53036bcb8f695c8abebd4f428fcca1b251a25dbb1e3b70b402db20196c5b28f6337428a964dd0e4916e0b7703efc80f8e21
+
+pkgname = r-rnaseqcomp

@@ -1,0 +1,16 @@
+pkgbase = r-maskbad
+	pkgdesc = Masking probes with binding affinity differences
+	pkgver = 1.52.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/maskBAD
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-affy
+	depends = r-gcrma
+	optdepends = r-hgu95av2cdf
+	optdepends = r-hgu95av2probe
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/maskBAD_1.52.0.tar.gz
+	sha256sums = 15e9875bd53f0d204c976c4e0a02e44889627c8fde718464920b9b5f72c987d3
+
+pkgname = r-maskbad

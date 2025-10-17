@@ -1,0 +1,41 @@
+pkgbase = ch343ser-git
+	pkgdesc = USB serial driver for ch342/ch343/ch344/ch347/ch347f/ch9101/ch9102/ch9103/ch9104, etc.
+	pkgver = r54.174cdef
+	pkgrel = 5
+	url = https://github.com/WCHSoftGroup/ch343ser_linux
+	arch = any
+	license = GPL-2.0-or-later
+	makedepends = git
+	depends = dkms
+	depends = glibc
+	options = !strip
+	options = !debug
+	source = ch343ser-git::git+https://github.com/WCHSoftGroup/ch343ser_linux.git
+	source = ch343ser-dkms-git.install
+	sha256sums = SKIP
+	sha256sums = 6cd61719a10c54747b9794a684e68eedd8c6b38424b1710940c13434b2ec7d55
+
+pkgname = ch343ser-git
+	depends = ch343ser-dkms-git
+	depends = libch343ser-git
+	provides = ch343ser
+	conflicts = ch343ser
+
+pkgname = ch343ser-dkms-git
+	pkgdesc = USB serial driver for ch342/ch343/ch344/ch347/ch347f/ch9101/ch9102/ch9103/ch9104, etc.= (dkms).
+	install = ch343ser-dkms-git.install
+	arch = any
+	depends = dkms
+	optdepends = linux-headers: build the module against Arch kernel
+	optdepends = linux-ck-headers: build the module against Linux-ck kernel
+	optdepends = linux-lts-headers: build the module against LTS Arch kernel
+	provides = ch343ser-dkms
+	conflicts = ch343ser-dkms
+	conflicts = brltty-udev-generic
+
+pkgname = libch343ser-git
+	pkgdesc = USB serial driver for ch342/ch343/ch344/ch347/ch347f/ch9101/ch9102/ch9103/ch9104, etc. (dynamic lib).
+	arch = x86_64
+	depends = glibc
+	provides = libch343ser
+	conflicts = libch343ser

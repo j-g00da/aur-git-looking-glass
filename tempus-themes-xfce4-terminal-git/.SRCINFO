@@ -1,0 +1,15 @@
+pkgbase = tempus-themes-xfce4-terminal-git
+	pkgdesc = Tempus themes for Xfce4 Terminal
+	pkgver = 0.5.0.r12.gc58c907
+	pkgrel = 1
+	url = https://protesilaos.com/tempus-themes
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = git
+	depends = xfce4-terminal
+	provides = tempus-themes-xfce4-terminal
+	conflicts = tempus-themes-xfce4-terminal
+	source = git+https://gitlab.com/protesilaos/tempus-themes-xfce4-terminal.git
+	sha256sums = SKIP
+
+pkgname = tempus-themes-xfce4-terminal-git

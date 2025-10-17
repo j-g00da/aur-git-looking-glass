@@ -1,0 +1,23 @@
+pkgbase = r-easylift
+	pkgdesc = An R package to perform genomic liftover
+	pkgver = 1.6.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/easylift
+	arch = any
+	license = MIT
+	checkdepends = r-testthat
+	depends = r-biocfilecache
+	depends = r-genomeinfodb
+	depends = r-genomicranges
+	depends = r-r.utils
+	depends = r-rtracklayer
+	optdepends = r-biocstyle
+	optdepends = r-iranges
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/easylift_1.6.0.tar.gz
+	md5sums = 69e19649fd61a038a6aa745bec5b13ec
+	b2sums = e1810ef68362d94c77ccdf7969eca77b03ca633115ff5da1dba243006a3c632426df478d2045e8fabb5ccdaa992aadae5e8015861c4e24a343a9dd0468e2367b
+
+pkgname = r-easylift

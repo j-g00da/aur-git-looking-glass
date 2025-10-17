@@ -1,0 +1,19 @@
+pkgbase = meli-git
+	pkgdesc = A MUA for the terminal aiming for configurability and extensibility with sane defaults
+	pkgver = 0.8.10.r160.g8fc885d
+	pkgrel = 1
+	url = https://meli.delivery
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = cargo
+	makedepends = git
+	makedepends = mandoc
+	depends = dbus-glib
+	depends = gcc-libs
+	depends = glibc
+	provides = meli=0.8.10.r160.g8fc885d
+	conflicts = meli
+	source = git+https://git.meli.delivery/meli/meli.git
+	sha256sums = SKIP
+
+pkgname = meli-git

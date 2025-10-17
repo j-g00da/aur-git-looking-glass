@@ -1,0 +1,21 @@
+pkgbase = tttermwidget
+	pkgdesc = Terminal widget used by theTerminal
+	pkgver = 2.0
+	pkgrel = 2
+	url = https://github.com/theCheeseboard/tttermwidget
+	arch = x86_64
+	arch = aarch64
+	license = GPL2
+	makedepends = git
+	makedepends = qt6-tools
+	makedepends = cmake
+	makedepends = clang
+	depends = libsm
+	depends = libxkbcommon-x11
+	depends = libutf8proc
+	depends = libcontemporary
+	depends = qt6-5compat
+	source = tttermwidget::https://github.com/theCheeseboard/tttermwidget/archive/v2.0.tar.gz
+	sha256sums = 41817db1c22a539e6e1a95562d017b624ace0d130327b6165c2f3433afaf6d94
+
+pkgname = tttermwidget

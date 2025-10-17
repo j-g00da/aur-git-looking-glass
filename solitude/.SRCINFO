@@ -1,0 +1,25 @@
+pkgbase = solitude
+	pkgdesc = Tomes of Solitude, a game
+	pkgver = 1
+	pkgrel = 3
+	url = https://nullwise.com/pages/tos/index.html
+	install = solitude.install
+	arch = x86_64
+	arch = i686
+	arch = aarch64
+	license = unknown
+	makedepends = cmake
+	makedepends = glu
+	depends = sdl
+	depends = sdl_image
+	depends = sdl_mixer
+	source = https://nullwise.com/pages/tos/tomes_of_solitude_src.zip
+	source = solitude.sh
+	source = solitude.png
+	source = solitude.desktop
+	sha256sums = 57f1d76e10c6fafc6f2f59aa0d0008eb3bcfd42d849c6df879032e12bae0df50
+	sha256sums = 65864c882d63a57f130d1417a4919f72f1a05a02022d3d8afe779bf7f86120cf
+	sha256sums = eb6ce37db9ebeb176b38f3912d7b8c43ffd7c40b0c4f90adff83499142d52e09
+	sha256sums = d57be66a8d25618b31a0e12e41fb8debee52f2be87a0e8d2ad6ad0391a29e2a1
+
+pkgname = solitude

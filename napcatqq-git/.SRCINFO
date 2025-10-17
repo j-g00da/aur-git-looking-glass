@@ -1,0 +1,23 @@
+pkgbase = napcatqq-git
+	pkgdesc = 现代化的基于 NTQQ 的 Bot 协议端实现
+	pkgver = r4181.713eef59
+	pkgrel = 1
+	url = https://github.com/NapNeko/NapCatQQ
+	arch = x86_64
+	arch = aarch64
+	arch = loong64
+	license = GPL2
+	makedepends = git
+	makedepends = npm
+	makedepends = jq
+	depends = linuxqq
+	depends = xorg-server-xvfb
+	depends = execstack
+	provides = napcatqq
+	conflicts = napcatqq
+	conflicts = liteloader-qqnt
+	options = !strip
+	source = git+https://github.com/NapNeko/NapCatQQ.git
+	sha256sums = SKIP
+
+pkgname = napcatqq-git

@@ -1,0 +1,25 @@
+pkgbase = r-metcirc
+	pkgdesc = Navigating mass spectral similarity in high-resolution MS/MS metabolomics data
+	pkgver = 1.38.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/MetCirc
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-amap
+	depends = r-circlize
+	depends = r-ggplot2
+	depends = r-mscoreutils
+	depends = r-s4vectors
+	depends = r-scales
+	depends = r-shiny
+	depends = r-spectra
+	optdepends = r-biocgenerics
+	optdepends = r-graphics
+	optdepends = r-grdevices
+	optdepends = r-knitr
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/MetCirc_1.38.0.tar.gz
+	sha256sums = dd653992e77b3d820a8ae0c9cf7d761ea8f69ebccad073de27b04aedda2e4d16
+
+pkgname = r-metcirc

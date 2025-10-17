@@ -1,0 +1,16 @@
+pkgbase = imagineer
+	pkgdesc = Accessible image processing and conversion from the terminal
+	pkgver = 0.24.0
+	pkgrel = 1
+	url = https://github.com/foresterre/sic
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	makedepends = nasm
+	depends = gcc-libs
+	replaces = sic-image-cli
+	options = !lto
+	source = imagineer-0.24.0.tar.gz::https://github.com/foresterre/sic/archive/v0.24.0.tar.gz
+	sha512sums = 26f9ee651a6c514a4fc47473a831e6c73e3266e95e060ce9498b72817d9ad5dcb4bdfb9267a5de0ac52f526a421a7161c9eaa7e62526dfc65b93ffee9c964492
+
+pkgname = imagineer

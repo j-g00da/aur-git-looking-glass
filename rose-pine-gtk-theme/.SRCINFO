@@ -1,0 +1,13 @@
+pkgbase = rose-pine-gtk-theme
+	pkgdesc = A GTK theme with the Rose Pine colour palette.
+	pkgver = 2.2.0
+	pkgrel = 1
+	url = https://github.com/rose-pine/gtk
+	arch = any
+	license = MIT
+	source = https://raw.githubusercontent.com/rose-pine/rose-pine-theme/e9388ed927c91d0f47726c410c3bb7964199dc48/license
+	source = https://github.com/rose-pine/gtk/archive/refs/tags/v2.2.0.tar.gz
+	sha256sums = fb2535bcb42729f0547691eea7feee12d6870d184d704a7a929513973974d7bd
+	sha256sums = b1fb35a16a5a208747fdd5d2951102b9d80f470a545a73761753584f27e0f8b7
+
+pkgname = rose-pine-gtk-theme

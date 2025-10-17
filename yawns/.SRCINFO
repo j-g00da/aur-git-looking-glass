@@ -1,0 +1,18 @@
+pkgbase = yawns
+	pkgdesc = Your Adaptable Widget Notification System
+	pkgver = 1.1.2
+	pkgrel = 3
+	url = https://github.com/ikz87/yawns/tree/main
+	arch = any
+	license = GPL-3.0
+	depends = python
+	depends = python-pyqt5
+	depends = python-dbus-next
+	depends = python-pillow
+	depends = python-cssutils
+	depends = python-xlib
+	depends = python-gobject
+	source = https://github.com/ikz87/yawns/archive/refs/tags/v1.1.2.zip
+	sha256sums = 9cac57b9072db319f5799afb2b06133a2116502da4f8c6a1204fef1afd79eaae
+
+pkgname = yawns

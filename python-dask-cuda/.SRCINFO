@@ -1,0 +1,25 @@
+pkgbase = python-dask-cuda
+	pkgdesc = Utilities for Dask and CUDA interactions
+	pkgver = 25.10.00
+	pkgrel = 1
+	url = https://github.com/rapidsai/dask-cuda
+	arch = x86_64
+	license = Apache-2.0
+	makedepends = python-setuptools
+	makedepends = python-scikit-build-core
+	makedepends = python-rapids-build-backend
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python-dask
+	depends = python-distributed
+	depends = python-click
+	depends = python-numpy
+	depends = python-numba
+	depends = python-pandas
+	depends = python-zict
+	depends = python-nvidia-ml-py
+	source = https://github.com/rapidsai/dask-cuda/archive/refs/tags/v25.10.00.tar.gz
+	sha256sums = 54c8c36221e69d5ff44a3b107d487d793a3894c9968620a523f2c108bbf3f212
+
+pkgname = python-dask-cuda

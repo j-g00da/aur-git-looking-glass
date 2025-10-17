@@ -1,0 +1,14 @@
+pkgbase = r-plier
+	pkgdesc = Implements the Affymetrix PLIER algorithm
+	pkgver = 1.78.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/plier
+	arch = x86_64
+	license = GPL
+	depends = r
+	depends = r-affy
+	depends = r-biobase
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/plier_1.78.0.tar.gz
+	sha256sums = e463c75d2f05e5e9285b35ec2beef3290234ce92ec8ff5f0884d99dd14d34c6d
+
+pkgname = r-plier

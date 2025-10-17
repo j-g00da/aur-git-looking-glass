@@ -1,0 +1,21 @@
+pkgbase = python-app-model
+	pkgdesc = Generic application schema implemented in python.
+	pkgver = 0.3.1
+	pkgrel = 1
+	url = https://github.com/pyapp-kit/app-model
+	arch = any
+	license = BSD
+	makedepends = python-build
+	makedepends = python-hatch-vcs
+	makedepends = python-hatchling
+	makedepends = python-installer
+	depends = python
+	depends = python-in-n-out
+	depends = python-psygnal
+	depends = python-pydantic
+	depends = python-pydantic-compat
+	depends = python-typing_extensions
+	source = https://files.pythonhosted.org/packages/source/a/app_model/app_model-0.3.1.tar.gz
+	sha256sums = 2c883fc2a229a23f7f6697fa4ca6fa981fdafca05f76812bfe71a1de9c229c7b
+
+pkgname = python-app-model

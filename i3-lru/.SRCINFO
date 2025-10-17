@@ -1,0 +1,18 @@
+pkgbase = i3-lru
+	pkgdesc = Provides an i3 LRU window switcher (daemon + rofi script).
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://github.com/gashon/i3-lru
+	arch = any
+	license = MIT
+	depends = i3-wm
+	depends = jq
+	depends = rofi
+	depends = bash
+	source = i3-lru.sh
+	source = i3-lru-daemon.py
+	source = i3-lru-daemon.service
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = i3-lru

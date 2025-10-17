@@ -1,0 +1,24 @@
+pkgbase = imunes
+	pkgdesc = Integrated Multiprotocol Network Emulator/Simulator
+	pkgver = 3.0.0b
+	pkgrel = 1
+	url = https://imunes.net/
+	arch = any
+	license = custom
+	makedepends = make
+	depends = tk
+	depends = tcllib
+	depends = wireshark-qt
+	depends = imagemagick
+	depends = docker
+	depends = openvswitch
+	depends = xterm
+	provides = imunes
+	source = imunes-3.0.0b.tar.gz::https://github.com/imunes/imunes/archive/v3.0.0b.tar.gz
+	source = 0001-PKGBUILD-compat.patch
+	source = imunes.desktop
+	sha1sums = 5547f8c6656d8eb9e8f3a428ebd4e863b7e549b6
+	sha1sums = 4d68f7f685222a23bb7d54d5cff78aa2da628135
+	sha1sums = 2faf04ac32133b560f2e864493a2e56fa44174dc
+
+pkgname = imunes

@@ -1,0 +1,14 @@
+pkgbase = clidle-bin
+	pkgdesc = Play Wordle from your terminal
+	pkgver = 0.1.0
+	pkgrel = 1
+	url = https://github.com/ajeetdsouza/clidle
+	arch = x86_64
+	license = MIT
+	makedepends = go
+	provides = clidle
+	conflicts = clidle
+	source = clidle-bin-0.1.0.tar.gz::https://github.com/ajeetdsouza/clidle/releases/download/v0.1.0/clidle_Linux_x86_64.tar.gz
+	b2sums = SKIP
+
+pkgname = clidle-bin

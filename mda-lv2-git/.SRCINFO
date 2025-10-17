@@ -1,0 +1,27 @@
+pkgbase = mda-lv2-git
+	pkgdesc = A port of the MDA VST plugins to the LV2 format (git version)
+	pkgver = 1.2.10.r273.3af080f
+	pkgrel = 1
+	url = http://drobilla.net/software/mda-lv2.html
+	arch = x86_64
+	groups = lv2-plugins
+	groups = pro-audio
+	license = 0BSD
+	license = GPL-2.0-or-later
+	license = MIT
+	checkdepends = lv2lint
+	makedepends = git
+	makedepends = lv2
+	makedepends = meson
+	makedepends = python
+	depends = gcc-libs
+	depends = glibc
+	provides = mda-lv2
+	provides = mda.lv2
+	conflicts = mda-lv2
+	conflicts = mda-lv2-svn
+	conflicts = mda.lv2
+	source = mda-lv2::git+https://gitlab.com/drobilla/mda-lv2.git
+	sha256sums = SKIP
+
+pkgname = mda-lv2-git

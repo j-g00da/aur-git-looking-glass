@@ -1,0 +1,19 @@
+pkgbase = vapoursynth-plugin-bilateralgpu-git
+	pkgdesc = Plugin for Vapoursynth: bilateralgpu (GIT version)
+	pkgver = 13.0.g9361732
+	pkgrel = 1
+	url = https://github.com/WolframRhodium/VapourSynth-BilateralGPU
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = cmake
+	makedepends = cuda
+	depends = vapoursynth
+	depends = nvidia-utils
+	provides = vapoursynth-plugin-bilateralgpu
+	conflicts = vapoursynth-plugin-bilateralgpu
+	options = debug
+	source = bilateralgpu::git+https://github.com/WolframRhodium/VapourSynth-BilateralGPU.git
+	sha256sums = SKIP
+
+pkgname = vapoursynth-plugin-bilateralgpu-git

@@ -1,0 +1,16 @@
+pkgbase = music-you-bin
+	pkgdesc = A beautiful and minimalist Material Design 3 (Material You) style NetEase Cloud Music Player pc client side.(Prebuilt version.Use system-wide electron)
+	pkgver = 3.0.1
+	pkgrel = 3
+	url = https://music-you-next.vercel.app
+	arch = x86_64
+	license = AGPL-3.0-only
+	depends = electron27
+	provides = music-you=3.0.1
+	conflicts = music-you
+	source = music-you-3.0.1.rpm::https://github.com/GuMengYu/music-you/releases/download/v3.0.1/music-you-3.0.1.x86_64.rpm
+	source = music-you.sh
+	sha256sums = 34bae9036ea2bf05a0e986bfafcbc4e3cb8f0aeb4589b72b2fb13afd48e38d77
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = music-you-bin

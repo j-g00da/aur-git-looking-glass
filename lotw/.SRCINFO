@@ -1,0 +1,11 @@
+pkgbase = lotw
+	pkgdesc = The unofficial ARRL-LOTW users list
+	pkgver = 20240225
+	pkgrel = 1
+	url = http://www.hb9bza.net/lotw-users-list
+	arch = any
+	source = http://www.hb9bza.net/lotw/lotw.txt
+	md5sums = 40311808f17f6f17a85617e1fd289255
+	sha256sums = 6c0b3a95692c2e396be4cf6dc4ca485e9f0968ff208abcdc9bfe9fc035bddec3
+
+pkgname = lotw

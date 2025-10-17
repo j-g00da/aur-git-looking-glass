@@ -1,0 +1,17 @@
+pkgbase = gengraph
+	pkgdesc = Graph Generator coded in C: graph classes, graph algorithms and output formats
+	pkgver = v6.3
+	pkgrel = 1
+	url = https://gitub.u-bordeaux.fr/cygavoil/gengraph
+	arch = x86_64
+	arch = pentium4
+	arch = i686
+	arch = armv7h
+	arch = aarch64
+	license = CECILL-C
+	optdepends = less: pager for help within the terminal
+	optdepends = graphviz: visualization of graphs
+	source = https://gitub.u-bordeaux.fr/cygavoil/gengraph/-/archive/v6.3/gengraph-v6.3.tar.gz
+	sha256sums = 729ba4ccc33b28d239d84f8611a15799b3975348c5d9bdbb6e21934cde0de401
+
+pkgname = gengraph

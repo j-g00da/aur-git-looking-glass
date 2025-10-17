@@ -1,0 +1,22 @@
+pkgbase = lib32-pangomm-2.48
+	pkgdesc = C++ bindings for Pango (32-bit)
+	pkgver = 2.56.1
+	pkgrel = 1
+	url = https://www.gtkmm.org
+	arch = x86_64
+	license = LGPL-2.1-or-later
+	makedepends = meson>=0.62
+	makedepends = mm-common
+	depends = lib32-cairomm-1.16
+	depends = lib32-gcc-libs
+	depends = lib32-glib2>=2.68
+	depends = lib32-glibc
+	depends = lib32-glibmm-2.68
+	depends = lib32-libsigc++-3.0
+	depends = lib32-pango>=1.56
+	depends = pangomm-2.48
+	provides = libpangomm-2.48.so
+	source = pangomm-2.56.1.tar.xz::https://download.gnome.org/sources/pangomm/2.56/pangomm-2.56.1.tar.xz
+	sha256sums = 539f5aa60e9bdc6b955bb448e2a62cc14562744df690258040fbb74bf885755d
+
+pkgname = lib32-pangomm-2.48

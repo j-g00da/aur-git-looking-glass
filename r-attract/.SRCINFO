@@ -1,0 +1,20 @@
+pkgbase = r-attract
+	pkgdesc = Methods to Find the Gene Expression Modules that Represent the Drivers of Kauffman's Attractor Landscape
+	pkgver = 1.60.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/attract
+	arch = any
+	license = LGPL
+	depends = r
+	depends = r-annotationdbi
+	depends = r-biobase
+	depends = r-gostats
+	depends = r-keggrest
+	depends = r-limma
+	depends = r-org.hs.eg.db
+	depends = r-reactome.db
+	optdepends = r-illuminahumanv1.db
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/attract_1.60.0.tar.gz
+	sha256sums = 5c06eb9f78c45826f449f2e999072777e335aa2d8e77e1c42ba6c8936e6513a8
+
+pkgname = r-attract

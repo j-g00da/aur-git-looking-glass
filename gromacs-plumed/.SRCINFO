@@ -1,0 +1,26 @@
+pkgbase = gromacs-plumed
+	pkgdesc = GROMACS is a versatile package to perform molecular dynamics, i.e. simulate the Newtonian equations of motion for systems with hundreds to millions of particles. (Plumed patched)
+	pkgver = 2024.3
+	pkgrel = 1
+	url = http://www.gromacs.org/
+	arch = x86_64
+	license = LGPL-2.1-only
+	makedepends = cmake
+	makedepends = gcc13
+	depends = lapack
+	depends = fftw
+	depends = zlib
+	depends = hwloc
+	depends = gcc13-libs
+	depends = tinyxml2
+	depends = plumed>=2.9.2
+	optdepends = cuda: Nvidia GPU support
+	optdepends = opencl-clover-mesa: OpenCL support for AMD/Intel GPU
+	optdepends = opencl-rusticl-mesa: OpenCL support for AMD/Intel GPU
+	optdepends = opencl-nvidia: OpenCL support for Nvidia GPU
+	options = !libtool
+	options = !lto
+	source = ftp://ftp.gromacs.org/pub/gromacs/gromacs-2024.3.tar.gz
+	sha256sums = bbda056ee59390be7d58d84c13a9ec0d4e3635617adf2eb747034922cba1f029
+
+pkgname = gromacs-plumed

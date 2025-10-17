@@ -1,0 +1,19 @@
+pkgbase = wireless-info-icon-git
+	pkgdesc = Tray icon with Wi-Fi signal power level information and control (rx and tx).
+	pkgver = 20231225
+	pkgrel = 1
+	url = https://github.com/kkonradpl/wireless-info-icon
+	arch = any
+	license = GPL2
+	makedepends = git
+	makedepends = cmake
+	makedepends = ninja
+	makedepends = pkgconf
+	makedepends = qt5-base
+	depends = qt5-base
+	provides = wireless-info-icon
+	conflicts = wireless-info-icon
+	source = git+https://github.com/kkonradpl/wireless-info-icon/
+	md5sums = SKIP
+
+pkgname = wireless-info-icon-git

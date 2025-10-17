@@ -1,0 +1,18 @@
+pkgbase = byedpi
+	pkgdesc = Bypass DPI
+	pkgver = 0.17.3
+	pkgrel = 1
+	url = https://github.com/hufrea/byedpi
+	arch = aarch64
+	arch = armv7h
+	arch = i686
+	arch = x86_64
+	license = MIT
+	depends = glibc
+	options = !debug
+	backup = etc/byedpi.conf
+	source = byedpi-0.17.3.tar.gz::https://github.com/hufrea/byedpi/archive/v0.17.3/byedpi-0.17.3.tar.gz
+	sha512sums = ae1bba213cf4db1cfa87389323bc3cb5d9588da86a68fc73669771ea613ce49fe6085c4a836b10a4fe03c318592a8139ed25bafc55c00acfb4b9fa4cc0cdf071
+	b2sums = 778444e7918d2987b076e6fbb9fe43921e5d7cd837d62acb05e6bd099d63eef0cad5163644016476b2b90422e02c0337d6c0a8c60aa3e502b87115e72b687480
+
+pkgname = byedpi

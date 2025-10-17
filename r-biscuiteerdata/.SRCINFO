@@ -1,0 +1,19 @@
+pkgbase = r-biscuiteerdata
+	pkgdesc = Data Package for Biscuiteer
+	pkgver = 1.22.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/biscuiteerData
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-annotationhub
+	depends = r-curl
+	depends = r-experimenthub
+	depends = r-genomicranges
+	optdepends = r-knitr
+	optdepends = r-markdown
+	optdepends = r-rmarkdown
+	source = https://bioconductor.org/packages/release/data/experiment/src/contrib/biscuiteerData_1.22.0.tar.gz
+	sha256sums = c1657bc2a23d762e442e61f8fef2bee60bd124fb459571e3a3c5fc918d49efa6
+
+pkgname = r-biscuiteerdata

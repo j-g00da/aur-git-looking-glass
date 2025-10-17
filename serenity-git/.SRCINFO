@@ -1,0 +1,21 @@
+pkgbase = serenity-git
+	pkgdesc = The configuration generator for sing-box
+	pkgver = 1.0.0.alpha.9.r0.ga331a2f
+	pkgrel = 1
+	url = https://github.com/SagerNet/serenity
+	arch = i686
+	arch = x86_64
+	arch = aarch64
+	arch = armv7h
+	license = GPL-3.0-or-later
+	makedepends = git
+	makedepends = go
+	depends = glibc
+	optdepends = sing-box
+	provides = serenity
+	conflicts = serenity
+	backup = etc/serenity/config.json
+	source = serenity::git+https://github.com/SagerNet/serenity.git
+	sha512sums = SKIP
+
+pkgname = serenity-git

@@ -1,0 +1,25 @@
+pkgbase = python-btchip-git
+	pkgdesc = Python library to communicate with BTChip dongle
+	pkgver = 0.1.32
+	pkgrel = 9
+	url = https://github.com/LedgerHQ/btchip-python
+	arch = any
+	license = Apache-2.0
+	makedepends = python-setuptools
+	makedepends = patch
+	depends = python-hidapi
+	depends = libusb-compat
+	depends = libusb
+	depends = libsystemd
+	optdepends = btchip-udev: access BTChip as non-root user
+	optdepends = python-pyscard: for smartcard support
+	provides = python-btchip-git
+	provides = python-btchip
+	conflicts = python-btchip-git
+	conflicts = python-btchip
+	source = git+https://github.com/LedgerHQ/btchip-python
+	source = python-btchip-0.1.32-setup.patch
+	sha256sums = SKIP
+	sha256sums = 64aea33f1234b6a6c0e7f9e8bb8b4fb6156c118b585ef0f4398809303e391c89
+
+pkgname = python-btchip-git

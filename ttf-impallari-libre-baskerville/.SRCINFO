@@ -1,0 +1,13 @@
+pkgbase = ttf-impallari-libre-baskerville
+	pkgdesc = font optimized for web body text by Pablo Impallari
+	pkgver = 2.003
+	pkgrel = 1
+	url = https://github.com/impallari/Libre-Baskerville
+	arch = any
+	groups = impallari-fonts
+	license = OFL-1.1-RFN
+	options = !debug
+	source = ttf-impallari-libre-baskerville-2.003-1.zip::https://github.com/impallari/Libre-Baskerville/archive/a658d05478fc33cd5b7fa1129258f498553b5532.zip
+	sha256sums = 56093bb2885de5ab2bd8c2c4672e515f37280179e5e7ef14665e05d72a7b21ed
+
+pkgname = ttf-impallari-libre-baskerville

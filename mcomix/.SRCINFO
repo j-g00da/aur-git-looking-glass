@@ -1,0 +1,26 @@
+pkgbase = mcomix
+	pkgdesc = GTK comic book viewer
+	pkgver = 3.1.1
+	pkgrel = 1
+	url = https://sourceforge.net/p/mcomix/wiki/Home/
+	arch = any
+	license = GPL-2.0-or-later
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = gtk3
+	depends = python-cairo
+	depends = python-gobject
+	depends = python-pillow
+	optdepends = lhasa: for lha compressed comics
+	optdepends = libunrar: for rar compressed comics
+	optdepends = p7zip: for 7z compressed comics
+	optdepends = python-chardet: for guessing filename encodings in archives
+	optdepends = python-pymupdf: for PDF comics
+	optdepends = unrar: for rar compressed comics
+	optdepends = unzip: for zip compressed comics
+	source = https://downloads.sourceforge.net/project/mcomix/MComix-3.1.1/mcomix-3.1.1.tar.gz
+	sha256sums = a10aaaed7bc07deb74efde93bf9a8a27e1bcbf1824a0519b264cfee582becef8
+
+pkgname = mcomix

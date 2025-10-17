@@ -1,0 +1,15 @@
+pkgbase = perl-data-page
+	pkgdesc = help when paging through sets of results
+	pkgver = 2.03
+	pkgrel = 3
+	url = https://metacpan.org/pod/Data::Page
+	arch = any
+	license = Artistic-2.0
+	license = GPL-1.0-or-later
+	makedepends = perl-test-exception
+	depends = perl-class-accessor-chained
+	options = !emptydirs
+	source = https://cpan.metacpan.org/authors/id/E/ET/ETHER/Data-Page-2.03.tar.gz
+	sha512sums = 5c0c411e8b03163b2b88b7ab6432def0ddcce48987e98868897e89d0220665537f23d9a56b6d544a5c6fb67f615a2db582764ebcaa612cb2a8906ba660fc3c59
+
+pkgname = perl-data-page

@@ -1,0 +1,16 @@
+pkgbase = track-o-bot-git
+	pkgdesc = The friendly Hearthstone Tracker (Linux port)
+	pkgver = 0.2.1.r521.gc470cd8
+	pkgrel = 1
+	url = https://github.com/BOSSoNe0013/track-o-bot
+	install = track-o-bot.install
+	arch = x86_64
+	license = LGPL-2.1-or-later
+	makedepends = git
+	depends = qt5-base
+	depends = hicolor-icon-theme
+	depends = qt5-x11extras
+	source = git+https://github.com/BOSSoNe0013/track-o-bot.git
+	sha256sums = SKIP
+
+pkgname = track-o-bot-git

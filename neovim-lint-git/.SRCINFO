@@ -1,0 +1,14 @@
+pkgbase = neovim-lint-git
+	pkgdesc = Asynchronous linter plugin
+	pkgver = r362.03b1fc5
+	pkgrel = 1
+	url = https://github.com/mfussenegger/nvim-lint
+	arch = any
+	groups = neovim-plugins
+	license = GPL
+	makedepends = git
+	source = git+https://github.com/mfussenegger/nvim-lint.git
+	sha512sums = SKIP
+
+pkgname = neovim-lint-git
+	depends = neovim

@@ -1,0 +1,19 @@
+pkgbase = r-keggrest
+	pkgdesc = Client-side REST access to the Kyoto Encyclopedia of Genes and Genomes (KEGG)
+	pkgver = 1.48.1
+	pkgrel = 1
+	url = https://bioconductor.org/packages/KEGGREST
+	arch = any
+	license = Artistic2.0
+	depends = r
+	depends = r-biostrings
+	depends = r-httr
+	depends = r-png
+	optdepends = r-biocgenerics
+	optdepends = r-knitr
+	optdepends = r-markdown
+	optdepends = r-runit
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/KEGGREST_1.48.1.tar.gz
+	sha256sums = 369a17ce4608f12d42884f912086c9986e62d89c24a1ecb7a0ca8f850d07684c
+
+pkgname = r-keggrest

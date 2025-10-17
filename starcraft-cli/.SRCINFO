@@ -1,0 +1,14 @@
+pkgbase = starcraft-cli
+	pkgdesc = Command-line tool for tracking StarCraft 2 esports
+	pkgver = 2.0.0
+	pkgrel = 2
+	url = https://github.com/marcusziade/StarCraftKit
+	arch = x86_64
+	license = MIT
+	makedepends = swift-bin
+	depends = glibc
+	depends = swift-bin
+	source = starcraft-cli-2.0.0.tar.gz::https://github.com/marcusziade/StarCraftKit/archive/refs/tags/2.0.0.tar.gz
+	sha256sums = 95fc2d8aa2926a26cb82f85fd4f07376b46eaf6d0be8b0b3617e28b859fb9de8
+
+pkgname = starcraft-cli

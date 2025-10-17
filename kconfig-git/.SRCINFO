@@ -1,0 +1,24 @@
+pkgbase = kconfig-git
+	pkgdesc = Configuration system
+	pkgver = 6.0.0_r1291.gdba356d6
+	pkgrel = 1
+	url = https://community.kde.org/Frameworks
+	arch = x86_64
+	groups = kf6-git
+	license = LGPL-2.0-only
+	license = LGPL-3.0-only
+	makedepends = git
+	makedepends = doxygen
+	makedepends = extra-cmake-modules-git
+	makedepends = qt6-doc
+	makedepends = qt6-tools
+	depends = gcc-libs
+	depends = glibc
+	depends = qt6-base
+	depends = qt6-declarative
+	provides = kconfig
+	conflicts = kconfig
+	source = git+https://github.com/KDE/kconfig.git
+	sha256sums = SKIP
+
+pkgname = kconfig-git

@@ -1,0 +1,25 @@
+pkgbase = hyperrogue-git
+	pkgdesc = You are a lone outsider in a strange, non-Euclidean hyperbolic world
+	pkgver = 13.0w+r11136+g4aeaa2e2d
+	pkgrel = 2
+	url = http://www.roguetemple.com/z/hyper.php
+	arch = i686
+	arch = x86_64
+	license = GPL-2.0-or-later
+	makedepends = glu
+	makedepends = glew
+	depends = sdl_gfx
+	depends = sdl_ttf
+	depends = sdl_mixer
+	depends = mesa
+	depends = ttf-dejavu
+	provides = hyperrogue
+	conflicts = hyperrogue
+	options = !strip
+	options = !debug
+	source = git+https://github.com/zenorogue/hyperrogue.git
+	source = hyperrogue.sh
+	sha256sums = SKIP
+	sha256sums = d8b6b3d6d8bfe7d7ce97e2fd2a35d148505890dc9c6ea972a7ecb2453245b032
+
+pkgname = hyperrogue-git

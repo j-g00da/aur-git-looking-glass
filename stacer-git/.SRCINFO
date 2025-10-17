@@ -1,0 +1,18 @@
+pkgbase = stacer-git
+	pkgdesc = Linux System Optimizer and Monitoring
+	pkgver = 1.5.0.r0.gfc97050
+	pkgrel = 1
+	url = https://stacer.quentium.fr/
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = cmake
+	makedepends = git
+	makedepends = qt6-tools
+	depends = qt6-charts
+	depends = qt6-svg
+	provides = stacer
+	conflicts = stacer
+	source = stacer::git+https://github.com/QuentiumYT/Stacer.git
+	sha256sums = SKIP
+
+pkgname = stacer-git

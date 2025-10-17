@@ -1,0 +1,22 @@
+pkgbase = cvemap-bin
+	pkgdesc = Navigate the CVE jungle with ease
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/projectdiscovery/cvemap
+	arch = aarch64
+	arch = armv7h
+	arch = i686
+	arch = x86_64
+	license = MIT
+	provides = cvemap
+	conflicts = cvemap
+	source_aarch64 = cvemap-1.0.0-aarch64.zip::https://github.com/projectdiscovery/cvemap/releases/download/v1.0.0/cvemap_1.0.0_linux_arm64.zip
+	sha256sums_aarch64 = af74819bee4e506f912d5053d995ad5384aecdd241fed713fd82a5d52de1e73d
+	source_armv7h = cvemap-1.0.0-armv7h.zip::https://github.com/projectdiscovery/cvemap/releases/download/v1.0.0/cvemap_1.0.0_linux_arm.zip
+	sha256sums_armv7h = f972823986609fe8713c1177153ecc48bf3e678810b21c34ba27a0c23520f127
+	source_i686 = cvemap-1.0.0-i686.zip::https://github.com/projectdiscovery/cvemap/releases/download/v1.0.0/cvemap_1.0.0_linux_386.zip
+	sha256sums_i686 = 97173e9c50a95ab71188c5a1ed4c8f869488a0c712be1cbd683a52bf5c2f7640
+	source_x86_64 = cvemap-1.0.0-x86_64.zip::https://github.com/projectdiscovery/cvemap/releases/download/v1.0.0/cvemap_1.0.0_linux_amd64.zip
+	sha256sums_x86_64 = dfe7579f9c98d1e68edfd547e066b095975f7dafd7194917b46f35cc0a9359d2
+
+pkgname = cvemap-bin

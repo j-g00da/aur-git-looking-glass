@@ -1,0 +1,23 @@
+pkgbase = kraken2
+	pkgdesc = Improved vesion of kraken ultrafast metagenomic sequence classification tool. https://doi.org/10.1186/s13059-019-1891-0
+	pkgver = 2.14
+	pkgrel = 1
+	url = https://github.com/DerrickWood/kraken2
+	arch = i686
+	arch = x86_64
+	license = MIT
+	depends = glibc
+	depends = gcc-libs
+	depends = blast+
+	depends = perl
+	depends = bash
+	depends = python
+	depends = zlib
+	source = kraken2-2.14.tar.gz::https://github.com/DerrickWood/kraken2/archive/refs/tags/v2.14.tar.gz
+	source = Makefile.patch
+	source = fastaread.patch
+	sha256sums = 75ffbf82bd13232ec8d39990f48454c6f7d98ceb589af80a60c7e9ed046e7f18
+	sha256sums = e08f748b3e34ec5efd05756886e8b8901ff5710f8ea67927e2666166c3e7d9ca
+	sha256sums = 40bdae9d36e7212197f32d5dc49d7d676593e0a0e0f51e7ef8c0c20ccd2d999e
+
+pkgname = kraken2

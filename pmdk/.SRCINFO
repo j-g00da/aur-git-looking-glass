@@ -1,0 +1,21 @@
+pkgbase = pmdk
+	pkgdesc = Persistent Memory Development Kit
+	pkgver = 2.1.1
+	pkgrel = 2
+	url = https://pmem.io/
+	arch = x86_64
+	license = BSD-3-Clause OSL-1.0
+	makedepends = pandoc-cli
+	depends = ndctl>=63
+	optdepends = libfabric>=1.4.2: required by librpmem
+	provides = libpmem
+	provides = libpmem2
+	provides = libpmemobj
+	provides = libpmemblk
+	provides = libpmemlog
+	provides = libpmempool
+	provides = librpmem
+	source = pmdk-2.1.1.tar.gz::https://github.com/pmem/pmdk/archive/2.1.1.tar.gz
+	sha1sums = 60ca219fff75741bcc66d355c0764ca8692e07d5
+
+pkgname = pmdk

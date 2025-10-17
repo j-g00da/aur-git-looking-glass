@@ -1,0 +1,21 @@
+pkgbase = r-river
+	pkgdesc = R package for RIVER (RNA-Informed Variant Effect on Regulation)
+	pkgver = 1.32.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/RIVER
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-biobase
+	depends = r-ggplot2
+	depends = r-glmnet
+	depends = r-proc
+	optdepends = r-biocstyle
+	optdepends = r-devtools
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/RIVER_1.32.0.tar.gz
+	sha256sums = 6679b237455ff62f9c59d00c1b9a51cd21bcaa00484e1698b436247e139b7d90
+
+pkgname = r-river

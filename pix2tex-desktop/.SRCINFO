@@ -1,0 +1,14 @@
+pkgbase = pix2tex-desktop
+	pkgdesc = Using a ViT to convert images of equations into LaTeX code (desktop icon).
+	pkgver = 2.0
+	pkgrel = 1
+	url = https://github.com/lukas-blecher/LaTeX-OCR
+	arch = any
+	license = MIT
+	depends = pix2tex
+	source = pix2tex.desktop
+	source = pix2tex.svg::https://raw.githubusercontent.com/lukas-blecher/LaTeX-OCR/main/pix2tex/resources/icon.svg
+	b2sums = 7e3a7828d3d8541a265219d4667db3a278d341c9efc02cfeff6877a60fb223ead970cb04b0ac817e226bccb93e801fd0ea97492a66bd15e5adb1e95f2f52fa2b
+	b2sums = SKIP
+
+pkgname = pix2tex-desktop

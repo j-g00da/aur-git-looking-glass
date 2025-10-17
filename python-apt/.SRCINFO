@@ -1,0 +1,18 @@
+pkgbase = python-apt
+	pkgdesc = Python interface to libapt-pkg
+	pkgver = 3.0.0
+	pkgrel = 1
+	url = https://tracker.debian.org/pkg/python-apt
+	arch = x86_64
+	license = GPL-2.0-or-later
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-distutils-extra
+	depends = apt
+	depends = python
+	options = !emptydirs
+	source = https://deb.debian.org/debian/pool/main/p/python-apt/python-apt_3.0.0.tar.xz
+	sha512sums = 7c8a3ee8197a45f1611da1c49d693a723daf220a5c3eff02e3715479099447e9da7639fa4bfd03c4877a7f436f029c8aee6c58e1eb77e7ad850bc6409bc551e7
+
+pkgname = python-apt

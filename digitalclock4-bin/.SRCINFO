@@ -1,0 +1,18 @@
+pkgbase = digitalclock4-bin
+	pkgdesc = Beautiful customizable clock with plugins
+	pkgver = 4.7.9
+	pkgrel = 1
+	url = https://sourceforge.net/projects/digitalclock4
+	arch = x86_64
+	license = GPL3
+	depends = qt5-speech
+	depends = libnotify
+	depends = qt5-svg
+	depends = gtk2
+	depends = qt5-x11extras
+	provides = digitalclock4
+	options = !strip
+	source = digitalclock4-bin-4.7.9.tar.xz::https://netcologne.dl.sourceforge.net/project/digitalclock4/4.7.9/digital_clock_4-linux_x64.tar.xz
+	sha256sums = 5f0033fecfa3e2c1810e8e24556c8c7d4a2c1c5efd42a325135c23603c296411
+
+pkgname = digitalclock4-bin

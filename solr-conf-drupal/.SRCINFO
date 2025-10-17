@@ -1,0 +1,26 @@
+pkgbase = solr-conf-drupal
+	pkgdesc = Configuration files to enable Drupal 7.x or 8.x to use Solr 3.x, 4.x, or 5.x as its search provider
+	pkgver = 20160708
+	pkgrel = 2
+	url = http://drupal.org/project/search_api_solr
+	arch = any
+	license = GPL
+	depends = solr>=3
+	optdepends = drupal: Solr client for these configuration files
+	optdepends = aegir: meta-Drupal hosting platform
+	optdepends = solr-undertow: high performance servlet container for Solr
+	noextract = https://raw.githubusercontent.com/apache/lucene-solr/master/solr/example/example-DIH/solr/solr/mapping-ISOLatin1Accent.txt
+	noextract = https://www.drupal.org/files/issues/2711685-support-solr6-search-api-solr-4.patch
+	noextract = http://ftp.drupal.org/files/projects/search_api_solr-7.x-1.11.tar.gz
+	noextract = http://ftp.drupal.org/files/projects/search_api_solr-8.x-1.0-alpha5.tar.gz
+	source = https://raw.githubusercontent.com/apache/lucene-solr/master/solr/example/example-DIH/solr/solr/mapping-ISOLatin1Accent.txt
+	source = https://www.drupal.org/files/issues/2711685-support-solr6-search-api-solr-4.patch
+	source = http://ftp.drupal.org/files/projects/search_api_solr-7.x-1.11.tar.gz
+	source = http://ftp.drupal.org/files/projects/search_api_solr-8.x-1.0-alpha5.tar.gz
+	md5sums = 9f3c8a60a4f09327fad22aeff082c2b3
+	md5sums = 479dea32043f12575838eaa6de62f248
+	md5sums = a8b60845919774521861bdfbe7883a11
+	md5sums = 1a2636b8050903114b66ce300c99b50d
+
+pkgname = solr-conf-drupal
+

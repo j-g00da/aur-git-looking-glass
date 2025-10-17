@@ -1,0 +1,21 @@
+pkgbase = vlang-bin
+	pkgdesc = Simple compiled language for developing maintainable software (binary release)
+	pkgver = 0.4.12
+	pkgrel = 1
+	url = https://vlang.io
+	arch = x86_64
+	license = MIT
+	makedepends = libx11
+	makedepends = git
+	depends = glibc
+	optdepends = glfw: Needed for graphics support
+	optdepends = freetype2: Needed for graphics support
+	optdepends = glfw: Graphics support
+	optdepends = openssl: Needed for http support
+	provides = vlang
+	conflicts = vlang
+	options = !strip
+	source = vlang-0.4.12.zip::https://github.com/vlang/v/releases/download/0.4.12/v_linux.zip
+	sha256sums = 9d32751ec36b89b9f8107d8e7e3affd148e54934d169712123def3ed134ddced
+
+pkgname = vlang-bin

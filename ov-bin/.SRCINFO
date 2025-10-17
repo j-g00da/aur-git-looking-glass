@@ -1,0 +1,20 @@
+pkgbase = ov-bin
+	pkgdesc = Feature-rich terminal-based text viewer. It is a so-called terminal pager.
+	pkgver = 0.44.0
+	pkgrel = 1
+	url = https://github.com/noborus/ov
+	install = ov-bin.install
+	arch = x86_64
+	arch = armv7h
+	arch = aarch64
+	license = MIT
+	provides = ov
+	conflicts = ov
+	source_x86_64 = ov-bin-0.44.0-x86_64.zip::https://github.com/noborus/ov/releases/download/v0.44.0/ov_0.44.0_linux_amd64.zip
+	sha256sums_x86_64 = 4ca8b6af22477639f5ce9bd2351da3982c951c7da3315fae81c5356a5a156ab1
+	source_armv7h = ov-bin-0.44.0-armv7h.zip::https://github.com/noborus/ov/releases/download/v0.44.0/ov_0.44.0_linux_arm.zip
+	sha256sums_armv7h = 205144ba0ebff522613fa808389b72639f6c392b9f608baf71b7ef37c9e20ccb
+	source_aarch64 = ov-bin-0.44.0-aarch64.zip::https://github.com/noborus/ov/releases/download/v0.44.0/ov_0.44.0_linux_arm64.zip
+	sha256sums_aarch64 = fb2d7422b22e01247ce3d21918fe60a4e72ea0282d0f95d0a097b6de3816076a
+
+pkgname = ov-bin

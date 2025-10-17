@@ -1,0 +1,18 @@
+pkgbase = python-fastecdsa
+	pkgdesc = Fast elliptic curve digital signatures
+	pkgver = 3.0.1
+	pkgrel = 1
+	url = https://github.com/antonkueltz/fastecdsa
+	arch = x86_64
+	license = Unlicense
+	checkdepends = python-pytest-cov
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	depends = gmp
+	source = fastecdsa-3.0.1.tar.gz::https://github.com/antonkueltz/fastecdsa/archive/v3.0.1.tar.gz
+	sha512sums = 088857cc8914d830469938fd9c92509164e8af1cd8efc53d03b34b97c345d98439d48281ee828e83c9e272fc415b72645d39256e05b57e984f9d53cfcdf5f731
+
+pkgname = python-fastecdsa

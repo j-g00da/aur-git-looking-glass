@@ -1,0 +1,12 @@
+pkgbase = leander-font
+	pkgdesc = A serif font face from Tension Type with a distressed, eroded look
+	pkgver = 1.000
+	pkgrel = 2
+	url = https://www.fontsquirrel.com/fonts/leander
+	arch = any
+	license = custom:Tension Type Font License
+	source = leander-1.000-2.zip::https://www.fontsquirrel.com/fonts/download/leander
+	sha256sums = e7ab6ecdeb2f680c1419a39ea32fb671cd907309f9e45f1cac5b98917b0fa152
+
+pkgname = ttf-leander
+	provides = leander-font

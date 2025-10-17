@@ -1,0 +1,13 @@
+pkgbase = mesh-git
+	pkgdesc = A memory allocator that automatically reduces the memory footprint of C/C++ applications.
+	pkgver = r1129.d45d6de
+	pkgrel = 1
+	url = https://github.com/plasma-umass/Mesh
+	arch = x86_64
+	license = Apache
+	depends = glibc
+	provides = mesh
+	source = mesh-git::git+https://github.com/plasma-umass/Mesh.git
+	sha256sums = SKIP
+
+pkgname = mesh-git

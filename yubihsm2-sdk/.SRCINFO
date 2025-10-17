@@ -1,0 +1,21 @@
+pkgbase = yubihsm2-sdk
+	pkgdesc = YubiHSM2 SDK
+	pkgver = 2024.09
+	pkgrel = 1
+	url = https://developers.yubico.com/YubiHSM2/Releases/
+	arch = x86_64
+	license = Apache
+	license = custom:https://www.yubico.com/support/terms-conditions/yubico-license-agreement/
+	depends = bind
+	depends = curl
+	depends = libusb
+	source = https://developers.yubico.com/YubiHSM2/Releases/yubihsm2-sdk-2024-09-fedora40-amd64.tar.gz
+	source = 70-yubihsm2.rules
+	source = yubihsm-connector.service
+	source = yubihsm-connector.yaml
+	sha256sums = aa0bf9dbca4e3b392a57b085ff2141246e4f7a30953d85a4f043e61fe8d4dd86
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = yubihsm2-sdk

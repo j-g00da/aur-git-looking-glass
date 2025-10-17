@@ -1,0 +1,23 @@
+pkgbase = jdsystemmonitor
+	pkgdesc = Monitor your system
+	pkgver = 2.0
+	pkgrel = 1
+	url = https://codeberg.org/JakobDev/jdSystemMonitor
+	arch = x86_64
+	license = GPL3
+	makedepends = meson
+	makedepends = go
+	makedepends = qt6-tools
+	makedepends = python
+	depends = qt6-base
+	depends = qt6-charts
+	depends = xdg-desktop-portal
+	depends = polkit
+	depends = xdg-dbus-proxy
+	depends = hicolor-icon-theme
+	optdepends = packagekit: See installed pacman packages
+	optdepends = jdsimpleautostart: Edit the autostart
+	source = jdsystemmonitor-2.0.tar.gz::https://codeberg.org/JakobDev/jdSystemMonitor/archive/2.0.tar.gz
+	sha256sums = d804154e68d97c2f896907512267c8497ead628031398a8532a516dcdbdbc7c9
+
+pkgname = jdsystemmonitor

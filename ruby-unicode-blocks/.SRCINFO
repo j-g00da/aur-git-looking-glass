@@ -1,0 +1,14 @@
+pkgbase = ruby-unicode-blocks
+	pkgdesc = Unicode Blocks of a Ruby String
+	pkgver = 1.11.0
+	pkgrel = 1
+	url = https://github.com/janlelis/unicode-blocks
+	arch = any
+	license = MIT
+	depends = ruby
+	noextract = unicode-blocks-1.11.0.gem
+	options = !emptydirs
+	source = https://rubygems.org/downloads/unicode-blocks-1.11.0.gem
+	sha256sums = 80b8b11076aa9eaad4b070c37476403e5332252fb24321ffb6ff441ddf87dbb1
+
+pkgname = ruby-unicode-blocks

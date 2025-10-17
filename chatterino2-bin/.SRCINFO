@@ -1,0 +1,26 @@
+pkgbase = chatterino2-bin
+	pkgdesc = A chat client for Twitch.tv.
+	pkgver = 2.5.4
+	pkgrel = 1
+	url = https://github.com/chatterino/chatterino2
+	arch = x86_64
+	license = MIT
+	depends = gdk-pixbuf2
+	depends = glib2
+	depends = hicolor-icon-theme
+	depends = libnotify
+	depends = openssl
+	depends = qt6-base
+	depends = qt6-5compat
+	depends = qt6-imageformats
+	depends = qt6-svg
+	depends = qtkeychain-qt6
+	optdepends = streamlink: For piping streams to video players
+	optdepends = qt6-wayland: Wayland support
+	provides = chatterino
+	conflicts = chatterino
+	options = !strip
+	source = chatterino2-bin-2.5.4-1.tar.zst::https://github.com/Chatterino/pkg/releases/download/stable-20250921T111404/chatterino-arch-linux-x86_64.tar.zst
+	sha256sums = 0292ec3bc7dda70e24e4bd6adbb16ab6750cc9d657b20de9778f0bd1e348c455
+
+pkgname = chatterino2-bin

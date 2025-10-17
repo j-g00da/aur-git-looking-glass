@@ -1,0 +1,18 @@
+pkgbase = cycle-git
+	pkgdesc = Cycle is a calendar program for women (git)
+	pkgver = 0.3.3+r29+gb9671a71d
+	pkgrel = 2
+	url = https://github.com/metlov/cycle
+	arch = any
+	license = GPL
+	makedepends = git
+	depends = python
+	depends = python-wxpython
+	source = cycle-git::git+https://github.com/metlov/cycle.git
+	source = cycle.desktop
+	source = cycle
+	md5sums = SKIP
+	md5sums = 2ce056808512dcdf55f0375b159ae6b1
+	md5sums = c53b13c42bea26abbeeb341be0eeab9d
+
+pkgname = cycle-git

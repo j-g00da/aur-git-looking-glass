@@ -1,0 +1,18 @@
+pkgbase = python-unet
+	pkgdesc = PyTorch Implementation of 2D and 3D U-Net
+	pkgver = 0.8.1
+	pkgrel = 1
+	url = https://github.com/fepegar/unet
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-hatchling
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python-pytorch
+	source = python-unet-0.8.1.tar.gz::https://github.com/fepegar/unet/archive/v0.8.1.tar.gz
+	sha512sums = 582761e5314af17ed5fc4a920df5a806107ca4be82d3cf43888665ff05e4cedf4c7dbde6d948ba7a5160a0453f1ad9795cfde7310ca3ea8c70e7b1902cc01c1e
+
+pkgname = python-unet

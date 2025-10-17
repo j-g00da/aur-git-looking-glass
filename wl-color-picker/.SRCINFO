@@ -1,0 +1,17 @@
+pkgbase = wl-color-picker
+	pkgdesc = A wayland color picker that also works on wlroots
+	pkgver = 1.4
+	pkgrel = 1
+	url = https://github.com/jgmdev/wl-color-picker
+	arch = any
+	license = MIT
+	depends = grim
+	depends = slurp
+	depends = zenity
+	depends = imagemagick
+	depends = wl-clipboard
+	depends = libnotify
+	source = https://github.com/jgmdev/wl-color-picker/archive/v1.4.tar.gz
+	md5sums = 851aaf902ae4798d969efe5042fbcd9c
+
+pkgname = wl-color-picker

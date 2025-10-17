@@ -1,0 +1,15 @@
+pkgbase = popular-packages
+	pkgdesc = Lists popular packages not (yet) installed
+	pkgver = 0.6.3
+	pkgrel = 1
+	url = https://pub-dist.s3.us-east-005.dream.io/Software/popular-packages/popular-packages.jpg
+	arch = any
+	license = GPL3
+	depends = wget
+	depends = jq
+	depends = package-query
+	options = !emptydirs
+	source = https://pub-dist.s3.us-east-005.dream.io/Software/popular-packages/popular-packages
+	sha256sums = 4df195ee81471bbe2459b42c12e3a7428772cac71080995b4e4da0817a3c8c94
+
+pkgname = popular-packages

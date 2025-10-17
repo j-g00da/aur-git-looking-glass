@@ -1,0 +1,18 @@
+pkgbase = python-logging_tree
+	pkgdesc = Debug Python logging problems by printing out the tree of handlers you have defined.
+	pkgver = 1.10
+	pkgrel = 1
+	url = https://github.com/brandon-rhodes/logging_tree
+	arch = any
+	license = BSD
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	provides = python-logging-tree
+	replaces = python-logging-tree
+	source = python-logging_tree-1.10.tar.gz::https://files.pythonhosted.org/packages/source/l/logging-tree/logging_tree-1.10.tar.gz
+	sha256sums = cd78848fe0ee4aafcc64fa8a66f96f177186ff3d883619b1d7f3628564802095
+
+pkgname = python-logging_tree

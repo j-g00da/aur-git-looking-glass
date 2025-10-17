@@ -1,0 +1,15 @@
+pkgbase = csvtools-git
+	pkgdesc = GNU-alike tools for parsing RFC 4180 CSVs at high speed: csvcut, csvgrep, csvawk, csvpipe, csvunpipe
+	pkgver = r317.0162d828ec
+	pkgrel = 1
+	url = https://github.com/DavyLandman/csvtools
+	arch = any
+	license = MIT
+	checkdepends = openssl
+	checkdepends = sed
+	makedepends = git
+	makedepends = pcre
+	source = git+https://github.com/DavyLandman/csvtools
+	md5sums = SKIP
+
+pkgname = csvtools-git

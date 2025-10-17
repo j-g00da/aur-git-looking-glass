@@ -1,0 +1,20 @@
+pkgbase = upak
+	pkgdesc = HRIBF Data Acquisition and analysis.
+	pkgver = 10.6.8
+	pkgrel = 14
+	url = ftp://ftp.phy.ornl.gov/pub/upak/README.html
+	install = upak.install
+	arch = x86_64
+	license = unknown
+	makedepends = gcc-fortran>=4.2
+	depends = libx11
+	depends = tcsh
+	depends = bash
+	options = staticlibs
+	options = emptydirs
+	source = upak-2021.tar.bz2::https://orruba.org/?mdocs-file=1159
+	source = upak.install
+	md5sums = 75b58c32a5e339dcba36c2ca3039bff6
+	md5sums = 28ee91c3b9ad3ac1be306fb8c0eb1f35
+
+pkgname = upak

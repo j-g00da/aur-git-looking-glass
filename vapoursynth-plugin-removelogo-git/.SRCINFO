@@ -1,0 +1,20 @@
+pkgbase = vapoursynth-plugin-removelogo-git
+	pkgdesc = Plugin for Vapoursynth: removelogo (GIT version)
+	pkgver = 1.0.0.g2d7fec6
+	pkgrel = 1
+	url = https://github.com/Noctem/vapoursynth-removelogo
+	arch = x86_64
+	license = LGPL-2.1-or-later
+	makedepends = meson
+	makedepends = git
+	depends = vapoursynth
+	depends = glibc
+	provides = vapoursynth-plugin-removelogo
+	provides = vapoursynth-plugin-removelogo-hg
+	conflicts = vapoursynth-plugin-removelogo
+	conflicts = vapoursynth-plugin-removelogo-hg
+	options = debug
+	source = removelogo::git+https://github.com/Noctem/vapoursynth-removelogo.git
+	sha256sums = SKIP
+
+pkgname = vapoursynth-plugin-removelogo-git

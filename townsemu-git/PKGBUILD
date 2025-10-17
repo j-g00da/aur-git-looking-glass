@@ -1,0 +1,51 @@
+# Maintainer: heavysink <winstonwu91@gmail.com>
+
+pkgname=townsemu-git
+pkgver=3396.a6cf19ae
+pkgrel=2
+pkgdesc="An emulator of legendary Fujitsu FM TOWNS computer"
+arch=('i686' 'x86_64')
+url="https://github.com/captainys/TOWNSEMU"
+license=('GPL')
+depends=('alsa-lib' 'glu')
+makedepends=('git' 'cmake')
+provides=('townsemu')
+conflicts=('townsemu')
+source=("git+https://github.com/captainys/TOWNSEMU"
+    https://patch-diff.githubusercontent.com/raw/captainys/TOWNSEMU/pull/164.patch)
+options=('!buildflags')
+md5sums=('SKIP'
+         '997264f37dfcb6213f1ccf36125f7a87')
+
+pkgver() {
+  cd TOWNSEMU
+  printf "%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+}
+
+prepare() {
+  cd TOWNSEMU
+  patch -p1 -i ../164.patch
+  mkdir -p build
+  mkdir -p build_gui
+  cd gui/src
+  git clone https://github.com/captainys/public.git
+}
+
+build() {
+  cd TOWNSEMU/build
+  cmake ../src -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_POLICY_VERSION_MINIMUM=3.5
+  cmake --build . --config Release -j1
+  cd ../build_gui
+  cmake ../gui/src -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_POLICY_VERSION_MINIMUM=3.5
+  VERBOSE=1 cmake --build main_gui -j1
+}
+
+package() {
+  cd TOWNSEMU/build
+
+  install -m 755 -d "${pkgdir}/usr/bin"
+  install -m 755 ./main_cui/Tsugaru_CUI ${pkgdir}/usr/bin/Tsugaru_CUI
+
+  cd ../../TOWNSEMU/build_gui
+  install -m 755 ./main_gui/Tsugaru_GUI ${pkgdir}/usr/bin/Tsugaru_GUI
+}

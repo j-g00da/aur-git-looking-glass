@@ -1,0 +1,23 @@
+pkgbase = gadu-gadu
+	pkgdesc = A Polish instant messaging client using a proprietary protocol.
+	pkgver = 12.4.112.12222
+	pkgrel = 1
+	url = https://gg.pl
+	arch = i686
+	arch = x86_64
+	license = custom
+	depends = gtk2
+	depends = alsa-lib
+	depends = dbus-glib
+	depends = libxt
+	options = !strip
+	source = gadu-gadu.desktop
+	source = gadu-gadu
+	sha256sums = 8137b434801ad2f7a2a6ec5bf731e41dd381839ce55dca4082634764cea53c78
+	sha256sums = cfc55261aacbb25bdf65b3a05875cf106e1e1877b220c39ede863ee6a9631b7c
+	source_i686 = gg_32bit_12.4.112.12222.tar.bz2::http://im-updates.gg.pl/phoenix/app/release/12.4.112.12222/standard/Linux_x86-gcc3/pl/gg_32bit.tar.bz2
+	sha256sums_i686 = 6538dfabfecd01c979058ce6e6591fad75461926daaa9e55f7fd5c810474d660
+	source_x86_64 = gg_64bit_12.4.112.12222.tar.bz2::http://im-updates.gg.pl/phoenix/app/release/12.4.112.12222/standard/Linux_x86_64-gcc3/pl/gg_64bit.tar.bz2
+	sha256sums_x86_64 = 48d8ee8a25b43205c2262aee3627281059eefb511df788d7c6606076e31187c2
+
+pkgname = gadu-gadu

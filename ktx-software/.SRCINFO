@@ -1,0 +1,20 @@
+pkgbase = ktx-software
+	pkgdesc = KTX (Khronos Texture) Library and Tools
+	pkgver = 4.4.2
+	pkgrel = 1
+	url = https://github.com/KhronosGroup/KTX-Software
+	arch = x86_64
+	license = Apache-2.0
+	makedepends = cmake
+	makedepends = zstd
+	depends = zlib
+	depends = libpng
+	depends = libjpeg-turbo
+	depends = openexr
+	provides = ktx-software
+	conflicts = ktx-software
+	conflicts = ktx_software
+	source = https://github.com/KhronosGroup/KTX-Software/archive/refs/tags/v4.4.2.tar.gz
+	sha256sums = 9412cb45045a503005acd47d98f9e8b47154634a50b4df21e17a1dfa8971d323
+
+pkgname = ktx-software

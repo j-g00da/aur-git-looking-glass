@@ -1,0 +1,25 @@
+pkgbase = your-freedom-network
+	pkgdesc = A service to bypass Firewalls, Proxies and content Filters and stay anonymous while surfing, playing and downloading
+	pkgver = 20200925
+	pkgrel = 1
+	url = https://www.your-freedom.net/
+	arch = any
+	license = LGPL2.1
+	license = custom:ACCEPTABLE USE POLICY
+	depends = java-runtime
+	depends = bash
+	optdepends = openvpn: VPN mode support
+	optdepends = dante: socksification support
+	optdepends = tsocks: socksification support
+	source = https://www.your-freedom.net/ems-dist/freedom-20200925-01.zip
+	source = your-freedom.png
+	source = your-freedom.sh
+	source = your-freedom.desktop
+	source = ACCEPTABLE_USE_POLICY
+	sha256sums = acdaad4713d8e78569deddd926012bc96f9557461b8c5c2fb695eb9faec510b8
+	sha256sums = cd85329a283099c18e38b31a7b0cfc63b87ad872aefdf974f52b3b7bdbfca845
+	sha256sums = 070a8dc5b7f133e8cb68108dec8587afb1b221e6847553730bc117850fe1bab2
+	sha256sums = 47312a186f0d4ec700a83e39e9afcbe5f1139a45f4b81343c34f6f8908c94adf
+	sha256sums = f226700bfc52046377444f1490a3d7305a7a13416fa30584ef39804a688d6654
+
+pkgname = your-freedom-network

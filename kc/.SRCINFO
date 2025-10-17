@@ -1,0 +1,16 @@
+pkgbase = kc
+	pkgdesc = console-based password manager - basic functionality with readline support
+	pkgver = 2.5.4
+	pkgrel = 1
+	url = https://github.com/levaidaniel/kc
+	arch = any
+	license = BSD-2-Clause
+	depends = libbsd>=0.2.0
+	depends = libxml2>=2.6.0
+	depends = openssl>=3.2.0
+	depends = readline
+	conflicts = kc-full
+	source = kc-2.5.4.tar.gz::https://github.com/levaidaniel/kc/archive/refs/tags/2.5.4.tar.gz
+	sha256sums = ffc7485fb3d7b5f21ff36e6ce15e3d42237c76b7c4143a859496bbb6349a9dcc
+
+pkgname = kc

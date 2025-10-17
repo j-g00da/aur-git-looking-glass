@@ -1,0 +1,22 @@
+pkgbase = dotbot-git
+	pkgdesc = A tool that bootstraps your dotfiles
+	pkgver = 1.23.0.r1.g569ff0b
+	pkgrel = 1
+	url = https://github.com/anishathalye/dotbot
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	makedepends = git
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	makedepends = python-hatchling
+	depends = python
+	depends = python-yaml
+	provides = dotbot
+	conflicts = dotbot
+	source = git+https://github.com/anishathalye/dotbot.git
+	sha256sums = SKIP
+
+pkgname = dotbot-git

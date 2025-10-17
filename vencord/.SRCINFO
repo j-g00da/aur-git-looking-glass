@@ -1,0 +1,37 @@
+pkgbase = vencord
+	pkgdesc = The cutest Discord client mod
+	pkgver = 1.13.4
+	pkgrel = 1
+	url = https://vencord.dev
+	arch = any
+	license = GPL3
+	makedepends = git
+	makedepends = pnpm
+	source = git+https://github.com/Vendicated/Vencord.git#tag=v1.13.4
+	sha256sums = 650e916e05521845411603c4001fa0ae65be26706fd582ab51d6cf281b52fd91
+
+pkgname = vencord
+	install = vencord.install
+	depends = vesktop
+
+pkgname = chromium-vencord
+	pkgdesc = The cutest Discord client mod (unpacked webextension)
+	install = vencord.install
+	optdepends = chromium
+	optdepends = vivaldi
+	optdepends = google-chrome
+	optdepends = opera
+	optdepends = brave
+	optdepends = ungoogled-chromium
+
+pkgname = firefox-vencord
+	install = vencord.install
+	depends = firefox
+
+pkgname = firefox-developer-edition-vencord
+	install = vencord.install
+	depends = firefox-developer-edition
+
+pkgname = librewolf-vencord
+	install = vencord.install
+	depends = librewolf

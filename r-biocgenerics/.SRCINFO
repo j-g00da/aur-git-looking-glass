@@ -1,0 +1,27 @@
+pkgbase = r-biocgenerics
+	pkgdesc = S4 generic functions used in Bioconductor
+	pkgver = 0.52.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/release/bioc/html/BiocGenerics.html
+	arch = any
+	license = Artistic2.0
+	depends = r>=4.0.0
+	optdepends = r-biobase
+	optdepends = r-s4vectors
+	optdepends = r-iranges
+	optdepends = r-genomicranges
+	optdepends = r-delayedarray
+	optdepends = r-biostrings
+	optdepends = r-rsamtools
+	optdepends = r-annotationdbi
+	optdepends = r-affy
+	optdepends = r-affyplm
+	optdepends = r-deseq2
+	optdepends = r-flowclust
+	optdepends = r-msnbase
+	optdepends = r-annotate
+	optdepends = r-runit
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/BiocGenerics_0.52.0.tar.gz
+	b2sums = e4e4058fba273d8eec71fd58cd8dc8982e0c54684cecbd207a00808fd27d04e24ee5f24eacd4a87fed3a1374ee69b68754d95570bd960bfdd1d43a9bf6bac0fd
+
+pkgname = r-biocgenerics

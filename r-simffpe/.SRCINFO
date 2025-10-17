@@ -1,0 +1,21 @@
+pkgbase = r-simffpe
+	pkgdesc = NGS Read Simulator for FFPE Tissue
+	pkgver = 1.20.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/SimFFPE
+	arch = any
+	license = LGPL
+	depends = r
+	depends = r-biostrings
+	depends = r-doparallel
+	depends = r-dplyr
+	depends = r-foreach
+	depends = r-genomicranges
+	depends = r-iranges
+	depends = r-rsamtools
+	depends = r-truncnorm
+	optdepends = r-biocstyle
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/SimFFPE_1.20.0.tar.gz
+	sha256sums = 394309c564f2906a0e17aee6344d5d936438b84e4646a855a9da14e707576407
+
+pkgname = r-simffpe

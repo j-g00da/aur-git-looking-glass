@@ -1,0 +1,17 @@
+pkgbase = r-nullrangesdata
+	pkgdesc = ExperimentHub datasets for the nullranges package
+	pkgver = 1.14.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/nullrangesData
+	arch = any
+	license = GPL-3.0-only
+	depends = r-experimenthub
+	depends = r-genomicranges
+	depends = r-interactionset
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	source = https://bioconductor.org/packages/release/data/experiment/src/contrib/nullrangesData_1.14.0.tar.gz
+	md5sums = 74717a562978e47cd32e954ba63889a6
+	b2sums = aa7c37716c4e72bf7fec3a227e85b6360b9ff4be7269d73ad7c03ed1ab1bec8d3fbd03104f05e7196ef2575c1a64882b19fb21c579f69d094374d0694ff074d5
+
+pkgname = r-nullrangesdata

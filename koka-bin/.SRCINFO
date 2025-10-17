@@ -1,0 +1,22 @@
+pkgbase = koka-bin
+	pkgdesc = A strongly typed functional-style language with effect types and handlers
+	pkgver = 3.1.2
+	pkgrel = 1
+	url = https://github.com/koka-lang/koka
+	arch = x86_64
+	license = Apache
+	depends = gcc
+	depends = make
+	optdepends = clang: for C backend compiler
+	optdepends = nodejs: for JavaScript target
+	optdepends = emscripten: for WebAssembly target
+	optdepends = wasmtime: for running WebAssembly modules
+	optdepends = mono: for C# target
+	provides = koka
+	conflicts = koka
+	noextract = koka-v3.1.2-linux-x64.tar.gz
+	options = !strip
+	source = https://github.com/koka-lang/koka/releases/download/v3.1.2/koka-v3.1.2-linux-x64.tar.gz
+	sha256sums = a62f81b5147c1cd1c41b17ef9a986282839f78d1a4e22baedfbcffc211b3b3a6
+
+pkgname = koka-bin

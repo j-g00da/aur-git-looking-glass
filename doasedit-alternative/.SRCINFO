@@ -1,0 +1,14 @@
+pkgbase = doasedit-alternative
+	pkgdesc = Edit files as root using an unprivileged editor
+	pkgver = 1.0.8
+	pkgrel = 1
+	url = https://codeberg.org/TotallyLeGIT/doasedit
+	arch = any
+	license = MIT
+	depends = doas
+	provides = doasedit
+	conflicts = doasedit
+	source = doasedit-alternative-1.0.8.tar.gz::https://codeberg.org/TotallyLeGIT/doasedit/archive/1.0.8.tar.gz
+	sha256sums = de7dfc450568d14f1ff473aa4a50a0d0505e188e117cc12cf3a2b0ea5da8af10
+
+pkgname = doasedit-alternative

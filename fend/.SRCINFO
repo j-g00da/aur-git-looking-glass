@@ -1,0 +1,16 @@
+pkgbase = fend
+	pkgdesc = Arbitrary-precision unit-aware calculator
+	pkgver = 1.5.7
+	pkgrel = 1
+	url = https://github.com/printfn/fend
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	makedepends = pandoc
+	depends = gcc-libs
+	depends = glibc
+	depends = openssl
+	source = fend-1.5.7.tar.gz::https://github.com/printfn/fend/archive/refs/tags/v1.5.7.tar.gz
+	sha256sums = 864059155044a94d4b9d2e37c763f8c58b19afa5db3f8f9ed1064bdcc4732f4e
+
+pkgname = fend

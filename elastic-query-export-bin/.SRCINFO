@@ -1,0 +1,11 @@
+pkgbase = elastic-query-export-bin
+	pkgdesc = Export Data from ElasticSearch to CSV/JSON using a Lucene Query (e.g. from Kibana) or a raw JSON Query string.
+	pkgver = 1.6.3
+	pkgrel = 1
+	url = https://github.com/pteich/elastic-query-export
+	arch = x86_64
+	license = MIT
+	source = elastic-query-export-bin-1.6.3.tar.gz::https://github.com/pteich/elastic-query-export/releases/download/v1.6.3/elastic-query-export_1.6.3_linux_amd64.tar.gz
+	sha512sums = 6cdf30e00d730332b31f7c559abdf3ec55be130867d89644b347603e5c75e3ce1866c75c3ed9d17b58e84e2524917fff972d3b113b82bfb1f58a77393dbf21ce
+
+pkgname = elastic-query-export-bin

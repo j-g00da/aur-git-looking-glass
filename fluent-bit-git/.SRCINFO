@@ -1,0 +1,20 @@
+pkgbase = fluent-bit-git
+	pkgdesc = Collect data/logs from different sources, unify and send them to multiple destinations
+	pkgver = 3.2.4.r77.gc2b3d4768
+	pkgrel = 1
+	url = https://fluentbit.io/
+	arch = i686
+	arch = x86_64
+	license = Apache
+	makedepends = git
+	makedepends = cmake
+	makedepends = make
+	makedepends = gcc
+	depends = luajit
+	backup = etc/fluent-bit/fluent-bit.conf
+	backup = etc/fluent-bit/parsers.conf
+	backup = etc/fluent-bit/plugins.conf
+	source = fluent-bit-git::git+https://github.com/fluent/fluent-bit.git
+	md5sums = SKIP
+
+pkgname = fluent-bit-git

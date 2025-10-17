@@ -1,0 +1,23 @@
+pkgbase = rclone-filen-git
+	pkgdesc = rclone fork with support for filen.io (git version)
+	pkgver = 1.70.0.filen.12
+	pkgrel = 1
+	url = https://github.com/FilenCloudDienste/filen-rclone
+	arch = i686
+	arch = x86_64
+	arch = armv7h
+	arch = aarch64
+	license = MIT
+	makedepends = git
+	makedepends = python
+	makedepends = go
+	depends = glibc
+	optdepends = fuse3: for rclone mount
+	provides = rclone
+	provides = rclone-filen
+	conflicts = rclone
+	conflicts = rclone-filen
+	source = rclone-filen::git+https://github.com/FilenCloudDienste/filen-rclone.git
+	sha256sums = SKIP
+
+pkgname = rclone-filen-git

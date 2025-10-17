@@ -1,0 +1,16 @@
+pkgbase = perl-net-amqp-rabbitmq
+	pkgdesc = interact with RabbitMQ over AMQP using librabbitmq
+	pkgver = 2.40014
+	pkgrel = 2
+	url = https://metacpan.org/pod/Net::AMQP::RabbitMQ
+	arch = any
+	license = MIT
+	license = MPL-1.1
+	makedepends = perl-devel-checklib
+	depends = perl-math-int64>=0.34
+	depends = perl-scalar-list-utils
+	options = !emptydirs
+	source = https://cpan.metacpan.org/authors/id/M/MS/MSTEMLE/Net-AMQP-RabbitMQ-2.40014.tar.gz
+	sha512sums = 55c12151530221bbeb306d2d6ae34e275fbdb5895277f891da8f5a00584e674a183bdb1c1481d055cfcc08d64ad9d7b345595c47b7c5bd80f3b2a9562b0fec55
+
+pkgname = perl-net-amqp-rabbitmq

@@ -1,0 +1,23 @@
+pkgbase = opensimh-git
+	pkgdesc = The Computer History Simulation Project
+	pkgver = open.simh.baseline.295.gc077c22d
+	pkgrel = 1
+	url = https://opensimh.org
+	arch = i686
+	arch = x86_64
+	license = custom:opensimh
+	makedepends = git
+	makedepends = termcap
+	makedepends = unoconv
+	depends = libpcap
+	depends = unzip
+	depends = sdl2
+	depends = ttf-dejavu
+	depends = zlib
+	depends = libpng
+	provides = simh
+	conflicts = simh
+	source = git+https://github.com/open-simh/simh.git
+	sha512sums = SKIP
+
+pkgname = opensimh-git

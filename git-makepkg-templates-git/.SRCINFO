@@ -1,0 +1,20 @@
+pkgbase = git-makepkg-templates-git
+	pkgdesc = makepkg-templates for git source packages
+	pkgver = r0
+	pkgrel = 1
+	url = https://github.com/dffischer/git-makepkg-templates
+	arch = any
+	license = GPL
+	makedepends = git
+	depends = pacman>=4.1.2
+	depends = git
+	provides = git-makepkg-templates=r0
+	conflicts = git-makepkg-template
+	conflicts = git-makepkg-templates
+	replaces = git-makepkg-template
+	source = git-makepkg-templates::git+https://github.com/dffischer/git-makepkg-templates
+	md5sums = SKIP
+	sha256sums = SKIP
+
+pkgname = git-makepkg-templates-git
+

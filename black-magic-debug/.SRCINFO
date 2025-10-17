@@ -1,0 +1,26 @@
+pkgbase = black-magic-debug
+	pkgdesc = In-application debugger for ARM Cortex and RISC-V processors
+	pkgver = 2.0.0
+	pkgrel = 1
+	url = https://black-magic.org
+	arch = any
+	license = GPL
+	license = BSD
+	license = MIT
+	makedepends = git
+	makedepends = hidapi
+	makedepends = python
+	source = https://github.com/blackmagic-debug/blackmagic/archive/refs/tags/v2.0.0.tar.gz
+	sha256sums = 81ba56b002bb4f10e65bcd2adc8a4da3cd17af5bdd5964130c67eaa2d3d530c0
+
+pkgname = black-magic-debug-app
+	depends = libusb
+	depends = libftdi
+	depends = libhidapi-libusb.so
+	provides = black-magic-debug-app
+	conflicts = black-magic-debug-app
+
+pkgname = black-magic-debug-udev
+	provides = black-magic-debug-udev
+	conflicts = black-magic-udev
+	conflicts = black-magic-debug-udev

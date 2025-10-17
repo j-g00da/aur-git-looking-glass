@@ -1,0 +1,21 @@
+pkgbase = dnslookup-bin
+	pkgdesc = Simple command line utility to make DNS lookups to the specified server
+	pkgver = 1.11.1
+	pkgrel = 1
+	url = https://github.com/ameshkov/dnslookup
+	arch = x86_64
+	arch = i686
+	arch = aarch64
+	license = MIT
+	depends = glibc
+	provides = dnslookup
+	conflicts = dnslookup
+	conflicts = dnslookup-git
+	source_x86_64 = https://github.com/ameshkov/dnslookup/releases/download/v1.11.1/dnslookup-linux-amd64-v1.11.1.tar.gz
+	sha256sums_x86_64 = daf7b40d498d8ac8a94672b5f95e94d3efac53641a51fa72a5ad776e2cd532f1
+	source_i686 = https://github.com/ameshkov/dnslookup/releases/download/v1.11.1/dnslookup-linux-386-v1.11.1.tar.gz
+	sha256sums_i686 = ccd60af022c3cbe72b731a12e58764ede5dcf8a53bc33c87c2477576b1a6141b
+	source_aarch64 = https://github.com/ameshkov/dnslookup/releases/download/v1.11.1/dnslookup-linux-arm64-v1.11.1.tar.gz
+	sha256sums_aarch64 = 9127073368d2dc4a58efc350cc2f43f680b1417ad35f2f1a3632fabb1ce61263
+
+pkgname = dnslookup-bin

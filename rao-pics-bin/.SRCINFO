@@ -1,0 +1,24 @@
+pkgbase = rao-pics-bin
+	pkgdesc = RaoPics help you visit material on any devices, base on Eagle/Billfish/Pixcall and other photos material management apps.(Prebuilt version.Use system-wide electron)
+	pkgver = 0.7.16
+	pkgrel = 8
+	url = https://rao.pics/
+	arch = aarch64
+	arch = x86_64
+	license = AGPL-3.0-only
+	makedepends = asar
+	depends = electron20
+	depends = openssl-1.1
+	depends = nodejs
+	provides = rao-pics=0.7.16
+	conflicts = rao-pics
+	options = !strip
+	options = !emptydirs
+	source = rao-pics.sh
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+	source_aarch64 = rao-pics-0.7.16-aarch64.deb::https://github.com/rao-pics/rao-pics/releases/download/v0.7.16/Rao.Pics-0.7.16-linux-arm64-openssl-3.0.x.deb
+	sha256sums_aarch64 = e3a8b7bf2b4b65d4880f9e4e823aa24568edda54cd45f41b9a4070701a4b9767
+	source_x86_64 = rao-pics-0.7.16-x86_64.deb::https://github.com/rao-pics/rao-pics/releases/download/v0.7.16/Rao.Pics-0.7.16-linux-amd64-openssl-3.0.x.deb
+	sha256sums_x86_64 = 1028f3d176ab528217c4b3fecb089dc6cf5adc6c234eb67ae55f353c5970af86
+
+pkgname = rao-pics-bin

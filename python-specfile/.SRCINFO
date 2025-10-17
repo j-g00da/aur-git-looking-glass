@@ -1,0 +1,20 @@
+pkgbase = python-specfile
+	pkgdesc = A library for parsing and manipulating RPM spec files
+	pkgver = 0.32.5
+	pkgrel = 1
+	url = https://github.com/packit/specfile
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-wheel
+	makedepends = python-installer
+	makedepends = python-setuptools-scm
+	makedepends = rpm-tools
+	makedepends = python-pytest
+	makedepends = python-flexmock
+	depends = rpm-tools
+	depends = python-typing_extensions
+	source = specfile-0.32.5.tar.gz::https://github.com/packit/specfile/archive/refs/tags/0.32.5.tar.gz
+	b2sums = 9ef1e0088250923605217730b15b19e7fae8dafc4f6459048cbfb84946b8062b04cdfcf8bb1f4f85c329f27e945d33a2237476fc011829e85c350d5d2ada26e2
+
+pkgname = python-specfile

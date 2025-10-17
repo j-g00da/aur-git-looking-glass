@@ -1,0 +1,23 @@
+pkgbase = mingw-w64-cppwinrt
+	pkgdesc = C++ language projection for Windows Runtime (WinRT) APIs (mingw-w64)
+	pkgver = 2.0.250303.1
+	pkgrel = 1
+	url = https://aka.ms/cppwinrt
+	arch = any
+	license = spdx:MIT
+	makedepends = mingw-w64-gcc
+	makedepends = mingw-w64-cmake
+	makedepends = mingw-w64-wine
+	makedepends = ninja
+	makedepends = git
+	depends = mingw-w64-crt
+	options = !buildflags
+	options = staticlibs
+	options = !strip
+	options = !emptydirs
+	source = https://github.com/microsoft/cppwinrt/archive/2.0.250303.1/cppwinrt-2.0.250303.1.tar.gz
+	source = https://github.com/microsoft/windows-rs/archive/65/windows-rs-65.tar.gz
+	sha256sums = da75b7047f4615a3db582ed8c75ee327f228b05bb47750621593594d2d0459e1
+	sha256sums = f044c5046fd32745bef1fa43b27db1977b0f4f2be615b65f69ef7c4a8ed61b3a
+
+pkgname = mingw-w64-cppwinrt

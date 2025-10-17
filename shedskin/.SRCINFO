@@ -1,0 +1,18 @@
+pkgbase = shedskin
+	pkgdesc = An experimental (restricted-)Python-to-C++ compiler
+	pkgver = 0.9.10
+	pkgrel = 2
+	url = https://shedskin.github.io/
+	arch = any
+	license = GPL-3.0-only
+	makedepends = git
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-poetry-core
+	depends = pcre
+	depends = gc
+	depends = python
+	source = git+https://github.com/shedskin/shedskin.git#tag=v0.9.10
+	sha256sums = SKIP
+
+pkgname = shedskin

@@ -1,0 +1,12 @@
+pkgbase = play
+	pkgdesc = TUI playground to experiment with programs such as grep, sed and awk
+	pkgver = 0.4.0
+	pkgrel = 1
+	url = https://github.com/paololazzari/play
+	arch = x86_64
+	license = Apache-2.0
+	makedepends = go
+	source = play-0.4.0.tar.gz::https://github.com/paololazzari/play/archive/refs/tags/v0.4.0.tar.gz
+	sha256sums = 7abe1745099e9b4d66e5fc62a1180f2170e8351953d0c6978dfc4719591cd00e
+
+pkgname = play

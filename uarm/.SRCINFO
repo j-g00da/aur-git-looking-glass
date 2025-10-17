@@ -1,0 +1,18 @@
+pkgbase = uarm
+	pkgdesc = arm7tdmi based computer emulator with debugging tools
+	pkgver = 1.1.0
+	pkgrel = 1
+	url = http://mellotanica.github.io/uARM/
+	arch = x86_64
+	license = GPL
+	depends = qt5-declarative
+	depends = boost
+	optdepends = python2: for uarm-readuarm header reader
+	optdepends = arm-none-eabi-gcc: cross compiler for target architecture
+	conflicts = uarm-git
+	backup = etc/default/uarm
+	source = https://github.com/mellotanica/uARM/releases/download/v1.1.0/uarm-1.1.0-x86_64_prebuilt.tar.gz
+	md5sums = 21a92551c29197eedcdf161298d40b02
+
+pkgname = uarm
+

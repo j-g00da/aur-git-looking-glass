@@ -1,0 +1,27 @@
+pkgbase = sopel
+	pkgdesc = An easy-to-use and highly extensible IRC Bot framework (Formerly Willie)
+	pkgver = 8.0.4
+	pkgrel = 1
+	url = https://sopel.chat
+	arch = any
+	license = EFL-2.0
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	depends = python-dnspython
+	depends = python-importlib-metadata
+	depends = python-packaging
+	depends = python-pytz
+	depends = python-requests
+	depends = python-sqlalchemy
+	depends = python-typing_extensions
+	depends = python-unicodedata2
+	depends = python-urllib3
+	depends = python-xmltodict
+	depends = sqlite
+	source = sopel-8.0.4.tar.gz::https://github.com/sopel-irc/sopel/archive/refs/tags/v8.0.4.tar.gz
+	sha512sums = 327bd60753f7f16bab65a029c42cb1f10941b4ea444ff3c240eb951177710d89dd3dc03d3cae58f4b4bdb86036c9f25857e8accf4cc795bbce67326148e03e72
+
+pkgname = sopel

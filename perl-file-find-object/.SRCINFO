@@ -1,0 +1,17 @@
+pkgbase = perl-file-find-object
+	pkgdesc = An object oriented File::Find replacement
+	pkgver = 0.3.9
+	pkgrel = 1
+	url = https://metacpan.org/release/File-Find-Object
+	arch = any
+	license = Artistic-2.0
+	checkdepends = perl-test-file>=1.993
+	depends = perl-class-xsaccessor>=0
+	depends = perl-file-treecreate>=0
+	depends = perl-module-build>=0.28
+	depends = perl>=5.008
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/S/SH/SHLOMIF/File-Find-Object-0.3.9.tar.gz
+	sha512sums = 6d4dffd7586c7b752390dbcb220d9a849becec161b251c39a5146abb3f736efb7301e296d274f2dcccc95626c00e9c43a8e4c46cae23645f4aedd67914414667
+
+pkgname = perl-file-find-object

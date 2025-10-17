@@ -1,0 +1,19 @@
+pkgbase = python-playsound
+	pkgdesc = Pure Python library for playing sounds
+	pkgver = 1.3.0
+	pkgrel = 2
+	url = https://github.com/TaylorSMarks/playsound
+	changelog = CHANGES
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	source = python-playsound-1.3.0.tar.gz::https://github.com/TaylorSMarks/playsound/archive/v1.3.0.tar.gz
+	source = setup.py.patch
+	sha256sums = a830c77ad613e0580642d677453a9bc6924a06d5d9447a5ab676ff3621f5d9ee
+	sha256sums = 9dad08ea67730400466065d3b7db345b94bb581a55431baba9ad8350976f93c8
+
+pkgname = python-playsound

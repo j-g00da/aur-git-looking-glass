@@ -1,0 +1,19 @@
+pkgbase = python-arm-preprocessing
+	pkgdesc = Implementation of several preprocessing techniques for Association Rule Mining
+	pkgver = 0.2.5
+	pkgrel = 1
+	url = https://github.com/firefly-cpp/arm-preprocessing
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	checkdepends = python-sport-activities-features
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-poetry-core
+	depends = python-niaarm
+	depends = python-scikit-learn
+	optdepends = python-sport-activities-features
+	source = arm-preprocessing-0.2.5.tar.gz::https://github.com/firefly-cpp/arm-preprocessing/archive/0.2.5.tar.gz
+	sha512sums = d3566444a316561893ed3fa5fba0822cf296f57b7f4737973b7f50b6eeb4d85ae28b33f3662d2cb7e4fe82f23f73ed5e24ad14b2d28deb3e0986bdf9ba213f8b
+
+pkgname = python-arm-preprocessing

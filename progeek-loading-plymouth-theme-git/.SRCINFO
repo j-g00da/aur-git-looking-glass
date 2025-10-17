@@ -1,0 +1,11 @@
+pkgbase = progeek-loading-plymouth-theme-git
+	pkgdesc = Progeek loading animation theme for plymouth
+	pkgver = d29e42d
+	pkgrel = 1
+	arch = any
+	license = GPL
+	depends = plymouth
+	source = git+https://github.com/choffmann/progeek-loading-plymouth-theme.git
+	md5sums = SKIP
+
+pkgname = progeek-loading-plymouth-theme-git

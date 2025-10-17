@@ -1,0 +1,15 @@
+pkgbase = python-livereload
+	pkgdesc = livereload server in python
+	pkgver = 2.7.1
+	pkgrel = 1
+	url = https://github.com/lepture/python-livereload
+	arch = any
+	license = BSD
+	makedepends = python-setuptools
+	depends = python
+	depends = python-six
+	depends = python-tornado
+	source = python-livereload-2.7.1.tar.gz::https://github.com/lepture/python-livereload/archive/v2.7.1.tar.gz
+	sha512sums = a0c5a316ad5d34518b6ca44cddff51ba45d60a8ba24de767e791aa529e4ab22accf15916321fea755e67f4fd0aecb1e0ed840142662c27c8eaa6cad5dc2a7399
+
+pkgname = python-livereload

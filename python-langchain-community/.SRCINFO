@@ -1,0 +1,27 @@
+pkgbase = python-langchain-community
+	pkgdesc = Community contributed LangChain integrations.
+	pkgver = 0.3.31
+	pkgrel = 1
+	url = https://github.com/langchain-ai/langchain/blob/master/libs/community
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-pdm-backend
+	makedepends = python-wheel
+	depends = python-aiohttp
+	depends = python-dataclasses-json
+	depends = python-httpx-sse
+	depends = python-langchain
+	depends = python-langchain-core
+	depends = python-langsmith
+	depends = python-numpy
+	depends = python-pydantic-settings
+	depends = python-pyyaml
+	depends = python-requests
+	depends = python-sqlalchemy
+	depends = python-tenacity
+	source = langchain-community-0.3.31.tar.gz::https://files.pythonhosted.org/packages/source/l/langchain-community/langchain_community-0.3.31.tar.gz
+	b2sums = bc7b9d6a091249fc6308474753eab7ffa597bb0e644ed01dd17045d78219b4c711f65374c62b31d7126d731e9721599cf70744409fa3473123bdde5008d2dd69
+
+pkgname = python-langchain-community

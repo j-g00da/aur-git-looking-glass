@@ -1,0 +1,16 @@
+pkgbase = octave-octproj
+	pkgdesc = This package allows to call functions of PROJ library for cartographic projections and CRS transformations
+	pkgver = 3.1.0
+	pkgrel = 1
+	url = https://bitbucket.org/jgpallero/octproj
+	install = octave-octproj.install
+	arch = any
+	groups = octave-forge
+	license = GPL-3.0-or-later
+	depends = octave>=3.0.0
+	depends = proj
+	noextract = octproj-3.1.0.tar.gz
+	source = octproj-3.1.0.tar.gz::https://bitbucket.org/jgpallero/octproj/downloads/octproj-3.1.0.tar.gz
+	sha512sums = edab4e0bd5562f1170d1ca00a0807cea4ab9f4c73a106fe02108feec783a5104feafb9326a9967e228446187f393537a5d652fc0884303291ed278e77b4f91a2
+
+pkgname = octave-octproj

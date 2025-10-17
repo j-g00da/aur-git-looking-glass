@@ -1,0 +1,20 @@
+pkgbase = gitmux-bin
+	pkgdesc = Git in your tmux status bar
+	pkgver = 0.11.5
+	pkgrel = 1
+	url = https://github.com/arl/gitmux
+	arch = x86_64
+	arch = i686
+	arch = aarch64
+	license = MIT
+	depends = tmux
+	provides = gitmux
+	conflicts = gitmux
+	source_x86_64 = https://github.com/arl/gitmux/releases/download/v0.11.5/gitmux_v0.11.5_linux_amd64.tar.gz
+	sha256sums_x86_64 = d46a10f5fe07ab5b8a902ac29c937e4d3c8d7f33ea30fa335d682601697b5a71
+	source_i686 = https://github.com/arl/gitmux/releases/download/v0.11.5/gitmux_v0.11.5_linux_386.tar.gz
+	sha256sums_i686 = 0fad997bcfe95f073dab2cf70b0f9b40b91d0578aa4d8e278b4f67a2c70ac7d5
+	source_aarch64 = https://github.com/arl/gitmux/releases/download/v0.11.5/gitmux_v0.11.5_linux_arm64.tar.gz
+	sha256sums_aarch64 = 89a03a76828267927d57904f0f716a9b9aad627d1697d5c0c883d60c09bb4ff6
+
+pkgname = gitmux-bin

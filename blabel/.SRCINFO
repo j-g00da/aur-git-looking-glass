@@ -1,0 +1,18 @@
+pkgbase = blabel
+	pkgdesc = A cloud & AI-free open-source labeling program for Brother P-touch series
+	pkgver = 1.04
+	pkgrel = 4
+	url = https://apz.fi/blabel
+	arch = any
+	groups = office
+	license = PerlArtistic
+	depends = perl-gtk3
+	depends = pango-perl
+	depends = perl-net-cups
+	depends = perl-gd
+	provides = blabel
+	source = https://apz.fi/blabel/src/blabel-v1.04-build-40.tar.bz2
+	md5sums = 9497c92d82671777cab3c40fec5d2e7f
+
+pkgname = blabel
+

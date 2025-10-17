@@ -1,0 +1,16 @@
+pkgbase = r-roc
+	pkgdesc = utilities for ROC, with microarray focus
+	pkgver = 1.84.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/ROC
+	arch = x86_64
+	license = Artistic2.0
+	depends = r
+	depends = r-knitr
+	optdepends = r-biobase
+	optdepends = r-biocstyle
+	optdepends = r-rmarkdown
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/ROC_1.84.0.tar.gz
+	sha256sums = 359bbc7b79ac64db6b23db3bbd5b49784a01ff5a9a5ac31c057a00b6900ddc2e
+
+pkgname = r-roc

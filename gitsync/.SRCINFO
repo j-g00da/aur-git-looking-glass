@@ -1,0 +1,12 @@
+pkgbase = gitsync
+	pkgdesc = GitSyncMaster: Effortlessly Automate Git Repository Updates, Including Committing and Pulling, Across Directory Structures.
+	pkgver = 0.0.26
+	pkgrel = 1
+	url = https://github.com/felipealfonsog/GitSyncMaster
+	arch = x86_64
+	license = BSD 3-Clause
+	depends = python
+	source = https://github.com/felipealfonsog/GitSyncMaster/archive/refs/tags/v.0.0.26.tar.gz
+	sha256sums = e683510cbad54f75f8ad994cb6fd7f809a4710298822b73b8e76ce736153f3b0
+
+pkgname = gitsync

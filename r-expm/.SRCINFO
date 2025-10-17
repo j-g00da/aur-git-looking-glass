@@ -1,0 +1,15 @@
+pkgbase = r-expm
+	pkgdesc = Computation of the matrix exponential, logarithm, sqrt, and related quantities, using traditional and modern methods.
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://cran.r-project.org/package=expm
+	arch = any
+	license = GPL-3
+	depends = r
+	optdepends = r-rcolorbrewer
+	optdepends = r-sfsmisc
+	optdepends = r-rmpfr
+	source = https://cran.r-project.org/src/contrib/expm_1.0-0.tar.gz
+	sha256sums = 02c536f8f6af55b132210a50b1e9694a3549806bf97c49e0fe03595945aab254
+
+pkgname = r-expm

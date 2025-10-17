@@ -1,0 +1,16 @@
+pkgbase = hyuga
+	pkgdesc = yet another hy language server
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/sakuraiyuta/hyuga
+	arch = any
+	license = MIT
+	makedepends = python-installer
+	depends = hy
+	depends = hy-hyrule
+	depends = python-pygls
+	depends = python-toolz
+	source = https://files.pythonhosted.org/packages/py3/h/hyuga/hyuga-1.0.0-py3-none-any.whl
+	sha256sums = 6469dd72b61b2d2b6b379863f66cd4ca3f43a605b942dd951f6db28d7f8164e1
+
+pkgname = hyuga

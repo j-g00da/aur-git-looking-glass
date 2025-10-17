@@ -1,0 +1,18 @@
+pkgbase = r-tweedeseq
+	pkgdesc = RNA-seq data analysis using the Poisson-Tweedie family of distributions
+	pkgver = 1.54.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/tweeDEseq
+	arch = x86_64
+	license = GPL
+	depends = r
+	depends = r-cqn
+	depends = r-edger
+	depends = r-limma
+	depends = r-rcpp
+	optdepends = r-tweedeseqcountdata
+	optdepends = r-xtable
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/tweeDEseq_1.54.0.tar.gz
+	sha256sums = 7446f122a71f2c19c4da49d39d8adb053b8847126dad6e14f10ae163134ccaf6
+
+pkgname = r-tweedeseq

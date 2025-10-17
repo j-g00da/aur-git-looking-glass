@@ -1,0 +1,23 @@
+pkgbase = cmd-markdown
+	pkgdesc = An enhanced Markdown editor with MathJax, flowchart & sequence-diagram support
+	pkgver = 3.0
+	pkgrel = 1
+	url = https://www.zybuluo.com/cmd
+	arch = x86_64
+	arch = i686
+	license = custom
+	depends = nss
+	depends = gconf
+	depends = libnotify
+	depends = gtk2
+	depends = alsa-lib
+	depends = libxtst
+	depends = libudev0-shim
+	depends = hicolor-icon-theme
+	options = !strip
+	source_x86_64 = cmd-markdown_x86_64_3.0.zip::https://client.zybuluo.com/cmd_linux64_v3.zip
+	sha256sums_x86_64 = ab1cf279d9edf10421771afb6e7665b6ebcf712955e9bd24be878774375677ef
+	source_i686 = cmd-markdown_i686_3.0.zip::https://client.zybuluo.com/cmd_linux32_v3.zip
+	sha256sums_i686 = 5ca01813eaed9ae3e162b03c8fc843b70c57f3a38335a005d6eed1366dcca9b3
+
+pkgname = cmd-markdown

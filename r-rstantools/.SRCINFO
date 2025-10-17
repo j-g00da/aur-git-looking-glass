@@ -1,0 +1,27 @@
+pkgbase = r-rstantools
+	pkgdesc = Tools for Developing R Packages Interfacing with 'Stan'
+	pkgver = 2.5.0
+	pkgrel = 1
+	url = https://cran.r-project.org/package=rstantools
+	arch = any
+	license = GPL-3.0-or-later
+	checkdepends = r-rstan
+	checkdepends = r-testthat
+	checkdepends = r-usethis
+	depends = r-desc
+	depends = r-rcpp
+	depends = r-rcppparallel
+	optdepends = r-knitr
+	optdepends = r-pkgbuild
+	optdepends = r-pkgload
+	optdepends = r-rmarkdown
+	optdepends = r-roxygen2
+	optdepends = r-rstan
+	optdepends = r-rstudioapi
+	optdepends = r-testthat
+	optdepends = r-usethis
+	source = https://cran.r-project.org/src/contrib/rstantools_2.5.0.tar.gz
+	md5sums = 1450094355f080a6fb1b998dd09d4b84
+	b2sums = df13d7b3eeb560eaa1d0d50d6bd43d88f71657a5d8923ef7c71cc00529c35350ea486905775d4ecce42724a8bcfba7f8550c1b819bf78f83f3853722dbeb05c3
+
+pkgname = r-rstantools

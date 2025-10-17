@@ -1,0 +1,14 @@
+pkgbase = sqlbox
+	pkgdesc = Privilege-separated multiprocess secure database access library
+	pkgver = 0.2.1
+	pkgrel = 1
+	url = https://kristaps.bsd.lv/sqlbox/
+	arch = x86_64
+	license = 0BSD
+	makedepends = bmake
+	makedepends = sqlite3
+	depends = glibc
+	source = https://kristaps.bsd.lv/sqlbox//snapshots/sqlbox-0.2.1.tar.gz
+	b2sums = 33b163893319e549b7cc313ed74167f8f6251fea4a6925a5df488665785af9544a21ab3e02cab9fb70b2745e242854087b489daa7f4b4a6b70773a57ecf6ed5d
+
+pkgname = sqlbox

@@ -1,0 +1,40 @@
+# Maintainer: dimflix <dimflix.official@gmail.com>
+pkgname=meowrch-tools
+pkgver=2.0.0
+pkgrel=9
+pkgdesc="Performance optimization tools and scripts for Meowrch distribution"
+arch=('any')
+url="https://github.com/meowrch/meowrch"
+license=('MIT')
+depends=('bash' 'systemd' 'coreutils' 'curl' 'jq' 'tar' 'python3')
+optdepends=('nvidia-utils: for NVIDIA GPU optimizations'
+            'gamemode: for gaming optimizations'
+            'mangohud: for gaming performance monitoring'
+            'steam: for Steam integration'
+            'lutris: for Lutris integration'
+            'cpupower: for CPU frequency management'
+            'mesa: for OpenGL/Vulkan optimizations with zink-run'
+            'power-profiles-daemon: for power profile management'
+            'less: for migration file preview'
+            'sudo: for system updates')
+install=meowrch-tools.install
+source=("meowrch-tools-2.0.0-9.tar.gz::$url/archive/refs/heads/v3.0.tar.gz")
+# Автоматическая замена в workflow
+sha256sums=('c8dfb4eb41552374bf72c89eac1ae2e9d5dfd5bc4e767c0ae35d3d97fab809fb')
+
+package() {
+    cd "$srcdir/meowrch-3.0/aur-packages/meowrch-tools"
+    
+    # Copy organized structure 
+    cp -r "usr" "$pkgdir/"
+    
+    # Make all scripts executable
+    chmod +x "$pkgdir/usr/bin/"*
+    chmod +x "$pkgdir/usr/bin/core/"*
+    chmod +x "$pkgdir/usr/bin/wrappers/"*
+    chmod +x "$pkgdir/usr/bin/gaming/"*
+    
+    # Create directories for user configs
+    install -dm755 "$pkgdir/usr/share/meowrch-tools"
+    install -dm755 "$pkgdir/etc/meowrch"
+}

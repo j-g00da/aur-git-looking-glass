@@ -1,0 +1,20 @@
+pkgbase = translatelocally-git
+	pkgdesc = Fast and secure translation on your local machine, powered by marian and Bergamot.
+	pkgver = r512.1d0d382
+	pkgrel = 1
+	url = https://translatelocally.com
+	arch = x86_64
+	license = MIT
+	makedepends = cmake
+	makedepends = git
+	makedepends = intel-oneapi-mkl
+	makedepends = qt6-tools
+	makedepends = gcc14
+	depends = libarchive
+	depends = qt6-base
+	depends = qt6-svg
+	depends = pcre2
+	source = git+https://github.com/XapaJIaMnu/translateLocally.git
+	sha256sums = SKIP
+
+pkgname = translatelocally-git

@@ -1,0 +1,19 @@
+pkgbase = synapse-http-antispam
+	pkgdesc = A Synapse module that forwards spam checking to an HTTP server.
+	pkgver = 0.5.0
+	pkgrel = 1
+	url = https://github.com/maunium/synapse-http-antispam
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = git
+	makedepends = python-hatchling
+	depends = python
+	depends = python-twisted
+	depends = matrix-synapse
+	source = git+https://github.com/maunium/synapse-http-antispam.git#tag=v0.5.0
+	sha256sums = 9b02b1bdf8d28be1bbd823b654269a5647e8e407292b310a693e7733d85059b1
+
+pkgname = synapse-http-antispam

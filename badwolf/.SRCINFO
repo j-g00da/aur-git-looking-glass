@@ -1,0 +1,19 @@
+pkgbase = badwolf
+	pkgdesc = A minimalist and privacy-oriented WebKitGTK+ browser.
+	pkgver = 1.4.0
+	pkgrel = 1
+	url = https://hacktivis.me/projects/badwolf
+	changelog = changelog
+	arch = i686
+	arch = x86_64
+	arch = armv7h
+	arch = aarch64
+	license = BSD
+	makedepends = ninja
+	makedepends = ed
+	depends = webkit2gtk-4.1
+	depends = libxml2
+	source = https://distfiles.hacktivis.me/releases/badwolf/badwolf-1.4.0.tar.gz
+	sha512sums = 5528572fab02b36727b90dce5ec758862c684777bef291c70b99bae0941debd20f717a7d50942152e3f7017c900a5c8fec8e825c86a18f499e7f35bb37c02d0c
+
+pkgname = badwolf

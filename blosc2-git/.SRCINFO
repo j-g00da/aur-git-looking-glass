@@ -1,0 +1,21 @@
+pkgbase = blosc2-git
+	pkgdesc = Next generation c-blosc
+	pkgver = 2.19.0.r4.gffd84083
+	pkgrel = 2
+	url = https://www.blosc.org/
+	arch = i686
+	arch = x86_64
+	license = BSD-3-Clause
+	makedepends = git
+	makedepends = cmake
+	depends = glibc
+	depends = lz4
+	depends = zlib
+	depends = zstd
+	provides = blosc2=2.19.0.r4.gffd84083
+	conflicts = blosc2
+	options = staticlibs
+	source = git+https://github.com/Blosc/c-blosc2.git
+	sha256sums = SKIP
+
+pkgname = blosc2-git

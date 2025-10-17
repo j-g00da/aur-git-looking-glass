@@ -1,0 +1,20 @@
+pkgbase = r-cnvrd2
+	pkgdesc = CNVrd2: a read depth-based method to detect and genotype complex common copy number variants from next generation sequencing data.
+	pkgver = 1.46.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/CNVrd2
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-dnacopy
+	depends = r-ggplot2
+	depends = r-gridextra
+	depends = r-iranges
+	depends = r-rjags
+	depends = r-rsamtools
+	depends = r-variantannotation
+	optdepends = r-knitr
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/CNVrd2_1.46.0.tar.gz
+	sha256sums = c147c4338f629fffc754cf3f5bfbf8385b22d6e0720fcbe34d10f99d97a39216
+
+pkgname = r-cnvrd2

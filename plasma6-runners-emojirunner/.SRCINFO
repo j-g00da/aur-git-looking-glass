@@ -1,0 +1,18 @@
+pkgbase = plasma6-runners-emojirunner
+	pkgdesc = Search for emojis in Krunner and copy/paste them
+	pkgver = 3.0.5
+	pkgrel = 1
+	url = https://github.com/alex1701c/EmojiRunner
+	install = plasma6-runners-emojirunner.install
+	arch = x86_64
+	license = GLP3
+	makedepends = cmake
+	makedepends = extra-cmake-modules
+	makedepends = ki18n
+	makedepends = kcmutils
+	depends = xdotool
+	depends = krunner
+	source = https://github.com/alex1701c/EmojiRunner/archive/3.0.5.tar.gz
+	sha256sums = 4bf4b1bccf655e41346d5ad203dc857acb0236d3b5e62be7510e54fab0377bd8
+
+pkgname = plasma6-runners-emojirunner

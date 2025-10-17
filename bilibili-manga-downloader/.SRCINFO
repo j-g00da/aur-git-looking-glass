@@ -1,0 +1,30 @@
+pkgbase = bilibili-manga-downloader
+	pkgdesc = 哔哩哔哩漫画 bilibili漫画 B漫 的多线程下载器，带图形界面、导出cbz
+	pkgver = 0.11.3
+	pkgrel = 1
+	url = https://github.com/lanyeeee/bilibili-manga-downloader
+	arch = x86_64
+	license = MIT
+	makedepends = rust
+	makedepends = git
+	makedepends = cargo-tauri
+	makedepends = pnpm
+	depends = cairo
+	depends = gcc-libs
+	depends = gdk-pixbuf2
+	depends = glib2
+	depends = glibc
+	depends = gtk3
+	depends = hicolor-icon-theme
+	depends = libsoup3
+	depends = openssl
+	depends = webkit2gtk-4.1
+	provides = bilibili-manga-downloader
+	conflicts = bilibili-manga-downloader
+	options = !debug
+	options = !strip
+	options = !lto
+	source = bilibili-manga-downloader::git+https://github.com/lanyeeee/bilibili-manga-downloader#tag=v0.11.3
+	sha256sums = ce24957dd048dd1dacc39764b822edeca652627d9dbdf924c5063c450bde78f0
+
+pkgname = bilibili-manga-downloader

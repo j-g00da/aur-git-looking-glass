@@ -1,0 +1,24 @@
+pkgbase = web-archives
+	pkgdesc = A web archives reader
+	pkgver = 0.5.1
+	pkgrel = 1
+	url = https://github.com/birros/web-archives
+	arch = x86_64
+	license = GPL-3.0-or-later
+	checkdepends = appstream
+	makedepends = meson
+	makedepends = vala
+	depends = gtk3
+	depends = libhandy
+	depends = libisocodes
+	depends = libsoup3
+	depends = libzim-glib
+	depends = sqlite
+	depends = tinysparql
+	depends = webkit2gtk-4.1
+	source = web-archives-0.5.1.tar.gz::https://github.com/birros/web-archives/archive/refs/tags/v0.5.1.tar.gz
+	source = https://github.com/birros/web-archives-darkreader/releases/download/v0.0.1/web-archives-darkreader_v0.0.1.js
+	sha256sums = de473a1af35ce588f51020f6282652619019d84d70a8e74e57cfb3525337537d
+	sha256sums = 8ee840aacd9e09864a7ab2e75f736f696dcd4b4b8e86a07ba727ff3d10ef32a1
+
+pkgname = web-archives

@@ -1,0 +1,43 @@
+pkgbase = netbird
+	pkgver = 0.59.6
+	pkgrel = 1
+	url = https://netbird.io
+	arch = i686
+	arch = pentium4
+	arch = x86_64
+	arch = arm
+	arch = armv7h
+	arch = armv6h
+	arch = aarch64
+	arch = riscv64
+	makedepends = go
+	source = netbird-0.59.6.tar.gz::https://github.com/netbirdio/netbird/archive/refs/tags/v0.59.6.tar.gz
+	sha256sums = 7c6e27e66d041dbfa10c05f611fc464e0d48dff6870e8408147328ea166e1a42
+
+pkgname = netbird
+	pkgdesc = WireGuard-based overlay network: client
+	license = BSD-3-Clause
+	depends = glibc
+	optdepends = resolvconf: Private DNS
+	replaces = wiretrustee
+	backup = etc/default/netbird
+
+pkgname = netbird-management
+	pkgdesc = WireGuard-based overlay network: management service
+	license = AGPL-3.0-only
+	depends = glibc
+	depends = ca-certificates
+	optdepends = redis: IDP cache store
+	backup = etc/default/netbird-management
+
+pkgname = netbird-signal
+	pkgdesc = WireGuard-based overlay network: signal service
+	license = AGPL-3.0-only
+	depends = glibc
+	backup = etc/default/netbird-signal
+
+pkgname = netbird-relay
+	pkgdesc = WireGuard-based overlay network: relay service
+	license = AGPL-3.0-only
+	depends = glibc
+	backup = etc/default/netbird-relay

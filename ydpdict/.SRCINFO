@@ -1,0 +1,18 @@
+pkgbase = ydpdict
+	pkgdesc = Interface for Polish-English Collins Dictionary
+	pkgver = 1.0.5
+	pkgrel = 1
+	url = https://github.com/wojtekka/ydpdict
+	arch = i686
+	arch = x86_64
+	license = GPL2
+	license = LGPL2.1
+	depends = libydpdict
+	depends = libao
+	depends = ncurses
+	optdepends = sox
+	backup = etc/ydpdict.conf
+	source = https://github.com/wojtekka/ydpdict/releases/download/1.0.5/ydpdict-1.0.5.tar.gz
+	sha256sums = 024d1b2116dd8a529950e6cde0b430c0b7a425bc3cc403129ebac3779750b68e
+
+pkgname = ydpdict

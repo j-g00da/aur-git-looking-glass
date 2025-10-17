@@ -1,0 +1,15 @@
+pkgbase = ksubdomain
+	pkgdesc = 无状态子域名爆破工具
+	pkgver = 2.4.0
+	pkgrel = 1
+	url = https://github.com/boy-hack/ksubdomain
+	arch = x86_64
+	arch = i686
+	license = MIT
+	makedepends = go
+	depends = libpcap
+	depends = glibc
+	source = ksubdomain-2.4.0.tar.gz::https://github.com/boy-hack/ksubdomain/archive/v2.4.0.tar.gz
+	b2sums = 7d67de991a64b52b16de2bec9d55659ee867863c0e721fc342ca2a56fb5607d4527c9a30b4295350e89d4aa757b5f62eb5c2d34b01357b5cf4fdd0eddc86e946
+
+pkgname = ksubdomain

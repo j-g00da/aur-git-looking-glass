@@ -1,0 +1,16 @@
+pkgbase = flatseal-git
+	pkgdesc = A permissions manager for Flatpak.
+	pkgver = v2.1.0.r4.ge7db264
+	pkgrel = 1
+	url = https://github.com/tchx84/Flatseal/
+	arch = x86_64
+	license = GPL3
+	makedepends = git
+	makedepends = meson
+	depends = gjs
+	depends = webkitgtk-6.0
+	depends = appstream-glib
+	source = git+https://github.com/tchx84/Flatseal.git
+	sha1sums = SKIP
+
+pkgname = flatseal-git

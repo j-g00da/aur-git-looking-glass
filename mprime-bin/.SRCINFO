@@ -1,0 +1,15 @@
+pkgbase = mprime-bin
+	pkgdesc = A GIMPS, distributed computing project client, dedicated to finding Mersenne primes. Precompiled binary version.
+	pkgver = 30.19.20
+	pkgrel = 1
+	epoch = 1
+	url = http://www.mersenne.org
+	arch = x86_64
+	license = custom
+	depends = gcc-libs
+	provides = mprime
+	conflicts = mprime
+	source = https://www.mersenne.org/download/software/v30/30.19/p95v3019b20.linux64.tar.gz
+	b2sums = 52bcc27d34bff75aca89208ede35668183e1707d80ecf3704e0478c91913f10c717973976f95eae7a9caedd0efb2643039dfdb84790b715955772dc6d2ad4b6d
+
+pkgname = mprime-bin

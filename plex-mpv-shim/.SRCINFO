@@ -1,0 +1,19 @@
+pkgbase = plex-mpv-shim
+	pkgdesc = Cast media from Plex Mobile and Web apps to MPV
+	pkgver = 1.11.1
+	pkgrel = 1
+	url = https://github.com/endlesseden/plex-mpv-shim
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python-certifi
+	depends = python-mpv
+	depends = python-mpv-jsonipc
+	depends = python-requests
+	optdepends = mpv-shim-default-shaders: for the default shader pack
+	optdepends = python-pystray: for system tray support
+	optdepends = tk: for GUI support
+	source = https://github.com/endlesseden/plex-mpv-shim/archive/v1.11.1/plex-mpv-shim-1.11.1.tar.gz
+	b2sums = a4c52e516cb138684927f9f7f270e1e9d9dd77728394800d52569f7c70b782302bb2f68f7ab16ead19322eae4bff8eca5b7f4e2c155db86c6593303a375e5d07
+
+pkgname = plex-mpv-shim

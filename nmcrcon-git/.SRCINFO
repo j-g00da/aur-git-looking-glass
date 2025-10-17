@@ -1,0 +1,12 @@
+pkgbase = nmcrcon-git
+	pkgdesc = Yet another Minecraft RCON client that isn't against humanity and actually works.
+	pkgver = r51.f1917f7
+	pkgrel = 1
+	url = https://github.com/nicholascw/nmcrcon
+	arch = any
+	license = GPL-3.0-only
+	makedepends = git
+	source = nmcrcon::git+https://github.com/nicholascw/nmcrcon.git
+	sha256sums = SKIP
+
+pkgname = nmcrcon-git

@@ -1,0 +1,34 @@
+pkgbase = vinyl-git
+	pkgdesc = Vinyl Theme for KDE Plasma 6
+	pkgver = r110.f16a505
+	pkgrel = 1
+	url = https://github.com/ekaaty/vinyl-theme
+	arch = x86_64
+	arch = aarch64
+	license = GPL-2.0-or-later
+	makedepends = cmake
+	makedepends = extra-cmake-modules>=6.13.0
+	makedepends = git
+	depends = kdecoration
+	depends = qt6-declarative
+	depends = kcoreaddons
+	depends = kcmutils
+	depends = kcolorscheme
+	depends = kconfig
+	depends = kguiaddons
+	depends = kiconthemes
+	depends = kwindowsystem
+	depends = kdoctools
+	depends = kpackage
+	depends = frameworkintegration
+	depends = python-cairosvg
+	depends = python-lxml
+	depends = xorg-xcursorgen
+	depends = libplasma>=6.3.0
+	provides = vinyl-git
+	options = !emptydirs
+	options = !debug
+	source = vinyl.git::git+https://github.com/ekaaty/vinyl-theme.git
+	sha256sums = SKIP
+
+pkgname = vinyl-git

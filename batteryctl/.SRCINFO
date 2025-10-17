@@ -1,0 +1,15 @@
+pkgbase = batteryctl
+	pkgdesc = An open-source Rust-based command-line tool for interacting with batteries.
+	pkgver = 1.1.0
+	pkgrel = 3
+	url = https://github.com/DucktectiveCZ/batteryctl
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	makedepends = git
+	depends = gcc-libs
+	depends = glibc
+	source = git+https://github.com/DucktectiveCZ/batteryctl.git
+	sha256sums = SKIP
+
+pkgname = batteryctl

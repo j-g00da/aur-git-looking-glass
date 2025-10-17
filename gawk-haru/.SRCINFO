@@ -1,0 +1,18 @@
+pkgbase = gawk-haru
+	pkgdesc = GAWK extension - interface to the libharu PDF library
+	pkgver = 1.0.2
+	pkgrel = 6
+	url = https://sourceforge.net/projects/gawkextlib/
+	arch = x86_64
+	license = GPL-3.0-or-later
+	depends = gawkextlib
+	depends = glibc
+	depends = libharu
+	source = https://downloads.sourceforge.net/gawkextlib/gawk-haru-1.0.2.tar.gz
+	source = fix-build.patch
+	md5sums = a2e5a2f3dfe2a49460719e1fe485d45d
+	md5sums = 72ec160c9ab0fde4682d2f67618ea166
+	sha256sums = 92fb8d83b71de2fe2aec0bc2468459e728290e0c675ca8c19aaf195ba3cad9b6
+	sha256sums = 9f533f9215c27955122075ccd37dadafa864e47cc5a6b782d62cf592baac461c
+
+pkgname = gawk-haru

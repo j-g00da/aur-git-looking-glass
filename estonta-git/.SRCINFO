@@ -1,0 +1,15 @@
+pkgbase = estonta-git
+	pkgdesc = A simple Bash and Yad-based appointment system.
+	pkgver = r49.36f15db
+	pkgrel = 1
+	url = https://github.com/coreymwamba/estonta
+	install = estonta-git.install
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = git
+	optdepends = yad: graphical interface
+	source = git+https://github.com/coreymwamba/estonta
+	md5sums = SKIP
+
+pkgname = estonta-git

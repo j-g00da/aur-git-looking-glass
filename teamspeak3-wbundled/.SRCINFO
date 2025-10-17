@@ -1,0 +1,27 @@
+pkgbase = teamspeak3-wbundled
+	pkgdesc = TeamSpeak is software for quality voice communication via the Internet
+	pkgver = 3.6.2
+	pkgrel = 1
+	url = http://www.teamspeak.com
+	arch = x86_64
+	license = custom
+	makedepends = patchelf
+	depends = quazip-qt5
+	depends = libc++
+	depends = qt5-svg
+	depends = qt5-webengine
+	depends = qt5-websockets
+	optdepends = libpulse
+	provides = teamspeak3
+	conflicts = teamspeak3
+	options = !strip
+	source = teamspeak3.desktop
+	source = teamspeak3.png
+	source = LICENSE
+	source = https://files.teamspeak-services.com/releases/client/3.6.2/TeamSpeak3-Client-linux_amd64-3.6.2.run
+	sha512sums = 4cac0b7446dc3e728b232fdd6c6d75be1d2a5530635eab5918a4e7dd6a4a3fc21d6a75055da919b56e5cf849f4c5ba26ece56759a45bc4850eba3eb73853759d
+	sha512sums = af18ed36a3c8de90b60a7205ebf91a35d4b517f22f97d541c82debdb12697882469d9771fdf3fb8b081aeb74a01237f3afd4732daccf4b374dc6d39e7df5d444
+	sha512sums = d6d03f1bda86c90390ce0032e4d30e889977f80ff76ba1e5c443109e93cbedbee92c6fc2759f58d23659c15dba4f2ac718861571239ba117dcfe11f136f556dc
+	sha512sums = 09448086ed3322ba5a37905c5b893fdf0860e5e80852da2713a2d3aceddc071ff6cd7bc213f494759b9448615a027130579da7292f59447b3c31553e151d35eb
+
+pkgname = teamspeak3-wbundled

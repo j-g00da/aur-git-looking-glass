@@ -1,0 +1,12 @@
+pkgbase = python-spacy-fi_core_news_lg
+	pkgdesc = Finnish pretrained model for spaCy (large)
+	pkgver = 3.8.0
+	pkgrel = 1
+	url = https://spacy.io/models/fi#section-fi_core_news_lg
+	arch = any
+	license = CCPL
+	makedepends = python-setuptools
+	source = https://github.com/explosion/spacy-models/releases/download/fi_core_news_lg-3.8.0/fi_core_news_lg-3.8.0.tar.gz
+	b2sums = fd0431fb8597203fb4fb270927df52ccea8efb0511257461afcf4b00a09cad5712fce96f9f24a950ab796b5ce6849672b853df92fea6c69a32b6795922e6de21
+
+pkgname = python-spacy-fi_core_news_lg

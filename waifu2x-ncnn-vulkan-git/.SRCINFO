@@ -1,0 +1,25 @@
+pkgbase = waifu2x-ncnn-vulkan-git
+	pkgdesc = ncnn implementation of waifu2x converter
+	pkgver = 20250915.r0.ga86cfb0
+	pkgrel = 1
+	url = https://github.com/nihui/waifu2x-ncnn-vulkan
+	arch = i686
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = cmake
+	makedepends = git
+	makedepends = glslang
+	makedepends = ninja
+	makedepends = vulkan-headers
+	depends = libjpeg
+	depends = libpng
+	depends = libwebp
+	depends = ncnn
+	depends = zlib-ng
+	provides = waifu2x-ncnn-vulkan
+	conflicts = waifu2x-ncnn-vulkan
+	source = waifu2x-ncnn-vulkan::git+https://github.com/nihui/waifu2x-ncnn-vulkan.git
+	sha256sums = SKIP
+
+pkgname = waifu2x-ncnn-vulkan-git

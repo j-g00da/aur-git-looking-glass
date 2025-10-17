@@ -1,0 +1,18 @@
+pkgbase = lib32-jasper
+	pkgdesc = Software-based implementation of the codec specified in the emerging JPEG-2000 Part-1 standard (32-bit, lib-only)
+	pkgver = 4.2.8
+	pkgrel = 1
+	url = https://www.ece.uvic.ca/~frodo/jasper/
+	arch = x86_64
+	license = LicenseRef-JasPer2.0
+	makedepends = git
+	makedepends = cmake
+	depends = lib32-glibc
+	depends = lib32-libjpeg-turbo
+	depends = lib32-libheif
+	depends = jasper
+	provides = libjasper.so
+	source = lib32-jasper-4.2.8::git+https://github.com/jasper-software/jasper#tag=version-4.2.8
+	b2sums = 322e8afd6bdd0e215978787d6acb13cfc33cce26cced47ad8063097cd2d9af5ee6651c10d42c53d4ded5e10d02d334fa3f3ed6302fff3556341eba92b9e446a1
+
+pkgname = lib32-jasper

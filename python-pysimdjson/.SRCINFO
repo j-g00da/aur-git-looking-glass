@@ -1,0 +1,18 @@
+pkgbase = python-pysimdjson
+	pkgdesc = Python bindings for the simdjson project, a SIMD-accelerated JSON parser.
+	pkgver = 7.0.0.pre0
+	pkgrel = 1
+	url = http://github.com/TkTech/pysimdjson
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = cython
+	depends = glibc
+	depends = gcc-libs
+	source = git+https://github.com/TkTech/pysimdjson.git#branch=draft_7
+	sha256sums = SKIP
+
+pkgname = python-pysimdjson

@@ -1,0 +1,13 @@
+pkgbase = r-mircompdata
+	pkgdesc = Data used in the miRcomp package
+	pkgver = 1.38.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/miRcompData
+	arch = any
+	license = GPL-3.0-only
+	depends = r
+	source = https://bioconductor.org/packages/release/data/experiment/src/contrib/miRcompData_1.38.0.tar.gz
+	md5sums = 3937f01289eda62df3a1ee05c28f3ee8
+	b2sums = 91df780209012d97282951fb6b0f4710e1273514679e8cf46a56269c1fbd749769a0cdf7fcd45807d4a2c6697812645c5d12318527ffbddf3d155864f3cc59e7
+
+pkgname = r-mircompdata

@@ -1,0 +1,14 @@
+pkgbase = neoss
+	pkgdesc = Unix tool with terminal UI for visualizing socket statistics
+	pkgver = 1.1.11
+	pkgrel = 1
+	url = https://github.com/pablolec/neoss
+	arch = any
+	license = custom:BSD-3-clause
+	makedepends = npm
+	depends = nodejs
+	noextract = neoss-1.1.11.tgz
+	source = neoss-1.1.11.tgz::https://registry.npmjs.org/neoss/-/neoss-1.1.11.tgz
+	sha512sums = 3bd5a6862d20fcadb1c580042c1e17011d920fd56d237522e5a3d24991db32b4e981d2708f29ee2c9dfb3dc9a1100530ec38df280cb6c015a36d84a549e61483
+
+pkgname = neoss

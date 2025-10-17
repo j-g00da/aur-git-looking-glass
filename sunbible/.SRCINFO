@@ -1,0 +1,19 @@
+pkgbase = sunbible
+	pkgdesc = A simply beautiful place to read, study, and memorize the Bible.(Use system-wide electron)
+	pkgver = 2.0.02
+	pkgrel = 2
+	url = https://sunbible.near.page/
+	arch = any
+	license = MIT
+	makedepends = pnpm
+	makedepends = nvm
+	makedepends = gendesk
+	makedepends = curl
+	makedepends = git
+	depends = electron23
+	source = sunbible-2.0.02::git+https://github.com/SunBible-dev/SunBible#tag=2.0.02
+	source = sunbible.sh
+	sha256sums = 9bda243db1163011f8a02f236e3dcd4f0d536a3960bf9dbd9a8cee0666547dbb
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = sunbible

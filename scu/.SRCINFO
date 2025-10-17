@@ -1,0 +1,16 @@
+pkgbase = scu
+	pkgdesc = System fetch utility is aimed at informativeness
+	pkgver = 1.6.1
+	pkgrel = 1
+	url = https://github.com/srtnnm/scu
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = rust
+	depends = gcc-libs
+	depends = glibc
+	options = !debug
+	options = !lto
+	source = https://github.com/srtnnm/scu/archive/1.6.1/scu-1.6.1.tar.gz
+	b2sums = c024538871d9c9996f5fee0550a79c34957ba88724a15ceca6963ee6a2130440c5a20eaf19fa297f7c22d57ae691475ffd6babc121aa762ed199ef4041731da0
+
+pkgname = scu

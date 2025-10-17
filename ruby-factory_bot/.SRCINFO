@@ -1,0 +1,15 @@
+pkgbase = ruby-factory_bot
+	pkgdesc = A library for setting up Ruby objects as test data.
+	pkgver = 6.5.4
+	pkgrel = 1
+	url = https://github.com/thoughtbot/factory_bot
+	arch = any
+	license = MIT
+	makedepends = ruby-rake
+	depends = ruby
+	depends = ruby-activesupport
+	options = !emptydirs
+	source = https://github.com/thoughtbot/factory_bot/archive/v6.5.4/ruby-factory_bot-6.5.4.tar.gz
+	sha512sums = 32f25c281f07a8cd0481af84bb8fabfe77cbc196f31fa1bb9cf6be4135ed47218ce4bdcab8d72a32390d01bb45a9e456f04195ca0f06b71aa9e7b77827cf9a72
+
+pkgname = ruby-factory_bot

@@ -1,0 +1,16 @@
+pkgbase = python-geemlib
+	pkgdesc = Geem's all-purpose python library.
+	pkgver = 1.1.1
+	pkgrel = 1
+	url = https://pypi.org/project/geemlib/
+	arch = any
+	license = custom:WTFPL
+	makedepends = python-setuptools
+	depends = python
+	depends = python-beautifulsoup4
+	depends = python-requests
+	depends = python-rich
+	source = https://files.pythonhosted.org/packages/source/g/geemlib/geemlib-1.1.1.tar.gz
+	b2sums = 5e24ea1626b546e222abbaefe82a469093e127d9bb95f7c16380cd96466692aebe4918c7be5d3a9b1373454d5a61a4e3347905becfd5983d2b4536d693c301d7
+
+pkgname = python-geemlib

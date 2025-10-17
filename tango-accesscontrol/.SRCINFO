@@ -1,0 +1,21 @@
+pkgbase = tango-accesscontrol
+	pkgdesc = combined from svn/TangoAccessControl and svn/TangoAccessControl/AbstractClasses
+	pkgver = 2.21
+	pkgrel = 2
+	url = https://gitlab.com/tango-controls/TangoAccessControl
+	arch = x86_64
+	arch = armv7h
+	groups = tango-controls
+	license = GPL-3.0-or-later
+	depends = glibc
+	depends = gcc-libs
+	depends = omniorb
+	depends = mariadb-libs
+	depends = tango-cpp
+	depends = tango-database
+	source = https://gitlab.com/tango-controls/TangoAccessControl/-/releases/TangoAccessControl-Release-2.21/downloads/TangoAccessControl-with-submodules-TangoAccessControl-Release-2.21.tar.gz
+	source = tango-access.service
+	sha256sums = f318d04ef9d35652b9d74ef0267039f58b7062bef61a42f2c39cd072ec365d0a
+	sha256sums = 883e32ba0309313d0929a329d11b2843c7dee018aa71d4c316779f0888fa4c48
+
+pkgname = tango-accesscontrol

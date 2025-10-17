@@ -1,0 +1,18 @@
+pkgbase = python-pyglm
+	pkgdesc = OpenGL Mathematics library for Python
+	pkgver = 2.8.2
+	pkgrel = 1
+	url = https://github.com/Zuzu-Typ/PyGLM
+	arch = x86_64
+	license = Zlib
+	makedepends = git
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = glm
+	depends = python
+	source = python-pyglm::git+https://github.com/Zuzu-Typ/PyGLM.git#tag=2.8.2
+	sha256sums = d26ecc224b11b12fc4d90465917dbac966448bec6245bebe09d004b0e0ae2c67
+
+pkgname = python-pyglm

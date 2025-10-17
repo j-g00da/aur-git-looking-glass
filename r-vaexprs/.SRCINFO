@@ -1,0 +1,27 @@
+pkgbase = r-vaexprs
+	pkgdesc = Generating Samples of Gene Expression Data with Variational Autoencoders
+	pkgver = 1.14.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/VAExprs
+	arch = any
+	license = Artistic2.0
+	depends = r
+	depends = r-catencoders
+	depends = r-deeppincs
+	depends = r-diagrammer
+	depends = r-keras
+	depends = r-mclust
+	depends = r-purrr
+	depends = r-scater
+	depends = r-singlecellexperiment
+	depends = r-summarizedexperiment
+	depends = r-tensorflow
+	optdepends = r-knitr
+	optdepends = r-reticulate
+	optdepends = r-rmarkdown
+	optdepends = r-sc3
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/VAExprs_1.14.0.tar.gz
+	sha256sums = 8065583dbd287d721c7d53f27d36f7df7ddcb4467b3a3ab1e3ba4e522a1296bc
+
+pkgname = r-vaexprs

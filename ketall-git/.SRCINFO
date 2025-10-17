@@ -1,0 +1,21 @@
+pkgbase = ketall-git
+	pkgdesc = Kubectl plugin to show really all kubernetes resources
+	pkgver = 1.3.8.r7.16390bd
+	pkgrel = 5
+	url = https://github.com/corneliusweig/ketall
+	arch = x86_64
+	groups = kubectl-plugins
+	license = MIT
+	makedepends = git
+	makedepends = go
+	depends = kubectl
+	depends = glibc
+	provides = ketall
+	provides = kubectl-ketall
+	conflicts = ketall
+	conflicts = kubectl-ketall
+	source = ketall::git+https://github.com/corneliusweig/ketall
+	sha512sums = SKIP
+	b2sums = SKIP
+
+pkgname = ketall-git

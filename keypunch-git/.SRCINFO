@@ -1,0 +1,22 @@
+pkgbase = keypunch-git
+	pkgdesc = Practice your typing skills
+	pkgver = 6.2.r8.g77f9956
+	pkgrel = 1
+	epoch = 1
+	url = https://github.com/bragefuglseth/keypunch
+	arch = aarch64
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = blueprint-compiler
+	makedepends = cargo
+	makedepends = git
+	makedepends = meson
+	makedepends = ninja
+	depends = gtk4
+	depends = libadwaita
+	provides = keypunch
+	conflicts = keypunch
+	source = git+https://github.com/bragefuglseth/keypunch.git
+	sha512sums = SKIP
+
+pkgname = keypunch-git

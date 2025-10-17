@@ -1,0 +1,17 @@
+pkgbase = stanmath
+	pkgdesc = reverse-mode automatic differentiation library
+	pkgver = 5.0.0
+	pkgrel = 1
+	url = https://github.com/stan-dev/math
+	arch = any
+	license = BSD-3-Clause
+	makedepends = make
+	makedepends = doxygen
+	options = !strip
+	source = stanmath-5.0.0.tar.gz::https://github.com/stan-dev/math/archive/refs/tags/v5.0.0.tar.gz
+	sha256sums = 29c4baec9cb1be47204c104cffe6e185acdf247b0f77724af5f9f2f29c85c91a
+
+pkgname = stanmath
+
+pkgname = stanmath-docs
+	pkgdesc = reverse-mode automatic differentiation library (documentation)

@@ -1,0 +1,21 @@
+pkgbase = r-alabaster.sce
+	pkgdesc = Load and Save SingleCellExperiment from File
+	pkgver = 1.6.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/alabaster.sce
+	arch = any
+	license = MIT
+	checkdepends = r-testthat
+	depends = r-alabaster.base
+	depends = r-alabaster.se
+	depends = r-jsonlite
+	depends = r-singlecellexperiment
+	optdepends = r-biocstyle
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/alabaster.sce_1.6.0.tar.gz
+	md5sums = 4efd5d1f6bdb1715cbdba9bf43d9f3b7
+	b2sums = d47236d7c33bcf92cba791359a8ab679cbd9567a9158ca31d3d0dd33cd6d234a627ba0f54856f3cfb45b79b76f6f85583e00a745a18da4289f930189303b5b77
+
+pkgname = r-alabaster.sce

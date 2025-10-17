@@ -1,0 +1,18 @@
+pkgbase = r-matrixcorrelation
+	pkgdesc = Matrix Correlation Coefficients
+	pkgver = 0.10.1
+	pkgrel = 1
+	url = https://cran.r-project.org/package=MatrixCorrelation
+	arch = x86_64
+	license = GPL
+	depends = r
+	depends = r-plotrix
+	depends = r-pracma
+	depends = r-progress
+	depends = r-rcpp
+	depends = r-rcpparmadillo
+	depends = r-rspectra
+	source = https://cran.r-project.org/src/contrib/MatrixCorrelation_0.10.1.tar.gz
+	sha256sums = aedafd58eb6f021393191c9cb4ad919003bda0fe8e2fcd598c7753f7a747344e
+
+pkgname = r-matrixcorrelation

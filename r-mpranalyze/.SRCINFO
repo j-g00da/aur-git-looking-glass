@@ -1,0 +1,16 @@
+pkgbase = r-mpranalyze
+	pkgdesc = Statistical Analysis of MPRA data
+	pkgver = 1.26.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/MPRAnalyze
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-biocparallel
+	depends = r-progress
+	depends = r-summarizedexperiment
+	optdepends = r-knitr
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/MPRAnalyze_1.26.0.tar.gz
+	sha256sums = 84193fc88d42c7d63d3975db2be3bcbcc6436bec1b5f4748290238d5428c327f
+
+pkgname = r-mpranalyze

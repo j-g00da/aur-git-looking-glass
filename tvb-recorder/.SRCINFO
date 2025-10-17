@@ -1,0 +1,19 @@
+pkgbase = tvb-recorder
+	pkgdesc = TV-recording und live-switch with TV-Browser plugin
+	pkgver = 1.7
+	pkgrel = 5
+	url = https://codeberg.org/tuxnix/tvb-recorder
+	install = tvb-recorder.install
+	arch = any
+	license = GLPv2-only
+	makedepends = git
+	depends = tvbrowser
+	depends = mpv
+	depends = at
+	depends = ffmpeg
+	source = git+https://codeberg.org/tuxnix/tvb-recorder
+	source = tvb-recorder.install
+	sha512sums = SKIP
+	sha512sums = 57ea9155cdd7e5a65d2d861d498136cccf8ed897828569c5d16b61709e2de84945bfde26aee034eff3fa5b24a9a04db502aade680192e5f253ffe7c73ff0ce41
+
+pkgname = tvb-recorder

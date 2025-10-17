@@ -1,0 +1,20 @@
+pkgbase = novprog
+	pkgdesc = A tool to graph your progress in writing a NaNoWriMo style novel
+	pkgver = 3.2.3
+	pkgrel = 1
+	url = https://gottcode.org/novprog/
+	install = novprog.install
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = cmake
+	makedepends = qt6-tools
+	depends = qt6-base
+	depends = hicolor-icon-theme
+	source = https://gottcode.org/novprog/novprog-3.2.3.tar.bz2
+	source = https://gottcode.org/novprog/novprog-3.2.3.tar.bz2.asc
+	validpgpkeys = 57E4D43C10CD7EDB8360C84774FFC7F02C4F6B37
+	sha256sums = 1dd552f41b2607d7f897cb751b6daff990a3c1f45064070a92e7c8d9e63db3a9
+	sha256sums = SKIP
+
+pkgname = novprog

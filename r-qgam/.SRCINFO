@@ -1,0 +1,20 @@
+pkgbase = r-qgam
+	pkgdesc = Smooth Additive Quantile Regression Models
+	pkgver = 2.0.0
+	pkgrel = 1
+	url = https://cran.r-project.org/package=qgam
+	arch = x86_64
+	license = GPL
+	depends = r
+	depends = r-doparallel
+	depends = r-plyr
+	depends = r-shiny
+	optdepends = r-knitr
+	optdepends = r-mass
+	optdepends = r-rhpcblasctl
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	source = https://cran.r-project.org/src/contrib/qgam_2.0.0.tar.gz
+	sha256sums = 4e1a4845dfbda675e32ae4f9a6dfc6f7b8f20f56036272951135642aa579ace8
+
+pkgname = r-qgam

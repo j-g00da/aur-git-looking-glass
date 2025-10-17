@@ -1,0 +1,26 @@
+pkgbase = libkscreen-git
+	pkgdesc = KDE screen management software
+	pkgver = 6.0.80_r1902.g2e08e78
+	pkgrel = 2
+	url = https://kde.org/plasma-desktop/
+	arch = x86_64
+	groups = plasma-git
+	license = LGPL-2.0-or-later
+	makedepends = git
+	makedepends = doxygen
+	makedepends = extra-cmake-modules-git
+	makedepends = plasma-wayland-protocols-git
+	makedepends = qt6-doc
+	makedepends = qt6-tools
+	depends = gcc-libs
+	depends = glibc
+	depends = libxcb
+	depends = qt6-base
+	depends = qt6-wayland
+	depends = wayland
+	provides = libkscreen
+	conflicts = libkscreen
+	source = git+https://github.com/KDE/libkscreen.git
+	sha256sums = SKIP
+
+pkgname = libkscreen-git

@@ -1,0 +1,13 @@
+pkgbase = archiver
+	pkgdesc = Easily create & extract archives, and compress & decompress files of various formats
+	pkgver = 3.5.1
+	pkgrel = 2
+	url = https://github.com/mholt/archiver
+	arch = x86_64
+	license = MIT
+	makedepends = go
+	depends = glibc
+	source = archiver-3.5.1.tar.gz::https://github.com/mholt/archiver/archive/v3.5.1.tar.gz
+	sha256sums = b69a76f837b6cc1c34c72ace16670360577b123ccc17872a95af07178e69fbe7
+
+pkgname = archiver

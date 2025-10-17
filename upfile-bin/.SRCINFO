@@ -1,0 +1,19 @@
+pkgbase = upfile-bin
+	pkgdesc = A CLI tool to manage and sync shared configuration files across projects.
+	pkgver = 1.1.0
+	pkgrel = 1
+	url = https://github.com/skewb1k/upfile
+	license = MIT
+	conflicts = upfile
+	provides = upfile
+	arch = aarch64
+	source_aarch64 = https://github.com/skewb1k/upfile/releases/download/v1.1.0/upfile_Linux_arm64.tar.gz
+	sha256sums_aarch64 = ecbeaddef07b1098cef291429b03971818a6306f82b72e2e1b28e4c1e05185ec
+	arch = i686
+	source_i686 = https://github.com/skewb1k/upfile/releases/download/v1.1.0/upfile_Linux_i386.tar.gz
+	sha256sums_i686 = 9a6a6c5015ecab3ea42181cf2398a7f254560e0d120ca5c4f019c2620760958f
+	arch = x86_64
+	source_x86_64 = https://github.com/skewb1k/upfile/releases/download/v1.1.0/upfile_Linux_x86_64.tar.gz
+	sha256sums_x86_64 = 0566b74d96cae777dd4b1594abf4aca61a55558ecfd34a4472fb5646fab66db3
+	
+pkgname = upfile-bin

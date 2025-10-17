@@ -1,0 +1,19 @@
+pkgbase = nping
+	pkgdesc = 🏎 Nping mean NB Ping, A Ping Tool in Rust with Real-Time Data and Visualizations
+	pkgver = 0.5.0
+	pkgrel = 1
+	url = https://github.com/hanshuaikang/Nping
+	arch = x86_64
+	license = MIT
+	makedepends = rust
+	depends = gcc-libs
+	depends = glibc
+	provides = nping
+	conflicts = nping
+	options = !debug
+	options = !strip
+	options = !lto
+	source = Nping-0.5.0.tar.gz::https://github.com/hanshuaikang/Nping/archive/refs/tags/v0.5.0.tar.gz
+	sha256sums = 0ba70f55fc126445b8c57be234c2eb355939336c731c8209b320bd89b85cac50
+
+pkgname = nping

@@ -1,0 +1,24 @@
+pkgbase = rdrview
+	pkgdesc = Firefox Reader View as a command line tool
+	pkgver = 0.1.5
+	pkgrel = 1
+	url = https://github.com/eafer/rdrview
+	arch = x86_64
+	license = Apache-2.0
+	makedepends = git
+	depends = curl
+	depends = glibc
+	depends = libseccomp
+	depends = libxml2
+	optdepends = elinks: open pages in elinks
+	optdepends = libcurl-gnutls: backend that provides the SSL support
+	optdepends = links: open pages in links
+	optdepends = lynx: open pages in lynx
+	optdepends = w3m: open pages in w3m
+	optdepends = xdg-utils: for opening pages
+	options = !debug
+	source = rdrview-0.1.5.tar.gz::https://github.com/eafer/rdrview/archive/v0.1.5/rdrview-0.1.5.tar.gz
+	sha512sums = 061d0241e6b24a0ad86ae30f5ca0ffd697b6f10ba5d66eb7ca83135095cd0e5efb8501166f55622465d861cd027d64a9568d1f567ba727dd35f5dcec60eaadf1
+	b2sums = 9bd07ac1740c2834fadf7d469f028d200fe56295937eb962e8d19aaa9ea073ff1a1f4096e10c3d18977bd1525e5372a0188a2a9fd210a8ba0f112b7f3d75ae81
+
+pkgname = rdrview

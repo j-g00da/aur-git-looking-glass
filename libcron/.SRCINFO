@@ -1,0 +1,20 @@
+pkgbase = libcron
+	pkgdesc = A C++ scheduling library using cron formatting.
+	pkgver = 1.3.1
+	pkgrel = 1
+	url = https://github.com/PerMalmberg/libcron
+	arch = x86_64
+	arch = i686
+	arch = arm
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = MIT
+	makedepends = cmake
+	conflicts = libcron-git
+	source = libcron-1.3.1.tar.gz::https://github.com/PerMalmberg/libcron/archive/refs/tags/v1.3.1.tar.gz
+	source = date-3.0.3.tar.gz::https://github.com/HowardHinnant/date/archive/refs/tags/v3.0.3.tar.gz
+	sha256sums = cf5af6af392df29c8fc61fcc5a8e452118f31f47d7aa92eb7d4f4183dea227c8
+	sha256sums = 30de45a34a2605cca33a993a9ea54e8f140f23b1caf1acf3c2fd436c42c7d942
+
+pkgname = libcron

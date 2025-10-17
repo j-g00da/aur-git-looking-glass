@@ -1,0 +1,17 @@
+pkgbase = python-symbex
+	pkgdesc = Find the Python code for specified symbols
+	pkgver = 1.4
+	pkgrel = 1
+	url = https://github.com/simonw/symbex
+	arch = any
+	license = Apache
+	makedepends = python-build
+	makedepends = python-click
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python>=3.8
+	source = https://github.com/simonw/symbex/archive/1.4.tar.gz
+	b2sums = 5a6cbd4db4b746fa659ed4099bf6225b16d972309f3f5d7d3cabb0f0a218637d6e526f3c937c316a41ae0fbb048bf4905b8b8050469be8bc26ac8888811750d3
+
+pkgname = python-symbex

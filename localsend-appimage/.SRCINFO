@@ -1,0 +1,15 @@
+pkgbase = localsend-appimage
+	pkgdesc = An open source cross-platform alternative to AirDrop
+	pkgver = 1.17.0
+	pkgrel = 1
+	url = https://localsend.org
+	arch = x86_64
+	license = Apache-2.0
+	depends = fuse2
+	noextract = LocalSend-1.17.0-linux-x86-64.AppImage
+	options = !strip
+	options = !debug
+	source = LocalSend-1.17.0-linux-x86-64.AppImage::https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-linux-x86-64.AppImage
+	b2sums = e9a4ea7eadfd1f5620b1348c251b5e9f17d23b4a0737da775c6e43b640b1c2831ef20379af05ed24b85ce31cd90a3045bba1284126ad4cac21cc5a0476f563a7
+
+pkgname = localsend-appimage

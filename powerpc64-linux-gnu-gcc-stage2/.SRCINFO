@@ -1,0 +1,36 @@
+pkgbase = powerpc64-linux-gnu-gcc-stage2
+	pkgdesc = The GNU Compiler Collection. Stage 2 for toolchain building (powerpc64-linux-gnu)
+	pkgver = 15.1.0
+	pkgrel = 1
+	url = http://gcc.gnu.org
+	arch = i686
+	arch = x86_64
+	license = GPL
+	license = LGPL
+	license = FDL
+	license = custom
+	makedepends = gmp
+	makedepends = mpfr
+	depends = powerpc64-linux-gnu-binutils>=2.30-1
+	depends = powerpc64-linux-gnu-glibc-headers
+	depends = libmpc
+	depends = zlib
+	provides = powerpc64-linux-gnu-gcc-stage1=15.1.0
+	provides = powerpc64-linux-gnu-gcc
+	conflicts = powerpc64-linux-gnu-gcc-stage1
+	replaces = powerpc64-linux-gnu-gcc-stage1
+	options = !emptydirs
+	options = !distcc
+	options = !strip
+	source = https://gcc.gnu.org/pub/gcc/releases/gcc-15.1.0/gcc-15.1.0.tar.xz
+	source = https://gcc.gnu.org/pub/gcc/releases/gcc-15.1.0/gcc-15.1.0.tar.xz.sig
+	source = https://libisl.sourceforge.io/isl-0.27.tar.xz
+	validpgpkeys = F3691687D867B81B51CE07D9BBE43771487328A9
+	validpgpkeys = 86CFFCA918CF3AF47147588051E8B148A9999C34
+	validpgpkeys = 13975A70E63C361C73AE69EF6EEB81F8981C74C7
+	validpgpkeys = D3A93CAD751C2AF4F8C7AD516C35B99309B5FA62
+	sha256sums = e2b09ec21660f01fecffb715e0120265216943f038d0e48a9868713e54f06cea
+	sha256sums = SKIP
+	sha256sums = 6d8babb59e7b672e8cb7870e874f3f7b813b6e00e6af3f8b04f7579965643d5c
+
+pkgname = powerpc64-linux-gnu-gcc-stage2

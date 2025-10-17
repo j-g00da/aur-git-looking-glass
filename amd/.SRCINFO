@@ -1,0 +1,16 @@
+pkgbase = amd
+	pkgdesc = An Automated Motif Discovery Tool Using Stepwise Refinement of Gapped Consensuses
+	pkgver = 1.0.0
+	pkgrel = 5
+	url = https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0024576
+	arch = i686
+	arch = x86_64
+	license = custom
+	makedepends = unrar
+	noextract = journal.pone.0024576.s004.rar
+	options = !strip
+	options = !buildflags
+	source = journal.pone.0024576.s004.rar::https://doi.org/10.1371/journal.pone.0024576.s004
+	md5sums = 18eb715f0fb1f8bbfc1b1c359f04e77a
+
+pkgname = amd

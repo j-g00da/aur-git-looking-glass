@@ -1,0 +1,29 @@
+pkgbase = satellitereign-hib
+	pkgdesc = Spiritual successor to the Syndicate games
+	pkgver = 104
+	pkgrel = 1
+	url = https://www.humblebundle.com/store/p/satellitereign_storefront
+	arch = i686
+	arch = x86_64
+	license = custom:commercial
+	depends = gcc-libs
+	depends = glibc
+	depends = libx11
+	depends = libxau
+	depends = libxcb
+	depends = libxcursor
+	depends = libxdmcp
+	depends = libxext
+	depends = libxfixes
+	depends = libxrandr
+	depends = libxrender
+	depends = libgl
+	options = !emptydirs
+	options = !strip
+	source = satellitereign-hib.desktop
+	source = SatelliteReignLinux104.zip::hib://SatelliteReignLinux104.zip
+	sha256sums = 87cc04b37e83a2871d4eb2aa694ea13eae2670fa364d4f06b823cf1c4323da33
+	sha256sums = e6f5111f2c8b82ea2b6e4ea98e1dba7d751bfbe06c6319563413791c9262a8df
+
+pkgname = satellitereign-hib
+

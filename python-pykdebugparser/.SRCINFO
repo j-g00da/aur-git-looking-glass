@@ -1,0 +1,21 @@
+pkgbase = python-pykdebugparser
+	pkgdesc = Kdebug events and ktraces parser
+	pkgver = 1.2.7
+	pkgrel = 1
+	url = https://github.com/matan1008/pykdebugparser
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-wheel
+	makedepends = python-installer
+	makedepends = python-setuptools
+	depends = python
+	depends = python-construct
+	depends = python-pygments
+	depends = python-click
+	depends = python-termcolor
+	source = python-pykdebugparser-1.2.7.tar.gz::https://github.com/matan1008/pykdebugparser/archive/refs/tags/v1.2.7.tar.gz
+	sha256sums = d48d0123a0ce3c7ac82f9ff343f921dd95909eb6146bae38f2ba91a4895a5c8a
+
+pkgname = python-pykdebugparser

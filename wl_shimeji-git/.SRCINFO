@@ -1,0 +1,25 @@
+pkgbase = wl_shimeji-git
+	pkgdesc = Shimeji reimplementation for Wayland in C
+	pkgver = 0.0.2.r90.g9ad350f
+	pkgrel = 1
+	url = https://github.com/CluelessCatBurger/wl_shimeji
+	arch = x86_64
+	license = GPL-2.0
+	makedepends = git
+	makedepends = libarchive
+	makedepends = wayland
+	makedepends = wayland-protocols
+	makedepends = uthash
+	depends = python>=3.10
+	depends = python-pillow
+	depends = wayland-compositor
+	source = wl_shimeji-git::git+https://github.com/CluelessCatBurger/wl_shimeji.git
+	source = jsonh::git+https://github.com/sheredom/json.h
+	source = qoi::git+https://github.com/phoboslab/qoi
+	source = py-qoi::git+https://github.com/mathpn/py-qoi
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = wl_shimeji-git

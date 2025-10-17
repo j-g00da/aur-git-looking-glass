@@ -1,0 +1,15 @@
+pkgbase = packr
+	pkgdesc = [DEPRECATED, USE GO EMBED] Go static assets bundler
+	pkgver = 2.8.3
+	pkgrel = 2
+	url = https://github.com/gobuffalo/packr
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = go
+	makedepends = git
+	depends = glibc
+	source = packr-2.8.3::git+https://github.com/gobuffalo/packr.git#tag=v2.8.3
+	sha256sums = SKIP
+
+pkgname = packr

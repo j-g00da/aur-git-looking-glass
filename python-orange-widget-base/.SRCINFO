@@ -1,0 +1,18 @@
+pkgbase = python-orange-widget-base
+	pkgdesc = Base widget and workflow definitions for Orange.
+	pkgver = 4.25.1
+	pkgrel = 1
+	url = http://orange.biolab.si/
+	arch = any
+	license = GPL3
+	makedepends = python-setuptools
+	depends = python-matplotlib
+	depends = python-pyqtgraph
+	depends = python-anyqt
+	depends = python-typing_extensions
+	depends = python-orange-canvas-core
+	depends = python-trubar
+	source = https://files.pythonhosted.org/packages/source/o/orange_widget_base/orange_widget_base-4.25.1.tar.gz
+	sha256sums = f1f78d5884c4c1fb957d9c0b9c704461b01b4106ad8361d52add3693dc32baee
+
+pkgname = python-orange-widget-base

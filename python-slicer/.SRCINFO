@@ -1,0 +1,19 @@
+pkgbase = python-slicer
+	pkgdesc = Wraps tensor-like objects and provides a uniform slicing interface via __getitem__
+	pkgver = 0.0.8
+	pkgrel = 1
+	url = https://github.com/interpretml/slicer
+	arch = any
+	license = BSD
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	depends = python-numpy
+	depends = python-pandas
+	depends = python-pytest
+	depends = python-scipy
+	optdepends = python-pytorch
+	source = https://github.com/interpretml/slicer/archive/v0.0.8/slicer-0.0.8.tar.gz
+	sha256sums = 518348c924ad2545f086cf0a112694aebcaffa759038b2e2a1ef4ca0abb5063b
+
+pkgname = python-slicer

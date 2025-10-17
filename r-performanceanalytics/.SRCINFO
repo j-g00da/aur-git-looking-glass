@@ -1,0 +1,33 @@
+pkgbase = r-performanceanalytics
+	pkgdesc = Econometric Tools for Performance and Risk Analysis
+	pkgver = 2.0.8
+	pkgrel = 1
+	url = https://cran.r-project.org/package=PerformanceAnalytics
+	arch = x86_64
+	license = GPL
+	depends = r
+	depends = r-quadprog
+	depends = r-xts
+	depends = r-zoo
+	optdepends = r-dygraphs
+	optdepends = r-gamlss
+	optdepends = r-gamlss.dist
+	optdepends = r-ggplot2
+	optdepends = r-ggpubr
+	optdepends = r-googlevis
+	optdepends = r-gridextra
+	optdepends = r-hmisc
+	optdepends = r-mass
+	optdepends = r-plotly
+	optdepends = r-quantmod
+	optdepends = r-quantreg
+	optdepends = r-r.rsp
+	optdepends = r-rcolorbrewer
+	optdepends = r-robstattm
+	optdepends = r-robustbase
+	optdepends = r-rpese
+	optdepends = r-tinytest
+	source = https://cran.r-project.org/src/contrib/PerformanceAnalytics_2.0.8.tar.gz
+	sha256sums = 64e209808038e1037f01a6f4e1f9d6a6a852c886765c619d2b5a66c583675ec3
+
+pkgname = r-performanceanalytics

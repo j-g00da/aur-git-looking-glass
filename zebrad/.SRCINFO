@@ -1,0 +1,18 @@
+pkgbase = zebrad
+	pkgdesc = A Zcash full node
+	pkgver = 2.3.0
+	pkgrel = 3
+	url = https://github.com/ZcashFoundation/zebra
+	arch = aarch64
+	arch = x86_64
+	license = Apache
+	license = MIT
+	makedepends = rust
+	makedepends = clang
+	makedepends = pkgconf
+	options = !debug
+	options = !lto
+	source = zebra-2.3.0.tar.gz::https://github.com/ZcashFoundation/zebra/archive/refs/tags/v2.3.0.tar.gz
+	sha256sums = SKIP
+
+pkgname = zebrad

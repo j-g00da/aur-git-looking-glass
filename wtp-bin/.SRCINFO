@@ -1,0 +1,12 @@
+pkgbase = wtp-bin
+	pkgdesc = A powerful Git worktree CLI tool with automated setup, branch tracking, and smart navigation
+	pkgver = 1.1.1
+	pkgrel = 1
+	url = https://github.com/satococoa/wtp
+	arch = x86_64
+	license = MIT
+	depends = tar
+	source = https://github.com/satococoa/wtp/releases/download/v1.1.1/wtp_1.1.1_Linux_x86_64.tar.gz
+	sha256sums = 93250aa9b907cb9022fb359c9837848bd47e7cf5db02f29478ec7fa801419374
+
+pkgname = wtp-bin

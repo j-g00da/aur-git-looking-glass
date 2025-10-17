@@ -1,0 +1,12 @@
+pkgbase = podget
+	pkgdesc = Simple tool to automate downloading of podcasts
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/dvehrs/podget
+	arch = any
+	license = GPL-3.0-or-later
+	depends = wget
+	source = podget-1.0.0.tar.gz::https://github.com/dvehrs/podget/archive/refs/tags/V1.0.0.tar.gz
+	sha256sums = 2c8ec81002d03a4e3b207ee39773404fc5962cfbb1bd6711607f183c408cdc0d
+
+pkgname = podget

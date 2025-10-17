@@ -1,0 +1,13 @@
+pkgbase = kuberlr-bin
+	pkgdesc = A tool that simplifies the management of multiple versions of kubectl
+	pkgver = 0.6.1
+	pkgrel = 1
+	url = https://github.com/flavio/kuberlr
+	arch = x86_64
+	license = Apache
+	provides = kubectl
+	conflicts = kubectl
+	source = kuberlr-bin-0.6.1.tar.gz::https://github.com/flavio/kuberlr/releases/download/v0.6.1/kuberlr_0.6.1_linux_amd64.tar.gz
+	b2sums = 3015b7905b74aa70568f1599a3265aa41e155d2a9e6eceaffd8d1417a492ec35e3368a30e704b5c7e49b0e475ed10bd5e0f89380e830ea6318ee63d967e8484c
+
+pkgname = kuberlr-bin

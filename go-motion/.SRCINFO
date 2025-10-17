@@ -1,0 +1,13 @@
+pkgbase = go-motion
+	pkgdesc = Tool providing contextual information for go source files.
+	pkgver = 1.2.0
+	pkgrel = 1
+	url = https://github.com/fatih/motion
+	arch = x86_64
+	license = BSD-3-Clause
+	makedepends = go
+	conflicts = motion
+	source = go-motion-1.2.0.tar.gz::https://github.com/fatih/motion/archive/v1.2.0.tar.gz
+	sha512sums = f674084c32d2d9f727ef3642a2da29f577d36f80243cd03bf3cf9463a6d72652dcbfbbf8b05e31d4a85f02be016f24bb90fe892ade10a085a52f1be6f4374318
+
+pkgname = go-motion

@@ -1,0 +1,26 @@
+pkgbase = r-epivizrstandalone
+	pkgdesc = Run Epiviz Interactive Genomic Data Visualization App within R
+	pkgver = 1.34.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/epivizrStandalone
+	arch = any
+	license = MIT
+	depends = r
+	depends = r-biocgenerics
+	depends = r-epivizr
+	depends = r-epivizrserver
+	depends = r-genomeinfodb
+	depends = r-genomicfeatures
+	depends = r-git2r
+	depends = r-s4vectors
+	optdepends = r-biobase
+	optdepends = r-biocstyle
+	optdepends = r-knitr
+	optdepends = r-mus.musculus
+	optdepends = r-organismdbi
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/epivizrStandalone_1.34.0.tar.gz
+	sha256sums = 2b1fad1f29d013063e36ca5e202f533fd2d23b46e1872e7a4c42a6453f852f0a
+
+pkgname = r-epivizrstandalone

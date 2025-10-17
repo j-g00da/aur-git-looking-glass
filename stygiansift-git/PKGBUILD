@@ -1,0 +1,44 @@
+# Maintainer : envolution
+
+pkgname=stygiansift-git
+_pkgname="StygianSift"
+pkgver=r174+g5171c74fa
+pkgrel=1
+pkgdesc="A highly customizable TUI file explorer"
+arch=("x86_64")
+url="https://github.com/Mauitron/StygianSift"
+license=("Custom")
+depends=(ttf-jetbrains-mono-nerd)
+makedepends=("git" "rust" "cargo")
+provides=("stygiansift")
+conflicts=("stygiansift")
+source=("$_pkgname::git+https://github.com/Mauitron/StygianSift.git")
+sha256sums=('SKIP')
+
+pkgver() {
+  cd "${srcdir}/${_pkgname}"
+  _commits=$(git rev-list --count HEAD)
+  _short_commit_hash=$(git rev-parse --short=9 HEAD)
+  echo "r${_commits}+g${_short_commit_hash}"
+}
+
+prepare() {
+  cd "$_pkgname"
+  export RUSTUP_TOOLCHAIN=stable
+  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+}
+
+build() {
+  cd "$_pkgname"
+  export RUSTUP_TOOLCHAIN=stable
+  export CARGO_TARGET_DIR=target
+  cargo build --frozen --release --all-features
+}
+
+package() {
+  install -Dm755 "$srcdir/$_pkgname/target/release/StygianSift" "$pkgdir/usr/bin/stygiansift"
+  install -Dm644 "$srcdir/$_pkgname/LICENSE" "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+  install -Dm644 "$srcdir/$_pkgname/README.md" "$pkgdir/usr/share/doc/$pkgname/README.md"
+}
+
+# vim: ts=2 sw=2 et:

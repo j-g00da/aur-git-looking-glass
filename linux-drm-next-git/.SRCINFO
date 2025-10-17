@@ -1,0 +1,47 @@
+pkgbase = linux-drm-next-git
+	pkgdesc = Linux kernel with bleeding-edge GPU drivers
+	pkgver = 6.16.r1368882.6ac55eab4fc4
+	pkgrel = 1
+	url = https://gitlab.freedesktop.org/drm/kernel
+	arch = x86_64
+	license = GPL-2.0-only
+	makedepends = bc
+	makedepends = cpio
+	makedepends = gettext
+	makedepends = git
+	makedepends = libelf
+	makedepends = pahole
+	makedepends = perl
+	makedepends = python
+	makedepends = rust
+	makedepends = rust-bindgen
+	makedepends = rust-src
+	makedepends = tar
+	makedepends = xz
+	options = !debug
+	options = !strip
+	source = linux-drm-next-git::git+https://gitlab.freedesktop.org/drm/kernel.git#branch=drm-next
+	source = config
+	sha256sums = SKIP
+	sha256sums = 92005b43e54429b65a5adfa60f3ee5d164b6c88a64816cce920b7e67dc4661b6
+	b2sums = SKIP
+	b2sums = 60161db656851b0e651e6e7ebc974cada22474bddd6b0a7ad4946bc0ecf888ca68e66f1530997aa5c7fe09645e4cfbdd16f6e32ce50678291c708c40d8a8563c
+
+pkgname = linux-drm-next-git
+	pkgdesc = The Linux kernel with bleeding-edge GPU drivers kernel and modules
+	depends = coreutils
+	depends = initramfs
+	depends = kmod
+	optdepends = linux-firmware: firmware images needed for some devices
+	optdepends = scx-scheds: to use sched-ext schedulers
+	optdepends = wireless-regdb: to set the correct wireless channels of your country
+	provides = KSMBD-MODULE
+	provides = NTSYNC-MODULE
+	provides = VIRTUALBOX-GUEST-MODULES
+	provides = WIREGUARD-MODULE
+	replaces = virtualbox-guest-modules-arch
+	replaces = wireguard-arch
+
+pkgname = linux-drm-next-headers-git
+	pkgdesc = Headers and scripts for building modules for the Linux kernel with bleeding-edge GPU drivers kernel
+	depends = pahole

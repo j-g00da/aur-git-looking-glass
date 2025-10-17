@@ -1,0 +1,14 @@
+pkgbase = python-terminaltables-git
+	pkgdesc = Generate simple tables in terminals from a nested list of strings.
+	pkgver = v3.1.9.r3.g8020b8c
+	pkgrel = 2
+	url = https://github.com/matthewdeanmartin/terminaltables
+	arch = any
+	license = MIT
+	makedepends = git
+	provides = python-terminaltables
+	conflicts = python-terminaltables
+	source = git+https://github.com/matthewdeanmartin/terminaltables.git
+	sha256sums = SKIP
+
+pkgname = python-terminaltables-git

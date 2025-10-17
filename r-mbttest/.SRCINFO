@@ -1,0 +1,16 @@
+pkgbase = r-mbttest
+	pkgdesc = Multiple Beta t-Tests
+	pkgver = 1.36.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/MBttest
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-gplots
+	depends = r-gtools
+	optdepends = r-biocgenerics
+	optdepends = r-biocstyle
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/MBttest_1.36.0.tar.gz
+	sha256sums = a5facb74298634f43c5d59bceb82198d58e39e6d8d458ec8156962e75a746319
+
+pkgname = r-mbttest

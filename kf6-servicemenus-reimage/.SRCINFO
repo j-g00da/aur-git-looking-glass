@@ -1,0 +1,18 @@
+pkgbase = kf6-servicemenus-reimage
+	pkgdesc = Manipulate images e their metadata
+	pkgver = 2.7.0
+	pkgrel = 1
+	url = https://github.com/irfanhakim-as/kde-service-menu-reimage
+	arch = any
+	license = GPL-3.0+
+	makedepends = qt5-tools
+	depends = dolphin
+	depends = imagemagick
+	depends = kdialog
+	depends = perl-image-exiftool
+	conflicts = kde-service-menu-reimage
+	conflicts = kde-service-menu-reimage-mod
+	source = https://github.com/irfanhakim-as/kde-service-menu-reimage/releases/download/v2.7.0/kde-service-menu-reimage_2.7.0_any.tar.gz
+	md5sums = 17244c6296639bc4a8299e23c51109a9
+
+pkgname = kf6-servicemenus-reimage

@@ -1,0 +1,17 @@
+pkgbase = native-facebook-bin
+	pkgdesc = A native Facebook client for desktop, which is an Electron app that wraps the Facebook website with some touches.(Prebuilt version.Use system-wide electron)
+	pkgver = 1.1.21
+	pkgrel = 1
+	url = https://yuhapps.dev/
+	arch = x86_64
+	license = ISC
+	depends = electron37
+	provides = native-facebook=1.1.21
+	conflicts = native-facebook
+	options = !emptydirs
+	source = native-facebook-1.1.21.deb::https://github.com/YuhApps/NativeFacebook/releases/download/v1.1.21/Facebook-1.1.21-linux-amd64.deb
+	source = native-facebook.sh
+	sha256sums = da4fbae72922b9589377781fa4bb095460d387cbd27bc6766d45ba27f491df0e
+	sha256sums = f2fe8c189974ffb9d445e9a42bd4f1d5b60185607c3fcafae79ab44be224e013
+
+pkgname = native-facebook-bin

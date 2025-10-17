@@ -1,0 +1,15 @@
+pkgbase = steuern-lu-np-2023
+	pkgdesc = Lucerne tax declaration software for natural persons 2023
+	pkgver = 2023.1
+	pkgrel = 3
+	url = https://steuern.lu.ch/steuererklaerung/steuererklaerung_natp/Installation
+	arch = any
+	license = custom
+	depends = java-environment
+	depends = bash
+	source = https://steuersoftware.lu.ch/steuern23/steuern.lu.2023nP.sh
+	source = steuern-lu-np-2023.desktop
+	sha256sums = SKIP
+	sha256sums = 43ef0bd8903205ac63b529d7bd73ac90b79fc59ed10f56e894ec570e0eb02b2a
+
+pkgname = steuern-lu-np-2023

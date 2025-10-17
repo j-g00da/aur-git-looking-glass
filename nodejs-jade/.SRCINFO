@@ -1,0 +1,14 @@
+pkgbase = nodejs-jade
+	pkgdesc = A clean, whitespace-sensitive template language for writing HTML
+	pkgver = 1.11.0
+	pkgrel = 1
+	url = http://jade-lang.com
+	arch = any
+	depends = nodejs
+	depends = npm
+	noextract = jade-1.11.0.tgz
+	source = http://registry.npmjs.org/jade/-/jade-1.11.0.tgz
+	sha1sums = 9c80e538c12d3fb95c8d9bb9559fa0cc040405fd
+
+pkgname = nodejs-jade
+

@@ -1,0 +1,19 @@
+pkgbase = intel-ipu7-camera-hal-git
+	pkgdesc = Intel IPU7 camera HAL
+	pkgver = r48.feed915
+	pkgrel = 1
+	url = https://github.com/intel/ipu7-camera-hal
+	arch = x86_64
+	license = unknown
+	makedepends = git
+	makedepends = cmake
+	makedepends = jsoncpp
+	depends = intel-ipu7-dkms-git
+	depends = intel-ipu7-camera-bin
+	provides = ipu7-camera-hal
+	source = git+https://github.com/intel/ipu7-camera-hal.git
+	source = patch-cmake35-xedrm.diff
+	sha256sums = SKIP
+	sha256sums = 53db02482c9680d2678c9019a29bb1a348546e1d6b130f7533ea3f3c20538988
+
+pkgname = intel-ipu7-camera-hal-git

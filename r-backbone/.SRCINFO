@@ -1,0 +1,17 @@
+pkgbase = r-backbone
+	pkgdesc = Extracts the Backbone from Graphs
+	pkgver = 3.0.2
+	pkgrel = 1
+	url = https://cran.r-project.org/package=backbone
+	arch = x86_64
+	license = GPL
+	depends = r
+	depends = r-igraph
+	depends = r-rcpp
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-tinytest
+	source = https://cran.r-project.org/src/contrib/backbone_3.0.2.tar.gz
+	sha256sums = ba4bcdbec6867a438ac9ad88c929a178805ea25bedb4860e9a72a9a8818a2f27
+
+pkgname = r-backbone

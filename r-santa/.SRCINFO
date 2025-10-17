@@ -1,0 +1,23 @@
+pkgbase = r-santa
+	pkgdesc = Spatial Analysis of Network Associations
+	pkgver = 2.44.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/SANTA
+	arch = x86_64
+	license = GPL
+	depends = r
+	depends = r-igraph
+	optdepends = r-biocgenerics
+	optdepends = r-bionet
+	optdepends = r-dlbcl
+	optdepends = r-formatr
+	optdepends = r-knitr
+	optdepends = r-markdown
+	optdepends = r-msm
+	optdepends = r-org.sc.sgd.db
+	optdepends = r-rmarkdown
+	optdepends = r-runit
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/SANTA_2.44.0.tar.gz
+	sha256sums = f599113ca5fc5784df328cb25cd15961c7cbf9cce0ccc387afc90a3370cc1bce
+
+pkgname = r-santa

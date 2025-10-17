@@ -1,0 +1,19 @@
+pkgbase = gosuki-git
+	pkgdesc = Multi-browser, real-time, extension-free bookmark manager with p2p synchronization and archiving
+	pkgver = v1.3.0
+	pkgrel = 2
+	url = https://github.com/blob42/gosuki
+	arch = i686
+	arch = x86_64
+	license = AGPL3
+	makedepends = git
+	makedepends = git-lfs
+	makedepends = go
+	makedepends = make
+	makedepends = sqlite
+	provides = gosuki
+	conflicts = gosuki
+	source = git+https://github.com/blob42/gosuki.git
+	sha256sums = SKIP
+
+pkgname = gosuki-git

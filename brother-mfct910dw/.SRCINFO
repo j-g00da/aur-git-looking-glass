@@ -1,0 +1,14 @@
+pkgbase = brother-mfct910dw
+	pkgdesc = Brother MFC-T910dw CUPS driver
+	pkgver = 1.0.1
+	pkgrel = 2
+	url = https://support.brother.com
+	install = brother-mfct910dw.install
+	arch = x86_64
+	license = Unknown
+	depends = cups
+	depends = ghostscript
+	source = https://download.brother.com/welcome/dlf103626/mfct910dwpdrv-1.0.0-0.i386.deb
+	sha256sums = 0bb379f6bf5f19551e42e8c1bbfc7d59d30e56930d91163d0fd83e1d4fbc7f38
+
+pkgname = brother-mfct910dw

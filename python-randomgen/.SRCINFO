@@ -1,0 +1,16 @@
+pkgbase = python-randomgen
+	pkgdesc = Numpy-compatible bit generators and random variates distributions
+	pkgver = 2.1.1
+	pkgrel = 1
+	url = http://github.com/bashtage/randomgen
+	arch = x86_64
+	license = BSD-3-Clause
+	checkdepends = python-pytest
+	makedepends = cython
+	makedepends = python-setuptools
+	depends = python
+	depends = python-numpy
+	source = https://pypi.org/packages/source/r/randomgen/randomgen-2.1.1.tar.gz
+	sha256sums = 2f402afff92d2025e0a054bd5aa3069bed476951f18a5476c715cb695f3c418b
+
+pkgname = python-randomgen

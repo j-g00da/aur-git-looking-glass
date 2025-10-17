@@ -1,0 +1,25 @@
+pkgbase = asmsx
+	pkgdesc = Z80 cross-assembler for MSX
+	pkgver = 1.1.1
+	pkgrel = 1
+	url = https://www.msx.org/wiki/AsMSX
+	arch = x86_64
+	arch = aarch64
+	arch = riscv64
+	arch = riscv
+	arch = ppc
+	arch = i386
+	arch = i686
+	arch = pentium4
+	arch = arm
+	arch = armv7h
+	arch = armv6h
+	license = GPL3
+	makedepends = bison
+	makedepends = flex
+	makedepends = make
+	makedepends = gcc
+	source = asMSX-1.1.1.tar.gz::https://github.com/Fubukimaru/asMSX/archive/refs/tags/1.1.1.tar.gz
+	sha256sums = 46d2d2c0c5234be3e6f66aaa2768640c10ca3b3e5a7d148236cc3e28d773d8e7
+
+pkgname = asmsx

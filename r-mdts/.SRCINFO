@@ -1,0 +1,21 @@
+pkgbase = r-mdts
+	pkgdesc = Detection of de novo deletion in targeted sequencing trios
+	pkgver = 1.28.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/MDTS
+	arch = any
+	license = Artistic2.0
+	depends = r
+	depends = r-biostrings
+	depends = r-dnacopy
+	depends = r-genomicalignments
+	depends = r-genomicranges
+	depends = r-iranges
+	depends = r-rsamtools
+	depends = r-stringr
+	optdepends = r-knitr
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/MDTS_1.28.0.tar.gz
+	sha256sums = acfb9b838821ef8746eefc5760a2699eca98ba141aa1d4a3fea2fcf0644854a4
+
+pkgname = r-mdts

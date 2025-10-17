@@ -1,0 +1,27 @@
+pkgbase = sail-img
+	pkgdesc = The missing small and fast image decoding library for humans (not for machines)
+	pkgver = 0.9.7
+	pkgrel = 2
+	url = https://github.com/HappySeaFox/sail
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = cmake
+	depends = jasper
+	depends = libwebp
+	depends = giflib
+	depends = libjpeg-turbo
+	depends = libavif
+	depends = libjxl
+	depends = libpng
+	depends = libtiff
+	depends = gcc-libs
+	depends = glibc
+	provides = libsail
+	provides = libsail-common
+	provides = libsail-c++
+	provides = libsail-manip
+	source = sail-img-0.9.7.tar.gz::https://github.com/HappySeaFox/sail/archive/refs/tags/v0.9.7.tar.gz
+	sha256sums = a882f8a88ad1fe3e833abe44fd2120463b4ab27f0b00ed8547c8a9616cc548f1
+
+pkgname = sail-img

@@ -1,0 +1,17 @@
+pkgbase = fzfmenu
+	pkgdesc = An application launcher based on fzf
+	pkgver = r14.e2d9810
+	pkgrel = 1
+	url = https://github.com/levinion/fzfmenu
+	arch = any
+	license = GPLv3
+	makedepends = cargo
+	makedepends = git
+	depends = gcc-libs
+	depends = glibc
+	depends = fzf
+	provides = fzfmenu
+	source = fzfmenu::git+https://github.com/levinion/fzfmenu.git
+	sha256sums = SKIP
+
+pkgname = fzfmenu

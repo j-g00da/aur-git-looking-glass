@@ -1,0 +1,17 @@
+pkgbase = python-configparser
+	pkgdesc = Backport of configparser from Python's stdlib.
+	pkgver = 7.2.0
+	pkgrel = 1
+	url = https://github.com/jaraco/configparser/
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools-scm
+	makedepends = git
+	depends = python
+	source = git+https://github.com/jaraco/configparser.git#tag=v7.2.0
+	sha256sums = f89031fa5900228f02bf22995a5a94ac68a5d3c23496e019b14ac9149d996e65
+
+pkgname = python-configparser

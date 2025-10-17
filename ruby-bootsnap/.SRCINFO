@@ -1,0 +1,19 @@
+pkgbase = ruby-bootsnap
+	pkgdesc = Boot large ruby/rails apps faster
+	pkgver = 1.18.4
+	pkgrel = 1
+	url = https://github.com/Shopify/bootsnap
+	arch = any
+	license = MIT
+	checkdepends = ruby-minitest
+	checkdepends = ruby-mocha
+	makedepends = ruby-bundler
+	makedepends = ruby-rake-compiler
+	makedepends = ruby-rake
+	depends = ruby
+	depends = ruby-msgpack
+	options = !emptydirs
+	source = https://github.com/Shopify/bootsnap/archive/v1.18.4/ruby-bootsnap-1.18.4.tar.gz
+	sha512sums = 8f0b9a72cb6a8339c0e91d7b0a58ab31fd9f5c416494cfe42e1f3107625d1743653f039f257722dd040d16dc80372edfa6d707bd76aa7430246532263e1151e6
+
+pkgname = ruby-bootsnap

@@ -1,0 +1,15 @@
+pkgbase = argobots-git
+	pkgdesc = Lightweight, low-level threading and tasking framework
+	pkgver = v1.2.r4.gbb6faac
+	pkgrel = 1
+	url = argobots.org
+	arch = x86_64
+	license = LicenseRef-UChicago-Argonne
+	makedepends = automake
+	makedepends = autoconf
+	makedepends = git
+	makedepends = libtool
+	source = argobots-git::git+https://github.com/pmodels/argobots.git
+	md5sums = SKIP
+
+pkgname = argobots-git

@@ -1,0 +1,22 @@
+pkgbase = ghc7.4-bin
+	pkgdesc = Binary GHC 7.4 installed on /usr/bin/ghc-7.4
+	pkgver = 7.4.2
+	pkgrel = 5
+	url = http://www.haskell.org/ghc/
+	install = ghc.install
+	arch = x86_64
+	license = BSD-3-Clause
+	makedepends = ghc
+	makedepends = libxslt
+	makedepends = docbook-xsl
+	depends = gcc
+	depends = gmp4
+	depends = libffi5
+	depends = perl
+	depends = ncurses5-compat-libs
+	provides = ghc7.4
+	conflicts = ghc7.4
+	source = https://www.haskell.org/ghc/dist/7.4.2/ghc-7.4.2-x86_64-unknown-linux.tar.bz2
+	sha256sums = da962575e2503dec250252d72a94b6bf69baef7a567b88e90fd6400ada527210
+
+pkgname = ghc7.4-bin

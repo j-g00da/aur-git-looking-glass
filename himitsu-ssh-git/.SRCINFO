@@ -1,0 +1,18 @@
+pkgbase = himitsu-ssh-git
+	pkgdesc = SSH integration for Himitsu
+	pkgver = r45.3e1d901
+	pkgrel = 1
+	url = https://sr.ht/~sircmpwn/himitsu-ssh
+	arch = x86_64
+	arch = aarch64
+	license = GPL-3.0
+	makedepends = hare
+	makedepends = hare-ssh
+	provides = himitsu-ssh
+	conflicts = himitsu-ssh
+	source = git+https://git.sr.ht/~sircmpwn/himitsu-ssh
+	source = hissh-agent.service
+	sha256sums = SKIP
+	sha256sums = cff7c70946d9d06f06588e3a3b8c833eb67204a7c936f3f77ee3c8b18974a2ff
+
+pkgname = himitsu-ssh-git

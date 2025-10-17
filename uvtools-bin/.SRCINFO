@@ -1,0 +1,27 @@
+pkgbase = uvtools-bin
+	pkgdesc = MSLA/DLP, file analysis, calibration, repair, conversion and manipulation
+	pkgver = 5.2.1
+	pkgrel = 1
+	url = https://github.com/sn4k3/UVtools
+	arch = x86_64
+	license = AGPL3
+	depends = zlib
+	depends = fuse
+	depends = openjpeg2
+	depends = libjpeg-turbo
+	depends = libpng
+	depends = libgeotiff
+	depends = libdc1394
+	depends = ffmpeg
+	depends = openexr
+	depends = tbb
+	depends = libgdiplus
+	provides = uvtools
+	conflicts = uvtools
+	noextract = UVtools_linux-x64_5.2.1.AppImage
+	options = !strip
+	options = !debug
+	source_x86_64 = UVtools_linux-x64_5.2.1.AppImage::https://github.com/sn4k3/UVtools/releases/download/v5.2.1/UVtools_linux-x64_v5.2.1.AppImage
+	sha256sums_x86_64 = 2df782f096a681acab1828ad3d80b1208d875c9f455c859188d744e9cc3a2633
+
+pkgname = uvtools-bin

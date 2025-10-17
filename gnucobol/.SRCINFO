@@ -1,0 +1,24 @@
+pkgbase = gnucobol
+	pkgdesc = A free, open source and modern COBOL compiler
+	pkgver = 3.2
+	pkgrel = 8
+	url = https://www.gnu.org/software/gnucobol/
+	arch = x86_64
+	license = GPL-3.0-only AND LGPL-3.0
+	makedepends = gnupg
+	depends = db
+	depends = gmp
+	depends = json-c
+	depends = libxml2
+	depends = ncurses
+	depends = glibc
+	depends = bash
+	optdepends = cjson: Alternative for json-c
+	options = !libtool
+	source = https://ftp.gnu.org/gnu/gnucobol/gnucobol-3.2.tar.xz
+	source = https://ftp.gnu.org/gnu/gnucobol/gnucobol-3.2.tar.xz.sig
+	validpgpkeys = B9459D0CA8A740B323235CDF13E96B53C005604E
+	b2sums = 66df93fe2f8772aebd807612c8e96be46f5605c316f374ae51b3a8c3f6ce760150af60777cd1d53f12f65ee48bc0a6225c506b813fdafcc87d949e609ff3273e
+	b2sums = SKIP
+
+pkgname = gnucobol

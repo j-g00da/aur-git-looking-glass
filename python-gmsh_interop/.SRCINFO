@@ -1,0 +1,20 @@
+pkgbase = python-gmsh_interop
+	pkgdesc = Interoperability with Gmsh for Python
+	pkgver = 2025.1
+	pkgrel = 1
+	url = https://documen.tician.de/gmsh_interop
+	arch = x86_64
+	license = MIT
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	makedepends = git
+	depends = python-pytools
+	depends = gmsh
+	source = git+https://github.com/inducer/gmsh_interop.git?signed#tag=v2025.1
+	validpgpkeys = 900A958D9A0ACA58B1468F2471AA298BCA171145
+	sha512sums = 817263866bf433e84abed9f04844b55f400c7a0b62c7c145b0cc15450539596d203958a1e001dafc7773add90af07a6897f00a8186a1ccb4762e4b8aa23ca993
+
+pkgname = python-gmsh_interop

@@ -1,0 +1,15 @@
+pkgbase = sensible-utils
+	pkgdesc = Utilities for sensible alternative selection
+	pkgver = 0.0.26
+	pkgrel = 1
+	url = https://salsa.debian.org/debian/sensible-utils
+	arch = any
+	license = GPL-2.0-or-later
+	checkdepends = ed
+	checkdepends = shellcheck
+	makedepends = po4a
+	depends = bash
+	source = sensible-utils-0.0.26.tar.gz::https://salsa.debian.org/debian/sensible-utils/-/archive/debian/0.0.26/sensible-utils-debian-0.0.26.tar.gz
+	sha256sums = ac7c1321168fb800c856cfd3cc35e20416e327579ddff118132fd2f03d664e1b
+
+pkgname = sensible-utils

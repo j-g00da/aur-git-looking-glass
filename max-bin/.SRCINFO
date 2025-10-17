@@ -1,0 +1,24 @@
+pkgbase = max-bin
+	pkgdesc = MAX messenger.
+	pkgver = 25.8.0.490
+	pkgrel = 1
+	url = https://max.ru
+	arch = x86_64
+	license = custom:max
+	depends = gtk3
+	depends = libnotify
+	depends = nss
+	depends = libxss
+	depends = libxtst
+	depends = xdg-utils
+	depends = at-spi2-core
+	depends = util-linux-libs
+	depends = libsecret
+	optdepends = libappindicator-gtk3: tray icon
+	optdepends = libayatana-appindicator: tray icon
+	provides = max
+	conflicts = max
+	source_x86_64 = https://download.max.ru/electron/MAX.rpm
+	sha256sums_x86_64 = c26585c7c142eec1d16ddbb2ca6a5956599f6f52497732c31550ed5591ed5164
+
+pkgname = max-bin

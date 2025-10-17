@@ -1,0 +1,15 @@
+pkgbase = python2-pytz
+	pkgdesc = Cross platform time zone library for Python2
+	pkgver = 2024.1
+	pkgrel = 1
+	url = https://pypi.python.org/pypi/pytz
+	arch = any
+	license = MIT
+	depends = python2
+	source = https://pypi.io/packages/source/p/pytz/pytz-2024.1.tar.gz
+	source = 0001-Use-the-system-zoneinfo-from-the-tzdata-package.patch
+	validpgpkeys = C7ECC365AB6F255E1EB9BA1701FA998FBAC6374A
+	sha512sums = cc1e4c9b34c62791cea277a0ce188d975e62135cb15bccfb49dc1a9366c7697ead9c67956846699f18b90db4c66e6c5fe1a91a524d01ae821c0eaa613550ea74
+	sha512sums = 3cbd497313c3049a2ae04298118aefb6dfa9ec4626078c665c95c13a78ae944b33a68813aea0c53b02b0532b64221cca4a0cd2153bd91b3760916bc3c0f6df8f
+
+pkgname = python2-pytz

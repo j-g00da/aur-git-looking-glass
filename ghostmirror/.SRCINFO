@@ -1,0 +1,17 @@
+pkgbase = ghostmirror
+	pkgdesc = modern alternative to reflector, true check mirror status, mirror download speed and more.
+	pkgver = 0.17.4
+	pkgrel = 1
+	url = https://github.com/vbextreme/ghostmirror.git
+	arch = x86_64
+	license = GPL3
+	makedepends = meson
+	makedepends = perl
+	makedepends = ninja
+	depends = curl
+	depends = zlib-ng
+	depends = systemd-libs
+	source = ghostmirror-0.17.4.tar.gz::https://github.com/vbextreme/ghostmirror/archive/v0.17.4.tar.gz
+	sha256sums = 3989b3a5f11f9454a8df7064da1db551fc2edda961dbab419db6b572595fcdd7
+
+pkgname = ghostmirror

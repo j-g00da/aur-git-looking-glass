@@ -1,0 +1,23 @@
+pkgbase = pipxu
+	pkgdesc = Install and Run Python Applications in Isolated Environments using UV
+	pkgver = 1.32
+	pkgrel = 1
+	url = https://github.com/bulletmark/pipxu
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = python-setuptools
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools-scm
+	depends = python>=3.8
+	depends = python-filelock
+	depends = python-platformdirs
+	depends = python-argcomplete
+	depends = python-packaging
+	depends = python-argparse-from-file
+	depends = uv>=0.1.33
+	source = pipxu-1.32.tar.gz::https://github.com/bulletmark/pipxu/archive/1.32.tar.gz
+	sha1sums = 4bc695a0f54d4650f7f6e760ea679357b24263f5
+
+pkgname = pipxu

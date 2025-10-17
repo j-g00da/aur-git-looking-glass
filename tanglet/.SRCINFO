@@ -1,0 +1,16 @@
+pkgbase = tanglet
+	pkgdesc = Single player word finding game
+	pkgver = 1.6.8
+	pkgrel = 1
+	url = https://gottcode.org/tanglet/
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = appstream
+	makedepends = cmake
+	makedepends = qt6-tools
+	depends = hicolor-icon-theme
+	depends = qt6-base
+	source = https://gottcode.org/tanglet/tanglet-1.6.8.tar.bz2
+	sha256sums = 23690faf8ad3cca60fecd330767c55dbbbf5909ee80cbfa863d533c2a03dffe5
+
+pkgname = tanglet

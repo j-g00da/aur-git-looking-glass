@@ -1,0 +1,33 @@
+pkgbase = r-yardstick
+	pkgdesc = Tidy Characterizations of Model Performance
+	pkgver = 1.3.2
+	pkgrel = 1
+	url = https://cran.r-project.org/package=yardstick
+	arch = x86_64
+	license = MIT
+	checkdepends = r-ggplot2
+	checkdepends = r-testthat
+	checkdepends = r-tidyr
+	depends = r-cli
+	depends = r-dplyr
+	depends = r-generics
+	depends = r-hardhat
+	depends = r-lifecycle
+	depends = r-rlang
+	depends = r-tibble
+	depends = r-tidyselect
+	depends = r-vctrs
+	depends = r-withr
+	optdepends = r-covr
+	optdepends = r-crayon
+	optdepends = r-ggplot2
+	optdepends = r-knitr
+	optdepends = r-probably
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	optdepends = r-tidyr
+	source = https://cran.r-project.org/src/contrib/yardstick_1.3.2.tar.gz
+	md5sums = b40c0186e8534c3216e5f2da5fc0d18f
+	b2sums = 52f50d35bd3b320a929838042bb16bd43818339fb99f90b3ca7fb0b9146081d69b71a7cefc30d5ad65b7f03edf31ec422d1b9977f29c36c2f1dbe6ec09943dab
+
+pkgname = r-yardstick

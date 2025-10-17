@@ -1,0 +1,17 @@
+pkgbase = hyprfloat
+	pkgdesc = Float the terminal in empty workspace
+	pkgver = 0.3.2
+	pkgrel = 1
+	url = https://github.com/nevimmu/hyprfloat
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = python-setuptools
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python
+	source = hyprfloat-0.3.2::https://github.com/nevimmu/hyprfloat/archive/refs/tags/0.3.2.tar.gz
+	sha256sums = SKIP
+
+pkgname = hyprfloat

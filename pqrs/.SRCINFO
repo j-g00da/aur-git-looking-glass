@@ -1,0 +1,15 @@
+pkgbase = pqrs
+	pkgdesc = Command line tool for inspecting Parquet files
+	pkgver = 0.3.2
+	pkgrel = 1
+	url = https://github.com/manojkarthick/pqrs
+	arch = i686
+	arch = x86_64
+	license = MIT
+	license = Apache
+	makedepends = cargo
+	depends = zstd
+	source = https://github.com/manojkarthick/pqrs/archive/refs/tags/v0.3.2.tar.gz
+	sha256sums = 10424171488a720c0252d510f9d8e70ece270dbdf0c0c5907a5574096bca1146
+
+pkgname = pqrs

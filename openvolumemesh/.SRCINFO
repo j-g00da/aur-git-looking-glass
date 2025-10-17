@@ -1,0 +1,13 @@
+pkgbase = openvolumemesh
+	pkgdesc = A generic C++ data structure for arbitrary polyhedral meshes
+	pkgver = 3.3.1
+	pkgrel = 1
+	url = http://www.openvolumemesh.org
+	arch = x86_64
+	license = LGPL
+	makedepends = cmake
+	depends = gcc-libs
+	source = git+https://gitlab.vci.rwth-aachen.de:9000/OpenVolumeMesh/OpenVolumeMesh.git#tag=v3.3.1
+	sha1sums = SKIP
+
+pkgname = openvolumemesh

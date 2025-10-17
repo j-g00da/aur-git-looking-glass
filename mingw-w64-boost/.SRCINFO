@@ -1,0 +1,20 @@
+pkgbase = mingw-w64-boost
+	pkgdesc = Free peer-reviewed portable C++ source libraries (mingw-w64)
+	pkgver = 1.88.0
+	pkgrel = 1
+	url = http://www.boost.org/
+	arch = any
+	license = BSL-1.0
+	makedepends = mingw-w64-gcc
+	makedepends = mingw-w64-wine
+	makedepends = mingw-w64-environment
+	depends = mingw-w64-zstd
+	depends = mingw-w64-bzip2
+	depends = mingw-w64-dlfcn
+	options = !strip
+	options = !buildflags
+	options = staticlibs
+	source = https://archives.boost.io/release/1.88.0/source/boost_1_88_0.tar.bz2
+	sha256sums = 46d9d2c06637b219270877c9e16155cbd015b6dc84349af064c088e9b5b12f7b
+
+pkgname = mingw-w64-boost

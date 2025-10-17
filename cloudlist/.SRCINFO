@@ -1,0 +1,16 @@
+pkgbase = cloudlist
+	pkgdesc = Tool for listing Assets from multiple Cloud Providers
+	pkgver = 1.2.2
+	pkgrel = 1
+	url = https://docs.projectdiscovery.io/tools/cloudlist
+	arch = aarch64
+	arch = armv7h
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = go
+	depends = glibc
+	source = cloudlist-1.2.2.tar.gz::https://github.com/projectdiscovery/cloudlist/archive/refs/tags/v1.2.2.tar.gz
+	sha256sums = 53efb4bff46b533fab0bbb0003c3fddb5874e64cde8beda977856af3e8fdb064
+
+pkgname = cloudlist

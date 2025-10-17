@@ -1,0 +1,26 @@
+pkgbase = at32-new-clock-configuration-bin
+	pkgdesc = AT32 时钟配置工具是雅特力科技为方便对 AT32 系列 MCU 进行时钟配置而开发的一个图形化配置工具，其主旨是使用户清晰了解时钟路径和配置出期望的时钟频率。
+	pkgver = 3.0.18
+	pkgrel = 1
+	url = https://www.arterytek.com/cn/support/index.jsp
+	arch = x86_64
+	license = LicenseRef-scancode-commercial-license
+	makedepends = libarchive
+	makedepends = sed
+	depends = bash
+	depends = gcc-libs
+	depends = glib2
+	depends = glibc
+	depends = zlib
+	optdepends = artery-isp-console-bin: Artery ISP Console 是一款基于 MCU Bootloader 的命令行应用程序。使用该应用程序,用户可以通过 UART 端口或者 USB 端口配置操作 Artery 的 MCU 设备。
+	optdepends = jlink-software-and-documentation: Segger JLink software & documentation pack for Linux
+	optdepends = at32-ide
+	optdepends = at32-work-bench
+	provides = at32-new-clock-configuration
+	options = !strip
+	options = !debug
+	options = !lto
+	source = AT32_New_Clock_Configuration_Linux-x86_64_V3.0.18.zip::https://www.arterytek.com/download/TOOL/AT32_New_Clock_Configuration_Linux-x86_64_V3.0.18.zip
+	sha256sums = bbff3a1823baa13225b4029166b2d39f32c8685f85268ec999b59199bbd982ce
+
+pkgname = at32-new-clock-configuration

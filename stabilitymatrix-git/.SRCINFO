@@ -1,0 +1,24 @@
+pkgbase = stabilitymatrix-git
+	pkgdesc = Multi-Platform Package Manager for Stable Diffusion
+	pkgver = 2.14.3+r6249+gaa7e3a1a6
+	pkgrel = 1
+	url = https://github.com/LykosAI/StabilityMatrix
+	arch = x86_64
+	license = AGPL-3.0-or-later
+	makedepends = dotnet-sdk
+	makedepends = git
+	depends = dotnet-runtime
+	depends = libxcrypt-compat
+	depends = gcc-libs
+	depends = glibc
+	depends = fontconfig
+	provides = stabilitymatrix
+	conflicts = stabilitymatrix
+	source = git+https://github.com/LykosAI/StabilityMatrix.git
+	source = stabilitymatrix.tmpfiles
+	source = zone.lykos.stabilitymatrix.desktop
+	sha256sums = SKIP
+	sha256sums = 79865c79c2e7cfaf7b11c17b1d5a95683f114cd8208b13d7ec62533e03586d63
+	sha256sums = 03c37b3ac476740cf2163849532996816a738b722e5d0a752f3364b9b790803a
+
+pkgname = stabilitymatrix-git

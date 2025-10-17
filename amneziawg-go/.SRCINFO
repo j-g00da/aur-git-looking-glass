@@ -1,0 +1,13 @@
+pkgbase = amneziawg-go
+	pkgdesc = AmneziaWG is a contemporary version of the popular VPN protocol, WireGuard.
+	pkgver = 0.2.15
+	pkgrel = 1
+	url = https://github.com/amnezia-vpn/amneziawg-go
+	arch = x86_64
+	license = MIT
+	makedepends = go
+	optdepends = amneziawg-tools: Tools for configuration amneziawg
+	source = amneziawg-go-0.2.15.tar.gz::https://github.com/amnezia-vpn/amneziawg-go/archive/refs/tags/v0.2.15.tar.gz
+	sha512sums = b033cad5764d8661960062100e2ed6e151131085a9e61c364fff7c4711761dd161d4c23c8424c14e7f41b99955d1d247116fcdf7ee80d766d8e23afcf9f9d61f
+
+pkgname = amneziawg-go

@@ -1,0 +1,19 @@
+pkgbase = ascii-draw
+	pkgdesc = Draw diagrams and more using ASCII
+	pkgver = 1.1.0
+	pkgrel = 1
+	url = https://github.com/Nokse22/ascii-draw
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = appstream-glib
+	makedepends = meson
+	depends = gtk4
+	depends = libadwaita
+	depends = python-cairo
+	depends = python-emoji
+	depends = python-gobject
+	depends = python-pyfiglet
+	source = ascii-draw-1.1.0.tar.gz::https://github.com/Nokse22/ascii-draw/archive/v1.1.0.tar.gz
+	b2sums = 56ec08347fab109890c13c9c9094137e6eabac6a38409b3c321b42029c2b0f72501b43cc7d393f8a7fc2ac4830da691102d0385ce79b6ce38f8b9708b46b77c5
+
+pkgname = ascii-draw

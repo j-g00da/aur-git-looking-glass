@@ -1,0 +1,14 @@
+pkgbase = pulumi-language-dotnet
+	pkgdesc = Modern Infrastructure as Code (Dotnet provider)
+	pkgver = 3.71.1
+	pkgrel = 1
+	url = https://github.com/pulumi/pulumi-dotnet
+	arch = x86_64
+	license = Apache
+	makedepends = go
+	depends = glibc
+	options = !lto
+	source = pulumi-dotnet-3.71.1.tar.gz::https://github.com/pulumi/pulumi-dotnet/archive/v3.71.1.tar.gz
+	sha256sums = 24ce14b29e507e94da863176448a130f454fa5ea38dbd09de6141cdc17d9c00d
+
+pkgname = pulumi-language-dotnet

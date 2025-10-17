@@ -1,0 +1,26 @@
+pkgbase = wfdserver
+	pkgdesc = Ham Radio - WINTER Field Day - Multi-user Server for clients using the fdlogger package
+	pkgver = 24.2.19
+	pkgrel = 1
+	url = https://pypi.org/project/wfdserver/
+	arch = any
+	license = GPL-3.0-only
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python
+	depends = python-xmltodict
+	depends = python-requests
+	depends = sqlite
+	depends = hamradio-menus
+	depends = wfdlogger
+	provides = wfdserver
+	conflicts = wfdserver-git
+	source = https://files.pythonhosted.org/packages/source/w/wfdserver/wfdserver-24.2.19.tar.gz
+	source = wfdserver.1
+	md5sums = 612510fea41782c82fd9cff7c3a3f0e7
+	md5sums = 191d01a89f8e62ba1ca70fc7448747a6
+	sha256sums = 7e5cbaa7f4e3d123188a80083fb41ce671ecbaa4bf11ba57f57745198bcfaa7d
+	sha256sums = 0bd8dc5a342bb333660ec73a54f3f92e9dc8900ce01810fb17d58f3b3a5ccca3
+
+pkgname = wfdserver

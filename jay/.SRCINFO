@@ -1,0 +1,24 @@
+pkgbase = jay
+	pkgdesc = A Wayland Compositor
+	pkgver = 1.11.1
+	pkgrel = 1
+	url = https://github.com/mahkoh/jay
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = cargo
+	makedepends = cmake
+	makedepends = shaderc
+	depends = cairo
+	depends = libinput
+	depends = libudev.so
+	depends = libvulkan.so
+	depends = mesa
+	depends = pango
+	optdepends = xorg-xwayland: X11 support
+	optdepends = xdg-desktop-portal: portal support
+	provides = wayland-compositor
+	options = !lto
+	source = jay-1.11.1.tar.gz::https://github.com/mahkoh/jay/archive/v1.11.1.tar.gz
+	sha512sums = a6db2e46c1b5dfdbee28d9405243011b128a352611fd2403029b08fab27d25d1a86c83b152231abaffed7e37be3d2a738e2b6e9b4ec220bddfa5793ba6be26b4
+
+pkgname = jay

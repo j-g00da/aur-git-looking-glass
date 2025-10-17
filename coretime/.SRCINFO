@@ -1,0 +1,19 @@
+pkgbase = coretime
+	pkgdesc = A time related task manager from the C Suite.
+	pkgver = 5.0.0
+	pkgrel = 1
+	url = https://gitlab.com/cubocore/coreapps/coretime
+	arch = x86_64
+	arch = aarch64
+	groups = coreapps
+	license = GPL-3.0-or-later
+	makedepends = cmake
+	makedepends = ninja
+	depends = qt6-base
+	depends = qt6-multimedia
+	depends = hicolor-icon-theme
+	depends = libcprime
+	source = https://gitlab.com/cubocore/coreapps/coretime/-/archive/v5.0.0/coretime-v5.0.0.tar.gz
+	sha256sums = 5b8169ef13a6a04e5b979b4eec3e8133114a84ddfab26267375f79dd0e778182
+
+pkgname = coretime

@@ -1,0 +1,13 @@
+pkgbase = python-filedate
+	pkgdesc = Simple, convenient and cross-platform file date changing library
+	pkgver = 3.0
+	pkgrel = 1
+	url = https://github.com/kubinka0505/filedate
+	arch = any
+	license = GPL-3-or-later
+	makedepends = python-installer
+	depends = python-dateutil
+	source = https://files.pythonhosted.org/packages/py3/f/filedate/filedate-3.0-py3-none-any.whl
+	sha256sums = 10af3be124bc17c041a4fb0381f7ab6761384be8f455e785936c9a8cf614dedb
+
+pkgname = python-filedate

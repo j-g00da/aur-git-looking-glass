@@ -1,0 +1,24 @@
+pkgbase = python-timbl-git
+	pkgdesc = Python binding for Timbl, a k-Nearest Neighbours machine learning suite
+	pkgver = 2025.01.22.r0.g5707c71
+	pkgrel = 1
+	url = https://github.com/proycon/python-timbl
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = boost
+	makedepends = git
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	depends = boost-libs
+	depends = gcc-libs
+	depends = timbl
+	optdepends = python-scipy
+	provides = python-timbl
+	conflicts = python-timbl
+	source = git+https://github.com/proycon/python-timbl.git
+	md5sums = SKIP
+
+pkgname = python-timbl-git

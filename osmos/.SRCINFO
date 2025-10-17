@@ -1,0 +1,19 @@
+pkgbase = osmos
+	pkgdesc = A unique physics-based ambient game (Humble Bundle/Store version)
+	pkgver = 1.6.1
+	pkgrel = 2
+	url = http://www.hemispheregames.com/osmos/
+	install = osmos.install
+	arch = i686
+	arch = x86_64
+	license = custom: commercial
+	depends = glu
+	depends = freetype2
+	depends = libvorbis
+	depends = openal
+	source = hib://Osmos_1.6.1.tar.gz
+	source = osmos.desktop
+	sha256sums = f8a9bf55dc22ee32feeec5633058c28d1811a3054f6ebed3f9f3251c5179d202
+	sha256sums = 17709e27f7381e3980247f2c9188c4b8568a09d0b969ea838901470a5b381deb
+
+pkgname = osmos

@@ -1,0 +1,18 @@
+pkgbase = msmtp-ntlm
+	pkgdesc = A mini smtp client - NTLM support
+	pkgver = 1.8.27
+	pkgrel = 1
+	url = https://marlam.de/msmtp/
+	install = msmtp.install
+	arch = x86_64
+	license = GPL3
+	makedepends = libsecret
+	makedepends = gsasl-ntlm
+	makedepends = texlive-plaingeneric
+	optdepends = netcat: for included msmtpq script
+	provides = msmtp
+	conflicts = msmtp
+	source = https://marlam.de/msmtp/releases/msmtp-1.8.27.tar.xz
+	sha256sums = 94030580a63a747faa0a3b9b1b264ae355aad33a4d94b832bfeb5b21633c965e
+
+pkgname = msmtp-ntlm

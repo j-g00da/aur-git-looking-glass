@@ -1,0 +1,15 @@
+pkgbase = dbus-executor
+	pkgdesc = Launch arbitrary programs via D-Bus.
+	pkgver = 0.1.0
+	pkgrel = 2
+	url = https://github.com/arusahni/dbus-executor/
+	arch = x86_64
+	license = MPL-2.0
+	makedepends = cargo
+	makedepends = sed
+	provides = dbus-executor
+	conflicts = dbus-executor
+	source = dbus-executor-0.1.0.tar.gz::https://github.com/arusahni/dbus-executor/archive/v0.1.0.tar.gz
+	sha256sums = 852fb3d34291da3fe7a6d9404ed351da9491d6c0add676395454c397af0e3002
+
+pkgname = dbus-executor

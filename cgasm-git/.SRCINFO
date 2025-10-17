@@ -1,0 +1,14 @@
+pkgbase = cgasm-git
+	pkgdesc = Commandline IA32/AMD64 documentation
+	pkgver = 1.0.0.r0.g6c54b38
+	pkgrel = 1
+	url = https://github.com/bnagy/cgasm
+	arch = i686
+	arch = x86_64
+	license = GPL2
+	makedepends = git
+	makedepends = go
+	source = cgasm::git+https://github.com/bnagy/cgasm.git
+	md5sums = SKIP
+
+pkgname = cgasm-git

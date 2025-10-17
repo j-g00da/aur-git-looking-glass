@@ -1,0 +1,24 @@
+pkgbase = dell-command-configure
+	pkgdesc = Configure various BIOS features on Dell laptops
+	pkgver = 5.1.0.6
+	pkgrel = 2
+	url = https://www.dell.com/support/kbdoc/000178000/dell-command-configure
+	arch = x86_64
+	license = unknown
+	depends = bash
+	depends = libsmbios
+	depends = openssl-1.1
+	depends = pciutils
+	provides = libdchtvm.so=9
+	provides = libdchipm.so=9
+	provides = libdchesm.so=9
+	provides = libdchcfl.so=9
+	provides = libdchbas.so=9
+	provides = libdchapi.so=9
+	provides = libsmbios_c.so=2
+	provides = libhapiintf.so
+	provides = srvadmin-hapi
+	source = dell-command-configure-5.1.0.6.tar.gz::https://dl.dell.com/FOLDER12705845M/1/command-configure_5.1.0-6.ubuntu24_amd64.tar.gz
+	sha256sums = 30ce838e4cff56e5422c71848e2f3c5ead2f215f807ea4248cd5f3e33a853adc
+
+pkgname = dell-command-configure

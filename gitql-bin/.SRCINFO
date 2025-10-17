@@ -1,0 +1,17 @@
+pkgbase = gitql-bin
+	pkgdesc = A git query language
+	pkgver = 2.3.1
+	pkgrel = 1
+	url = https://github.com/filhodanuvem/gitql
+	arch = x86_64
+	arch = i386
+	license = MIT
+	depends = glibc
+	provides = gitql
+	provides = git-ql
+	source_x86_64 = gitql-bin-x86_64-2.3.1.tar.gz::https://github.com/filhodanuvem/gitql/releases/download/v2.3.1/gitql_2.3.1_Linux_x86_64.tar.gz
+	sha256sums_x86_64 = d3700db2fcdf7a2d392ee015a74c8c70edc2fd148505343aea251c353d6c1790
+	source_i386 = gitql-bin-i386-2.3.1.tar.gz::https://github.com/filhodanuvem/gitql/releases/download/v2.3.1/gitql_2.3.1_Linux_i386.tar.gz
+	sha256sums_i386 = e3754c9f66b72dd443682436c2fdfd60b9a3ab592dec5a4e77a1eef31423543b
+
+pkgname = gitql-bin

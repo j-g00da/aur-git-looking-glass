@@ -1,0 +1,25 @@
+pkgbase = processing-bin
+	pkgdesc = Programming environment for creating images, animations and interactions.(Prebuilt version)
+	pkgver = 4.4.10
+	pkgrel = 1
+	url = https://processing.org/
+	arch = aarch64
+	arch = x86_64
+	license = GPL-2.0-only
+	makedepends = gendesk
+	depends = alsa-lib
+	depends = libxi
+	depends = libxext
+	depends = libx11
+	depends = libxcursor
+	depends = freetype2
+	depends = libxtst
+	provides = processing=4.4.10
+	conflicts = processing
+	options = !strip
+	source_aarch64 = processing-4.4.10-aarch64.zip::https://github.com/processing/processing4/releases/download/processing-1310-4.4.10/processing-4.4.10-linux-aarch64-portable.zip
+	sha256sums_aarch64 = fda63cc5da43472799a979b2c2dfbe58656db385b49816969b4a20b4f3fad2aa
+	source_x86_64 = processing-4.4.10-x86_64.zip::https://github.com/processing/processing4/releases/download/processing-1310-4.4.10/processing-4.4.10-linux-x64-portable.zip
+	sha256sums_x86_64 = d3dcad39377cce698121637a0a9e6ca03ce0d128d975ff35b2d60c84c2ad4f32
+
+pkgname = processing-bin

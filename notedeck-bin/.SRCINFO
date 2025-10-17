@@ -1,0 +1,16 @@
+pkgbase = notedeck-bin
+	pkgdesc = The nostr browser
+	pkgver = 0.4.0
+	pkgrel = 1
+	url = https://github.com/damus-io/notedeck
+	arch = x86_64
+	arch = aarch64
+	license = GPL-3
+	depends = glibc
+	options = !strip
+	source_x86_64 = https://damus.io/notedeck/dl/v0.4.0/notedeck_v0.4.0-x64.deb
+	sha256sums_x86_64 = SKIP
+	source_aarch64 = https://damus.io/notedeck/dl/v0.4.0/notedeck_v0.4.0-arm64.deb
+	sha256sums_aarch64 = SKIP
+
+pkgname = notedeck-bin

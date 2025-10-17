@@ -1,0 +1,17 @@
+pkgbase = android-x86-64-system-image-24
+	pkgdesc = Android x86_64 System Image, API-24
+	pkgver = 7.0_r08
+	pkgrel = 1
+	url = https://developer.android.com/topic/generic-system-image/releases
+	arch = any
+	license = LicenseRef-custom
+	depends = android-platform-24
+	optdepends = qemu
+	optdepends = libvirt
+	options = !strip
+	source = android-x86-64-system-image-24-7.0_r08.zip::http://dl.google.com/android/repository/sys-img/android/x86_64-24_r08.zip
+	source = source.properties
+	sha256sums = c122b69f70a229186314ec9a6f7abedcc7a6ff7ed52cb6fdce0d4f1585c09f92
+	sha256sums = a61b6d50ecf6df7d65e2ef09496aba29dbb1823c5b0259ce1803f4359c14b7bf
+
+pkgname = android-x86-64-system-image-24

@@ -1,0 +1,19 @@
+pkgbase = gitify-git
+	pkgdesc = GitHub tray icon and notifications
+	pkgver = 6.8.0.r22.gea6c591
+	pkgrel = 1
+	url = https://github.com/gitify-app/gitify
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = libicns
+	makedepends = nvm
+	depends = electron
+	provides = gitify
+	conflicts = gitify
+	conflicts = gitify-bin
+	source = git+https://github.com/gitify-app/gitify.git
+	sha256sums = SKIP
+
+pkgname = gitify-git
+	depends = electron

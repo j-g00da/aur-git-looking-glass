@@ -1,0 +1,17 @@
+pkgbase = talecast-git
+	pkgdesc = Simple CLI podcatcher
+	pkgver = 0.1.20.r124.gebe6e7f
+	pkgrel = 1
+	url = https://github.com/TBS1996/TaleCast
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	makedepends = git
+	depends = gcc-libs
+	depends = openssl
+	provides = talecast
+	conflicts = talecast
+	source = talecast-git::git+https://github.com/TBS1996/TaleCast
+	sha256sums = SKIP
+
+pkgname = talecast-git

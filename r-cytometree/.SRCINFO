@@ -1,0 +1,23 @@
+pkgbase = r-cytometree
+	pkgdesc = Automated Cytometry Gating and Annotation
+	pkgver = 2.0.6
+	pkgrel = 1
+	url = https://cran.r-project.org/package=cytometree
+	arch = x86_64
+	license = LGPL
+	depends = r
+	depends = r-cowplot
+	depends = r-ggplot2
+	depends = r-gofkernel
+	depends = r-igraph
+	depends = r-mclust
+	depends = r-rcpp
+	depends = r-rcpparmadillo
+	optdepends = r-formatr
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-viridis
+	source = https://cran.r-project.org/src/contrib/cytometree_2.0.6.tar.gz
+	sha256sums = 415191be36e3d4cef5e0584645f80d2e17d06a969fa7dfa41af8cb059f84e50f
+
+pkgname = r-cytometree

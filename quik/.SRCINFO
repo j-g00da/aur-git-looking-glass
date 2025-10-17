@@ -1,0 +1,29 @@
+pkgbase = quik
+	pkgdesc = Trading terminal in Wine
+	pkgver = 12.6.1
+	pkgrel = 1
+	url = https://arqatech.com/ru/products/quik/terminals/user-applications/quik-workstation/
+	arch = x86_64
+	depends = wine<=10.8
+	depends = unixodbc
+	noextract = keygen.zip
+	source = https://arqatech.com/upload/iblock/0ed/quik_12.6.1_upd.zip
+	source = ftp://ftp.quik.ru/public/updates/10.2/StratVolat_3.0.5_upd.zip
+	source = keygen.zip::ftp://ftp.quik.ru/public/updates/keygen_1.3.0_upd.zip
+	source = https://github.com/alain-riedinger/luasocket/releases/download/3.0-5.3.5/luasocket-3.0-5.3.5.zip
+	source = https://github.com/alain-riedinger/luasocket/releases/download/3.1-5.4.7/luasocket-3.1-5.4.7.zip
+	source = quik
+	source = quik-keygen
+	source = qrypto.cfg
+	source = ip.cfg
+	sha256sums = ca30741fd380f5f1b172ea2eadc4619b44aa05be6c273a18cd00209f1d56fff3
+	sha256sums = d32095309cd7359f4078a74179d8ae42e013e3fd3ad75837f0fa3941e7091b75
+	sha256sums = bc66665d2209836abe51ae9258c289c0f682dba4ea5261f9319996a60a6a4ae7
+	sha256sums = b2a3a2e2a895cea35aad5dee97640ef7bcccbb38e61e61b14baff6cecbdd79af
+	sha256sums = f45993d0f5d1d84fe0c084433505d3a84babd6f5686fc2c3c7a7119b9727e927
+	sha256sums = 70f46a29703b822ddff8b502c07697a05e478b7de51b9e55d67c4dc37e1bb80f
+	sha256sums = 758f427eccd973964ce6fcf8d0dd3064bf694096ee56f6d49e27e165ecab54c4
+	sha256sums = d981ee4cc35d33a3b37c43fb7343bde5c24e15e003dbb67907b602d22f60a469
+	sha256sums = 49aa53c38ceb5c3029398203a68bbb1b3cc9819d01ecb57a6ce13c31b344fe03
+
+pkgname = quik

@@ -1,0 +1,17 @@
+pkgbase = i3bar-river
+	pkgdesc = A port of i3bar for river
+	pkgver = 1.1.0
+	pkgrel = 1
+	url = https://github.com/MaxVerevkin/i3bar-river
+	arch = x86_64
+	license = GPL3
+	makedepends = cargo
+	depends = cairo
+	depends = pango
+	provides = i3bar-river
+	conflicts = i3bar-river
+	conflicts = i3bar-river-git
+	source = https://github.com/MaxVerevkin/i3bar-river/archive/refs/tags/v1.1.0.tar.gz
+	b2sums = f5c013b5d290aee440ee37d694750fc80b7c2e9d201b426ec84bbb87bf96d9d5f4b47960ebb92e34ab2612ea5e8b790235e32bd6035c890f687e083fbb51f604
+
+pkgname = i3bar-river

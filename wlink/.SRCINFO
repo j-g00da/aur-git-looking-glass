@@ -1,0 +1,23 @@
+pkgbase = wlink
+	pkgdesc = wlink - WCH-Link(RV) command line tool
+	pkgver = 0.1.1
+	pkgrel = 3
+	url = https://github.com/ch32-rs/wlink
+	arch = x86_64
+	license = Apache-2.0
+	license = MIT
+	makedepends = cargo
+	makedepends = git
+	makedepends = rust
+	depends = gcc-libs
+	depends = glibc
+	depends = libusb
+	depends = systemd-libs
+	provides = wlink
+	conflicts = wlink
+	options = !strip
+	options = !debug
+	source = wlink-0.1.1.tar.gz::https://github.com/ch32-rs/wlink/archive/refs/tags/v0.1.1.tar.gz
+	sha256sums = 817adff68df1883d489cfe698ab8b05495ed666bd5cab4d2df67a5198b55a9a3
+
+pkgname = wlink

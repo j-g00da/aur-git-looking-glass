@@ -1,0 +1,16 @@
+pkgbase = epson-inkjet-printer-201202w
+	pkgdesc = Epson inkjet printer driver (XP-30, XP-33, XP-102, XP-103, XP-202, XP-203, XP-205, XP-207)
+	pkgver = 1.0.1
+	pkgrel = 1
+	url = https://download.ebz.epson.net/man/linux/escp.html
+	arch = x86_64
+	license = custom:Epson End User Software License Agreement
+	depends = epson-inkjet-printer-filter
+	depends = gcc-libs
+	depends = glibc
+	provides = libEpson_201202w.so
+	provides = libEpson_201202w.MT.so
+	source = https://download3.ebz.epson.net/dsc/f/03/00/15/69/64/c9ab4b12ed9e8a3049771f2df053fda2c9a5ee36/epson-inkjet-printer-201202w-1.0.1-1.src.rpm
+	sha256sums = 0e0d1484ab3f70d62e03db0c7f0ad40c64b4f2ae50b82d27fa88596abc1785c4
+
+pkgname = epson-inkjet-printer-201202w

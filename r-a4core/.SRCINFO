@@ -1,0 +1,16 @@
+pkgbase = r-a4core
+	pkgdesc = Automated Affymetrix Array Analysis Core Package
+	pkgver = 1.56.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/a4Core
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-biobase
+	depends = r-glmnet
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/a4Core_1.56.0.tar.gz
+	sha256sums = ae43da8bb5cdb3bbba25f9b5948eef64771617ddc14a3464b655974f067f9357
+
+pkgname = r-a4core

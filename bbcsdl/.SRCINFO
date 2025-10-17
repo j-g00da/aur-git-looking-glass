@@ -1,0 +1,23 @@
+pkgbase = bbcsdl
+	pkgdesc = BBC Basic Programming for Linux
+	pkgver = 1.42a
+	pkgrel = 1
+	url = https://www.bbcbasic.co.uk/bbcsdl
+	arch = x86_64
+	license = CC-BY-NC-SA-4.0
+	makedepends = nasm
+	depends = sdl2
+	depends = sdl2-compat
+	depends = sdl2_ttf
+	depends = sdl2_net
+	depends = zlib
+	depends = glibc
+	provides = bbcsdl
+	conflicts = bbcsdl
+	options = !debug
+	source = https://github.com/rtrussell/BBCSDL/archive/e3d6e1582dc5a9f9b77b7fc2985f63d24702c7d3/BBCSDL-e3d6e1582dc5a9f9b77b7fc2985f63d24702c7d3.tar.gz
+	source = https://www.bbcbasic.net/bbcsdl/bbclinux.zip
+	sha256sums = 71a7a01d59defb39b692d20bc4c14c2c69e5e5fd12958c03472e1ce59aeef4e7
+	sha256sums = 335c55a1f039b4f10742a2186bcd5f58f8a70bf860eba5a5318839194cf96030
+
+pkgname = bbcsdl

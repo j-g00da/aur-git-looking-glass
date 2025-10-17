@@ -1,0 +1,18 @@
+pkgbase = powersupply
+	pkgdesc = Graphical power_supply status tool for Linux mobile platforms
+	pkgver = 0.10.1
+	pkgrel = 0
+	url = https://gitlab.postmarketos.org/postmarketOS/powersupply
+	arch = i686
+	arch = x86_64
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = MIT
+	makedepends = meson
+	depends = gtk4
+	depends = libadwaita
+	source = https://gitlab.postmarketos.org/postmarketOS/powersupply/-/archive/0.10.1/powersupply-0.10.1.tar.gz
+	sha256sums = 77bfc4445d244e398e4644bc6f37f045315d2fea258c0cf5fca7400e14f03eca
+
+pkgname = powersupply

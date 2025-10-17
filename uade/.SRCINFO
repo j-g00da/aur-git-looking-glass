@@ -1,0 +1,16 @@
+pkgbase = uade
+	pkgdesc = Unix Amiga Delitracker Emulator
+	pkgver = 3.05
+	pkgrel = 1
+	url = https://zakalwe.fi/uade
+	install = uade.install
+	arch = i686
+	arch = x86_64
+	license = LicenseRef-(L)GPL-various
+	depends = libao
+	depends = bencodetools
+	depends = libzakalwe
+	source = https://zakalwe.fi/uade/uade3/uade-3.05.tar.bz2
+	md5sums = efc5f7ff638b227a2b4ce0cea3e5562a
+
+pkgname = uade

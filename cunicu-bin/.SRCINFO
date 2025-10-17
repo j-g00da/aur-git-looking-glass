@@ -1,0 +1,24 @@
+pkgbase = cunicu-bin
+	pkgdesc = A zeroconf peer-to-peer mesh VPN using Wireguard® and Interactive Connectivity Establishment (ICE)
+	pkgver = 0.12.0
+	pkgrel = 1
+	url = https://cunicu.li
+	license = Apache-2.0
+	optdepends = bash-completion: for shell completions
+	optdepends = wireguard-tools: for controlling WireGuard interfaces
+	conflicts = cunicu
+	provides = cunicu
+	arch = aarch64
+	source_aarch64 = https://github.com/cunicu/cunicu/releases/download/v0.12.0/cunicu_0.12.0_linux_arm64.tar.gz
+	sha256sums_aarch64 = b5833e9165bd4d822ae41622057435d51f9592a945282d8166d8aabd19e9dcdf
+	arch = armv7h
+	source_armv7h = https://github.com/cunicu/cunicu/releases/download/v0.12.0/cunicu_0.12.0_linux_armv7.tar.gz
+	sha256sums_armv7h = dafc22051b433400fc562fb0a4bb9d6dfcbce1ce6e1c0c2bdb0f6fc6ce9c2b68
+	arch = i686
+	source_i686 = https://github.com/cunicu/cunicu/releases/download/v0.12.0/cunicu_0.12.0_linux_386.tar.gz
+	sha256sums_i686 = 04af117aa05e8a5769a958302221f91ab5ba48520a44b83f76f71fa688acaf2e
+	arch = x86_64
+	source_x86_64 = https://github.com/cunicu/cunicu/releases/download/v0.12.0/cunicu_0.12.0_linux_amd64.tar.gz
+	sha256sums_x86_64 = c5316c6d0d4962cc231f81fdec533b3b07bdb3395e85c14293823533910c66df
+	
+pkgname = cunicu-bin

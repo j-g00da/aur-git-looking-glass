@@ -1,0 +1,18 @@
+pkgbase = onedrivegui-git
+	pkgdesc = A simple GUI for OneDrive Linux client, with multi-account support.
+	pkgver = 1.2.1.r10.g740cd51
+	pkgrel = 1
+	url = https://github.com/bpozdena/OneDriveGUI
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = git
+	depends = pyside6
+	depends = python-requests
+	depends = onedrive-abraunegg
+	depends = qt6-webengine
+	provides = onedrivegui
+	conflicts = onedrivegui
+	source = git+https://github.com/bpozdena/OneDriveGUI.git
+	sha256sums = SKIP
+
+pkgname = onedrivegui-git

@@ -1,0 +1,16 @@
+pkgbase = ruby-sprockets-rails
+	pkgdesc = Sprockets Rails integration
+	pkgver = 3.5.2
+	pkgrel = 1
+	url = https://github.com/rails/sprockets-rails
+	arch = any
+	license = MIT
+	depends = ruby
+	depends = ruby-actionpack
+	depends = ruby-activesupport
+	depends = ruby-sprockets
+	options = !emptydirs
+	source = https://github.com/rails/sprockets-rails/archive/v3.5.2/ruby-sprockets-rails-v3.5.2.tar.gz
+	sha512sums = 868dcdd7580a4c0fd8ab5632cc235e8f558f57e158508107a8ff1cca4264a7caa611a4e75126997b7bad421f91362c00463ee112c29a7458d53a5c1f81d6565d
+
+pkgname = ruby-sprockets-rails

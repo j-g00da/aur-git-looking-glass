@@ -1,0 +1,15 @@
+pkgbase = shit-git
+	pkgdesc = Simple file server in Go (latest git)
+	pkgver = r68.85b984e
+	pkgrel = 1
+	url = https://github.com/notwithering/shit
+	arch = x86_64
+	license = MIT
+	makedepends = go
+	makedepends = git
+	provides = shit
+	conflicts = shit
+	source = git+https://github.com/notwithering/shit.git
+	sha256sums = SKIP
+
+pkgname = shit-git

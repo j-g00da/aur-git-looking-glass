@@ -1,0 +1,58 @@
+pkgbase = matchama-kde
+	pkgver = r265.8525e05
+	pkgrel = 4
+	url = https://gitlab.com/cscs/matchama-kde
+	arch = any
+	license = GPL3
+	makedepends = git
+	options = !strip
+	source = matchama-kde::git+https://gitlab.com/cscs/matchama-kde.git#commit=8525e052971c807d3f6797d7baf38f51c81d4b81
+	sha256sums = SKIP
+
+pkgname = plasma5-themes-matchama
+	pkgdesc = Matcha theme for KDE Plasma 5
+	install = matchama-kde.install
+	depends = plasma-workspace
+	optdepends = papirus-icon-theme: for a more consistent and beautiful experience (recommended)
+	optdepends = matcha-gtk-theme: for a consistent look in GTK applications
+	optdepends = matcha-kde-wallpapers: matcha KDE wallpapers
+	optdepends = kvantum-theme-matcha: matcha theme for Kvantum (recommended)
+	optdepends = konsole-colorscheme-matcha: matcha theme for Konsole
+	optdepends = yakuake-skin-matcha: matcha theme for Yakuake
+	optdepends = konversation-theme-matcha: matcha theme for Konversation
+	optdepends = matcha-firefox-theme: matcha theme for Firefox
+	provides = matchama-kde
+	conflicts = matchama-kde
+	conflicts = matcha-kde
+	replaces = matchama-kde
+
+pkgname = plasma5-themes-matchama-wallpapers
+	pkgdesc = Matcha KDE wallpapers
+	provides = plasma5-themes-matchama-wallpapers
+	conflicts = plasma5-themes-matchama-wallpapers
+	replaces = matchama-kde-wallpapers
+
+pkgname = kvantum-theme-matchama
+	pkgdesc = Matcha theme for Kvantum
+	depends = kvantum
+	provides = kvantum-theme-matchama
+	provides = kvantum-theme-matcha
+	conflicts = kvantum-theme-matchama
+
+pkgname = konsole-colorscheme-matchama
+	pkgdesc = Matcha theme for Konsole
+	depends = konsole
+	provides = konsole-colorscheme-matchama
+	conflicts = konsole-colorscheme-matchama
+
+pkgname = yakuake-skin-matchama
+	pkgdesc = Matcha theme for Yakuake
+	depends = yakuake
+	provides = yakuake-skin-matchama
+	conflicts = yakuake-skin-matchama
+
+pkgname = konversation-theme-matchama
+	pkgdesc = Matcha theme for Konversation
+	depends = konversation
+	provides = konversation-theme-matchama
+	conflicts = konversation-theme-matchama

@@ -1,0 +1,26 @@
+pkgbase = r-cytopipelinegui
+	pkgdesc = GUI's for visualization of flow cytometry data analysis pipelines
+	pkgver = 1.6.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/CytoPipelineGUI
+	arch = any
+	license = GPL-3.0-only
+	checkdepends = r-testthat
+	checkdepends = r-vdiffr
+	depends = r-cytopipeline
+	depends = r-flowcore
+	depends = r-ggplot2
+	depends = r-plotly
+	depends = r-shiny
+	optdepends = r-biocstyle
+	optdepends = r-diffviewer
+	optdepends = r-knitr
+	optdepends = r-patchwork
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	optdepends = r-vdiffr
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/CytoPipelineGUI_1.6.0.tar.gz
+	md5sums = 2ff32d122269d7421aa5ab64a54387fe
+	b2sums = 1b4416b315d6b47d3b4a1a335887cee4e762732ea13a8c6afbb40b38fa5b63f5847122f380d7621ab369f6a80c29e3b4fbc5e815ab9e6635d63b874e21a7dc3f
+
+pkgname = r-cytopipelinegui

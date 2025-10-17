@@ -1,0 +1,30 @@
+pkgbase = leftwm
+	pkgdesc = A tiling window manager for the adventurer
+	pkgver = 0.5.4
+	pkgrel = 3
+	url = https://github.com/leftwm/leftwm
+	install = readme.install
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	makedepends = git
+	depends = gcc-libs
+	optdepends = bash: themes
+	optdepends = dmenu: default launcher
+	optdepends = eww: flexible status bar
+	optdepends = feh: used to set background images
+	optdepends = lemonbar: light weight bar
+	optdepends = polybar: light weight bar
+	source = leftwm-0.5.4.tar.gz::https://github.com/leftwm/leftwm/archive/refs/tags/0.5.4.tar.gz
+	sha256sums = 5889843e64377f8c09edae51cadeddb9e6dab599e51c96fcc8314ceb4a5a7f16
+
+pkgname = leftwm
+	pkgdesc = A tiling window manager for the adventurer (systemd init)
+	depends = gcc-libs
+	depends = systemd
+
+pkgname = leftwm-nonsystemd
+	pkgdesc = A tiling window manager for the adventurer (non-systemd init)
+	provides = leftwm
+	conflicts = leftwm

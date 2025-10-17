@@ -1,0 +1,14 @@
+pkgbase = libsrsirc
+	pkgdesc = A lightweight IRC library (includes icat)
+	pkgver = 0.0.14.1
+	pkgrel = 1
+	url = https://github.com/fstd/libsrsirc
+	arch = i686
+	arch = x86_64
+	license = BSD
+	depends = glibc
+	options = !libtool
+	source = libsrsirc-0.0.14.1.tar.gz::https://github.com/fstd/libsrsirc/raw/tar/libsrsirc-0.0.14.1.tar.gz?raw=true
+	sha256sums = 199c40bd2798c42bb5514bd82856ea77efb91d08583fb14e4c6898bb13d2afbb
+
+pkgname = libsrsirc

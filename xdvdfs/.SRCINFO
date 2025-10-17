@@ -1,0 +1,15 @@
+pkgbase = xdvdfs
+	pkgdesc = A collection of tools for interacting with XDVDFS/XISO images.
+	pkgver = 0.8.3
+	pkgrel = 1
+	url = https://github.com/antangelo/xdvdfs
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	makedepends = git
+	depends = gcc-libs
+	depends = glibc
+	source = xdvdfs-0.8.3.tar.gz::https://github.com/antangelo/xdvdfs/archive/v0.8.3.tar.gz
+	sha256sums = 169aac2ec5f50aa551bc2bdd409a7b8cde5c920d0b515f92aa721f61fea62fba
+
+pkgname = xdvdfs

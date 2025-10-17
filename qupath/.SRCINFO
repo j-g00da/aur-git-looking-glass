@@ -1,0 +1,25 @@
+pkgbase = qupath
+	pkgdesc = Bioimage analysis & digital pathology
+	pkgver = 0.6.0
+	pkgrel = 1
+	url = https://github.com/qupath/qupath
+	arch = x86_64
+	license = GPL-2.0-or-later
+	makedepends = gendesk
+	makedepends = gradle
+	makedepends = java-environment=17
+	depends = freetype2
+	depends = gcc-libs
+	depends = glibc
+	depends = giflib
+	depends = harfbuzz
+	depends = lcms2
+	depends = libjpeg-turbo
+	depends = libpng
+	depends = zlib
+	optdepends = ttf-droid: font for CJK characters
+	options = !strip
+	source = qupath-0.6.0.tar.gz::https://github.com/qupath/qupath/archive/v0.6.0.tar.gz
+	sha512sums = 2a0ddd87ce307a3c554592c0fdd56fc31f418a30187eaed654e9128adbecf0aedc1a568a208a00f8963b0f68adc2cb2aeb3861f3356abd07b002e0a9183f24de
+
+pkgname = qupath

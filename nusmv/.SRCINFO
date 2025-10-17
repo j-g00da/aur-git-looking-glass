@@ -1,0 +1,19 @@
+pkgbase = nusmv
+	pkgdesc = A new symbolic model checker
+	pkgver = 2.7.0
+	pkgrel = 1
+	url = http://nusmv.fbk.eu/index.html
+	arch = i686
+	arch = x86_64
+	license = LGPL2.1
+	makedepends = python
+	makedepends = flex
+	makedepends = bison
+	makedepends = meson
+	depends = libxml2
+	depends = libedit
+	optdepends = perl: for scripts in /usr/share/nusmv/contrib/
+	source = http://nusmv.fbk.eu/distrib/2.7.0/NuSMV-2.7.0.tar.xz
+	sha256sums = bf5b14c4e2ca1f5e8404c8ce75825183d8f5842063cb1e58e073d92bb1234828
+
+pkgname = nusmv

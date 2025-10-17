@@ -1,0 +1,32 @@
+pkgbase = shadowsocks-uri-generator-git
+	pkgdesc = Shadowsocks URI Generator is a management and distribution platform for censorship circumvention services
+	pkgver = 5.0.r0.gfc62854
+	pkgrel = 1
+	url = https://github.com/database64128/shadowsocks-uri-generator
+	arch = x86_64
+	license = GPL3
+	makedepends = git
+	makedepends = dotnet-sdk>=5.0
+	options = !strip
+	source = shadowsocks-uri-generator-git::git+https://github.com/database64128/shadowsocks-uri-generator.git
+	b2sums = SKIP
+
+pkgname = ss-uri-gen-git
+	pkgdesc = Command-line interface for Shadowsocks URI Generator, a management and distribution platform for censorship circumvention services
+	provides = ss-uri-gen
+	conflicts = ss-uri-gen
+
+pkgname = ss-uri-gen-chatbot-telegram-git
+	pkgdesc = Telegram bot allowing easy user interactions with Shadowsocks URI Generator
+	provides = ss-uri-gen-chatbot-telegram
+	conflicts = ss-uri-gen-chatbot-telegram
+
+pkgname = ss-uri-gen-rescue-git
+	pkgdesc = Rescue tool for restoring ss-uri-gen config from generated online config directory
+	provides = ss-uri-gen-rescue
+	conflicts = ss-uri-gen-rescue
+
+pkgname = ss-uri-gen-server-git
+	pkgdesc = Shadowsocks URI Generator API Server provides an API endpoint for basic management tasks and online config
+	provides = ss-uri-gen-server
+	conflicts = ss-uri-gen-server

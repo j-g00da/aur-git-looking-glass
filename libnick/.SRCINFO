@@ -1,0 +1,17 @@
+pkgbase = libnick
+	pkgdesc = A cross-platform base for native Nickvision applications
+	pkgver = 2025.10.0
+	pkgrel = 1
+	url = https://github.com/NickvisionApps/libnick
+	arch = x86_64
+	license = MIT
+	makedepends = boost
+	makedepends = cmake
+	makedepends = cpr
+	makedepends = libmaddy
+	makedepends = sqlcipher
+	options = !lto
+	source = libnick-2025.10.0.tar.gz::https://github.com/NickvisionApps/libnick/archive/refs/tags/2025.10.0.tar.gz
+	sha256sums = 91752dcde98ba6a85a8dda876a40504b369ba0046fba79c255a0d33730608ff3
+
+pkgname = libnick

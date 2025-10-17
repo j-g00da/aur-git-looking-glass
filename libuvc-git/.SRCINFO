@@ -1,0 +1,17 @@
+pkgbase = libuvc-git
+	pkgdesc = a cross-platform library for USB video devices
+	pkgver = 0.0.7.r2.g047920b
+	pkgrel = 1
+	url = https://libuvc.github.io/libuvc/
+	arch = x86_64
+	license = BSD-3-Clause
+	makedepends = cmake
+	makedepends = git
+	depends = libusb
+	depends = libjpeg
+	provides = libuvc
+	conflicts = libuvc
+	source = git+https://github.com/libuvc/libuvc.git
+	sha256sums = SKIP
+
+pkgname = libuvc-git

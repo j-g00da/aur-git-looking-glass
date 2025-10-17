@@ -1,0 +1,15 @@
+pkgbase = lidm-git
+	pkgdesc = A fully colorful customizable TUI display manager made in C. (last git commit)
+	pkgver = 1.2.3.r3.g363deea
+	pkgrel = 3
+	url = https://github.com/javalsai/lidm
+	arch = any
+	license = GPL
+	makedepends = git
+	depends = pam
+	provides = lidm
+	conflicts = lidm
+	source = lidm::git+https://github.com/javalsai/lidm
+	sha256sums = SKIP
+
+pkgname = lidm-git

@@ -1,0 +1,18 @@
+pkgbase = xilinota-bin
+	pkgdesc = An open-source multi-platform note-taking application boasting instant syncing among devices and direct keeping of markdown files.(Prebuilt version.Use system-wide electron)
+	pkgver = 2.15.1
+	pkgrel = 4
+	url = https://github.com/XilinJia/Xilinota
+	arch = x86_64
+	license = AGPL-3.0-only
+	makedepends = fuse2
+	depends = electron28
+	depends = libdbusmenu-glib
+	provides = xilinota=2.15.1
+	conflicts = xilinota
+	source = xilinota-2.15.1.AppImage::https://github.com/XilinJia/Xilinota/releases/download/v2.15.1/Xilinota-2.15.1.AppImage
+	source = xilinota.sh
+	sha256sums = 582bc309ca86fd536b086b791c31dd985b506bb7ba266db6de0f831d45c6ab8b
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = xilinota-bin

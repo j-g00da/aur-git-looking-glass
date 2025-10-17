@@ -1,0 +1,17 @@
+pkgbase = r-teqc
+	pkgdesc = Quality control for target capture experiments
+	pkgver = 4.30.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/TEQC
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-biobase
+	depends = r-biocgenerics
+	depends = r-hwriter
+	depends = r-iranges
+	depends = r-rsamtools
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/TEQC_4.30.0.tar.gz
+	sha256sums = 4ae2e79e4902d6140e196338474d669d40ce72ed4d933b30824794588e1ea356
+
+pkgname = r-teqc

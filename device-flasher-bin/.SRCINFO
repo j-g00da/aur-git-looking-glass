@@ -1,0 +1,13 @@
+pkgbase = device-flasher-bin
+	pkgdesc = Install CalyxOS (binary release)
+	pkgver = 1.1.1
+	pkgrel = 1
+	url = https://gitlab.com/CalyxOS/device-flasher
+	arch = x86_64
+	license = Apache-2.0
+	provides = device-flasher
+	conflicts = device-flasher
+	source = device-flasher-1.1.1::https://release.calyxinstitute.org/device-flasher/1.1.1/device-flasher.linux
+	sha256sums = 9c460276906eb6aa5e4c1c65f7fefae9606d37cabe96a923a5642ed1d2b3910e
+
+pkgname = device-flasher-bin

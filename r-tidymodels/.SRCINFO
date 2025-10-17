@@ -1,0 +1,40 @@
+pkgbase = r-tidymodels
+	pkgdesc = Easily Install and Load the 'Tidymodels' Packages
+	pkgver = 1.4.1
+	pkgrel = 5
+	url = https://cran.r-project.org/package=tidymodels
+	arch = any
+	license = GPL-3.0-only
+	checkdepends = r-testthat
+	depends = r-broom>=1.0.9
+	depends = r-cli
+	depends = r-conflicted
+	depends = r-dials
+	depends = r-dplyr
+	depends = r-ggplot2
+	depends = r-hardhat
+	depends = r-infer
+	depends = r-modeldata
+	depends = r-parsnip
+	depends = r-purrr
+	depends = r-recipes
+	depends = r-rlang
+	depends = r-rsample
+	depends = r-rstudioapi
+	depends = r-tailor
+	depends = r-tidyr
+	depends = r-tune
+	depends = r-workflows
+	depends = r-workflowsets
+	depends = r-yardstick
+	optdepends = r-covr
+	optdepends = r-glue
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	optdepends = r-xml2
+	source = https://cran.r-project.org/src/contrib/tidymodels_1.4.1.tar.gz
+	md5sums = 3694af87e93e62c26d0998c46011f9e6
+	b2sums = 40dd9276ee45766687163cea4ecad85963633bb2044357274de5fd803082d5c4c74871cbb9e1e7c9478d68212d561e3019df3acd5a1ae425109a72a348de88ad
+
+pkgname = r-tidymodels

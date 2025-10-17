@@ -1,0 +1,12 @@
+pkgbase = fnf
+	pkgdesc = A simple fuzzy finder for the terminal
+	pkgver = 0.4
+	pkgrel = 2
+	url = https://github.com/leo-arch/fnf
+	arch = x86_64
+	license = MIT
+	optdepends = clifm: to use with clifm
+	source = fnf-0.4.tar.gz::https://github.com/leo-arch/fnf/archive/v0.4.tar.gz
+	sha256sums = 13aa1c1bddfa6be4f458af3e077ed0c1bbd91400d89cf670c1a10cafd525c8f5
+
+pkgname = fnf

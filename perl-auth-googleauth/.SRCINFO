@@ -1,0 +1,19 @@
+pkgbase = perl-auth-googleauth
+	pkgdesc = Google Authenticator TBOT Abstraction
+	pkgver = 1.05
+	pkgrel = 1
+	url = https://metacpan.org/release/Auth-GoogleAuth
+	arch = any
+	license = Artistic2.0
+	depends = perl-class-accessor>=0
+	depends = perl-convert-base32>=0
+	depends = perl-digest-hmac>=0
+	depends = perl-math-random-mt>=0
+	depends = perl-uri>=0
+	depends = perl>=5.008
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/G/GR/GRYPHON/Auth-GoogleAuth-1.05.tar.gz
+	md5sums = cf3b88108af3f8a345873b86e9de0999
+	sha512sums = 361c7916ba9dd9cbf03fbb148166d8eda5769702c57f2e200e659844ce723594d8b6ad076ed9a69635354b24da628219aef88b79ebaf6dfe3e1c3fd6a3fc68e3
+
+pkgname = perl-auth-googleauth

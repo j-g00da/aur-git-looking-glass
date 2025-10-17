@@ -1,0 +1,30 @@
+pkgbase = r-kableextra
+	pkgdesc = Construct Complex Table with 'kable' and Pipe Syntax
+	pkgver = 1.4.0
+	pkgrel = 1
+	url = https://cran.r-project.org/package=kableExtra
+	arch = any
+	license = MIT
+	depends = r
+	depends = r-digest
+	depends = r-glue
+	depends = r-htmltools
+	depends = r-knitr
+	depends = r-magrittr
+	depends = r-rmarkdown
+	depends = r-rstudioapi
+	depends = r-rvest
+	depends = r-scales
+	depends = r-stringr
+	depends = r-svglite
+	depends = r-viridislite
+	depends = r-webshot
+	depends = r-xml2
+	optdepends = r-formattable
+	optdepends = r-magick
+	optdepends = r-sparkline
+	optdepends = r-testthat
+	source = https://cran.r-project.org/src/contrib/kableExtra_1.4.0.tar.gz
+	sha256sums = 8fe2cc9fc2e8991685c4dc9e4904459e6f572c945319befde36d76f3ab527409
+
+pkgname = r-kableextra

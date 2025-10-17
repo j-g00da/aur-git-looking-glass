@@ -1,0 +1,21 @@
+pkgbase = todometer-git
+	pkgdesc = A simple, meter-based to-do list built with Electron and React.(Use system-wide electron)
+	pkgver = 2.0.1.r60.g2a4240b
+	pkgrel = 1
+	url = https://cassidoo.github.io/todometer/
+	arch = x86_64
+	license = MIT
+	makedepends = npm
+	makedepends = git
+	makedepends = nvm
+	makedepends = gendesk
+	makedepends = curl
+	depends = electron22
+	provides = todometer=2.0.1
+	conflicts = todometer
+	source = todometer.git::git+https://github.com/cassidoo/todometer.git
+	source = todometer.sh
+	sha256sums = SKIP
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = todometer-git

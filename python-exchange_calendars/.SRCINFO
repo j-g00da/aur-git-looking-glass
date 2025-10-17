@@ -1,0 +1,23 @@
+pkgbase = python-exchange_calendars
+	pkgdesc = Calendars for various securities exchanges
+	pkgver = 4.10.1
+	pkgrel = 2
+	url = https://github.com/gerrymanoim/exchange_calendars
+	arch = any
+	license = APACHE
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools-scm
+	depends = python-numpy
+	depends = python-pandas
+	depends = python-dateutil
+	depends = python-pytz
+	depends = python-pyluach
+	depends = python-toolz
+	depends = python-korean_lunar_calendar
+	depends = python
+	source = https://files.pythonhosted.org/packages/source/e/exchange_calendars/exchange_calendars-4.10.1.tar.gz
+	sha256sums = 32885a58557cee82359f8b54f396616fde1ee0df05911f67416934d58bcd13e1
+
+pkgname = python-exchange_calendars

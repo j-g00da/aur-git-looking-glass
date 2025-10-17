@@ -1,0 +1,29 @@
+pkgbase = vagrant
+	pkgdesc = Build and distribute virtualized development environments
+	pkgver = 2.4.9
+	pkgrel = 1
+	url = https://vagrantup.com
+	arch = x86_64
+	license = BUSL-1.1
+	makedepends = git
+	makedepends = go
+	depends = curl
+	depends = libarchive
+	depends = libssh2
+	depends = libxml2
+	depends = libxslt
+	depends = rsync
+	depends = ruby
+	depends = xz
+	depends = perl
+	optdepends = dnsmasq: if using libvirt
+	optdepends = cdrtools: to create cloud-init media
+	conflicts = vagrant-substrate
+	replaces = vagrant-substrate
+	options = !emptydirs
+	source = vagrant-2.4.9.tar.gz::https://github.com/hashicorp/vagrant/archive/v2.4.9.tar.gz
+	source = git+https://github.com/hashicorp/vagrant-installers.git#commit=7bcf4d4
+	sha256sums = c652f460b639c86f50d8bf77020d693bf17c2cea7e25d720aef5b2c3e6d93ff2
+	sha256sums = 6a12657a82226a942ca57f5b3a6f3684d312fe1ef6f876dfb6c246b7e757aa26
+
+pkgname = vagrant

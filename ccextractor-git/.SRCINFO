@@ -1,0 +1,21 @@
+pkgbase = ccextractor-git
+	pkgdesc = A closed captions and teletext subtitles extractor for video streams.
+	pkgver = v0.94.r138.6300bb7
+	pkgrel = 1
+	url = https://www.ccextractor.org
+	arch = x86_64
+	license = GPL
+	makedepends = rust
+	makedepends = clang
+	makedepends = git
+	depends = gcc-libs
+	depends = tesseract
+	depends = ffmpeg4.4
+	depends = leptonica
+	depends = gpac
+	provides = ccextractor
+	conflicts = ccextractor
+	source = ccextractor-git::git+https://github.com/CCExtractor/ccextractor.git#commit=6300bb7bca9e21b141db603c9af1e613d80a38aa
+	sha512sums = SKIP
+
+pkgname = ccextractor-git

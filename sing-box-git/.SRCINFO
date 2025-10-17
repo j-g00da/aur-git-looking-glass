@@ -1,0 +1,21 @@
+pkgbase = sing-box-git
+	pkgdesc = The universal proxy platform (git version).
+	pkgver = 1.8.2.r4.gbb7b2992
+	pkgrel = 1
+	url = https://sing-box.sagernet.org/
+	arch = x86_64
+	arch = i686
+	license = GPL3 with name use or association addition
+	makedepends = go
+	optdepends = sing-geosite: sing-geosite database
+	optdepends = sing-geoip: sing-geoip database
+	provides = sing-box
+	conflicts = sing-box
+	conflicts = sing-box-beta
+	backup = etc/sing-box/config.json
+	source = sing-box::git+https://github.com/SagerNet/sing-box.git#branch=dev-next
+	source = sing-box.rules
+	sha256sums = SKIP
+	sha256sums = 1365536e1875043b969e2e18d7313ab7c6f7f9f63387f25506bb04362b44f206
+
+pkgname = sing-box-git

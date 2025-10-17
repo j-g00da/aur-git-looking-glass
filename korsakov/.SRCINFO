@@ -1,0 +1,12 @@
+pkgbase = korsakov
+	pkgdesc = Cyrillic multi-paradigm general-purpose programming language
+	pkgver = 1.15.4
+	pkgrel = 2
+	url = https://gitverse.ru/rus.yaz/korsakov
+	arch = x86_64
+	license = GPL-3.0-or-later
+	depends = fasm
+	source = korsakov::git+https://gitverse.ru/rus.yaz/korsakov.git
+	sha256sums = SKIP
+
+pkgname = korsakov

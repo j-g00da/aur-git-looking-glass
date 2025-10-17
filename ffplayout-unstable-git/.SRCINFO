@@ -1,0 +1,27 @@
+pkgbase = ffplayout-unstable-git
+	pkgdesc = 24/7 playout based on rust and ffmpeg
+	pkgver = 0.25.4
+	pkgrel = 1
+	url = https://github.com/jb-alvarado/ffplayout
+	install = ffplayout.install
+	arch = x86_64
+	license = GPL-3.0
+	makedepends = rustup
+	makedepends = musl
+	makedepends = nodejs-lts-jod
+	makedepends = npm
+	makedepends = pandoc
+	makedepends = git
+	depends = ffmpeg
+	depends = sudo
+	provides = ffplayout
+	conflicts = ffplayout
+	conflicts = ffplayout-git
+	replaces = ffplayout
+	replaces = ffplayout-git
+	source = ffplayout-unstable-git::git+https://github.com/jb-alvarado/ffplayout.git
+	source = ffplayout.install
+	sha256sums = SKIP
+	sha256sums = eaaf8977a2b657abdc3273f024ffdd8ccfc2e462f5fdaa1535144c8ff84a813d
+
+pkgname = ffplayout-unstable-git

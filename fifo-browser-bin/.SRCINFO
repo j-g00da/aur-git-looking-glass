@@ -1,0 +1,17 @@
+pkgbase = fifo-browser-bin
+	pkgdesc = A modern web browser, built on top of modern web technologies such as Electron and React that is mean't to be secure.(Prebuilt version.Use system-wide electron)
+	pkgver = 1.3.1
+	pkgrel = 11
+	url = https://fifo.snaildos.com/
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = fuse2
+	depends = electron20
+	provides = fifo-browser=1.3.1
+	conflicts = fifo-browser
+	source = fifo-browser-1.3.1.AppImage::https://github.com/snaildos/Fifo-Browser/releases/download/v1.3.1/Fifo-1.3.1.AppImage
+	source = fifo-browser.sh
+	sha256sums = 68d59da728a07076d34dc05180d08d9e6b3740062590b996b6bd5c93a3072b18
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = fifo-browser-bin

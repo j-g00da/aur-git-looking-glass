@@ -1,0 +1,17 @@
+pkgbase = tema-git
+	pkgdesc = Omarchy theming application
+	pkgver = 1.0.3
+	pkgrel = 1
+	url = https://github.com/bjarneo/tema
+	install = tema.install
+	arch = any
+	license = MIT
+	depends = gjs
+	depends = gtk4
+	depends = libadwaita
+	depends = python-pywal
+	optdepends = omarchy: Theme application backend
+	source = tema-git-1.0.3.tar.gz::https://github.com/bjarneo/tema/archive/v1.0.3.tar.gz
+	sha256sums = 975497b4181b9a0ee48db8d6425e5f50e20355b72a63699a3222c9bad1654712
+
+pkgname = tema-git

@@ -1,0 +1,19 @@
+pkgbase = tattoy
+	pkgdesc = Text-based terminal compositor
+	pkgver = 0.1.8
+	pkgrel = 1
+	url = https://github.com/tattoy-org/tattoy
+	arch = i686
+	arch = x86_64
+	arch = armv6h
+	arch = armv7h
+	license = MIT
+	makedepends = cargo
+	depends = glibc
+	depends = gcc-libs
+	depends = dbus
+	depends = libxcb
+	source = tattoy-0.1.8.tar.gz::https://github.com/tattoy-org/tattoy/archive/refs/tags/tattoy-v0.1.8.tar.gz
+	b2sums = 79c3e1ca8b9e92eb75f561f5e974aac0b5a4d82568b0360d3a6cf07a30cd60470f038eddc735ad56c41e1d2875a0b235ce84e992be97e7d2221b386fd3c90271
+
+pkgname = tattoy

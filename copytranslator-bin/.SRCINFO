@@ -1,0 +1,17 @@
+pkgbase = copytranslator-bin
+	pkgdesc = Foreign language reading and translation assistant based on copy and translate.(Prebuilt version.Use system-wide electron)
+	pkgver = 9.1.0
+	pkgrel = 7
+	url = https://copytranslator.gitee.io/
+	arch = x86_64
+	license = GPL-2.0-only
+	makedepends = asar
+	depends = electron6
+	provides = copytranslator=9.1.0
+	conflicts = copytranslator
+	source = copytranslator-9.1.0.rpm::https://github.com/CopyTranslator/CopyTranslator/releases/download/v9.1.0/copytranslator-9.1.0.x86_64.rpm
+	source = copytranslator.sh
+	sha256sums = 6156cbdfe0d696adeafe2afc0eb9eca98d1d2169ff866c8650153bdf310fb692
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = copytranslator-bin

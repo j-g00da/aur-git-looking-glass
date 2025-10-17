@@ -1,0 +1,17 @@
+pkgbase = libmceliece
+	pkgdesc = A microlibrary for the Classic McEliece cryptosystem
+	pkgver = 20241009
+	pkgrel = 1
+	url = https://lib.mceliece.org
+	arch = x86_64
+	license = Unlicense
+	makedepends = clang
+	makedepends = python
+	makedepends = valgrind
+	depends = libcpucycles
+	depends = librandombytes
+	depends = openssl
+	source = https://lib.mceliece.org/libmceliece-20241009.tar.gz
+	sha512sums = 438147cf4b8f3495d5adec90262e12a2224d06930c9afa6c4f21a083ba2a825e1c04a1de8b2cc3af43982f4d69f0d59fb31e3c5a100de56cb5c752cd626213b8
+
+pkgname = libmceliece

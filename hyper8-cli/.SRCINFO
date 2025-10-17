@@ -1,0 +1,21 @@
+pkgbase = hyper8-cli
+	pkgdesc = A static site generator for video publishing
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://simonrepp.com/hyper8
+	arch = aarch64
+	arch = x86_64
+	license = AGPL3
+	makedepends = cargo
+	makedepends = cmake
+	makedepends = git
+	depends = ffmpeg
+	depends = rsync
+	provides = hyper8
+	conflicts = hyper8
+	conflicts = hyper8-bin
+	options = !lto
+	source = hyper8-1.0.0.tar.gz::https://codeberg.org/simonrepp/hyper8/archive/1.0.0.tar.gz
+	sha256sums = 6786c2b4bad6b5f70d6859a55a17e47905209cebc780dd78e4bd25615988f450
+
+pkgname = hyper8-cli

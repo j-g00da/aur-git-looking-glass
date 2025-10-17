@@ -1,0 +1,20 @@
+pkgbase = convertall
+	pkgdesc = Convert between units.
+	pkgver = 1.0.2
+	pkgrel = 1
+	url = https://github.com/doug-101/ConvertAll
+	arch = x86_64
+	license = GPL-2.0-or-later
+	makedepends = fvm
+	makedepends = git
+	makedepends = patchelf
+	makedepends = cmake
+	makedepends = ninja
+	makedepends = clang
+	depends = gtk3
+	depends = gstreamer
+	depends = gst-plugins-base-libs
+	source = git+https://github.com/doug-101/ConvertAll.git#tag=v1.0.2
+	sha256sums = 7851fa79178731fd1affad0167772409780f719b8f8dcdc3ce0e6a9136465941
+
+pkgname = convertall

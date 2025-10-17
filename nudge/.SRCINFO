@@ -1,0 +1,21 @@
+pkgbase = nudge
+	pkgdesc = An electron-powered application focused on personal health.(Use system-wide electron)
+	pkgver = 0.6.1
+	pkgrel = 1
+	url = https://github.com/aasmart/Nudge
+	arch = any
+	license = ISC
+	makedepends = npm
+	makedepends = gendesk
+	makedepends = nvm
+	makedepends = curl
+	makedepends = git
+	depends = electron31
+	conflicts = nudge
+	options = !emptydirs
+	source = nudge-0.6.1::git+https://github.com/aasmart/Nudge#tag=v0.6.1
+	source = nudge.sh
+	sha256sums = dbe54e8c7dd09305869bc0137dd32d7635cc2913aa69d44be951246ae6e1409e
+	sha256sums = f2fe8c189974ffb9d445e9a42bd4f1d5b60185607c3fcafae79ab44be224e013
+
+pkgname = nudge

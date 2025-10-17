@@ -1,0 +1,20 @@
+pkgbase = nodejs-autocannon
+	pkgdesc = fast HTTP/1.1 benchmarking tool written in Node.js
+	pkgver = 8.0.0
+	pkgrel = 1
+	url = https://github.com/mcollina/autocannon
+	changelog = changelog.md
+	arch = any
+	license = MIT
+	makedepends = npm
+	makedepends = jq
+	depends = nodejs
+	provides = autocannon
+	conflicts = autocannon
+	noextract = autocannon-8.0.0.tgz
+	source = https://registry.npmjs.org/autocannon/-/autocannon-8.0.0.tgz
+	source = https://raw.githubusercontent.com/mcollina/autocannon/master/LICENSE
+	b2sums = 6bdf2b9bfb0dfe0b6f33d98f90d44ab2c38d0dff43758f3db12228db9541fb6e4bfce264a54c4499570745ca41202bd667619286b1892352e29e0f677480ed1a
+	b2sums = ac1f56051dfc2f729db4d635ff40ab143314a29b3a3259967e1d83ab1b26cb53059a29d3ec52f1358e588b90cadbcc4a63cf3feb485770b085b7cbfd8313e43a
+
+pkgname = nodejs-autocannon

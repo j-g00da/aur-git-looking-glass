@@ -1,0 +1,18 @@
+pkgbase = r-distributionutils
+	pkgdesc = Distribution Utilities
+	pkgver = 0.6.2
+	pkgrel = 1
+	url = https://cran.r-project.org/package=DistributionUtils
+	arch = x86_64
+	license = GPL-2.0-or-later
+	makedepends = gcc-fortran
+	depends = r
+	optdepends = r-generalizedhyperbolic
+	optdepends = r-runit
+	optdepends = r-skewhyperbolic
+	optdepends = r-variancegamma
+	source = https://cran.r-project.org/src/contrib/DistributionUtils_0.6-2.tar.gz
+	md5sums = f57fbeda6de9fd18a226c620155b7408
+	b2sums = 5514790c3ed6c9af009f29410b82e754eee4a41fe44fd147125f3f6d3bac9b16120f079f0ba53d5c840ceb1ade9cc2239e0ec28ffaa3dfc1cb785c3ce9bffb8b
+
+pkgname = r-distributionutils

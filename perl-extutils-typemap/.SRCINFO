@@ -1,0 +1,14 @@
+pkgbase = perl-extutils-typemap
+	pkgdesc = ExtUtils::Typemap
+	pkgver = 1.00
+	pkgrel = 1
+	url = http://search.cpan.org/dist/ExtUtils-Typemap/
+	arch = any
+	license = unknown
+	depends = perl
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/S/SM/SMUELLER/ExtUtils-Typemap-1.00.tar.gz
+	sha256sums = b1b015772dbb068b93a0f6ffa02f5d94822365e6018ac5ed2bc53ca669071fc7
+
+pkgname = perl-extutils-typemap
+

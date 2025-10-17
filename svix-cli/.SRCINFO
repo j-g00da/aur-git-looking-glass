@@ -1,0 +1,16 @@
+pkgbase = svix-cli
+	pkgdesc = The Svix CLI (webhooks as a service)
+	pkgver = 1.64.0
+	pkgrel = 1
+	url = https://www.svix.com
+	arch = i686
+	arch = x86_64
+	arch = armv6h
+	arch = armv7h
+	license = MIT
+	makedepends = cargo
+	options = !lto
+	source = https://github.com/svix/svix-webhooks/archive/refs/tags/v1.64.0.tar.gz
+	sha256sums = 0f6c5c38c2d200899c817b37a39910fa4132f835d0dfcb49d54f6ac78357944d
+
+pkgname = svix-cli

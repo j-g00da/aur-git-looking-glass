@@ -1,0 +1,22 @@
+pkgbase = precice
+	pkgdesc = A Coupling Library for Partitioned Multi-Physics Simulations on Massively Parallel Systems
+	pkgver = 3.3.0
+	pkgrel = 1
+	url = https://precice.org
+	arch = x86_64
+	license = LGPL-3.0-or-later
+	makedepends = cmake
+	makedepends = eigen
+	makedepends = gcc-fortran
+	depends = boost
+	depends = libxml2
+	depends = openmpi
+	depends = petsc
+	depends = python-numpy
+	optdepends = man-db: manual pages for precice-tools
+	optdepends = git: for Git Revision Info support
+	conflicts = petsc-complex
+	source = precice-3.3.0.tar.gz::https://github.com/precice/precice/archive/v3.3.0.tar.gz
+	sha512sums = eea9bfa340c84dfca1523eb1282f624c14abe46d788b416b88460a90fe12f605f92d7838c51d0d184f1d40e7997427af24a18b44c6be383d84a94df3ec826419
+
+pkgname = precice

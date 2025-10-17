@@ -1,0 +1,20 @@
+pkgbase = cflint-git
+	pkgdesc = A static code analysis tool for ColdFusion - dev branch
+	pkgver = 20160522.
+	pkgrel = 1
+	url = https://github.com/cflint/CFLint/wiki
+	arch = any
+	license = BSD
+	makedepends = git
+	makedepends = maven
+	depends = java-environment
+	depends = bash
+	provides = cflint
+	provides = cflint-ui
+	conflicts = cflint
+	conflicts = cflint-ui
+	source = git+https://github.com/CFLint/CFLint.git#branch=dev
+	md5sums = SKIP
+
+pkgname = cflint-git
+

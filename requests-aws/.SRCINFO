@@ -1,0 +1,14 @@
+pkgbase = requests-aws
+	pkgdesc = AWS authentication for Amazon S3 for the python requests module
+	pkgver = 0.1.8
+	pkgrel = 1
+	url = https://github.com/tax/python-requests-aws
+	arch = any
+	license = BSD
+	makedepends = python
+	makedepends = python-setuptools
+	depends = python-requests
+	source = https://pypi.io/packages/source/r/requests-aws/requests-aws-0.1.8.tar.gz
+	sha256sums = bd2e8386f09d94a84b9cad6e966b21f31493734336a8f47b9b535806949a771f
+
+pkgname = python-requests-aws

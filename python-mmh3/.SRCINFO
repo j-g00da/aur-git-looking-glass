@@ -1,0 +1,18 @@
+pkgbase = python-mmh3
+	pkgdesc = Python extension for MurmurHash (MurmurHash3), a set of fast and robust hash functions.
+	pkgver = 5.2.0
+	pkgrel = 1
+	url = https://github.com/hajimes/mmh3
+	arch = x86_64
+	arch = aarch64
+	arch = i686
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	source = mmh3-5.2.0.tar.gz::https://files.pythonhosted.org/packages/source/m/mmh3/mmh3-5.2.0.tar.gz
+	b2sums = ced50db669612487fe095656dd8c282e00e5bc6e3624012e0c76105bc206539055de373c32aa2e97b78a242f924e0f795f3745ed17b4921b08753071b9721ebc
+
+pkgname = python-mmh3

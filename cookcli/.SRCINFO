@@ -1,0 +1,15 @@
+pkgbase = cookcli
+	pkgdesc = Suite of tools to create shopping lists and maintain recipes
+	pkgver = 0.18.1
+	pkgrel = 1
+	url = https://github.com/cooklang/cookcli
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	depends = openssl
+	options = !lto
+	source = cookcli-0.18.1.tar.gz::https://github.com/cooklang/cookcli/archive/v0.18.1.tar.gz
+	sha512sums = 075854aa4bb4b1787dc172575ad09997d71eb3d2b569981f3f893de0682746b0f0d1fb4e91e6be3c49569fc11eaf582f0abfdfeaf5eb2b9cd581760c73b83662
+
+pkgname = cookcli

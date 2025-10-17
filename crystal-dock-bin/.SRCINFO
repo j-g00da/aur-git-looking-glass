@@ -1,0 +1,19 @@
+pkgbase = crystal-dock-bin
+	pkgdesc = A cool dock (desktop panel) for Linux desktop.
+	pkgver = 2.14
+	pkgrel = 2
+	url = https://github.com/dangvd/crystal-dock
+	arch = x86_64
+	license = GPL3
+	depends = qt6-base
+	depends = wayland
+	depends = layer-shell-qt
+	optdepends = kwin
+	provides = crystal-dock
+	conflicts = crystal-dock
+	options = !strip
+	options = staticlibs
+	source_x86_64 = crystal-dock-bin-2.14-amd64.deb::https://github.com/dangvd/crystal-dock/releases/download/v2.14/crystal-dock_2.14-1_amd64.deb
+	sha256sums_x86_64 = ce825bdfd5b0b6efd53783275a99d79b981e5a7d6d9e2bc07b8c2f8614d2d134
+
+pkgname = crystal-dock-bin

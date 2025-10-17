@@ -1,0 +1,36 @@
+pkgbase = thunderbird-bin
+	pkgdesc = Standalone Mail/News reader - binary version
+	pkgver = 144.0
+	pkgrel = 1
+	url = https://www.mozilla.org/thunderbird
+	install = thunderbird-bin.install
+	arch = x86_64
+	arch = pentium4
+	arch = i686
+	license = GPL
+	license = LGPL
+	license = MPL
+	depends = dbus-glib
+	depends = gtk3
+	depends = libxt
+	depends = nss
+	optdepends = hunspell: Spell checking
+	optdepends = hyphen: Hyphenation
+	optdepends = libcanberra: Sound support
+	provides = thunderbird=144.0
+	conflicts = thunderbird
+	options = !strip
+	options = !debug
+	source = thunderbird-bin.desktop
+	source = vendor.js
+	validpgpkeys = 14F26682D0916CDD81E37B6D61B7B526D98F0353
+	sha512sums = 6813e1dfd43c67ad7517714988ac27e7fdfe4857c8e6612c165a8aa89fa013c5ab4f270c13945010422d3bda82a7b7cd5496eaa5cb5524f6b2fa1732e59fd737
+	sha512sums = aeb444784732267f1b1e87e6084a776f82a1912c4c2637d2cf1de1c135dd9d41d2ef66d2bd3f9cbd3a79fad32d17ea6e2968ba644d5f887cb66ba6c09a2098f5
+	source_x86_64 = thunderbird-144.0-x86_64.tar.xz::https://archive.mozilla.org/pub/thunderbird/releases/144.0/linux-x86_64/en-US/thunderbird-144.0.tar.xz
+	sha512sums_x86_64 = 173f2ae74bd6bc8e59fc5bf6db9d545c53214fa7f291b9902a61c203d809ebb038b8b9ef21a0b909659b44323c18d21241bcae19e22dde35dde86fa92631dfd3
+	source_pentium4 = thunderbird-144.0-pentium4.tar.xz::https://archive.mozilla.org/pub/thunderbird/releases/144.0/linux-i686/en-US/thunderbird-144.0.tar.xz
+	sha512sums_pentium4 = 763856be7b01860a769830b1316772b2870f3e2f2136012933cfeb3adaf59baf9390698167f0cea44abb6ffa301e74a13525135475bf5961b2028e59da028b52
+	source_i686 = thunderbird-144.0-i686.tar.xz::https://archive.mozilla.org/pub/thunderbird/releases/144.0/linux-i686/en-US/thunderbird-144.0.tar.xz
+	sha512sums_i686 = 763856be7b01860a769830b1316772b2870f3e2f2136012933cfeb3adaf59baf9390698167f0cea44abb6ffa301e74a13525135475bf5961b2028e59da028b52
+
+pkgname = thunderbird-bin

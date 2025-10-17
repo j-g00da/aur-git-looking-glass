@@ -1,0 +1,14 @@
+pkgbase = perl-parse-debian-packages
+	pkgdesc = parse the data from a debian Packages.gz
+	pkgver = 0.03
+	pkgrel = 1
+	url = https://metacpan.org/release/Parse-Debian-Packages
+	arch = any
+	license = unknown
+	depends = perl>=0
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/R/RC/RCLAMP/Parse-Debian-Packages-0.03.tar.gz
+	md5sums = 7d279cfa356d7c6057997a34022f16ef
+	sha512sums = 0e0ac688f9bb06406d95205d659bdaee4f56afaa19f1924933bfa8f2ef627ee51bbb41283aa8cac1bc7dd49c54cfa9ec946611d179b7456d1eeb970eed37996e
+
+pkgname = perl-parse-debian-packages

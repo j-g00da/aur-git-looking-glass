@@ -1,0 +1,24 @@
+pkgbase = easyfeh-git
+	pkgdesc = An easy, and user-friendly feh wrapper (Git version)
+	pkgver = beta3.3.g13c6b77
+	pkgrel = 1
+	url = https://github.com/ShibamRoy9826/easyfeh
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = python
+	makedepends = python-setuptools
+	depends = feh
+	depends = python
+	depends = python-toml
+	depends = python-requests
+	depends = python-beautifulsoup4
+	depends = python-rich
+	optdepends = swww: Enables wayland support
+	optdepends = python-colorthief: Enables the feature to extract colors from current wallpaper
+	optdepends = python-pillow: Enables wallpaper effects feature
+	conflicts = easyfeh
+	source = git+https://github.com/ShibamRoy9826/easyfeh.git
+	sha256sums = SKIP
+
+pkgname = easyfeh-git

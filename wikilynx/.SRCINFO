@@ -1,0 +1,21 @@
+pkgbase = wikilynx
+	pkgdesc = A simple Qt C++ app to play Wikipedia Speedruns the right way
+	pkgver = 1.5.6
+	pkgrel = 3
+	url = https://github.com/flamboyantpenguin/wikilynx
+	arch = any
+	license = MIT
+	makedepends = cmake
+	makedepends = git
+	makedepends = base-devel
+	depends = qt6-base
+	depends = qt6-webengine
+	depends = qt6-svg
+	depends = qt6-multimedia
+	depends = qt6-multimedia-gstreamer
+	provides = wikilynx
+	conflicts = wikilynx
+	source = https://github.com/flamboyantpenguin/wikilynx/archive/refs/tags/v1.5.6.zip
+	sha256sums = 4143b88587eeaef026c4a3760c918a6bf587f5334032a885ea01ac4cf8406ef6
+
+pkgname = wikilynx

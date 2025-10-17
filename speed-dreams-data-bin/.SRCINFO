@@ -1,0 +1,16 @@
+pkgbase = speed-dreams-data-bin
+	pkgdesc = Base assets for Speed Dreams
+	pkgver = 2.4.2
+	pkgrel = 1
+	url = https://speed-dreams.net/
+	arch = x86_64
+	license = GPL3
+	provides = speed-dreams-data
+	conflicts = speed-dreams-svn
+	conflicts = speed-dreams-git
+	conflicts = speed-dreams-data
+	options = !strip
+	source = https://files.speed-dreams.net/public/796b5cc8e16a970f595b1b23c9e9dc2b
+	sha512sums = SKIP
+
+pkgname = speed-dreams-data-bin

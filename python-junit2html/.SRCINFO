@@ -1,0 +1,18 @@
+pkgbase = python-junit2html
+	pkgdesc = This is a simple self-contained python tool to produce a single html file from a single junit xml file.
+	pkgver = 31.0.2
+	pkgrel = 1
+	url = https://gitlab.com/inorton/junit2html
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	makedepends = python-setuptools-scm
+	depends = python
+	depends = python-jinja
+	source = junit2html-31.0.2.tar.gz::https://gitlab.com/inorton/junit2html/-/archive/v31.0.2/junit2html-v31.0.2.tar.gz
+	sha256sums = 8d90ae83163dde6bf0bde9c3e8d21c0ab0796de7c5f33917cfdbb9d319212213
+
+pkgname = python-junit2html

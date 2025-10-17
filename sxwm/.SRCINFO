@@ -1,0 +1,16 @@
+pkgbase = sxwm
+	pkgdesc = Tiling window managers don't have to be difficult
+	pkgver = 1.7
+	pkgrel = 2
+	url = https://github.com/uint23/sxwm
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = gcc
+	depends = libx11
+	depends = libxinerama
+	depends = libxcursor
+	source = sxwm-1.7.tar.gz::https://github.com/uint23/sxwm/archive/refs/tags/v1.7.tar.gz
+	sha256sums = 874f28d2a5c625fc4a7d91aae7a96a58760ff64fa223a3398048a18071219570
+
+pkgname = sxwm

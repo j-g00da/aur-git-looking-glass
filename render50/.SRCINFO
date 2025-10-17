@@ -1,0 +1,22 @@
+pkgbase = render50
+	pkgdesc = Render source code as PDFs
+	pkgver = 9.2.10
+	pkgrel = 2
+	url = https://github.com/cs50/render50
+	arch = any
+	license = GPL3
+	makedepends = python-setuptools
+	depends = python
+	depends = python-backports.shutil_get_terminal_size
+	depends = python-beautifulsoup4
+	depends = python-braceexpand
+	depends = python-natsort
+	depends = python-pygments
+	depends = python-pypdf
+	depends = python-requests
+	depends = python-termcolor
+	depends = python-weasyprint
+	source = https://files.pythonhosted.org/packages/source/r/render50/render50-9.2.10.tar.gz
+	sha256sums = fea7953c74dedfbeeb35b437952675aa6564a01965ff16cce0a47a501c0cc5f6
+
+pkgname = render50

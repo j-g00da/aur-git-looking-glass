@@ -1,0 +1,17 @@
+pkgbase = python-mockmpi
+	pkgdesc = A tool for mocking mpi4py for testing
+	pkgver = 0.8.3
+	pkgrel = 1
+	url = https://github.com/rmjarvis/MockMPI
+	arch = any
+	license = BSD-2-Clause
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python-numpy
+	source = MockMPI-0.8.3.tar.gz::https://github.com/rmjarvis/MockMPI/archive/v0.8.3.tar.gz
+	sha512sums = ba7197b9d9f01e2c6226aaca9a99d5d4645d3c9c98bdd4d454fe4458f14dd9b751006e90822f78f558f81eb21f3e64a62039b0fa264408f93659af35bc824bcf
+
+pkgname = python-mockmpi

@@ -1,0 +1,18 @@
+pkgbase = supertabbar-git
+	pkgdesc = SuperTabbar 超级标签栏
+	pkgver = r26.6c8dc30
+	pkgrel = 1
+	url = https://gitee.com/Limexb/SuperTabbar
+	arch = x86_64
+	license = GPL3
+	makedepends = git
+	makedepends = qconf
+	depends = dtkwidget
+	depends = dtkgui
+	provides = supertabbar
+	conflicts = supertabbar
+	options = !strip
+	source = SuperTabbar::git+https://gitee.com/Limexb/SuperTabbar.git
+	sha256sums = SKIP
+
+pkgname = supertabbar-git

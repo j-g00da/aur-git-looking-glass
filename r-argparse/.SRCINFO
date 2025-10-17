@@ -1,0 +1,20 @@
+pkgbase = r-argparse
+	pkgdesc = Command Line Optional and Positional Argument Parser
+	pkgver = 2.3.1
+	pkgrel = 1
+	url = https://cran.r-project.org/package=argparse
+	arch = any
+	license = GPL-2.0-or-later
+	checkdepends = r-testthat
+	depends = python
+	depends = r-findpython
+	depends = r-jsonlite
+	depends = r-r6
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	source = https://cran.r-project.org/src/contrib/argparse_2.3.1.tar.gz
+	md5sums = 5b410d180316d945aba03f744fccc904
+	b2sums = 83babf79a34f83d7dd948f4b0bdf29cfd3f6574d654fd696ee7a802963070988fe634ea804115eb5308f5e31b19c347eaa9aa132168efc043d78a0ea4547a1e7
+
+pkgname = r-argparse

@@ -1,0 +1,24 @@
+pkgbase = r-proxyc
+	pkgdesc = Computes Proximity in Large Sparse Matrices
+	pkgver = 0.5.2
+	pkgrel = 1
+	url = https://cran.r-project.org/package=proxyC
+	arch = x86_64
+	license = GPL-3.0-only
+	checkdepends = r-entropy
+	checkdepends = r-proxy
+	checkdepends = r-testthat
+	makedepends = r-rcpparmadillo
+	depends = blas
+	depends = onetbb
+	depends = r-rcpp
+	optdepends = r-entropy
+	optdepends = r-knitr
+	optdepends = r-proxy
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	source = https://cran.r-project.org/src/contrib/proxyC_0.5.2.tar.gz
+	md5sums = c14453641ed056c375ef88e0146d6708
+	b2sums = 634bb467d715215993146542096bd7c2e8eb922667c9da66aa879cbdf80ec23d82d049f2bf79dcabd1de2355b2e343886a654520e14142652a5b308ae8d7ce9e
+
+pkgname = r-proxyc

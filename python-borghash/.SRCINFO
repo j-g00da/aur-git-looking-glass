@@ -1,0 +1,15 @@
+pkgbase = python-borghash
+	pkgdesc = Memory-efficient hash table (implemented in Cython)
+	pkgver = 0.1.0
+	pkgrel = 1
+	url = https://github.com/borgbackup/borghash
+	arch = any
+	license = BSD-3-Clause
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python>=3.12
+	source = https://github.com/borgbackup/borghash/releases/download/0.1.0/borghash-0.1.0.tar.gz
+	b2sums = 7d29b5638df5813e8fc7d9d0b4c5675b9012b5a426329a74dd7cd7def7af32d2aac4e624748b637b7b2fb640e020394db3e3c138c450c3945aef715b6b0a2683
+
+pkgname = python-borghash

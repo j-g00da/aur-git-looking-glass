@@ -1,0 +1,14 @@
+pkgbase = r-methylmnm
+	pkgdesc = detect different methylation level (DMR)
+	pkgver = 1.46.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/methylMnM
+	arch = x86_64
+	license = GPL
+	depends = r
+	depends = r-edger
+	depends = r-statmod
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/methylMnM_1.46.0.tar.gz
+	sha256sums = ffcfd2ca0f615d6d2467482f95110fe259ab72399fab50df7b286c2cf4119ab2
+
+pkgname = r-methylmnm

@@ -1,0 +1,17 @@
+pkgbase = r-geneticsped
+	pkgdesc = Pedigree and genetic relationship functions
+	pkgver = 1.70.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/GeneticsPed
+	arch = x86_64
+	license = LGPL
+	makedepends = gcc-fortran
+	depends = r
+	depends = r-gdata
+	depends = r-genetics
+	optdepends = r-gtools
+	optdepends = r-runit
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/GeneticsPed_1.70.0.tar.gz
+	sha256sums = 964ebce73e1104a455f958dd3fa15eb887c490d171e38ab47396bb8ed1663306
+
+pkgname = r-geneticsped

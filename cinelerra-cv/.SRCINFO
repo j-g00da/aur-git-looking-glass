@@ -1,0 +1,31 @@
+pkgbase = cinelerra-cv
+	pkgdesc = Professional video editing and compositing environment - Community version
+	pkgver = 2.3+459+g6ff8065f
+	pkgrel = 1
+	epoch = 2
+	url = https://github.com/cinelerra-cv-team/cinelerra-cv/
+	arch = x86_64
+	license = GPL-2.0-only
+	makedepends = git
+	makedepends = automake
+	makedepends = nasm
+	makedepends = mesa
+	makedepends = intltool
+	depends = e2fsprogs
+	depends = libavc1394
+	depends = libiec61883
+	depends = libxv
+	depends = libtiff
+	depends = mjpegtools
+	depends = fftw
+	depends = a52dec
+	depends = glu
+	depends = ffmpeg
+	depends = faad2
+	depends = faac
+	depends = openexr
+	depends = libxft
+	source = git+https://github.com/cinelerra-cv-team/cinelerra-cv.git#commit=6ff8065fa8e1776b69d15f4d2bf451154714bd51
+	sha512sums = 5327044c76c974d59a1b7775c61f116d805b04cf91a369f4ab89e722f6c06f70ab70aa5355788977e94647f7a4251cd05e64dbc6a35cc71eee17c06aff94430e
+
+pkgname = cinelerra-cv

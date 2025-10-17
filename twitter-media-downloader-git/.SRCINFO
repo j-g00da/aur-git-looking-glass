@@ -1,0 +1,19 @@
+pkgbase = twitter-media-downloader-git
+	pkgdesc = A tool to download media from Twitter
+	pkgver = r63.0cdd5e6
+	pkgrel = 1
+	url = https://github.com/mmpx12/twitter-media-downloader
+	arch = x86_64
+	arch = i686
+	arch = aarch64
+	arch = armv7h
+	license = unknown
+	makedepends = git
+	makedepends = go
+	depends = glibc
+	provides = twitter-media-downloader
+	conflicts = twitter-media-downloader
+	source = twitter-media-downloader::git+https://github.com/mmpx12/twitter-media-downloader.git
+	sha256sums = SKIP
+
+pkgname = twitter-media-downloader-git

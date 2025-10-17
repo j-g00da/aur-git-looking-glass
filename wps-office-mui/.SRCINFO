@@ -1,0 +1,30 @@
+pkgbase = wps-office-mui
+	pkgdesc = WPS Office MUI packages
+	pkgver = 11.1.0.11704
+	pkgrel = 1
+	url = http://wps-community.org/
+	arch = any
+	license = custom
+	depends = wps-office
+	source = https://github.com/wachin/wps-office-all-mui-win-language/releases/download/v11.1.0.11704/mui.7z
+	sha256sums = 36a875397d1159dcf5363d12ce553d8378b3164638d95f3becbb6ef7dcc51a2f
+
+pkgname = wps-office-mui-de-de
+
+pkgname = wps-office-mui-en-gb
+
+pkgname = wps-office-mui-es-mx
+
+pkgname = wps-office-mui-fr-ca
+
+pkgname = wps-office-mui-fr-fr
+
+pkgname = wps-office-mui-id-id
+
+pkgname = wps-office-mui-ja-jp
+
+pkgname = wps-office-mui-pl-pl
+
+pkgname = wps-office-mui-pt-pt
+
+pkgname = wps-office-mui-th-th

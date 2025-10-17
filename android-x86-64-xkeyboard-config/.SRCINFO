@@ -1,0 +1,19 @@
+pkgbase = android-x86-64-xkeyboard-config
+	pkgdesc = X keyboard configuration files (Android x86-64)
+	pkgver = 2.45
+	pkgrel = 1
+	url = https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config
+	arch = any
+	groups = android-xkeyboard-config
+	license = LicenseRef-xkeyboard-config
+	makedepends = android-meson
+	makedepends = android-x86-64-libxslt
+	makedepends = python
+	options = !strip
+	options = !buildflags
+	options = staticlibs
+	options = !emptydirs
+	source = https://xorg.freedesktop.org/archive/individual/data/xkeyboard-config/xkeyboard-config-2.45.tar.xz
+	md5sums = cebc84ec99d3273e07aee8ecff3e3519
+
+pkgname = android-x86-64-xkeyboard-config

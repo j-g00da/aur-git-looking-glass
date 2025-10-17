@@ -1,0 +1,26 @@
+pkgbase = anime-games-launcher-git
+	pkgdesc = Universal linux launcher for anime games
+	pkgver = 2.0.0.r1.g80ddc2d
+	pkgrel = 2
+	url = https://github.com/an-anime-team/anime-games-launcher
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = cargo
+	makedepends = git
+	depends = p7zip
+	depends = glibc
+	depends = gtk4
+	depends = libadwaita
+	depends = xdelta3
+	depends = cairo
+	depends = glib2
+	depends = gcc-libs
+	optdepends = mangohud: FPS Hud/GUI
+	optdepends = gamemode: Game Optimizations
+	optdepends = gamescope: a tool from Valve that allows for games to run in an isolated Xwayland instance
+	provides = anime-games-launcher
+	conflicts = anime-games-launcher
+	source = git+https://github.com/an-anime-team/anime-games-launcher#branch=next
+	md5sums = SKIP
+
+pkgname = anime-games-launcher-git

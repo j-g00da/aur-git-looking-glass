@@ -1,0 +1,15 @@
+pkgbase = eszig
+	pkgdesc = eSzemelyi Kliens, Hungarian personal electronic ID card software client
+	pkgver = 2.0.38
+	pkgrel = 1
+	url = https://services.gov.hu/legacy-termekek-szolgaltatasok/eszemelyi-szolgaltatasok
+	arch = x86_64
+	license = custom
+	depends = pcsclite
+	depends = qt5-base
+	source = https://services.gov.hu/eszemelyi-szolgaltatasok/eSzemelyi-Kliens-2.0.38-amd64.deb
+	source = https://services.gov.hu/eszemelyi-szolgaltatasok/Vegfelhasznaloi-nyilatkozat-EULA.pdf
+	sha256sums = 982c4ff7d71a7128eea63e8373f64a360c76f6c331f8d04b9cb294a8fc67af69
+	sha256sums = 915715868458ebb8a2e102b043e6ee84525c09e22f311b7561a80eb3bbf81009
+
+pkgname = eszig

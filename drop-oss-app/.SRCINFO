@@ -1,0 +1,23 @@
+pkgbase = drop-oss-app
+	pkgdesc = Desktop client for the Drop OSS project.
+	pkgver = 0.3.3
+	pkgrel = 1
+	url = https://droposs.org/
+	arch = any
+	license = AGPL-3.0-only
+	makedepends = yarn
+	makedepends = cargo
+	depends = cairo
+	depends = desktop-file-utils
+	depends = gdk-pixbuf2
+	depends = glib2
+	depends = gtk3
+	depends = hicolor-icon-theme
+	depends = libsoup
+	depends = pango
+	depends = webkit2gtk-4.1
+	depends = umu-launcher
+	source = git+https://github.com/Drop-OSS/drop-app.git#commit=7e70a17a43f54aa6adc71138a49ec18966eaa903
+	sha256sums = 9b61a8bd255253e9cf8e7e3955819347853f125aa22a18ffbd690d98ea91b8e8
+
+pkgname = drop-oss-app

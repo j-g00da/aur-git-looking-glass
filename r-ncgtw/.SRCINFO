@@ -1,0 +1,19 @@
+pkgbase = r-ncgtw
+	pkgdesc = Alignment of LC-MS Profiles by Neighbor-wise Compound-specific Graphical Time Warping with Misalignment Detection
+	pkgver = 1.22.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/ncGTW
+	arch = x86_64
+	license = GPL
+	depends = r
+	depends = r-biocparallel
+	depends = r-rcpp
+	depends = r-xcms
+	optdepends = r-biocstyle
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/ncGTW_1.22.0.tar.gz
+	sha256sums = 4ecf0be09215cd76e2f29663b2348d1f1332017e05a304aba41f40ab9e401401
+
+pkgname = r-ncgtw

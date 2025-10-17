@@ -1,0 +1,19 @@
+pkgbase = python-hf-transfer
+	pkgdesc = Speed up file transfers with the Hugging Face Hub
+	pkgver = 0.1.9
+	pkgrel = 3
+	url = https://github.com/huggingface/hf_transfer
+	arch = x86_64
+	license = Apache-2.0
+	makedepends = python-build
+	makedepends = python-maturin
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = gcc-libs
+	depends = glibc
+	depends = openssl
+	depends = python
+	source = hf_transfer-0.1.9.tar.gz::https://github.com/huggingface/hf_transfer/archive/refs/tags/v0.1.9.tar.gz
+	sha512sums = 074801626fdf7bf9c83451f6d7567ef3f9cebc390ccf4724f1f3fdbb1d5f56e49d179ef7baecbd53d89b317c13ac6df7459ee47cb9a9f18aa23f52fbfba36a84
+
+pkgname = python-hf-transfer

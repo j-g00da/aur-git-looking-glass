@@ -1,0 +1,31 @@
+pkgbase = rpm-tools-git
+	pkgdesc = RPM Package Manager
+	pkgver = 4.20.0.r536.gf9f124a67
+	pkgrel = 1
+	url = https://rpm.org/
+	arch = i686
+	arch = x86_64
+	license = GPL-2.0-or-later
+	makedepends = git
+	makedepends = cmake
+	makedepends = python
+	depends = gcc-libs
+	depends = elfutils
+	depends = file
+	depends = libarchive
+	depends = libcap
+	depends = lua
+	depends = nss
+	depends = popt
+	depends = rpm-sequoia
+	depends = zstd
+	provides = rpm-tools=4.20.0.r536.gf9f124a67
+	provides = rpmextract
+	conflicts = rpm-tools
+	conflicts = rpmextract
+	source = git+https://github.com/rpm-software-management/rpm.git
+	source = rpmextract.sh::https://gitlab.archlinux.org/archlinux/packaging/packages/rpm-tools/-/raw/main/rpmextract.sh
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = rpm-tools-git

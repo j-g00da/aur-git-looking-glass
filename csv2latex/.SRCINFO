@@ -1,0 +1,14 @@
+pkgbase = csv2latex
+	pkgdesc = A csv to LaTeX file converter
+	pkgver = 0.23.1
+	pkgrel = 1
+	url = http://brouits.free.fr/csv2latex/
+	arch = i686
+	arch = x86_64
+	license = GPL2
+	depends = glibc
+	source = http://brouits.free.fr/csv2latex/csv2latex-0.23.1.tar.gz
+	md5sums = 34c01f986f7f644406746a5722c95e52
+
+pkgname = csv2latex
+

@@ -1,0 +1,18 @@
+pkgbase = icetop-git
+	pkgdesc = Terminal top-like monitor for icecream/icecc
+	pkgver = r41.e782c8c
+	pkgrel = 1
+	url = https://github.com/aperezdc/icetop
+	arch = x86_64
+	arch = i686
+	license = GPL2
+	makedepends = meson
+	makedepends = ninja
+	makedepends = git
+	depends = icecream
+	depends = libdill
+	depends = libtickit
+	source = icetop-git::git+https://github.com/aperezdc/icetop
+	sha512sums = SKIP
+
+pkgname = icetop-git

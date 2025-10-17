@@ -1,0 +1,20 @@
+pkgbase = r-jsonvalidate
+	pkgdesc = Validate 'JSON' Schema
+	pkgver = 1.5.0
+	pkgrel = 1
+	url = https://cran.r-project.org/package=jsonvalidate
+	arch = any
+	license = MIT
+	checkdepends = r-testthat
+	depends = r-r6
+	depends = r-v8
+	optdepends = r-jsonlite
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	optdepends = r-withr
+	source = https://cran.r-project.org/src/contrib/jsonvalidate_1.5.0.tar.gz
+	md5sums = da53e974bf9fe83b6b56c9b94ed26e29
+	b2sums = 1aff03f6e2f4a7e02c8379b14e7e86cfa0277d2db9516efb486da6e9d1c93c673bff0889493bfbf8bdd22c37201e90c2f6145da27eb89921a9a6279fe7fb6820
+
+pkgname = r-jsonvalidate

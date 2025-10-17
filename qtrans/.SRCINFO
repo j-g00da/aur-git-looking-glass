@@ -1,0 +1,26 @@
+pkgbase = qtrans
+	pkgdesc = QTrans is a word translator for Qt6/KF6. It uses Babylon (*.dic) dictionaries and translates many languages.
+	pkgver = 0.4
+	pkgrel = 1
+	url = https://www.linux-apps.com/p/1127419/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = cmake
+	makedepends = git
+	depends = qt6-base
+	depends = kconfig
+	depends = ki18n5
+	depends = ktextwidgets
+	depends = qt6-webengine
+	depends = kcoreaddons
+	depends = python
+	depends = kxmlgui
+	depends = kwidgetsaddons
+	depends = zlib
+	depends = hicolor-icon-theme
+        depends = extra-cmake-modules
+	source = https://sourceforge.net/projects/qtrans0/files/kf6/0.4/qtrans-0.4.tar.gz
+	md5sums = dd8b9a8c8ef19cd9045d1fc35c4b7bcc
+
+pkgname = qtrans

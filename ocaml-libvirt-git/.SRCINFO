@@ -1,0 +1,19 @@
+pkgbase = ocaml-libvirt-git
+	pkgdesc = OCaml bindings for libvirt
+	pkgver = r187.fa464b5
+	pkgrel = 2
+	url = https://libvirt.org/
+	arch = i686
+	arch = x86_64
+	license = GPL-2.0-or-later
+	makedepends = ocaml-findlib
+	makedepends = git
+	depends = ocaml
+	depends = libvirt
+	provides = ocaml-libvirt
+	conflicts = ocaml-libvirt
+	options = !strip
+	source = git+https://gitlab.com/libvirt/libvirt-ocaml.git
+	sha256sums = SKIP
+
+pkgname = ocaml-libvirt-git

@@ -1,0 +1,19 @@
+pkgbase = gnatcoll-core
+	pkgdesc = Gnat components collection - Core packages.
+	pkgver = 26.0w
+	pkgrel = 1
+	epoch = 1
+	url = https://github.com/AdaCore/gnatcoll-core
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	license = custom
+	makedepends = gprbuild-toolbox
+	makedepends = python-sphinx
+	makedepends = python-sphinx_rtd_theme
+	makedepends = texlive-meta
+	depends = libgpr
+	source = https://github.com/charlie5/archlinux-gnatstudio-support/raw/refs/heads/main/gnatstudio-sources-2025/gnatcoll-core-26.0w-20250410-161C5-src.tar.gz
+	sha256sums = e8192694d4a957c0257302e3ff4f6aad93a03fb7b5a05462ab0ef96e67a73724
+
+pkgname = gnatcoll-core

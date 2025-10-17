@@ -1,0 +1,23 @@
+pkgbase = wob-git
+	pkgdesc = A lightweight overlay volume/backlight/progress/anything bar for Wayland
+	pkgver = 0.16+1.g6d4fd4bfbd
+	pkgrel = 1
+	url = https://github.com/francma/wob
+	arch = i686
+	arch = x86_64
+	license = ISC
+	makedepends = git
+	makedepends = cmocka
+	makedepends = meson
+	makedepends = scdoc
+	makedepends = wayland-protocols
+	depends = glibc
+	depends = libinih
+	depends = libseccomp
+	depends = wayland
+	provides = wob=0.16
+	conflicts = wob
+	source = git+https://github.com/francma/wob
+	sha512sums = SKIP
+
+pkgname = wob-git

@@ -1,0 +1,12 @@
+pkgbase = shell-mommy-git
+	pkgdesc = Mommy is here for you on the command line ~ <3
+	pkgver = r28.836eaf9
+	pkgrel = 1
+	url = https://github.com/sudofox/shell-mommy
+	arch = any
+	license = unknown
+	makedepends = git
+	source = shell-mommy-git::git+https://github.com/sudofox/shell-mommy.git
+	sha256sums = SKIP
+
+pkgname = shell-mommy-git

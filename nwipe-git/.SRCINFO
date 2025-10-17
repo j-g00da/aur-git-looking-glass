@@ -1,0 +1,23 @@
+pkgbase = nwipe-git
+	pkgdesc = A dwipe fork for securely erasing disks
+	pkgver = 0.38.r7.gf594d67
+	pkgrel = 1
+	url = https://github.com/martijnvanbrummelen/nwipe
+	arch = i686
+	arch = x86_64
+	arch = aarch64
+	license = GPL-2.0-or-later
+	makedepends = git
+	depends = hdparm
+	depends = libconfig
+	depends = ncurses
+	depends = parted
+	optdepends = coreutils
+	optdepends = dmidecode
+	optdepends = smartmontools
+	provides = nwipe
+	conflicts = nwipe
+	source = nwipe-git::git+https://github.com/martijnvanbrummelen/nwipe
+	sha256sums = SKIP
+
+pkgname = nwipe-git

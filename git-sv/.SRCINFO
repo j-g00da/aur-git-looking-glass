@@ -1,0 +1,15 @@
+pkgbase = git-sv
+	pkgdesc = Semantic versioning tool for git based on conventional commits
+	pkgver = 2.0.1
+	pkgrel = 1
+	url = https://github.com/thegeeklab/git-sv
+	arch = armv7h
+	arch = aarch64
+	arch = x86_64
+	license = MIT
+	makedepends = go
+	source = https://github.com/thegeeklab/git-sv/archive/refs/tags/v2.0.1.zip
+	sha512sums = e9fff2eeb7d7dae04dc9053f72a5a5a6d685922ef91496e43032ccf4ef910b71f93ddf01f4a08a661ad105c582eeac51cd47da85a1d70401ad524179f1bf1826
+	b2sums = 76d2a0999f57df7b19109674ae5789aca1fec4b6b4a28c414cc2a438639def47f4174d53d78dd426b712d2521a1425757ce95270edb3b2dcdea3d08522105a7b
+
+pkgname = git-sv

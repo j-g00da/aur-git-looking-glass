@@ -1,0 +1,15 @@
+pkgbase = r-dmrforpairs
+	pkgdesc = identifying Differentially Methylated Regions between unique samples using array based methylation profiles
+	pkgver = 1.35.0
+	pkgrel = 2
+	url = https://bioconductor.org/packages/DMRforPairs
+	arch = any
+	license = GPL-2.0-or-later
+	depends = r-genomicranges
+	depends = r-gviz
+	depends = r-r2html
+	source = https://bioconductor.org/packages/3.17/bioc/src/contrib/DMRforPairs_1.35.0.tar.gz
+	md5sums = 692e267e169e89a0bc8df8f91e433bbb
+	b2sums = 10f56ae566377958bcdf9f7c80ae1182d94ee9af43304f7a16314850de0a85b8df5e928ba4b33f997802565ca07c11dc5461fb74574d784fec935e43f9e4eba9
+
+pkgname = r-dmrforpairs

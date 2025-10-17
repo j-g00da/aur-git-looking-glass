@@ -1,0 +1,30 @@
+# Maintainer: Daniel Peukert <daniel@peukert.cc>
+pkgname='absolutely-proprietary'
+pkgver='20220518'
+_commit='632ebf75bff68959e48ad7db06a9350fede806d0'
+pkgrel='4'
+pkgdesc="Proprietary package detector for arch-based distros that uses Parabola's package blacklist"
+arch=('any')
+url="https://github.com/vmavromatis/$pkgname"
+license=('GPL-3.0-only')
+depends=('python' 'python-importlib-metadata' 'python-setuptools')
+source=("$pkgname-$pkgver.tar.gz::$url/archive/$_commit.tar.gz")
+b2sums=('d7309fd18b934f9f02d70f0fe085670be0a041d83da0c12cac0429100f64023f235498135872658c26d86f77a704097515ebf93b1173a143fc2d37b6113e8d1c')
+
+_sourcedirectory="$pkgname-$_commit"
+
+build() {
+	cd "$srcdir/$_sourcedirectory/"
+	python setup.py build
+}
+
+check() {
+	_checkoutput="$(python "$srcdir/$_sourcedirectory/absolutely_proprietary/__init__.py" --help)"
+	printf '%s\n' "$_checkoutput"
+	printf '%s\n' "$_checkoutput" | grep -q '^Find proprietary packages$'
+}
+
+package() {
+	cd "$srcdir/$_sourcedirectory/"
+	python setup.py install --root="$pkgdir/" --optimize=1 --skip-build
+}

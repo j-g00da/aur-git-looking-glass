@@ -1,0 +1,16 @@
+pkgbase = printer-driver-ptouch
+	pkgdesc = P-Touch PT-series and QL-series printer driver for Linux (under CUPS)
+	pkgver = 1.7.1
+	pkgrel = 1
+	url = https://github.com/philpem/printer-driver-ptouch
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = autoconf
+	makedepends = libcups
+	makedepends = foomatic-db-engine
+	depends = ghostscript
+	source = printer-driver-ptouch-1.7.1.tar.gz::https://github.com/philpem/printer-driver-ptouch/archive/v1.7.1.tar.gz
+	sha256sums = 1033d1435cb080a740d3c5b3365422b8c318f4e04955bca35f7d21a116f16160
+
+pkgname = printer-driver-ptouch

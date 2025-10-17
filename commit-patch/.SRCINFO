@@ -1,0 +1,31 @@
+pkgbase = commit-patch
+	pkgdesc = Commit partial patches to version control
+	pkgver = 2.6.2
+	pkgrel = 3
+	url = http://www.porkrind.org/commit-patch
+	arch = any
+	license = GPL-2.0-or-later
+	checkdepends = perl-ipc-run
+	checkdepends = mercurial
+	checkdepends = subversion
+	checkdepends = darcs
+	makedepends = git
+	depends = perl
+	depends = patch
+	depends = patchutils
+	optdepends = git
+	optdepends = mercurial
+	optdepends = subversion
+	optdepends = darcs
+	source = commit-patch::git+https://github.com/caldwell/commit-patch.git#tag=2.6.2
+	source = fix-git-test.patch
+	source = remove-bzr.patch
+	source = remove-cvs.patch
+	source = remove-monotone.patch
+	sha1sums = 79c6ba9a7607ceca8811a600d47a8c90edb35cb4
+	sha1sums = c7415ac561b427ce2b93e58b0090c01332f6b7a0
+	sha1sums = 539f2ba4d76f494611dc6d2586b505a742337a70
+	sha1sums = e387de5636abfe7953ee5f64363fcbc4ee093fce
+	sha1sums = 68362c243f5f35313eb825037d81d247dc035299
+
+pkgname = commit-patch

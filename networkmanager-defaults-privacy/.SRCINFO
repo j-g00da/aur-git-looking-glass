@@ -1,0 +1,11 @@
+pkgbase = networkmanager-defaults-privacy
+	pkgdesc = Privacy-oriented defaults for Network Manager
+	pkgver = 2
+	pkgrel = 1
+	arch = any
+	license = 0BSD
+	depends = networkmanager
+	source = 50-networkmanager-defaults-privacy.conf
+	sha256sums = af00bac1330e06d9b11ca1b2fcabb2bd23cf1d9fff4b57b3893e1ea65af42af7
+
+pkgname = networkmanager-defaults-privacy

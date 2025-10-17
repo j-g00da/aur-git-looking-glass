@@ -1,0 +1,46 @@
+pkgbase = lsi-lsa
+	pkgdesc = LSI Storage Authority Software Suite
+	pkgver = 008.012.007.000
+	pkgrel = 1
+	url = https://www.broadcom.com/products/storage
+	install = lsi-lsa.install
+	arch = x86_64
+	license = custom:Broadcom
+	makedepends = patchelf
+	depends = gcc-libs
+	depends = glibc
+	depends = openslp
+	depends = perl
+	depends = bash
+	depends = libldap24
+	depends = libxcrypt
+	depends = libcrypt.so
+	depends = openssl-1.1
+	depends = libssl.so=1.1
+	depends = libcrypto.so=1.1
+	depends = lsi-openpegasus
+	depends = libpegclient.so
+	depends = libpegcommon.so
+	depends = libpeglistener.so
+	depends = curl
+	depends = libcurl.so
+	noextract = 008.012.007.000_MR7.32_LSA_Linux.zip
+	options = !strip
+	backup = opt/lsi/LSIStorageAuthority/installtype
+	backup = opt/lsi/LSIStorageAuthority/conf/LSA.conf
+	backup = opt/lsi/LSIStorageAuthority/server/conf/nginx.conf
+	backup = opt/lsi/LSIStorageAuthority/conf/monitor/config-current.json
+	source = LSI_Storage_Authority_Lightweight_Monitor_User_Guide_rev1.0.pdf::https://docs.broadcom.com/doc/pub-005092
+	source = LSI_Storage_Authority_Software_User_Guide_rev2.15.pdf::https://techdocs.broadcom.com/content/dam/broadcom/techdocs/data-center-solutions/tools/generated-pdfs/DB15-001161-33.pdf
+	source = 008.012.007.000_MR7.32_LSA_Linux.zip::https://docs.broadcom.com/docs-and-downloads/008.012.007.000_MR7.32_LSA_Linux.zip
+	source = 008.012.007.000_MR8.12_LSA_Linux.zip::https://docs.broadcom.com/docs-and-downloads/LSA_Linux_008.012.007.000_MR8.12.zip
+	source = lsi_lsa.service
+	source = lsa_launcher.sh
+	sha256sums = 5196f542b52457abb94bce4e069005543a7e748270b7b673e5afa669e7af2e03
+	sha256sums = 42d6ba73101efcbea9e354d60b7bdc5f4e3c48639e285a9858e454541b3b7f2f
+	sha256sums = 58c139353c6ac1a3b75cd351a4a37d08acda7df3b3b31a03ade3cd5ac5db22a3
+	sha256sums = ab1edfe9986870a3607160f9ef08a4df7ba462590620b2424b00453b4fadee07
+	sha256sums = 5d65b855b7d38192ef8fd0ce34cab567efd5f9af922c080876a10e96a62b0b17
+	sha256sums = 1df03403bc1d780797f0eba59d85b1941a1c77f911d9e7d5d5ae4f288e52663a
+
+pkgname = lsi-lsa

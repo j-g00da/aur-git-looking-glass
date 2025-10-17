@@ -1,0 +1,17 @@
+pkgbase = pomerium-bin
+	pkgdesc = Identity-aware access proxy
+	pkgver = 0.30.6
+	pkgrel = 1
+	url = https://github.com/pomerium/pomerium
+	arch = x86_64
+	license = Apache
+	optdepends = pomerium-cli: CLI component for interacting with server
+	provides = pomerium
+	conflicts = pomerium
+	backup = etc/pomerium/config.yaml
+	source = pomerium.sysusers
+	source = pomerium-bin-0.30.6.deb::https://github.com/pomerium/pomerium/releases/download/v0.30.6/pomerium_0.30.6-1_amd64.deb
+	sha512sums = 1e5e7656eb5db12e0c39759ca03c463291f25e90c385105381a0e69390e98ea262615b72db73115b3d99b06f94b657ae2302b56f100be2f93f90a438fdad6833
+	sha512sums = c0d18b4875da1b3a70479971d7464f6fc7c594820eb0a6b4f640c660fe5512d6c8907d38bc7a98664bb292554ccb29bb19799f2a95ec0685c6af3a41b791a7e4
+
+pkgname = pomerium-bin

@@ -1,0 +1,12 @@
+pkgbase = deja-file
+	pkgdesc = CLI tool to detect and delete duplicate files by MD5 hash
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://github.com/KartikJain14/deja-file
+	arch = x86_64
+	license = MIT
+	depends = openssl
+	source = git+https://github.com/KartikJain14/deja-file
+	sha256sums = SKIP
+
+pkgname = deja-file

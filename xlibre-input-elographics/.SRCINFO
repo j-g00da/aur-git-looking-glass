@@ -1,0 +1,22 @@
+pkgbase = xlibre-input-elographics
+	pkgdesc = XLibre Elographics TouchScreen input driver
+	pkgver = 1.4.4.1
+	pkgrel = 2
+	url = https://github.com/X11Libre/xf86-input-elographics
+	arch = aarch64
+	arch = x86_64
+	groups = xlibre-drivers
+	license = MIT
+	makedepends = xlibre-xserver-devel
+	makedepends = xorgproto
+	makedepends = X-ABI-XINPUT_VERSION=26.0
+	depends = glibc
+	provides = xf86-input-elographics
+	conflicts = xf86-input-elographics
+	conflicts = xorg-server<21.1.1
+	conflicts = X-ABI-XINPUT_VERSION<26
+	conflicts = X-ABI-XINPUT_VERSION>=27
+	source = xf86-input-elographics-xlibre-xf86-input-elographics-1.4.4.1.tar.gz::https://github.com/X11Libre/xf86-input-elographics/archive/refs/tags/xlibre-xf86-input-elographics-1.4.4.1.tar.gz
+	b2sums = ed16d6f8049f074d45da30e21902969ef747e05aa660a912e58af86b4a3d03a91b54c61104c1cb9a8451a6ace5e6907ae0774c727c5b0e1077642d5c64d0b499
+
+pkgname = xlibre-input-elographics

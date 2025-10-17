@@ -1,0 +1,24 @@
+pkgbase = miniforge
+	pkgdesc = Conda and Mamba package managers configured to use conda-forge
+	pkgver = 25.3.1.0
+	pkgrel = 1
+	url = https://github.com/conda-forge/miniforge
+	install = miniforge.install
+	arch = x86_64
+	arch = aarch64
+	arch = powerpc64le
+	license = BSD-3-Clause
+	provides = conda
+	provides = mamba
+	replaces = mambaforge
+	options = !strip
+	options = libtool
+	options = staticlibs
+	source_x86_64 = https://github.com/conda-forge/miniforge/releases/download/25.3.1-0/Miniforge3-25.3.1-0-Linux-x86_64.sh
+	sha256sums_x86_64 = 376b160ed8130820db0ab0f3826ac1fc85923647f75c1b8231166e3d559ab768
+	source_aarch64 = https://github.com/conda-forge/miniforge/releases/download/25.3.1-0/Miniforge3-25.3.1-0-Linux-aarch64.sh
+	sha256sums_aarch64 = a57c9e3d6c0c449c0283fd07e0bfa30d95eb8d547a14e8dc06c606405d01a7f0
+	source_powerpc64le = https://github.com/conda-forge/miniforge/releases/download/25.3.1-0/Miniforge3-25.3.1-0-Linux-ppc64le.sh
+	sha256sums_powerpc64le = 87eb7d349a0ed3ba964c5263d90663e3dff93f252305b7bf24c12e714117bdfe
+
+pkgname = miniforge

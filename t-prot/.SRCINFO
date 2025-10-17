@@ -1,0 +1,17 @@
+pkgbase = t-prot
+	pkgdesc = Filter to improve readability of email/usenet by hiding annoyances
+	pkgver = 3.4
+	pkgrel = 7
+	url = https://github.com/kdave/t-prot
+	arch = any
+	license = BSD
+	makedepends = git
+	depends = gettext
+	depends = perl
+	depends = perl-locale-gettext
+	source = git+https://github.com/kdave/t-prot.git#commit=9301fda1d84f573a731d1a4c24520220c5017032
+	source = LICENSE
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = t-prot

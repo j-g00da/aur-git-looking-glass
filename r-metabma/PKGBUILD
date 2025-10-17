@@ -1,0 +1,58 @@
+# Maintainer: Pekka Ristola <pekkarr [at] protonmail [dot] com>
+# Contributor: sukanka <su975853527@gmail.com>
+
+_pkgname=metaBMA
+_pkgver=0.6.9
+pkgname=r-${_pkgname,,}
+pkgver=${_pkgver//-/.}
+pkgrel=3
+pkgdesc="Bayesian Model Averaging for Random and Fixed Effects Meta-Analysis"
+arch=(x86_64)
+url="https://cran.r-project.org/package=$_pkgname"
+license=('GPL-3.0-only')
+depends=(
+  onetbb
+  r-bridgesampling
+  r-coda
+  r-laplacesdemon
+  r-logspline
+  r-mvtnorm
+  r-rcpp
+  r-rcppparallel
+  r-rstan
+  r-rstantools
+)
+makedepends=(
+  r-bh
+  r-rcppeigen
+  r-stanheaders
+)
+checkdepends=(
+  r-testthat
+)
+optdepends=(
+  r-knitr
+  r-rmarkdown
+  r-spelling
+  r-testthat
+)
+source=("https://cran.r-project.org/src/contrib/${_pkgname}_${_pkgver}.tar.gz")
+md5sums=('0eb28a09739c53d68ecd1c72101b5746')
+b2sums=('0ceec3ecfba8b3f51b8b8cb1800d70213f355694569483a672d8e24f29f29399ef482f5bdd059f667151b9263f82312ba820e69774007c836ecbb49972dfb813')
+
+build() {
+  mkdir build
+  # compilation needs a lot of memory
+  MAKEFLAGS+=" -j1"
+  R CMD INSTALL -l build "$_pkgname"
+}
+
+check() {
+  cd "$_pkgname/tests"
+  R_LIBS="$srcdir/build" NOT_CRAN=true Rscript --vanilla testthat.R
+}
+
+package() {
+  install -d "$pkgdir/usr/lib/R/library"
+  cp -a --no-preserve=ownership "build/$_pkgname" "$pkgdir/usr/lib/R/library"
+}

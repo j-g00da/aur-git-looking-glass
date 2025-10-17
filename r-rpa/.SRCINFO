@@ -1,0 +1,19 @@
+pkgbase = r-rpa
+	pkgdesc = RPA: Robust Probabilistic Averaging for probe-level analysis
+	pkgver = 1.64.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/RPA
+	arch = any
+	license = BSD
+	depends = r
+	depends = r-affy
+	depends = r-biocgenerics
+	depends = r-biocstyle
+	depends = r-phyloseq
+	depends = r-rmarkdown
+	optdepends = r-knitr
+	optdepends = r-parallel
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/RPA_1.64.0.tar.gz
+	sha256sums = 9e9a25c72f8753456f4b03457134ae242ddc331d9bf40d923daeb66d7e6d6197
+
+pkgname = r-rpa

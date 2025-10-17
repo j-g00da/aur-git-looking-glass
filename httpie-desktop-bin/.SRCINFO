@@ -1,0 +1,21 @@
+pkgbase = httpie-desktop-bin
+	pkgdesc = HTTPie for Desktop
+	pkgver = 2025.2.0
+	pkgrel = 1
+	url = https://httpie.io/product
+	arch = x86_64
+	arch = aarch64
+	license = custom
+	depends = gtk3
+	depends = alsa-lib
+	depends = nss
+	provides = httpie-desktop
+	conflicts = httpie-desktop-appimage
+	source = httpie-desktop
+	sha256sums = 42d9b50040669f0957cd70164f571cc764389f1c5804579de908ec18c90c0c91
+	source_x86_64 = https://github.com/httpie/desktop/releases/download/v2025.2.0/HTTPie-2025.2.0.AppImage
+	sha256sums_x86_64 = a850e215741b60087079086061f656fe550cb66c34f6da93f6dfc63c946d654f
+	source_aarch64 = https://github.com/httpie/desktop/releases/download/v2025.2.0/HTTPie-2025.2.0-arm64.AppImage
+	sha256sums_aarch64 = 141ce3958c200942e08da2543c02e5aaa463edf64ca6cee1c9bb799b9124780a
+
+pkgname = httpie-desktop-bin

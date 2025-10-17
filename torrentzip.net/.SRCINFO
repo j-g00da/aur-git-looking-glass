@@ -1,0 +1,13 @@
+pkgbase = torrentzip.net
+	pkgdesc = A replacement for trrntzip - tool for creating idientical zip files over multiple systems
+	pkgver = 3.0.0
+	pkgrel = 1
+	url = https://www.romvault.com/trrntzip/
+	arch = x86_64
+	license = LicenseRef-Unknown
+	depends = gcc-libs
+	noextract = TrrntZip.NET300Linux.zip
+	source = https://www.romvault.com/trrntzip/download/TrrntZip.NET300Linux.zip
+	sha256sums = 51738b5893f41a2af8a0584a7b7296c677b43e15b7ebeeebe78616efc141dd0d
+
+pkgname = torrentzip.net

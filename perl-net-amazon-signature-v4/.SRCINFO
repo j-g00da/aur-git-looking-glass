@@ -1,0 +1,16 @@
+pkgbase = perl-net-amazon-signature-v4
+	pkgdesc = Implements the Amazon Web Services signature version 4, AWS4-HMAC-SHA256
+	pkgver = 0.22
+	pkgrel = 2
+	url = https://metacpan.org/release/Net-Amazon-Signature-V4
+	arch = any
+	license = GPL-1.0-or-later OR Artistic-1.0-Perl
+	checkdepends = perl-file-slurper
+	checkdepends = perl-http-message
+	depends = perl
+	depends = perl-uri
+	options = !emptydirs
+	source = perl-net-amazon-signature-v4-0.22.tar.gz::https://cpan.metacpan.org/authors/id/D/DB/DBOOK/Net-Amazon-Signature-V4-0.22.tar.gz
+	sha256sums = 522fea266c8b31a6c3de7e3be5db715972038714a0239bfbbe1fccad4d065cfe
+
+pkgname = perl-net-amazon-signature-v4

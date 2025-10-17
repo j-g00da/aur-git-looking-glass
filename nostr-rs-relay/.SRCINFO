@@ -1,0 +1,20 @@
+pkgbase = nostr-rs-relay
+	pkgdesc = A relay implementation for the Nostr protocol
+	pkgver = 0.9.0
+	pkgrel = 1
+	url = https://sr.ht/~gheartsfield/nostr-rs-relay/
+	arch = i686
+	arch = x86_64
+	arch = armv6h
+	arch = armv7h
+	license = MIT
+	makedepends = rust
+	makedepends = cargo
+	makedepends = protobuf
+	options = !lto
+	backup = etc/nostr-rs-relay/config.toml
+	source = https://git.sr.ht/~gheartsfield/nostr-rs-relay/archive/0.9.0.tar.gz
+	sha256sums = 274938d1ab1d96a7bf7d8fe0a057594289f069db5aa961bec78f4872bdc77596
+
+pkgname = nostr-rs-relay
+	install = nostr-rs-relay.install

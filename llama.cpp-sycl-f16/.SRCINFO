@@ -1,0 +1,34 @@
+pkgbase = llama.cpp-sycl-f16
+	pkgdesc = Port of Facebook's LLaMA model in C/C++ (with Intel SYCL GPU optimizations and F16)
+	pkgver = b6039
+	pkgrel = 1
+	url = https://github.com/ggml-org/llama.cpp
+	arch = x86_64
+	arch = armv7h
+	arch = aarch64
+	license = MIT
+	makedepends = cmake
+	makedepends = git
+	makedepends = procps-ng
+	depends = curl
+	depends = gcc-libs
+	depends = glibc
+	depends = intel-oneapi-basekit
+	depends = python
+	depends = python-numpy
+	depends = python-sentencepiece
+	optdepends = python-pytorch
+	provides = llama.cpp
+	conflicts = llama.cpp
+	conflicts = libggml
+	options = lto
+	options = !debug
+	options = !buildflags
+	source = git+https://github.com/ggml-org/llama.cpp#tag=b6039
+	source = llama.cpp.conf
+	source = llama.cpp.service
+	sha256sums = c12620a1337446f1dad32e4dbf9b0670fd82ec4085b3fd95d6facb2adb48ca3d
+	sha256sums = 53fa70cfe40cb8a3ca432590e4f76561df0f129a31b121c9b4b34af0da7c4d87
+	sha256sums = 0377d08a07bda056785981d3352ccd2dbc0387c4836f91fb73e6b790d836620d
+
+pkgname = llama.cpp-sycl-f16

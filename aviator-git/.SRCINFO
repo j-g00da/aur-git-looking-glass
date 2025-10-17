@@ -1,0 +1,22 @@
+pkgbase = aviator-git
+	pkgdesc = Easy-to-use GUI for encoding with SVT-AV1/libopus
+	pkgver = r210.d62aae3
+	pkgrel = 1
+	url = https://github.com/gianni-rosato/aviator
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = git
+	makedepends = meson
+	makedepends = python-setuptools
+	depends = ffmpeg
+	depends = gtk4
+	depends = libadwaita
+	depends = python-ffmpeg-progress-yield
+	depends = python-gobject
+	depends = svt-av1
+	provides = aviator
+	conflicts = aviator
+	source = git+https://github.com/gianni-rosato/aviator.git
+	sha512sums = SKIP
+
+pkgname = aviator-git

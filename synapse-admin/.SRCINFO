@@ -1,0 +1,14 @@
+pkgbase = synapse-admin
+	pkgdesc = A Matrix administration panel using react-admin
+	pkgver = 0.11.1
+	pkgrel = 1
+	url = https://github.com/Awesome-Technologies/synapse-admin
+	arch = any
+	license = Apache License 2.0
+	makedepends = nodejs
+	makedepends = yarn
+	optdepends = nginx: reverse-proxy
+	source = synapse-admin-0.11.1::git+https://github.com/Awesome-Technologies/synapse-admin.git#tag=0.11.1
+	sha512sums = f81095b80695543ea557e6e54afece645fe848ac00da41e832874967c5753cdda146316676293f76f4cfcc97b0cf56d06d36f4592de9e35ddfd0ca8fbffe8624
+
+pkgname = synapse-admin

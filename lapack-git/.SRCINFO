@@ -1,0 +1,40 @@
+pkgbase = lapack-git
+	pkgdesc = Linear Algebra PACKage
+	pkgver = 3.12.1.r53.gefbd2fdf4
+	pkgrel = 1
+	url = https://www.netlib.org/lapack/
+	arch = i686
+	arch = x86_64
+	license = LicenseRef-lapack
+	makedepends = git
+	makedepends = gcc-fortran
+	makedepends = cmake
+	makedepends = python
+	makedepends = doxygen
+	source = git+https://github.com/Reference-LAPACK/lapack.git
+	sha256sums = SKIP
+
+pkgname = lapack-git
+	depends = gcc-libs
+	depends = blas
+	provides = lapack=3.12.1.r53.gefbd2fdf4
+	provides = lapack-manpages
+	conflicts = lapack
+	conflicts = lapack-manpages
+
+pkgname = blas-git
+	pkgdesc = Basic linear algebra subprograms
+	url = https://www.netlib.org/blas/
+	depends = gcc-libs
+	provides = blas=3.12.1.r53.gefbd2fdf4
+	provides = cblas=3.12.1.r53.gefbd2fdf4
+	conflicts = blas
+	conflicts = cblas
+
+pkgname = lapacke-git
+	pkgdesc = C Interface to LAPACK
+	url = https://www.netlib.org/lapack/lapacke.html
+	depends = glibc
+	depends = lapack
+	provides = lapacke=3.12.1.r53.gefbd2fdf4
+	conflicts = lapacke

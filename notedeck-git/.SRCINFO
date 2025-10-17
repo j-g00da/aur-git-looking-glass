@@ -1,0 +1,17 @@
+pkgbase = notedeck-git
+	pkgdesc = The nostr browser
+	pkgver = 0.7.1
+	pkgrel = 1
+	url = https://github.com/damus-io/notedeck
+	arch = x86_64
+	arch = aarch64
+	license = GPL-3
+	makedepends = git
+	makedepends = rust
+	provides = notedeck
+	conflicts = notedeck
+	options = !lto
+	source = git+https://github.com/damus-io/notedeck.git#tag=v0.7.1
+	sha256sums = SKIP
+
+pkgname = notedeck-git

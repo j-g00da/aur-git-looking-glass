@@ -1,0 +1,20 @@
+pkgbase = perl-types-xsd-lite
+	pkgdesc = type constraints based on a subset of XML schema datatypes
+	pkgver = 0.007
+	pkgrel = 1
+	url = https://metacpan.org/release/Types-XSD-Lite
+	arch = any
+	license = PerlArtistic
+	checkdepends = perl-moo
+	checkdepends = perl-test-fatal
+	checkdepends = perl-test-requires
+	checkdepends = perl-test-simple
+	checkdepends = perl-type-tiny
+	depends = perl
+	depends = perl-type-tiny>=0.004
+	options = !emptydirs
+	options = purge
+	source = http://search.cpan.org/CPAN/authors/id/T/TO/TOBYINK/Types-XSD-Lite-0.007.tar.gz
+	sha256sums = 8c396c4e9d9665b740d12f384903b54c8de13d8b7280257f3ec23c5db16540ad
+
+pkgname = perl-types-xsd-lite

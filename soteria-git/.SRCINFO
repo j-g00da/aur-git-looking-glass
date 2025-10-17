@@ -1,0 +1,16 @@
+pkgbase = soteria-git
+	pkgdesc = A GTK-based polkit authentication agent
+	pkgver = 0.2.0.r2.g9ce1cd4
+	pkgrel = 1
+	url = https://github.com/imvaskel/soteria
+	arch = x86_64
+	license = Apache-2.0
+	makedepends = git
+	makedepends = cargo
+	depends = gtk4
+	depends = polkit
+	options = !debug
+	source = git+https://github.com/imvaskel/soteria#branch=main
+	sha256sums = SKIP
+
+pkgname = soteria-git

@@ -1,0 +1,24 @@
+pkgbase = passy-git
+	pkgdesc = Offline password manager with cross-platform synchronization
+	pkgver = 1.9.4+pre
+	pkgrel = 1
+	url = https://glitterware.github.io/Passy
+	arch = x86_64
+	arch = aarch64
+	license = GPL-3.0-or-later
+	makedepends = chrpath
+	makedepends = clang
+	makedepends = cmake
+	makedepends = git
+	makedepends = ninja
+	makedepends = unzip
+	makedepends = llvm-libs
+	makedepends = llvm18-libs
+	depends = gtk3
+	depends = libayatana-appindicator
+	depends = mpv
+	options = !strip
+	source = git+https://github.com/GlitterWare/Passy.git#commit=30c79e0a9fdb6cb57412e2b66b3eada03eaed3d0
+	sha256sums = SKIP
+
+pkgname = passy-git

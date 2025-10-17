@@ -1,0 +1,18 @@
+pkgbase = opensubtitles-uploader
+	pkgdesc = Desktop app to upload subtitles to OpenSubtitles, using Node.JS and NWjs
+	pkgver = 2.8.0
+	pkgrel = 1
+	url = https://github.com/vankasteelj/opensubtitles-uploader
+	arch = x86_64
+	license = GPL3
+	makedepends = npm
+	makedepends = git
+	makedepends = gulp
+	source = opensubtitles-uploader::https://github.com/vankasteelj/opensubtitles-uploader/archive/refs/tags/2.8.0.tar.gz
+	source = opensubtitles-uploader.desktop
+	source = opensubtitles-uploader.png
+	md5sums = 7297c94708a0361cbbb7dc73b0de9634
+	md5sums = f38a85d864e5aca6706a76adec1c5e86
+	md5sums = f8e90af7251e2c76a9d863e283aa3804
+
+pkgname = opensubtitles-uploader

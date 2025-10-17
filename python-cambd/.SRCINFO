@@ -1,0 +1,22 @@
+pkgbase = python-cambd
+	pkgdesc = Cambridge dictionary cli app
+	pkgver = 1.0.2
+	pkgrel = 1
+	url = https://github.com/rocktimsaikia/cambd
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	makedepends = python-pip
+	depends = python
+	depends = python-beautifulsoup4
+	depends = python-html5lib
+	depends = python-click
+	depends = python-halo
+	depends = python-requests
+	depends = python-rich
+	depends = python-simple-term-menu
+	options = !emptydirs
+	source = https://github.com/rocktimsaikia/cambd/archive/refs/tags/v1.0.2.zip
+	sha256sums = 8bf444780e68f6c93358b25f22a3d9c1acd62c870a950077e1b6349729d72902
+
+pkgname = python-cambd

@@ -1,0 +1,19 @@
+pkgbase = python-ducc
+	pkgdesc = Distinctly Useful Code Collection
+	pkgver = 0.36.0
+	pkgrel = 1
+	url = https://gitlab.mpcdf.mpg.de/mtr/ducc
+	arch = x86_64
+	license = GPL2
+	license = BSD
+	makedepends = pybind11
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python>=3.8
+	depends = python-numpy
+	source = https://gitlab.mpcdf.mpg.de/mtr/ducc/-/archive/ducc0_0_36_0/ducc-ducc0_0_36_0.tar.gz
+	sha256sums = a1b9cc02acb6ca1cfe5371a98c66eecd9ba0809578a5d7be666d388060b5c80b
+
+pkgname = python-ducc

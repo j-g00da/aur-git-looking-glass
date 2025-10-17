@@ -1,0 +1,20 @@
+pkgbase = libreoffice-extension-writingtool-bin
+	pkgdesc = WritingTool is a LibreOffice extension for LibreOffice that adds a writing assistant to text editing.
+	pkgver = 25.7.2
+	pkgrel = 1
+	url = https://writingtool.org/index.php/en/
+	arch = any
+	groups = libreoffice-extensions
+	license = LGPL-2.1-only
+	depends = java-runtime>=17
+	depends = libreoffice
+	depends = python
+	depends = perl
+	depends = bash
+	provides = libreoffice-extension-writingtool
+	conflicts = libreoffice-extension-writingtool
+	noextract = WritingTool-25.7.2.oxt
+	source = https://github.com/writingtool-org/writingtool/releases/download/v25.7.2/WritingTool-25.7.2.oxt
+	sha256sums = 75423c61a5bccc17df2382e830a31b707d4fa57738eee3292ab1a204954f7adc
+
+pkgname = libreoffice-extension-writingtool-bin

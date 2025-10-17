@@ -1,0 +1,16 @@
+pkgbase = falsec
+	pkgdesc = Interpreter and compiler for the FALSE language
+	pkgver = 0.1.2
+	pkgrel = 2
+	url = https://github.com/MixusMinimax/falsec
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	depends = glibc
+	depends = nasm
+	depends = binutils
+	source = falsec-0.1.2.tar.gz::https://github.com/MixusMinimax/falsec/archive/refs/tags/v0.1.2.tar.gz
+	b2sums = 79d6aceb8627f485d219e7fc7b30ab947eefd5109817db71af8dd4eb7262f2aed63335913300b4848c3aa0458828405318fa3ac0a9675ba18243f72a469eb647
+
+pkgname = falsec

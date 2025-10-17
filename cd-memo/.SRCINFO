@@ -1,0 +1,20 @@
+pkgbase = cd-memo
+	pkgdesc = Enhanced cd that memorizes your working directory across sessions
+	pkgver = 2024.11.v4
+	pkgrel = 6
+	url = https://github.com/BlackFuffey/cd-memo
+	arch = any
+	license = MIT
+	depends = bash
+	source = cd-memo
+	source = cd-memo-init
+	source = cd-memo-init-ns
+	source = README.md
+	source = LICENSE
+	sha256sums = 950c3d8ffd1392cd19a762889aeb760e68997eef58ba6617348b5439e3547cb4
+	sha256sums = ed2d94af03408f8d50f5d8d658cb1870acdb16f9e1cffd9bccc59e9f319dee2a
+	sha256sums = a6f6fb02110155313dcc2afb3613e199abe812ead940bb0376f525822fa6896e
+	sha256sums = 8e648b8f9671e4cd6126323392e0eaede6da4a2e73bc79e1b8bbce316c995273
+	sha256sums = b8c42f6ef4fa7552a40d029fa9e58eadf12090642febb21db1b47a13cca09f01
+
+pkgname = cd-memo

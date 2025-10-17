@@ -1,0 +1,12 @@
+pkgbase = brother-dcp-b7620dw
+	pkgdesc = LPR and CUPS driver for the Brother DCP-B7620DW printer
+	pkgver = 4.1.0
+	pkgrel = 1
+	url = https://support.brother.com/g/b/downloadend.aspx?c=eu_ot&lang=en&prod=dcpb7620dw_eu_as&os=127&dlid=dlf105987_000&flang=4&type3=10282
+	arch = i686
+	arch = x86_64
+	license = EULA
+	source = https://download.brother.com/welcome/dlf105987/dcpb7620dwpdrv-4.1.0-1.i386.rpm
+	md5sums = 05d3e860f4de5d297ac8b00d3d7d3464
+
+pkgname = brother-dcp-b7620dw

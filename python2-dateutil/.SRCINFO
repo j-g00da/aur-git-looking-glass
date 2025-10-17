@@ -1,0 +1,21 @@
+pkgbase = python2-dateutil
+	pkgdesc = Provides powerful extensions to the standard datetime module
+	pkgver = 2.8.2
+	pkgrel = 3
+	url = https://github.com/dateutil/dateutil
+	arch = any
+	license = Apache-2.0
+	checkdepends = python2-pytest
+	checkdepends = python2-packaging
+	checkdepends = python2-pytest-cov
+	checkdepends = python2-hypothesis
+	checkdepends = python2-freezegun
+	makedepends = python2-setuptools-scm
+	makedepends = python2-six
+	makedepends = git
+	depends = python2
+	depends = python2-six
+	source = https://files.pythonhosted.org/packages/4c/c4/13b4776ea2d76c115c1d1b84579f3764ee6d57204f6be27119f13a61d0a9/python-dateutil-2.8.2.tar.gz
+	sha256sums = 0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86
+
+pkgname = python2-dateutil

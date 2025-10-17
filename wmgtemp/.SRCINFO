@@ -1,0 +1,14 @@
+pkgbase = wmgtemp
+	pkgdesc = Dockapp to graphically display CPU and SYS temperatures.
+	pkgver = 1.2
+	pkgrel = 1
+	url = https://www.dockapps.net/wmgtemp
+	arch = i686
+	arch = x86_64
+	license = GPL2
+	depends = libxpm
+	depends = lm_sensors
+	source = https://www.dockapps.net/download/wmgtemp-1.2.tar.gz
+	md5sums = a595053ba7fab25e318d983df3af8ce8
+
+pkgname = wmgtemp

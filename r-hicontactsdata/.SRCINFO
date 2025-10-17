@@ -1,0 +1,20 @@
+pkgbase = r-hicontactsdata
+	pkgdesc = HiContacts companion data package
+	pkgver = 1.10.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/HiContactsData
+	arch = any
+	license = MIT
+	checkdepends = r-testthat
+	depends = r-annotationhub
+	depends = r-biocfilecache
+	depends = r-experimenthub
+	optdepends = r-biocstyle
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/data/experiment/src/contrib/HiContactsData_1.10.0.tar.gz
+	md5sums = 3e72118c67f34f87d96628505e1505b5
+	b2sums = 8c4daf338d15d02e0e5154f7fc53c21c799cd7f4e8fabf684b622d0e37d508accf132a15236ddff29c093d5ed525a34dec789332f29954640b063a09ff2d0612
+
+pkgname = r-hicontactsdata

@@ -1,0 +1,23 @@
+pkgbase = python-ffmpeg-progress-yield-git
+	pkgdesc = Run an FFmpeg command with its progress yielded
+	pkgver = 1.0.3.r0.g9c60183
+	pkgrel = 2
+	url = https://github.com/slhck/ffmpeg-progress-yield
+	arch = any
+	license = MIT
+	checkdepends = ffmpeg
+	checkdepends = procps-ng
+	checkdepends = python-pytest-asyncio
+	checkdepends = uv
+	makedepends = git
+	makedepends = python-installer
+	makedepends = python-uv-build
+	makedepends = uv
+	depends = ffmpeg
+	depends = python-tqdm
+	provides = python-ffmpeg-progress-yield
+	conflicts = python-ffmpeg-progress-yield
+	source = python-ffmpeg-progress-yield-git::git+https://github.com/slhck/ffmpeg-progress-yield.git
+	sha512sums = SKIP
+
+pkgname = python-ffmpeg-progress-yield-git

@@ -1,0 +1,26 @@
+pkgbase = transmission-remote-gtk-git
+	pkgdesc = A remote interface to the Transmission BitTorrent client
+	pkgver = 1.6.0.r16.g14b8613
+	pkgrel = 1
+	url = https://github.com/transmission-remote-gtk/transmission-remote-gtk
+	arch = i686
+	arch = x86_64
+	arch = armv6h
+	license = GPL
+	makedepends = git
+	makedepends = appstream-glib
+	makedepends = meson
+	makedepends = desktop-file-utils
+	makedepends = python-docutils
+	depends = gtk3
+	depends = libsoup3
+	depends = json-glib
+	depends = gettext
+	optdepends = libayatana-indicator: Application tray support
+	provides = transmission-remote-gtk
+	conflicts = transmission-remote-gtk
+	options = !libtool
+	source = git+https://github.com/transmission-remote-gtk/transmission-remote-gtk.git
+	sha512sums = SKIP
+
+pkgname = transmission-remote-gtk-git

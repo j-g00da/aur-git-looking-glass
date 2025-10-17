@@ -1,0 +1,15 @@
+pkgbase = numatop
+	pkgdesc = Observation tool for NUMA systems
+	pkgver = 2.5.1
+	pkgrel = 2
+	url = https://github.com/intel/numatop
+	arch = i686
+	arch = x86_64
+	license = BSD-3-Clause
+	depends = numactl
+	depends = ncurses
+	depends = check
+	source = https://github.com/intel/numatop/archive/refs/tags/v2.5.1.tar.gz
+	sha256sums = c312d4b6cc10d12680aa8ff04db5a02fca7b39a5494b0f41d280a7e1772db9c8
+
+pkgname = numatop

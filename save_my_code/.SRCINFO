@@ -1,0 +1,15 @@
+pkgbase = save_my_code
+	pkgdesc = smc - Utility to save code and other files
+	pkgver = 2.0.0
+	pkgrel = 1
+	url = https://codeberg.org/dalan/smc
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = glibc
+	depends = gcc-libs
+	options = !lto
+	source = https://binaries.dalan.fr/smc/smc-v2.0.0-src.tar.zst
+	sha512sums = 5687234733608c3fd3fb5082534f63478016dfe100c717fa8d0480db5883e3a59e2e7c5f954e5dafeadd5e29ac0b69f20bb5682f01355c1dcf9ff946197ae6ea
+
+pkgname = save_my_code

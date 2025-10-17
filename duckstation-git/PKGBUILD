@@ -1,0 +1,224 @@
+# Contributor: katt <magunasu.b97@gmail.com>
+
+## options
+: ${i_swear_to_never_bother_the_developer_about_this_package:=false}
+: ${forbidden_versions_file_path:=/dev/null}
+
+pkgname=duckstation-git
+_pkgname=duckstation
+pkgver=0.1.r9727.g66bef3e3e
+pkgdesc='A Sony PlayStation (PSX) emulator, focusing on playability, speed, and long-term maintainability (git version)'
+pkgrel=1
+arch=(x86_64 aarch64)
+url=https://github.com/stenzek/duckstation
+license=(CC-BY-NC-ND-4.0)
+depends=(
+    sh
+    glibc
+    gcc-libs
+    sdl3
+    qt6-base
+    libbacktrace.so
+    libwebp.so
+    libjpeg.so
+    libpng16.so
+    libxcb
+    libx11
+    freetype2 libfreetype.so
+    libzstd.so
+    libz.so
+    libzip.so
+    libdbus-1.so
+    libcurl.so
+    systemd-libs libudev.so
+    hicolor-icon-theme
+)
+makedepends=(
+    git
+    yq
+    cmake
+    clang
+    lld
+    llvm
+    extra-cmake-modules
+    qt6-tools
+    qt6-wayland
+    libdrm
+    libpulse
+    alsa-lib
+    sndio
+    ninja
+    jack
+    python
+    spirv-headers
+    patchelf
+)
+optdepends=(
+    'qt6-wayland: Wayland support'
+    'libpulse: Pulseaudio support'
+    'sndio: Small audio support'
+    'alsa-lib: ALSA support'
+    'jack: JACK support'
+    'ffmpeg: Video capture support'
+)
+options=(lto)
+provides=(duckstation)
+conflicts=(duckstation)
+source=(
+    git+"$url".git
+    stenzek.shaderc::git+https://github.com/stenzek/shaderc.git
+    spirv-cross::git+https://github.com/KhronosGroup/SPIRV-Cross.git
+    stenzek.cpuinfo::git+https://github.com/stenzek/cpuinfo.git
+    stenzek.discord-rpc::git+https://github.com/stenzek/discord-rpc.git
+    stenzek.soundtouch::git+https://github.com/stenzek/soundtouch.git
+    stenzek.plutosvg::git+https://github.com/stenzek/plutosvg.git
+    https://github.com/duckstation/chtdb/releases/download/latest/cheats.zip
+    https://github.com/duckstation/chtdb/releases/download/latest/patches.zip
+    duckstation-qt.desktop
+    duckstation-qt.sh)
+sha256sums=('SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'ec2d7358f81598390a8ceca2d1974be3e5f7c45602b550c89a1e9323ab45474b'
+            '221a8fc0d1f0cebdf281acc26484e98ebbb59f876e12fdef3f03cf91380e31f5')
+noextract=(
+    cheats.zip
+    patches.zip
+)
+
+_source_var=(
+    "stenzek.shaderc:SHADERC"
+    "spirv-cross:SPIRV_CROSS:SPIRV-Cross"
+    "stenzek.cpuinfo:CPUINFO"
+    "stenzek.discord-rpc:DISCORD_RPC"
+    "stenzek.soundtouch:SOUNDTOUCH"
+    "stenzek.plutosvg:PLUTOSVG"
+)
+
+pkgver() {
+    cd "$srcdir/$_pkgname"
+    git describe | sed 's/\([^-]*-g\)/r\1/;s/-/./g'
+}
+
+prepare() {
+    # checkout correct versions of deps
+    if [[ "$forbidden_versions_file_path" == "/dev/null" ]]; then
+        cat <<EOF
+Stenzek prohibits using the versions file in this build script.
+Set the path to the dependencies versions file (from scripts/)
+in the forbidden_versions_file_path variable, relative to the project root.
+EOF
+        exit 1
+    fi
+
+    deps_script=$srcdir/duckstation/$forbidden_versions_file_path
+
+    # unbreak the build
+    sed -i 's/3ebbfd45645650c4940bf0f3b4d25ab913466bb0/cdcd4afba44326d12206493620b3e0aa4935f311/g' "$deps_script"
+
+    for src in "${source[@]}"; do
+        local src_name=${src%%::*}
+        for dep in "${_source_var[@]}"; do
+            local dep_name dep_var
+            IFS=':' read dep_name dep_var _ <<< "$dep"
+            if [ "$src_name" = "$dep_name" ]; then
+                local dep_ver
+                dep_ver=$(grep -Po "(?<=^$dep_var=).+" "$deps_script" )
+                echo "Checking out $dep_ver for $src_name..."
+                git -C "$srcdir/$src_name" checkout -q "$dep_ver"
+            fi
+        done
+    done
+
+    # bundle additional resources
+    cp "$srcdir/cheats.zip" "$srcdir/patches.zip" "$srcdir/duckstation/data/resources"
+
+    # unbreak the build
+    if [ "$i_swear_to_never_bother_the_developer_about_this_package" = "true" ]; then
+        cd "$srcdir/duckstation"
+        sed -i 's/archlinux/marchlinux/g' CMakeModules/DuckStationBuildSummary.cmake
+        sed -i '/#ifdef __linux__/,/#endif/d' src/core/system.cpp
+        sed -i '/CMAKE_FIND_ROOT_PATH/d' CMakeModules/DuckStationDependencies.cmake
+        sed -i 's/NOT Qt6_DIR MATCHES/Qt6_DIR MATCHES/' CMakeModules/DuckStationDependencies.cmake
+    fi
+
+}
+
+build() {
+    deps_script=$srcdir/duckstation/scripts/deps/build-dependencies-linux.sh
+    for src in "${source[@]}"; do
+        local src_name=${src%%::*}
+        for dep in "${_source_var[@]}"; do
+            local dep_name dep_var dep_dir
+            IFS=':' read dep_name dep_var dep_dir <<< "$dep"
+            if [ "$src_name" = "$dep_name" ]; then
+                [ -z "$dep_dir" ] && dep_dir=$dep_var
+                local dep_opts
+                dep_opts=$(
+                    awk -v dir="$dep_dir" -v var="$dep_var" '
+                      $0 ~ "^cd.+\\$" var {in_block=1; next}
+                      $0 ~ "^cd.+" dir {in_block=1; next}
+                      $0 ~ "^cd \\.\\." && in_block {in_block=0}
+                      in_block
+                    ' "$deps_script" | tr ' ' '\n' | grep '^-D' | grep -Ev '_COMPILER|_PREFIX_PATH|_INSTALL_PREFIX')
+
+                echo "Building $dep_name..."
+                cmake -B "build-$dep_name" -S "$src_name" \
+                    -G Ninja \
+                    -DCMAKE_C_COMPILER=clang \
+                    -DCMAKE_CXX_COMPILER=clang++ \
+                    -DCMAKE_EXE_LINKER_FLAGS_INIT="-fuse-ld=lld" \
+                    -DCMAKE_MODULE_LINKER_FLAGS_INIT="-fuse-ld=lld" \
+                    -DCMAKE_SHARED_LINKER_FLAGS_INIT="-fuse-ld=lld" \
+                    -DCMAKE_POLICY_VERSION_MINIMUM=3.5 \
+                    -DCMAKE_INSTALL_PREFIX=/usr \
+                    $dep_opts
+                ninja -C "build-$dep_name"
+                DESTDIR="$srcdir/deps" ninja -C "build-$dep_name" install
+            fi
+        done
+    done
+
+    echo "Building duckstation..."
+
+    cmake -B build -S duckstation \
+        -G Ninja \
+        -DCMAKE_BUILD_TYPE=Release \
+        -DCMAKE_C_COMPILER=clang \
+        -DCMAKE_CXX_COMPILER=clang++ \
+        -DCMAKE_C_FLAGS="$CFLAGS -Wno-error=format-security" \
+        -DCMAKE_CXX_FLAGS="$CXXFLAGS -Wno-error=format-security" \
+        -DCMAKE_EXE_LINKER_FLAGS_INIT="-fuse-ld=lld" \
+        -DCMAKE_MODULE_LINKER_FLAGS_INIT="-fuse-ld=lld" \
+        -DCMAKE_SHARED_LINKER_FLAGS_INIT="-fuse-ld=lld" \
+        -DCMAKE_INTERPROCEDURAL_OPTIMIZATION=ON \
+        -DCMAKE_PREFIX_PATH="$srcdir/deps/usr" \
+        -Dzstd_INCLUDE_DIR="/usr/include/" \
+        -Wno-dev
+    ninja -C build
+}
+
+package() {
+    # Install everything into /usr/lib/duckstation
+    install -m 755 -d "${pkgdir}/usr/lib"
+    cp -drv --no-preserve='ownership' build/bin "${pkgdir}/usr/lib/${_pkgname}"
+    # Install bundled libraries
+    find "${srcdir}/deps/usr/lib" -name '*.so*' -exec cp -dv --no-preserve='ownership' '{}' "${pkgdir}/usr/lib/${_pkgname}/" \;
+
+    # patch rpath
+    patchelf --force-rpath --set-rpath "/usr/lib/${_pkgname}" "${pkgdir}/usr/lib/${_pkgname}/$_pkgname-qt"
+
+    # Install additional license
+    install -Dvm644 "${pkgdir}/usr/lib/${_pkgname}/resources/thirdparty.html" "${pkgdir}/usr/share/licenses/${pkgname}/thirdparty.html"
+
+    install -Dvm755 "${srcdir}/duckstation-qt.sh" "${pkgdir}/usr/bin/duckstation-qt"
+    install -Dvm644 "${srcdir}/duckstation-qt.desktop" "${pkgdir}/usr/share/applications/duckstation-qt.desktop"
+    install -Dvm644 "${pkgdir}/usr/lib/${_pkgname}/resources/images/duck.png" "${pkgdir}/usr/share/icons/hicolor/64x64/apps/duckstation-qt.png"
+}
+

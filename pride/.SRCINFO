@@ -1,0 +1,13 @@
+pkgbase = pride
+	pkgdesc = Pride flags in the terminal.
+	pkgver = 0.4.3
+	pkgrel = 1
+	url = https://git.sleeplessval.io/valerie/pride
+	arch = x86_64
+	license = MIT
+	provides = pride
+	conflicts = pride
+	source = https://git.sleeplessval.io/valerie/pride/archive/v0.4.3.tar.gz
+	sha256sums = 62333ec4ad0d4e0e85edb349231c02ce0167f65a6972e32b5fc918ccc8c485bc
+
+pkgname = pride

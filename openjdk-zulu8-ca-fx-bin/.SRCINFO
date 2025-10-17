@@ -1,0 +1,35 @@
+pkgbase = openjdk-zulu8-ca-fx-bin
+	pkgdesc = Azul Zulu Builds of OpenJDK 8 With OpenJFX are open source, TCK-tested and certified builds of OpenJDK 8.
+	pkgver = 8+8.86.0.25+8.0.452
+	pkgrel = 1
+	url = https://www.azul.com/downloads
+	install = install_openjdk-zulu8-ca-fx-bin.sh
+	arch = x86_64
+	license = custom
+	depends = java-environment-common>=3
+	depends = java-runtime-common>=3
+	depends = ca-certificates-utils
+	provides = java-environment=8
+	provides = java-environment-openjdk=8
+	provides = java-runtime=8
+	provides = java-runtime-openjdk=8
+	provides = java-runtime-headless=8
+	provides = java-runtime-headless-openjdk=8
+	provides = jre-openjdk=8
+	provides = jdk-openjdk=8
+	provides = jre-openjdk-headless=8
+	provides = java-openjfx=8
+	provides = java8-environment=8
+	provides = java8-environment-openjdk=8
+	provides = java8-runtime=8
+	provides = java8-runtime-openjdk=8
+	provides = java8-runtime-headless=8
+	provides = java8-runtime-headless-openjdk=8
+	provides = jre8-openjdk=8
+	provides = jdk8-openjdk=8
+	provides = jre8-openjdk-headless=8
+	provides = java8-openjfx=8
+	source = https://cdn.azul.com/zulu/bin/zulu8.86.0.25-ca-fx-jdk8.0.452-linux_x64.tar.gz
+	b2sums = 00fc5898f81483a48693adfb68696f606c8d78a37bc7e7e8e3ee4dc2c71f7605c8d7c81c4b52aea588562bf4d7868ecdb399ffad406824c9056e6dd0f5ec79bd
+
+pkgname = openjdk-zulu8-ca-fx-bin

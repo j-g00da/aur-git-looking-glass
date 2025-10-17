@@ -1,0 +1,16 @@
+pkgbase = r-assorthead
+	pkgdesc = Assorted Header-Only C++ Libraries
+	pkgver = 1.2.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/assorthead
+	arch = any
+	license = MIT
+	depends = r
+	optdepends = r-biocstyle
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/assorthead_1.2.0.tar.gz
+	md5sums = aa08d774cd62ced76fe5cce39c2d7d9e
+	b2sums = f5e4901dfdddc17b8af905f9f9999fba05e6321d673ac5b4eeac9ce20a8bc288efa919ffb81990c21301c0e9650606bbd37861b2c18d59f1ced268435c838304
+
+pkgname = r-assorthead

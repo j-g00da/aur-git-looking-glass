@@ -1,0 +1,23 @@
+pkgbase = android-toolkit-bin
+	pkgdesc = A cross platform desktop app written in Typescript/Node using React and Electron.A GUI for adb and can be used to modify android devices such as firesticks and google TVs.(Prebuilt version.Use system-wide electron)
+	pkgver = 1.5.21
+	pkgrel = 4
+	url = https://github.com/AnthonyGress/Android-Toolkit
+	arch = x86_64
+	license = MIT
+	makedepends = asar
+	makedepends = fuse2
+	depends = android-sdk-platform-tools
+	depends = electron25
+	provides = android-toolkit=1.5.21
+	conflicts = android-toolkit
+	options = !strip
+	options = !emptydirs
+	source = android-toolkit-1.5.21.AppImage::https://github.com/AnthonyGress/Android-Toolkit/releases/download/v1.5.21/Android-Toolkit.AppImage
+	source = LICENSE-1.5.21::https://raw.githubusercontent.com/AnthonyGress/Android-Toolkit/v1.5.21/LICENSE
+	source = android-toolkit.sh
+	sha256sums = e2b63d85b4dcf02f4e433b027871d20119eb56fb0dc6b21a6b661da040c7279b
+	sha256sums = 65cb0d2fdca7e4375a2ab466fb1e37fef2514eb10c88c5cf8998893a77295176
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = android-toolkit-bin

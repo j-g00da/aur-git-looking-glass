@@ -1,0 +1,405 @@
+pkgbase = python-livekit-agents
+	pkgver = 1.2.11
+	pkgrel = 1
+	arch = x86_64
+	arch = aarch64
+	license = Apache-2.0
+	checkdepends = python-dotenv
+	checkdepends = python-pytest
+	checkdepends = python-pytest-asyncio
+	checkdepends = python-jiwer
+	checkdepends = python-tiktoken
+	checkdepends = python-nltk
+	checkdepends = nltk-data
+	checkdepends = python-docstring-parser
+	checkdepends = python-speechmatics-rt
+	makedepends = python-hatchling
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python
+	source = https://github.com/livekit/agents/archive/refs/tags/livekit-agents@1.2.11.tar.gz
+	source = https://github.com/livekit/agents/raw/refs/tags/livekit-agents@1.2.11/livekit-plugins/livekit-plugins-silero/livekit/plugins/silero/resources/silero_vad.onnx
+	sha256sums = 5bc90646b5d64a6e39fb25fdd854ae1ada60bfb8e111436cdd987497e67de9b6
+	sha256sums = 597d30b3ec076608d059477bb14cfeffdf951bf5cae370d38f65d33bbfe82004
+
+pkgname = python-livekit-agents
+	pkgdesc = A powerful framework for building realtime voice AI agents.
+	url = https://github.com/livekit/agents/tree/main/livekit-agents
+	depends = python
+	depends = python-click
+	depends = python-livekit
+	depends = python-livekit-api
+	depends = python-livekit-protocol
+	depends = python-livekit-blingfire
+	depends = python-protobuf
+	depends = python-pyjwt
+	depends = python-watchfiles
+	depends = python-psutil
+	depends = python-aiohttp
+	depends = python-typing_extensions
+	depends = python-sounddevice
+	depends = python-docstring-parser
+	depends = python-colorama
+	depends = python-av
+	depends = python-numpy
+	depends = python-pydantic
+	depends = python-nest-asyncio
+	depends = python-opentelemetry-api
+	depends = python-opentelemetry-sdk
+	depends = python-opentelemetry-exporter-otlp
+	depends = python-prometheus_client
+	depends = python-openai
+	optdepends = python-mcp: mcp
+	optdepends = python-av: codecs
+	optdepends = python-numpy: codecs
+	optdepends = python-pillow: images
+	optdepends = python-livekit-plugins-anam: anam
+	optdepends = python-livekit-plugins-anthropic: anthropic
+	optdepends = python-livekit-plugins-assemblyai: assemblyai
+	optdepends = python-livekit-plugins-aws: aws
+	optdepends = python-livekit-plugins-azure: azure
+	optdepends = python-livekit-plugins-baseten: baseten
+	optdepends = python-livekit-plugins-bey: bey
+	optdepends = python-livekit-plugins-bithuman: bithuman
+	optdepends = python-livekit-plugins-cartesia: cartesia
+	optdepends = python-livekit-plugins-clova: clova
+	optdepends = python-livekit-plugins-deepgram: deepgram
+	optdepends = python-livekit-plugins-elevenlabs: elevenlabs
+	optdepends = python-livekit-plugins-fal: fal
+	optdepends = python-livekit-plugins-gladia: gladia
+	optdepends = python-livekit-plugins-google: google
+	optdepends = python-livekit-plugins-groq: groq
+	optdepends = python-livekit-plugins-hedra: hedra
+	optdepends = python-livekit-plugins-hume: hume
+	optdepends = python-livekit-plugins-inworld: inworld
+	optdepends = python-livekit-plugins-langchain: langchain
+	optdepends = python-livekit-plugins-lmnt: lmnt
+	optdepends = python-livekit-plugins-mistralai: mistralai
+	optdepends = python-livekit-plugins-neuphonic: neuphonic
+	optdepends = python-livekit-plugins-nltk: nltk
+	optdepends = python-livekit-plugins-openai: openai
+	optdepends = python-livekit-plugins-playai: playai
+	optdepends = python-livekit-plugins-resemble: resemble
+	optdepends = python-livekit-plugins-rime: rime
+	optdepends = python-livekit-plugins-sarvam: sarvam
+	optdepends = python-livekit-plugins-silero: silero
+	optdepends = python-livekit-plugins-simli: simli
+	optdepends = python-livekit-plugins-smallestai: smallestai
+	optdepends = python-livekit-plugins-speechify: speechify
+	optdepends = python-livekit-plugins-speechmatics: speechmatics
+	optdepends = python-livekit-plugins-spitch: spitch
+	optdepends = python-livekit-plugins-tavus: tavus
+	optdepends = python-livekit-plugins-turn-detector: turn-detector
+	optdepends = python-livekit-plugins-upliftai: upliftai
+	optdepends = python-livekit-plugins-ultravox: ultravox
+
+pkgname = python-livekit-plugins-anam
+	pkgdesc = Agent Framework plugin for anam.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-anam
+	depends = python-livekit-agents
+	optdepends = 
+
+pkgname = python-livekit-plugins-anthropic
+	pkgdesc = Agent Framework plugin for services from Anthropic.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-anthropic
+	depends = python-livekit-agents
+	depends = python-anthropic
+	depends = python-httpx
+	optdepends = 
+
+pkgname = python-livekit-plugins-assemblyai
+	pkgdesc = Agent Framework plugin for AssemblyAI.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-assemblyai
+	depends = python-livekit-agents
+	optdepends = 
+
+pkgname = python-livekit-plugins-aws
+	pkgdesc = LiveKit Agents Plugin for services from AWS.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-aws
+	depends = python-livekit-agents
+	depends = python-aioboto3
+	depends = python-amazon-transcribe
+	optdepends = python-aws-sdk-bedrock-runtime: realtime
+	optdepends = python-boto3: realtime
+
+pkgname = python-livekit-plugins-azure
+	pkgdesc = Agent Framework plugin for services from Azure.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-azure
+	depends = python-livekit-agents
+	depends = python-azure-cognitiveservices-speech
+	optdepends = 
+
+pkgname = python-livekit-plugins-baseten
+	pkgdesc = Agent Framework plugin for Baseten.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-baseten
+	depends = python-livekit-agents
+	depends = python-aiohttp
+	depends = python-livekit
+	optdepends = 
+
+pkgname = python-livekit-plugins-bey
+	pkgdesc = Agent Framework plugin for services from Beyond Presence.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-bey
+	depends = python-livekit-agents
+	optdepends = 
+
+pkgname = python-livekit-plugins-bithuman
+	pkgdesc = Agent Framework plugin for services from BitHuman Avatar Rendering.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-bithuman
+	depends = python-livekit-agents
+	depends = python-bithuman
+	optdepends = 
+
+pkgname = python-livekit-plugins-cartesia
+	pkgdesc = LiveKit Agents Plugin for Cartesia.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-cartesia
+	depends = python-livekit-agents
+	optdepends = 
+
+pkgname = python-livekit-plugins-clova
+	pkgdesc = LiveKit Agents Plugin for LINE Clova STT.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-clova
+	depends = python-livekit-agents
+	depends = python-pydub
+	optdepends = 
+
+pkgname = python-livekit-plugins-deepgram
+	pkgdesc = Agent Framework plugin for services using Deepgram's API.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-deepgram
+	depends = python-livekit-agents
+	depends = python-av
+	depends = python-numpy
+	optdepends = 
+
+pkgname = python-livekit-plugins-elevenlabs
+	pkgdesc = Agent Framework plugin for voice synthesis with ElevenLabs' API.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-elevenlabs
+	depends = python-livekit-agents
+	depends = python-av
+	depends = python-numpy
+	optdepends = 
+
+pkgname = python-livekit-plugins-fal
+	pkgdesc = fal plugin template for LiveKit Agents.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-fal
+	depends = python-livekit-agents
+	depends = python-fal-client
+	optdepends = 
+
+pkgname = python-livekit-plugins-gladia
+	pkgdesc = Agent Framework plugin for services using Gladia's API.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-gladia
+	depends = python-livekit-agents
+	depends = python-av
+	depends = python-numpy
+	depends = python-aiohttp
+	optdepends = 
+
+pkgname = python-livekit-plugins-google
+	pkgdesc = Agent Framework plugin for services from Google Cloud.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-google
+	depends = python-google-auth
+	depends = python-google-cloud-speech
+	depends = python-google-cloud-texttospeech
+	depends = python-google-genai
+	depends = python-livekit-agents
+	optdepends = 
+
+pkgname = python-livekit-plugins-groq
+	pkgdesc = Groq inference plugin for LiveKit Agents.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-groq
+	depends = python-livekit-agents
+	depends = python-av
+	depends = python-numpy
+	depends = python-livekit-plugins-openai
+	depends = python-aiohttp
+	depends = python-livekit
+	optdepends = 
+
+pkgname = python-livekit-plugins-hedra
+	pkgdesc = Agent Framework plugin for Hedra Avatar.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-hedra
+	depends = python-livekit-agents
+	optdepends = 
+
+pkgname = python-livekit-plugins-hume
+	pkgdesc = Hume TTS plugin for LiveKit agents.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-hume
+	depends = python-aiohttp
+	depends = python-livekit-agents
+	optdepends = 
+
+pkgname = python-livekit-plugins-inworld
+	pkgdesc = Agent Framework plugin for voice synthesis with Inworld's API.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-inworld
+	depends = python-livekit-agents
+	optdepends = 
+
+pkgname = python-livekit-plugins-langchain
+	pkgdesc = LangChain/LangGraph plugin for LiveKit agents.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-langchain
+	depends = python-livekit-agents
+	depends = python-langchain-core
+	depends = python-langgraph
+	optdepends = 
+
+pkgname = python-livekit-plugins-lmnt
+	pkgdesc = LMNT TTS plugin for LiveKit agents.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-lmnt
+	depends = python-livekit-agents
+	optdepends = 
+
+pkgname = python-livekit-plugins-minimal
+	pkgdesc = Minimal plugin template for LiveKit Agents.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-minimal
+	depends = python-livekit-agents
+	optdepends = 
+
+pkgname = python-livekit-plugins-mistralai
+	pkgdesc = LiveKit Agents Plugin for services from AWS.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-mistralai
+	depends = python-livekit-agents
+	depends = livekit-plugins-openai
+	depends = python-mistralai
+	optdepends = 
+
+pkgname = python-livekit-plugins-neuphonic
+	pkgdesc = Neuphonic inference plugin for LiveKit Agents.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-neuphonic
+	depends = python-livekit-agents
+	optdepends = 
+
+pkgname = python-livekit-plugins-nltk
+	pkgdesc = Agent Framework plugin for NLTK-based text processing.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-nltk
+	depends = python-livekit-agents
+	depends = python-nltk
+	optdepends = 
+
+pkgname = python-livekit-plugins-openai
+	pkgdesc = Agent Framework plugin for services from OpenAI.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-openai
+	depends = python-livekit-agents
+	depends = python-av
+	depends = python-numpy
+	depends = python-openai
+	depends = python-websockets
+	optdepends = python-google-auth: vertex
+
+pkgname = python-livekit-plugins-playai
+	pkgdesc = Agent Framework plugin for voice synthesis with PlayAI's API.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-playai
+	depends = python-livekit-agents
+	depends = python-av
+	depends = python-numpy
+	depends = python-pyht
+	depends = python-aiohttp
+	depends = python-livekit
+	optdepends = 
+
+pkgname = python-livekit-plugins-resemble
+	pkgdesc = LiveKit Agents Plugin for Resemble AI.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-resemble
+	depends = python-livekit-agents
+	optdepends = 
+
+pkgname = python-livekit-plugins-rime
+	pkgdesc = LiveKit Agents Plugin for Rime.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-rime
+	depends = python-livekit-agents
+	depends = python-av
+	depends = python-numpy
+	optdepends = 
+
+pkgname = python-livekit-plugins-sarvam
+	pkgdesc = Agent Framework plugin for services using Sarvam.ai's API.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-sarvam
+	depends = python-livekit-agents
+	depends = python-av
+	depends = python-numpy
+	optdepends = 
+
+pkgname = python-livekit-plugins-silero
+	pkgdesc = Agent Framework Plugin for Silero.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-silero
+	depends = python-livekit-agents
+	depends = python-onnxruntime
+	depends = python-numpy
+	optdepends = 
+
+pkgname = python-livekit-plugins-simli
+	pkgdesc = Agent Framework plugin for Simli.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-simli
+	depends = python-livekit-agents
+	optdepends = 
+
+pkgname = python-livekit-plugins-smallestai
+	pkgdesc = Agent Framework plugin for speech synthesis with the Smallest AI.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-smallestai
+	depends = python-livekit-agents
+	depends = python-av
+	depends = python-numpy
+	optdepends = 
+
+pkgname = python-livekit-plugins-soniox
+	pkgdesc = Agent Framework plugin for services using Soniox's API.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-soniox
+	depends = python-livekit-agents
+	optdepends = 
+
+pkgname = python-livekit-plugins-speechify
+	pkgdesc = Agent Framework plugin for voice synthesis with Speechify's API.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-speechify
+	depends = python-livekit-agents
+	depends = python-av
+	depends = python-numpy
+	optdepends = 
+
+pkgname = python-livekit-plugins-speechmatics
+	pkgdesc = Agent Framework plugin for Speechmatics.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-speechmatics
+	depends = python-livekit-agents
+	depends = python-speechmatics-rt
+	optdepends = 
+
+pkgname = python-livekit-plugins-spitch
+	pkgdesc = spitch plugin template for LiveKit Agents.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-spitch
+	depends = python-livekit-agents
+	depends = python-av
+	depends = python-numpy
+	depends = python-spitch
+	optdepends = 
+
+pkgname = python-livekit-plugins-tavus
+	pkgdesc = Agent Framework plugin for Tavus.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-tavus
+	depends = python-livekit-agents
+	optdepends = 
+
+pkgname = python-livekit-plugins-turn-detector
+	pkgdesc = End of utterance detection for LiveKit Agents.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-turn-detector
+	depends = python-livekit-agents
+	depends = python-transformers
+	depends = python-numpy
+	depends = python-onnxruntime
+	depends = python-jinja
+	optdepends = 
+
+pkgname = python-livekit-plugins-ultravox
+	pkgdesc = Agent Framework plugin for services from Ultravox.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-ultravox
+	depends = python-livekit-agents
+	depends = python-av
+	depends = python-numpy
+	optdepends = 
+
+pkgname = python-livekit-plugins-upliftai
+	pkgdesc = Agent Framework plugin for speech synthesis with the Uplift AI.
+	url = https://github.com/livekit/agents/tree/main/livekit-plugins/livekit-plugins-upliftai
+	depends = python-livekit-agents
+	depends = python-av
+	depends = python-numpy
+	optdepends = 

@@ -1,0 +1,16 @@
+pkgbase = cjson-git
+	pkgdesc = Ultralightweight JSON parser in ANSI C
+	pkgver = 1.7.18.r11.g12c4bf1
+	pkgrel = 2
+	url = https://github.com/DaveGamble/cJSON
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = cmake
+	depends = glibc
+	provides = cjson
+	conflicts = cjson
+	source = git+https://github.com/DaveGamble/cJSON.git
+	sha256sums = SKIP
+
+pkgname = cjson-git

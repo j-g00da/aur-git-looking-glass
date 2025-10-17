@@ -1,0 +1,15 @@
+pkgbase = ruby-svg_optimizer
+	pkgdesc = SVG optimization based on Node's SVGO
+	pkgver = 0.3.0
+	pkgrel = 1
+	url = https://github.com/fnando/svg_optimizer
+	arch = any
+	license = MIT
+	depends = ruby
+	depends = ruby-nokogiri
+	noextract = svg_optimizer-0.3.0.gem
+	options = !emptydirs
+	source = https://rubygems.org/downloads/svg_optimizer-0.3.0.gem
+	sha1sums = 4595963f857d7a2d794a1a2be4fe32aa379d6d15
+
+pkgname = ruby-svg_optimizer

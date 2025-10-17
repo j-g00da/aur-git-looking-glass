@@ -1,0 +1,15 @@
+pkgbase = kon
+	pkgdesc = A wallpaper downloader for KDE Plasma from Konachan with fixed 1600x900 preview
+	pkgver = 1.0
+	pkgrel = 10
+	arch = x86_64
+	license = MIT
+	makedepends = go
+	depends = qt5-tools
+	depends = xorg-xrandr
+	depends = kitty
+	depends = imagemagick
+	source = main.go
+	sha256sums = SKIP
+
+pkgname = kon

@@ -1,0 +1,12 @@
+pkgbase = pengupop
+	pkgdesc = Clone of the retro arcade game Bust-a-move
+	pkgver = 2.2.6
+	pkgrel = 1
+	url = https://mirror.amdmi3.ru/distfiles/
+	arch = x86_64
+	license = GPL-3.0-only
+	depends = sdl
+	source = https://mirror.amdmi3.ru/distfiles//pengupop-2.2.6.tar.gz
+	sha256sums = f6cef1fedb11bafc947f8824533df9ca9dd6aeaa5aa795c61870b986a1fc45ba
+
+pkgname = pengupop

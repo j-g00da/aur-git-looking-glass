@@ -1,0 +1,25 @@
+pkgbase = pgroonga
+	pkgdesc = Fast fulltext search on PostgreSQL.
+	pkgver = 4.0.4
+	pkgrel = 1
+	url = https://github.com/pgroonga/pgroonga
+	arch = i686
+	arch = x86_64
+	arch = armv7h
+	arch = aarch64
+	license = custom:PostgreSQL
+	makedepends = postgresql
+	makedepends = clang
+	makedepends = llvm
+	depends = groonga
+	depends = postgresql
+	source = https://github.com/pgroonga/pgroonga/releases/download/4.0.4/pgroonga-4.0.4.tar.gz
+	source = https://github.com/pgroonga/pgroonga/releases/download/4.0.4/pgroonga-4.0.4.tar.gz.asc
+	validpgpkeys = 2701F317CFCCCB975CADE9C2624CF77434839225
+	sha256sums = 2e7be664ee99b49dd23ec57b19403ff4f5b44ca21d3c039d43fd1d550d583223
+	sha256sums = SKIP
+
+pkgname = pgroonga
+	pkgdesc = PGroonga is a PostgreSQL extension to use Groonga as index. PGroonga makes PostgreSQL fast full text search platform for all languages!
+	depends = groonga
+	depends = postgresql

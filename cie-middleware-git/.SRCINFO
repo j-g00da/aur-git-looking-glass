@@ -1,0 +1,28 @@
+pkgbase = cie-middleware-git
+	pkgdesc = Middleware della CIE (Carta di Identità Elettronica) per Linux (mio fork)
+	pkgver = 1.5.9.r17.4e6b712
+	pkgrel = 1
+	url = https://developers.italia.it/it/cie
+	install = cie-middleware.install
+	arch = x86_64
+	arch = i686
+	arch = pentium4
+	arch = arm
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = BSD
+	makedepends = git
+	makedepends = gradle
+	makedepends = java-environment>=17
+	makedepends = meson
+	depends = crypto++
+	depends = java-runtime>=17
+	depends = libnotify
+	depends = openssl
+	depends = pcsclite
+	depends = podofo
+	source = cie-middleware::git+https://github.com/M0Rf30/cie-middleware-linux
+	sha256sums = SKIP
+
+pkgname = cie-middleware-git

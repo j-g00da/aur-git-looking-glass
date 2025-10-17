@@ -1,0 +1,26 @@
+pkgbase = screenpipe
+	pkgdesc = 24/7 Screen and Audio Capture with AI-powered tools
+	pkgver = 0.2.74
+	pkgrel = 3
+	url = https://github.com/mediar-ai/screenpipe
+	arch = x86_64
+	license = MIT
+	makedepends = python
+	makedepends = python-tomlkit
+	makedepends = rust
+	makedepends = cargo
+	makedepends = git
+	makedepends = cmake
+	depends = protobuf
+	depends = onnxruntime
+	depends = ffmpeg
+	depends = tesseract
+	depends = curl
+	depends = libxi
+	depends = libxtst
+	depends = xdo
+	depends = xdotool
+	source = git+https://github.com/mediar-ai/screenpipe.git#commit=f85c1e5e4b16e15572b520cf714b19e9fb85ecc8
+	sha256sums = c7ba8e00564be6d60b2e18b3022989a7bb3eebbd1c97ba3eca294261a3a37b39
+
+pkgname = screenpipe

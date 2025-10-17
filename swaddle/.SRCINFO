@@ -1,0 +1,15 @@
+pkgbase = swaddle
+	pkgdesc = Swayidle inhibitor when watching content or listening to audio
+	pkgver = 0.3.0
+	pkgrel = 1
+	url = https://github.com/ATTron/swaddle
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	optdepends = rust: For building with system-wide Rust
+	optdepends = rustup: For building with custom Rust toolchains
+	source = https://github.com/ATTron/swaddle/archive/v0.3.0.tar.gz
+	sha256sums = ('5cb922efa0c88794a5d3ac264d261106f4d9885f3a9ecbad0275e94b81c8e171')
+
+pkgname = swaddle

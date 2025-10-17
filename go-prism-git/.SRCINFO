@@ -1,0 +1,18 @@
+pkgbase = go-prism-git
+	pkgdesc = Turn raw test output into beautiful data
+	pkgver = v1.1.0.r22.g427afd5
+	pkgrel = 1
+	url = https://github.com/DaltonSW/prism
+	install = .install
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = go
+	makedepends = git
+	provides = go-prism
+	conflicts = go-prism
+	conflicts = go-prism-bin
+	source = go-prism-git::git+https://github.com/DaltonSW/prism.git#branch=main
+	b2sums = SKIP
+
+pkgname = go-prism-git

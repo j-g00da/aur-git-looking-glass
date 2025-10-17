@@ -1,0 +1,20 @@
+pkgbase = elgato-gchd-git
+	pkgdesc = Elgato Game Capture HD Driver
+	pkgver = r148.463e19f
+	pkgrel = 1
+	url = https://github.com/Sir-Boops/elgato-gchd
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = cmake
+	makedepends = p7zip
+	depends = libusb
+	provides = elgato-gchd
+	conflicts = elgato-gchd
+	source = git+https://github.com/Sir-Boops/elgato-gchd.git
+	source = https://edge.elgato.com/egc/windows/egcw/3.70/final/GameCaptureSetup_3.70.56.3056_x64.msi
+	sha256sums = SKIP
+	sha256sums = 403b03518ac5170e52238fdbc5ce757b9901b16e123101ec5db2c46d640ae949
+
+pkgname = elgato-gchd-git

@@ -1,0 +1,21 @@
+pkgbase = sqlitebrowser-git
+	pkgdesc = DB Browser for SQLite
+	pkgver = continuous.r0.gf37031e6
+	pkgrel = 1
+	url = http://sqlitebrowser.org/
+	install = sqlitebrowser.install
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = cmake
+	makedepends = qt6-tools
+	makedepends = git
+	depends = qt6-base
+	depends = sqlite
+	depends = libxkbcommon-x11
+	provides = sqlitebrowser
+	conflicts = sqlitebrowser
+	source = sqlitebrowser-git::git+https://github.com/sqlitebrowser/sqlitebrowser.git
+	md5sums = SKIP
+
+pkgname = sqlitebrowser-git

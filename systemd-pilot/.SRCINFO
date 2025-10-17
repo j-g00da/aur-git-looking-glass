@@ -1,0 +1,17 @@
+pkgbase = systemd-pilot
+	pkgdesc = Desktop application for managing systemd services
+	pkgver = 3.0
+	pkgrel = 3
+	url = https://github.com/mfat/systemd-pilot
+	arch = any
+	license = GPL-3.0-or-later
+	depends = gtk3
+	depends = gtksourceview4
+	depends = python-gobject
+	depends = python-keyring
+	depends = python-paramiko
+	depends = python-rich
+	source = systemd-pilot-3.0.tar.gz::https://github.com/mfat/systemd-pilot/archive/refs/tags/v3.0.tar.gz
+	sha256sums = bc36692ead79abb18577d7c5a64da5f2985a66e9fedd6e7f0a10cfcf1a4728ea
+
+pkgname = systemd-pilot

@@ -1,0 +1,13 @@
+pkgbase = r-ebarrays
+	pkgdesc = Unified Approach for Simultaneous Gene Clustering and Differential Expression Identification
+	pkgver = 2.72.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/EBarrays
+	arch = x86_64
+	license = GPL-2.0-or-later
+	depends = r-biobase
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/EBarrays_2.72.0.tar.gz
+	md5sums = b88c34ce671fe2f53818e07ac6fd33a7
+	b2sums = d27dc9002b51b4b0ecfc08ec5adacebb088a568a7fefb57b4de98076fdd142507c379f689217ba71230769696f7686fd6c11f7749051a0b3445a0b87e3ab4668
+
+pkgname = r-ebarrays

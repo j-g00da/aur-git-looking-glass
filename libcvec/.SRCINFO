@@ -1,0 +1,11 @@
+pkgbase = libcvec
+	pkgdesc = Generic C++ vector library for C
+	pkgver = 1.1.2
+	pkgrel = 1
+	url = https://tvoygit.ru/vi_is_lonely/libcvec
+	arch = any
+	license = VAM
+	makedepends = clang
+
+
+pkgname = libcvec

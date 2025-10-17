@@ -1,0 +1,18 @@
+pkgbase = spideroak-one
+	pkgdesc = Secure file backup, sync and sharing client. SpiderOak One client.
+	pkgver = 7.5.2
+	pkgrel = 1
+	url = https://crossclave.com/
+	install = spideroak-one.install
+	arch = x86_64
+	license = LicenseRef-SpiderOakONE
+	depends = glibc
+	depends = curl
+	provides = spideroak
+	options = !strip
+	source = https://spideroak-releases.s3.us-east-2.amazonaws.com/spideroakone_7.5.2_amd64.deb
+	source = LICENSE
+	sha256sums = 2c012c296b23d6281c215a7dedc6702d858507793d44a047afc5907853aacc35
+	sha256sums = 62271420e251febb88cec99de1559002237ab980c2912e091d2f0d1b8bec7141
+
+pkgname = spideroak-one

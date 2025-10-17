@@ -1,0 +1,14 @@
+pkgbase = mpv-mpris2-bin
+	pkgdesc = Rust implementation of the MPRIS v2 DBus interface for the mpv.
+	pkgver = 0.0.6
+	pkgrel = 1
+	url = https://github.com/eNV25/mpv-mpris2
+	arch = x86_64
+	license = MIT-0
+	depends = mpv
+	conflicts = mpv-mpris
+	conflicts = mpv-mpris-git
+	source = https://github.com/eNV25/mpv-mpris2/releases/download/v0.0.6/mpris-x86_64-unknown-linux-gnu.so
+	sha256sums = c3bce3c8c59c1d2e8f42397fdea209b8e044812bfbdd3a17108f66205070eee2
+
+pkgname = mpv-mpris2-bin

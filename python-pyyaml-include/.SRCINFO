@@ -1,0 +1,22 @@
+pkgbase = python-pyyaml-include
+	pkgdesc = An extending constructor of PyYAML: include YAML files into YAML document
+	pkgver = 2.2
+	pkgrel = 1
+	url = https://github.com/tanbro/pyyaml-include
+	arch = any
+	license = GPL-3.0-or-later
+	checkdepends = python-pytest
+	checkdepends = python-aiohttp
+	checkdepends = python-requests
+	makedepends = git
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools-scm
+	makedepends = python-wheel
+	depends = python-fsspec
+	depends = python-toml
+	depends = python-yaml
+	source = git+https://github.com/tanbro/pyyaml-include#tag=v2.2
+	sha256sums = 59f3cd22b55526a08ccac24c5d2ad6120df0caf5788259a7969d8ade22f048f8
+
+pkgname = python-pyyaml-include

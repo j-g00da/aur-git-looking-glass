@@ -1,0 +1,25 @@
+pkgbase = hypridle-git
+	pkgdesc = Hyprland's idle daemon
+	pkgver = 0.1.6.r1.g66d1815
+	pkgrel = 1
+	url = https://github.com/hyprwm/hypridle
+	arch = x86_64
+	arch = aarch64
+	license = BSD-3-Clause
+	makedepends = cmake
+	makedepends = git
+	makedepends = hyprland-protocols-git
+	makedepends = hyprwayland-scanner-git
+	makedepends = ninja
+	makedepends = wayland-protocols
+	depends = hyprlang-git
+	depends = hyprutils-git
+	depends = sdbus-cpp>=2.0.0
+	depends = systemd
+	depends = wayland
+	provides = hypridle=0.1.6
+	conflicts = hypridle
+	source = hypridle::git+https://github.com/hyprwm/hypridle.git
+	sha256sums = SKIP
+
+pkgname = hypridle-git

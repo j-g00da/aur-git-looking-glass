@@ -1,0 +1,16 @@
+pkgbase = python-django-timezone-field
+	pkgdesc = A Django app providing database and form fields for pytz timezone objects
+	pkgver = 7.1
+	pkgrel = 0
+	url = https://github.com/mfogel/django-timezone-field/
+	arch = any
+	license = BSD
+	makedepends = python-build
+	makedepends = python-wheel
+	makedepends = python-poetry
+	depends = python
+	depends = python-django
+	source = https://pypi.io/packages/source/d/django_timezone_field/django_timezone_field-7.1.tar.gz
+	sha256sums = b3ef409d88a2718b566fabe10ea996f2838bc72b22d3a2900c0aa905c761380c
+
+pkgname = python-django-timezone-field

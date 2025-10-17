@@ -1,0 +1,16 @@
+pkgbase = my-hardware-bin
+	pkgdesc = A cross-platform desktop app built with Electron using Angular v16 with Signals and provides nice UI/UX Charts for monitoring CPU, Memory, and Disk usage.(Prebuilt version.Use system-wide electron)
+	pkgver = 1.0.0
+	pkgrel = 9
+	url = https://github.com/Y-Moshe/my-hardware
+	arch = x86_64
+	license = MIT
+	depends = electron25
+	provides = my-hardware=1.0.0
+	conflicts = my-hardware
+	source = my-hardware-1.0.0.rpm::https://github.com/Y-Moshe/my-hardware/releases/download/v1.0.0/my-hardware-1.0.0-1.x86_64.rpm
+	source = my-hardware.sh
+	sha256sums = c04e2ad34afb77331b72b56b216b3c2cacea772e4297d048e53e02245e9b8b70
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = my-hardware-bin

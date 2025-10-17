@@ -1,0 +1,21 @@
+pkgbase = pomodoro-applet
+	pkgdesc = GNOME Panel applet for timing the intervals used in the Pomodoro Techinique(tm)
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://github.com/stump/pomodoro-applet
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = git
+	makedepends = intltool
+	depends = cairo
+	depends = glib2
+	depends = glibc
+	depends = gnome-panel
+	depends = gtk3
+	depends = libcanberra
+	depends = libnotify
+	depends = librsvg
+	source = git+https://github.com/stump/pomodoro-applet.git#commit=5bc211e7f5f20e2a335b1a1c7e9e1748a6f846df
+	sha256sums = SKIP
+
+pkgname = pomodoro-applet

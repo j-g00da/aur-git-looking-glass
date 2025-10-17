@@ -1,0 +1,27 @@
+pkgbase = python-picos
+	pkgdesc = A Python interface to conic optimization solvers
+	pkgver = 2.6
+	pkgrel = 1
+	url = https://gitlab.com/picos-api/picos
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = python-setuptools
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python-numpy
+	depends = python-cvxopt
+	optdepends = cplex: solve using CPLEX
+	optdepends = gurobi: solve using Gurobi
+	optdepends = mosek: solve using MOSEK
+	optdepends = python-ecos: solve using ECOS
+	optdepends = python-pyscipopt: solve using SCIP
+	optdepends = python-smcp: solve using SMCP
+	optdepends = python-swiglpk: solve using GLPK
+	optdepends = python-osqp: solve using OSQP
+	optdepends = python-qics: solve using QICS
+	conflicts = python-picos-git
+	source = https://gitlab.com/picos-api/picos/-/archive/v2.6/picos-v2.6.tar.gz
+	sha256sums = 4167c0c61563e571bde803efafd6255439b3bfefbb04ca3145ff5e6cf70a2299
+
+pkgname = python-picos

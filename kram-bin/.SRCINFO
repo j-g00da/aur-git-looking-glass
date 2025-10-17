@@ -1,0 +1,12 @@
+pkgbase = kram-bin
+	pkgdesc = Encode/decode/info to KTX/KTX2/DDS files with LDR/HDR and BC/ASTC/ETC2
+	pkgver = 1.7.30
+	pkgrel = 1
+	url = https://github.com/alecazam/kram
+	arch = x86_64
+	license = MIT
+	depends = unzip
+	source = kram-bin-1.7.30.zip::https://github.com/alecazam/kram/releases/download/v1.7.30/kram-linux.zip
+	sha256sums = 039101fcdeef246564dcedbd881832222073ae50db03ade71140ad1a0e07e576
+
+pkgname = kram-bin

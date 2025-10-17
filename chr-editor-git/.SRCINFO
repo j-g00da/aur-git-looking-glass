@@ -1,0 +1,21 @@
+pkgbase = chr-editor-git
+	pkgdesc = Retro-style terminal-based text editor with desktop-like shortcuts utilizing Tui Widgets and integration with KDE's syntax highlighting engine.
+	pkgver = r953.ff621e4
+	pkgrel = 1
+	url = https://github.com/istoph/editor
+	arch = x86_64
+	license = Boost
+	makedepends = meson
+	makedepends = git
+	makedepends = cmake
+	depends = tuiwidgets-git
+	depends = qt5-base
+	depends = icu
+	depends = gcc-libs
+	depends = syntax-highlighting5
+	provides = chr-editor
+	conflicts = chr-editor
+	source = git+https://github.com/istoph/editor.git
+	sha512sums = SKIP
+
+pkgname = chr-editor-git

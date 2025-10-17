@@ -1,0 +1,14 @@
+pkgbase = clapboard-git
+	pkgdesc = Clipboard manager for Wayland
+	pkgver = r2.d86a8a2
+	pkgrel = 2
+	url = https://github.com/bjesus/clapboard
+	arch = any
+	license = MIT
+	makedepends = rust
+	depends = wl-clipboard
+	optdepends = tofi: a recommended launcher
+	source = git+https://github.com/bjesus/clapboard.git
+	sha512sums = SKIP
+
+pkgname = clapboard-git

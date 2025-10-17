@@ -1,0 +1,42 @@
+pkgbase = niri-dinit
+	pkgdesc = A scrollable-tiling Wayland compositor (with dinit dependency instead of systemd)
+	pkgver = 25.08
+	pkgrel = 3
+	url = https://github.com/YaLTeR/niri
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = git
+	makedepends = cargo
+	makedepends = clang
+	depends = libpipewire
+	depends = pango
+	depends = glib2
+	depends = cairo
+	depends = libdisplay-info
+	depends = mesa
+	depends = libseat.so
+	depends = libudev.so
+	depends = libinput
+	depends = pixman
+	depends = libxkbcommon
+	depends = gcc-libs
+	depends = glibc
+	depends = dbus-dinit-user
+	optdepends = alacritty: suggested cross-platform OpenGL terminal emulator
+	optdepends = fuzzel: suggested Wayland application launcher
+	optdepends = gnome-keyring: org.freedesktop.secrets portal implementation
+	optdepends = mako: suggested Wayland notification daemon
+	optdepends = swaybg: suggested Wayland wallpaper tool
+	optdepends = swaylock: suggested Wayland screen locking utility
+	optdepends = swayidle: suggested Wayland idle management daemon
+	optdepends = waybar: suggested Wayland highly customizable desktop bar
+	optdepends = xdg-desktop-portal-gtk: XDG desktop portal that implements most functionality
+	optdepends = xdg-desktop-portal-gnome: XDG desktop portal that supports screencasting
+	optdepends = xwayland-satellite: Rootless Xwayland integration to run X11 apps
+	provides = niri=25.08
+	conflicts = niri
+	options = !lto
+	source = git+https://github.com/YaLTeR/niri.git#tag=d85b524d7c07a47345eab434f471f2b7bfa2c9c3
+	sha256sums = 841b899aff667b1333feac47853dc12806dccd27df575ba68dbd2a682df08a77
+
+pkgname = niri-dinit

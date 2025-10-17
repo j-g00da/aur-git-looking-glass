@@ -1,0 +1,17 @@
+pkgbase = python-nvidia-ml-py
+	pkgdesc = Python Bindings for the NVIDIA Management Library
+	pkgver = 13.580.82
+	pkgrel = 1
+	url = https://pypi.org/project/nvidia-ml-py
+	arch = any
+	license = BSD-3-Clause
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = nvidia-utils
+	depends = python
+	source = nvidia-ml-py-13.580.82.tar.gz::https://files.pythonhosted.org/packages/source/n/nvidia-ml-py/nvidia_ml_py-13.580.82.tar.gz
+	sha512sums = a7226e6c94088d74d30a2968fbc123e1d05409d5c789014d7ede9a4983daf4e406f372573e444946e74ae38a75db058dec9bb8eef25a6eca497f544c3779090d
+
+pkgname = python-nvidia-ml-py

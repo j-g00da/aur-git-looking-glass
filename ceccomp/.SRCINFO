@@ -1,0 +1,20 @@
+pkgbase = ceccomp
+	pkgdesc = A C-based seccomp analysis tool
+	pkgver = 3.3
+	pkgrel = 1
+	url = https://github.com/dbgbgtf1/Ceccomp
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = asciidoctor
+	makedepends = python
+	makedepends = git
+	makedepends = util-linux
+	makedepends = gettext
+	depends = libseccomp
+	depends = glibc
+	source = ceccomp::git+https://github.com/dbgbgtf1/Ceccomp.git#tag=v3.3?signed
+	validpgpkeys = 0816A179BB09248F30468BD6542A0969B5CEDCDB
+	validpgpkeys = A7ACCC386C15E3C554D34B3EAB08F98092A456BB
+	b2sums = f6b2f57c12f0824a4c05aeccc68ee735aa41a7637432f8abc0cacaad0dba60f5f71b0572559f1757856425809c73b4e4be98b0957455f83d0a324833a102264b
+
+pkgname = ceccomp

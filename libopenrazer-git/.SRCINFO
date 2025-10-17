@@ -1,0 +1,17 @@
+pkgbase = libopenrazer-git
+	pkgdesc = Qt wrapper around the D-Bus API from OpenRazer
+	pkgver = 0.4.0.r0.g6671cf6
+	pkgrel = 1
+	url = https://github.com/z3ntu/libopenrazer
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = git
+	makedepends = meson
+	makedepends = qt6-tools
+	depends = qt6-base
+	provides = libopenrazer
+	conflicts = libopenrazer
+	source = git+https://github.com/z3ntu/libopenrazer.git
+	sha512sums = SKIP
+
+pkgname = libopenrazer-git

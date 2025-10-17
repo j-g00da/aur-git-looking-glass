@@ -1,0 +1,24 @@
+pkgbase = qcsxcad-git
+	pkgdesc = Qt-GUI for CSXCAD
+	pkgver = 0.6.3.r2.ga6a9c0e
+	pkgrel = 1
+	url = https://github.com/thliebig/QCSXCAD
+	arch = x86_64
+	license = LGPL-3.0-or-later
+	makedepends = cmake
+	makedepends = fmt
+	makedepends = glew
+	makedepends = ninja
+	makedepends = nlohmann-json
+	makedepends = openmpi
+	makedepends = verdict
+	depends = csxcad
+	depends = qt5-base
+	depends = tinyxml
+	depends = vtk
+	provides = qcsxcad=0.6.3
+	conflicts = qcsxcad
+	source = qcsxcad::git+https://github.com/thliebig/QCSXCAD.git
+	sha256sums = SKIP
+
+pkgname = qcsxcad-git

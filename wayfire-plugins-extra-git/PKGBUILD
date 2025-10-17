@@ -1,0 +1,51 @@
+# Maintainer: Librewish <librewish@gmail.com>
+
+pkgname=wayfire-plugins-extra-git
+pkgver=r329.5c67549
+pkgrel=1
+pkgdesc="3D wayland compositor extra plugins"
+arch=('x86_64')
+url="https://github.com/WayfireWM/wayfire-plugins-extra"
+license=('MIT')
+depends=('wayfire-git' 'glibmm' 'iio-sensor-proxy' 'wayland-protocols' 'glm')
+makedepends=('git' 'meson' 'ninja' 'libdisplay-info' 'yyjson' 'boost' 'vulkan-headers')
+optdepends=('wcm: GTK3-based configuration tool for the Wayfire compositor'
+            'wayfire-plugin-filters-git: Filter effects plugin'
+            'wayfire-plugin-focus-request-git: Focus request protocol plugin'
+            'wayfire-plugin-pixdecor-git: Window decoration plugin'
+            'wayfire-plugin-shadows-git: Window shadows plugin')
+provides=("${pkgname}" "wayfire-plugins-extra")
+conflicts=("wayfire-plugins-extra")
+replaces=()
+options=()
+source=('git+https://github.com/WayfireWM/wayfire-plugins-extra')
+sha256sums=('SKIP')
+install=wayfire-plugins-extra.install
+pkgver() {
+        cd "$srcdir/wayfire-plugins-extra"
+
+# Git, no tags available
+        printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+
+}
+
+prepare() {
+  rm -rf build
+  arch-meson wayfire-plugins-extra build \
+    -Denable_wayfire_shadows=false \
+    -Denable_focus_request=false \
+    -Denable_pixdecor=false \
+    -Denable_filters=false
+}
+
+
+build() {
+  ninja -C build
+}
+
+
+package() {
+        DESTDIR="$pkgdir/" ninja -C build install
+        install -Dm644 "$srcdir/wayfire-plugins-extra/LICENSE" \
+                "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+}

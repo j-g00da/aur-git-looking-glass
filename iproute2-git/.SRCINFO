@@ -1,0 +1,28 @@
+pkgbase = iproute2-git
+	pkgdesc = IP Routing Utilities - git checkout
+	pkgver = 4.2.0.r44.g8fe9839
+	pkgrel = 1
+	url = http://www.linuxfoundation.org/collaborate/workgroups/networking/iproute2
+	arch = i686
+	arch = x86_64
+	license = GPL2
+	makedepends = git
+	makedepends = linux-atm
+	depends = glibc
+	depends = iptables
+	depends = libmnl
+	optdepends = linux-atm: ATM support
+	provides = iproute2
+	conflicts = iproute2
+	conflicts = iproute
+	backup = etc/iproute2/ematch_map
+	backup = etc/iproute2/rt_dsfield
+	backup = etc/iproute2/rt_protos
+	backup = etc/iproute2/rt_realms
+	backup = etc/iproute2/rt_scopes
+	backup = etc/iproute2/rt_tables
+	source = git://git.kernel.org/pub/scm/linux/kernel/git/shemminger/iproute2.git
+	sha256sums = SKIP
+
+pkgname = iproute2-git
+

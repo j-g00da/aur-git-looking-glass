@@ -1,0 +1,18 @@
+pkgbase = python-eth-keys
+	pkgdesc = A common API for Ethereum key operations with pluggable backends
+	pkgver = 0.7.0
+	pkgrel = 1
+	url = https://github.com/ethereum/eth-keys
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python-eth-utils
+	depends = python-eth-typing
+	optdepends = python-coincurve: for CoinCurveECCBackend support
+	source = https://pypi.org/packages/source/e/eth-keys/eth_keys-0.7.0.tar.gz
+	sha512sums = d9de91de10e8fbede67105661a8fa627e07b4b6670e210378e4a320d87ed7c8429f7628607d93b97eee656c734d7ada04f70828fa30193311d3c5af4a8c92315
+
+pkgname = python-eth-keys

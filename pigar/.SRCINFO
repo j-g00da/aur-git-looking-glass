@@ -1,0 +1,19 @@
+pkgbase = pigar
+	pkgdesc = A tool to generate requirements.txt for Python projects.
+	pkgver = 2.1.7
+	pkgrel = 2
+	url = https://github.com/Damnever/pigar
+	arch = any
+	license = BSD-3-Clause
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = jupyter-nbformat
+	depends = python-aiohttp
+	depends = python-click
+	depends = python-colorama
+	source = https://github.com/Damnever/pigar/archive/v2.1.7/pigar-2.1.7.tar.gz
+	sha256sums = 8973a89b45e505f07d036633882fb23077f458db73b9751cf85c9663a2697877
+
+pkgname = pigar

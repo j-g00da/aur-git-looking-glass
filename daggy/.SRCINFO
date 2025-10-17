@@ -1,0 +1,15 @@
+pkgbase = daggy
+	pkgdesc = Run multiple commands on remote servers simultaneously and save output locally
+	pkgver = 2.2.3
+	pkgrel = 1
+	url = https://daggy.gitbook.io/docs
+	arch = x86_64
+	license = MIT
+	makedepends = cmake
+	depends = qt6-base
+	depends = yaml-cpp
+	depends = libssh2
+	source = daggy-2.2.3.tar.gz::https://github.com/synacker/daggy/archive/v2.2.3.tar.gz
+	sha256sums = fed4a56d970f37a858a80c2ef1f0fc8d928cd8b1daead166141a538782030864
+
+pkgname = daggy

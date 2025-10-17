@@ -1,0 +1,21 @@
+pkgbase = sleek-bin
+	pkgdesc = todo.txt manager for Linux, Windows and MacOS, free and open-source (FOSS).(Prebuilt version.Use system-wide electron)
+	pkgver = 2.0.20
+	pkgrel = 1
+	url = https://github.com/ransome1/sleek
+	arch = aarch64
+	arch = x86_64
+	license = MIT
+	depends = electron34
+	provides = sleek-2.0.20
+	conflicts = sleek
+	source = LICENSE-2.0.20::https://raw.githubusercontent.com/ransome1/sleek/v2.0.20/LICENSE
+	source = sleek.sh
+	sha256sums = 0cbf66efd20da740b34fc36b0154d12185daca9af19d7c4363df6ec926da573c
+	sha256sums = 31ad33b633744f5361abd964be306cea53ae1050e760c787115f7eca60045ae6
+	source_aarch64 = sleek-2.0.20-aarch64.rpm::https://github.com/ransome1/sleek/releases/download/v2.0.20/sleek-2.0.20-linux-aarch64.rpm
+	sha256sums_aarch64 = a8cdc0e483fb87a16b22dabc32ee439065f27d9995b0f4ffa4d14ed8060237d2
+	source_x86_64 = sleek-2.0.20-x86_64.rpm::https://github.com/ransome1/sleek/releases/download/v2.0.20/sleek-2.0.20-linux-x86_64.rpm
+	sha256sums_x86_64 = 2a57a01bc1e9c35866b7ace5c9d273178312bdae874f0b4ff05bc60f3b729a88
+
+pkgname = sleek-bin

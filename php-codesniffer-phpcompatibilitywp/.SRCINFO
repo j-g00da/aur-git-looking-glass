@@ -1,0 +1,14 @@
+pkgbase = php-codesniffer-phpcompatibilitywp
+	pkgdesc = PHP CodeSniffer rules (sniffs) to analyse the codebase of a WordPress-based project for PHP cross-version compatibility.
+	pkgver = 2.1.7
+	pkgrel = 1
+	url = https://github.com/PHPCompatibility/PHPCompatibilityWP
+	arch = any
+	license = LGPL
+	depends = php-codesniffer
+	depends = php-codesniffer-phpcompatibility
+	depends = php-codesniffer-phpcompatibilityparagonie
+	source = php-codesniffer-phpcompatibilitywp-2.1.7.tar.gz::https://github.com/PHPCompatibility/PHPCompatibilityWP/archive/refs/tags/2.1.7.tar.gz
+	b2sums = 9c355738c2e0253ab4f046c7d4a5d0288d3c57e4d6286090db0649428cebbdba53e3160067e7ba5b03809bbdd06a2467cb11f99b0f3ce680d7fe00d33e19ce5c
+
+pkgname = php-codesniffer-phpcompatibilitywp

@@ -1,0 +1,19 @@
+pkgbase = linkding-cli
+	pkgdesc = A CLI to interact with a linkding instance
+	pkgver = 2024.09.0
+	pkgrel = 1
+	url = https://github.com/bachya/linkding-cli
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-poetry-core
+	depends = python-importlib-metadata
+	depends = python-typer
+	depends = python-ruamel-yaml
+	depends = python
+	depends = python-aiolinkding
+	source = linkding-cli-2024.09.0.tar.gz::https://github.com/bachya/linkding-cli/archive/refs/tags/2024.09.0.tar.gz
+	sha512sums = e3e45731a4e57a58066a862d65496e86952cbec6c9399c8da3342ce4c36cc32feb5a198671763528770bf2049a6cb3981e80d5db20d500a7b558f3d572d18637
+
+pkgname = linkding-cli

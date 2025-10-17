@@ -1,0 +1,15 @@
+pkgbase = pidgin-toobars
+	pkgdesc = Pidgin plugin that adds a toolbar and status bar to the buddy list
+	pkgver = 1.14
+	pkgrel = 2
+	url = http://vayurik.ru/wordpress/en/toobars/
+	arch = x86_64
+	license = GPL
+	makedepends = intltool
+	depends = pidgin
+	source = pidgin-toobars-1.14.tar::https://web.archive.org/web/20250226154908if_/https://vayurik.ru/wordpress/wp-content/uploads/toobars/1.14/pidgin-toobars-1.14.tar.gz
+	source = msgfmt.patch
+	md5sums = ed51c513cc746673ada4bc9d89946e88
+	md5sums = 65be5df61da0f737cf2fcdfbd25eaef4
+
+pkgname = pidgin-toobars

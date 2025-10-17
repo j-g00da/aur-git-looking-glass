@@ -1,0 +1,16 @@
+pkgbase = rescepy-git
+	pkgdesc = automated srr (rescene) verification and reconstruction.
+	pkgver = r56.e47807e
+	pkgrel = 1
+	url = https://github.com/dryes/rescepy
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = cfv
+	depends = python
+	depends = pyrescene
+	depends = unrar
+	source = git+https://github.com/dryes/rescepy.git
+	md5sums = SKIP
+
+pkgname = rescepy-git

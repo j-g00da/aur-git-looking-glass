@@ -1,0 +1,18 @@
+pkgbase = ghc9.8-bin
+	pkgdesc = Binary GHC 9.8 installed on /usr/bin/ghc-9.8
+	pkgver = 9.8.4
+	pkgrel = 1
+	url = http://www.haskell.org/ghc/
+	install = ghc.install
+	arch = x86_64
+	license = BSD-3-Clause
+	depends = gcc
+	depends = ncurses
+	depends = libffi
+	depends = gmp
+	provides = ghc9.8
+	conflicts = ghc9.8
+	source = https://www.haskell.org/ghc/dist/9.8.4/ghc-9.8.4-x86_64-deb12-linux.tar.xz
+	sha256sums = b50545b54934068a569225e3dde267a8b5aab66449330d63e02a8cf28972375e
+
+pkgname = ghc9.8-bin

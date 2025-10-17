@@ -1,0 +1,27 @@
+pkgbase = latex-tuda-ci
+	pkgdesc = TUDa-CI for LaTeX from Technische Universität Darmstadt
+	pkgver = 4.01
+	pkgrel = 1
+	url = https://github.com/tudace/tuda_latex_templates
+	arch = any
+	license = custom
+	makedepends = biber
+	makedepends = texlive-basic
+	makedepends = texlive-bibtexextra
+	makedepends = texlive-bin
+	makedepends = texlive-fontsextra
+	makedepends = texlive-langcyrillic
+	makedepends = texlive-langgerman
+	makedepends = texlive-latexextra
+	makedepends = texlive-luatex
+	makedepends = texlive-pictures
+	makedepends = texlive-publishers
+	makedepends = zip
+	depends = latex-tuda-ci-logos
+	replaces = latex-tuddesign
+	replaces = latex-tuddesign-thesis
+	replaces = latex-tuddesign-fonts
+	source = https://github.com/tudace/tuda_latex_templates/archive/v4.01/4.01-tuda_latex_templates.tar.gz
+	b2sums = 96dff00120d1a36067d04559e1bc45517f0d9172a59b8659cb0414e34d1f3f56b5c320449b1c7faf082e77fa922126af815df10941fa73707bf9135084cecd39
+
+pkgname = latex-tuda-ci

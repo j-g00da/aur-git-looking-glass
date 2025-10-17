@@ -1,0 +1,14 @@
+pkgbase = wmsysmon
+	pkgdesc = A WindowMaker dock applet for system monitoring.
+	pkgver = 0.8.1
+	pkgrel = 1
+	url = https://github.com/voyageur/wmsysmon
+	arch = i686
+	arch = x86_64
+	license = GPL
+	depends = libxpm
+	depends = libdockapp
+	source = https://github.com/voyageur/wmsysmon/archive/refs/tags/0.8.1.tar.gz
+	md5sums = 3cd7e687f56608e70a90ed67803c68ff
+
+pkgname = wmsysmon

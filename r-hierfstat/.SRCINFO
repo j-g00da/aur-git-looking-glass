@@ -1,0 +1,21 @@
+pkgbase = r-hierfstat
+	pkgdesc = Estimation and Tests of Hierarchical F-Statistics
+	pkgver = 0.5.11
+	pkgrel = 2
+	url = https://cran.r-project.org/package=hierfstat
+	arch = any
+	license = GPL-2.0-or-later
+	depends = r-ade4
+	depends = r-adegenet
+	depends = r-gaston
+	depends = r-gtools
+	optdepends = r-ape
+	optdepends = r-knitr
+	optdepends = r-pegas
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	source = https://cran.r-project.org/src/contrib/hierfstat_0.5-11.tar.gz
+	md5sums = 9bc78ee3f9bbe0fe2ab9e44c5bff40cf
+	b2sums = 86444e7553413f28d934882a57e49c78e16da50108b3663f13c18642ae66268a6cef1042f4cbb979f6b5d39472f48d8b68c625b7984358c9a6bcfebac8d2d729
+
+pkgname = r-hierfstat

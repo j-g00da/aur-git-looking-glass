@@ -1,0 +1,16 @@
+pkgbase = alacritty-theme-autocomplete-git
+	pkgdesc = Just simple scripts to handle alacritty color schemes.
+	pkgver = r1.c68ed3e
+	pkgrel = 1
+	url = https://github.com/GregoryLand/alacritty-theme-autocomplete
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = alacritty-theme-git
+	provides = alacritty-theme-autocomplete
+	conflicts = alacritty-theme-autocomplete
+	options = !debug
+	source = alacritty-theme-autocomplete::git+https://github.com/GregoryLand/alacritty-theme-autocomplete#branch=master
+	sha256sums = SKIP
+
+pkgname = alacritty-theme-autocomplete-git

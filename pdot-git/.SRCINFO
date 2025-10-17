@@ -1,0 +1,16 @@
+pkgbase = pdot-git
+	pkgdesc = Explore your PostgreSQL databases with dot or mermaid digraphs
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://gitlab.com/dmfay/pdot
+	arch = x86_64
+	license = MPL2
+	makedepends = git
+	makedepends = cargo
+	provides = pdot=1.0.0
+	conflicts = pdot
+	options = !lto
+	source = git+https://gitlab.com/dmfay/pdot.git
+	sha256sums = SKIP
+
+pkgname = pdot-git

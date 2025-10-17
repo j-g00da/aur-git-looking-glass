@@ -1,0 +1,14 @@
+pkgbase = git-remote-hg
+	pkgdesc = Bidirectional bridge between Git and Mercurial
+	pkgver = 0.7
+	pkgrel = 1
+	url = https://github.com/felipec/git-remote-hg
+	arch = any
+	license = GPL2
+	makedepends = asciidoctor
+	depends = git
+	depends = mercurial
+	source = https://github.com/felipec/git-remote-hg/archive/v0.7.tar.gz
+	md5sums = 69407466231b3cdfcc359cedf40d802c
+
+pkgname = git-remote-hg

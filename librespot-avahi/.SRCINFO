@@ -1,0 +1,22 @@
+pkgbase = librespot-avahi
+	pkgdesc = Open source client library for Spotify
+	pkgver = 0.6.0
+	pkgrel = 2
+	url = https://github.com/librespot-org/librespot
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = alsa-lib
+	optdepends = gst-plugins-base: Audio playback using GStreamer
+	optdepends = gst-plugins-good: Audio playback using GStreamer
+	optdepends = jack2: Audio playback using JACK
+	optdepends = libpulse: Audio playback using PulseAudio
+	optdepends = portaudio: Audio playback using PortAudio
+	optdepends = sdl2: Audio playback using SDL2
+	optdepends = avahi: Use system mDNS daemon for discovery
+	provides = librespot
+	conflicts = librespot
+	source = librespot-avahi-0.6.0.tar.gz::https://github.com/librespot-org/librespot/archive/v0.6.0.tar.gz
+	sha256sums = 9ec881edb11e37d31a2b41dd30d56a3413445eedb720e1b0d278567dccfca8fc
+
+pkgname = librespot-avahi

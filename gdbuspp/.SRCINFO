@@ -1,0 +1,14 @@
+pkgbase = gdbuspp
+	pkgdesc = GDBus++ - a glib2 D-Bus wrapper for C++
+	pkgver = 3
+	pkgrel = 1
+	url = https://codeberg.org/OpenVPN/gdbuspp
+	arch = x86_64
+	arch = aarch64
+	license = AGPL-3.0-only
+	makedepends = meson
+	depends = glib2>=2.56
+	source = https://swupdate.openvpn.net/community/releases/gdbuspp-3.tar.xz
+	sha256sums = c7a053a13c4eb5811a542b747d5fcdb3a8e58a4a42c7237cc5e2e2ca72e0c94e
+
+pkgname = gdbuspp

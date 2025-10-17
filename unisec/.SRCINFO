@@ -1,0 +1,15 @@
+pkgbase = unisec
+	pkgdesc = Unicode Security Toolkit.
+	pkgver = 0.0.6
+	pkgrel = 1
+	url = https://noraj.github.io/unisec
+	install = unisec.install
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = ruby-bundler
+	depends = ruby
+	source = https://github.com/noraj/unisec/archive/refs/tags/0.0.6.tar.gz
+	sha512sums = 5922fde428d93ad12df1ade61d188d5f4e8731d704a824e69b7f8beeb7c4d4199393ad327c1b34382b7b2fba7477a78ddd38f2c2263e094ba15da68fbf6e3093
+
+pkgname = unisec

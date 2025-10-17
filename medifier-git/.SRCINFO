@@ -1,0 +1,18 @@
+pkgbase = medifier-git
+	pkgdesc = An open-source alternative to the Edifier Connect app
+	pkgver = 0.2.1.r2.g10056b5
+	pkgrel = 5
+	url = https://github.com/wh201906/mEDIFIER
+	arch = x86_64
+	license = MIT
+	makedepends = qt5-tools
+	makedepends = git
+	depends = qt5-serialport
+	depends = qt5-connectivity
+	provides = medifier
+	conflicts = medifier
+	options = !strip
+	source = mEDIFIER::git+https://github.com/wh201906/mEDIFIER.git
+	sha256sums = SKIP
+
+pkgname = medifier-git

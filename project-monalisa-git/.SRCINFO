@@ -1,0 +1,34 @@
+pkgbase = project-monalisa-git
+	pkgdesc = This project allows you to explore networking protocols by sending custom packets, monitoring traffic, and identifying services like SSH, FTP, and Telnet without using traditional commands or tools.
+	pkgver = 0.1.1
+	pkgrel = 1
+	url = https://github.com/Akash420-oss/project-monalisa
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = git
+	depends = firefox
+	depends = wireshark-qt
+	depends = gnome-terminal
+	depends = proxychains
+	depends = sudo
+	depends = python
+	depends = nmap
+	depends = termshark
+	depends = tcpdump
+	depends = nmap
+	depends = scapy
+	depends = python-progressbar
+	depends = python-rich
+	depends = python-distro
+	depends = python-termcolor
+	depends = python-prettytable
+	depends = python-treelib
+	source = project-monalisa-git.deb::https://github.com/Akash420-oss/Project-Monalisa/releases/download/0.1.1/project-monalisa-git.deb
+	source = project-monalisa-git.zip::https://github.com/Akash420-oss/Project-Monalisa/releases/download/0.1.1/project-monalisa-git.zip
+	source = project-monalisa-git::git+https://github.com/Akash420-oss/Project-Monalisa.git#tag=0.1.1
+	md5sums = 54df9ddb2919551e5cc535be6a81fd87
+	md5sums = 3292a369ae3bf954e6fa7a3941c5719a
+	md5sums = SKIP
+
+pkgname = project-monalisa-git

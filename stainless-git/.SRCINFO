@@ -1,0 +1,19 @@
+pkgbase = stainless-git
+	pkgdesc = Verification framework and tool for higher-order Scala programs
+	pkgver = v0.9.9.1.r2.29e2f052
+	pkgrel = 1
+	url = https://github.com/epfl-lara/stainless
+	arch = x86_64
+	license = Apache-2.0
+	makedepends = git
+	makedepends = sbt
+	depends = java-runtime>=17
+	optdepends = z3: for using as a solver backend
+	optdepends = cvc4: for using as a solver backend
+	optdepends = cvc5: for using as a solver backend
+	provides = stainless
+	conflicts = stainless
+	source = git+https://github.com/epfl-lara/stainless
+	md5sums = SKIP
+
+pkgname = stainless-git

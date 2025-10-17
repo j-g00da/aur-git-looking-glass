@@ -1,0 +1,25 @@
+pkgbase = spectrwm
+	pkgdesc = A small, dynamic tiling and reparenting window manager for X11
+	pkgver = 3.7.0
+	pkgrel = 1
+	url = https://github.com/conformal/spectrwm
+	arch = x86_64
+	license = ISC
+	makedepends = libxt
+	depends = bash
+	depends = fontconfig
+	depends = glibc
+	depends = libbsd
+	depends = libx11
+	depends = libxcb
+	depends = libxcursor
+	depends = libxft
+	depends = xcb-util
+	depends = xcb-util-keysyms
+	depends = xcb-util-wm
+	replaces = scrotwm
+	backup = etc/spectrwm.conf
+	source = spectrwm-3.7.0.tar.gz::https://github.com/conformal/spectrwm/archive/refs/tags/SPECTRWM_3_7_0.tar.gz
+	sha256sums = 9541ceb713dd186755643a85b03e9ebe98b9703b00025d229ee92a6ba910c805
+
+pkgname = spectrwm

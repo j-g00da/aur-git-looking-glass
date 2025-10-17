@@ -1,0 +1,22 @@
+pkgbase = qtgmc
+	pkgdesc = A very high quality deinterlacer with a range of features for both quality and convenience.
+	pkgver = 3.386
+	pkgrel = 1
+	url = http://avisynth.nl/index.php/QTGMC
+	arch = any
+	license = None
+	depends = python-scipy
+	depends = vapoursynth-plugin-havsfunc-git
+	depends = vapoursynth-miscfilters-obsolete-git
+	depends = vapoursynth-plugin-mvtools-git
+	depends = vapoursynth-plugin-fft3dfilter-git
+	depends = vapoursynth-plugin-znedi3-git
+	depends = vapoursynth-plugin-eedi3m-git
+	depends = vapoursynth-plugin-removegrain-git
+	depends = vapoursynth-plugin-resize2-git
+	source = https://github.com/realfinder/AVS-Stuff/raw/master/avs%202.6%20and%20up/QTGMC.avsi
+	source = qtgmc.vpy
+	sha256sums = a5cdd524be9196b9af197560844309ace6205ec40116637781983e71267d825e
+	sha256sums = SKIP
+
+pkgname = qtgmc

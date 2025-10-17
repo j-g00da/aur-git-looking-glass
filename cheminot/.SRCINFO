@@ -1,0 +1,16 @@
+pkgbase = cheminot
+	pkgdesc = Application de gestion d'horaire de l'ETS (license unknown)
+	pkgver = 2022.01.04
+	pkgrel = 8
+	url = https://cheminotjws.etsmtl.ca/
+	arch = x86_64
+	arch = aarch64
+	license = custom
+	depends = icedtea-web
+	depends = jre8-openjdk
+	source = https://cheminotjws.etsmtl.ca/chemiNot.jnlp
+	source = https://www.etsmtl.ca/assets/img/ets.svg
+	sha256sums = c0a998ec111672d5fc61de69f6f252432dc575807e92b1ffa6eccff9aee088cd
+	sha256sums = 24852c64b03d85e2987a3944882d5a5d81a1229ad0a5a1dfffd009b6c505e099
+
+pkgname = cheminot

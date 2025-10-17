@@ -1,0 +1,20 @@
+pkgbase = pgpgram
+	pkgdesc = PGP encrypted backups on Telegram Cloud
+	pkgver = 0.4
+	pkgrel = 1
+	url = https://github.com/tallero/pgpgram
+	arch = any
+	license = AGPL3
+	makedepends = python-setuptools
+	depends = python
+	depends = python-appdirs
+	depends = python-setproctitle
+	depends = python-sqlitedict
+	depends = telegram-tdlib
+	depends = trovotutto
+	optdepends = youtube-dl
+	provides = python-pgpgram=0.4
+	source = pgpgram-0.4.tar.gz::https://github.com/tallero/pgpgram/archive/refs/tags/0.4.tar.gz
+	sha256sums = da046d7c56c3af0ff1d9e38c9ba9fff77b066fe46412c6d985b1196c7b15685f
+
+pkgname = pgpgram

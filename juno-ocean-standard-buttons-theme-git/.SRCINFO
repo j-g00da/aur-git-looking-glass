@@ -1,0 +1,20 @@
+pkgbase = juno-ocean-standard-buttons-theme-git
+	pkgdesc = GTK themes inspired by epic vscode themes
+	pkgver = r149.6d73f68
+	pkgrel = 1
+	url = https://github.com/EliverLara/Juno
+	arch = any
+	license = GPL3
+	makedepends = git
+	makedepends = inkscape
+	makedepends = optipng
+	optdepends = ttf-roboto: default font for gnome-shell
+	optdepends = gtk-engine-murrine: GTK2 support
+	optdepends = gnome-themes-extra: GTK2 support
+	source = juno-ocean-standard-buttons::git+https://github.com/EliverLara/Juno.git#branch=ocean-standard-buttons
+	sha256sums = SKIP
+
+pkgname = juno-ocean-standard-buttons-gtk-theme-git
+	provides = juno-ocean-standard-buttons-gtk-theme
+	conflicts = juno-ocean-standard-buttons-gtk-theme
+	conflicts = juno-ocean-standard-buttons-theme

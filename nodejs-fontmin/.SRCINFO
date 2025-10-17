@@ -1,0 +1,16 @@
+pkgbase = nodejs-fontmin
+	pkgdesc = Font converter/Optimizer
+	pkgver = 2.0.0
+	pkgrel = 2
+	url = https://github.com/ecomfe/fontmin
+	arch = x86_64
+	license = MIT
+	makedepends = npm
+	depends = gcc-libs
+	depends = nodejs
+	depends = python
+	depends = python-setuptools
+	source = nodejs-fontmin-2.0.0.tar.gz::https://github.com/ecomfe/fontmin/archive/v2.0.0.tar.gz
+	sha256sums = 6a444c077f7aaec190887e7acccd00d9cd77a7e089fa1578d3a573798a828087
+
+pkgname = nodejs-fontmin

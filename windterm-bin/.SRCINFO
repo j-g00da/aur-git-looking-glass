@@ -1,0 +1,23 @@
+pkgbase = windterm-bin
+	pkgdesc = A Quicker and better SSH/Telnet/Serial/Shell/Sftp client for DevOps.(Prebuilt version)
+	pkgver = 2.7.0
+	pkgrel = 2
+	url = https://kingtoolbox.github.io/
+	arch = x86_64
+	license = Apache-2.0
+	depends = qt5-base
+	depends = gtk3
+	depends = alsa-lib
+	depends = gst-plugins-base-libs
+	depends = xcb-util
+	depends = libpulse
+	depends = openssl-1.1
+	provides = windterm
+	conflicts = windterm
+	options = !strip
+	source = windterm-bin-2.7.0.zip::https://github.com/kingToolbox/WindTerm/releases/download/2.7.0/WindTerm_2.7.0_Linux_Portable_x86_64.zip
+	source = windterm.sh
+	sha256sums = 7797697eeb60239020512e2b549695a60c39b3fd01fe7ebb047fd50a2889103c
+	sha256sums = 0db90ad5817913f65974f446212e9cac99955770e585af10ea46dcf073d93182
+
+pkgname = windterm-bin

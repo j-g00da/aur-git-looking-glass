@@ -1,0 +1,20 @@
+pkgbase = carl-calendar
+	pkgdesc = A colorful commandline calendar with ical support. Similar to cal, but with more features.
+	pkgver = 0.4.0
+	pkgrel = 1
+	url = https://github.com/b1rger/carl
+	install = carl.install
+	arch = i686
+	arch = x86_64
+	arch = armv6h
+	arch = armv7h
+	license = MIT
+	license = CC0-1.0
+	makedepends = rust
+	makedepends = cargo
+	depends = glibc
+	depends = gcc-libs
+	source = https://github.com/b1rger/carl/archive/refs/tags/v0.4.0/carl-0.4.0.tar.gz
+	sha256sums = 5356882e5efd1e3a06470d157f9a8e2a6ed76917dcbcfa20a1cae90c4c6d6510
+
+pkgname = carl-calendar

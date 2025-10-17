@@ -1,0 +1,16 @@
+pkgbase = webgetpics
+	pkgdesc = Sets random pictures from web search as X background.
+	pkgver = 1.0.0
+	pkgrel = 2
+	url = http://www.webgetpics.org
+	arch = any
+	license = custom
+	depends = curl
+	depends = python
+	depends = wget
+	depends = imagemagick
+	depends = feh
+	source = git+https://github.com/webgetpics/webgetpics#tag=1.0.0
+	md5sums = SKIP
+
+pkgname = webgetpics

@@ -1,0 +1,15 @@
+pkgbase = python-cobs
+	pkgdesc = Python library for Consistent Overhead Byte Stuffing (COBS)
+	pkgver = 1.2.1
+	pkgrel = 1
+	url = https://pypi.python.org/pypi/cobs
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	conflicts = python-cobs
+	conflicts = python-cobs-git
+	source = https://files.pythonhosted.org/packages/source/c/cobs/cobs-1.2.1.tar.gz
+	sha256sums = 2af7f8791cde1ae7c6b936f5d0c35fe29feb10de25f79c15b0af0d6729783cc0
+
+pkgname = python-cobs

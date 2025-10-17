@@ -1,0 +1,15 @@
+pkgbase = brightnessztl
+	pkgdesc = A CLI to control device backlight written in Zig
+	pkgver = 0.6
+	pkgrel = 1
+	url = https://github.com/hspak/brightnessztl
+	arch = x86_64
+	license = MIT
+	makedepends = zig
+	depends = systemd-libs
+	provides = brightnessztl
+	conflicts = brightnessztl
+	source = https://github.com/hspak/brightnessztl/archive/v0.6.tar.gz
+	sha256sums = 8d36da69c5fcbcc886a4967487b533d623e619a3dc035e78764fb2816217112d
+
+pkgname = brightnessztl

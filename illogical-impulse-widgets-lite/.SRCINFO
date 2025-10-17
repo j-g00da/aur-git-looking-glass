@@ -1,0 +1,16 @@
+pkgbase = illogical-impulse-widgets-lite
+	pkgdesc = Illogical Impulse Widget Dependencies (Lite version that doesnt lock you into certain dependencies)
+	pkgver = 1.0
+	pkgrel = 1
+	arch = any
+	license = None
+	depends = dart-sass
+	depends = python-pywayland
+	depends = python-psutil
+	depends = glib2
+	depends = quickshell-git
+	depends = translate-shell
+	depends = nm-connection-editor
+	depends = wlogout
+
+pkgname = illogical-impulse-widgets-lite

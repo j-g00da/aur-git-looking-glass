@@ -1,0 +1,14 @@
+pkgbase = vetu
+	pkgdesc = virtualization toolset to effortlessly run Cloud Hypervisor-backed virtual machines on Linux hosts
+	pkgver = 0.9.1
+	pkgrel = 1
+	url = https://github.com/cirruslabs/vetu
+	install = vetu.install
+	arch = x86_64
+	license = Fair
+	makedepends = go
+	depends = glibc
+	source = https://github.com/cirruslabs/vetu/archive/v0.9.1.tar.gz
+	sha256sums = 17afb62aa43c2081504b30abadc9ec0a376c2faf1529cfa680e3e97ddc83db4e
+
+pkgname = vetu

@@ -1,0 +1,14 @@
+pkgbase = agbsum-git
+	pkgdesc = AGB image header checksum patcher.
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://mandelbrot.dk/bjoernager/agbsum/
+	arch = any
+	license = GPL-3.0-only
+	makedepends = git
+	provides = agbsum
+	conflicts = agbsum
+	source = git+https://gitlab.com/bjoernager/agbsum.git
+	sha512sums = SKIP
+
+pkgname = agbsum-git

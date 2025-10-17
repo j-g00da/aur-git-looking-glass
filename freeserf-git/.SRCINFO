@@ -1,0 +1,22 @@
+pkgbase = freeserf-git
+	pkgdesc = Opensource Settlers 1 clone (requires original game file)
+	pkgver = 0.3_58_g0f1a94f
+	pkgrel = 1
+	url = http://jonls.dk/freeserf/
+	install = freeserf.install
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = git
+	makedepends = cmake
+	makedepends = libxmp
+	depends = sdl2
+	depends = sdl2_mixer
+	depends = sdl2_image
+	optdepends = libxmp: Amiga audio playback
+	provides = freeserf
+	conflicts = freeserf
+	source = git+https://github.com/freeserf/freeserf.git
+	md5sums = SKIP
+
+pkgname = freeserf-git

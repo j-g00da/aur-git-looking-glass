@@ -1,0 +1,17 @@
+pkgbase = overlayfs-tools-git
+	pkgdesc = Tools for overlay filesystem
+	pkgver = 2024.07.r7.gd1636eb
+	pkgrel = 2
+	url = https://github.com/kmxz/overlayfs-tools
+	arch = x86_64
+	license = WTFPL
+	makedepends = attr
+	makedepends = git
+	makedepends = meson
+	depends = glibc
+	provides = overlayfs-tools
+	conflicts = overlayfs-tools
+	source = overlayfs-tools::git+https://github.com/kmxz/overlayfs-tools.git
+	sha256sums = SKIP
+
+pkgname = overlayfs-tools-git

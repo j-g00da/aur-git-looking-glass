@@ -1,0 +1,23 @@
+pkgbase = rapidassist
+	pkgdesc = RapidAssist is a lite cross-platform library that assist you with the most c++ repetitive tasks.
+	pkgver = 0.11.0
+	pkgrel = 1
+	url = https://github.com/end2endzone/RapidAssist
+	arch = x86_64
+	license = MIT
+	makedepends = cmake
+	makedepends = doxygen
+	makedepends = gtest
+	makedepends = ninja
+	makedepends = pkgconf
+	depends = gcc-libs
+	depends = glibc
+	provides = rapidassist
+	conflicts = rapidassist
+	options = !strip
+	options = !lto
+	options = !debug
+	source = RapidAssist-0.11.0.tar.gz::https://github.com/end2endzone/RapidAssist/archive/refs/tags/0.11.0.tar.gz
+	sha256sums = b1ad891e59ff57049bdfa434b3a7b28a8103d3747206fb2e4b95886f2c42c701
+
+pkgname = rapidassist

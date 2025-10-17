@@ -1,0 +1,21 @@
+pkgbase = r-qsutils
+	pkgdesc = Quasispecies Diversity
+	pkgver = 1.26.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/QSutils
+	arch = any
+	license = GPL-2.0-only
+	depends = r-ape
+	depends = r-biocgenerics
+	depends = r-biostrings
+	depends = r-psych
+	depends = r-pwalign
+	optdepends = r-biocstyle
+	optdepends = r-ggplot2
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/QSutils_1.26.0.tar.gz
+	md5sums = 7eb83fb76fe6d384d40cc4e72d79d01a
+	b2sums = 4a793bfd1f72a62d7333cf3ef9461fe142639aec0c752776c96eb5158672d918f9ca52c3dea580eb7c687306aa99944dafae048a34873882aca1388506385aeb
+
+pkgname = r-qsutils

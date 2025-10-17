@@ -1,0 +1,15 @@
+pkgbase = defi-app-bin
+	pkgdesc = DefiChain Wallet AppImage
+	pkgver = v4.2.5
+	pkgrel = 1
+	url = https://github.com/BirthdayResearch/defichain-app
+	arch = x86_64
+	license = MIT
+	provides = defi-app
+	conflicts = defi-app
+	source = https://github.com/BirthdayResearch/defichain-app/releases/download/v4.2.5/DeFi-Wallet-4.2.5.AppImage
+	source = https://github.com/BirthdayResearch/defichain-app/releases/download/v4.2.5/DeFi-Wallet-4.2.5.AppImage.SHA256
+	sha256sums = 9b7433d047362aa368d1cf6c63e3b78c80d2bcee31188156c4b78594cea85c23
+	sha256sums = db9355d147b3c14485cd3e5f55be3721f68362fb5d854b5ec0f9e739da7186aa
+
+pkgname = defi-app-bin

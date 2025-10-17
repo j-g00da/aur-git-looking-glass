@@ -1,0 +1,16 @@
+pkgbase = gnucap-modelgen-verilog-git
+	pkgdesc = Verilog model generator for Gnucap
+	pkgver = r546.3f1daa9
+	pkgrel = 1
+	url = http://gnucap.org/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = git
+	depends = gnucap
+	provides = gnucap-modelgen-verilog
+	conflicts = gnucap-modelgen-verilog
+	source = gnucap-modelgen-verilog::git+git://git.sv.gnu.org/gnucap/gnucap-modelgen-verilog.git#branch=develop
+	md5sums = SKIP
+
+pkgname = gnucap-modelgen-verilog-git

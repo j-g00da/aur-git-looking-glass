@@ -1,0 +1,33 @@
+pkgbase = ibis-hg
+	pkgdesc = A GObjects based IRCv3 library.
+	pkgver = 206.6fc6490ebc08
+	pkgrel = 1
+	url = https://keep.imfreedom.org/xeme/xeme/
+	arch = i686
+	arch = x86_64
+	arch = armv7h
+	license = LGPL-2.1-or-later
+	makedepends = mercurial
+	makedepends = meson
+	makedepends = help2man
+	makedepends = vala
+	makedepends = gi-docgen
+	makedepends = gobject-introspection
+	makedepends = birb-hg
+	depends = glib2
+	depends = hasl-hg
+	depends = pango
+	source = hg+https://keep.imfreedom.org/ibis/ibis#branch=default
+	sha256sums = SKIP
+
+pkgname = ibis-hg
+	depends = glib2
+	depends = hasl-hg
+	depends = pango
+	depends = birb-hg
+	provides = ibis
+
+pkgname = ibis-docs-hg
+	pkgdesc = A GObjects based IRCv3 library. (documentation)
+	depends = 
+	provides = ibis-docs

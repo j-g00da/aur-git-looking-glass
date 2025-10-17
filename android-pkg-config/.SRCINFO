@@ -1,0 +1,13 @@
+pkgbase = android-pkg-config
+	pkgdesc = Support pkg-config script (does not depend on any particular version of pkg-config). Useful for pkg-config powered cross-compiling for Android, see http://tinyurl.com/pkg-config-cross for more info
+	pkgver = 3
+	pkgrel = 1
+	url = http://pkg-config.freedesktop.org/
+	install = android-pkg-config.install
+	arch = any
+	license = zlib
+	depends = pkg-config
+	source = android-pkgconfig.sh
+	md5sums = SKIP
+
+pkgname = android-pkg-config

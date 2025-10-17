@@ -1,0 +1,16 @@
+pkgbase = python-mpd2-git
+	pkgdesc = Python MPD client library
+	pkgver = 20241214
+	pkgrel = 1
+	url = http://github.com/Mic92/python-mpd2
+	arch = any
+	license = LGPL-3.0-or-later
+	makedepends = git
+	makedepends = python-distribute
+	depends = python
+	provides = python-mpd2
+	conflicts = python-mpd2
+	source = git+https://github.com/Mic92/python-mpd2.git
+	sha1sums = SKIP
+
+pkgname = python-mpd2-git

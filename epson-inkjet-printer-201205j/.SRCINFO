@@ -1,0 +1,14 @@
+pkgbase = epson-inkjet-printer-201205j
+	pkgdesc = Epson inkjet printer driver (EP-705A)
+	pkgver = 1.0.1
+	pkgrel = 1
+	url = https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+	arch = x86_64
+	license = custom:Epson End User Software License Agreement
+	depends = epson-inkjet-printer-filter
+	depends = gcc-libs
+	depends = glibc
+	source = https://download3.ebz.epson.net/dsc/f/03/00/15/68/67/d4b046573316339e9b298079ca55c92c1cf9bcc9/epson-inkjet-printer-201205j-1.0.1-1.src.rpm
+	sha256sums = decfad870e59ee41dc0f0cab490f2144edd35b1113980f21d707ae518e845c85
+
+pkgname = epson-inkjet-printer-201205j

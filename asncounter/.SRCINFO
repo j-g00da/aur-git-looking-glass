@@ -1,0 +1,22 @@
+pkgbase = asncounter
+	pkgdesc = Count the number of hits (HTTP, packets, etc) per autonomous system number (ASN) and related network blocks.
+	pkgver = 0.5.0
+	pkgrel = 1
+	url = https://gitlab.com/anarcat/asncounter
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools-scm
+	depends = python
+	depends = python-pyasn
+	optdepends = python-manhole: for a REPL socket
+	optdepends = python-netaddr: for aggregating results
+	optdepends = python-scapy: for collecting from scapy
+	optdepends = python-prometheus_client: for output data in prometheus format
+	source = asncounter-0.5.0.tar.gz::https://gitlab.com/anarcat/asncounter/-/archive/0.5.0/asncounter-0.5.0.tar.gz
+	sha512sums = 9b230dc5ff61094515629d73cf66dc196e666c1da1e6ee1f637c2b2cf1a8fc7ba2dfdce88a7f89d35c37dece7635448e6fe8f58d300d0daa1b750c3d35d49335
+	b2sums = 201b4a99db9ccfd84a175d1ef068f4184a4bb376b3089e5730a0163d9799396b0c856ad3afeaf05f2dfc82a9fec2c8e47fead71d88e89850ce5b9f232dd7b6af
+
+pkgname = asncounter

@@ -1,0 +1,18 @@
+pkgbase = r-affyilm
+	pkgdesc = Linear Model of background subtraction and the Langmuir isotherm
+	pkgver = 1.60.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/affyILM
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-affxparser
+	depends = r-affy
+	depends = r-biobase
+	depends = r-gcrma
+	optdepends = r-affymetrixdatatestfiles
+	optdepends = r-hgfocusprobe
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/affyILM_1.60.0.tar.gz
+	sha256sums = c862f7c025328d73b86fe470f93dfaf8d2b1f0ff3ae2a977a83f6da70085c92d
+
+pkgname = r-affyilm

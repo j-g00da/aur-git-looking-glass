@@ -1,0 +1,13 @@
+pkgbase = fireurl
+	pkgdesc = Fixing the firejail URL open issue
+	pkgver = 0.3.1
+	pkgrel = 0
+	url = https://github.com/rusty-snake/fireurl
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = firejail
+	source = https://github.com/rusty-snake/fireurl/releases/download/v0.3.1/fireurl-v0.3.1.src.tar.xz
+	sha256sums = 6cde3d86f2eb99b313f71f4fbc8264d8720291c607f51948755ba576a93f06e2
+
+pkgname = fireurl

@@ -1,0 +1,26 @@
+pkgbase = oxidizr-arch
+	pkgdesc = Arch CLI to safely switch coreutils/findutils/sudo to Rust replacements via Switchyard (dry-run by default)
+	pkgver = 0.1.1
+	pkgrel = 1
+	url = https://github.com/veighnsche/oxidizr-arch
+	arch = x86_64
+	arch = aarch64
+	license = Apache
+	license = MIT
+	makedepends = rust
+	makedepends = cargo
+	makedepends = help2man
+	depends = bash
+	depends = pacman
+	optdepends = paru: AUR helper for installing AUR replacements (optional)
+	optdepends = sudo: Fallback for running AUR helper as non-root user
+	optdepends = libselinux: Enables SELinux detection via getenforce (optional)
+	optdepends = bash-completion: Bash completion
+	optdepends = zsh: Zsh completion
+	optdepends = fish: Fish completion
+	provides = oxidizr-arch
+	conflicts = oxidizr-arch-git
+	source = oxidizr-arch-0.1.1.tar.gz::https://github.com/veighnsche/oxidizr-arch/archive/refs/tags/v0.1.1.tar.gz
+	sha256sums = f821d1a3302f237535f56324e9d10aa59fafef883ccd3856588999753009a410
+
+pkgname = oxidizr-arch

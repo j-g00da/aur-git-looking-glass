@@ -1,0 +1,18 @@
+pkgbase = tg
+	pkgdesc = An advanced cross-platform solution for timing mechanical watches, a timegrapher. Also known as tg-timer.
+	pkgver = 0.7.0
+	pkgrel = 1
+	url = https://github.com/xyzzy42/tg
+	arch = x86_64
+	license = GPL2
+	depends = gtk3
+	depends = portaudio
+	depends = fftw
+	depends = python
+	depends = python-matplotlib
+	depends = python-scipy
+	provides = tg-timer
+	source = tg-0.7.0.tar.gz::https://github.com/xyzzy42/tg/archive/v0.7.0-tpiepho.tar.gz
+	sha256sums = a79bcf30c44f4f188504e58219fa3ac00461113cd8fb2b5b8ab3079a7a915384
+
+pkgname = tg

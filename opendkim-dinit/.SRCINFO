@@ -1,0 +1,12 @@
+pkgbase = opendkim-dinit
+	pkgdesc = Open source implementation of the DKIM sender authentication system. Based on a fork of dkim-milter. (dinit)
+	pkgver = 20250613
+	pkgrel = 1
+	arch = any
+	depends = opendkim
+	source = opendkim.service
+	source = opendkim-pre.service
+	sha256sums = ce6238cfd0f4d8009cec7fb2d0356d7b4aeb272ea440233fd1d512e0f13d6ec2
+	sha256sums = e43dd8ebde151c9419383f4ee24ce7b6195c0d7687dfd40a27a0137ff0d56cd4
+
+pkgname = opendkim-dinit

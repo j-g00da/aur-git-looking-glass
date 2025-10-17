@@ -1,0 +1,20 @@
+pkgbase = live-plus-plus-bin
+	pkgdesc = Lightweight live streaming client.(Prebuilt version.Use system-wide electron)轻量级的直播客户端
+	pkgver = 2.3.8
+	pkgrel = 2
+	url = https://github.com/dipelta/live-plus-plus
+	arch = x86_64
+	license = MIT
+	makedepends = fuse2
+	depends = electron24
+	provides = live-plus-plus=2.3.8
+	conflicts = live-plus-plus
+	conflicts = live++
+	source = live-plus-plus-2.3.8.AppImage::https://github.com/dipelta/live-plus-plus/releases/download/v2.3.8/live++-2.3.8.AppImage
+	source = LICENSE-2.3.8::https://raw.githubusercontent.com/dipelta/live-plus-plus/v2.3.8/LICENSE
+	source = live-plus-plus.sh
+	sha256sums = eab84d48065a979b8809657e0d1b308e6cf7daeb64ec965697687984ad8adbdb
+	sha256sums = 8c66ee49d3a6ff7eb085eb7d896bdea56da0cac5c97bd60735847901d006f748
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = live-plus-plus-bin

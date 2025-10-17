@@ -1,0 +1,15 @@
+pkgbase = v2ray-rules-dat-git
+	pkgdesc = Enhanced edition of V2Ray rules dat files, compatible with Trojan-Go. (without auto update)
+	pkgver = r202108222209
+	pkgrel = 1
+	url = https://github.com/Loyalsoldier/v2ray-rules-dat
+	arch = any
+	license = GPL3
+	provides = v2ray-domain-list-community
+	provides = v2ray-geoip
+	conflicts = v2ray-domain-list-community
+	conflicts = v2ray-geoip
+	source = v2ray-rules-dat-git::git+https://github.com/Loyalsoldier/v2ray-rules-dat#branch=release.git
+	sha256sums = SKIP
+
+pkgname = v2ray-rules-dat-git

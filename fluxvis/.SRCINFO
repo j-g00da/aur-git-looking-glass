@@ -1,0 +1,21 @@
+pkgbase = fluxvis
+	pkgdesc = Produce flux visualization from any flux files recognized by greaseweazle
+	pkgver = 1.0.0a5
+	pkgrel = 1
+	url = https://github.com/adafruit/fluxvis
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools-scm
+	depends = python
+	depends = python-numpy
+	depends = python-matplotlib
+	depends = python-click
+	depends = python-scikit-image
+	depends = python-bitarray
+	source = https://files.pythonhosted.org/packages/source/f/fluxvis/fluxvis-1.0.0a5.tar.gz
+	sha256sums = 24e40c2773ff838146d1947e6931dcec3260ce8b202a21601fe136bf9cb0cb6f
+
+pkgname = fluxvis

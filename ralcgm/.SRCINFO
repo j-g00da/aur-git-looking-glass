@@ -1,0 +1,14 @@
+pkgbase = ralcgm
+	pkgdesc = Interpret Computer Graphics Metafiles
+	pkgver = 3.50
+	pkgrel = 1
+	url = http://www.agocg.ac.uk/train/cgm/ralcgm.htm
+	arch = x86_64
+	license = custom
+	makedepends = cmake
+	source = ralcgm-3.50::git+https://github.com/flaviut/ralcgm#commit=b0df1327b0eb18af71945f459fb209d6f4737c1d
+	source = LICENSE
+	sha256sums = SKIP
+	sha256sums = 9c136c9a4ffd4c1a5c208a938e01f1556f50fdcc48edfb0a498fa7a8f4289eb2
+
+pkgname = ralcgm

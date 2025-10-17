@@ -1,0 +1,15 @@
+pkgbase = utools
+	pkgdesc = uTools Utilities
+	pkgver = 6.1.0
+	pkgrel = 1
+	url = https://u.tools/
+	arch = x86_64
+	license = custom
+	depends = gtk3
+	depends = nss
+	depends = alsa-lib
+	depends = openssl-1.1
+	source = https://publish.u-tools.cn/version2/utools_6.1.0_amd64.deb
+	sha512sums = 509c5abd5ddd96b13105069f04ffca7d4aee0fd04bfbfaa4be507830dd6dc732c2e3f94c4bc5379e36f8b58929220bda56a3448821503b4fd47315619e0ada77
+
+pkgname = utools

@@ -1,0 +1,17 @@
+pkgbase = perl-net-dns-paranoid
+	pkgdesc = paranoid dns resolver
+	pkgver = 0.11
+	pkgrel = 1
+	url = http://search.cpan.org/dist/Net-DNS-Paranoid
+	arch = any
+	license = GPL
+	license = PerlArtistic
+	makedepends = perl-module-build-tiny
+	depends = perl
+	depends = perl-class-accessor-lite
+	depends = perl-net-dns
+	options = !emptydirs
+	source = http://cpan.perl.org/authors/id/T/TO/TOKUHIROM/Net-DNS-Paranoid-0.11.tar.gz
+	sha256sums = 667d781c1b6f9a0b8136d5c922e5ab87f6ad128b21d4d9181a340e604777eff9
+
+pkgname = perl-net-dns-paranoid

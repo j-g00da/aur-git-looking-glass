@@ -1,0 +1,15 @@
+pkgbase = raj-browser-bin
+	pkgdesc = A UI and privacy focussed browser for the web from the web.(Prebuilt version.Use system-wide electron)
+	pkgver = 2.0.5
+	pkgrel = 9
+	url = https://github.com/Rajaniraiyn/raj-browser
+	arch = x86_64
+	license = Apache-2.0
+	depends = electron22
+	conflicts = raj-browser
+	source = raj-browser-2.0.5.deb::https://github.com/Rajaniraiyn/raj-browser/releases/download/v2.0.5/raj-browser_2.0.5_amd64.deb
+	source = raj-browser.sh
+	sha256sums = b0ff6a0abff0fe3f8510aa5f12bae954eab07cb0441ee5971685d3335fa91b79
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = raj-browser-bin

@@ -1,0 +1,25 @@
+pkgbase = android-x86-64-ocl-icd
+	pkgdesc = OpenCL ICD Bindings (Android x86-64)
+	pkgver = 2.3.3
+	pkgrel = 1
+	url = https://github.com/OCL-dev/ocl-icd
+	arch = any
+	groups = android-ocl-icd
+	license = BSD
+	makedepends = android-configure
+	makedepends = android-x86-64-opencl-headers>=2.1
+	makedepends = ruby
+	makedepends = xmlto
+	depends = android-ndk
+	optdepends = android-x86-64-opencl-driver: packaged opencl driver
+	provides = android-x86-64-opencl-icd-loader
+	conflicts = android-x86-64-libcl
+	replaces = android-x86-64-libcl
+	options = !strip
+	options = !buildflags
+	options = staticlibs
+	options = !emptydirs
+	source = https://github.com/OCL-dev/ocl-icd/archive/v2.3.3.tar.gz
+	md5sums = 8f00257866d84b8b9631c4df6c47ec95
+
+pkgname = android-x86-64-ocl-icd

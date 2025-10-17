@@ -1,0 +1,14 @@
+pkgbase = zigmod-bin
+	pkgdesc = A package manager for the Zig programming language
+	pkgver = r98
+	pkgrel = 1
+	epoch = 1
+	url = https://github.com/nektro/zigmod
+	arch = x86_64
+	license = MIT
+	provides = zigmod
+	conflicts = zigmod
+	source = zigmod-bin-r98::https://github.com/nektro/zigmod/releases/download/r98/zigmod-x86_64-linux
+	sha256sums = 88200886180833b1cd684ec4dfd7ccf6c10d72d93cb45851e6e91f8233e6ec6c
+
+pkgname = zigmod-bin

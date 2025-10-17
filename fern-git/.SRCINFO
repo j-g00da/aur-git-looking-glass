@@ -1,0 +1,14 @@
+pkgbase = fern-git
+	pkgdesc = a curses-based mastodon client modeled off usenet news readers & pine, with an emphasis on getting to "timeline zero"
+	pkgver = 75.0244f1a
+	pkgrel = 3
+	url = https://github.com/enkiv2/fern
+	arch = any
+	license = BSD3
+	makedepends = git
+	depends = python-mastodon
+	provides = fern
+	source = fern::git+https://github.com/enkiv2/fern.git#branch=master
+	md5sums = SKIP
+
+pkgname = fern-git

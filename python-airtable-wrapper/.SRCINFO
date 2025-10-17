@@ -1,0 +1,22 @@
+pkgbase = python-airtable-wrapper
+	pkgdesc = Python Airtable Client Wrapper
+	pkgver = 3.2.0
+	pkgrel = 1
+	url = https://github.com/gtalarico/pyairtable
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	depends = python
+	depends = python-click
+	depends = python-inflection
+	depends = python-pydantic
+	depends = python-requests
+	depends = python-typing_extensions
+	depends = python-urllib3
+	options = !emptydirs
+	source = https://github.com/gtalarico/pyairtable/archive/refs/tags/3.2.0.tar.gz
+	sha256sums = baca26f3b0cc1956b4c0a46aadfc87573b34337a622865a3be9ca4f9f3307c72
+
+pkgname = python-airtable-wrapper

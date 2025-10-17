@@ -1,0 +1,22 @@
+pkgbase = doc2go-bin
+	pkgdesc = Your Go documentation, to-go.
+	pkgver = 0.9.1
+	pkgrel = 1
+	url = https://github.com/abhinav/doc2go
+	license = Apache
+	conflicts = doc2go
+	provides = doc2go
+	arch = aarch64
+	source_aarch64 = https://github.com/abhinav/doc2go/releases/download/v0.9.1/doc2go-linux-arm64.tar.gz
+	sha256sums_aarch64 = a2bd41d0f0d8bdb85127093cc2ddaf917b1f4644613409540d48ace3a682ee44
+	arch = armv7h
+	source_armv7h = https://github.com/abhinav/doc2go/releases/download/v0.9.1/doc2go-linux-armv7.tar.gz
+	sha256sums_armv7h = 3d322ec5e43b574540f16c88a5fe94dbd4a13b821546a2b45cc26797daa901c8
+	arch = i686
+	source_i686 = https://github.com/abhinav/doc2go/releases/download/v0.9.1/doc2go-linux-386.tar.gz
+	sha256sums_i686 = 091a1ac4999c6768cf98ca9a6509b14a215508fed8ca732aec0d3dbe492a210a
+	arch = x86_64
+	source_x86_64 = https://github.com/abhinav/doc2go/releases/download/v0.9.1/doc2go-linux-amd64.tar.gz
+	sha256sums_x86_64 = 8b2977aa7f28cdcb484a53a1bd77cb9fa720648d32a439555fa33d890675f0f4
+	
+pkgname = doc2go-bin

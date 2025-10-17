@@ -1,0 +1,20 @@
+pkgbase = simple-thumbnailers
+	pkgver = r4.6cbb699
+	pkgrel = 1
+	url = https://gitlab.com/zoli111/simple-thumbnailers
+	arch = any
+	license = GPL
+	makedepends = git
+	source = git+https://gitlab.com/zoli111/simple-thumbnailers
+	sha256sums = SKIP
+
+pkgname = simple-thumbnailer-pdf
+	pkgdesc = Minimal PDF thumbnailer
+	depends = poppler
+	conflicts = evince
+
+pkgname = simple-thumbnailer-vid
+	pkgdesc = Minimal video thumbnailer
+	depends = ffmpeg
+	conflicts = totem
+	conflicts = ffmpegthumbnailer

@@ -1,0 +1,19 @@
+pkgbase = spotitube-git
+	pkgdesc = Synchronize your Spotify collections downloading from external providers (Git package)
+	pkgver = 1.1.1.r20.g0de6d4e
+	pkgrel = 1
+	url = https://davidepucci.it/doc/spotitube
+	arch = x86_64
+	license = LicenseRef-streambinder
+	makedepends = git
+	makedepends = go
+	depends = glibc
+	depends = bash
+	depends = ffmpeg
+	depends = yt-dlp
+	provides = spotitube
+	conflicts = spotitube
+	source = spotitube-git::git+https://github.com/streambinder/spotitube
+	sha256sums = SKIP
+
+pkgname = spotitube-git

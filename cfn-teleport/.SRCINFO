@@ -1,0 +1,23 @@
+pkgbase = cfn-teleport
+	pkgdesc = A command-line tool which can move CloudFormation resources between stacks
+	pkgver = 0.41.0
+	pkgrel = 1
+	url = https://github.com/udondan/cfn-teleport
+	arch = aarch64
+	arch = arm
+	arch = armv7h
+	arch = i686
+	arch = x86_64
+	license = APACHE
+	source_aarch64 = https://github.com/udondan/cfn-teleport/releases/download/v0.41.0/cfn-teleport-aarch64-unknown-linux-gnu-v0.41.0.tar.gz
+	sha256sums_aarch64 = 330a697dcd4a46ad81484427aa31ecff9c90073a667f3eb7ad6f7470b2209fdf
+	source_arm = https://github.com/udondan/cfn-teleport/releases/download/v0.41.0/cfn-teleport-arm-unknown-linux-gnueabihf-v0.41.0.tar.gz
+	sha256sums_arm = ecc1f6a9667e25cf04eddd3c756306d07db1abdfdc72740fe21cfb3d9867a51c
+	source_armv7h = https://github.com/udondan/cfn-teleport/releases/download/v0.41.0/cfn-teleport-armv7-unknown-linux-gnueabihf-v0.41.0.tar.gz
+	sha256sums_armv7h = 5ebb40cdbd700a1ef1879ae7d69c962558e72380fcc4c2e01ea5d57a19b1080a
+	source_i686 = https://github.com/udondan/cfn-teleport/releases/download/v0.41.0/cfn-teleport-i686-unknown-linux-gnu-v0.41.0.tar.gz
+	sha256sums_i686 = 4857de3a1cc056e2dbb94b41a39a96652c43f402fcd880382709f272b0fb82a2
+	source_x86_64 = https://github.com/udondan/cfn-teleport/releases/download/v0.41.0/cfn-teleport-x86_64-unknown-linux-gnu-v0.41.0.tar.gz
+	sha256sums_x86_64 = ddb67a69387e8a46c7e45b0175b1a9e0b77436fcab7f5a3855b54d016fe3e290
+
+pkgname = cfn-teleport

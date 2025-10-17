@@ -1,0 +1,18 @@
+pkgbase = ts_query_ls-bin
+	pkgdesc = LSP implementation for Tree-sitter's query files
+	pkgver = 3.11.1
+	pkgrel = 1
+	url = https://github.com/ribru17/ts_query_ls
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	depends = gcc-libs
+	depends = glibc
+	provides = ts_query_ls
+	replaces = ts-query-ls-bin
+	source_x86_64 = ts_query_ls-bin-3.11.1-x86_64.tar.gz::https://github.com/ribru17/ts_query_ls/releases/download/v3.11.1/ts_query_ls-x86_64-unknown-linux-gnu.tar.gz
+	sha256sums_x86_64 = 770cbf0c69b4e8a6c6dad1ad9cc1607b82be523e0996efd3a5771524c783d857
+	source_aarch64 = ts_query_ls-bin-3.11.1-aarch64.tar.gz::https://github.com/ribru17/ts_query_ls/releases/download/v3.11.1/ts_query_ls-aarch64-unknown-linux-gnu.tar.gz
+	sha256sums_aarch64 = 7ac341daea157ec09ffe6b60eca570cdcd37e91c9445cc4559235a2c378f850f
+
+pkgname = ts_query_ls-bin

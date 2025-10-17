@@ -1,0 +1,16 @@
+pkgbase = lucky-git
+	pkgdesc = A Crystal command-line tool for generating new Lucky Web Applications
+	pkgver = r735.ccaa571
+	pkgrel = 1
+	url = https://github.com/luckyframework/lucky_cli
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	depends = crystal
+	depends = shards
+	provides = lucky
+	conflicts = lucky
+	source = lucky-git::git+https://github.com/luckyframework/lucky_cli.git
+	sha256sums = SKIP
+
+pkgname = lucky-git

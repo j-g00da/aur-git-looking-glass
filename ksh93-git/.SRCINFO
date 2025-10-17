@@ -1,0 +1,31 @@
+pkgbase = ksh93-git
+	pkgdesc = KornShell 93u+m, fork based on ksh 93u+
+	pkgver = r1976.11981f5f
+	pkgrel = 1
+	url = https://github.com/ksh93/ksh/
+	install = ksh93.install
+	arch = x86_64
+	arch = i686
+	arch = pentium4
+	arch = powerpc64le
+	arch = powerpc64
+	arch = powerpc
+	arch = riscv64
+	arch = arm
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = EPL
+	makedepends = git
+	makedepends = linux-api-headers
+	depends = libmd
+	provides = ksh
+	provides = ksh93
+	conflicts = ksh
+	conflicts = ksh93
+	source = ksh93::git+https://github.com/ksh93/ksh#branch=dev
+	source = sample.kshrc
+	sha512sums = SKIP
+	sha512sums = 252e3253b663dcee91f775d6164b84952e3c4602d9b921c25204bca7d66bc32fc28cf718a8a3ad4f114dabfc70fb8faa5ecf092a0fc893159ce4acb0ddf48ed4
+
+pkgname = ksh93-git

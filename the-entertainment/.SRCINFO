@@ -1,0 +1,17 @@
+pkgbase = the-entertainment
+	pkgdesc = The Entertainment - Kentucky Route Zero
+	pkgver = 1
+	pkgrel = 2
+	url = http://kentuckyroutezero.com/the-entertainment/
+	arch = i686
+	arch = x86_64
+	license = custom
+	depends = libgl
+	source = https://sloth.cardboard.computer/zero/supermarine-walrus/TheEntertainment-Linux.zip
+	source = the-entertainment.desktop
+	source = the-entertainment.png
+	sha256sums = b2a09ad6b423f4d1a92192af41971677de99334a0c31d6c7fc5f837ad559959e
+	sha256sums = 4594e2440ee680880bd8bf058ff77feed2a0ac4ae3c8c74bfe1ba22db0f71217
+	sha256sums = 1fe7153cf8f10a74c94798da813319efbb806a23de5f43c14696002b8ce79757
+
+pkgname = the-entertainment

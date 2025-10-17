@@ -1,0 +1,21 @@
+pkgbase = r-meb
+	pkgdesc = A normalization-invariant minimum enclosing ball method to detect differentially expressed genes for RNA-seq data
+	pkgver = 1.22.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/MEB
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-e1071
+	depends = r-edger
+	depends = r-scater
+	depends = r-singlecellexperiment
+	depends = r-summarizedexperiment
+	depends = r-wrswor
+	optdepends = r-biocstyle
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/MEB_1.22.0.tar.gz
+	sha256sums = 0dda2d89d69340e80bc7b8647fbdf4047c8773426a000cd73c68f4ceb0abaf89
+
+pkgname = r-meb

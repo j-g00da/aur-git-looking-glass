@@ -1,0 +1,14 @@
+pkgbase = rencfs-bin
+	pkgdesc = WARNING! UNDER ACTIVE DEVELOPMENT. An encrypted file system that is mounted with FUSE on Linux. It can be used to create encrypted directories.
+	pkgver = 0.14.11
+	pkgrel = 1
+	url = https://xoriors.github.io/rencfs
+	arch = x86_64
+	license = MIT OR Apache-2.0
+	depends = fuse3
+	provides = rencfs
+	conflicts = rencfs
+	source = https://github.com/xoriors/rencfs/releases/download/v0.14.11/rencfs-0.14.11-x86_64.tar.gz
+	sha256sums = 6f42e3a6fff9895cca2f538775327c2b51e3fe6c06813262d9b8ea73f57de79f
+
+pkgname = rencfs-bin

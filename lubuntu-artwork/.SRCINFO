@@ -1,0 +1,15 @@
+pkgbase = lubuntu-artwork
+	pkgdesc = artwork of Lubuntu
+	pkgver = 25.10.2
+	pkgrel = 1
+	url = http://wiki.ubuntu.com/Lubuntu/Artwork
+	arch = any
+	license = GPL
+	optdepends = gtk-engine-murrine: gtk2 theme support
+	optdepends = elementary-icon-theme: icons support
+	optdepends = gtk-engine-unico: gtk3 theme support
+	options = !strip
+	source = http://archive.ubuntu.com/ubuntu/pool/universe/l/lubuntu-artwork/lubuntu-artwork_25.10.2.tar.xz
+	sha512sums = e37fd475d5bac855769ebce20a35cf2f7bc324c85cde6cb1fb811c858ef6e40f294d28b17ca40337fa4b6fd04925c5e3177aef1ba67176548cebd7158aed14c8
+
+pkgname = lubuntu-artwork

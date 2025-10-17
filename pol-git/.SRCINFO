@@ -1,0 +1,15 @@
+pkgbase = pol-git
+	pkgdesc = Awk-like one-liners for Python
+	pkgver = r112.1c5aef5
+	pkgrel = 1
+	url = https://github.com/riolet/poline
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = python
+	depends = python-setuptools
+	options = !emptydirs
+	source = poline::git+https://github.com/riolet/poline.git
+	sha256sums = SKIP
+
+pkgname = pol-git

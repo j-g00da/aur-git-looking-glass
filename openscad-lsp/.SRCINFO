@@ -1,0 +1,14 @@
+pkgbase = openscad-lsp
+	pkgdesc = A LSP server for OpenSCAD
+	pkgver = 2.0.1
+	pkgrel = 1
+	url = https://github.com/Leathong/openscad-LSP
+	arch = i686
+	arch = x86_64
+	license = Apache-2.0
+	makedepends = cargo
+	options = !lto
+	source = openscad-lsp-2.0.1.tar.gz::https://static.crates.io/crates/openscad-lsp/openscad-lsp-2.0.1.crate
+	sha256sums = 4b515451d2d54837b5556d83cdfdb494901ef9ca18a3ec9821b7eb01d282825f
+
+pkgname = openscad-lsp

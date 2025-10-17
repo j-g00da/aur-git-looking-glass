@@ -1,0 +1,26 @@
+pkgbase = r-ivreg
+	pkgdesc = Instrumental-Variables Regression by '2SLS', '2SM', or '2SMM', with Diagnostics
+	pkgver = 0.6.5
+	pkgrel = 1
+	url = https://cran.r-project.org/package=ivreg
+	arch = any
+	license = GPL-2.0-or-later
+	checkdepends = r-testthat
+	depends = r-car
+	depends = r-formula
+	depends = r-lmtest
+	optdepends = r-aer
+	optdepends = r-effects
+	optdepends = r-ggplot2
+	optdepends = r-gt
+	optdepends = r-insight
+	optdepends = r-knitr
+	optdepends = r-modelsummary
+	optdepends = r-rmarkdown
+	optdepends = r-sandwich
+	optdepends = r-testthat
+	source = https://cran.r-project.org/src/contrib/ivreg_0.6-5.tar.gz
+	md5sums = 7841644fe32ca81c2db40c65773ccc50
+	b2sums = 2186af0c5a19986b9e1e734a7155e08d9c21888a40037e279523448c9b2faa4025a0a29800701d5a08290aae226fa74f4480af9f94aeb1b57b58b043a4c953fc
+
+pkgname = r-ivreg

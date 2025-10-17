@@ -1,0 +1,20 @@
+pkgbase = libsufr
+	pkgdesc = A LIBrary containing Some Useful Fortran Routines
+	pkgver = 0.7.8
+	pkgrel = 1
+	url = http://libsufr.sourceforge.net/
+	changelog = ChangeLog
+	arch = i686
+	arch = x86_64
+	arch = arm
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = GPL3
+	makedepends = cmake
+	makedepends = gcc-fortran
+	depends = gcc-libs
+	source = http://sourceforge.net/projects/libsufr/files/libsufr-0.7.8.tar.gz
+	sha512sums = 0b1b4413a29e76e02ba8c4a7cbf6ca3d764ce83b8d7e6da3ac6029a1f58c608d4d20f21c0084ffde6dcf40b49b3856353d51d2aad656e692c80c997f602b9cc1
+
+pkgname = libsufr

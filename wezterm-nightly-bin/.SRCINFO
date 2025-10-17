@@ -1,0 +1,23 @@
+pkgbase = wezterm-nightly-bin
+	pkgdesc = A GPU-accelerated cross-platform terminal emulator and multiplexer (nightly build)
+	pkgver = nightly
+	pkgrel = 1
+	url = https://wezfurlong.org/wezterm/
+	arch = x86_64
+	license = MIT
+	depends = fontconfig
+	depends = hicolor-icon-theme
+	depends = libxkbcommon
+	depends = libxkbcommon-x11
+	depends = ttf-font
+	depends = xcb-util-image
+	depends = xcb-util-keysyms
+	depends = xcb-util-wm
+	optdepends = python-nautilus: for Nautilus integration
+	provides = wezterm
+	conflicts = wezterm
+	conflicts = wezterm-git
+	source = wezterm-nightly.Ubuntu24.04.tar.xz::https://github.com/wezterm/wezterm/releases/download/nightly/wezterm-nightly.Ubuntu24.04.tar.xz
+	sha256sums = SKIP
+
+pkgname = wezterm-nightly-bin

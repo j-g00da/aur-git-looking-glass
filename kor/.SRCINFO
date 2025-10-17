@@ -1,0 +1,18 @@
+pkgbase = kor
+	pkgdesc = Kubernetes Orphaned Resources Finder
+	pkgver = 0.6.5
+	pkgrel = 3
+	url = https://github.com/yonahd/kor
+	arch = x86_64
+	groups = kubectl-plugins
+	license = MIT
+	makedepends = go
+	makedepends = git
+	depends = glibc
+	depends = kubectl
+	provides = kubectl-kor
+	source = https://github.com/yonahd/kor/archive/v0.6.5/kor-0.6.5.tar.gz
+	sha256sums = cc447603010e1d4004ff7136ee9837a6a57e4985432de8fee8a3b7804b1603c4
+	b2sums = c8cdcb0be5e8a4b09e17b33bf9edde93cbab272249e277256bf19299bbf4c69d8ac91649ecaa0c702e99856f7444e149c86305518924a2628e217ca581ba12b6
+
+pkgname = kor

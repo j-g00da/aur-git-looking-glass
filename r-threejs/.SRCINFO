@@ -1,0 +1,19 @@
+pkgbase = r-threejs
+	pkgdesc = Interactive 3D Scatter Plots, Networks and Globes
+	pkgver = 0.3.4
+	pkgrel = 1
+	url = https://cran.r-project.org/package=threejs
+	arch = any
+	license = MIT
+	depends = r
+	depends = r-base64enc
+	depends = r-crosstalk
+	depends = r-htmlwidgets
+	depends = r-igraph
+	optdepends = r-knitr
+	optdepends = r-maps
+	optdepends = r-shiny
+	source = https://cran.r-project.org/src/contrib/threejs_0.3.4.tar.gz
+	sha256sums = 1c6ba5d78702051ee1dbbcff2866074ddc8ac49f2f3abd4418e608d7c86eb484
+
+pkgname = r-threejs

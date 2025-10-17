@@ -1,0 +1,32 @@
+pkgbase = gowin-eda
+	pkgver = 1.9.12
+	pkgrel = 1
+	epoch = 1
+	url = https://www.gowinsemi.com.cn/software/index
+	arch = x86_64
+	license = unknown
+	source = http://cdn.gowinsemi.com.cn/Gowin_V1.9.12_linux.tar.gz
+	source = gowin-eda.png
+	source = gowin-eda-ide-project.xml
+	source = gowin-eda-ide.desktop
+	source = gowin-eda-programmer.desktop
+	sha256sums = 33242f474525cf60beb7ce908750d2a86ac9758df4b1273b319c5355cbd58b2f
+	sha256sums = 346991b57db67aa4a8373ad09fd221e310c87ac7a6c90313cad7b48f7e6934ab
+	sha256sums = a95d18239e9ecb6b3f712fa569601e964624ef4ccb39ca85e56dfafa74b573d2
+	sha256sums = 1bcf198fde74f73c7a70c10b9eccd2b3d3b98974433aefef9250be916175395a
+	sha256sums = 664f20c092c8b6fd018327a8e60c2f31454bbd9a27950b8ea7e98b76895235b8
+
+pkgname = gowin-eda-ide
+	pkgdesc = Gowin EDA IDE - Gowin EDA, an easy to use integrated design environment provides design engineers one-stop solution from design entry to verification.
+	depends = fontconfig
+	depends = freetype2
+	optdepends = openfpgaloader: open source fpga programmer, as a replacement to Gowin Programmer
+	provides = gowin-eda-ide
+	provides = gowin-ide
+	backup = opt/gowin-eda-ide/bin/gwlicense.ini
+
+pkgname = gowin-eda-programmer
+	pkgdesc = Gowin EDA Programmer - Gowin EDA, an easy to use integrated design environment provides design engineers one-stop solution from design entry to verification.
+	provides = gowin-eda-programmer
+	provides = gowin-programmer
+	options = emptydirs

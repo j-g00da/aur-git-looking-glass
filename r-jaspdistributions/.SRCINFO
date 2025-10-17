@@ -1,0 +1,24 @@
+pkgbase = r-jaspdistributions
+	pkgdesc = Distributions Module for JASP
+	pkgver = 0.95.3
+	pkgrel = 1
+	url = https://github.com/jasp-stats/jaspDistributions
+	arch = any
+	groups = r-jasp
+	groups = r-jaspextra
+	license = GPL
+	depends = r
+	depends = r-car
+	depends = r-fitdistrplus
+	depends = r-ggplot2
+	depends = r-goftest
+	depends = r-gnorm
+	depends = r-jaspbase
+	depends = r-jaspgraphs
+	depends = r-nortest
+	depends = r-sgt
+	depends = r-sn
+	source = jaspDistributions_0.95.3.tar.gz::https://github.com/jasp-stats/jaspDistributions/archive/refs/tags/v0.95.3.tar.gz
+	sha256sums = 786c07e0a2a4d4365f173cb1d9cd97ee4380f95ef9f6ce843d4b925db08782a4
+
+pkgname = r-jaspdistributions

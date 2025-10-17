@@ -1,0 +1,21 @@
+pkgbase = lib32-x265
+	pkgdesc = Open Source H265/HEVC video encoder. 32bit libraries.
+	pkgver = 4.1
+	pkgrel = 1
+	epoch = 1
+	url = https://bitbucket.org/multicoreware/x265_git
+	arch = x86_64
+	license = GPL
+	makedepends = cmake
+	makedepends = nasm
+	makedepends = git
+	depends = x265
+	depends = lib32-gcc-libs
+	depends = lib32-libnuma
+	provides = libx265.so
+	source = x265::git+https://bitbucket.org/multicoreware/x265_git.git#tag=4.1
+	source = cstdint_missing.patch
+	sha256sums = a6a10ca581c13d8f43713f198ac2164d02d44b6c70ca31ec54e6bdb59410cdf5
+	sha256sums = d97c14a03f32672ba84880e40dc934027117bd1c6a331f3351e08466598767ac
+
+pkgname = lib32-x265

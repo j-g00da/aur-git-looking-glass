@@ -1,0 +1,22 @@
+pkgbase = python-gbinder-git
+	pkgdesc = Python bindings for libgbinder - git version
+	pkgver = 1.1.1.r14.g5089d76
+	pkgrel = 1
+	url = https://github.com/waydroid/gbinder-python
+	arch = any
+	license = GPL
+	makedepends = python-build
+	makedepends = cython
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	makedepends = git
+	depends = libgbinder
+	provides = python-gbinder
+	conflicts = python-gbinder
+	replaces = python-gbinder
+	source = git+https://github.com/waydroid/gbinder-python.git
+	b2sums = SKIP
+
+pkgname = python-gbinder-git

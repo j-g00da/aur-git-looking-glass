@@ -1,0 +1,14 @@
+pkgbase = digitd
+	pkgdesc = Finger client & server
+	pkgver = r12.e06aa4a
+	pkgrel = 1
+	url = https://git.sr.ht/~sircmpwn/digitd
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = git
+	makedepends = scdoc
+	depends = hare-ev
+	source = digitd::git+https://git.sr.ht/~sircmpwn/digitd#commit=e06aa4a69eba4430689a33a3777c43665b1d931c
+	b2sums = SKIP
+
+pkgname = digitd

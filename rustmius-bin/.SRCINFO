@@ -1,0 +1,19 @@
+pkgbase = rustmius-bin
+	pkgdesc = Full local Termius alternative for Linux
+	pkgver = 1.4.4
+	pkgrel = 1
+	url = https://github.com/Cleboost/Rustmius
+	arch = x86_64
+	license = MIT
+	depends = libadwaita
+	depends = gtk4
+	source = rustmius-1.4.4::https://github.com/Cleboost/Rustmius/releases/download/v1.4.4/rustmius
+	source = rustmius-1.4.4.desktop::https://github.com/Cleboost/Rustmius/raw/v1.4.4/rustmius.desktop
+	source = rustmius-1.4.4.png::https://github.com/Cleboost/Rustmius/raw/v1.4.4/rustmius.png
+	source = README-1.4.4.md::https://github.com/Cleboost/Rustmius/raw/v1.4.4/README.md
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = rustmius-bin

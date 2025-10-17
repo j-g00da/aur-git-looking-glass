@@ -1,0 +1,25 @@
+pkgbase = nuclei-bin
+	pkgdesc = Fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use
+	pkgver = 3.4.10
+	pkgrel = 1
+	url = https://github.com/projectdiscovery/nuclei
+	arch = i686
+	arch = x86_64
+	arch = armv7h
+	arch = aarch64
+	license = MIT
+	depends = glibc
+	provides = nuclei
+	conflicts = nuclei
+	source = LICENSE.md::https://github.com/projectdiscovery/nuclei/raw/v3.4.10/LICENSE.md
+	b2sums = 2029dad2ab2740376273b715f27e950511c8392b1e575226a922a818041dbf95f60eca51f33b3b036cf5cc5b6f8f8b0a81221e1d80ff69f4ddad8e0f8ed37ba2
+	source_i686 = nuclei-3.4.10-i686.zip::https://github.com/projectdiscovery/nuclei/releases/download/v3.4.10/nuclei_3.4.10_linux_386.zip
+	b2sums_i686 = 797ff39a59e418911721bcc07868bd6e7b5c8f120d1b4506b6ec10d8639b90b398b07a924b1fa7aaeab83d66b3413c0f955023c37449cead35d2823e4e954faf
+	source_x86_64 = nuclei-3.4.10-x86_64.zip::https://github.com/projectdiscovery/nuclei/releases/download/v3.4.10/nuclei_3.4.10_linux_amd64.zip
+	b2sums_x86_64 = f3bb6c45f54546367d86067922a7fbe067673b9100761ef4244d8a6d3212fcfb21efa36f51cfcfe9698dea0a09c4d2345dd35d6ac3c81c0027d6850925f028e7
+	source_armv7h = nuclei-3.4.10-armv7h.zip::https://github.com/projectdiscovery/nuclei/releases/download/v3.4.10/nuclei_3.4.10_linux_arm.zip
+	b2sums_armv7h = d9c8f07ff10240db1a0c573450f4bbc4c2cb7b2af740b8b8887edbd52a49263cdc3b036c1cfe49c391d60113c642774376aab7b8c7c81a44bb789b4c9803f0a2
+	source_aarch64 = nuclei-3.4.10-aarch64.zip::https://github.com/projectdiscovery/nuclei/releases/download/v3.4.10/nuclei_3.4.10_linux_arm64.zip
+	b2sums_aarch64 = abbb08d4545b1f69918f40f179127e4b661d560d9c4d498fe972197e7c1252460c116e2e5f62a5a379f2f0de4ca50483922b695cf85b7f5384d0f5ce3bb30537
+
+pkgname = nuclei-bin

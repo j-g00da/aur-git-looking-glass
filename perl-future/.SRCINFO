@@ -1,0 +1,15 @@
+pkgbase = perl-future
+	pkgdesc = Perl module to represent an operation awaiting completion
+	pkgver = 0.51
+	pkgrel = 1
+	url = https://metacpan.org/release/Future
+	arch = any
+	license = GPL
+	makedepends = perl-module-build
+	depends = perl
+	options = !emptydirs
+	options = purge
+	source = https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Future-0.51.tar.gz
+	sha512sums = d87f565b78c09309d6931b967e7872762b5efe96d7759d8db655d85e4738962de53dc1993ee735176256de23ce0b6e38308dc84180c5659fb173aa5f9a7e7be3
+
+pkgname = perl-future

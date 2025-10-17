@@ -1,0 +1,15 @@
+pkgbase = ruby-unicode-name
+	pkgdesc = Unicode character names in Ruby
+	pkgver = 1.14.0
+	pkgrel = 1
+	url = https://github.com/janlelis/unicode-name
+	arch = any
+	license = MIT
+	depends = ruby
+	depends = ruby-unicode-types
+	noextract = unicode-name-1.14.0.gem
+	options = !emptydirs
+	source = https://rubygems.org/downloads/unicode-name-1.14.0.gem
+	sha256sums = b350dcdeb503748c8ad05c472e8078570fbf3231a73be53431c15db10bbedbdd
+
+pkgname = ruby-unicode-name

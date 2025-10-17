@@ -1,0 +1,13 @@
+pkgbase = ttf-kingnam-bobohei
+	pkgdesc = 来自荆南字坊的免费手写字.Kingnam Bobohei 荆南波波黑
+	pkgver = 1.710
+	pkgrel = 2
+	url = https://github.com/maoken-fonts/KNBobohei
+	arch = any
+	license = OFL-1.1
+	provides = ttf-kingnam-bobohei
+	conflicts = ttf-kingnam-bobohei
+	source = ttf-kingnam-bobohei-1.710.tar.gz::https://github.com/maoken-fonts/KNBobohei/archive/refs/tags/v1.710.tar.gz
+	sha256sums = 9845d7377258bd342b0266a4cb440b0fd40b62b6dacbeeb750b1c5e13a391789
+
+pkgname = ttf-kingnam-bobohei

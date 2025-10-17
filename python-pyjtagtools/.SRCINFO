@@ -1,0 +1,17 @@
+pkgbase = python-pyjtagtools
+	pkgdesc = JTAG tools for PyFtdi and QEMU
+	pkgver = 0.11.1
+	pkgrel = 1
+	url = https://github.com/eblot/pyjtagtools
+	arch = any
+	license = Apache-2.0
+	checkdepends = python-ruamel-yaml
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	source = pyjtagtools-0.11.1.tar.gz::https://github.com/eblot/pyjtagtools/archive/refs/tags/v0.11.1.tar.gz
+	sha512sums = cc8915fcc9ff9d795d01d63fb708f0ae7d033d58ed160ecd07e4576e7a96e49bfedaba67f0b6198e3ee916092d5a5a7f8f722a3730e6e9c068371870963629b5
+
+pkgname = python-pyjtagtools

@@ -1,0 +1,16 @@
+pkgbase = tracking
+	pkgdesc = Analyze how the behavior of a parallel application evolves through different scenarios (from BSC).
+	pkgver = 2.7.1.20250303
+	pkgrel = 1
+	url = https://www.bsc.es/discover-bsc/organisation/scientific-structure/performance-tools
+	arch = x86_64
+	license = LGPL-2.1-only
+	depends = wxparaver
+	depends = clusteringsuite
+	depends = python-pillow
+	depends = python-wxpython
+	depends = python-matplotlib
+	source = https://ftp.tools.bsc.es/tracking/tracking-2.7.1-src.tar.bz2
+	sha512sums = 058b4c81b95a614e05c90ea1fccc57a974954f1127bb6e9e295d77c62962226384ad96c20712e2945a98b1bd58c6aeee7ecf01c7dbac0615a0cbcd3ece9d64f8
+
+pkgname = tracking

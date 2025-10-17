@@ -1,0 +1,13 @@
+pkgbase = python-tflite-runtime
+	pkgdesc = TensorFlow Lite Python bindings
+	pkgver = 2.20.0
+	pkgrel = 1
+	url = https://www.tensorflow.org/lite/
+	arch = x86_64
+	license = Apache
+	makedepends = python-installer
+	depends = python-numpy
+	source = https://files.pythonhosted.org/packages/cp311/t/tflite-runtime-nightly/tflite_runtime_nightly-2.20.0.dev20250409-cp311-cp311-manylinux2014_x86_64.whl
+	sha256sums = bb54d8a5b42c1e201c232ab84c02fc2d3258db52753682a16bbc85ea453c1b26
+
+pkgname = python-tflite-runtime

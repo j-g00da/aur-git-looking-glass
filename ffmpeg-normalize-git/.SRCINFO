@@ -1,0 +1,25 @@
+pkgbase = ffmpeg-normalize-git
+	pkgdesc = Normalize loudness of audio and video files using FFmpeg
+	pkgver = 1.33.1.r0.gdd689b5
+	pkgrel = 4
+	url = https://github.com/slhck/ffmpeg-normalize
+	arch = any
+	license = MIT
+	checkdepends = git
+	checkdepends = python-pytest
+	checkdepends = uv
+	makedepends = git
+	makedepends = python-installer
+	makedepends = python-uv-build
+	makedepends = uv
+	depends = ffmpeg
+	depends = python-colorlog
+	depends = python-ffmpeg-progress-yield
+	depends = python-mutagen
+	depends = python-tqdm
+	provides = ffmpeg-normalize
+	conflicts = ffmpeg-normalize
+	source = ffmpeg-normalize-git::git+https://github.com/slhck/ffmpeg-normalize.git
+	sha512sums = SKIP
+
+pkgname = ffmpeg-normalize-git

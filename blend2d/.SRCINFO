@@ -1,0 +1,19 @@
+pkgbase = blend2d
+	pkgdesc = A high-performance 2D vector graphics engine written in C++
+	pkgver = 0.21.0
+	pkgrel = 1
+	url = https://blend2d.com
+	arch = aarch64
+	arch = armv7h
+	arch = i686
+	arch = x86_64
+	license = Zlib
+	makedepends = clang
+	makedepends = cmake>=3.19
+	depends = glibc
+	provides = libblend2d.so
+	source = blend2d-0.21.0.tar.gz::https://blend2d.com/download/blend2d-0.21.0.tar.gz
+	sha256sums = f360394e223f12053aac7f70b2c63df3c85de57cdf85efe4cc8cc8c446744cf9
+	b2sums = d0d1384b9d6ba1d5c1e665971c3c8103832715b46c8d1d3026e2433d373688f5e61974a9ad470ac0342651325839a7675cc0099ab35afff5d8cd4a63bcb0034d
+
+pkgname = blend2d

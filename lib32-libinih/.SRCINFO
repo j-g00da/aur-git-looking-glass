@@ -1,0 +1,17 @@
+pkgbase = lib32-libinih
+	pkgdesc = A simple .INI file parser written in C (32-bit)
+	pkgver = 58
+	pkgrel = 1
+	url = https://github.com/benhoyt/inih
+	arch = x86_64
+	license = BSD-3-Clause
+	makedepends = meson
+	depends = lib32-gcc-libs
+	depends = lib32-glibc
+	depends = libinih>=58
+	provides = libinih.so
+	provides = libINIReader.so
+	source = inih-r58.tar.gz::https://github.com/benhoyt/inih/archive/refs/tags/r58.tar.gz
+	b2sums = ba71b21b30c039df026adbd29b422b064934046ced21a37479421e866b73969826dc1fea4e3bc0c5ea427248c774d8f80b83056c54769d454bafa2f336d08024
+
+pkgname = lib32-libinih

@@ -1,0 +1,23 @@
+pkgbase = xf86-video-ati-git
+	pkgdesc = X.org ati video driver
+	pkgver = 22.0.0.r12.g7fb27871
+	pkgrel = 1
+	epoch = 1
+	url = https://xorg.freedesktop.org/
+	arch = x86_64
+	groups = xorg-drivers-git
+	license = MIT
+	makedepends = git
+	makedepends = xorg-server-devel
+	makedepends = systemd
+	depends = systemd-libs
+	depends = mesa
+	depends = libpciaccess
+	depends = libdrm
+	depends = glibc
+	provides = xf86-video-ati=22.0.0.r12.g7fb27871
+	conflicts = xf86-video-ati
+	source = xf86-video-ati-git::git+https://gitlab.freedesktop.org/xorg/driver/xf86-video-ati.git
+	sha512sums = SKIP
+
+pkgname = xf86-video-ati-git

@@ -1,0 +1,18 @@
+pkgbase = libclassicclient
+	pkgdesc = Gemalto PKCS#11 driver
+	pkgver = 7.5.0_b02.00
+	pkgrel = 3
+	url = https://www.luxtrust.com/en/middleware
+	arch = x86_64
+	source_x86_64 = https://gitlab.com/LuxTrustPublic/middleware/-/raw/main/LuxTrust_Middleware_1.9.4_Ubuntu_64bit.tar.gz
+	sha256sums_x86_64 = a690f7454cff49f2219dd84d15e81683404b9054309e0c2416e215f7246921d3
+
+pkgname = libclassicclient
+	depends = gcc-libs
+	depends = gdk-pixbuf2
+	depends = gtk2
+	depends = libusb-compat
+	depends = openmp
+	depends = openssl
+	depends = pcsclite
+	depends = qt5-base

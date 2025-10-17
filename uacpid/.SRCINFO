@@ -1,0 +1,18 @@
+pkgbase = uacpid
+	pkgdesc = Userspace Advanced Configuration and Power Interface event daemon
+	pkgver = 1.2
+	pkgrel = 1
+	url = http://hub.darcs.net/dino/uacpid
+	arch = i686
+	arch = x86_64
+	license = custom:BSD3
+	makedepends = ghc
+	makedepends = cabal-install
+	depends = gmp
+	depends = libffi
+	options = strip
+	source = http://hackage.haskell.org/package/uacpid-1.2/uacpid-1.2.tar.gz
+	md5sums = f25850b9c828b8d8f27d15b2fbad1c06
+
+pkgname = uacpid
+

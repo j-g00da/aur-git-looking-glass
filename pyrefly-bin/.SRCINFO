@@ -1,0 +1,17 @@
+pkgbase = pyrefly-bin
+	pkgdesc = A faster Python type checker written in Rust
+	pkgver = 0.37.0
+	pkgrel = 1
+	url = https://pyrefly.org/
+	arch = aarch64
+	arch = armv7h
+	arch = x86_64
+	license = MIT
+	source_aarch64 = pyrefly-aarch64-0.37.0.vsix::https://meta.gallery.vsassets.io/_apis/public/gallery/publisher/meta/extension/pyrefly/0.37.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?targetPlatform=linux-arm64
+	sha256sums_aarch64 = bcc20f25c87a09a9d1d79d976e021a3b61b6522713acd4749ef7521ac365d5fb
+	source_armv7h = pyrefly-armv7h-0.37.0.vsix::https://meta.gallery.vsassets.io/_apis/public/gallery/publisher/meta/extension/pyrefly/0.37.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?targetPlatform=linux-armhf
+	sha256sums_armv7h = b3ab3af96e20879f3d087802289604e201daf4d9c923d93f3d51dd90babe1ce1
+	source_x86_64 = pyrefly-x86_64-0.37.0.vsix::https://meta.gallery.vsassets.io/_apis/public/gallery/publisher/meta/extension/pyrefly/0.37.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?targetPlatform=linux-x64
+	sha256sums_x86_64 = fc5e9d40e9319d1dbd14e1af8b79f79429624aa6f0d486b1dc501dfa71c079d5
+
+pkgname = pyrefly-bin

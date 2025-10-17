@@ -1,0 +1,17 @@
+pkgbase = python-torchviz-git
+	pkgdesc = A small package to create visualizations of PyTorch execution graphs and traces
+	pkgver = 0.0.2.r23.5cf04c1
+	pkgrel = 2
+	url = https://github.com/szagoruyko/pytorchviz
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = python-setuptools
+	depends = python-graphviz
+	depends = python-pytorch
+	provides = python-torchviz=0.0.2.r23.5cf04c1
+	conflicts = python-torchviz
+	source = python-torchviz-git::git+https://github.com/szagoruyko/pytorchviz.git
+	md5sums = SKIP
+
+pkgname = python-torchviz-git

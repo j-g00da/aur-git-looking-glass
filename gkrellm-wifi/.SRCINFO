@@ -1,0 +1,12 @@
+pkgbase = gkrellm-wifi
+	pkgdesc = A GKrellM2 plug-in for monitoring the link quality of your wireless LAN cards
+	pkgver = 0.9.12
+	pkgrel = 3
+	url = https://github.com/tecknicaltom/gkrellm-wifi
+	arch = x86_64
+	license = GPL-2.0-only
+	depends = gkrellm
+	source = https://github.com/tecknicaltom/gkrellm-wifi/archive/0.9.12.tar.gz
+	sha256sums = 6f05bcc0d73752a9977d135c0f441cc6e5dc1a40fef242d874f3e66b66017e6c
+
+pkgname = gkrellm-wifi

@@ -1,0 +1,15 @@
+pkgbase = coreutils-uutils
+	pkgdesc = (Experimental) Use uutils as system core utilities
+	pkgver = 0.2.2
+	pkgrel = 3
+	url = https://github.com/uutils/coreutils
+	arch = any
+	license = MIT
+	depends = uutils-coreutils
+	provides = coreutils
+	provides = b3sum
+	conflicts = coreutils
+	conflicts = b3sum
+	conflicts = sha3sum
+
+pkgname = coreutils-uutils

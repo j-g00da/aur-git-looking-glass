@@ -1,0 +1,18 @@
+pkgbase = blacken-docs
+	pkgdesc = Run black on python code blocks in documentation files
+	pkgver = 1.20.0
+	pkgrel = 1
+	url = https://github.com/asottile/blacken-docs
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	checkdepends = python-pytokens
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python-black
+	source = blacken-docs-1.20.0.tar.gz::https://github.com/asottile/blacken-docs/archive/1.20.0.tar.gz
+	sha512sums = 492133bfa1e059bc620b506d9c9058b569f58562322466d479f324f68c37255523224c9c880d03b44d6b17b855f00e1c71e26f461744c5098eb7f887e8aebf5b
+
+pkgname = blacken-docs

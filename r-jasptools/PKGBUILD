@@ -1,0 +1,42 @@
+#Maintainer: sukanka <su975853527 AT gmail.com>
+_pkgname=jaspTools
+_pkgver=0.95.3
+pkgname=r-${_pkgname,,}
+pkgver=0.95.3
+pkgrel=1
+epoch=1
+pkgdesc="Helps preview and debug JASP analyses"
+arch=('any')
+url="https://github.com/jasp-stats/${_pkgname}"
+license=('GPL')
+depends=(r
+'r-jsonlite'
+'r-pkgbuild'
+'r-rjson'
+'r-rvg'
+'r-testthat'
+'r-data.table'
+'r-httr'
+'r-lifecycle'
+'r-pkgload'
+'r-remotes'
+'r-stringi'
+'r-stringr'
+'r-vdiffr'
+'r-archive'
+)
+groups=(r-jasp jaspbase)
+source=("${_pkgname}_${_pkgver}.tar.gz::${url}/archive/refs/tags/v${_pkgver}.tar.gz")
+sha256sums=('5ea47bbff72c858ef5f94a60bf668e6f746a8eadce936e11962c94a14103ff87')
+
+
+build() {
+
+  R CMD INSTALL ${_pkgname}_${_pkgver}.tar.gz -l "${srcdir}"
+}
+
+package() {
+  install -dm0755 "${pkgdir}/usr/lib/R/library"
+  cp -a --no-preserve=ownership "${_pkgname}" "${pkgdir}/usr/lib/R/library"
+  # we may or may not need this link.
+}

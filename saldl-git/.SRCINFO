@@ -1,0 +1,20 @@
+pkgbase = saldl-git
+	pkgdesc = A CLI downloader optimized for speed and early preview, based on libcurl.
+	pkgver = v25.5.ged58345
+	pkgrel = 1
+	url = https://saldl.github.io
+	arch = i686
+	arch = x86_64
+	arch = armv6h
+	arch = armv7h
+	license = AGPL
+	makedepends = python
+	makedepends = git
+	makedepends = asciidoc
+	depends = curl
+	depends = libevent
+	source = saldl-git::git://github.com/saldl/saldl.git
+	md5sums = SKIP
+
+pkgname = saldl-git
+

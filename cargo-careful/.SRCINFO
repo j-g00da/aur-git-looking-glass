@@ -1,0 +1,14 @@
+pkgbase = cargo-careful
+	pkgdesc = Execute Rust code carefully, with extra checking along the way
+	pkgver = 0.4.8
+	pkgrel = 1
+	url = https://github.com/RalfJung/cargo-careful
+	arch = x86_64
+	license = MIT
+	license = Apache
+	makedepends = cargo
+	depends = gcc-libs
+	source = cargo-careful-0.4.8.tar.gz::https://github.com/RalfJung/cargo-careful/archive/v0.4.8.tar.gz
+	sha512sums = 2bae810b6df7b09a21cf04c15a3b442af378e08e6bfae06c51033251829c1fd48e9588aa3d63aef8be33de785a3d8e2208630db7fcaa7b437c4984b4dc9d13f7
+
+pkgname = cargo-careful

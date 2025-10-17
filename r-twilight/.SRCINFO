@@ -1,0 +1,15 @@
+pkgbase = r-twilight
+	pkgdesc = Estimation of local false discovery rate
+	pkgver = 1.84.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/twilight
+	arch = x86_64
+	license = GPL-2.0-or-later
+	depends = r-biobase
+	optdepends = r-golubesets
+	optdepends = r-vsn
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/twilight_1.84.0.tar.gz
+	md5sums = 8ddae2f1c56d69f484142d1161253a04
+	b2sums = ac89f46d91660981d6c88ef2761db09a029ca0226e3fc9fce6446745282490065a37f9c7f6d8c74521dc22fcc54d381331ddc7e3ed7782cb2111295f1c265362
+
+pkgname = r-twilight

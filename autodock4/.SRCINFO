@@ -1,0 +1,20 @@
+pkgbase = autodock4
+	pkgdesc = Automated docking of flexible ligands to proteins
+	pkgver = 4.2.6
+	pkgrel = 2
+	url = https://github.com/ccsb-scripps/AutoDock4
+	arch = x86_64
+	arch = i686
+	license = GPL
+	makedepends = gcc
+	makedepends = make
+	makedepends = tcsh
+	makedepends = autoconf
+	makedepends = automake
+	depends = gcc-libs
+	source = autodock4-4.2.6.tar.gz::https://github.com/ccsb-scripps/AutoDock4/archive/refs/heads/master.tar.gz
+	source = autogrid4-4.2.6.tar.gz::https://github.com/ccsb-scripps/AutoGrid/archive/refs/heads/master.tar.gz
+	sha256sums = 1c44e7b6f0ea8a59aae8f4701ad5cbaa4c1b55e32549d3189af663349126b834
+	sha256sums = d3eed098d75a7d7189e9986f575ab7eff12fd932abb57005831f64b763a450fa
+
+pkgname = autodock4

@@ -1,0 +1,18 @@
+pkgbase = ephepm-iaarasru
+	pkgdesc = EphEPM calculates barycentric coordinates of some Solar System bodies
+	pkgver = 2.3.1
+	pkgrel = 1
+	url = https://github.com/ProfessorNavigator/eph-epm
+	arch = x86_64
+	license = GPL-3.0
+	makedepends = cmake
+	makedepends = sofa
+	makedepends = gcc
+	makedepends = pkgconf
+	depends = gtkmm-4.0
+	depends = mathgl
+	depends = gmp
+	source = https://github.com/ProfessorNavigator/eph-epm/archive/refs/tags/v2.3.1.tar.gz
+	sha256sums = a0e38e8d9778409da4b891d36ddcd8d6414d526a2a7de9737d79d9d3d31aaa20
+
+pkgname = ephepm-iaarasru

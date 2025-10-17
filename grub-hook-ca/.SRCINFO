@@ -1,0 +1,18 @@
+pkgbase = grub-hook-ca
+	pkgdesc = Pacman hooks to install and generate grub using the method for CA signing of bootloader.
+	pkgver = 3
+	pkgrel = 1
+	install = grub-hook-ca.install
+	arch = x86_64
+	license = GPL
+	depends = bash
+	depends = grub
+	optdepends = sbctl: To sign secureboot
+	source = grub-install
+	source = grub-install.hook
+	source = grub-vmlinuz.hook
+	sha256sums = 3c31996fc6e7671059a8e366f67396390b74e717c1dbf446e470f5e912a35f9a
+	sha256sums = 60eb5b7a3542167f4732a17614fb2145c2a662435627c3a33374ec307be7f0ce
+	sha256sums = 0fd2704ee9f7f335ad4960fc48d5225a8cbb0ab512a03160344200c37562e557
+
+pkgname = grub-hook-ca

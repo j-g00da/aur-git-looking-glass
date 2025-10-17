@@ -1,0 +1,26 @@
+pkgbase = zotify
+	pkgdesc = A fast and customizable music and podcast downloader.
+	pkgver = 0.6.13
+	pkgrel = 1
+	url = https://zotify.xyz/zotify/zotify
+	arch = x86_64
+	license = custom
+	makedepends = git
+	makedepends = python-setuptools
+	makedepends = python-build
+	makedepends = python-wheel
+	makedepends = python-installer
+	depends = python
+	depends = python-librespot
+	depends = python-music-tag
+	depends = python-pillow
+	depends = python-protobuf
+	depends = python-tabulate
+	depends = python-tqdm
+	depends = python-ffmpy
+	depends = python-pwinput
+	depends = python-mutagen
+	source = zotify::git+https://zotify.xyz/zotify/zotify#commit=5da27d32a1f522e80a3129c61f939b1934a0824a
+	sha256sums = SKIP
+
+pkgname = zotify

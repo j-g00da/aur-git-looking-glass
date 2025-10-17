@@ -1,0 +1,24 @@
+pkgbase = dynamic-wallpaper-mojave
+	pkgver = 6.2.r3.gb625254
+	pkgrel = 1
+	url = https://github.com/japamax/gnome-kde-dynamic-wallpaper-mojave
+	arch = any
+	source = git+https://github.com/japamax/gnome-kde-dynamic-wallpaper-mojave
+	sha256sums = SKIP
+
+pkgname = dynamic-wallpaper-mojave-gnome-timed-git
+	pkgdesc = Time based GNOME macOS Mojave wallpaper with real scheludes
+	install = dynamic-wallpaper-mojave-gnome-timed-git.install
+	depends = gnome-shell
+	depends = gnome-backgrounds
+	depends = dynamic-wallpaper-mojave-images-git
+
+pkgname = dynamic-wallpaper-mojave-kde-git
+	pkgdesc = Azimuth Elevation based / Time based KDE macOS Mojave wallpaper
+	install = dynamic-wallpaper-mojave-kde-git.install
+	depends = plasma5-wallpapers-dynamic>=2.3
+	depends = dynamic-wallpaper-mojave-images-git
+
+pkgname = dynamic-wallpaper-mojave-images-git
+	pkgdesc = macOS Mojave dynamic wallpaper based 16 images
+

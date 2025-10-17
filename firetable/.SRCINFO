@@ -1,0 +1,20 @@
+pkgbase = firetable
+	pkgdesc = Tool written in PHP to maintain IPtables firewalls under Linux
+	pkgver = 5.8
+	pkgrel = 1
+	url = https://gitlab.com/hsleisink/firetable
+	install = firetable.install
+	arch = any
+	license = GPL
+	makedepends = patch
+	depends = iptables
+	depends = php
+	backup = etc/firetable/firetable.conf
+	backup = etc/firetable/ipv6_eth0
+	backup = etc/firetable/ipv4_eth0
+	source = https://gitlab.com/hsleisink/firetable/-/archive/v5.8/firetable-v5.8.tar.gz
+	source = firetable.service
+	md5sums = 2932343d9935737fb9f488c6ecc042bd
+	md5sums = 64a49e485f646c75abe53d29736674e6
+
+pkgname = firetable

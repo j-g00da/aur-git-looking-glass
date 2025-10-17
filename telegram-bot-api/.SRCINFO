@@ -1,0 +1,25 @@
+pkgbase = telegram-bot-api
+	pkgdesc = Telegram Bot API server
+	pkgver = 9.0
+	pkgrel = 1
+	url = https://core.telegram.org/bots
+	arch = aarch64
+	arch = armv7h
+	arch = i686
+	arch = x86_64
+	license = BSL-1.0
+	makedepends = cmake>=3.0.2
+	makedepends = gcc>=4.9.2
+	makedepends = git
+	makedepends = gperf
+	depends = gcc-libs
+	depends = openssl
+	depends = zlib
+	provides = telegram-bot-api
+	conflicts = telegram-bot-api-git
+	source = git+https://github.com/tdlib/telegram-bot-api.git#commit=8be1f0058c8f6938418a82092363ffb58e7222eb
+	source = git+https://github.com/tdlib/td.git#commit=a03a90470d6fca9a5a3db747ba3f3e4a465b5fe7
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = telegram-bot-api

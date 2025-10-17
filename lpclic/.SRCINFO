@@ -1,0 +1,18 @@
+pkgbase = lpclic
+	pkgdesc = Optimizes the command history and adds some command completion to the linphonec CLI for linphone
+	pkgver = 0.5.5
+	pkgrel = 1
+	url = https://github.com/burt1iband/lpclic
+	arch = any
+	license = GPL
+	depends = bash
+	depends = bash-completion
+	depends = sed
+	depends = linphone
+	provides = lpclic
+	conflicts = lpclic
+	source = git+https://github.com/burt1iband/lpclic.git
+	md5sums = SKIP
+
+pkgname = lpclic
+

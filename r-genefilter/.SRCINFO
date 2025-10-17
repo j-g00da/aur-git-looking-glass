@@ -1,0 +1,24 @@
+pkgbase = r-genefilter
+	pkgdesc = methods for filtering genes from high-throughput experiments
+	pkgver = 1.90.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/genefilter
+	arch = x86_64
+	license = Artistic-2.0
+	makedepends = gcc-fortran
+	depends = r-annotate
+	depends = r-annotationdbi
+	depends = r-biobase
+	depends = r-matrixgenerics
+	optdepends = r-all
+	optdepends = r-biocstyle
+	optdepends = r-hgu95av2.db
+	optdepends = r-knitr
+	optdepends = r-rcolorbrewer
+	optdepends = r-roc
+	optdepends = r-tkwidgets
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/genefilter_1.90.0.tar.gz
+	md5sums = f910f7a166562df321c45c88b4f77b58
+	b2sums = ffeda9fc0ee3d3cf7930d642529d91416e21b30458954ec336f86a1ea18053fffac0704e9c1d19e630bb83dd679d39c6a3cbd7d855c479623700f9bba5e493f7
+
+pkgname = r-genefilter

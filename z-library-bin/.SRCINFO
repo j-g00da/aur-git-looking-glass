@@ -1,0 +1,20 @@
+pkgbase = z-library-bin
+	pkgdesc = Z-library application
+	pkgver = 3.0.0
+	pkgrel = 1
+	url = https://z-lib.fm/z-access
+	arch = x86_64
+	license = ISC
+	depends = gtk3
+	depends = libnotify
+	depends = nss
+	depends = libxss
+	depends = libxtst
+	depends = at-spi2-core
+	depends = util-linux-libs
+	depends = libsecret
+	depends = libappindicator-gtk3
+	source = https://s3proxy.cdn-zlib.sk/te_public_files/soft/desktop/Z-Library_3.0.0_amd64.deb
+	sha256sums = cacc657f477a1ce06af47a3c4e3d4fd7144ec1467fb4b748d4f4525135778cc6
+
+pkgname = z-library-bin

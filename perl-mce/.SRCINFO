@@ -1,0 +1,15 @@
+pkgbase = perl-mce
+	pkgdesc = Many-Core Engine for Perl providing parallel processing capabilities
+	pkgver = 1.902
+	pkgrel = 1
+	url = https://metacpan.org/release/MCE
+	arch = any
+	license = Artistic-1.0-Perl
+	license = GPL-1.0-or-later
+	depends = perl>=5.8.1
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/M/MA/MARIOROY/MCE-1.902.tar.gz
+	md5sums = 89c12d801215719354f11d762b2f14de
+	sha512sums = 1677795323dc58cb5e2561e61806863993a1be679797f4b8593e7ead418e08762f6f991ed0dc07a1661f36b19f814ab0ca5c8b80ebf36df06ce96f0f5a80bef8
+
+pkgname = perl-mce

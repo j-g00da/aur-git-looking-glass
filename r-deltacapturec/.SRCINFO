@@ -1,0 +1,20 @@
+pkgbase = r-deltacapturec
+	pkgdesc = This Package Discovers Meso-scale Chromatin Remodeling from 3C Data
+	pkgver = 1.22.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/deltaCaptureC
+	arch = any
+	license = MIT
+	depends = r
+	depends = r-deseq2
+	depends = r-genomicranges
+	depends = r-ggplot2
+	depends = r-iranges
+	depends = r-summarizedexperiment
+	depends = r-tictoc
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/deltaCaptureC_1.22.0.tar.gz
+	sha256sums = 9a53c7b35080858a7a5d674d22dbd575154a3e27a6ef9406e960a4a5565f1b93
+
+pkgname = r-deltacapturec

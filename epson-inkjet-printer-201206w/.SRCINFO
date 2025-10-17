@@ -1,0 +1,14 @@
+pkgbase = epson-inkjet-printer-201206w
+	pkgdesc = Epson inkjet printer driver (ME-10, ME-101)
+	pkgver = 1.0.1
+	pkgrel = 1
+	url = https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+	arch = x86_64
+	license = custom:Epson End User Software License Agreement
+	depends = epson-inkjet-printer-filter
+	depends = gcc-libs
+	depends = glibc
+	source = https://download3.ebz.epson.net/dsc/f/03/00/15/65/09/ed76378325239781cd1da54828e8ca7e32dbd322/epson-inkjet-printer-201206w-1.0.1-1.src.rpm
+	sha256sums = 5640d3d0af6551f164d97ecdc14dd3601992f2cff63e95cd654b2e79f24bf0bd
+
+pkgname = epson-inkjet-printer-201206w

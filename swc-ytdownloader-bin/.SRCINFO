@@ -1,0 +1,18 @@
+pkgbase = swc-ytdownloader-bin
+	pkgdesc = Download and convert Videos from YouTube and other sites with thumbnail and metadata support.(Prebuilt version.Use system-wide electron)
+	pkgver = 0.1.35
+	pkgrel = 5
+	url = https://projects.software-city.org/p/yt-downloader
+	arch = x86_64
+	license = MIT
+	depends = electron28
+	provides = swc-ytdownloader=0.1.35
+	conflicts = swc-ytdownloader
+	source = swc-ytdownloader-0.1.35.deb::https://github.com/Davis-Software/YTDownloader/releases/download/v0.1.35/swc_ytdownloader_0.1.35_amd64.deb
+	source = LICENSE-0.1.35::https://raw.githubusercontent.com/Davis-Software/YTDownloader/v0.1.35/LICENSE
+	source = swc-ytdownloader.sh
+	sha256sums = 1f953b115ff947dc13df8bcc61be85ef1e274b7f0554b951653f67edf8069ec4
+	sha256sums = 6c05069775fad84e1ae33b25f8dee3ec183ea8bf2270df24485de616237443bd
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = swc-ytdownloader-bin

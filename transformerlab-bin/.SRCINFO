@@ -1,0 +1,23 @@
+pkgbase = transformerlab-bin
+	pkgdesc = Open Source Application for Advanced LLM Engineering: interact, train, fine-tune, and evaluate large language models on your own computer.(Prebuilt version.Use system-wide electron)
+	pkgver = 0.23.1
+	pkgrel = 1
+	url = https://transformerlab.ai/
+	arch = aarch64
+	arch = x86_64
+	license = MIT
+	makedepends = asar
+	depends = electron26
+	optdepends = ollama: server GGUF models instead of llama.cpp
+	provides = transformerlab=0.23.1
+	conflicts = transformerlab
+	source = LICENSE-0.23.1::https://raw.githubusercontent.com/transformerlab/transformerlab-app/v0.23.1/LICENSE
+	source = transformerlab.sh
+	sha256sums = 8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef
+	sha256sums = 31ad33b633744f5361abd964be306cea53ae1050e760c787115f7eca60045ae6
+	source_aarch64 = transformerlab-0.23.1-aarch64.AppImage::https://github.com/transformerlab/transformerlab-app/releases/download/v0.23.1/Transformer-Lab-0.23.1-arm64.AppImage
+	sha256sums_aarch64 = 2f6de59f0850e517b83c5da47a057c9102687e8328d4ec421f13cd8a4c881ccd
+	source_x86_64 = transformerlab-0.23.1-x86_64.AppImage::https://github.com/transformerlab/transformerlab-app/releases/download/v0.23.1/Transformer-Lab-0.23.1.AppImage
+	sha256sums_x86_64 = 06a855113f4d4ac059637c1a32d0687dc9a871cff8bdf6401141e28e1793c11a
+
+pkgname = transformerlab-bin

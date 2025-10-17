@@ -1,0 +1,27 @@
+pkgbase = libsignal-client
+	pkgdesc = Library for the Signal Protocol.
+	pkgver = 0.81.0
+	pkgrel = 1
+	url = https://github.com/signalapp/libsignal
+	arch = i686
+	arch = x86_64
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = AGPL-3.0-only
+	checkdepends = cargo
+	makedepends = cargo
+	makedepends = gradle
+	makedepends = git
+	makedepends = zip
+	makedepends = protobuf
+	makedepends = cmake
+	makedepends = clang
+	makedepends = java-environment=17
+	makedepends = python
+	depends = gcc-libs
+	options = !lto
+	source = libsignal-0.81.0.tar.gz::https://github.com/signalapp/libsignal/archive/refs/tags/v0.81.0.tar.gz
+	sha512sums = 8d0c4253baa53f6805670a7306a2a57cab41aaaa8db0438009b1450d07383429f241f752f7c3b212974d24a57edaf12273fd9596816447f7bb695688e2e8a691
+
+pkgname = libsignal-client

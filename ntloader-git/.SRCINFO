@@ -1,0 +1,24 @@
+pkgbase = ntloader-git
+	pkgdesc = Windows NT6+ loader for grub2 and grub4dos.
+	pkgver = 3.0.6.r0.gec501ba
+	pkgrel = 1
+	url = https://github.com/grub4dos/ntloader.git
+	arch = x86_64
+	license = GPLv2+
+	makedepends = git
+	makedepends = gcc
+	makedepends = binutils
+	makedepends = zlib
+	makedepends = make
+	makedepends = mingw-w64-gcc
+	makedepends = aarch64-linux-gnu-gcc
+	provides = ntloader
+	conflicts = ntloader
+	options = !strip
+	options = !buildflags
+	source = ntloader-git::git+https://github.com/grub4dos/ntloader.git
+	source = install.sh
+	sha256sums = SKIP
+	sha256sums = 4449abfd66efeac3d8ce87d1fed95ef8da165f19e67a7dea01a64f3bc8719b05
+
+pkgname = ntloader-git

@@ -1,0 +1,24 @@
+pkgbase = cloudflare-warp-minimal-bin
+	pkgdesc = Minimal Cloudflare WARP client
+	pkgver = 2025.8.779.0
+	pkgrel = 1
+	url = https://developers.cloudflare.com/warp-client
+	arch = x86_64
+	license = custom
+	depends = ca-certificates
+	depends = glibc
+	depends = gnupg
+	depends = iproute2
+	depends = libcap
+	depends = libdbus
+	depends = libpcap
+	depends = nftables
+	depends = nspr
+	depends = nss
+	provides = cloudflare-warp-minimal-bin
+	conflicts = cloudflare-warp-bin
+	conflicts = cloudflare-warp
+	source = https://pkg.cloudflareclient.com/pool/trixie/main/c/cloudflare-warp/cloudflare-warp_2025.8.779.0_amd64.deb
+	sha256sums = b52c1b772a065cbb660a9e744ab5452725a06de3a958ed1fecf1f492f478882d
+
+pkgname = cloudflare-warp-minimal-bin

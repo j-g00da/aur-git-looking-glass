@@ -1,0 +1,20 @@
+pkgbase = libalkimia-git
+	pkgdesc = A library with common classes and functionality used by finance applications for the KDE SC
+	pkgver = 8.2.1.r7.gaf0f368
+	pkgrel = 1
+	url = https://community.kde.org/Alkimia/libalkimia
+	arch = x86_64
+	license = LGPL-2.1-or-later
+	makedepends = cmake
+	makedepends = doxygen
+	makedepends = extra-cmake-modules
+	makedepends = kdoctools
+	depends = qt6-webengine
+	depends = knewstuff
+	depends = ktextwidgets
+	provides = libalkimia
+	conflicts = libalkimia
+	source = git+https://invent.kde.org/office/alkimia.git#branch=8.2
+	sha256sums = SKIP
+
+pkgname = libalkimia-git

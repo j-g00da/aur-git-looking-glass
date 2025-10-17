@@ -1,0 +1,19 @@
+pkgbase = utena-launcher
+	pkgdesc = launcher make by slint, hope I will get my revolution
+	pkgver = 0.4.13
+	pkgrel = 1.0
+	url = https://github.com/Decodetalkers/launchre
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = git
+	makedepends = ninja
+	makedepends = meson
+	makedepends = rust
+	makedepends = qt6-base
+	depends = qt6-base
+	options = !lto
+	source = utena-launcher-v0.4.13.tar.gz::https://github.com/Decodetalkers/launchre/archive/refs/tags/v0.4.13.tar.gz
+	sha256sums = 521186b9f31e98fa1ee800504d8210a513bf8fbcdcd251e65eef12703943ae3e
+
+pkgname = utena-launcher

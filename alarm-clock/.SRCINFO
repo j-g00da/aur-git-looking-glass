@@ -1,0 +1,16 @@
+pkgbase = alarm-clock
+	pkgdesc = A simple alarm clock with Outlook reminder integration
+	pkgver = 1.4.0
+	pkgrel = 1
+	url = https://github.com/chocolateimage/alarm-clock
+	arch = x86_64
+	license = GPL-3.0-only
+	depends = python
+	depends = python-pyqt6
+	depends = python-requests
+	optdepends = python-selenium: Outlook integration support
+	optdepends = selenium-manager: Outlook integration support - Auto installation of ChromeDriver
+	source = alarm-clock-1.4.0.tar.gz::https://github.com/chocolateimage/alarm-clock/archive/refs/tags/v1.4.0.tar.gz
+	sha256sums = 1aba1ab3ef05aa880072e7647ae4f4f4c28fe3f2fd9a342b247053aeeae3e336
+
+pkgname = alarm-clock

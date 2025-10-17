@@ -1,0 +1,13 @@
+pkgbase = vcftools
+	pkgdesc = A set of tools written in Perl and C++ for working with VCF files
+	pkgver = 0.1.17
+	pkgrel = 1
+	url = https://vcftools.github.io/
+	arch = x86_64
+	license = LGPL-3.0-or-later
+	depends = perl
+	depends = zlib
+	source = vcftools-0.1.17.tar.gz::https://github.com/vcftools/vcftools/archive/v0.1.17.tar.gz
+	sha256sums = 00b54fc7349179c2efbdab0e4dcb65a69e7b0ab0d0d29b59cc823140d0b40bff
+
+pkgname = vcftools

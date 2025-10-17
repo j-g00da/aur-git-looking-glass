@@ -1,0 +1,16 @@
+pkgbase = dablin
+	pkgdesc = Plays a DAB/DAB+ audio service from a live transmission or from a stored ensemble recording
+	pkgver = 1.16.1
+	pkgrel = 1
+	url = https://github.com/Opendigitalradio/dablin
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = cmake
+	depends = sdl2
+	depends = mpg123
+	depends = gtkmm3
+	depends = faad2
+	source = dablin-1.16.1.tar.gz::https://github.com/Opendigitalradio/dablin/archive/1.16.1.tar.gz
+	sha256sums = 1cc2daa60b6df6a296d0d2b1826de5a78dc007fa08e6895d85a915630fbea9ea
+
+pkgname = dablin

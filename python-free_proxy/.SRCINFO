@@ -1,0 +1,16 @@
+pkgbase = python-free_proxy
+	pkgdesc = Proxy scraper for further use
+	pkgver = 1.1.3
+	pkgrel = 1
+	url = https://github.com/jundymek/free-proxy
+	arch = any
+	license = MIT
+	depends = python
+	depends = python-requests
+	depends = python-lxml
+	provides = python-free_proxy
+	conflicts = python-free_proxy
+	source = https://files.pythonhosted.org/packages/source/f/free_proxy/free_proxy-1.1.3.tar.gz
+	sha256sums = 6d82aa112e3df7725bdbf177e2110bccdf5f3bbd6e1c70b8616ec12ae3bbf98c
+
+pkgname = python-free_proxy

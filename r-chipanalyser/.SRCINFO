@@ -1,0 +1,27 @@
+pkgbase = r-chipanalyser
+	pkgdesc = ChIPanalyser: Predicting Transcription Factor Binding Sites
+	pkgver = 1.30.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/ChIPanalyser
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-biocmanager
+	depends = r-biostrings
+	depends = r-bsgenome
+	depends = r-genomeinfodb
+	depends = r-genomicranges
+	depends = r-iranges
+	depends = r-rcolorbrewer
+	depends = r-rcpproll
+	depends = r-rocr
+	depends = r-rtracklayer
+	depends = r-s4vectors
+	optdepends = r-biocgenerics
+	optdepends = r-bsgenome.dmelanogaster.ucsc.dm6
+	optdepends = r-knitr
+	optdepends = r-runit
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/ChIPanalyser_1.30.0.tar.gz
+	sha256sums = 48c894fffc6f07930b06f0b90dc412188f448daaaf978cdbc0426e52365a7cec
+
+pkgname = r-chipanalyser

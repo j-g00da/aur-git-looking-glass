@@ -1,0 +1,25 @@
+pkgbase = bitcomet
+	pkgdesc = A BitTorrent/HTTP/FTP download client
+	pkgver = 2.17.0
+	pkgrel = 1
+	url = https://www.bitcomet.com
+	arch = x86_64
+	license = LicenseRef-bitcomet
+	depends = cairo
+	depends = gcc-libs
+	depends = gdk-pixbuf2
+	depends = glib2
+	depends = glibc
+	depends = gtk3
+	depends = hicolor-icon-theme
+	depends = libx11
+	depends = libxkbcommon
+	depends = pango
+	depends = webkit2gtk
+	depends = zlib
+	source = bitcomet-2.17.0.deb::https://download.bitcomet.com/linux/x86_64/BitComet-2.17.0-x86_64.deb
+	source = LICENSE.html::https://www.bitcomet.com/en/license
+	sha256sums = a640aa5fe4cfd392d4db23592de31897787fc52589e37b6a65bb7f74ed46e22f
+	sha256sums = a5ceafe53c05956057d4abb7f29992cd61789c71d223ea9389569df1651b2289
+
+pkgname = bitcomet

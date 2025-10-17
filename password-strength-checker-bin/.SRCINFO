@@ -1,0 +1,16 @@
+pkgbase = password-strength-checker-bin
+	pkgdesc = Password Strength Measuring or checking application.(Prebuilt version.Use system-wide electron)
+	pkgver = 2.3.0
+	pkgrel = 3
+	url = https://github.com/ArchismanKarmakar/Password-Strength-Check-ElectronJS-CPP
+	arch = x86_64
+	license = MIT
+	depends = electron29
+	provides = password-strength-checker=2.3.0
+	conflicts = password-strength-checker
+	source = password-strength-checker-2.3.0.rpm::https://github.com/ArchismanKarmakar/Password-Strength-Check-ElectronJS-CPP/releases/download/v2.3.0Rel16032024-1000ist/password-strength-checker-using-electronjs-cpp-2.3.0.x86_64.rpm
+	source = password-strength-checker.sh
+	sha256sums = e2c3a070268f6f032a49a63858a9ee3bc57c5d61c00509d83eb1a82918f0968b
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = password-strength-checker-bin

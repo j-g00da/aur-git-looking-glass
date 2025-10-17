@@ -1,0 +1,11 @@
+pkgbase = unscrambler
+	pkgdesc = unscramble not standard IVs scrambled DVDs thru bruteforce, intended for Gamecube/WII Optical Disks.
+	pkgver = 0.5.5
+	pkgrel = 1
+	url = https://github.com/saramibreak/unscrambler
+	arch = x86_64
+	license = GPL-2.0-only
+	source = unscrambler-0.5.5.tar.gz::https://github.com/saramibreak/unscrambler/archive/refs/tags/0.5.5.tar.gz
+	sha256sums = 5d0e9a18317a5b52e9b5e7babfcef00a775b8548fbbbb1451d75c5e05e037678
+
+pkgname = unscrambler

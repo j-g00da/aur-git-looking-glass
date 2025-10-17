@@ -1,0 +1,23 @@
+pkgbase = python-app_paths
+	pkgdesc = Like appdirs, but with pathlib, path creation and async support.
+	pkgver = 0.0.8
+	pkgrel = 1
+	url = https://github.com/alexdelorenzo/app_paths
+	arch = any
+	license = LGPL-3.0-or-later
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python-aiopath
+	depends = python-anyio
+	depends = python-appdirs
+	depends = python-asyncstdlib
+	depends = python-strenum
+	depends = python-unpackable
+	source = https://files.pythonhosted.org/packages/source/a/app_paths/app_paths-0.0.8.tar.gz
+	source = https://raw.githubusercontent.com/alexdelorenzo/app_paths/master/requirements.txt
+	sha256sums = 8c7fd1e28a7f2d52ed3198d01a94f651284fa63384f07a6c676eeefe7dc25f75
+	sha256sums = d6e2f18382078329548acb1dae4b02f6ba9814d069bc341fb84ac97016302101
+
+pkgname = python-app_paths

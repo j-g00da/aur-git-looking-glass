@@ -1,0 +1,18 @@
+pkgbase = bdflib-git
+	pkgdesc = A Python library for reading, writing and modifying bitmap fonts in BDF format
+	pkgver = r147.0b0de2b
+	pkgrel = 1
+	url = https://gitlab.com/Screwtapello/bdflib
+	arch = any
+	license = GPL2
+	makedepends = git
+	makedepends = python-setuptools
+	makedepends = python-build
+	makedepends = python-installer
+	depends = python
+	provides = bdflib
+	conflicts = bdflib
+	source = bdflib-git::git+https://gitlab.com/Screwtapello/bdflib
+	md5sums = SKIP
+
+pkgname = bdflib-git

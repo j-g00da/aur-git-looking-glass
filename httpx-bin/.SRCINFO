@@ -1,0 +1,21 @@
+pkgbase = httpx-bin
+	pkgdesc = Fast and multi-purpose HTTP toolkit
+	pkgver = 1.7.1
+	pkgrel = 1
+	url = https://github.com/projectdiscovery/httpx
+	install = httpx-bin.install
+	arch = x86_64
+	arch = armv6h
+	arch = aarch64
+	license = MIT
+	provides = httpx
+	conflicts = httpx
+	options = !strip
+	source_x86_64 = httpx-1.7.1-x86_64.zip::https://github.com/projectdiscovery/httpx/releases/download/v1.7.1/httpx_1.7.1_linux_amd64.zip
+	sha256sums_x86_64 = 865806a4eec321368e365b419baa3abdc0deb0d4ba598fe85a548a7c8682eb30
+	source_armv6h = httpx-1.7.1-armv6.zip::https://github.com/projectdiscovery/httpx/releases/download/v1.7.1/httpx_1.7.1_linux_arm.zip
+	sha256sums_armv6h = 8797158f1dfa922257bb71e1e0773f497a2d5b5d4fa764b73917f3dc2a2ddf04
+	source_aarch64 = httpx-1.7.1-aarch64.zip::https://github.com/projectdiscovery/httpx/releases/download/v1.7.1/httpx_1.7.1_linux_arm64.zip
+	sha256sums_aarch64 = 54cec49934ff60bc78980d3f6f4bff01742ca50214183d78b2c336f40db2dda3
+
+pkgname = httpx-bin

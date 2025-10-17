@@ -1,0 +1,14 @@
+pkgbase = nzbget-systemd
+	pkgdesc = Systemd service for NZBGet
+	pkgver = 0.1
+	pkgrel = 3
+	url = https://github.com/Holzhaus/PKGBUILDs
+	install = nzbget.install
+	arch = any
+	license = GPL
+	depends = nzbget
+	source = nzbget.service
+	sha256sums = 3360adaa83a070995e7467cf5fd58518d836b2134ce19179364ac92db9e8bee0
+
+pkgname = nzbget-systemd
+

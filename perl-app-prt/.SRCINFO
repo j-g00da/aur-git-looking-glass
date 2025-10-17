@@ -1,0 +1,26 @@
+pkgbase = perl-app-prt
+	pkgdesc = Command line Perl Refactoring Tool
+	pkgver = 0.22
+	pkgrel = 2
+	url = https://metacpan.org/release/App-PRT
+	arch = any
+	license = Artistic-1.0
+	checkdepends = perl-test-class>=0
+	checkdepends = perl-test-deep>=0
+	checkdepends = perl-test-fatal>=0
+	checkdepends = perl-test-mock-guard>=0
+	depends = perl-capture-tiny>=0.39
+	depends = perl-class-load>=0
+	depends = perl-file-copy-recursive>=0
+	depends = perl-file-find-rule>=0
+	depends = perl-file-pushd>=1.013
+	depends = perl-io-interactive>=0
+	depends = perl-ppi>=0.844
+	depends = perl-path-class>=0
+	depends = perl>=5.10.1
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/H/HI/HITODE/App-PRT-0.22.tar.gz
+	md5sums = 2d38c1683b5081ff16acb7ca6db65cc0
+	sha512sums = 31ea87c2f3e8840bab898dd4de5906f2c3a96e5b006fa28872b2182cbba54bb141209f2a57933d2870cb6dac666e65086bab8a6e15eeda1e6d87fcf20f995698
+
+pkgname = perl-app-prt

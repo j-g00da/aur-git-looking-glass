@@ -1,0 +1,14 @@
+pkgbase = ovsx
+	pkgdesc = Command line interface for Eclipse Open VSX
+	pkgver = 0.10.5
+	pkgrel = 1
+	url = https://open-vsx.org
+	arch = any
+	license = EPL2
+	makedepends = npm
+	depends = nodejs
+	noextract = ovsx-0.10.5.tgz
+	source = https://registry.npmjs.org/ovsx/-/ovsx-0.10.5.tgz
+	sha256sums = 6c20f2ed2580a6ee4700350da226befc8d28419417124fca5a84fbc200490101
+
+pkgname = ovsx

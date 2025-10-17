@@ -1,0 +1,22 @@
+pkgbase = godspeed-git
+	pkgdesc = 🌲A simplified web browser based on Electron.(Use system-wide electron)
+	pkgver = 0.1.1.r0.ga5cc184
+	pkgrel = 1
+	url = https://github.com/BlackGlory/godspeed
+	arch = any
+	license = MIT
+	makedepends = npm
+	makedepends = yarn
+	makedepends = git
+	makedepends = nvm
+	makedepends = gendesk
+	makedepends = curl
+	depends = electron34
+	provides = godspeed=0.1.1
+	conflicts = godspeed
+	source = godspeed.git::git+https://github.com/BlackGlory/godspeed.git
+	source = godspeed.sh
+	sha256sums = SKIP
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = godspeed-git

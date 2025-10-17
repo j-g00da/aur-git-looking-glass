@@ -1,0 +1,12 @@
+pkgbase = cppitertools
+	pkgdesc = Python itertools and builtin iteration functions for C++17
+	pkgver = 2.2
+	pkgrel = 2
+	url = https://github.com/ryanhaining/cppitertools
+	arch = any
+	license = BSD-2-Clause
+	makedepends = cmake
+	source = cppitertools-2.2.tar.gz::https://github.com/ryanhaining/cppitertools/archive/refs/tags/v2.2.tar.gz
+	sha256sums = d4e796c9d8ec769fbd68df92943d238d0c43667307995ede058069e770827481
+
+pkgname = cppitertools

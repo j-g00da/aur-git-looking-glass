@@ -1,0 +1,17 @@
+pkgbase = pcanflash-git
+	pkgdesc = Linux Tool to flash PCAN Routers
+	pkgver = r94.ff6be26
+	pkgrel = 13
+	url = https://github.com/peak-system/pcanflash
+	arch = x86_64
+	license = GPL-2.0-only
+	makedepends = git
+	depends = glibc
+	depends = linux-api-headers
+	optdepends = iproute2: IP Routing Utilities
+	provides = pcanflash
+	conflicts = pcanflash
+	source = pcanflash-git::git+https://github.com/peak-system/pcanflash.git
+	sha256sums = SKIP
+
+pkgname = pcanflash-git

@@ -1,0 +1,35 @@
+pkgbase = x-tools
+	pkgdesc = Qt SerialPort-BLE-UDP-TCP-WebSocket-Modbus-CAN Assistant.
+	pkgver = 7.4.0
+	pkgrel = 1
+	url = https://github.com/x-tools-author/x-tools
+	arch = x86_64
+	license = LGPL-3.0-or-later
+	checkdepends = gtest
+	makedepends = git
+	makedepends = cmake
+	makedepends = ninja
+	makedepends = qt6-svg
+	makedepends = qt6-tools
+	makedepends = pkgconf
+	depends = bash
+	depends = gcc-libs
+	depends = glibc
+	depends = hicolor-icon-theme
+	depends = libiconv
+	depends = libunwind
+	depends = vulkan-headers
+	depends = qt6-charts
+	depends = qt6-connectivity
+	depends = qt6-base
+	depends = qt6-serialbus
+	depends = qt6-serialport
+	depends = qt6-websockets
+	provides = x-tools
+	provides = xtools
+	conflicts = x-tools
+	conflicts = xtools
+	source = x-tools::git+https://github.com/x-tools-author/x-tools.git#tag=v7.4.0
+	sha256sums = f45dc6ea16c5be7871563bc5d997c7d8e901839a6496b6b3fcf1cc568997b5ef
+
+pkgname = x-tools

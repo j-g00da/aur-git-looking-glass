@@ -1,0 +1,13 @@
+pkgbase = python-venusian
+	pkgdesc = A library for deferring decorator actions.
+	pkgver = 3.1.1
+	pkgrel = 1
+	url = https://github.com/Pylons/venusian/
+	arch = any
+	license = custom:BSD
+	makedepends = python-setuptools
+	depends = python
+	source = https://pypi.python.org/packages/source/v/venusian/venusian-3.1.1.tar.gz
+	md5sums = c7d45065905eceebb5ce54b2e72590f9
+
+pkgname = python-venusian

@@ -1,0 +1,23 @@
+pkgbase = vdr-scraper2vdr
+	pkgdesc = Acts as client and provides scraped metadata for tvshows and movies from epgd
+	pkgver = 1.1.3
+	pkgrel = 3
+	url = https://github.com/horchi/scraper2vdr
+	arch = x86_64
+	arch = i686
+	arch = arm
+	arch = armv6h
+	arch = armv7h
+	license = GPL2
+	makedepends = imlib2
+	depends = graphicsmagick
+	depends = libmariadbclient
+	depends = vdr-api=9
+	backup = etc/vdr/conf.avail/50-scraper2vdr.conf
+	backup = var/lib/vdr/plugins/scraper2vdr/epg.dat
+	source = vdr-scraper2vdr-1.1.3.tar.gz::https://github.com/horchi/scraper2vdr/archive/1.1.3.tar.gz
+	source = 50-scraper2vdr.conf
+	sha256sums = b143be4c098f65d9d6e6e43c4aa820b42cd4a415f27c467e6dc066e967abc8d1
+	sha256sums = 21ef2037dd4b746e7eafe4314d4a27c89300916bb9fa95ff759396228004bf36
+
+pkgname = vdr-scraper2vdr

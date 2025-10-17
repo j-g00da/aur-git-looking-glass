@@ -1,0 +1,17 @@
+pkgbase = pam_rssh
+	pkgdesc = A PAM module that provides ssh-agent based authentication
+	pkgver = 1.2.0
+	pkgrel = 1
+	url = https://github.com/z4yx/pam_rssh
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = cargo
+	depends = openssl
+	depends = pam
+	source = pam_rssh::git+https://github.com/z4yx/pam_rssh.git#commit=083d69962084a1515b357009bd26407a9c47b67c
+	source = ssh-agent.rs::git+https://github.com/z4yx/ssh-agent.rs.git#commit=802b94ccf2e00ac33a3863300d0769f02b62d807
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = pam_rssh

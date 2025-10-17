@@ -1,0 +1,22 @@
+pkgbase = arti-git
+	pkgdesc = An implementation of Tor in Rust
+	pkgver = 1.1.12.r78.gf6304630e
+	pkgrel = 1
+	url = https://gitlab.torproject.org/tpo/core/arti
+	arch = i686
+	arch = x86_64
+	license = Apache
+	license = MIT
+	makedepends = git
+	makedepends = rust
+	depends = glibc
+	depends = liblzma.so
+	depends = libsqlite3.so
+	depends = libssl.so
+	provides = arti=1.1.12.r78.gf6304630e
+	conflicts = arti
+	backup = etc/arti.d/arti.toml
+	source = git+https://gitlab.torproject.org/tpo/core/arti.git
+	sha256sums = SKIP
+
+pkgname = arti-git

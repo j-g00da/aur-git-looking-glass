@@ -1,0 +1,34 @@
+pkgbase = freeglut-git
+	pkgver = 3.6.0.r3.gb789505b
+	pkgrel = 1
+	url = https://freeglut.sourceforge.net/
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = cmake
+	makedepends = mesa
+	makedepends = glu
+	makedepends = wayland
+	makedepends = libxxf86vm
+	makedepends = git
+	provides = glut
+	provides = freeglut
+	provides = freeglut-git
+	conflicts = glut
+	conflicts = freeglut
+	conflicts = freeglut-git
+	replaces = freeglut-svn
+	source = git+https://github.com/FreeGLUTProject/freeglut
+	md5sums = SKIP
+
+pkgname = freeglut-x11-git
+	pkgdesc = Provides functionality for small OpenGL programs - X11 version
+	depends = libxi
+	depends = libxrandr
+	depends = libgl
+
+pkgname = freeglut-wayland-git
+	pkgdesc = Provides functionality for small OpenGL programs - Wayland version
+	depends = wayland
+	depends = libxkbcommon
+	depends = libgl

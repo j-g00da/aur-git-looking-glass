@@ -1,0 +1,18 @@
+pkgbase = python-flynt
+	pkgdesc = automatically convert old string literal formatting to f-strings
+	pkgver = 1.0.6
+	pkgrel = 0
+	url = https://github.com/ikamensh/flynt
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-hatchling
+	makedepends = python-hatch-vcs
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python
+	depends = python-astor
+	source = python-flynt-1.0.6.tar.gz::https://github.com/ikamensh/flynt/archive/refs/tags/1.0.6.tar.gz
+	b2sums = c0c2bb64e15a31faf1a224dea60a09455de5fad4f079efed0365ef0dbefa2e8ee29af28f77f38cb56ce19700d43df80b58564a991641fe170ea61629b762c747
+
+pkgname = python-flynt

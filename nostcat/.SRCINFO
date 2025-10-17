@@ -1,0 +1,16 @@
+pkgbase = nostcat
+	pkgdesc = Websocket client for nostr relay scripting
+	pkgver = 0.3.3
+	pkgrel = 2
+	url = https://github.com/blakejakopovic/nostcat
+	arch = i686
+	arch = x86_64
+	arch = armv6h
+	arch = armv7h
+	license = MIT
+	makedepends = rust
+	makedepends = cargo
+	source = https://github.com/blakejakopovic/nostcat/archive/refs/tags/v0.3.3.tar.gz
+	sha256sums = 991ae43adb8c2acb129b528e8a502329ab4780ed57c3553cf7ec3ac2b1e2cf7d
+
+pkgname = nostcat

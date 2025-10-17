@@ -1,0 +1,26 @@
+pkgbase = python-magika
+	pkgdesc = Detect file content types with deep learning
+	pkgver = 0.6.2
+	pkgrel = 2
+	url = https://github.com/google/magika
+	arch = any
+	license = Apache-2.0
+	checkdepends = git
+	checkdepends = protobuf
+	checkdepends = python-dacite
+	checkdepends = python-pytest
+	checkdepends = python-tqdm
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-hatchling
+	makedepends = python-wheel
+	makedepends = python-poetry
+	depends = python
+	depends = python-click
+	depends = python-onnxruntime
+	depends = python-numpy
+	depends = python-dotenv
+	source = python-magika-0.6.2.tar.gz::https://files.pythonhosted.org/packages/source/m/magika/magika-0.6.2.tar.gz
+	sha256sums = 37eb6ae8020f6e68f231bc06052c0a0cbe8e6fa27492db345e8dc867dbceb067
+
+pkgname = python-magika

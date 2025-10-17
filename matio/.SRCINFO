@@ -1,0 +1,12 @@
+pkgbase = matio
+	pkgdesc = C library for reading and writing Matlab MAT files
+	pkgver = 1.5.28
+	pkgrel = 1
+	url = https://sourceforge.net/projects/matio/
+	arch = i686
+	arch = x86_64
+	license = BSD-2-Clause
+	source = http://downloads.sourceforge.net/project/matio/matio/1.5.28/matio-1.5.28.tar.gz
+	sha256sums = 9da698934a21569af058e6348564666f45029e6c2b0878ca0d8f9609bf77b8d8
+
+pkgname = matio

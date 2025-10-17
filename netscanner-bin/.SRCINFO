@@ -1,0 +1,13 @@
+pkgbase = netscanner-bin
+	pkgdesc = Network Scanner
+	pkgver = 0.4.1
+	pkgrel = 1
+	url = https://github.com/Chleba/netscanner
+	arch = x86_64
+	license = MIT
+	provides = netscanner
+	conflicts = netscanner
+	source = https://github.com/Chleba/netscanner/releases/download/v0.4.1/netscanner-0.4.1-x86_64.tar.gz
+	sha256sums = 1e9725f0af56d9f5e2ae4d9c977299e48968f30adb75d3b522cf19bcde60d332
+
+pkgname = netscanner-bin

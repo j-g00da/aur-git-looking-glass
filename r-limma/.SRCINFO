@@ -1,0 +1,26 @@
+pkgbase = r-limma
+	pkgdesc = Linear Models for Microarray and Omics Data
+	pkgver = 3.64.3
+	pkgrel = 1
+	url = https://bioconductor.org/packages/limma
+	arch = x86_64
+	license = GPL-2.0-or-later
+	depends = r-statmod
+	optdepends = r-affy
+	optdepends = r-annotationdbi
+	optdepends = r-biasedurn
+	optdepends = r-biobase
+	optdepends = r-biocstyle
+	optdepends = r-ellipse
+	optdepends = r-go.db
+	optdepends = r-gplots
+	optdepends = r-illuminaio
+	optdepends = r-knitr
+	optdepends = r-locfit
+	optdepends = r-org.hs.eg.db
+	optdepends = r-vsn
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/limma_3.64.3.tar.gz
+	md5sums = 1bb5bc5a881092e56bf559aeefc93514
+	b2sums = c1d6051e52c7747ce1c31e7f9e7ce32f7435d355ee72322d6d4a279aa8f602fa5fa44beb29bd4f8a506313b821e2e0a9a3d467d43f771a15a2bc47b8b2d9fa46
+
+pkgname = r-limma

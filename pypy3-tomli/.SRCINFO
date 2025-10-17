@@ -1,0 +1,15 @@
+pkgbase = pypy3-tomli
+	pkgdesc = A lil' TOML parser
+	pkgver = 2.3.0
+	pkgrel = 1
+	url = https://github.com/hukkin/tomli
+	arch = any
+	license = MIT
+	makedepends = pypy3-build
+	makedepends = pypy3-installer
+	makedepends = pypy3-flit-core
+	depends = pypy3
+	source = tomli-2.3.0.tar.gz::https://github.com/hukkin/tomli/archive/2.3.0.tar.gz
+	sha512sums = bd39f9ef09bf43dc48787541ef96781459f66899fab12f72b24e57ef13a8975e135b6a90b0ed7f44c0c3171a4b3afbe0c8a2a8ffeace4255771a0f331288835e
+
+pkgname = pypy3-tomli

@@ -1,0 +1,16 @@
+pkgbase = goread
+	pkgdesc = Read RSS/Atom feeds right in the terminal
+	pkgver = 1.7.3
+	pkgrel = 1
+	url = https://github.com/TypicalAM/goread
+	arch = i686
+	arch = x86_64
+	arch = aarch64
+	arch = riscv64
+	license = GPL-3.0-only
+	makedepends = go
+	depends = glibc
+	source = goread-1.7.3.tar.gz::https://github.com/TypicalAM/goread/archive/refs/tags/v1.7.3.tar.gz
+	sha256sums = 9b08cae05593034711c599b6b17605194a11bbfae769b4e7e0076a01ec197c37
+
+pkgname = goread

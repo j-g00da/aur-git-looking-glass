@@ -1,0 +1,17 @@
+pkgbase = r-intansv
+	pkgdesc = Integrative analysis of structural variations
+	pkgver = 1.48.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/intansv
+	arch = any
+	license = MIT
+	depends = r
+	depends = r-biocgenerics
+	depends = r-genomicranges
+	depends = r-ggbio
+	depends = r-iranges
+	depends = r-plyr
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/intansv_1.48.0.tar.gz
+	sha256sums = 93ca461a6c03f95bb1a1a19eed3dbe5e04b7a682175a6f5888e856c28ff28c92
+
+pkgname = r-intansv

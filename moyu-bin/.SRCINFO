@@ -1,0 +1,19 @@
+pkgbase = moyu-bin
+	pkgdesc = An interface document management tool based on Vue and Electron.(Prebuilt version.Use system-wide electron)
+	pkgver = 0.8.0_beta
+	pkgrel = 9
+	url = https://online.jobtool.cn/
+	arch = x86_64
+	license = MIT
+	makedepends = fuse2
+	depends = electron16
+	provides = moyu=0.8.0_beta
+	conflicts = moyu
+	source = moyu-0.8.0_beta.AppImage::https://github.com/trueleaf/moyu/releases/download/0.8.0-beta/moyu-0.8.0.AppImage
+	source = LICENSE-0.8.0_beta::https://raw.githubusercontent.com/trueleaf/moyu/0.8.0-beta/LICENSE
+	source = moyu.sh
+	sha256sums = 0dab0db5b1492b06f52104dcc4ebe7acce3817fb8b6abb3d9523bff69a2dcb19
+	sha256sums = bbef3f01685fbef2be49493df601daf55815b3a044fb7361e160c9074ea515f7
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = moyu-bin

@@ -1,0 +1,19 @@
+pkgbase = r-future
+	pkgdesc = Unified Parallel and Distributed Processing in R for Everyone
+	pkgver = 1.67.0
+	pkgrel = 1
+	url = https://cran.r-project.org/package=future
+	arch = any
+	license = LGPL-2.1-or-later
+	depends = r-digest
+	depends = r-globals
+	depends = r-listenv
+	depends = r-parallelly
+	optdepends = r-markdown
+	optdepends = r-r.rsp
+	optdepends = r-rhpcblasctl
+	source = https://cran.r-project.org/src/contrib/future_1.67.0.tar.gz
+	md5sums = ca3c6c6a431edc457da4e5b0f76b8cfb
+	b2sums = 3d1de4894da7222b665487784bd57b70292b3739813d391f6969fced42dda170e038950640e363c027d5aadc0dbc8537b625fe540a5e48a5f2029229e473a216
+
+pkgname = r-future

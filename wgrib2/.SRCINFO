@@ -1,0 +1,18 @@
+pkgbase = wgrib2
+	pkgdesc = Utility to read and write grib2 files
+	pkgver = 3.7.0
+	pkgrel = 1
+	url = https://github.com/NOAA-EMC/wgrib2
+	arch = x86_64
+	license = GPL
+	license = Apache
+	license = custom
+	makedepends = gcc-fortran
+	makedepends = cmake
+	depends = netcdf
+	depends = nceplibs-ip
+	depends = nceplibs-g2c
+	source = wgrib2-3.7.0.tar.gz::https://github.com/NOAA-EMC/wgrib2/archive/refs/tags/v3.7.0.tar.gz
+	sha256sums = b741a07710a8195c99a7d50de05bde90182ab4334f5c4a0d6d057c4e20cc6a75
+
+pkgname = wgrib2

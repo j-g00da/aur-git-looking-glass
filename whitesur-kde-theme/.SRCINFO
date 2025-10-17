@@ -1,0 +1,21 @@
+pkgbase = whitesur-kde-theme
+	pkgdesc = MacOS Big Sur theme for KDE Plasma
+	pkgver = 2024.11.18
+	pkgrel = 2
+	url = https://github.com/vinceliuice/WhiteSur-kde
+	install = post_install.install
+	arch = any
+	license = GPL-3.0
+	optdepends = kvantum: Kvantum theme support
+	optdepends = sddm: SDDM theme support
+	optdepends = whitesur-icon-theme: Whitesur icon theme
+	optdepends = whitesur-cursor-theme: Whitesur cursor theme
+	provides = kvantum-theme-whitesur
+	provides = whitesur-kvantum-theme
+	conflicts = kvantum-theme-whitesur
+	conflicts = whitesur-kvantum-theme
+	conflicts = plasma5-themes-whitesur
+	source = whitesur-kde-theme-2024-11-18.tar.gz::https://github.com/vinceliuice/WhiteSur-kde/archive/refs/tags/2024-11-18.tar.gz
+	sha256sums = 8ab21920e8df0647431b7f23ace7f9a7a51b320263f4364ac286bae1a359e91a
+
+pkgname = whitesur-kde-theme

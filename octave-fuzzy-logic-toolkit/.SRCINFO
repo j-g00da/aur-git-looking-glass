@@ -1,0 +1,15 @@
+pkgbase = octave-fuzzy-logic-toolkit
+	pkgdesc = A mostly MATLAB-compatible fuzzy logic toolkit for Octave
+	pkgver = 0.6.2
+	pkgrel = 1
+	url = https://github.com/lmarkowsky/fuzzy-logic-toolkit
+	install = octave-fuzzy-logic-toolkit.install
+	arch = any
+	groups = octave-forge
+	license = GPL-3.0-or-later
+	depends = octave>=3.2.4
+	noextract = fuzzy-logic-toolkit-0.6.2.tar.gz
+	source = fuzzy-logic-toolkit-0.6.2.tar.gz::https://github.com/lmarkowsky/fuzzy-logic-toolkit/archive/refs/tags/0.6.2.tar.gz
+	sha512sums = fb46151d8d160a54282ed20cac228d721854e2ddd81c2312c29213ac0c250a851ad0a15afb20d8f852aee3e4ea1af2b97398f17819b845c1573d0feb193b2ed7
+
+pkgname = octave-fuzzy-logic-toolkit

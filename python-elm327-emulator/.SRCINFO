@@ -1,0 +1,26 @@
+pkgbase = python-elm327-emulator
+	pkgdesc = ELM327 Emulator for testing software interfacing OBDII via ELM327 adapter.
+	pkgver = 3.0.4
+	pkgrel = 1
+	url = https://pypi.org/project/elm327-emulator
+	arch = any
+	license = CC-BY-NC-SA-4.0
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python
+	depends = python-lockfile
+	depends = python-yaml
+	depends = python-daemon
+	depends = python-obd
+	provides = elm327-emulator
+	provides = python-elm327-emulator
+	conflicts = elm327-emulator
+	conflicts = python-elm327-emulator
+	options = !strip
+	options = !debug
+	source = elm327_emulator-3.0.4.tar.gz::https://files.pythonhosted.org/packages/source/e/elm327_emulator/elm327_emulator-3.0.4.tar.gz
+	sha256sums = 927fead0b3323015d2f5f627c469cf616d92bbeda4a28f6006ab1648b80ad2d8
+
+pkgname = python-elm327-emulator

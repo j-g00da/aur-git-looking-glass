@@ -1,0 +1,20 @@
+pkgbase = walk-bin
+	pkgdesc = Terminal file manager
+	pkgver = 1.13.0
+	pkgrel = 1
+	url = https://github.com/antonmedv/walk
+	arch = x86_64
+	arch = arm
+	license = MIT
+	provides = llama
+	provides = walk
+	conflicts = walk
+	replaces = llama
+	source = https://github.com/antonmedv/walk/raw/v1.13.0/LICENSE
+	sha256sums = d63a8c4f17dde022f8d1f96a4b2c744821f65bcae926b4de4ee77230a70cdee4
+	source_x86_64 = walk-1.13.0-x86_64::https://github.com/antonmedv/walk/releases/download/v1.13.0/walk_linux_amd64
+	sha256sums_x86_64 = 7c3b6e28fd0eee20170a07be5ceae001e466d8948b32feb005c447f4cf7c3c21
+	source_arm = walk-1.13.0-arm::https://github.com/antonmedv/walk/releases/download/v1.13.0/walk_linux_arm64
+	sha256sums_arm = 42664c11d54d1e7f7ca5131c34197de120f03d535238d6cadbe03bba8303ebc8
+
+pkgname = walk-bin

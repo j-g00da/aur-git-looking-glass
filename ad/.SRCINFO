@@ -1,0 +1,16 @@
+pkgbase = ad
+	pkgdesc = An adaptable text editor
+	pkgver = 0.3.1
+	pkgrel = 1
+	url = https://github.com/sminez/ad
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	makedepends = tree-sitter-python
+	makedepends = tree-sitter-rust
+	depends = gcc-libs
+	depends = tree-sitter
+	source = ad-0.3.1.tar.gz::https://github.com/sminez/ad/archive/0.3.1.tar.gz
+	sha256sums = 809cd09550daf38b1c4b7d19b975e6dbeb85f424f8942f20fc9cd7808c1ef196
+
+pkgname = ad

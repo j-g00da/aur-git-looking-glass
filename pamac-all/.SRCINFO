@@ -1,0 +1,40 @@
+pkgbase = pamac-all
+	pkgdesc = A GUI frontend for libalpm (everything in one package - snap, flatpak, appindicator, aur, appstream)
+	pkgver = 11.7.3+10+g52ee429
+	pkgrel = 1
+	url = https://github.com/manjaro/pamac
+	arch = i686
+	arch = x86_64
+	arch = arm
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = GPL-3.0-or-later
+	makedepends = asciidoc
+	makedepends = vala
+	makedepends = meson
+	makedepends = gobject-introspection
+	makedepends = git
+	depends = libnotify
+	depends = libpamac-full
+	depends = libhandy
+	depends = libadwaita
+	depends = pamac-cli
+	optdepends = polkit-kde-agent: authentication agent for KDE
+	optdepends = polkit-qt5: Qt5 based authentication agent
+	optdepends = polkit-gnome: legacy authentication agent for Gnome
+	optdepends = mate-polkit: authentication agent for Mate
+	optdepends = plymouth: offline upgrades
+	provides = pamac=11.7.3+10+g52ee429-1
+	conflicts = pamac
+	conflicts = pamac-gtk
+	conflicts = pamac-common
+	conflicts = pamac-aur
+	conflicts = pamac-aur-git
+	conflicts = pamac-flatpak
+	conflicts = pamac-flatpak-gnome
+	options = !emptydirs
+	source = git+https://github.com/manjaro/pamac.git#commit=52ee429e1fd8555d0fb54d8d46b968a46b3aefe8
+	sha256sums = 7f55b73884c077fcf7b27f8682871a40b941802e9038229ac2b14ef4f816c0d1
+
+pkgname = pamac-all

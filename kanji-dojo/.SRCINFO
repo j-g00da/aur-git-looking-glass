@@ -1,0 +1,15 @@
+pkgbase = kanji-dojo
+	pkgdesc = Practice writing Japanese letters, learn their meanings and related words
+	pkgver = 2.1.9
+	pkgrel = 1
+	url = https://github.com/syt0r/Kanji-Dojo
+	arch = x86_64
+	license = GPL3
+	makedepends = jdk17-openjdk
+	makedepends = dpkg
+	options = !strip
+	options = !debug
+	source = git+https://github.com/syt0r/Kanji-Dojo
+	sha256sums = SKIP
+
+pkgname = kanji-dojo

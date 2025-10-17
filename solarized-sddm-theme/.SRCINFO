@@ -1,0 +1,18 @@
+pkgbase = solarized-sddm-theme
+	pkgdesc = A solarized SDDM theme
+	pkgver = 0.3.0
+	pkgrel = 2
+	url = https://github.com/hcartiaux/solarized_sddm_theme
+	install = solarized-sddm-theme.install
+	arch = any
+	license = GPL-3.0
+	depends = sddm>=0.21.0
+	optdepends = otf-raleway: raleway font support
+	optdepends = ttf-impallari-raleway-family: raleway font support
+	optdepends = otf-font-awesome: Fontawesome support
+	optdepends = ttf-font-awesome: Fontawesome support
+	optdepends = ttf-google-fonts-git: Open fonts from google, included raleway
+	source = solarized-sddm-theme-0.3.0.tar.gz::https://github.com/hcartiaux/solarized_sddm_theme/archive/refs/tags/v0.3.0.tar.gz
+	sha256sums = 011353a704a91edda3e61fb76a31b50ffa9acdc5d17b60ef308dcea243bfb842
+
+pkgname = solarized-sddm-theme

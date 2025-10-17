@@ -1,0 +1,20 @@
+pkgbase = python-succulent
+	pkgdesc = Collect POST requests easily
+	pkgver = 0.4.2
+	pkgrel = 1
+	url = https://github.com/firefly-cpp/succulent
+	arch = x86_64
+	license = MIT
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-poetry-core
+	makedepends = python-wheel
+	depends = python-pandas
+	depends = python-yaml
+	depends = python-flask
+	depends = python-lxml
+	source = succulent-0.4.2.tar.gz::https://github.com/firefly-cpp/succulent/archive/0.4.2.tar.gz
+	sha512sums = 150557cfcd834f7607866f245743e7ebdf718d66fbdcc8d04f5f23a60cc5b28bc1b1c6a98067a7354320bf60332c2064f3e7316a5f6bb6b97cda9017bf62e8fe
+
+pkgname = python-succulent

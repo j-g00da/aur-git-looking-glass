@@ -1,0 +1,32 @@
+pkgbase = ulauncher-git
+	pkgdesc = Application launcher for Linux
+	pkgver = DEV
+	pkgrel = 6
+	url = http://ulauncher.io
+	install = ulauncher.install
+	arch = any
+	license = GPL3
+	checkdepends = desktop-file-utils
+	makedepends = git
+	makedepends = python-setuptools
+	makedepends = python-pip
+	makedepends = python-wheel
+	makedepends = make
+	makedepends = nodejs
+	makedepends = yarn
+	depends = gtk3
+	depends = webkit2gtk-4.1
+	depends = python>=3.8
+	depends = python-cairo
+	depends = python-gobject
+	optdepends = gtk-layer-shell: wayland layer shell integration
+	optdepends = python-xlib: support for raising running apps (x11 only)
+	optdepends = libappindicator-gtk3: tray icon support (x11 or wayland)
+	optdepends = xapp: alternative tray icon library that supports single click to activate (x11 only)
+	optdepends = python-levenshtein: faster fuzzy search
+	provides = ulauncher
+	conflicts = ulauncher
+	source = ulauncher::git+https://github.com/Ulauncher/Ulauncher.git
+	sha256sums = SKIP
+
+pkgname = ulauncher-git

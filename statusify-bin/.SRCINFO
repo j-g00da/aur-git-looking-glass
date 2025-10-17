@@ -1,0 +1,16 @@
+pkgbase = statusify-bin
+	pkgdesc = Discord rich presence configurator desktop app
+	pkgver = 0.0.16
+	pkgrel = 1
+	url = https://github.com/Orphoros/Statusify
+	arch = x86_64
+	license = GPL-3.0-only
+	depends = webkit2gtk
+	depends = openssl
+	depends = gtk3
+	provides = statusify=0.0.16
+	conflicts = statusify
+	source = statusify-0.0.16.deb::https://github.com/Orphoros/Statusify/releases/download/v0.0.16/Statusify.linux-x86_64.deb
+	sha256sums = 864e06cfdada7fabdffde35332ad2a1143b73f50f617938d67bdffe522907b01
+
+pkgname = statusify-bin

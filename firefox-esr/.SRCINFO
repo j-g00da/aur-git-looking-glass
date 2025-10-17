@@ -1,0 +1,559 @@
+pkgbase = firefox-esr
+	pkgdesc = Standalone web browser from mozilla.org, Extended Support Release
+	pkgver = 140.4.0
+	pkgrel = 1
+	url = https://www.mozilla.org/en-US/firefox/enterprise/
+	arch = x86_64
+	license = MPL-2.0
+	makedepends = cbindgen
+	makedepends = clang
+	makedepends = diffutils
+	makedepends = dump_syms
+	makedepends = imake
+	makedepends = inetutils
+	makedepends = jack
+	makedepends = lld
+	makedepends = llvm
+	makedepends = mesa
+	makedepends = nasm
+	makedepends = nodejs
+	makedepends = python
+	makedepends = rust
+	makedepends = unzip
+	makedepends = wasi-compiler-rt
+	makedepends = wasi-libc
+	makedepends = wasi-libc++
+	makedepends = wasi-libc++abi
+	makedepends = xorg-server-xvfb
+	makedepends = yasm
+	makedepends = zip
+	depends = alsa-lib
+	depends = at-spi2-core
+	depends = bash
+	depends = cairo
+	depends = dbus
+	depends = ffmpeg
+	depends = fontconfig
+	depends = freetype2
+	depends = gcc-libs
+	depends = gdk-pixbuf2
+	depends = glib2
+	depends = glibc
+	depends = gtk3
+	depends = hicolor-icon-theme
+	depends = libpulse
+	depends = libx11
+	depends = libxcb
+	depends = libxcomposite
+	depends = libxdamage
+	depends = libxext
+	depends = libxfixes
+	depends = libxrandr
+	depends = libxss
+	depends = libxt
+	depends = mime-types
+	depends = nspr
+	depends = nss
+	depends = pango
+	depends = ttf-font
+	optdepends = hunspell-en_US: Spell checking, American English
+	optdepends = libnotify: Notification integration
+	optdepends = networkmanager: Location detection via available WiFi networks
+	optdepends = speech-dispatcher: Text-to-Speech
+	optdepends = xdg-desktop-portal: Screensharing with Wayland
+	noextract = firefox-esr-i18n-140.4.0-ach.xpi
+	noextract = firefox-esr-i18n-140.4.0-af.xpi
+	noextract = firefox-esr-i18n-140.4.0-an.xpi
+	noextract = firefox-esr-i18n-140.4.0-ar.xpi
+	noextract = firefox-esr-i18n-140.4.0-ast.xpi
+	noextract = firefox-esr-i18n-140.4.0-az.xpi
+	noextract = firefox-esr-i18n-140.4.0-be.xpi
+	noextract = firefox-esr-i18n-140.4.0-bg.xpi
+	noextract = firefox-esr-i18n-140.4.0-bn.xpi
+	noextract = firefox-esr-i18n-140.4.0-br.xpi
+	noextract = firefox-esr-i18n-140.4.0-bs.xpi
+	noextract = firefox-esr-i18n-140.4.0-ca-valencia.xpi
+	noextract = firefox-esr-i18n-140.4.0-ca.xpi
+	noextract = firefox-esr-i18n-140.4.0-cak.xpi
+	noextract = firefox-esr-i18n-140.4.0-cs.xpi
+	noextract = firefox-esr-i18n-140.4.0-cy.xpi
+	noextract = firefox-esr-i18n-140.4.0-da.xpi
+	noextract = firefox-esr-i18n-140.4.0-de.xpi
+	noextract = firefox-esr-i18n-140.4.0-dsb.xpi
+	noextract = firefox-esr-i18n-140.4.0-el.xpi
+	noextract = firefox-esr-i18n-140.4.0-en-CA.xpi
+	noextract = firefox-esr-i18n-140.4.0-en-GB.xpi
+	noextract = firefox-esr-i18n-140.4.0-en-US.xpi
+	noextract = firefox-esr-i18n-140.4.0-eo.xpi
+	noextract = firefox-esr-i18n-140.4.0-es-AR.xpi
+	noextract = firefox-esr-i18n-140.4.0-es-CL.xpi
+	noextract = firefox-esr-i18n-140.4.0-es-ES.xpi
+	noextract = firefox-esr-i18n-140.4.0-es-MX.xpi
+	noextract = firefox-esr-i18n-140.4.0-et.xpi
+	noextract = firefox-esr-i18n-140.4.0-eu.xpi
+	noextract = firefox-esr-i18n-140.4.0-fa.xpi
+	noextract = firefox-esr-i18n-140.4.0-ff.xpi
+	noextract = firefox-esr-i18n-140.4.0-fi.xpi
+	noextract = firefox-esr-i18n-140.4.0-fr.xpi
+	noextract = firefox-esr-i18n-140.4.0-fy-NL.xpi
+	noextract = firefox-esr-i18n-140.4.0-ga-IE.xpi
+	noextract = firefox-esr-i18n-140.4.0-gd.xpi
+	noextract = firefox-esr-i18n-140.4.0-gl.xpi
+	noextract = firefox-esr-i18n-140.4.0-gn.xpi
+	noextract = firefox-esr-i18n-140.4.0-gu-IN.xpi
+	noextract = firefox-esr-i18n-140.4.0-he.xpi
+	noextract = firefox-esr-i18n-140.4.0-hi-IN.xpi
+	noextract = firefox-esr-i18n-140.4.0-hr.xpi
+	noextract = firefox-esr-i18n-140.4.0-hsb.xpi
+	noextract = firefox-esr-i18n-140.4.0-hu.xpi
+	noextract = firefox-esr-i18n-140.4.0-hy-AM.xpi
+	noextract = firefox-esr-i18n-140.4.0-ia.xpi
+	noextract = firefox-esr-i18n-140.4.0-id.xpi
+	noextract = firefox-esr-i18n-140.4.0-is.xpi
+	noextract = firefox-esr-i18n-140.4.0-it.xpi
+	noextract = firefox-esr-i18n-140.4.0-ja.xpi
+	noextract = firefox-esr-i18n-140.4.0-ka.xpi
+	noextract = firefox-esr-i18n-140.4.0-kab.xpi
+	noextract = firefox-esr-i18n-140.4.0-kk.xpi
+	noextract = firefox-esr-i18n-140.4.0-km.xpi
+	noextract = firefox-esr-i18n-140.4.0-kn.xpi
+	noextract = firefox-esr-i18n-140.4.0-ko.xpi
+	noextract = firefox-esr-i18n-140.4.0-lij.xpi
+	noextract = firefox-esr-i18n-140.4.0-lt.xpi
+	noextract = firefox-esr-i18n-140.4.0-lv.xpi
+	noextract = firefox-esr-i18n-140.4.0-mk.xpi
+	noextract = firefox-esr-i18n-140.4.0-mr.xpi
+	noextract = firefox-esr-i18n-140.4.0-ms.xpi
+	noextract = firefox-esr-i18n-140.4.0-my.xpi
+	noextract = firefox-esr-i18n-140.4.0-nb-NO.xpi
+	noextract = firefox-esr-i18n-140.4.0-ne-NP.xpi
+	noextract = firefox-esr-i18n-140.4.0-nl.xpi
+	noextract = firefox-esr-i18n-140.4.0-nn-NO.xpi
+	noextract = firefox-esr-i18n-140.4.0-oc.xpi
+	noextract = firefox-esr-i18n-140.4.0-pa-IN.xpi
+	noextract = firefox-esr-i18n-140.4.0-pl.xpi
+	noextract = firefox-esr-i18n-140.4.0-pt-BR.xpi
+	noextract = firefox-esr-i18n-140.4.0-pt-PT.xpi
+	noextract = firefox-esr-i18n-140.4.0-rm.xpi
+	noextract = firefox-esr-i18n-140.4.0-ro.xpi
+	noextract = firefox-esr-i18n-140.4.0-ru.xpi
+	noextract = firefox-esr-i18n-140.4.0-si.xpi
+	noextract = firefox-esr-i18n-140.4.0-sk.xpi
+	noextract = firefox-esr-i18n-140.4.0-sl.xpi
+	noextract = firefox-esr-i18n-140.4.0-son.xpi
+	noextract = firefox-esr-i18n-140.4.0-sq.xpi
+	noextract = firefox-esr-i18n-140.4.0-sr.xpi
+	noextract = firefox-esr-i18n-140.4.0-sv-SE.xpi
+	noextract = firefox-esr-i18n-140.4.0-ta.xpi
+	noextract = firefox-esr-i18n-140.4.0-te.xpi
+	noextract = firefox-esr-i18n-140.4.0-th.xpi
+	noextract = firefox-esr-i18n-140.4.0-tl.xpi
+	noextract = firefox-esr-i18n-140.4.0-tr.xpi
+	noextract = firefox-esr-i18n-140.4.0-trs.xpi
+	noextract = firefox-esr-i18n-140.4.0-uk.xpi
+	noextract = firefox-esr-i18n-140.4.0-ur.xpi
+	noextract = firefox-esr-i18n-140.4.0-uz.xpi
+	noextract = firefox-esr-i18n-140.4.0-vi.xpi
+	noextract = firefox-esr-i18n-140.4.0-xh.xpi
+	noextract = firefox-esr-i18n-140.4.0-zh-CN.xpi
+	noextract = firefox-esr-i18n-140.4.0-zh-TW.xpi
+	options = !debug
+	options = !emptydirs
+	options = !lto
+	options = !makeflags
+	options = !strip
+	source = https://archive.mozilla.org/pub/firefox/releases/140.4.0esr/source/firefox-140.4.0esr.source.tar.xz
+	source = https://archive.mozilla.org/pub/firefox/releases/140.4.0esr/source/firefox-140.4.0esr.source.tar.xz.asc
+	source = firefox-esr.desktop
+	source = identity-icons-brand.svg
+	source = firefox-esr-i18n-140.4.0-ach.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/ach.xpi
+	source = firefox-esr-i18n-140.4.0-af.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/af.xpi
+	source = firefox-esr-i18n-140.4.0-an.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/an.xpi
+	source = firefox-esr-i18n-140.4.0-ar.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/ar.xpi
+	source = firefox-esr-i18n-140.4.0-ast.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/ast.xpi
+	source = firefox-esr-i18n-140.4.0-az.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/az.xpi
+	source = firefox-esr-i18n-140.4.0-be.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/be.xpi
+	source = firefox-esr-i18n-140.4.0-bg.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/bg.xpi
+	source = firefox-esr-i18n-140.4.0-bn.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/bn.xpi
+	source = firefox-esr-i18n-140.4.0-br.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/br.xpi
+	source = firefox-esr-i18n-140.4.0-bs.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/bs.xpi
+	source = firefox-esr-i18n-140.4.0-ca-valencia.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/ca-valencia.xpi
+	source = firefox-esr-i18n-140.4.0-ca.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/ca.xpi
+	source = firefox-esr-i18n-140.4.0-cak.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/cak.xpi
+	source = firefox-esr-i18n-140.4.0-cs.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/cs.xpi
+	source = firefox-esr-i18n-140.4.0-cy.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/cy.xpi
+	source = firefox-esr-i18n-140.4.0-da.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/da.xpi
+	source = firefox-esr-i18n-140.4.0-de.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/de.xpi
+	source = firefox-esr-i18n-140.4.0-dsb.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/dsb.xpi
+	source = firefox-esr-i18n-140.4.0-el.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/el.xpi
+	source = firefox-esr-i18n-140.4.0-en-CA.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/en-CA.xpi
+	source = firefox-esr-i18n-140.4.0-en-GB.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/en-GB.xpi
+	source = firefox-esr-i18n-140.4.0-en-US.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/en-US.xpi
+	source = firefox-esr-i18n-140.4.0-eo.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/eo.xpi
+	source = firefox-esr-i18n-140.4.0-es-AR.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/es-AR.xpi
+	source = firefox-esr-i18n-140.4.0-es-CL.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/es-CL.xpi
+	source = firefox-esr-i18n-140.4.0-es-ES.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/es-ES.xpi
+	source = firefox-esr-i18n-140.4.0-es-MX.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/es-MX.xpi
+	source = firefox-esr-i18n-140.4.0-et.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/et.xpi
+	source = firefox-esr-i18n-140.4.0-eu.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/eu.xpi
+	source = firefox-esr-i18n-140.4.0-fa.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/fa.xpi
+	source = firefox-esr-i18n-140.4.0-ff.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/ff.xpi
+	source = firefox-esr-i18n-140.4.0-fi.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/fi.xpi
+	source = firefox-esr-i18n-140.4.0-fr.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/fr.xpi
+	source = firefox-esr-i18n-140.4.0-fy-NL.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/fy-NL.xpi
+	source = firefox-esr-i18n-140.4.0-ga-IE.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/ga-IE.xpi
+	source = firefox-esr-i18n-140.4.0-gd.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/gd.xpi
+	source = firefox-esr-i18n-140.4.0-gl.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/gl.xpi
+	source = firefox-esr-i18n-140.4.0-gn.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/gn.xpi
+	source = firefox-esr-i18n-140.4.0-gu-IN.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/gu-IN.xpi
+	source = firefox-esr-i18n-140.4.0-he.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/he.xpi
+	source = firefox-esr-i18n-140.4.0-hi-IN.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/hi-IN.xpi
+	source = firefox-esr-i18n-140.4.0-hr.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/hr.xpi
+	source = firefox-esr-i18n-140.4.0-hsb.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/hsb.xpi
+	source = firefox-esr-i18n-140.4.0-hu.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/hu.xpi
+	source = firefox-esr-i18n-140.4.0-hy-AM.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/hy-AM.xpi
+	source = firefox-esr-i18n-140.4.0-ia.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/ia.xpi
+	source = firefox-esr-i18n-140.4.0-id.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/id.xpi
+	source = firefox-esr-i18n-140.4.0-is.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/is.xpi
+	source = firefox-esr-i18n-140.4.0-it.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/it.xpi
+	source = firefox-esr-i18n-140.4.0-ja.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/ja.xpi
+	source = firefox-esr-i18n-140.4.0-ka.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/ka.xpi
+	source = firefox-esr-i18n-140.4.0-kab.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/kab.xpi
+	source = firefox-esr-i18n-140.4.0-kk.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/kk.xpi
+	source = firefox-esr-i18n-140.4.0-km.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/km.xpi
+	source = firefox-esr-i18n-140.4.0-kn.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/kn.xpi
+	source = firefox-esr-i18n-140.4.0-ko.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/ko.xpi
+	source = firefox-esr-i18n-140.4.0-lij.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/lij.xpi
+	source = firefox-esr-i18n-140.4.0-lt.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/lt.xpi
+	source = firefox-esr-i18n-140.4.0-lv.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/lv.xpi
+	source = firefox-esr-i18n-140.4.0-mk.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/mk.xpi
+	source = firefox-esr-i18n-140.4.0-mr.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/mr.xpi
+	source = firefox-esr-i18n-140.4.0-ms.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/ms.xpi
+	source = firefox-esr-i18n-140.4.0-my.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/my.xpi
+	source = firefox-esr-i18n-140.4.0-nb-NO.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/nb-NO.xpi
+	source = firefox-esr-i18n-140.4.0-ne-NP.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/ne-NP.xpi
+	source = firefox-esr-i18n-140.4.0-nl.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/nl.xpi
+	source = firefox-esr-i18n-140.4.0-nn-NO.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/nn-NO.xpi
+	source = firefox-esr-i18n-140.4.0-oc.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/oc.xpi
+	source = firefox-esr-i18n-140.4.0-pa-IN.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/pa-IN.xpi
+	source = firefox-esr-i18n-140.4.0-pl.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/pl.xpi
+	source = firefox-esr-i18n-140.4.0-pt-BR.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/pt-BR.xpi
+	source = firefox-esr-i18n-140.4.0-pt-PT.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/pt-PT.xpi
+	source = firefox-esr-i18n-140.4.0-rm.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/rm.xpi
+	source = firefox-esr-i18n-140.4.0-ro.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/ro.xpi
+	source = firefox-esr-i18n-140.4.0-ru.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/ru.xpi
+	source = firefox-esr-i18n-140.4.0-si.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/si.xpi
+	source = firefox-esr-i18n-140.4.0-sk.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/sk.xpi
+	source = firefox-esr-i18n-140.4.0-sl.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/sl.xpi
+	source = firefox-esr-i18n-140.4.0-son.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/son.xpi
+	source = firefox-esr-i18n-140.4.0-sq.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/sq.xpi
+	source = firefox-esr-i18n-140.4.0-sr.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/sr.xpi
+	source = firefox-esr-i18n-140.4.0-sv-SE.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/sv-SE.xpi
+	source = firefox-esr-i18n-140.4.0-ta.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/ta.xpi
+	source = firefox-esr-i18n-140.4.0-te.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/te.xpi
+	source = firefox-esr-i18n-140.4.0-th.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/th.xpi
+	source = firefox-esr-i18n-140.4.0-tl.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/tl.xpi
+	source = firefox-esr-i18n-140.4.0-tr.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/tr.xpi
+	source = firefox-esr-i18n-140.4.0-trs.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/trs.xpi
+	source = firefox-esr-i18n-140.4.0-uk.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/uk.xpi
+	source = firefox-esr-i18n-140.4.0-ur.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/ur.xpi
+	source = firefox-esr-i18n-140.4.0-uz.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/uz.xpi
+	source = firefox-esr-i18n-140.4.0-vi.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/vi.xpi
+	source = firefox-esr-i18n-140.4.0-xh.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/xh.xpi
+	source = firefox-esr-i18n-140.4.0-zh-CN.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/zh-CN.xpi
+	source = firefox-esr-i18n-140.4.0-zh-TW.xpi::https://archive.mozilla.org/pub/mozilla.org/firefox/releases/140.4.0esr/linux-x86_64/xpi/zh-TW.xpi
+	validpgpkeys = 14F26682D0916CDD81E37B6D61B7B526D98F0353
+	sha512sums = cfce0bdcf6d4599c7b96bccd9fd1390bfb3645db9276a369a30760ce6819850aaa4251869e6bd3c5d8582ea3728b920762c5f16f7ce12ce151c3e74327b8c811
+	sha512sums = SKIP
+	sha512sums = 4b53ee133a4ecaf068e240f6a05a1ebf4b788d67fe9141cc5b3561e1128907c8c3edb49bf2b24ba89daf1552f94ac48adf682dbe7dd070cffe7f78d98f2b3338
+	sha512sums = b579b73176c72a5ecf36e3f63bba08fdb8041ae99d54e5cab906660fed6a9cf2311f7ca1ec1649e451cc6d5a4b1e6060b974b1d7befe9c8df3c5a89c50383c17
+	sha512sums = e3d0b037eca64b9527ad3936787a8ae44664f497e893f262132fbfcb789ed917cbbe56651face5025cdbb064cdb9e9216ed7679ca6662ef1cfb0a2d2ad6901f2
+	sha512sums = 1e95d16d59df4bbb1e263b271df65e56e6d720271e5b33fa93b0d101ad6c937b6d729af35c99bb101c29dc587b9bb6eccb2e74daf152b71cb39fbe098f6d549e
+	sha512sums = f205a978664af11cdd778d3e3b4f3ea205ea7503523a47bd9d4e6d170e776aab94c46562cd83f2919d3d685062cf3673935ebe35315a8ecfdb18674e582cbd84
+	sha512sums = 2b9c3f2e65ad8b8977244b4af38be4c9b284fc84a3e7f22fe467a4e5af0c9eee7c7ca6df3c8923c6fdc38d0b2b11d359af03f44864f02e4a9e28c15217dd4453
+	sha512sums = f5e7a8698eede85b4ef8cdf239728efda2addfe8c17e3341be6489b559bf09c1ade0dc3b8f296be44427cc1aaf6bf0c6229a8a356ac4267fd7a84d5ec9c80230
+	sha512sums = 95e60d69079db6929f2dd8ace4748248c213b71cfc02dfbb9f8c53ab469e911aa9280562079ae518491e31cf432e33c7933b566aa38765c719afe06db74a0edb
+	sha512sums = 69a7afe79ef9dbef0554ee1d89ec4f6d6bd7e68a82331017c6b0ef5f9d5c6e37df050b27d16b4cfaf00f5fc62ca10640d31846294fffe4bfb69e6f643592c2ec
+	sha512sums = f920ac93f7145666f92ef9d04fb31d9f1028b87b8e23c2e64c8e56812375814c1de4809ef5594b71d0f9272840358592174dea9c5cb9e009653a4df7fc7e42b7
+	sha512sums = 0a44522eb5926ac24fe6d6967e723e598dada73a8f76591fb7bfdd6b801045f5ead54ba84a4db9c0ba68f37fd8a271ef768f0de34064787a3a0db32dfc0383ce
+	sha512sums = 0d496a619b37c8db427e4a2cfdc956fc72b74306efc2d5777b57123a9c43a6a42fcc76f97736da597c1fb87242f5a8613b73791787a920193063a749c8b25e8a
+	sha512sums = 8c78e159ccabd02342488168c76c98c24483b619d04abbb50fe112976f6425c0d35909477435490611a77946a36f5602258e5c789afe08754f6f6f3bc0819c68
+	sha512sums = c7a68fab699d338609748cf54556e3f04ddbf760c4f1d7667f2fe397c13500378fee2df6b11afeedcbdf19965269c8050b3419191d5f70ed90b3df489db9b9d5
+	sha512sums = d7f105ed5b3de377c47fb0f936d617453bd2e8f74e194bb7a410f5bdac0e58f5451d04d07e5f79697271c709efeacce61e2c8e06c39e9532441fde0825a481a5
+	sha512sums = 23976d6dace1b0d83b881ec5c743f13d80a36633233317fbd6bcbb2f079dfa9426351138c9cce0fb982bc3efbe35916679024c1e6d6f70800773f0ec7856da2f
+	sha512sums = 011702fa227d29304cd620fee2ac0b5ec1aed776aa4a2339ccfc367f50e8cd35d41a0cd790a2d89da5676a3ba6a2b44fea35256f77557fecdef4ee94b28f0517
+	sha512sums = 577342d62198d653a3c76fe3b16468ad360f40d8d6eaedc5565abbcf94e01250bc04c9a279e076ea36b7381903562bc77e535efadf699784f361fd68d1f866ba
+	sha512sums = 418a9e624d067d57936d60f3e5dabd1ba599c4e0edf14f68297a8dca48845fe3b80c6df32813860cda6ee23e9c1626bd5be6274b336c2cafb94551a0c9d4a1f0
+	sha512sums = 0e053a7d0250234b3bba834515b15c3fb991c66de36c71eec2ec39e91728e3bad72b5d7272bf503b844121f84d77d5e2adafef72c915f62cfd97b3561461318f
+	sha512sums = d29321911515335179e5e470b06ef30d017277a59061ffb3e9610c935035d79545206e29d48f5e0c2c5f254dc2812896d86345ba1e77d239312040fb826d2f34
+	sha512sums = 93020fda08370b388d010db4902192f9af674b2007df2eb1bfb8bec64f4733a28078d67157091fdf3085d84b1c55673b719a0286d27c19ccc3c32d93702bf64f
+	sha512sums = 9219eff2f9dd5c30fea752b80c93c0b8474522d788c56f1ef1d38d2b4851154f1661207016417e46766fcaea67c4053ba51c61e6e26f0e227c641236807b48fb
+	sha512sums = 12b48064e57ce63fbfd5debb52a3129147c4b4d7ac8699c01e9638687954ad0ca8eaa8da68f0df49fb496fed2cf62c85e1bf5772bd9a80598d5929401cbcee7f
+	sha512sums = c38ca1dc660e79eec72fe9e34ed04fb99216122452c44749eaa2ab19e73cbe4355aef78f1efbe67baccd22822330fe133a7557afee4ada9bf62a08e044218aa8
+	sha512sums = 38ae3d401306d2bcfbd93cd7064518814ee337a8794378fff3ab8bf052ca62728282375958e87f94dae692f507cc97be884c71525b112c76231faab3e5f15c6e
+	sha512sums = f4e8cb9448aa3998f0cf64248539b0a289dd031253c12615f275134dd2467a77996ec8e1430e2ef76e2fb4c79da44a8408539cc8f7aa4ec6c225aa4517c01fb1
+	sha512sums = 595b305237ce35470599df4daba70a0abc885df0b915fa79751239ba734b8f842f75f5beea6462a8dc1ae30699d68dd6c46f49e2202bb60e34d24bb083a6ddab
+	sha512sums = 41f6c7c6e5fba44860a5466baeb3b16c15024f741519284bf81ce97c6bac9ba14fbe2325f026c5a80b3a5fe687d5a4d0a59c6ca80e8bbf84d8468b32be4d611c
+	sha512sums = d2d606731a5cde75c51a22d414f3062778636c7f8958c8b3f5cc9b129945b08fb8aa8fe39df3c15903da8fbcdc3ac2a427978b715ccc62e9d3ada0da77825336
+	sha512sums = 06c2319fc558edd81d3bc112f45d400c3c2c10906582626d3e5e11c0dd90de651dea26f39a3a575148d1065daec2f7cd85b3ce407abd55886ef2136270267eb3
+	sha512sums = b67d9aad31a797ae4a5a746739da105de25342f6aade9f1fd68e7f03fffd48c40c72f776770bb2292ad5a9a185d252810529651cd00d014c672ecf9e341e56fb
+	sha512sums = 49ce192bcd6aaa0ba9da142700117a7a885fe240de449287434fce48e52fde63aabdf7a843b9b8e26c18ff6bf33b66c0f75056c86c2098f2a9046b827b7b7750
+	sha512sums = 6dc70404317adbe4fd08f6fb2a22bb03a492b69d1f4b81b14999056999a2d2de1b8c5970e07fa7207d25f95afb90f4af15e4b176af9561f5e000c8ba556ea35a
+	sha512sums = e51acee31eb240e879b063a66339b57a3adfcc583003ddf3a4d1f095e18a8964ab9e0d64cf1df8e0d7a91609d7fa70e5bdf5b5e8a83b719325eff588c0ba81cf
+	sha512sums = 151e1545241dc99946b989c0c852aa71b6374a067cafce597ed03d33a1e3001ac1bd3161f7adc31dc6911eec08a8b3af09bcce82705b8b0cf03bb7b74f2e7a3c
+	sha512sums = 9e7f2f24e3bbef810ce65a219ee94cac0ca5075188f0ef84540902bdc8f4e6bf11476e879d55e14dfa4caa237249f40dca8c5afefb9fd7c18e9ced5703085433
+	sha512sums = 01fcb4bb5fc1ddd115e54a881ef836c08c9f38e12bf32ca4bddebf429ccc0e4d32edc5663d44b130b15aa6c28c4ddcb7e4814eaf27d5ad3a9781217b7e16fabe
+	sha512sums = e47760dd44727c97159fe672ca9e3392ab2659ea33834b8e22c068a7537a18d4aa3ba2a1b142e688a67c7fa7b3b7b149b0ee23b753efde00b1d51badd8ea3ddb
+	sha512sums = 304569906a0c16b07ecd22baa4fb11d232349904b8f5a0de8dc90cb7cca6fa6e7d15682ca4d0260f3019cc5e8485bc70c76e925d4ed9ce07337788fe7990c4ff
+	sha512sums = 6519125c61bffe7cc93a1d44a00b4aeb279c7efbffba7a8731c6b738e00d7fe9f2c0e940b18cb93b699daf089b9295734aa20955705b2384f02f41cfcff590ed
+	sha512sums = c163a7982d99911c1c85ef7d46b67957e10409c9a66b65c96e47808a327efcdad644d0e8748d5e9cd761a1db28274dc7c241c704b74ae1f2dd4267c1a27e347d
+	sha512sums = dbf6b401b87fc0154ccd4bc06ce5fd2217c2ce22ad167b55cd57642a23af46dce7639e340e14f21fed35c666046eb61ad7a06d0ba2e1ab77f4f308a51b180c5b
+	sha512sums = 09e673d9df3e42db6d51832ff324a88c2bb51848e8248312fd8b917de2a322a8ddfa9ca85433773635afcee6148d8e17a86d5f97341471ac1b70ad6a00c34659
+	sha512sums = f2e59d7f160a8bb72b087588ef34714f44cd8e2f650ac5ebf30b1c80b9bade23468624add2c4240fbe910a452621653c5d0d452ec811ff59e5556dcd19c0e35a
+	sha512sums = 8bfe2d2caf2962317ec11eb44ac74ba23111a576e231441daf1fe60d5c331445cc7bd644ef15466d8b65822c12f6fa65d0309ffaa91f080aadb127b71e6f6c73
+	sha512sums = ac7a972ca6b3f7ee95ffb9055a443099b31fadb45eda57be64b9b98c17be5346c2d4f78818cdb24eda108d1360236334e5a697cd5c7bc4038670137346f7ca41
+	sha512sums = 320d12790cdc078d9d9a4d112887c5901f5d1c1cec93e546c21a343fe4c9be7fa39ef43cfbefc6af2c8013eb659d41e95d4c3d5fd04903e9e0d21ce5d1761ac7
+	sha512sums = bbf446e6116c5692d7be918bc10024eeb36e9e16112ffd2985d6cfdf1e9c043c2a432b40b23f856c8204a22b0fe22fe33dfc9706420b5d470f6d827194e357e9
+	sha512sums = 2b5f3e57d8ff09f2d48acb3f8ee3849e12d7c99e312bead122bed1024e6c2df4c83cc9bdae84056cae1eb88c1aa5d43da822b19fdc2e79bac6969378d736625a
+	sha512sums = e520950c8cd69f7059d24c1f22d8cfb7db50dfe63c601711ff56950ac6469f12437cc9c5b6653bc8805ca8ae0077daaccc72442e2cbfeebf12ca2bf2cdd9bb21
+	sha512sums = 9d80f45137169ed4bd7da4bae363aa8eeb19e585093705ecfd2c60c8fe9dfd38f9ed74299fee07d9194f0e3d2bba1331534684bc93fa685c6d0860306421950e
+	sha512sums = 658e666734c2bd807011ffaf32c07614ab1fb5ff4daecd31861fb56463cba7088f83cf2a3aaa9695d1ddef22bef45d39108bc84dc37c1ec0b3f4c290c09cacab
+	sha512sums = 6df7ff34b3b70495d1deb611a145ded9769ff84e65160d43d4cffaf0419d4c01ef1b60d02c485d7181ca6192380a2cc11541b4bcfd8b90efa63e45e08fdc7e44
+	sha512sums = d5e6d80840c0366b25e19d54f4b94feac08ae423a5e8dfe277a726e64714204383f0cf1a24b030cb742513c190905920ac5f83c3dc19562ee1569c08dd861e13
+	sha512sums = f5b5b1f0f4746d55d4860f539642baab562f67d271141cbc9bfb8eec0151974bcb98b115ae8285feaa3693443874ab86bc69f539a61d54af5234681b838c4612
+	sha512sums = 1ba698a21eb5bebaa7ffc666acfddb05152225227c23c36caac1f9209f243c2179a120d7d114d08edab5db3920f8c4bc39263f4ece29b4107c68f723afe5476e
+	sha512sums = 48d53a34ec4b533244cdb6c003ddd1a2f3dacd5852e642631c714a1efbcf3d2aa35b75e83e1884a1c43048c0170604143fecbd9a253565c224624f432b1097a7
+	sha512sums = 3aa6ebc7fc1e07919b0c0de5af1fa7f30bc8f5a0b0d737dc2b4d60f8ffe9e0b8438e1845aec007b03083fed431ad2de876085641b646e842acd920a77ed4180a
+	sha512sums = acf49b931f5bca17eaf56e56fd9bcd5d963bfa7baef5fae1259d09e3b20807bbe31528665ff7cf69242f4b44097935b7a6a248eda7e018e378b57ebfa91c01d4
+	sha512sums = 6cda4e5a09b59a883cae4ba30458913183f346eebb0b614e9dd47524ea6b151ba16f7136722e8549a39aadd4faaf0bef92caaf1e5f7fe28b15a265469d095c40
+	sha512sums = 2dabb58462c9444dbad6445a9c536a7bb6aa3a9099537083bd5b6e831cc9754f37202fb535b78c641ae0c02ce9ed1ab52ba9bfc8a1c875f181cdfcb9ea482711
+	sha512sums = 7193b206604ab6f4df3b8244562ba75d8a2105b5a8a5754eaa8a0e83dc668d3f1f16b538ea63bb6dc3e047451cfdd3d480b7b152fd61d0e7d7747a243cc4a561
+	sha512sums = 0ac1a7d5ed2997c74c2c3aa3a8694d56c8dee20aa0907f9dcac7cd71fedd705effc2371c7d471442c2a6b72c74b203d35965a95637984cee984e1bdf8030b0c7
+	sha512sums = ad6b58a0fa9a08656311de703d8c61e15b60b8e51a95f484eea84c22d1c6dee81c0796d3e6104ad66eeec6b11aa291f417c4d81e6f85f6b81d140553b4b07a8c
+	sha512sums = bc26311cc89a8e8f3526b90761c572ea4228ca19f366e05d72cf1c784609c7c2e97469d7ad13c70c543987d0fd273b34d421726288da5e184af2d4ee30998201
+	sha512sums = e2f3116f4d1f1fe6768d962b21640668685a9d822b2bc9bb24b72c8d45de77c8df883414cc7be3002e8b94954d4fbf68102a3c5b1818ac0820218184ece75217
+	sha512sums = d3a7ef43d0074fdec01ee4d938e46dc586b3b1352e6943e6e95965c44ea9453fc91093f8f55218331f56aa5994ca65a5473f1324991319155d8fe714b93f952c
+	sha512sums = e15b21e50f8049c0bf31d504e04714df6b3352000e9742db3a024eae8f260e81173a735e3e957857deb4a6416609297d070d4a132c31a7103f71a76293da8b13
+	sha512sums = 7b617ae099a953f9da8f899067402686e0acf5aeab72bd5c97f2f2963fd0f18d55a315a16e1fe1d169b6466935883549c17ecc600a924c71d4335f42c78b0e17
+	sha512sums = d7e5c3dec2c561b37d545f8af5a9e4f19578a92e8c886815a45a4ed030f7a42ac644aa6a3c0b544bbb0a39fc04a91ec6895dd950f3e289c238b023153586da8a
+	sha512sums = 0f4b78092a126edb71fd6e4caab4fd9a39d8012f7ab1c5d0c29394da7188de04ba573a145b900eb949d5fbd748083a7813e8385c5530ff901dfe5b1e758e2b58
+	sha512sums = ab03458058fe7ecde328119b0e0917a3cab3adbfe9b37fea72c312ef79114c9e632758cffdaa1c505c8af5eb34a15b5ef19885bf24a4aa96e3ffc13359aa368f
+	sha512sums = 0aa650b39d859e7f9ec5e6b6c1b5af5d3a35b4a2f6f10f49f18b7ec5475cdf6af5a31b926bd1b2211283a38e2d39226476d0d6acf4954d9ccb9400770c9b8f13
+	sha512sums = fc2aa82446226f22a76cb94d6c0ce7efd370ede9d63b24d7b95d6fa395d52c4342067eb34f6cacc6fef52180535412dbe386af0b04030dc32e35f0c773c548d6
+	sha512sums = e11cf7074e28b36e6f48584272a2d35f7fcf0399b867136762de78780b0742a5b947e65785d98efcffc9381e0043146c44e0456f2d051baa32c31912d2ee64c7
+	sha512sums = 9ba76512e47c0b35f28eb747c14c5c3062ac38938b79a42c0a30f1bf8613f804d358ddd4ea66b8f735d7309f2ab8593be632778f38257583b99123b107b09724
+	sha512sums = f9ebe2a41b115e043e4df88f18ff7752088ed8c5e1b99a7a8fabf401661a64ce58bd93bb805f7243f2cc3e7d1b657a8b9372336316588d4aba17f8b7e9abc811
+	sha512sums = c4a4076bda77850963bed4006cae3399f21fb3a56b969db770658f1e86c4a8f52a1adb5680b538d2c3c648f826059cae15d5732b993de90cdc9b98a5a47541f2
+	sha512sums = 78807b473649231aae0e34f257daa37d93e29833b4ebd2db5e4b75171cc794a67c65a6a1010820a2127dc071630be551eaf4af1b301322ddf22ec5354343c7ba
+	sha512sums = 5708451fcb1a5f88e77283e7bd920cdaabe854151924a155f8ee1adb735ad5257da3377dcc96c13cd4d0df077187d43934ef23cd0f5eee44bda57a86e4ff29b3
+	sha512sums = 51d0c77c45cca328da96f4aca06e2ab8c05cd7272870b9b5239704b52caaffbd45ff2eee4ad8856c7c2f65eedf7c831b99d27b52235f61a500e7725dded5b31a
+	sha512sums = 4ee2e70eff6ba2c5f8060765257157ea06d38b780f3882c449cb4e4339e76850a0b84eb6ee384e9c3f5c801a45317ba76d4e6f90a005945e7e208b4cd5a500df
+	sha512sums = a549621e77a1e03b0a6b20d143d657bd2b31bc68e5ad633393e662f054b09e31ad556742c7705462dd0e9a7fb7215d2282d1b2a63bbdd914bdae515d12304c1c
+	sha512sums = f8f171a3591b5ea4c35c52d54031ecebe02433fe13f941c55624ecc52690b328f9dee72561a22a5bd4ae02eeb56f1673f9a47d7e4a8b6439a46b55fca2527737
+	sha512sums = 86402dd9f72332ab12306fde5aeb90abb40ff750bef328065e327fd9285f2cdea8808b7dcfc0c26e9da982b816843d2f821798b1518fd2ac7746e626118dd1ec
+	sha512sums = 07e872200e112844c6d6b828c7f15fab0b719f6da3a26f2915686be32dc1d782d9d1e35bdb033d224abb6eb6500a04371bfc6165a16a375b380261e8262aedb0
+	sha512sums = 3073c24ec36b22c07df6dd17c02cde264fd4e41fae10ad419bf007adb76899a4b0d467610f2d63ac8c8e8a300165a32ec9ac352823747ebb575309d70383d0ec
+	sha512sums = 36233775121b2dab23231fdb1ef83664bb377a11585a1e641ef2ad775c97e70f31e7aaa947fbe4e8b54b0aed55ae38d9f78408366929327bee60d519860d28ac
+	sha512sums = 390b3c44a76d1fb47a9dd17666dd9425b0407737a7c5342584a324db53b47748bdf48dcb2d97015a6ec962df8bfdf59bfeb46c481e453ae7fabd8b8151417abc
+	sha512sums = 21f2e9f5bb9f3745f0664d9f7d2e47434ceabda645e5f7331e442ef31bfbc05ae256d11d393c607fc2c13a8765f6fa246e16372717c61029d2504889515c10c8
+	sha512sums = 8068749061c8f55ba3c62f0844b76570c30b0850fdd01c9b9cff961d82a016c266168c9da6745f8c7f94c93cf9d302c2dda107d0da619f6230f3eed707bbb2f3
+	sha512sums = 8ce6eeaffd7e315e71a30ba06f603a6e82b95f969bc79a36f68310e33c8dcddc964dd4571ef7b4e4e08647c7cecb1f52816c54e54ca1328cd69b0f6b41a6cd86
+	sha512sums = b63c1c28235abec4af483f7957142d6972c1ada932ddc5cb5ed1489614de938957d41015a40320a091abaa913b85d0952664e242ce579e53ef6f32b3587db81a
+	sha512sums = 85f734fb0fdebd810325c754d5e1316cf1e834ba5374cd82e9295a4e3205cda21910fdffefa57e3be1cf5d9605e763b72b89231708e5cb4f63a529ae2edfd94d
+	sha512sums = 5dfd4c13cd7b770ce434e1bea676c20717372d82b94d89222d00243fc23f46218ccd9c4ae63e3e40b2fa9adbb08d3be15d1e30bff9e64d9362a4f89868449c1b
+	sha512sums = 74791ad7dc92cf1ff3803b0e08918a341fa5763502847e99dced949031c86221af3fbbc8b7865d5e736ee8944a234f3e0589048f7cf2b7f665df9ac761546f63
+	sha512sums = 33116c70803669c7cb0bcdb9ec12d9ae1347c6ed0b846dd2a0f64f3542b6def11b80e4b03cc34d5b6eb79ffcd00804a8b818c99a72959d1e78acfea60a6a2bb0
+
+pkgname = firefox-esr
+
+pkgname = firefox-esr-i18n-ach
+
+pkgname = firefox-esr-i18n-af
+
+pkgname = firefox-esr-i18n-an
+
+pkgname = firefox-esr-i18n-ar
+
+pkgname = firefox-esr-i18n-ast
+
+pkgname = firefox-esr-i18n-az
+
+pkgname = firefox-esr-i18n-be
+
+pkgname = firefox-esr-i18n-bg
+
+pkgname = firefox-esr-i18n-bn
+
+pkgname = firefox-esr-i18n-br
+
+pkgname = firefox-esr-i18n-bs
+
+pkgname = firefox-esr-i18n-ca-valencia
+
+pkgname = firefox-esr-i18n-ca
+
+pkgname = firefox-esr-i18n-cak
+
+pkgname = firefox-esr-i18n-cs
+
+pkgname = firefox-esr-i18n-cy
+
+pkgname = firefox-esr-i18n-da
+
+pkgname = firefox-esr-i18n-de
+
+pkgname = firefox-esr-i18n-dsb
+
+pkgname = firefox-esr-i18n-el
+
+pkgname = firefox-esr-i18n-en-ca
+
+pkgname = firefox-esr-i18n-en-gb
+
+pkgname = firefox-esr-i18n-en-us
+
+pkgname = firefox-esr-i18n-eo
+
+pkgname = firefox-esr-i18n-es-ar
+
+pkgname = firefox-esr-i18n-es-cl
+
+pkgname = firefox-esr-i18n-es-es
+
+pkgname = firefox-esr-i18n-es-mx
+
+pkgname = firefox-esr-i18n-et
+
+pkgname = firefox-esr-i18n-eu
+
+pkgname = firefox-esr-i18n-fa
+
+pkgname = firefox-esr-i18n-ff
+
+pkgname = firefox-esr-i18n-fi
+
+pkgname = firefox-esr-i18n-fr
+
+pkgname = firefox-esr-i18n-fy-nl
+
+pkgname = firefox-esr-i18n-ga-ie
+
+pkgname = firefox-esr-i18n-gd
+
+pkgname = firefox-esr-i18n-gl
+
+pkgname = firefox-esr-i18n-gn
+
+pkgname = firefox-esr-i18n-gu-in
+
+pkgname = firefox-esr-i18n-he
+
+pkgname = firefox-esr-i18n-hi-in
+
+pkgname = firefox-esr-i18n-hr
+
+pkgname = firefox-esr-i18n-hsb
+
+pkgname = firefox-esr-i18n-hu
+
+pkgname = firefox-esr-i18n-hy-am
+
+pkgname = firefox-esr-i18n-ia
+
+pkgname = firefox-esr-i18n-id
+
+pkgname = firefox-esr-i18n-is
+
+pkgname = firefox-esr-i18n-it
+
+pkgname = firefox-esr-i18n-ja
+
+pkgname = firefox-esr-i18n-ka
+
+pkgname = firefox-esr-i18n-kab
+
+pkgname = firefox-esr-i18n-kk
+
+pkgname = firefox-esr-i18n-km
+
+pkgname = firefox-esr-i18n-kn
+
+pkgname = firefox-esr-i18n-ko
+
+pkgname = firefox-esr-i18n-lij
+
+pkgname = firefox-esr-i18n-lt
+
+pkgname = firefox-esr-i18n-lv
+
+pkgname = firefox-esr-i18n-mk
+
+pkgname = firefox-esr-i18n-mr
+
+pkgname = firefox-esr-i18n-ms
+
+pkgname = firefox-esr-i18n-my
+
+pkgname = firefox-esr-i18n-nb-no
+
+pkgname = firefox-esr-i18n-ne-np
+
+pkgname = firefox-esr-i18n-nl
+
+pkgname = firefox-esr-i18n-nn-no
+
+pkgname = firefox-esr-i18n-oc
+
+pkgname = firefox-esr-i18n-pa-in
+
+pkgname = firefox-esr-i18n-pl
+
+pkgname = firefox-esr-i18n-pt-br
+
+pkgname = firefox-esr-i18n-pt-pt
+
+pkgname = firefox-esr-i18n-rm
+
+pkgname = firefox-esr-i18n-ro
+
+pkgname = firefox-esr-i18n-ru
+
+pkgname = firefox-esr-i18n-si
+
+pkgname = firefox-esr-i18n-sk
+
+pkgname = firefox-esr-i18n-sl
+
+pkgname = firefox-esr-i18n-son
+
+pkgname = firefox-esr-i18n-sq
+
+pkgname = firefox-esr-i18n-sr
+
+pkgname = firefox-esr-i18n-sv-se
+
+pkgname = firefox-esr-i18n-ta
+
+pkgname = firefox-esr-i18n-te
+
+pkgname = firefox-esr-i18n-th
+
+pkgname = firefox-esr-i18n-tl
+
+pkgname = firefox-esr-i18n-tr
+
+pkgname = firefox-esr-i18n-trs
+
+pkgname = firefox-esr-i18n-uk
+
+pkgname = firefox-esr-i18n-ur
+
+pkgname = firefox-esr-i18n-uz
+
+pkgname = firefox-esr-i18n-vi
+
+pkgname = firefox-esr-i18n-xh
+
+pkgname = firefox-esr-i18n-zh-cn
+
+pkgname = firefox-esr-i18n-zh-tw

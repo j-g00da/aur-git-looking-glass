@@ -1,0 +1,16 @@
+pkgbase = zps-git
+	pkgdesc = A small utility for listing and reaping zombie processes (git)
+	pkgver = 2.0.0.r0.g76ffe80
+	pkgrel = 1
+	url = https://github.com/orhun/zps
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = git
+	makedepends = cmake
+	depends = glibc
+	provides = zps
+	conflicts = zps
+	source = git+https://github.com/orhun/zps
+	sha256sums = SKIP
+
+pkgname = zps-git

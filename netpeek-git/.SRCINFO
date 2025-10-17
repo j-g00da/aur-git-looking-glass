@@ -1,0 +1,20 @@
+pkgbase = netpeek-git
+	pkgdesc = Mordern network scanner for GNOME
+	pkgver = 0.2.2.r6.ge8dd1b8
+	pkgrel = 2
+	url = https://github.com/ZingyTomato/NetPeek
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = git
+	makedepends = meson
+	makedepends = ninja
+	depends = python
+	depends = python-gobject
+	depends = gtk4
+	depends = libadwaita
+	provides = netpeek
+	conflicts = netpeek
+	source = git+https://github.com/ZingyTomato/NetPeek.git
+	sha256sums = SKIP
+
+pkgname = netpeek-git

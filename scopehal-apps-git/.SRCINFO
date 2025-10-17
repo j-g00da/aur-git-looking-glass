@@ -1,0 +1,29 @@
+pkgbase = scopehal-apps-git
+	pkgdesc = glscopeclient and other client applications for libscopehal
+	pkgver = 0.0.e0dd8c5a
+	pkgrel = 1
+	url = https://github.com/ngscopeclient/scopehal-apps
+	arch = x86_64
+	license = BSD-3-Clause
+	makedepends = cmake
+	makedepends = git
+	makedepends = vulkan-headers
+	makedepends = catch2
+	depends = gtkmm3
+	depends = libsigc++
+	depends = ffts-git
+	depends = openmp
+	depends = glfw
+	depends = yaml-cpp
+	depends = glew
+	depends = libsigc++-3.0
+	depends = hidapi>=0.13.1
+	optdepends = libvulkan.so
+	optdepends = spirv-tools
+	optdepends = shaderc
+	optdepends = liblxi
+	optdepends = linux-gpib
+	source = git+https://github.com/ngscopeclient/scopehal-apps.git
+	sha256sums = SKIP
+
+pkgname = scopehal-apps-git

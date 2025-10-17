@@ -1,0 +1,20 @@
+pkgbase = zenphoto
+	pkgdesc = a php-based Photo Web gallery. Manage Albums
+	pkgver = 1.4.10
+	pkgrel = 1
+	url = http://www.zenphoto.org
+	install = zenphoto.install
+	arch = any
+	license = GPL
+	depends = php
+	depends = php-gd
+	backup = etc/webapps/zenphoto/zenphoto.cfg
+	backup = etc/webapps/zenphoto/htaccess
+	backup = etc/webapps/zenphoto/apache.conf
+	source = http://github.com/zenphoto/zenphoto/archive/zenphoto-1.4.10.tar.gz
+	source = apache.conf
+	md5sums = b873fef091715964d207daa19d320a99
+	md5sums = 05298d3385372db7757193a53b22f816
+
+pkgname = zenphoto
+

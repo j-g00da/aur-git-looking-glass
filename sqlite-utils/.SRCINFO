@@ -1,0 +1,23 @@
+pkgbase = sqlite-utils
+	pkgdesc = CLI tool and Python utility functions for manipulating SQLite databases
+	pkgver = 3.38
+	pkgrel = 1
+	url = https://sqlite-utils.datasette.io/
+	arch = any
+	license = Apache
+	checkdepends = python-pytest
+	checkdepends = python-hypothesis
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	depends = python-sqlite-fts4
+	depends = python-click
+	depends = python-click-default-group
+	depends = python-tabulate
+	depends = python-dateutil
+	depends = python-pluggy
+	conflicts = sqlite-utils
+	source = https://pypi.io/packages/source/s/sqlite-utils/sqlite_utils-3.38.tar.gz
+	sha256sums = 1ae77b931384052205a15478d429464f6c67a3ac3b4eafd3c674ac900f623aab
+
+pkgname = sqlite-utils

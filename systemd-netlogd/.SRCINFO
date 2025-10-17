@@ -1,0 +1,18 @@
+pkgbase = systemd-netlogd
+	pkgdesc = Forwards messages from the journal to other hosts over the network using syslog format RFC 5424
+	pkgver = 1.4.4
+	pkgrel = 1
+	url = https://github.com/systemd/systemd-netlogd
+	arch = x86_64
+	arch = aarch64
+	license = LGPL
+	makedepends = gperf
+	makedepends = meson
+	makedepends = python-sphinx
+	depends = libsystemd
+	source = systemd-netlogd-1.4.4.tar.gz::https://github.com/systemd/systemd-netlogd/archive/v1.4.4.tar.gz
+	source = systemd-netlogd.sysusers
+	md5sums = a4d656ddc3b31811fe67ea57215ec37c
+	md5sums = 4c2740c72e455d37f1304c4a1e1c3952
+
+pkgname = systemd-netlogd

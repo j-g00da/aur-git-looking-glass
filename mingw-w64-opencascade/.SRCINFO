@@ -1,0 +1,22 @@
+pkgbase = mingw-w64-opencascade
+	pkgdesc = Open CASCADE Technology, 3D modeling & numerical simulation (mingw-w64)
+	pkgver = 7.8.1
+	pkgrel = 1
+	url = https://www.opencascade.org
+	arch = any
+	license = custom
+	makedepends = mingw-w64-cmake
+	depends = mingw-w64-tk
+	depends = mingw-w64-ffmpeg
+	depends = mingw-w64-freeimage
+	depends = mingw-w64-onetbb
+	depends = mingw-w64-rapidjson
+	options = !buildflags
+	options = !strip
+	options = staticlibs
+	source = opencascade-7.8.1.tgz::https://git.dev.opencascade.org/gitweb/?p=occt.git;a=snapshot;h=refs/tags/V7_8_1;sf=tgz
+	source = fix-install-dir-references.patch
+	sha256sums = 33f2bdb67e3f6ae469f3fa816cfba34529a23a9cb736bf98a32b203d8531c523
+	sha256sums = afb584aa453993ae8d9e2b983594558531ede735a5892754b812be30650c9fb5
+
+pkgname = mingw-w64-opencascade

@@ -1,0 +1,18 @@
+pkgbase = dagger-git
+	pkgdesc = A portable devkit for CI/CD pipelines
+	pkgver = 0.19.2
+	pkgrel = 1
+	url = https://dagger.io
+	arch = x86_64
+	license = Apache-2.0
+	makedepends = git
+	makedepends = go
+	depends = glibc
+	conflicts = dagger
+	options = !lto
+	options = !debug
+	source = dagger-git::git+https://github.com/dagger/dagger.git#tag=v0.19.2
+	sha512sums = SKIP
+	b2sums = SKIP
+
+pkgname = dagger-git

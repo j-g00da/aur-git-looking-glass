@@ -1,0 +1,20 @@
+pkgbase = obs-audio-monitor
+	pkgdesc = Plugin for OBS Studio to add Audio Monitor dock and filter
+	pkgver = 0.10.0
+	pkgrel = 1
+	url = https://obsproject.com/forum/resources/audio-monitor.1186/
+	arch = x86_64
+	arch = aarch64
+	license = GPL-2.0-or-later
+	makedepends = cmake
+	makedepends = git
+	depends = obs-studio>=31
+	depends = glibc
+	depends = gcc-libs
+	depends = libpulse
+	depends = qt6-base
+	options = debug
+	source = obs-audio-monitor::git+https://github.com/exeldro/obs-audio-monitor#commit=245b0c258b369d6a21986c6037f59bb4a6b0cf62
+	sha256sums = SKIP
+
+pkgname = obs-audio-monitor

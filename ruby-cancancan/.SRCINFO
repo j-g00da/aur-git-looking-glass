@@ -1,0 +1,16 @@
+pkgbase = ruby-cancancan
+	pkgdesc = Simple authorization solution for Rails. All permissions are stored in a single location
+	pkgver = 3.5.0
+	pkgrel = 1
+	url = https://github.com/CanCanCommunity/cancancan
+	arch = any
+	license = MIT
+	makedepends = ruby-bundler
+	makedepends = ruby-rake
+	makedepends = ruby-rspec
+	depends = ruby
+	options = !emptydirs
+	source = https://github.com/CanCanCommunity/cancancan/archive/3.5.0/ruby-cancancan-3.5.0.tar.gz
+	sha512sums = 2d42ad1c14debb6672565d3e8b7b767ffc2fc9b8c370823ca6e3854a7118ccad9db8727861caaddbc35eb95f65758d385167b47bbdafa17d8310a0fb57acf7bd
+
+pkgname = ruby-cancancan

@@ -1,0 +1,21 @@
+pkgbase = python-pygreat
+	pkgdesc = Host-side drivers for communication with embedded devices
+	pkgver = 2024.0.5
+	pkgrel = 1
+	url = https://github.com/greatscottgadgets/libgreat
+	arch = any
+	license = BSD-3-Clause
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-pyproject-patcher
+	makedepends = python-setuptools
+	makedepends = python-sphinx
+	makedepends = python-sphinx_rtd_theme
+	makedepends = python-wheel
+	depends = python
+	depends = python-libusb1
+	depends = python-pyusb
+	source = libgreat-2024.0.5.tar.gz::https://github.com/greatscottgadgets/libgreat/archive/v2024.0.5.tar.gz
+	sha512sums = d57869cccee70a5ad9dbc273713bfa133eae8f4abe5dfab2ce81a2677322dd238c072af5a8a28354dcb0db33ef3adf45d385623b72be1c9734daeeb20c32ad28
+
+pkgname = python-pygreat

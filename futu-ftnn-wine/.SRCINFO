@@ -1,0 +1,24 @@
+pkgbase = futu-ftnn-wine
+	pkgdesc = Futu Bull (FTNN) Wine unofficial version, use it at your own risk!
+	pkgver = 14.40.16258
+	pkgrel = 1
+	url = https://github.com/ttzztztz/futu-ftnn-wine-arch
+	install = com-futu-ftnn-wine.install
+	arch = x86_64
+	license = unknown
+	depends = bash
+	depends = glibc
+	depends = wine
+	depends = wine-mono
+	depends = wqy-microhei
+	optdepends = winetricks: Recommended wine tools
+	source = https://softwaredownload.futunn.com/FTNN_14.40.16258.exe
+	source = run.sh
+	source = launcher.desktop
+	source = cjk-font.reg
+	md5sums = 3913a9aea280f60f4bf9acc0d3241b2f
+	md5sums = 72b01d66a008f7f27c45b18d2a1abd0a
+	md5sums = f5f1458a11d24fad34e82e0bd91879dc
+	md5sums = fb0a1e6b6424501f81d88b61bd2e0fa8
+
+pkgname = futu-ftnn-wine

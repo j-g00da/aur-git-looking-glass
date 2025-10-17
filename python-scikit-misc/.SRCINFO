@@ -1,0 +1,26 @@
+pkgbase = python-scikit-misc
+	pkgdesc = Miscellaenous tools for scientific computing
+	pkgver = 0.5.1
+	pkgrel = 1
+	url = https://github.com/has2k1/scikit-misc
+	arch = x86_64
+	license = BSD-3-Clause
+	checkdepends = python-pytest
+	makedepends = python-setuptools
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-spin
+	makedepends = meson
+	makedepends = meson-python
+	makedepends = cython
+	makedepends = gcc-fortran
+	makedepends = git
+	depends = python>=3.10
+	depends = python-numpy>=2.0.0
+	depends = glibc
+	optdepends = python-yaml: Better output during compilation
+	source = scikit-misc-0.5.1::git+https://github.com/has2k1/scikit-misc#tag=v0.5.1
+	sha256sums = 8e8c9b5501b320f65ce1cab1e54297653b8dd2099f43cc4fc5342cf8d6e8827d
+
+pkgname = python-scikit-misc

@@ -1,0 +1,21 @@
+pkgbase = pascube-git
+	pkgdesc = A simple OpenGL spinning cube written in Pascal (Lazarus/Qt6)
+	pkgver = 1.5.1.r0.ge926659
+	pkgrel = 1
+	url = https://github.com/benjamimgois/pascube
+	arch = x86_64
+	license = GPL-2.0-or-later
+	makedepends = git
+	makedepends = fpc
+	makedepends = fpc-src
+	makedepends = lazarus
+	depends = qt6-base
+	depends = qt6pas
+	depends = mesa
+	depends = glu
+	provides = pascube
+	conflicts = pascube
+	source = git+https://github.com/benjamimgois/pascube.git
+	sha256sums = SKIP
+
+pkgname = pascube-git

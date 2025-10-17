@@ -1,0 +1,23 @@
+pkgbase = ruby-oj
+	pkgdesc = The fastest JSON parser and object serializer
+	pkgver = 3.16.11
+	pkgrel = 1
+	url = http://www.ohler.com/oj/
+	arch = i686
+	arch = x86_64
+	license = MIT
+	checkdepends = ruby-bundler
+	checkdepends = ruby-minitest
+	checkdepends = ruby-rake
+	checkdepends = ruby-rake-compiler
+	checkdepends = ruby-rubocop
+	checkdepends = ruby-test-unit
+	makedepends = rubygems
+	makedepends = ruby-rdoc
+	depends = ruby
+	depends = ruby-bigdecimal
+	options = !emptydirs
+	source = https://github.com/ohler55/oj/archive/v3.16.11/oj-3.16.11.tar.gz
+	sha256sums = 1d8b6335ccae3b3978a1fa72bc32e82bbf9b3eb6fec63413428c6d2a4c011fb6
+
+pkgname = ruby-oj

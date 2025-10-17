@@ -1,0 +1,18 @@
+pkgbase = xdg-desktop-portal-gtk4-git
+	pkgdesc = GTK4 implementation of xdg-desktop-portal
+	pkgver = r1.0551064
+	pkgrel = 1
+	url = https://github.com/mahkoh/xdg-desktop-portal-gtk4
+	arch = x86_64
+	license = LGPL
+	makedepends = meson
+	makedepends = git
+	makedepends = cargo
+	depends = xdg-desktop-portal
+	provides = xdg-desktop-portal-impl
+	provides = xdg-desktop-portal-gtk4
+	conflicts = xdg-desktop-portal-gtk4
+	source = git+https://github.com/mahkoh/xdg-desktop-portal-gtk4.git
+	sha256sums = SKIP
+
+pkgname = xdg-desktop-portal-gtk4-git

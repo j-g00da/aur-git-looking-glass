@@ -1,0 +1,22 @@
+pkgbase = rich-cli
+	pkgdesc = Rich-cli is a command line toolbox for fancy output in the terminal
+	pkgver = 1.8.1
+	pkgrel = 1
+	url = https://github.com/Textualize/rich-cli
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	makedepends = python-poetry-core
+	depends = python-textual
+	depends = python-rich
+	depends = python-click
+	depends = python-requests
+	depends = python-textual
+	depends = python-rich-rst
+	source = rich-cli-1.8.1.tar.gz::https://github.com/Textualize/rich-cli/archive/v1.8.1.tar.gz
+	sha256sums = fdc485358275a58b47c700a5456d85242aab8f141b8764ff49deed03e7c04723
+
+pkgname = rich-cli

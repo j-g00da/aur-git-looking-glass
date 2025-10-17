@@ -1,0 +1,13 @@
+pkgbase = keepass-de
+	pkgdesc = German locale for keepass
+	pkgver = 2.56
+	pkgrel = 1
+	url = https://keepass.info/translations.html
+	arch = any
+	license = GPL2
+	depends = keepass
+	source = https://downloads.sourceforge.net/keepass/KeePass-2.56-German.zip
+	md5sums = 21a118ba67c67b269c603c6ada207937
+	sha1sums = d16b449c629dcc4fe9c8a7b763285ee27b9648fb
+
+pkgname = keepass-de

@@ -1,0 +1,29 @@
+pkgbase = tblock
+	pkgdesc = An anti-capitalist ad-blocker that uses the hosts file
+	pkgver = 2.7.5
+	pkgrel = 1
+	url = https://tblock.me
+	install = tblock.install
+	arch = any
+	license = GPL3
+	makedepends = make
+	makedepends = gzip
+	makedepends = python>=3
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python-urllib3
+	depends = python-requests
+	depends = python-colorama
+	optdepends = tblock-gui: graphical interface support
+	optdepends = systemd: automatic updates support for Arch Linux
+	optdepends = openrc: automatic updates support for OpenRC systems
+	optdepends = runit: automatic updates support for runit systems
+	optdepends = dinit: automatic updates support for dinit systems
+	provides = tblock
+	backup = etc/tblock.conf
+	source = tblock-2.7.5.tar.gz::https://codeberg.org/tblock/tblock/archive/2.7.5.tar.gz
+	sha512sums = 924a7d757033a58e88210527fe27525810fdd2010118d457cf185ac58ffeacad0cdd16109ba9db2056ac2989d220d617f53d5f00c8ccb6d9977df1682aa47845
+
+pkgname = tblock

@@ -1,0 +1,22 @@
+pkgbase = fluffychat-web
+	pkgdesc = Chat with your friends
+	pkgver = 1.27.0
+	pkgrel = 1
+	url = https://fluffychat.im/
+	arch = any
+	license = AGPL3
+	makedepends = clang
+	makedepends = ninja
+	makedepends = cmake
+	makedepends = unzip
+	makedepends = yq
+	makedepends = flutter-engine-linux-google-bin
+	makedepends = flutter-target-web
+	optdepends = pantalaimon: used for E2E encryption
+	provides = fluffychat-web
+	conflicts = fluffychat-web
+	backup = etc/webapps/fluffychat/config.json
+	source = fluffychat-v1.27.0.tar.gz::https://github.com/krille-chan/fluffychat/archive/refs/tags/v1.27.0.tar.gz
+	sha256sums = b673eb2559853d2b4a4b52e74be212c50169a12a22e05d62dfadb3fd7ed15965
+
+pkgname = fluffychat-web

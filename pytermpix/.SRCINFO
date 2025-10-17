@@ -1,0 +1,19 @@
+pkgbase = pytermpix
+	pkgdesc = Convert and display images as pixel art in an ANSI terminal
+	pkgver = 1.1.1
+	pkgrel = 1
+	url = https://github.com/casperrr/termpix
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-hatchling
+	depends = python
+	depends = python-pillow
+	depends = python-requests
+	depends = python-validators
+	source = pytermpix-1.1.1.tar.gz::https://github.com/casperrr/termpix/archive/v1.1.1.tar.gz
+	sha256sums = 99df55b6c163e7c6274e2b4885e52d85fb3297cae021ae0341cf38dfba02a718
+
+pkgname = pytermpix

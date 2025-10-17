@@ -1,0 +1,15 @@
+pkgbase = hare
+	pkgdesc = The Hare programming language
+	pkgver = 0.25.2
+	pkgrel = 1
+	url = https://harelang.org/
+	arch = x86_64
+	arch = aarch64
+	license = MPL-2.0 AND GPL-3.0-only
+	makedepends = scdoc
+	depends = qbe
+	depends = harec
+	source = hare-0.25.2.tar.gz::https://git.sr.ht/~sircmpwn/hare/archive/0.25.2.tar.gz
+	b2sums = 626b098a4a65c1a8760dc75317dd856f03915d564800beaa6c8708726bfd602c291d5e449139922293a3af087fa7ed2e9076e76e2e2731cab5908256d00894b5
+
+pkgname = hare

@@ -1,0 +1,10 @@
+pkgbase = airport-utils-bin
+	pkgdesc = Configuration and management utilities for Apple AirPort base stations
+	pkgver = 2_8
+	pkgrel = 1
+	arch = x86_64
+	depends = java-environment
+	source = http://ftp.ca.debian.org/debian/pool/main/a/airport-utils/airport-utils_2-8_all.deb
+	sha256sums = ee7106202f757bc3b5e8507fde72e5f7b16fdabab0d4620eb9d35ac5ec838188
+
+pkgname = airport-utils-bin

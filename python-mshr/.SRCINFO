@@ -1,0 +1,17 @@
+pkgbase = python-mshr
+	pkgdesc = Mesh generation component of FEniCS (python interface)
+	pkgver = 2019.1.0
+	pkgrel = 2
+	url = https://bitbucket.org/fenics-project/mshr
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = cmake
+	makedepends = python-mpi4py
+	depends = mshr=2019.1.0
+	depends = python-dolfin>=2019.1.0
+	conflicts = python-mshr-git
+	options = !emptydirs
+	source = mshr-2019.1.0.tar.gz::https://bitbucket.org/fenics-project/mshr/downloads/mshr-2019.1.0.tar.gz
+	sha512sums = 980a1566c9089fc9784582e312d0683fc30b093a57164126873f5c9a437679654e35a0c10a3fa415d69055f87964492c66f23b4ce8ca38213ce848fc4a8dcc7e
+
+pkgname = python-mshr

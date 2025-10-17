@@ -1,0 +1,15 @@
+pkgbase = php-imap
+	pkgdesc = PHP extension for imap
+	pkgver = 1.0.3
+	pkgrel = 1
+	epoch = 1
+	url = https://pecl.php.net/package/imap
+	arch = x86_64
+	license = PHP-3.01
+	depends = php>=8.3.0
+	depends = c-client
+	depends = libxcrypt
+	source = https://pecl.php.net/get/imap-1.0.3.tgz
+	sha256sums = 0c2c0b1f94f299004be996b85a424e3d11ff65ac0a3c980db3213289a4a3faaf
+
+pkgname = php-imap

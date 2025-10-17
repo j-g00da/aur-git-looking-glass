@@ -1,0 +1,20 @@
+pkgbase = python-varname
+	pkgdesc = A Python library to retrieve variable names from functions or classes
+	pkgver = 0.15.0
+	pkgrel = 1
+	url = https://github.com/pwwang/python-varname
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-poetry
+	depends = python
+	depends = python-executing
+	optdepends = python-asttokens
+	optdepends = python-pure-eval
+	source = python-varname-0.15.0.tar.gz::https://github.com/pwwang/python-varname/archive/refs/tags/0.15.0.tar.gz
+	b2sums = 6da7a662723bfe8f6ec6b18fbce276c195a17524690103184726be2981ae225f09439a97e1b81cbbb8b7211206be464f84564d16c57fc3d7bf7ef0cc474db919
+
+pkgname = python-varname

@@ -1,0 +1,23 @@
+pkgbase = indi-3rdparty-drivers
+	pkgdesc = Indi 3rd party drivers
+	pkgver = 2.1.4
+	pkgrel = 1
+	url = https://indilib.org
+	install = drivers.install
+	arch = x86_64
+	arch = aarch64
+	license = LGPLv2
+	makedepends = cmake
+	depends = gpsd
+	depends = indi-3rdparty-libs
+	depends = limesuite
+	depends = libdc1394
+	depends = fxload
+	depends = zeromq
+	depends = urjtag
+	depends = dfu-util
+	options = !lto
+	source = https://github.com/indilib/indi-3rdparty/archive/refs/tags/v2.1.4.tar.gz
+	sha256sums = e9ab43d08d09555d2c9d3c658d1bcc3130c3465a3afe2300995fba0d6e737080
+
+pkgname = indi-3rdparty-drivers

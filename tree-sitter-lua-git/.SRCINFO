@@ -1,0 +1,21 @@
+pkgbase = tree-sitter-lua-git
+	pkgdesc = Lua grammar for tree-sitter
+	pkgver = 0.2.0.r4.g68d29aa
+	pkgrel = 2
+	url = https://github.com/tree-sitter-grammars/tree-sitter-lua
+	arch = i686
+	arch = x86_64
+	groups = tree-sitter-grammars
+	license = MIT
+	makedepends = git
+	makedepends = nodejs
+	makedepends = tree-sitter-cli
+	depends = glibc
+	provides = tree-sitter-lua=0.2.0.r4.g68d29aa
+	provides = libtree-sitter-lua.so
+	conflicts = tree-sitter-lua
+	options = staticlibs
+	source = git+https://github.com/tree-sitter-grammars/tree-sitter-lua.git
+	sha256sums = SKIP
+
+pkgname = tree-sitter-lua-git

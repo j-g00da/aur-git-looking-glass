@@ -1,0 +1,21 @@
+pkgbase = python-ngmix
+	pkgdesc = Gaussian mixtures and image processing
+	pkgver = 2.4.0
+	pkgrel = 1
+	url = https://github.com/esheldon/ngmix
+	arch = any
+	license = GPL
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python-numba
+	depends = python-scipy
+	optdepends = python-galsim: for metacalibration operations
+	optdepends = python-scikit-learn: for sampling multivariate PDFs
+	source = ngmix-2.4.0.tar.gz::https://github.com/esheldon/ngmix/archive/v2.4.0.tar.gz
+	source = setup.py.patch
+	sha512sums = 6d3bc6872d856c8ec17dc8558c5ca452559446a89846efc4f1425f8709dc90f5a6cc484c32d60604a174b5bfcb99836215d94983464ae66ab8b259e7dda5edef
+	sha512sums = a0464809ec508f67ffb79dec29088ce2b9d7269c739d66d9a47f7251ae31657d33a2fa5ffa80c37bd50b1c04b72418ef16e104b2dd4e165448f357a193b876a0
+
+pkgname = python-ngmix

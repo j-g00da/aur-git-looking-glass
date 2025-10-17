@@ -1,0 +1,15 @@
+pkgbase = everdo
+	pkgdesc = Powerful cross-platform GTD app with focus on privacy
+	pkgver = 1.9.0
+	pkgrel = 3
+	url = https://everdo.net
+	arch = x86_64
+	license = unknown
+	depends = gtk3
+	depends = nss
+	depends = alsa-lib
+	depends = dbus
+	source = https://release.everdo.net/1.9.0/everdo-1.9.0.pacman
+	sha256sums = f235ee4be60976d2384e88affbeef8f49931066b96641551ad6b2d0d9f155b71
+
+pkgname = everdo

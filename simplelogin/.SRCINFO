@@ -1,0 +1,18 @@
+pkgbase = simplelogin
+	pkgdesc = Unofficial Simple Login desktop application.
+	pkgver = 1.0.6.aur.1
+	pkgrel = 1
+	url = https://gitlab.com/linuxbombay/simplelogin
+	arch = x86_64
+	arch = aarch64
+	license = GPL
+	makedepends = unzip
+	depends = libelectron>=2025.1
+	depends = nss
+	depends = gtk3
+	depends = libxss
+	depends = git
+	source = https://gitlab.com/linuxbombay/simplelogin/application/-/archive/1.0.6.aur.1/application-1.0.6.aur.1.tar.bz2
+	sha256sums = fe64286fd0c9161deed6b30747e143a3bf82d0a9f0967be372624e8e666d27a3
+
+pkgname = simplelogin

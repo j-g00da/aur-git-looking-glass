@@ -1,0 +1,25 @@
+pkgbase = alttab
+	pkgdesc = The task switcher for minimalistic window managers or standalone X11 session
+	pkgver = 1.7.1
+	pkgrel = 3
+	url = https://github.com/sagb/alttab
+	arch = x86_64
+	arch = i686
+	arch = aarch64
+	license = GPL-3.0-only
+	makedepends = autoconf
+	makedepends = automake
+	makedepends = git
+	depends = glibc
+	depends = libx11
+	depends = libxmu
+	depends = libxft
+	depends = libxrender
+	depends = libxrandr
+	depends = libpng
+	depends = uthash
+	depends = libxpm
+	source = git+https://github.com/sagb/alttab.git#commit=739d9a7d4286fc06be1c75be8525404f6ec9d04a
+	sha256sums = f14b5b32612609e9693f76282c82f8ff4464b8ee399185677c94d34421160dd6
+
+pkgname = alttab

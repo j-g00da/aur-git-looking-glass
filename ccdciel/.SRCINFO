@@ -1,0 +1,21 @@
+pkgbase = ccdciel
+	pkgdesc = A CCD capture software intended for the amateur astronomer.
+	pkgver = 0.9.92
+	pkgrel = 1
+	url = https://www.ap-i.net/ccdciel
+	arch = x86_64
+	arch = aarch64
+	arch = armv7h
+	license = GPL-3.0-or-later
+	depends = libpasastro
+	depends = qt5pas
+	optdepends = libraw: to open DSLR raw files
+	conflicts = ccdciel-git
+	source_x86_64 = https://sourceforge.net/projects/ccdciel/files/ccdciel_0.9.92/ccdciel_0.9.92-3775_amd64.deb
+	sha256sums_x86_64 = 7cd9a8a5618c020d65094a9ae891a595e82792a9a079ca4d08b26d744cdc4843
+	source_aarch64 = https://sourceforge.net/projects/ccdciel/files/ccdciel_0.9.92/ccdciel_0.9.92-3775_arm64.deb
+	sha256sums_aarch64 = 766aea10039c3af125c1b21fa59280a49a09eebb64ed7cc77029cb84d3a1a5e4
+	source_armv7h = https://sourceforge.net/projects/ccdciel/files/ccdciel_0.9.92/ccdciel_0.9.92-3775_armhf.deb
+	sha256sums_armv7h = be72fbcb768eabbe1584e4da24e12b49926201305723a3969348790ffee09a3b
+
+pkgname = ccdciel

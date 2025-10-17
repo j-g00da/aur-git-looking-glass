@@ -1,0 +1,22 @@
+pkgbase = ivpn
+	pkgdesc = IVPN - Secure VPN for Privacy (CLI)
+	pkgver = 3.14.34
+	pkgrel = 1
+	url = https://www.ivpn.net
+	install = ivpn.install
+	arch = x86_64
+	license = GPL3
+	makedepends = make
+	makedepends = curl
+	makedepends = go>=1.21
+	makedepends = git
+	makedepends = cmake
+	makedepends = ninja
+	depends = glibc
+	depends = lsof
+	depends = openvpn
+	optdepends = bash-completion
+	source = ivpn-src-v3.14.34.tar.gz::https://github.com/ivpn/desktop-app/archive/v3.14.34.tar.gz
+	sha256sums = fb1a93e775dc3bf30fb9f1be3fe6b466140c2e8464c8eff727062baab7388c44
+
+pkgname = ivpn

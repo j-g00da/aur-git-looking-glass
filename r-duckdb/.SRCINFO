@@ -1,0 +1,32 @@
+pkgbase = r-duckdb
+	pkgdesc = DBI Package for the DuckDB Database Management System
+	pkgver = 1.4.1
+	pkgrel = 1
+	url = https://cran.r-project.org/package=duckdb
+	arch = x86_64
+	license = MIT
+	checkdepends = r-adbcdrivermanager
+	checkdepends = r-arrow
+	checkdepends = r-clock
+	checkdepends = r-dbplyr
+	checkdepends = r-dplyr
+	checkdepends = r-testthat
+	depends = r-dbi
+	optdepends = r-adbcdrivermanager
+	optdepends = r-arrow
+	optdepends = r-bit64
+	optdepends = r-callr
+	optdepends = r-clock
+	optdepends = r-dbitest
+	optdepends = r-dbplyr
+	optdepends = r-dplyr
+	optdepends = r-rlang
+	optdepends = r-testthat
+	optdepends = r-tibble
+	optdepends = r-vctrs
+	optdepends = r-withr
+	source = https://cran.r-project.org/src/contrib/duckdb_1.4.1.tar.gz
+	md5sums = 51891b9851fd526c1690d495b4408b30
+	b2sums = b5527f8f8730eb8c1ec8c485eaeaa25e07cfbdbe6baeddc52fb2bc0d7dacce10f97da725c0a5dff4c37136d401b6ef055c662bb936a90c15c441424198060ae8
+
+pkgname = r-duckdb

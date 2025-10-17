@@ -1,0 +1,21 @@
+pkgbase = ktls-utils
+	pkgdesc = TLS handshake utilities for NFSv4, NVMe-oF, and other in-kernel TLS consumers
+	pkgver = 1.2.1
+	pkgrel = 1
+	url = https://github.com/oracle/ktls-utils
+	arch = x86_64
+	license = GPL-2.0-only
+	makedepends = gcc
+	makedepends = git
+	makedepends = make
+	makedepends = pkg-config
+	depends = glib2
+	depends = gnutls
+	depends = keyutils
+	depends = libnl
+	backup = etc/tlshd.conf
+	source = git+https://github.com/oracle/ktls-utils#tag=ktls-utils-1.2.1?signed
+	validpgpkeys = 28B2E5B01286DF243CF23EFE336AB3336F667F97
+	sha256sums = bd8948056b4a87e0cbdbcf990741b227064310bf552f8d972a42698f568724be
+
+pkgname = ktls-utils

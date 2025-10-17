@@ -1,0 +1,17 @@
+pkgbase = mapcidr
+	pkgdesc = Utility program to perform multiple operations for a given subnet/CIDR ranges
+	pkgver = 1.1.96
+	pkgrel = 1
+	url = https://github.com/projectdiscovery/mapcidr
+	arch = aarch64
+	arch = armv7h
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = go
+	depends = glibc
+	source = mapcidr::git+https://github.com/projectdiscovery/mapcidr.git#tag=v1.1.96
+	b2sums = ee61db13fa7482265e4348d9f96191631e6e9588a409c79b93b8d03287c4951acdd46b4993ba6e2fe78e7ec2b1156e4c130bd10b8dcb590f97c72d456dec844a
+
+pkgname = mapcidr

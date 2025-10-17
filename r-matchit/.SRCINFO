@@ -1,0 +1,37 @@
+pkgbase = r-matchit
+	pkgdesc = Nonparametric Preprocessing for Parametric Causal Inference
+	pkgver = 4.7.2
+	pkgrel = 1
+	url = https://cran.r-project.org/package=MatchIt
+	arch = x86_64
+	license = GPL-2.0-or-later
+	makedepends = r-rcppprogress
+	depends = r-backports
+	depends = r-chk
+	depends = r-rcpp
+	depends = r-rlang
+	optdepends = r-cbps
+	optdepends = r-cobalt
+	optdepends = r-dbarts
+	optdepends = r-gbm
+	optdepends = r-glmnet
+	optdepends = r-gurobi
+	optdepends = r-highs
+	optdepends = r-knitr
+	optdepends = r-marginaleffects
+	optdepends = r-matching
+	optdepends = r-optmatch
+	optdepends = r-quickmatch
+	optdepends = r-randomforest
+	optdepends = r-rcppprogress
+	optdepends = r-rgenoud
+	optdepends = r-rglpk
+	optdepends = r-rmarkdown
+	optdepends = r-rsymphony
+	optdepends = r-sandwich
+	optdepends = r-testthat
+	source = https://cran.r-project.org/src/contrib/MatchIt_4.7.2.tar.gz
+	md5sums = a25b7a5f996ac8525faf5e8e6d69b053
+	b2sums = 6c786e3a618fd028ccc4d12b5d3594609040582b86b4c9c609cd6d64f100e4c31e48b3d261355d116c82770246c33dc0dc7e51922c1466ece492ed3d3351d0da
+
+pkgname = r-matchit

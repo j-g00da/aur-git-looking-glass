@@ -1,0 +1,19 @@
+pkgbase = python-pywavelets
+	pkgdesc = Wavelet transform module
+	pkgver = 1.9.0
+	pkgrel = 1
+	url = https://github.com/pywavelets/pywt
+	arch = x86_64
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = meson-python
+	makedepends = python-wheel
+	makedepends = cython
+	depends = python-numpy
+	optdepends = python-matplotlib: for plotting support
+	optdepends = python-scipy: for scipy.signal.cwt (FFT-based continuous wavelet transforms)
+	source = pywt-1.9.0.tar.gz::https://github.com/pywavelets/pywt/archive/v1.9.0.tar.gz
+	sha512sums = 141b60ee092a08ce174c6f796fdf8434b7b106110f9d59f5593161fcc5c95b2df4394a604f418bdd414907e5a4470ea7ce5f60ef4ce72033251bb00a14c710de
+
+pkgname = python-pywavelets

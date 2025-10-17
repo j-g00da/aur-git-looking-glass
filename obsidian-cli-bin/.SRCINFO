@@ -1,0 +1,16 @@
+pkgbase = obsidian-cli-bin
+	pkgdesc = Interact with Obsidian in the terminal. Open, search, create, update and move notes!
+	pkgver = 0.1.9
+	pkgrel = 1
+	url = https://github.com/Yakitrak/obsidian-cli
+	license = MIT
+	conflicts = obsidian-cli
+	provides = obsidian-cli
+	arch = aarch64
+	source_aarch64 = https://github.com/Yakitrak/obsidian-cli/releases/download/v0.1.9/obsidian-cli_0.1.9_linux_arm64.tar.gz
+	sha256sums_aarch64 = 46ff0d0249094690200e985563a308fbc30207a4362f30956af71419b257903e
+	arch = x86_64
+	source_x86_64 = https://github.com/Yakitrak/obsidian-cli/releases/download/v0.1.9/obsidian-cli_0.1.9_linux_amd64.tar.gz
+	sha256sums_x86_64 = bd07a568280d3c2bd43eefd39efc88e2956b8d3fc20d91bb71cdfcfa48507cb9
+	
+pkgname = obsidian-cli-bin

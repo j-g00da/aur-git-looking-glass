@@ -1,0 +1,13 @@
+pkgbase = ctct
+	pkgdesc = a simple console contact manager
+	pkgver = 0.2.2
+	pkgrel = 1
+	url = https://respiranto.de/bash
+	arch = any
+	license = AGPL-3.0-or-later
+	backup = etc/ctct/config.sh
+	source = https://respiranto.de/bash/ctct_v0.2.2.tar.xz
+	md5sums = e3c642310c10c7cea1439c93c1f3ccfd
+
+pkgname = ctct
+

@@ -1,0 +1,36 @@
+pkgbase = boosty-downloader
+	pkgdesc = Download any type of content from boosty.to
+	pkgver = 2.0.1
+	pkgrel = 1
+	url = https://github.com/Glitchy-Sheep/boosty-downloader
+	arch = any
+	license = MIT
+	checkdepends = python-poetry
+	checkdepends = python-pytest>=1:8.4.1-1
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python>=3.10
+	depends = python-aiofiles>=24.1.0-2
+	depends = python-aiohttp>=3.11.12-1
+	depends = python-pydantic>=2.10.6-1
+	depends = python-rich>=14.0.0-1
+	depends = python-pydantic-settings>=2.7.1-1
+	depends = python-pyyaml
+	depends = python-typer>=0.16.0-1
+	depends = yt-dlp>=2025.1.26-1
+	depends = python-jinja>=1:3.1.5-1
+	depends = python-aiohttp-retry>=2.9.1-1
+	depends = python-yarl>=1.18.3-1
+	depends = python-aiolimiter>=1.2.1
+	depends = python-sqlalchemy>=2.0.42
+	depends = python-packaging>=25.0
+	provides = boosty-downloader
+	provides = boosty_downloader
+	conflicts = boosty-downloader
+	conflicts = boosty_downloader
+	source = boosty-downloader-2.0.1.tar.gz::https://github.com/Glitchy-Sheep/boosty-downloader/archive/refs/tags/v2.0.1.tar.gz
+	sha256sums = 9342c19ae8378e89a8af23a17697cb7c4d5c6035aa4b9acc5e69ff969a801d39
+
+pkgname = boosty-downloader

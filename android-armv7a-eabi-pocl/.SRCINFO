@@ -1,0 +1,22 @@
+pkgbase = android-armv7a-eabi-pocl
+	pkgdesc = Portable OpenCL is an open-source implementation of OpenCL which can be easily adapted for new targets (Android armv7a-eabi)
+	pkgver = 7.0
+	pkgrel = 1
+	url = http://portablecl.org/
+	arch = any
+	groups = android-pocl
+	license = GPL
+	makedepends = android-cmake
+	makedepends = android-armv7a-eabi-opencl-headers
+	makedepends = android-armv7a-eabi-ocl-icd
+	makedepends = python
+	depends = android-armv7a-eabi-hwloc
+	depends = android-armv7a-eabi-opencl-icd-loader
+	options = !strip
+	options = !buildflags
+	options = staticlibs
+	options = !emptydirs
+	source = https://github.com/pocl/pocl/archive/v7.0.tar.gz
+	md5sums = befc20fc6bbf42c892dbc3a075155480
+
+pkgname = android-armv7a-eabi-pocl

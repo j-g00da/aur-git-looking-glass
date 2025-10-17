@@ -1,0 +1,25 @@
+pkgbase = r-fcscan
+	pkgdesc = fcScan for detecting clusters of coordinates with user defined options
+	pkgver = 1.22.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/fcScan
+	arch = any
+	license = Artistic2.0
+	depends = r
+	depends = r-doparallel
+	depends = r-foreach
+	depends = r-genomicranges
+	depends = r-iranges
+	depends = r-plyr
+	depends = r-rtracklayer
+	depends = r-summarizedexperiment
+	depends = r-variantannotation
+	optdepends = r-biocgenerics
+	optdepends = r-biocstyle
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-runit
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/fcScan_1.22.0.tar.gz
+	sha256sums = 3edecd94849842872d5f0bd8e66a3ab57084c89dd0a7c9f9c0795e5337107ee9
+
+pkgname = r-fcscan

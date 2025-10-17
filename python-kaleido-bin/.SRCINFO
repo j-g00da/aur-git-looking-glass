@@ -1,0 +1,17 @@
+pkgbase = python-kaleido-bin
+	pkgdesc = Static image export for web-based visualization libraries with zero dependencies
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/plotly/Kaleido
+	arch = any
+	license = MIT
+	makedepends = python-installer
+	depends = python-plotly
+	depends = sqlite
+	provides = python-kaleido
+	conflicts = python-kaleido
+	options = !strip
+	source = https://github.com/plotly/Kaleido/releases/download/v1.0.0/kaleido-1.0.0-py3-none-any.whl
+	sha512sums = c927b22f6566cd0fc5951f962ce8b1e3e603d86c2f7ea641e7a6a1e04ccee6294371537e6703179570400edeeb728e0f7e9c92a2d418b79abdd7a0619073e112
+
+pkgname = python-kaleido-bin

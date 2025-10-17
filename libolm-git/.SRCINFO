@@ -1,0 +1,34 @@
+pkgbase = libolm-git
+	pkgdesc = An implementation of a well known cryptographic ratchet in C++
+	pkgver = 3.2.16.r1.g6d4b5b0
+	pkgrel = 1
+	url = https://gitlab.matrix.org/matrix-org/olm
+	arch = x86_64
+	license = Apache
+	checkdepends = python-pytest
+	checkdepends = python-pytest-benchmark
+	checkdepends = python-aspectlib
+	makedepends = cmake
+	makedepends = git
+	makedepends = python-build
+	makedepends = python-cffi
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = glibc
+	source = olm::git+https://gitlab.matrix.org/matrix-org/olm
+	md5sums = SKIP
+
+pkgname = libolm-git
+	depends = glibc
+	depends = gcc-libs
+	provides = libolm
+	provides = libolm.so
+	conflicts = libolm
+
+pkgname = python-olm-git
+	depends = glibc
+	depends = libolm.so
+	depends = python
+	provides = python-olm
+	conflicts = python-olm

@@ -1,0 +1,26 @@
+pkgbase = r-gloscope
+	pkgdesc = Population-level Representation on scRNA-Seq data
+	pkgver = 1.6.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/GloScope
+	arch = any
+	license = Artistic-2.0
+	checkdepends = r-testthat
+	depends = r-biocparallel
+	depends = r-fnn
+	depends = r-ggplot2
+	depends = r-mclust
+	depends = r-mvnfast
+	depends = r-rann
+	depends = r-rlang
+	depends = r-singlecellexperiment
+	optdepends = r-biocstyle
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	optdepends = r-zellkonverter
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/GloScope_1.6.0.tar.gz
+	md5sums = 686497275b93b8f5e40d5e594de254e9
+	b2sums = 74f7636f258d72351f6a44cb9a4c6ffeee3279c9717dc3a8f2337851a3680821ae9208f4df44cdd762a9cd23cb68f9651ae6949641d9e372801db8c364a5d1f8
+
+pkgname = r-gloscope

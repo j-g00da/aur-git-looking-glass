@@ -1,0 +1,18 @@
+pkgbase = kicad-plugin-viastitching-git
+	pkgdesc = ViaStitching action-plugin for KiCAD
+	pkgver = r132.0e23cd9
+	pkgrel = 1
+	url = https://github.com/weirdgyn/viastitching
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = kicad
+	depends = python
+	depends = python-wxpython
+	depends = python-numpy
+	provides = kicad-plugin-viastitching
+	conflicts = kicad-plugin-viastitching
+	source = git+https://github.com/weirdgyn/viastitching
+	sha256sums = SKIP
+
+pkgname = kicad-plugin-viastitching-git

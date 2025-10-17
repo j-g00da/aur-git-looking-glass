@@ -1,0 +1,17 @@
+pkgbase = mkp224o
+	pkgdesc = Vanity address generator for Tor onion v3 (ed25519) Onion Services
+	pkgver = 1.7.0
+	pkgrel = 1
+	url = https://github.com/cathugger/mkp224o
+	arch = i686
+	arch = x86_64
+	license = custom:CC0
+	depends = libsodium
+	provides = mkp224o
+	source = https://github.com/cathugger/mkp224o/releases/download/v1.7.0/mkp224o-1.7.0-src.tar.zst
+	source = https://github.com/cathugger/mkp224o/releases/download/v1.7.0/mkp224o-1.7.0-src.tar.zst.sig
+	validpgpkeys = 5ADE4BE94F65E3C9BCBDD7D89BADDA2DAF6F01A8
+	sha256sums = a00f453dd43631bebdc2bcf1b2988fe5bc492ee3c96a403d2d90224e6b887c2e
+	sha256sums = bca4f0df87f1be6a26fb7641a1f30f60bbc2c2798948c4a450fa0ff133a13295
+
+pkgname = mkp224o

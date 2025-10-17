@@ -1,0 +1,16 @@
+pkgbase = pypy3-tqdm
+	pkgdesc = Fast, Extensible Progress Meter
+	pkgver = 4.67.1
+	pkgrel = 1
+	url = https://github.com/tqdm/tqdm
+	arch = any
+	license = MPL-2.0
+	license = MIT
+	makedepends = pypy3-build
+	makedepends = pypy3-installer
+	makedepends = pypy3-setuptools
+	depends = pypy3
+	source = tqdm-4.67.1.tar.gz::https://github.com/tqdm/tqdm/archive/v4.67.1.tar.gz
+	sha512sums = 9aa4036eef35ec61c3707e3df4e1875f4153b9303694c9f7c9eefc81994242a74554e9b21102e7c6253b7f7b686c96ca787aa9b3c0cb7a5376f0b59950dbeead
+
+pkgname = pypy3-tqdm

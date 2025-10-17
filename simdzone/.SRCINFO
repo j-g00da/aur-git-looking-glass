@@ -1,0 +1,12 @@
+pkgbase = simdzone
+	pkgdesc = Fast and standards compliant DNS presentation format parser
+	pkgver = 0.2.3
+	pkgrel = 1
+	url = https://github.com/NLnetLabs/simdzone
+	arch = x86_64
+	license = BSD
+	makedepends = cmake
+	source = simdzone-0.2.3.tar.gz::https://github.com/NLnetLabs/simdzone/archive/refs/tags/v0.2.3.tar.gz
+	sha256sums = 96aa16052deeb7afa4c2c61aa09cd24c80f93194bdeba0dfce5a861fd25b497b
+
+pkgname = simdzone

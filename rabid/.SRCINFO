@@ -1,0 +1,16 @@
+pkgbase = rabid
+	pkgdesc = A CLI tool and library allowing to simply decode all kind of BigIP cookies
+	pkgver = 0.2.0
+	pkgrel = 1
+	url = https://noraj.github.io/rabid/
+	arch = any
+	license = MIT
+	depends = ruby
+	depends = ruby-paint
+	depends = ruby-docopt
+	noextract = rabid-0.2.0.gem
+	options = !emptydirs
+	source = https://rubygems.org/downloads/rabid-0.2.0.gem
+	b2sums = 2a08bfb93fc666b738ee642827f35162d7cd033ed41a30231c5702464a444255748eaba6f2c3ad03e2a2e3f5e04ad0144be2f13ba59952c0e623479693f96c6c
+
+pkgname = rabid

@@ -1,0 +1,26 @@
+pkgbase = r-knitrbootstrap
+	pkgdesc = 'knitr' Bootstrap Framework
+	pkgver = 1.0.3
+	pkgrel = 1
+	url = https://cran.r-project.org/package=knitrBootstrap
+	arch = any
+	license = MIT
+	depends = r
+	depends = r-knitr
+	depends = r-markdown
+	depends = r-rmarkdown
+	optdepends = r-corrplot
+	optdepends = r-ggplot2
+	optdepends = r-igraph
+	optdepends = r-mapproj
+	optdepends = r-maps
+	optdepends = r-maptools
+	optdepends = r-plyr
+	optdepends = r-reshape2
+	optdepends = r-roxygen2
+	optdepends = r-testthat
+	optdepends = r-xtable
+	source = https://cran.r-project.org/src/contrib/knitrBootstrap_1.0.3.tar.gz
+	sha256sums = ad6a23f236af6cf804aa7595f4dca5fdd54cbdc86d97b2028f4eb6539fb0f594
+
+pkgname = r-knitrbootstrap

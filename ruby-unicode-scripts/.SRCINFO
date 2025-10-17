@@ -1,0 +1,14 @@
+pkgbase = ruby-unicode-scripts
+	pkgdesc = Unicode Scripts / Script Extensions of a Ruby String
+	pkgver = 1.12.0
+	pkgrel = 1
+	url = https://github.com/janlelis/unicode-scripts
+	arch = any
+	license = MIT
+	depends = ruby
+	noextract = unicode-scripts-1.12.0.gem
+	options = !emptydirs
+	source = https://rubygems.org/downloads/unicode-scripts-1.12.0.gem
+	sha256sums = 67a4cf3e68dc1d20826ae744b155271822ff6b0baea4a52b94db0a9823322fb9
+
+pkgname = ruby-unicode-scripts

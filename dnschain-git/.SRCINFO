@@ -1,0 +1,21 @@
+pkgbase = dnschain-git
+	pkgdesc = A blockchain-based DNS + HTTP server that fixes HTTPS security, and more!
+	pkgver = 344.67c567e
+	pkgrel = 1
+	url = https://github.com/okTurtles/dnschain
+	arch = any
+	license = MPL
+	depends = coffee-script
+	depends = git
+	depends = nodejs
+	depends = namecoin-core
+	optdepends = bitshares: bdns support
+	optdepends = go-ethereum: ethereum support
+	conflicts = dnschain
+	replaces = dnschain
+	source = dnschain::git+https://github.com/okTurtles/dnschain.git
+	source = dnschain.service
+	sha256sums = SKIP
+	sha256sums = ea4d075c3d965232865a873c94c0001ba5e29e37af84c6c40366eb6256f279d7
+
+pkgname = dnschain-git

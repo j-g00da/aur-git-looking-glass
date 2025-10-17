@@ -1,0 +1,15 @@
+pkgbase = ruby-lockfile
+	pkgdesc = A Ruby library for creating lockfiles
+	pkgver = 2.1.8
+	pkgrel = 1
+	url = https://github.com/ahoward/lockfile
+	arch = any
+	license = Ruby
+	depends = ruby
+	options = !emptydirs
+	source = ruby-lockfile-2.1.8::git+https://github.com/ahoward/lockfile.git#tag=20ab06f29bda69b9773d799510d00585b6a27e3b
+	source = semiphore.patch
+	sha1sums = 1fe94eabbe9030b9d56590c0aa0ade80c5764d12
+	sha1sums = 8526ba6d7860b5e7d137f5c64dd3087e0ae5fff6
+
+pkgname = ruby-lockfile

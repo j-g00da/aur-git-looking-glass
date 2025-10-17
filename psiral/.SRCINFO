@@ -1,0 +1,17 @@
+pkgbase = psiral
+	pkgdesc = Psiral is a turn based strategy board game with wizards.
+	pkgver = 1.0.5
+	pkgrel = 3
+	url = https://github.com/petarov/game-off-2013
+	install = psiral.install
+	arch = i686
+	arch = x86_64
+	license = custom
+	makedepends = nodejs
+	makedepends = npm
+	makedepends = nodejs-grunt-cli
+	source = https://github.com/petarov/game-off-2013/archive/1.0.5.tar.gz
+	sha1sums = a2f43d215148b9af351bf614a4bc6277c018232b
+
+pkgname = psiral
+

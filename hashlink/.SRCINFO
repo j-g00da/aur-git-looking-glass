@@ -1,0 +1,22 @@
+pkgbase = hashlink
+	pkgdesc = A virtual machine for Haxe (tagged releases)
+	pkgver = 1.15
+	pkgrel = 1
+	url = https://hashlink.haxe.org/
+	arch = x86_64
+	license = MIT
+	depends = libpng
+	depends = libjpeg-turbo
+	depends = libvorbis
+	depends = openal
+	depends = sdl2
+	depends = mbedtls2
+	depends = libuv
+	depends = glu
+	conflicts = hashlink-git
+	source = https://github.com/HaxeFoundation/hashlink/archive/1.15.tar.gz
+	source = mbedtls2-Makefile.patch
+	sha256sums = 3c3e3d47ed05139163310cbe49200de8fb220cd343a979cd1f39afd91e176973
+	sha256sums = 3d272e39333fbf0cbe17667f608a7616a3eef543fb574e1e9b51460f8b5f3db0
+
+pkgname = hashlink

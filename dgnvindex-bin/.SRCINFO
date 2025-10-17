@@ -1,0 +1,30 @@
+pkgbase = dgnvindex-bin
+	pkgdesc = AVC/HEVC/MPG/VC1 Decoder and Frame Server
+	pkgver = 2053.0.0.502
+	pkgrel = 1
+	url = https://www.rationalqm.us/dgdecnv/dgdecnv.html
+	arch = x86_64
+	license = custom:Donald A. Graft
+	source = https://www.rationalqm.us/dgdecnv/binaries/dgdecnv_linux_502.zip
+	sha256sums = 5dc88715bdde1dda21540e317f8ffc28a837b05d7bd14595f08e944384f19f99
+
+pkgname = dgindexnv-bin
+	pkgdesc = AVC/HEVC/MPG/VC1 Decoder and Frame Server
+	depends = glibc
+	depends = zlib
+	depends = libz.so
+	provides = dgindexnv
+	conflicts = dgindexnv
+	conflicts = dgnvindex-bin
+	replaces = dgnvindex-bin
+
+pkgname = vapoursynth-plugin-dgdecodenv-bin
+	pkgdesc = Plugin for Vapoursynth: dgdecodenv
+	depends = vapoursynth
+	depends = gcc-libs
+	depends = glibc
+	depends = zlib
+	depends = libz.so
+	depends = nvidia-utils
+	provides = vapoursynth-plugin-dgdecodenv
+	conflicts = vapoursynth-plugin-dgdecodenv

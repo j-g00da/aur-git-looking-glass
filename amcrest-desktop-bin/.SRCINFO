@@ -1,0 +1,16 @@
+pkgbase = amcrest-desktop-bin
+	pkgdesc = A simple Desktop application for Amcrest NVR, built using Electron.js.(Prebuilt version.Use system-wide electron)
+	pkgver = 1.0.1
+	pkgrel = 10
+	url = https://github.com/mikepruett3/amcrest-desktop
+	arch = x86_64
+	license = MIT
+	depends = electron14
+	provides = amcrest-desktop=1.0.1
+	conflicts = amcrest-desktop
+	source = amcrest-desktop-1.0.1.rpm::https://github.com/mikepruett3/amcrest-desktop/releases/download/v1.0.1/amcrest-desktop-1.0.1-1.x86_64.rpm
+	source = amcrest-desktop.sh
+	sha256sums = a585a10ef6bc5971a0a2b7eb69d3b477e6e1028aa5613d7f95ad2986e80682da
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = amcrest-desktop-bin

@@ -1,0 +1,26 @@
+pkgbase = winboat-git
+	pkgdesc = Run Windows apps on Linux with seamless integration
+	pkgver = r125.221847b
+	pkgrel = 1
+	url = https://www.winboat.app
+	arch = x86_64
+	license = MIT
+	makedepends = zip
+	makedepends = npm
+	makedepends = go
+	makedepends = git
+	depends = docker
+	depends = electron
+	depends = docker-compose
+	depends = freerdp
+	depends = gtk3
+	depends = alsa-lib
+	depends = nss
+	provides = winboat
+	conflicts = winboat
+	options = !strip
+	options = !debug
+	source = git+https://github.com/tibixdev/winboat.git
+	sha256sums = SKIP
+
+pkgname = winboat-git

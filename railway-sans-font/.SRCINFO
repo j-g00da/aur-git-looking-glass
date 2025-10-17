@@ -1,0 +1,14 @@
+pkgbase = railway-sans-font
+	pkgdesc = An open source version of Edward Johnston's Timeless Typeface for London Underground of 1916
+	pkgver = 20170421
+	pkgrel = 8
+	url = https://www.ffonts.net/Railway-Semibold.font
+	arch = any
+	license = OFL-1.1-RFN
+	checkdepends = fontconfig
+	source = railway-sans-font-20170421.zip::https://www.ffonts.net/Railway-Semibold.font.zip
+	source = LICENSE
+	b2sums = 7334af177dbf32427fc411e2355cb659c6b64ad3c06a2522f18cdb45f562b79e0885dfbbea1a5790f5ddaf41c26f960617548bb48aa880704d27743fe136d805
+	b2sums = be49b9f318177caa8944438307bf956b6d03b8d69dc3a528bd6fc64020e02e715ab518d8ed9761fa144f41487ea1fc3638fb7b3288653f69ea310daa1b9db3ae
+
+pkgname = railway-sans-font

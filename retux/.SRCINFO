@@ -1,0 +1,22 @@
+pkgbase = retux
+	pkgdesc = Action platformer loosely inspired by the Mario games, utilizing the art assets from the SuperTux project.
+	pkgver = 1.6.2
+	pkgrel = 2
+	url = https://retux-game.github.io/
+	arch = x86_64
+	arch = aarch64
+	license = GPL3
+	makedepends = python-pip
+	makedepends = python-wheel
+	depends = python-pygame
+	depends = sdl
+	depends = sdl_image
+	depends = sdl_mixer
+	source = https://github.com/retux-game/retux/archive/refs/tags/v1.6.2.tar.gz
+	source = retux.desktop
+	source = retux.sh
+	md5sums = d4d42e087bc83e3659b800d5c3e654bd
+	md5sums = fb978c84e98beabb5f40994e75b0970b
+	md5sums = ccbf95e58139b2192e4a6b87ce8e2de2
+
+pkgname = retux

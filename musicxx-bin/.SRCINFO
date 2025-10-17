@@ -1,0 +1,20 @@
+pkgbase = musicxx-bin
+	pkgdesc = Audio and video player
+	pkgver = 0.81.7
+	pkgrel = 1.0
+	url = https://github.com/coolight7/musicxx
+	install = .install
+	arch = x86_64
+	license = MIT
+	depends = gtk3
+	depends = util-linux
+	depends = xz
+	depends = mpv
+	depends = ffmpeg
+	depends = libkeybinder3
+	depends = libayatana-appindicator
+	depends = ayatana-ido
+	source = musicxx-0.81.7.tar.gz::https://github.com/beanc904/musicxx-arch/releases/download/v0.81.7/musicxx-0.81.7.tar.gz
+	sha256sums = d766905698fabb55d34d57224a7b5420854ce9b5e01c7a5047c4eb61b0b1683c
+
+pkgname = musicxx-bin

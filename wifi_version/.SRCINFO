@@ -1,0 +1,12 @@
+pkgbase = wifi_version
+	pkgdesc = Get the WIFI version supported by your WIFI card on Linux - From WiFi 4 to WIFI 7
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/boussou/wifi_version
+	arch = any
+	license = GPL3
+	makedepends = iw
+	source = git+https://github.com/boussou/wifi_version.git
+	sha256sums = SKIP
+
+pkgname = wifi_version

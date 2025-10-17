@@ -1,0 +1,15 @@
+pkgbase = thinkboxai
+	pkgdesc = Thinkbox AI – A modern desktop interface for the Open AI API. Repackaged from the deb file.
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://thinkboxai.com
+	arch = x86_64
+	license = unknown
+	makedepends = dpkg
+	depends = glibc
+	depends = hicolor-icon-theme
+	noextract = thinkboxai_1.0.0-1_amd64.deb
+	source = https://prod-thinkboxai-setups.s3-accelerate.amazonaws.com/1.0.0/thinkboxai_1.0.0-1_amd64.deb
+	sha256sums = SKIP
+
+pkgname = thinkboxai

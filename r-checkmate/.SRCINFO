@@ -1,0 +1,25 @@
+pkgbase = r-checkmate
+	pkgdesc = Fast and Versatile Argument Checks
+	pkgver = 2.3.3
+	pkgrel = 1
+	url = https://cran.r-project.org/package=checkmate
+	arch = x86_64
+	license = BSD-3-Clause
+	depends = r-backports
+	optdepends = r-data.table
+	optdepends = r-devtools
+	optdepends = r-fastmatch
+	optdepends = r-ggplot2
+	optdepends = r-knitr
+	optdepends = r-magrittr
+	optdepends = r-microbenchmark
+	optdepends = r-r6
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	optdepends = r-tibble
+	optdepends = r-tinytest
+	source = https://cran.r-project.org/src/contrib/checkmate_2.3.3.tar.gz
+	md5sums = 12a890e8191574cd0975fae055371fa5
+	b2sums = e924bb90f64d941fcd1e82941b57fecb48b9797addcc52c461a97493695845acea931c6a43543ca8c142fa56574af69c7d204d313fc957c703bb5f72edc4b0b2
+
+pkgname = r-checkmate

@@ -1,0 +1,12 @@
+pkgbase = python-kivymd
+	pkgdesc = KivyMD is a collection of Material Design compliant widgets for use with Kivy, a framework for cross-platform, touch-enabled graphical applications.
+	pkgver = 1.2.0
+	pkgrel = 1
+	url = https://pypi.org/project/kivymd/
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	source = https://files.pythonhosted.org/packages/20/81/0b1154f5e581d5910702d9fadb3217f56cb186f72c8b36de0271e7ff9b5c/kivymd-1.2.0.tar.gz
+	md5sums = 1898379f722f5be9c2e5187cc9507853
+
+pkgname = python-kivymd

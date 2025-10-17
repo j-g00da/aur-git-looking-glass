@@ -1,0 +1,25 @@
+pkgbase = lobster-git
+	pkgdesc = Shell script to watch Movies/Webseries/Shows from the terminal.
+	pkgver = r203.f9294ff
+	pkgrel = 1
+	url = https://github.com/justchokingaround/lobster.git
+	arch = any
+	license = GPL2
+	makedepends = git
+	depends = grep
+	depends = sed
+	depends = curl
+	depends = fzf
+	depends = mpv
+	depends = html-xml-utils
+	depends = patch
+	optdepends = vlc: An alternative video player,
+	optdepends = ffmpeg: for downloading videos,
+	optdepends = rofi: external launcher,
+	optdepends = ueberzugpp: used for image preview with fzf
+	provides = lobster
+	conflicts = lobster
+	source = lobster::git+https://github.com/justchokingaround/lobster.git
+	md5sums = SKIP
+
+pkgname = lobster-git

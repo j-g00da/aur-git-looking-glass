@@ -1,0 +1,14 @@
+pkgbase = iortcw-it
+	pkgdesc = Return to Castle Wolfenstein Single Player Italian Language File
+	pkgver = 1.51c
+	pkgrel = 1
+	url = https://github.com/iortcw/iortcw/releases
+	arch = any
+	license = GPL
+	conflicts = iortcw-de
+	conflicts = iortcw-es
+	conflicts = iortcw-fr
+	source = https://github.com/iortcw/iortcw/releases/download/1.51c/patch-data-SP_italiano.zip
+	sha256sums = 2decc269f8d4292d2e0c3152c5ba4533b40e566b73842b6773f7455fbf3955d7
+
+pkgname = iortcw-it

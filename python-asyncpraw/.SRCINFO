@@ -1,0 +1,22 @@
+pkgbase = python-asyncpraw
+	pkgdesc = Asynchronous Python Reddit API wrapper
+	pkgver = 7.8.1
+	pkgrel = 1
+	url = https://asyncpraw.readthedocs.io/en/stable/
+	arch = any
+	license = BSD-2-Clause
+	makedepends = python-build
+	makedepends = python-flit-core>=3.4
+	makedepends = python-installer
+	makedepends = python-typing_extensions
+	makedepends = python-wheel
+	depends = python>=3.8
+	depends = python-aiofiles
+	depends = python-aiohttp
+	depends = python-aiosqlite
+	depends = python-asyncprawcore>=2.4
+	depends = python-update-checker>=0.18
+	source = asyncpraw-7.8.1.tar.gz::https://github.com/praw-dev/asyncpraw/archive/refs/tags/v7.8.1.tar.gz
+	sha256sums = bcab59c279c0bb696439e4ee3fcfbfc15763041c1aa36510e3cf084321b5197e
+
+pkgname = python-asyncpraw

@@ -1,0 +1,16 @@
+pkgbase = nimra
+	pkgdesc = A compiler written in rust
+	pkgver = 8
+	pkgrel = 1
+	url = https://github.com/krisvih32/nimra
+	arch = any
+	license = AGPL-3.0-or-later
+	makedepends = make
+	makedepends = cargo
+	makedepends = git
+	makedepends = sudo
+	depends = glibc
+	source = git+https://github.com/krisvih32/nimra.git#branch=stable
+	sha256sums = SKIP
+
+pkgname = nimra

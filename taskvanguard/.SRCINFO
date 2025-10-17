@@ -1,0 +1,14 @@
+pkgbase = taskvanguard
+	pkgdesc = TaskVanguard - LLM / AI Wrapper for TaskWarrior via API (OpenAI, Deepseek etc.)
+	pkgver = 0.2.8
+	pkgrel = 1
+	url = https://github.com/taskvanguard/taskvanguard
+	arch = x86_64
+	arch = aarch64
+	arch = i686
+	license = AGPL-3.0
+	makedepends = go
+	source = https://github.com/taskvanguard/taskvanguard/archive/refs/tags/0.2.8.tar.gz
+	sha256sums = f53957ced0d8936dedf2f9c6d94dbf9550927443ad31b43cbffc7c7ff4fb0cf4
+
+pkgname = taskvanguard

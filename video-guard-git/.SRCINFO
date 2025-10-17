@@ -1,0 +1,23 @@
+pkgbase = video-guard-git
+	pkgdesc = Helper that guards and requests user confirmation for /dev/video* access
+	pkgver = r11.06bcc88
+	pkgrel = 1
+	url = https://github.com/littleblack111/video-guard
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = git
+	makedepends = clang
+	makedepends = bpf
+	makedepends = gcc
+	makedepends = libbpf
+	depends = lsof
+	depends = bash
+	depends = systemd
+	depends = libnotify
+	depends = coreutils
+	depends = gawk
+	optdepends = hyprland-qtutils: to use default dialog
+	source = git+https://github.com/littleblack111/video-guard.git
+	sha256sums = SKIP
+
+pkgname = video-guard-git

@@ -1,0 +1,26 @@
+pkgbase = ruby-dry-monads
+	pkgdesc = Common monads for Ruby
+	pkgver = 1.9.0
+	pkgrel = 1
+	url = https://github.com/dry-rb/dry-monads
+	arch = any
+	license = MIT
+	checkdepends = ruby-bundler
+	checkdepends = ruby-debug-inspector
+	checkdepends = ruby-dry-types
+	checkdepends = ruby-rake
+	checkdepends = ruby-rspec
+	checkdepends = ruby-super_diff
+	checkdepends = ruby-warning
+	makedepends = ruby-rdoc
+	depends = ruby
+	depends = ruby-concurrent
+	depends = ruby-dry-core
+	depends = ruby-zeitwerk
+	optdepends = ruby-debug-inspector: reference constants from other modules, such as rspec helpers
+	options = !emptydirs
+	source = https://github.com/dry-rb/dry-monads/archive/v1.9.0/ruby-dry-monads-1.9.0.tar.gz
+	sha512sums = c1a4223b613173c75707fa7788e71c5be7653a17348eb358b71f1c6f8551ff283e668dfd244159388cd9af43febbef52f825dbc64a0d33900cb7b3747e2fe253
+	b2sums = f666de965bbe2226da4658edb388a5ff528dfdaae25f3deba113ac20401b483df52c1b5006f78ebe29413b8b1489e128e62861c32743fe8c9388f2ba41eeb414
+
+pkgname = ruby-dry-monads

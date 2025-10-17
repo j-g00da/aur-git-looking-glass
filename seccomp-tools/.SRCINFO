@@ -1,0 +1,15 @@
+pkgbase = seccomp-tools
+	pkgdesc = Provide powerful tools for seccomp analysis
+	pkgver = 1.6.1
+	pkgrel = 2
+	url = https://github.com/david942j/seccomp-tools
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	depends = glibc
+	depends = ruby
+	provides = ruby-seccomp-tools
+	source = git+https://github.com/david942j/seccomp-tools.git#tag=v1.6.1
+	sha256sums = 049b27bc7c2591159e5c27256afc42b9f49cffdf6f6d6d8ff289d592547c9edb
+
+pkgname = seccomp-tools

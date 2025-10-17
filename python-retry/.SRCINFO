@@ -1,0 +1,18 @@
+pkgbase = python-retry
+	pkgdesc = Easy to use retry decorator
+	pkgver = 0.9.5
+	pkgrel = 1
+	url = https://github.com/eSAMTrade/retry
+	arch = any
+	license = Apache-2.0
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	optdepends = python-decorator: preserves function signatures
+	source = retry-0.9.5.tar.gz::https://github.com/eSAMTrade/retry/archive/0.9.5.tar.gz
+	sha256sums = 1538899bb054de81782622f041aedc928c87f253db8167574d70406d913ecac9
+
+pkgname = python-retry

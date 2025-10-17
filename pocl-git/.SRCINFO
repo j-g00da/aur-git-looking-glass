@@ -1,0 +1,23 @@
+pkgbase = pocl-git
+	pkgdesc = Portable OpenCL is an open-source implementation of OpenCL which can be easily adapted for new targets (git version)
+	pkgver = 6.0.RC2.r506.gdc61b6ea8
+	pkgrel = 1
+	epoch = 1
+	url = http://portablecl.org/
+	arch = x86_64
+	license = GPL
+	makedepends = git
+	makedepends = llvm
+	makedepends = cmake
+	makedepends = opencl-headers
+	makedepends = ocl-icd
+	depends = clang
+	depends = hwloc
+	depends = opencl-icd-loader
+	provides = pocl=6.0.RC2.r506.gdc61b6ea8
+	provides = pocl-git=6.0.RC2.r506.gdc61b6ea8
+	conflicts = pocl
+	source = pocl::git+https://github.com/pocl/pocl.git
+	sha256sums = SKIP
+
+pkgname = pocl-git

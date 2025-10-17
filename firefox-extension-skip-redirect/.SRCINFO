@@ -1,0 +1,18 @@
+pkgbase = firefox-extension-skip-redirect
+	pkgdesc = Skip intermediary pages that some pages use before redirecting to a final page
+	pkgver = 2.3.6
+	pkgrel = 1
+	url = https://github.com/sblask-webextensions/webextension-skip-redirect
+	arch = any
+	groups = firefox-addons
+	license = MIT
+	makedepends = npm
+	depends = firefox
+	conflicts = firefox-extension-skip-redirect-bin
+	noextract = firefox-extension-skip-redirect-2.3.6.tar.gz
+	source = firefox-extension-skip-redirect-2.3.6.tar.gz::https://github.com/sblask-webextensions/webextension-skip-redirect/archive/refs/tags/2.3.6.tar.gz
+	source = include-icons.patch
+	sha256sums = 1008c461ff2d6e5903db562d9508ce297f91016eaffc2279a6ee770cfd96a50d
+	sha256sums = SKIP
+
+pkgname = firefox-extension-skip-redirect

@@ -1,0 +1,16 @@
+pkgbase = ntfix-git
+	pkgdesc = Fixes the problem of Proton games not running on NTFS partitions
+	pkgver = 0.2.1.r6.g48f4bc1
+	pkgrel = 3
+	url = https://github.com/benjamimgois/ntfix
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = git
+	makedepends = lazarus
+	depends = gtk3
+	provides = ntfix
+	conflicts = ntfix
+	source = git+https://github.com/benjamimgois/ntfix.git
+	sha256sums = SKIP
+
+pkgname = ntfix-git

@@ -1,0 +1,20 @@
+pkgbase = python-libeconf
+	pkgdesc = Python bindings for libeconf
+	pkgver = 0.7.10
+	pkgrel = 1
+	url = https://github.com/openSUSE/libeconf
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	checkdepends = libeconf
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python
+	source = libeconf-0.7.10.tar.gz::https://github.com/openSUSE/libeconf/archive/refs/tags/v0.7.10.tar.gz
+	b2sums = e6d22122ec23cb5e21e3d2abc8e829e758294e90fd589c0c50db627a24a7461e2fb7d446cc06ebfb08e3a87477a93513a7d0b8398c00c3de912acdcc7fc3cceb
+
+pkgname = python-libeconf
+	depends = python
+	depends = libeconf

@@ -1,0 +1,20 @@
+pkgbase = ravenna-alsa-lkm-dkms
+	pkgdesc = A kernel module for ALSA RAVENNA/AES67 Driver
+	pkgver = r164.7cd5712
+	pkgrel = 2
+	url = https://bitbucket.org/MergingTechnologies/ravenna-alsa-lkm
+	arch = x86_64
+	arch = x86_64_v3
+	arch = armv7h
+	arch = aarch64
+	license = GPL
+	depends = gcc
+	depends = dkms
+	optdepends = linux-rt-headers: Needed for build the module for Arch RT kernel
+	optdepends = linux-headers: Needed for build the module for Arch kernel
+	source = git+https://github.com/bondagit/ravenna-alsa-lkm.git#branch=aes67-daemon
+	source = dkms.conf
+	sha256sums = SKIP
+	sha256sums = d8e96a5bbd763d15bbec571bc0abec9e357dcce6b5dccac69a4e053e15ff8d8c
+
+pkgname = ravenna-alsa-lkm-dkms

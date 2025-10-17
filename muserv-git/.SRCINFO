@@ -1,0 +1,20 @@
+pkgbase = muserv-git
+	pkgdesc = muserv (UPnP server for music)
+	pkgver = 0.6.1
+	pkgrel = 2
+	url = https://gitlab.com/mipimipi/muserv/
+	arch = aarch64
+	arch = armv7h
+	arch = x86_64
+	license = GPL3
+	makedepends = bash
+	makedepends = git
+	makedepends = go
+	makedepends = make
+	depends = mailcap
+	provides = muserv
+	options = !debug
+	source = git+https://gitlab.com/mipimipi/muserv.git
+	sha256sums = SKIP
+
+pkgname = muserv-git

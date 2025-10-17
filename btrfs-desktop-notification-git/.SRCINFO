@@ -1,0 +1,19 @@
+pkgbase = btrfs-desktop-notification-git
+	pkgdesc = Notifies you on the desktop when booting into a read-only system or when BTRFS warning/error messages appear in the dmesg log.
+	pkgver = r32.a4d54c7
+	pkgrel = 1
+	url = https://gitlab.com/Zesko/btrfs-desktop-notification.git
+	arch = any
+	license = GPL3
+	makedepends = git
+	depends = libnotify
+	depends = systemd
+	optdepends = dunst
+	provides = btrfs-desktop-notification
+	conflicts = btrfs-desktop-notification
+	conflicts = snapper-snapshot-notification-git
+	backup = etc/btrfs-desktop-notification.conf
+	source = git+https://gitlab.com/Zesko/btrfs-desktop-notification.git
+	sha256sums = SKIP
+
+pkgname = btrfs-desktop-notification-git

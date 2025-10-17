@@ -1,0 +1,18 @@
+pkgbase = opengigabyte
+	pkgdesc = Kernel driver for Gigabyte devices (DKMS-variant)
+	pkgver = 0.0.2
+	pkgrel = 1
+	url = https://github.com/blmhemu/opengigabyte
+	arch = any
+	license = GPL-2.0-or-later
+	depends = dkms
+	depends = udev
+	depends = linux-headers
+	source = https://github.com/blmhemu/opengigabyte/archive/v0.0.2.tar.gz
+	install = opengigabyte-driver-dkms.install
+	md5sums = 3dd0c361f23eae3974abdf0b8af12adc
+
+pkgname = opengigabyte
+
+
+

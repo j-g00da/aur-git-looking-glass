@@ -1,0 +1,28 @@
+pkgbase = emerald-git
+	pkgdesc = Window decorator for Compiz
+	pkgver = 0.8.18.r4.g826408b
+	pkgrel = 1
+	url = https://gitlab.com/compiz/emerald
+	arch = i686
+	arch = x86_64
+	groups = compiz-fusion
+	groups = compiz-fusion-kde
+	groups = compiz-fusion-gtk
+	license = GPL-2.0-or-later
+	makedepends = git
+	makedepends = intltool
+	makedepends = pkg-config
+	makedepends = gettext
+	depends = compiz-core>=0.8.18.r4.g826408b
+	depends = libxres
+	depends = xdg-utils
+	depends = libwnck
+	depends = hicolor-icon-theme
+	provides = emerald
+	conflicts = emerald
+	options = !libtool
+	options = !strip
+	source = git+https://gitlab.com/compiz/emerald.git
+	sha256sums = SKIP
+
+pkgname = emerald-git

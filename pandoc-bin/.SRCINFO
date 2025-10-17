@@ -1,0 +1,28 @@
+pkgbase = pandoc-bin
+	pkgdesc = Conversion between documentation formats
+	pkgver = 3.8.2
+	pkgrel = 1
+	url = https://pandoc.org
+	arch = x86_64
+	arch = aarch64
+	license = GPL-2.0-or-later
+	optdepends = pandoc-crossref: for numbering figures, equations, tables and cross-references to them with pandoc-crossref filter
+	optdepends = texlive-context: for pdf output using context engine
+	optdepends = groff: for pdf output using pdfroff engine
+	optdepends = python-weasyprint: for pdf output using weasyprint engine
+	optdepends = typst: for pdf output using typst engine
+	optdepends = tectonic: for pdf output using tectonic engine
+	optdepends = texlive-fontsrecommended: for pdf output using latex or xelatex engines
+	optdepends = texlive-latex: for pdf output using pdflatex engine
+	optdepends = texlive-xetex: for pdf output using xelatex engine
+	provides = pandoc=3.8.2
+	provides = pandoc-cli=3.8.2
+	conflicts = pandoc-cli
+	source = pandoc-bin-3.8.2.tar.gz::https://github.com/jgm/pandoc/archive/3.8.2.tar.gz
+	sha256sums = d8f08e0228958522073ceedfae7ba463703e6212dd823868f0b7190d63ccebaf
+	source_x86_64 = https://github.com/jgm/pandoc/releases/download/3.8.2/pandoc-3.8.2-linux-amd64.tar.gz
+	sha256sums_x86_64 = 3252c5fd8234925f46973f4f17f852ccda64777a0c631d5735861c7eb4d69132
+	source_aarch64 = https://github.com/jgm/pandoc/releases/download/3.8.2/pandoc-3.8.2-linux-arm64.tar.gz
+	sha256sums_aarch64 = 898b5c1f6bcab8a60253cca1027e43476efa22d1ce99232bb958cd11803bcb90
+
+pkgname = pandoc-bin

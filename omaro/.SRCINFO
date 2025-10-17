@@ -1,0 +1,15 @@
+pkgbase = omaro
+	pkgdesc = TUI for lobste.rs. Browse posts and comments from the comfort of your terminal
+	pkgver = 0.1.4
+	pkgrel = 1
+	url = https://github.com/rolv-apneseth/omaro
+	arch = x86_64
+	license = AGPL3
+	makedepends = cargo
+	depends = gcc-libs
+	options = !debug
+	options = !lto
+	source = omaro-0.1.4.tar.gz::https://github.com/rolv-apneseth/omaro/archive/v0.1.4.tar.gz
+	sha512sums = 44304f7287812c8fa344ae7d0d7673d2000cf3374733c35b1d6f8d0f2dea54c98ba0917031607c2ccd49bd5047a90e8db348aad9807528ac966f48e60653e282
+
+pkgname = omaro

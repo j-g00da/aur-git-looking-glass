@@ -1,0 +1,18 @@
+pkgbase = python-codepy
+	pkgdesc = Generate and execute native code at run time
+	pkgver = 2025.1
+	pkgrel = 1
+	url = https://documen.tician.de/codepy
+	arch = x86_64
+	license = MIT
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python-cgen
+	depends = boost
+	source = https://pypi.org/packages/source/c/codepy/codepy-2025.1.tar.gz
+	sha512sums = af093007697a12d4cbdf1e38d977c8e1740ac81c5aafe10a1912d70fe55cf0d2067838503172dac267cb2a09697a189b3435546e40fb57dad73d3ed9738399b8
+
+pkgname = python-codepy

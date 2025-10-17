@@ -1,0 +1,18 @@
+pkgbase = 0x0uploader
+	pkgdesc = Uploader for the 0x0 file sharing service.
+	pkgver = 1.4
+	pkgrel = 1
+	url = https://codeberg.org/MorsMortium/0x0uploader
+	arch = any
+	license = GPL-3.0-or-later
+	depends = bash
+	depends = curl
+	depends = hicolor-icon-theme
+	optdepends = xclip: X clipboard
+	optdepends = wl-clipboard: Wayland clipboard
+	optdepends = libnotify: Notifications
+	conflicts = 0x0uploader
+	source = 0x0uploader-1.4.tar.gz::https://codeberg.org/MorsMortium/0x0uploader/archive/1.4.tar.gz
+	sha1sums = 808b132fb449ed1988b54b4724af794716ee5943
+
+pkgname = 0x0uploader

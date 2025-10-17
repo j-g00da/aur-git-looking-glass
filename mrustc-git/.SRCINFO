@@ -1,0 +1,20 @@
+pkgbase = mrustc-git
+	pkgdesc = Alternative rust compiler written in C++
+	pkgver = v0.11.2.r59.g06b87d1
+	pkgrel = 1
+	url = https://github.com/thepowersgang/mrustc
+	arch = x86_64
+	license = MIT
+	makedepends = cmake
+	makedepends = git
+	depends = gcc
+	depends = zlib
+	depends = python
+	provides = mrustc
+	conflicts = mrustc
+	source = git+https://github.com/thepowersgang/mrustc.git
+	source = mrustc.sh
+	sha256sums = SKIP
+	sha256sums = 836cbffc4be7c5267465e4887e5336918a5757397405271d9fc6a6e0e6240d5b
+
+pkgname = mrustc-git

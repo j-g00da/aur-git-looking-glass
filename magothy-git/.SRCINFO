@@ -1,0 +1,20 @@
+pkgbase = magothy-git
+	pkgdesc = Hardware profiling tool
+	pkgver = r256.d77b20f
+	pkgrel = 1
+	url = https://codeberg.org/serebit/magothy
+	arch = x86_64
+	arch = armv7h
+	arch = aarch64
+	license = Apache-2.0
+	makedepends = cargo
+	makedepends = git
+	depends = hicolor-icon-theme
+	depends = hwdata
+	optdepends = libdrm: Better AMD GPU model name reporting
+	provides = magothy
+	conflicts = magothy
+	source = magothy-git::git+https://codeberg.org/serebit/magothy.git
+	b2sums = SKIP
+
+pkgname = magothy-git

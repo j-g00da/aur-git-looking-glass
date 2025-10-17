@@ -1,0 +1,18 @@
+pkgbase = r-idiogram
+	pkgdesc = idiogram
+	pkgver = 1.84.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/idiogram
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-annotate
+	depends = r-biobase
+	depends = r-plotrix
+	optdepends = r-golubesets
+	optdepends = r-hgu95av2.db
+	optdepends = r-hu6800.db
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/idiogram_1.84.0.tar.gz
+	sha256sums = 80062448838f94f5121f2d740c621bd66683ec06f9b985255863679f6a744dfd
+
+pkgname = r-idiogram

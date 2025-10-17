@@ -1,0 +1,15 @@
+pkgbase = python-grpcio-testing
+	pkgdesc = Testing utilities for gRPC Python
+	pkgver = 1.74.0
+	pkgrel = 1
+	url = https://grpc.io/
+	arch = any
+	license = Apache
+	makedepends = python-setuptools
+	depends = python
+	depends = python-grpcio
+	depends = python-protobuf
+	source = https://files.pythonhosted.org/packages/source/g/grpcio-testing/grpcio_testing-1.74.0.tar.gz
+	sha256sums = 11dedb53a410fe3b2a2bc9a9ed9c9a6979420c93243da7d787f7ccf9a2543e37
+
+pkgname = python-grpcio-testing

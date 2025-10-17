@@ -1,0 +1,17 @@
+pkgbase = gitnapped-bin
+	pkgdesc = Find out why you didn’t sleep
+	pkgver = 0.1.4
+	pkgrel = 1
+	url = https://github.com/Solexma/gitnapped
+	arch = x86_64
+	license = AGPL-3.0-only
+	provides = gitnapped
+	conflicts = gitnapped
+	source = gitnapped-bin-0.1.4.tar.gz::https://github.com/Solexma/gitnapped/releases/download/v0.1.4/gitnapped-x86_64-unknown-linux-gnu.tar.gz
+	source = gitnapped-LICENSE::https://raw.githubusercontent.com/Solexma/gitnapped/refs/tags/v0.1.4/LICENSE
+	source = README.md::https://raw.githubusercontent.com/Solexma/gitnapped/refs/tags/v0.1.4/README.md
+	sha256sums = ff7e0b3b94a287820619bfebfd73f7070f698cfa55879627d81b920a7478ecbb
+	sha256sums = 8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef
+	sha256sums = 76710d6d9a98dfef43ff7c65a1ee18579cf3447d461e4ba846afc4d0dd9cd8bf
+
+pkgname = gitnapped-bin

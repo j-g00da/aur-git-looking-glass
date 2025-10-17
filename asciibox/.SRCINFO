@@ -1,0 +1,18 @@
+pkgbase = asciibox
+	pkgdesc = An auxiliary tool to simplify write mermaid, svgbob and asciidoc
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/NObodyGX/asciibox
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = meson
+	makedepends = ninja
+	makedepends = cargo
+	depends = rust
+	depends = gtk4
+	depends = libadwaita
+	source = https://github.com/NObodyGX/asciibox/archive/refs/tags/v1.0.0.tar.gz
+	sha256sums = 58accd67490e85aa4caf7eaea243801606b77b89b0084d9c9c0540d48b5d225b
+
+pkgname = asciibox

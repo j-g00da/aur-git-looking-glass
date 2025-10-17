@@ -1,0 +1,20 @@
+pkgbase = libscfg-git
+	pkgdesc = A C library for scfg
+	pkgver = 0.1.1.r7.e2554a5
+	pkgrel = 1
+	url = https://codeberg.org/emersion/libscfg.git
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = meson
+	makedepends = ninja
+	makedepends = zsh
+	makedepends = gyosu
+	provides = libscfg
+	conflicts = libscfg
+	options = staticlibs
+	source = libscfg::git+https://codeberg.org/emersion/libscfg.git#branch=master
+	validpgpkeys = 34FF9526CFEF0E97A340E2E40FDE7BE0E88F5E48
+	b2sums = SKIP
+
+pkgname = libscfg-git

@@ -1,0 +1,15 @@
+pkgbase = desk
+	pkgdesc = A lightweight workspace manager for the shell
+	pkgver = 0.7.0.beta.1
+	pkgrel = 1
+	url = https://github.com/bernd/desk
+	arch = any
+	license = MIT
+	makedepends = rust
+	makedepends = gzip
+	makedepends = help2man
+	provides = desk
+	source = git+https://github.com/bernd/desk.git#tag=v0.7.0-beta.1
+	sha256sums = 61a6cfd74e75bfeae7c1b51464ee292f075fd18ccac9aad999048b525023adfb
+
+pkgname = desk

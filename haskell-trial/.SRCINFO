@@ -1,0 +1,36 @@
+pkgbase = haskell-trial
+	pkgdesc = Trial Data Structure
+	pkgver = 0.0.0.0
+	pkgrel = 5
+	url = https://github.com/kowainik/trial
+	arch = x86_64
+	license = MPL-2.0
+	makedepends = cabal-install
+	makedepends = ghc
+	makedepends = haskell-doctest
+	makedepends = haskell-hedgehog
+	makedepends = haskell-hspec
+	makedepends = haskell-hspec-hedgehog
+	makedepends = haskell-splitmix
+	makedepends = haskell-tomland
+	makedepends = haskell-optparse-applicative
+	makedepends = uusi
+	depends = haskell-base
+	depends = haskell-colourista
+	depends = haskell-dlist
+	source = https://github.com/kowainik/trial/archive/e86477e60649a99b8b9fed72dbe3cd566fde30ff.tar.gz
+	sha256sums = 2c7f9a4f72dcbfc6b90abc3bad33698c67573b60d2074562598c087ecf27cc1a
+
+pkgname = haskell-trial
+
+pkgname = haskell-trial-tomland
+	pkgdesc = Trial helper functions for tomland
+	depends = ghc-libs
+	depends = haskell-trial
+	depends = haskell-tomland
+
+pkgname = haskell-trial-optparse-applicative
+	pkgdesc = Trial helper functions for optparse-applicative
+	depends = ghc-libs
+	depends = haskell-trial
+	depends = haskell-optparse-applicative

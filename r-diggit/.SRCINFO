@@ -1,0 +1,16 @@
+pkgbase = r-diggit
+	pkgdesc = Inference of Genetic Variants Driving Cellular Phenotypes
+	pkgver = 1.40.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/diggit
+	arch = any
+	license = custom
+	depends = r
+	depends = r-biobase
+	depends = r-ks
+	depends = r-viper
+	optdepends = r-diggitdata
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/diggit_1.40.0.tar.gz
+	sha256sums = 3c6b9ec363e085a17880b56d5ceb650427f3ee4f94a4e711b75b7005b4298fa5
+
+pkgname = r-diggit

@@ -1,0 +1,19 @@
+pkgbase = xmlcutty
+	pkgdesc = Select elements from large XML files, fast
+	pkgver = 0.1.8
+	pkgrel = 1
+	url = https://github.com/miku/xmlcutty
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = go
+	makedepends = git
+	conflicts = xmlcutty-bin
+	replaces = xmlcutty-bin
+	options = !strip
+	options = !emptydirs
+	source = https://github.com/miku/xmlcutty/archive/v0.1.8.tar.gz
+	sha256sums = d6a0bfc183eed0c09765c4bf5d96293078fbd33553b02d4f0af876d3d50cacd0
+
+pkgname = xmlcutty
+

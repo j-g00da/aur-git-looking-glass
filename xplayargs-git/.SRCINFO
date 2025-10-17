@@ -1,0 +1,14 @@
+pkgbase = xplayargs-git
+	pkgdesc = A xargs-like audio player.
+	pkgver = r1.d4711c7
+	pkgrel = 2
+	url = https://github.com/dimkr/xplayargs
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	conflicts = xplayargs
+	source = xplayargs-git::git+https://github.com/dimkr/xplayargs
+	md5sums = SKIP
+
+pkgname = xplayargs-git

@@ -1,0 +1,16 @@
+pkgbase = epson-inkjet-printer-l805
+	pkgdesc = Epson inkjet printer driver (L805)
+	pkgver = 1.0.2
+	pkgrel = 1
+	url = https://download.ebz.epson.net/man/linux/escp.html
+	arch = x86_64
+	license = custom:Epson End User Software License Agreement
+	depends = epson-inkjet-printer-filter
+	depends = gcc-libs
+	depends = glibc
+	provides = libEpson_l805.so
+	provides = libEpson_l805.MT.so
+	source = https://download3.ebz.epson.net/dsc/f/03/00/15/66/50/b8844aa3ee5582063371d1fc20dcee4cbaabd7ca/epson-inkjet-printer-l805-1.0.2-1.src.rpm
+	sha256sums = 707c0b9eeef362c9678edb8320b332779e400af6cda4f42ab7ecea58ae006246
+
+pkgname = epson-inkjet-printer-l805

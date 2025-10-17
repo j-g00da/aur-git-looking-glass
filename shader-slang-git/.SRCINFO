@@ -1,0 +1,16 @@
+pkgbase = shader-slang-git
+	pkgdesc = Shading language that makes it easier to build and maintain large shader codebases in a modular and extensible fashion.
+	pkgver = 2025.19
+	pkgrel = 1
+	url = https://github.com/shader-slang/slang
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	depends = glslang
+	provides = shader-slang
+	conflicts = shader-slang
+	conflicts = shader-slang-bin
+	source = git+https://github.com/shader-slang/slang
+	sha256sums = SKIP
+
+pkgname = shader-slang-git

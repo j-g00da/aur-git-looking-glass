@@ -1,0 +1,16 @@
+pkgbase = r-flowmatch
+	pkgdesc = Matching and meta-clustering in flow cytometry
+	pkgver = 1.44.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/flowMatch
+	arch = x86_64
+	license = Artistic2.0
+	depends = r
+	depends = r-biobase
+	depends = r-flowcore
+	depends = r-rcpp
+	optdepends = r-healthyflowdata
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/flowMatch_1.44.0.tar.gz
+	sha256sums = 3583b20e39a257177099e04c4fe53ef4e6ec9d562cfc749eb852f6aec454f40c
+
+pkgname = r-flowmatch

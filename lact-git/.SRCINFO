@@ -1,0 +1,25 @@
+pkgbase = lact-git
+	pkgdesc = AMDGPU Controller application (git version)
+	pkgver = r779.4082728
+	pkgrel = 1
+	url = https://github.com/ilya-zlobintsev/LACT
+	install = lact.install
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = rust
+	makedepends = git
+	makedepends = make
+	makedepends = clang
+	depends = gtk4
+	depends = hwdata
+	depends = vulkan-tools
+	depends = ocl-icd
+	provides = lact
+	conflicts = lact
+	conflicts = lact-libadwaita
+	backup = etc/lact/config.yaml
+	source = git+https://github.com/ilya-zlobintsev/LACT.git
+	sha512sums = SKIP
+
+pkgname = lact-git

@@ -1,0 +1,22 @@
+pkgbase = lib32-netpbm
+	pkgdesc = A toolkit for manipulation of graphic images (32-bit)
+	pkgver = 10.86.44
+	pkgrel = 4
+	url = https://netpbm.sourceforge.net
+	arch = x86_64
+	license = Artistic-1.0
+	license = GPL-2.0-only
+	license = LGPL-2.0-only
+	license = MIT
+	makedepends = lib32-gcc-libs
+	depends = lib32-glibc
+	depends = netpbm>=10.86.44
+	provides = libnetpbm.so
+	source = netpbm-10.86.44.tar.gz::https://downloads.sourceforge.net/project/netpbm/super_stable/10.86.44/netpbm-10.86.44.tgz
+	source = netpbm-security-code.patch
+	source = netpbm_compiled_by_user.patch
+	sha256sums = e7b62782e675d262c69b9f8f6920c9e5e141f7890d13ae87fef8f5c86b6b6cd6
+	sha256sums = 698645215d46bcee515d75847fc550ce99c5fcb6fae63dacdba1d773f327c80e
+	sha256sums = 0384502da3d0c1e20aeaeaeade3b40a3198ae497c5bc0c2cbe0f4f14cdf8f92f
+
+pkgname = lib32-netpbm

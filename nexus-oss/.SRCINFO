@@ -1,0 +1,30 @@
+pkgbase = nexus-oss
+	pkgdesc = Nexus 3 Repository OSS
+	pkgver = 3.84.1.01
+	pkgrel = 1
+	url = http://nexus.sonatype.org
+	install = nexus-oss.install
+	arch = any
+	license = LicenseRef-nexus-oss
+	depends = java-runtime-headless=17
+	provides = nexus-oss
+	backup = var/lib/nexus-oss/etc/nexus.properties
+	backup = etc/conf.d/nexus-oss
+	source = https://download.sonatype.com/nexus/3/nexus-3.84.1-01-linux-x86_64.tar.gz
+	source = nexus-oss.sh
+	source = nexus-oss.service
+	source = nexus-oss.conf
+	source = nexus-oss.tmpfiles
+	source = nexus-oss.sysusers
+	source = nexus-oss.install
+	source = nexus-oss.properties
+	sha256sums = 5e3e0bd5ec94fbba72ae6f752dc3225172738ab6e7d0922b90fb13d756be3ed4
+	sha256sums = 07bd3fa49504b4ae85c7affd502c3ec3564aad7a34852e825eaef2fe994cf142
+	sha256sums = 424d0d8f2bf6376f09c22b4fe9425899b8521999e86a1201650f4a4f342154b7
+	sha256sums = b38c7ca66cfe1f9e9866056df43d26a0d94ff09e78600d29636bef64cf755b87
+	sha256sums = efd66ac28e622cdf58f5733bdced6654b170558834c3e4304b3a2dfb7d964994
+	sha256sums = 77d699b5ccf6387fa2f69df2cd71cdb75b4ffbf46a10110dd6c0e2802783dbef
+	sha256sums = bff7354310f920d3062055cf04a695ec0eeb76e0ab275bd9ae27041c3a3c45ab
+	sha256sums = d4076f486fc6b2cc6bb457f874a2082c7ab018f407744b83f5edbd36573e00ac
+
+pkgname = nexus-oss

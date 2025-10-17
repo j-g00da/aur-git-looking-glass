@@ -1,0 +1,25 @@
+pkgbase = rbfeeder
+	pkgdesc = Software for uploading ADS-B data to RadarBox24.com
+	pkgver = 1.0.11+bookworm
+	pkgrel = 1
+	url = https://www.radarbox.com/sharing-data
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = GPL2
+	depends = protobuf-c
+	depends = jansson
+	depends = rtl-sdr=1:0.8.0
+	backup = etc/rbfeeder.ini
+	source = rbfeeder.sysusers
+	source = rbfeeder.tmpfiles
+	sha256sums = 3fb1dae902740e84254a2548c5d81fff18b18658ed408576a438968e43e51746
+	sha256sums = d8d127259681d44b8d731c80c14658be5fcac44cf5329601dd6d89b1a4d7e82a
+	source_armv6h = https://apt.rb24.com/pool/main/r/rbfeeder/rbfeeder_1.0.11+bookworm_armhf.deb
+	sha256sums_armv6h = 7a7445608db0c1b3e9fe44604df87805b36f931aa70ab5d16cdb1c02df50c122
+	source_armv7h = https://apt.rb24.com/pool/main/r/rbfeeder/rbfeeder_1.0.11+bookworm_armhf.deb
+	sha256sums_armv7h = 7a7445608db0c1b3e9fe44604df87805b36f931aa70ab5d16cdb1c02df50c122
+	source_aarch64 = https://apt.rb24.com/pool/main/r/rbfeeder/rbfeeder_1.0.11+bookworm_arm64.deb
+	sha256sums_aarch64 = 1f3216d9aeb6e3c6af21488911118a1c2d012423e5f30862b4ba55f9f7e5f71b
+
+pkgname = rbfeeder

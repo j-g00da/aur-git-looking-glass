@@ -1,0 +1,24 @@
+pkgbase = yle-dl-git
+	pkgdesc = Download video and audio from YLE Areena.
+	pkgver = 20250227.r1.g7c53d14
+	pkgrel = 1
+	url = http://aajanki.github.io/yle-dl/
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = git
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-flit-core
+	depends = ffmpeg
+	depends = python-attrs
+	depends = python-configargparse
+	depends = python-lxml
+	depends = python-requests
+	optdepends = wget: for some rare streams
+	provides = yle-dl
+	conflicts = yle-dl
+	source = yle-dl-git::git+https://github.com/aajanki/yle-dl.git
+	md5sums = SKIP
+
+pkgname = yle-dl-git

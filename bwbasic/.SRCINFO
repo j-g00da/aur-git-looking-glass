@@ -1,0 +1,22 @@
+pkgbase = bwbasic
+	pkgdesc = Bywater BASIC
+	pkgver = 3.30
+	pkgrel = 1
+	url = https://sourceforge.net/projects/bwbasic
+	arch = aarch64
+	arch = arm
+	arch = armv6h
+	arch = armv7h
+	arch = i486
+	arch = i686
+	arch = pentium4
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = dos2unix
+	depends = xdg-utils
+	depends = glibc
+	source = https://sourceforge.net/projects/bwbasic/files/bwbasic/version%203.30/bwbasic-3.30.zip
+	md5sums = a37262807cb7c497e6767bdfd704537d
+	sha256sums = 09a6fcfc3bd88f0e8af1ce3a65324898849ad2f26de547850c1f994d255f9064
+
+pkgname = bwbasic

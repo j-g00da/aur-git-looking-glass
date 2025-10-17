@@ -1,0 +1,20 @@
+pkgbase = mingw-w64-libxml2
+	pkgdesc = XML C parser and toolkit (mingw-w64)
+	pkgver = 2.15.0
+	pkgrel = 1
+	url = https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = mingw-w64-configure
+	depends = mingw-w64-crt
+	depends = mingw-w64-libiconv
+	depends = mingw-w64-zlib
+	depends = mingw-w64-xz
+	options = !buildflags
+	options = !strip
+	options = staticlibs
+	source = https://download.gnome.org/sources/libxml2/2.15/libxml2-2.15.0.tar.xz
+	sha256sums = 5abc766497c5b1d6d99231f662e30c99402a90d03b06c67b62d6c1179dedd561
+
+pkgname = mingw-w64-libxml2

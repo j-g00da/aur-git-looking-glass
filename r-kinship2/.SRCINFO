@@ -1,0 +1,14 @@
+pkgbase = r-kinship2
+	pkgdesc = Pedigree Functions
+	pkgver = 1.9.6.2
+	pkgrel = 1
+	url = https://cran.r-project.org/package=kinship2
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-knitr
+	depends = r-quadprog
+	source = https://cran.r-project.org/src/contrib/kinship2_1.9.6.2.tar.gz
+	sha256sums = 85b628c95b8b077e8ff329e5b84d7bc7ab48063f5f0f3da3300b886ab90aea4e
+
+pkgname = r-kinship2

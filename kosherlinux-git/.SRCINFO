@@ -1,0 +1,18 @@
+pkgbase = kosherlinux-git
+	pkgdesc = this small thing automatically turns off your computer if you try to turn it on during Shabbat.
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://github.com/s1522711/Kosher-Linux
+	install = kosherlinux.install
+	arch = x86_64
+	license = GPL
+	makedepends = gcc
+	makedepends = cmake
+	makedepends = make
+	makedepends = git
+	depends = systemd
+	options = !debug
+	source = git+https://github.com/s1522711/Kosher-Linux.git
+	sha256sums = SKIP
+
+pkgname = kosherlinux-git

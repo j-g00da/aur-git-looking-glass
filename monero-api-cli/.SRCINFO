@@ -1,0 +1,18 @@
+pkgbase = monero-api-cli
+	pkgdesc = Python cli application meant for remotely interacting with a Monero Daemon via its RPC API
+	pkgver = 0.2.1
+	pkgrel = 1
+	url = https://github.com/Dvd-Znf/monero-api-cli/
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python
+	depends = python-requests
+	depends = python-prompt_toolkit
+	source = https://github.com/Dvd-Znf/monero-api-cli/archive/refs/tags/0.2.1.tar.gz
+	sha256sums = a0bbb6817c55cdd93bc1d322d7c90b77a846e9527a3b4c340f7f6daafe76bab0
+
+pkgname = monero-api-cli

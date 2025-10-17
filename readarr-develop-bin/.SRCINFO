@@ -1,0 +1,50 @@
+pkgbase = readarr-develop-bin
+	pkgdesc = Ebook and audiobook collection manager for newsgroup and torrent users (develop branch)
+	pkgver = 0.4.18.2805
+	pkgrel = 1
+	url = https://readarr.com
+	install = readarr.install
+	arch = x86_64
+	arch = aarch64
+	arch = armv7h
+	groups = servarr-develop-bin
+	license = GPL-3.0-or-later
+	depends = gcc-libs
+	depends = glibc
+	depends = sqlite
+	depends = zlib
+	optdepends = postgresql: postgresql database
+	optdepends = sabnzbd: usenet downloader
+	optdepends = nzbget: usenet downloader
+	optdepends = qbittorrent: torrent downloader
+	optdepends = deluge: torrent downloader
+	optdepends = rtorrent: torrent downloader
+	optdepends = nodejs-flood: torrent downloader
+	optdepends = vuze: torrent downloader
+	optdepends = aria2: torrent downloader
+	optdepends = transmission-cli: torrent downloader (CLI and daemon)
+	optdepends = transmission-gtk: torrent downloader (GTK+)
+	optdepends = transmission-qt: torrent downloader (Qt)
+	optdepends = jackett: torrent indexer proxy
+	optdepends = nzbhydra2: torznab and usenet indexer proxy
+	optdepends = prowlarr: torrent and usenet indexer proxy
+	optdepends = autobrr: irc, torrent and usenet indexer proxy
+	provides = readarr
+	conflicts = readarr
+	options = !debug
+	source = package_info
+	source = readarr.service
+	source = readarr.sysusers
+	source = readarr.tmpfiles
+	sha256sums = c53f8d84eea20eb57f4fa200d18ccfee7ddac57e087f3ef00efb8e22862c9dde
+	sha256sums = ce5d3c5263792f7099ca5b87acee8a5c7573cc90931cc37a31da459d20b5cfa0
+	sha256sums = fcfa28c1be4f67cfa641dc6076780ee07ab973e55bf676174315e417f73003ad
+	sha256sums = a4cfdf882ab62dea54d85dfae4a633cf21bce597a19c3287d90c024e3ff399ce
+	source_x86_64 = Readarr.develop.0.4.18.2805.linux-core-x64.tar.gz::https://readarr.servarr.com/v1/update/develop/updatefile?version=0.4.18.2805&os=linux&runtime=netcore&arch=x64
+	sha256sums_x86_64 = 842ab11fac4f2e103e57badeaac1e2d44636b14dc727a1123098a2597adc5141
+	source_aarch64 = Readarr.develop.0.4.18.2805.linux-core-arm64.tar.gz::https://readarr.servarr.com/v1/update/develop/updatefile?version=0.4.18.2805&os=linux&runtime=netcore&arch=arm64
+	sha256sums_aarch64 = ecda47df6b6410e615c9fc0806af4b08a028d0843521e8587ca8beaa20737fca
+	source_armv7h = Readarr.develop.0.4.18.2805.linux-core-arm.tar.gz::https://readarr.servarr.com/v1/update/develop/updatefile?version=0.4.18.2805&os=linux&runtime=netcore&arch=arm
+	sha256sums_armv7h = 19db2a83b03935c1de829f06d1d1af936da69a5e13aaabd9c7947bfee49c3d51
+
+pkgname = readarr-develop-bin

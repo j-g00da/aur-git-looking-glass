@@ -1,0 +1,22 @@
+pkgbase = miuzcpc-git
+	pkgdesc = A private music player that can play local and cloud music, and supports lyric display.(Use system-wide electron)
+	pkgver = 1.0.1.r3.g69ffcf2
+	pkgrel = 1
+	url = https://github.com/miboqiang130/miuzcPC
+	arch = any
+	license = MIT
+	makedepends = npm
+	makedepends = git
+	makedepends = nvm
+	makedepends = gendesk
+	makedepends = curl
+	makedepends = icoutils
+	depends = electron30
+	provides = miuzcpc=1.0.1
+	conflicts = miuzcpc
+	source = miuzcpc.git::git+https://github.com/miboqiang130/miuzcPC.git
+	source = miuzcpc.sh
+	sha256sums = SKIP
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = miuzcpc-git

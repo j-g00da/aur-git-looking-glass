@@ -1,0 +1,21 @@
+pkgbase = peerflix-server-git
+	pkgdesc = Streaming torrent client for node.js with web ui
+	pkgver = 247.f4d7aff
+	pkgrel = 1
+	url = https://github.com/asapach/peerflix-server
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = nodejs-grunt-cli
+	makedepends = bower
+	depends = nodejs
+	conflicts = peerflix-server
+	options = !strip
+	source = peerflix-server::git+https://github.com/asapach/peerflix-server.git
+	source = peerflix-server.sh
+	source = peerflix-server.service
+	sha256sums = SKIP
+	sha256sums = 7a8842bd27a40b84d7f3ce76f873fd49105fa51739dc0a805f1afc69b5ba4258
+	sha256sums = b756e991d0176ce9e021541556890450fdbd83a94a37bda1ba3d1ed9c3f39f9a
+
+pkgname = peerflix-server-git

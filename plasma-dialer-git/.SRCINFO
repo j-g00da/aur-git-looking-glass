@@ -1,0 +1,23 @@
+pkgbase = plasma-dialer-git
+	pkgdesc = Dialer for Plasma Mobile
+	pkgver = 6.3.90.r13.g387b2b8
+	pkgrel = 1
+	url = https://invent.kde.org/plasma-mobile/plasma-dialer
+	arch = any
+	license = GPL3
+	makedepends = cmake
+	makedepends = extra-cmake-modules-git
+	depends = ki18n-git
+	depends = kcontacts-git
+	depends = kpeople-git
+	depends = knotifications-git
+	depends = kio-git
+	depends = kirigami-addons-git
+	depends = plasma-wayland-protocols-git
+	depends = modemmanager-qt-git
+	depends = libphonenumber
+	depends = callaudiod-git
+	source = git+https://invent.kde.org/plasma-mobile/plasma-dialer.git
+	sha256sums = SKIP
+
+pkgname = plasma-dialer-git

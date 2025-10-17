@@ -1,0 +1,22 @@
+pkgbase = r-omicplotr
+	pkgdesc = Visual Exploration of Omic Datasets Using a Shiny App
+	pkgver = 1.28.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/omicplotR
+	arch = any
+	license = MIT
+	depends = r
+	depends = r-aldex2
+	depends = r-compositions
+	depends = r-dt
+	depends = r-jsonlite
+	depends = r-knitr
+	depends = r-matrixstats
+	depends = r-rmarkdown
+	depends = r-shiny
+	depends = r-vegan
+	depends = r-zcompositions
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/omicplotR_1.28.0.tar.gz
+	sha256sums = 277284ee5ab0e7944f8cbed26dcdbd6451b1bbe14db56d72abc28a0b6ccf6aed
+
+pkgname = r-omicplotr

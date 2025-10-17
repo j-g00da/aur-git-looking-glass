@@ -1,0 +1,15 @@
+pkgbase = obs-scale-to-sound-bin
+	pkgdesc = OBS filter plugin to make a source scale reactively to sound
+	pkgver = 1.2.5
+	pkgrel = 2
+	url = https://github.com/Qufyy/obs-scale-to-sound
+	arch = x86_64
+	license = GPL2
+	depends = obs-studio>=24.0.0
+	provides = obs-scale-to-sound
+	conflicts = obs-scale-to-sound
+	conflicts = obs-scale-to-sound-git
+	source = https://github.com/Qufyy/obs-scale-to-sound/releases/download/1.2.5/scale-to-sound-1.2.5-x86_64-linux-gnu.tar.gz
+	sha512sums = f289aec6b62e33d337f4de991c50b738ff95b7720d80596ec1c2292b5174130234fc332ff38d7c94f8bd0efe3f44793c963002770dd147d015aa5bb897301512
+
+pkgname = obs-scale-to-sound-bin

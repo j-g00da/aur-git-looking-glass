@@ -1,0 +1,14 @@
+pkgbase = libffshit-git
+	pkgdesc = Siemens filesystem library.
+	pkgver = 0.0.1
+	pkgrel = 4
+	url = https://github.com/siemens-mobile-hacks/libffshit
+	arch = any
+	license = MIT
+	makedepends = cmake
+	depends = spdlog
+	depends = fmt
+	source = git+https://github.com/siemens-mobile-hacks/libffshit
+	sha256sums = SKIP
+
+pkgname = libffshit-git

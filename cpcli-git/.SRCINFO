@@ -1,0 +1,14 @@
+pkgbase = cpcli-git
+	pkgdesc = Check crypto prices in your terminal
+	pkgver = 1.1.0
+	pkgrel = 1
+	url = https://github.com/AshtonGrimes/cpcli
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = git
+	depends = guile
+	depends = guile-json
+	source = git+https://github.com/AshtonGrimes/cpcli
+	sha256sums = SKIP
+
+pkgname = cpcli-git

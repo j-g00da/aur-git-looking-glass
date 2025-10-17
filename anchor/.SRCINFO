@@ -1,0 +1,18 @@
+pkgbase = anchor
+	pkgdesc = ⚓ Solana Sealevel Framework
+	pkgver = 0.32.1
+	pkgrel = 1
+	url = https://www.anchor-lang.com
+	arch = x86_64
+	license = Apache-2.0
+	makedepends = git
+	depends = cargo
+	depends = gcc-libs
+	depends = glibc
+	depends = nodejs
+	depends = yarn
+	options = !lto
+	source = git+https://github.com/solana-foundation/anchor.git#tag=v0.32.1
+	sha256sums = f5d983278a557a3b6bcd2f42f8faf135971f39055d28fb96cedd6a06b7e41d34
+
+pkgname = anchor

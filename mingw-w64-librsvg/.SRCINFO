@@ -1,0 +1,26 @@
+pkgbase = mingw-w64-librsvg
+	pkgdesc = SVG rendering library (mingw-w64)
+	pkgver = 2.61.1
+	pkgrel = 1
+	url = https://wiki.gnome.org/action/show/Projects/LibRsvg
+	arch = any
+	license = LGPL-2.1-or-later
+	makedepends = cargo-c
+	makedepends = mingw-w64-meson
+	makedepends = mingw-w64-rust>=1.58
+	makedepends = mingw-w64-wine
+	makedepends = gdk-pixbuf2
+	makedepends = gobject-introspection
+	makedepends = git
+	depends = mingw-w64-gdk-pixbuf2
+	depends = mingw-w64-pango
+	depends = mingw-w64-cairo
+	depends = mingw-w64-libxml2
+	depends = mingw-w64-freetype2
+	options = !strip
+	options = staticlibs
+	options = !buildflags
+	source = git+https://gitlab.gnome.org/GNOME/librsvg.git#tag=2.61.1
+	b2sums = 279bf73beaaa8ace21631db1d1df303527c5f9cdc5c4e5811ffd15602e513c7e37164e444390653af96ba7257ba30904081261f9f90b983292c8b0b1cdfd509b
+
+pkgname = mingw-w64-librsvg

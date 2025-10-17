@@ -1,0 +1,12 @@
+pkgbase = grpc-client-cli
+	pkgdesc = generic gRPC command line client
+	pkgver = 1.21.1
+	pkgrel = 1
+	url = https://github.com/vadimi/grpc-client-cli
+	arch = x86_64
+	license = MIT
+	provides = grpc-client-cli
+	source_x86_64 = https://github.com/vadimi/grpc-client-cli/releases/download/v1.21.1/grpc-client-cli_linux_x86_64.tar.gz
+	sha256sums_x86_64 = 53aa1020800612d83463a3c3d14795650719e977eadb598dcad2b9eaa9665ffd
+
+pkgname = grpc-client-cli-bin

@@ -1,0 +1,22 @@
+pkgbase = python-djvulibre-python
+	pkgdesc = Python interface to DjVuLibre
+	pkgver = 0.9.3
+	pkgrel = 1
+	url = https://github.com/FriedrichFroebel/python-djvulibre
+	arch = x86_64
+	license = GPL-2.0-only
+	checkdepends = djvulibre
+	checkdepends = ghostscript
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	makedepends = djvulibre
+	makedepends = pkgconf
+	makedepends = cython
+	depends = python
+	depends = djvulibre
+	source = https://files.pythonhosted.org/packages/source/d/djvulibre_python/djvulibre_python-0.9.3.tar.gz
+	sha256sums = efe3c816b40b2bf5fda81cced2b44e57e86dfe608cd89e5acfd3596191ed5248
+
+pkgname = python-djvulibre-python

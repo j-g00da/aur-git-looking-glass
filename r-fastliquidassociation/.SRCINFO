@@ -1,0 +1,21 @@
+pkgbase = r-fastliquidassociation
+	pkgdesc = functions for genome-wide application of Liquid Association
+	pkgver = 1.44.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/fastLiquidAssociation
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-doparallel
+	depends = r-hmisc
+	depends = r-impute
+	depends = r-liquidassociation
+	depends = r-preprocesscore
+	depends = r-wgcna
+	optdepends = r-gostats
+	optdepends = r-org.sc.sgd.db
+	optdepends = r-yeastcc
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/fastLiquidAssociation_1.44.0.tar.gz
+	sha256sums = 3153cacdc8e688d58553628e6f6d9a84589755743f5d018f11c3c0400af8e8b6
+
+pkgname = r-fastliquidassociation

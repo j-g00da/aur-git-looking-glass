@@ -1,0 +1,18 @@
+pkgbase = easyeda-bin
+	pkgdesc = A Simple and Powerful Electronic Circuit Design Tool
+	pkgver = 6.5.51
+	pkgrel = 1
+	url = https://easyeda.com/
+	arch = x86_64
+	license = LicenseRef-EasyEDA-Proprietary
+	makedepends = curl
+	depends = gtk3
+	depends = nss
+	depends = libxss
+	depends = alsa-lib
+	provides = easyeda
+	conflicts = easyeda
+	source = easyeda-6.5.51.zip::https://image.easyeda.com/files/easyeda-linux-x64-6.5.51.zip
+	sha256sums = 40b85f629635a1ae3e2b34c124f963d6dc9bf4de6254c794f7b12c5dd95c2f02
+
+pkgname = easyeda-bin

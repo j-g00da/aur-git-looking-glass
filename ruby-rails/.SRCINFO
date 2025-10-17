@@ -1,0 +1,24 @@
+pkgbase = ruby-rails
+	pkgdesc = Full-stack web application framework.
+	pkgver = 8.0.2
+	pkgrel = 1
+	url = https://www.rubyonrails.org
+	arch = any
+	license = MIT
+	depends = ruby
+	depends = ruby-activesupport
+	depends = ruby-actionpack
+	depends = ruby-actionview
+	depends = ruby-activemodel
+	depends = ruby-activerecord
+	depends = ruby-actionmailer
+	depends = ruby-railties
+	depends = ruby-bundler
+	depends = ruby-sprockets-rails
+	depends = ruby-actioncable
+	noextract = rails-8.0.2.gem
+	options = !emptydirs
+	source = https://rubygems.org/downloads/rails-8.0.2.gem
+	sha256sums = fdfaa5a83ec0388e02864e88d515959caedc88053b5f701c4deb1652d8f164c6
+
+pkgname = ruby-rails

@@ -1,0 +1,16 @@
+pkgbase = bawa
+	pkgdesc = A TUI game save organizer
+	pkgver = 0.1.0
+	pkgrel = 2
+	url = https://github.com/sarowish/bawa
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	depends = glibc
+	provides = bawa
+	conflicts = bawa
+	source = bawa-0.1.0.tar.gz::https://github.com/sarowish/bawa/archive/refs/tags/v0.1.0.tar.gz
+	sha256sums = afe4c1808604e6be0b42afea43509c76f8ed321d8466b2e1cc37c33106444ad8
+
+pkgname = bawa

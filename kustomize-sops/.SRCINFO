@@ -1,0 +1,16 @@
+pkgbase = kustomize-sops
+	pkgdesc = KSOPS - A Flexible Kustomize Plugin for SOPS Encrypted Resources
+	pkgver = 4.3.3
+	pkgrel = 1
+	url = https://github.com/viaduct-ai/kustomize-sops
+	install = kustomize-sops.install
+	arch = x86_64
+	arch = aarch64
+	license = Apache
+	makedepends = go
+	provides = ksops
+	conflicts = ksops-bin
+	source = https://github.com/viaduct-ai/kustomize-sops/archive/refs/tags/v4.3.3.tar.gz
+	sha256sums = 9943f47cb1c469316d28f11f845c44e63802e9cd37d28b6a20b1890f4c2133d7
+
+pkgname = kustomize-sops

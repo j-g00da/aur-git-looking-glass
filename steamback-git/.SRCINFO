@@ -1,0 +1,26 @@
+pkgbase = steamback-git
+	pkgdesc = Add versioned save-game snapshots to Steam-cloud enabled games.
+	pkgver = 1.0.0.r34.ga4cb7c0
+	pkgrel = 1
+	url = https://github.com/geeksville/steamback
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = git
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-poetry-core
+	makedepends = python-wheel
+	depends = python-async-tkinter-loop
+	depends = python-pillow
+	depends = python-platformdirs
+	depends = python-psutil
+	depends = python-sv-ttk
+	depends = python-timeago
+	provides = steamback
+	conflicts = steamback
+	source = git+https://github.com/geeksville/steamback.git
+	source = steamback.desktop
+	sha256sums = SKIP
+	sha256sums = 8331fcc39c1d80640cb314db5acd47cad1df35278279b75001e99c844df6bd51
+
+pkgname = steamback-git

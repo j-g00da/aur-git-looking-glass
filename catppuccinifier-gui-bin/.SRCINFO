@@ -1,0 +1,25 @@
+pkgbase = catppuccinifier-gui-bin
+	pkgdesc = An application to catppuccinifiy your images.
+	pkgver = 9.1.0
+	pkgrel = 1
+	url = https://github.com/lighttigerXIV/catppuccinifier
+	arch = x86_64
+	makedepends = git
+	depends = cmake
+	depends = libadwaita
+	depends = webkit2gtk
+	depends = base-devel
+	depends = curl
+	depends = wget
+	depends = openssl
+	depends = appmenu-gtk-module
+	depends = gtk3
+	depends = libappindicator-gtk3
+	depends = librsvg
+	depends = libvips
+	provides = catppuccinifier-gui
+	conflicts = catppuccinifier-gui
+	source = https://github.com/lighttigerXIV/catppuccinifier/releases/download/9.1.0/Catppuccinifier-Linux-9.1.0.tar.xz
+	md5sums = 5dbd9ff23d534f097fd41f8affb4af3e
+
+pkgname = catppuccinifier-gui-bin

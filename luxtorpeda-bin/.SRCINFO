@@ -1,0 +1,17 @@
+pkgbase = luxtorpeda-bin
+	pkgdesc = Steam Play compatibility tool to run games using native Linux engines
+	pkgver = v74.2.0
+	pkgrel = 1
+	url = https://github.com/luxtorpeda-dev/luxtorpeda
+	arch = x86_64
+	license = GPL2
+	optdepends = steam: The Steam client
+	provides = luxtorpeda-bin
+	provides = luxtorpeda
+	conflicts = luxtorpeda-bin
+	conflicts = luxtorpeda
+	conflicts = luxtorpeda-git
+	source = https://github.com/luxtorpeda-dev/luxtorpeda/releases/download/v74.2.0/luxtorpeda-v74.2.0.tar.xz
+	sha512sums = fb2b5339dc9202b1c6fd46ce55d7a753bf3a505007c31a3d7317b654b3e81fdcbef6451a981677333f2d0eb16ebe771130aa4a0e9d4eb6c436205af0e7f96365
+
+pkgname = luxtorpeda-bin

@@ -1,0 +1,26 @@
+pkgbase = hare-git
+	pkgdesc = The Hare systems programming language
+	pkgver = r4316.940f4062
+	pkgrel = 1
+	url = https://harelang.org
+	arch = x86_64
+	arch = aarch64
+	license = MPL2
+	makedepends = scdoc
+	makedepends = git
+	depends = qbe-git
+	depends = harec-git
+	optdepends = aarch64-linux-gnu-gcc: aarch64 cross compilation support
+	optdepends = aarch64-linux-gnu-binutils: aarch64 cross compilation support
+	optdepends = riscv64-linux-gnu-gcc: riscv64 cross compilation support
+	optdepends = riscv64-linux-gnu-binutils: riscv64 cross compilation support
+	provides = hare
+	conflicts = hare
+	source = hare::git+https://git.sr.ht/~sircmpwn/hare
+	source = config.x86_64.mk
+	source = config.aarch64.mk
+	sha256sums = SKIP
+	sha256sums = 9ddf2334ace2073d83babfe0eb33dd440e318b75f6b5e9ced6a54824455a75b2
+	sha256sums = f329421c6335123ed03d5b5e3d717d45aacd6621ddc81c5e3b257012fce2d17b
+
+pkgname = hare-git

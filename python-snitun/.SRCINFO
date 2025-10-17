@@ -1,0 +1,19 @@
+pkgbase = python-snitun
+	pkgdesc = SNI proxy with TCP multiplexer
+	pkgver = 0.39.1
+	pkgrel = 1
+	url = https://github.com/NabuCasa/snitun.git
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python-aiohttp
+	depends = python-async-timeout
+	depends = python-attrs
+	depends = python-cryptography
+	source = snitun-0.39.1.tar.gz::https://files.pythonhosted.org/packages/source/s/snitun/snitun-0.39.1.tar.gz
+	sha256sums = fadbe447eea786291d5c52e67eae0658f53a1f68c4b97425e17a9579df503d7e
+
+pkgname = python-snitun

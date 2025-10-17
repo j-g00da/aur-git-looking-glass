@@ -1,0 +1,23 @@
+pkgbase = qdiceroller-git
+	pkgdesc = A dice roller that uses Qt
+	pkgver = 1.0.0.r0.geea6ca01ab
+	pkgrel = 1
+	url = https://github.com/ganelonhb/QDiceRoller
+	arch = x86_64
+	license = GPL-3.0+
+	makedepends = make
+	makedepends = lld
+	makedepends = git
+	makedepends = qt6-tools
+	depends = libglvnd
+	depends = libpng
+	depends = libxrandr
+	depends = xcb-util-cursor
+	depends = wayland
+	depends = qt6-base
+	depends = qt6-svg
+	optdepends = qt6-wayland: Wayland support
+	source = git+https://github.com/ganelonhb/QDiceRoller.git
+	sha256sums = SKIP
+
+pkgname = qdiceroller-git

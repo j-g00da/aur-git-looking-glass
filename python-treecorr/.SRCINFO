@@ -1,0 +1,22 @@
+pkgbase = python-treecorr
+	pkgdesc = Module for computing 2-point correlation functions
+	pkgver = 5.1.2
+	pkgrel = 1
+	url = https://github.com/rmjarvis/TreeCorr
+	arch = x86_64
+	license = BSD-2-Clause-FreeBSD
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	makedepends = pybind11
+	depends = python-numpy
+	depends = python-yaml
+	depends = python-coord
+	optdepends = python-fitsio: reads FITS catalogs or writes to FITS output files
+	optdepends = python-pandas: speeds up reading from ASCII catalogs
+	optdepends = python-h5py: reads HDF5 catalogs
+	source = python-treecorr-5.1.2.tar.gz::https://github.com/rmjarvis/TreeCorr/archive/v5.1.2.tar.gz
+	sha512sums = f41130a637d3b8319d0f37a1e1c3e7560834db729c67a4d2d2c2b69864b0c014e38d8ed85b8635dfd826a639f4797851fc7301d42d32565eb08be9add508c827
+
+pkgname = python-treecorr

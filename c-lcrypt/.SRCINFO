@@ -1,0 +1,13 @@
+pkgbase = c-lcrypt
+	pkgdesc = C++ encryption program with RAM-based I/O, featuring byte shuffling, binary reversal, bit insertion, byte substitution with randomized table, and XOR key encryption for secure file/folder handling.
+	pkgver = 4.0.0
+	pkgrel = 1
+	url = https://github.com/Locotir/C-LCRYPT
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	depends = gcc
+	source = https://github.com/Locotir/C-LCRYPT/archive/refs/tags/v4.0.0.tar.gz
+	sha256sums = SKIP
+
+pkgname = c-lcrypt

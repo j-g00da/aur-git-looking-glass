@@ -1,0 +1,46 @@
+pkgbase = qgnomeplatform-git
+	pkgdesc = QPlatformTheme for a better Qt application inclusion in GNOME
+	pkgver = 0.7.0.r99.gd86d6ba
+	pkgrel = 1
+	url = https://github.com/FedoraQt/QGnomePlatform
+	arch = x86_64
+	license = LGPL2.1
+	makedepends = cmake
+	makedepends = git
+	makedepends = gtk3
+	makedepends = qt5-wayland
+	makedepends = qt6-wayland
+	makedepends = qt5-quickcontrols2
+	makedepends = adwaita-qt5
+	makedepends = adwaita-qt6
+	options = !emptydirs
+	source = git+https://github.com/FedoraQt/QGnomePlatform.git
+	sha256sums = SKIP
+
+pkgname = qgnomeplatform-qt5-git
+	pkgdesc = QPlatformTheme for a better Qt5 application inclusion in GNOME
+	depends = gtk3
+	depends = qt5-wayland
+	depends = qt5-quickcontrols2
+	depends = adwaita-qt5
+	depends = qgnomeplatform-common-git
+	provides = qgnomeplatform-qt5
+	conflicts = qgnomeplatform-qt5
+	replaces = qgnomeplatform
+	replaces = qgnomeplatform-git
+
+pkgname = qgnomeplatform-qt6-git
+	pkgdesc = QPlatformTheme for a better Qt6 application inclusion in GNOME
+	depends = gtk3
+	depends = qt6-wayland
+	depends = adwaita-qt6
+	depends = qgnomeplatform-common-git
+	provides = qgnomeplatform-qt6
+	conflicts = qgnomeplatform-qt6
+
+pkgname = qgnomeplatform-common-git
+	pkgdesc = QPlatformTheme for a better Qt application inclusion in GNOME (common files)
+	arch = any
+	depends = 
+	provides = qgnomeplatform-common
+	conflicts = qgnomeplatform-common

@@ -1,0 +1,18 @@
+pkgbase = i3wsr
+	pkgdesc = A small program to change the name of an i3/sway workspace based on its contents.
+	pkgver = 3.1.2
+	pkgrel = 1
+	url = https://github.com/roosta/i3wsr
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	makedepends = python
+	depends = glibc
+	depends = gcc-libs
+	optdepends = i3-wm
+	optdepends = sway
+	source = i3wsr-3.1.2.tar.gz::https://github.com/roosta/i3wsr/archive/v3.1.2.tar.gz
+	b2sums = 4b6b6bbe95d6c41877e19d82a5524543fb3c39b364b0627f8034cc37558adb9e96ed202f6b79dd37d16e576197d21798c2b35eac3d621eae46e98aebd9ff70c7
+
+pkgname = i3wsr

@@ -1,0 +1,24 @@
+pkgbase = zulu-24-bin
+	pkgdesc = Azul Zulu builds of OpenJDK are open source, TCK-tested and certified builds of OpenJDK.
+	pkgver = 24.0.2
+	pkgrel = 12
+	url = https://www.azul.com/downloads/
+	install = zulu-24-bin.install
+	arch = aarch64
+	arch = x86_64
+	license = custom
+	depends = java-environment-common>=3
+	depends = java-runtime-common>=3
+	depends = ca-certificates-utils
+	provides = java-environment=24
+	provides = java-environment-openjdk=24
+	provides = java-runtime-headless=24
+	provides = java-runtime-headless-openjdk=24
+	provides = java-runtime=24
+	provides = java-runtime-openjdk=24
+	source_aarch64 = https://cdn.azul.com/zulu/bin/zulu24.32.13-ca-jdk24.0.2-linux_aarch64.tar.gz
+	sha256sums_aarch64 = 855d7d836d902969e03af3468787426933b32e47ba56376c3c21908959728a3d
+	source_x86_64 = https://cdn.azul.com/zulu/bin/zulu24.32.13-ca-jdk24.0.2-linux_x64.tar.gz
+	sha256sums_x86_64 = b1e665e686661c994016c391ea6140bd7f42118f966ad2887986e2ed6f113bf5
+
+pkgname = zulu-24-bin

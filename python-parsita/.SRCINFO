@@ -1,0 +1,20 @@
+pkgbase = python-parsita
+	pkgdesc = Parser combinator library for Python.
+	pkgver = 2.2.2
+	pkgrel = 1
+	url = https://pypi.org/project/parsita
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	checkdepends = python-pytest-timeout
+	makedepends = python-poetry-core
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python
+	depends = python-returns
+	source = python-parsita-2.2.2.tar.gz::https://github.com/drhagen/parsita/archive/refs/tags/v2.2.2.tar.gz
+	sha256sums = 881edc69bf1806fa87b33358ba13c04cf370504b041881c835255f7dd2dcce72
+	b2sums = 56efc83fdc5d05ea81aac86803fe378328694ef36e1987b6342e56e0a1503f45722840b89ffce6aae3fbbabd12c3bc9947fec06bd5cf79648cb8b77821fb7358
+
+pkgname = python-parsita

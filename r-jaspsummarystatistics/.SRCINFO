@@ -1,0 +1,25 @@
+pkgbase = r-jaspsummarystatistics
+	pkgdesc = Summary Statistics Module for JASP
+	pkgver = 0.95.3
+	pkgrel = 1
+	url = https://github.com/jasp-stats/jaspSummaryStatistics
+	arch = any
+	groups = r-jasp
+	groups = r-jaspextra
+	license = GPL
+	depends = r
+	depends = r-bayesfactor
+	depends = r-bstats
+	depends = r-jaspbase
+	depends = r-jaspfrequencies
+	depends = r-jaspgraphs
+	depends = r-jaspregression
+	depends = r-jaspttests
+	depends = r-jaspanova
+	depends = r-jaspdescriptives
+	depends = r-suppdists
+	depends = r-bayesplay
+	source = jaspSummaryStatistics_0.95.3.tar.gz::https://github.com/jasp-stats/jaspSummaryStatistics/archive/refs/tags/v0.95.3.tar.gz
+	sha256sums = a24269d3c95b07028bb3e8b16170d21eeabef903fefa01f7b7a2be7eefe43c8e
+
+pkgname = r-jaspsummarystatistics

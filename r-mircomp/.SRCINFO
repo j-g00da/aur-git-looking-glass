@@ -1,0 +1,20 @@
+pkgbase = r-mircomp
+	pkgdesc = Tools to assess and compare miRNA expression estimatation methods
+	pkgver = 1.38.1
+	pkgrel = 1
+	url = https://bioconductor.org/packages/miRcomp
+	arch = any
+	license = GPL-2.0-only OR GPL-3.0-only
+	depends = r-biobase
+	depends = r-mircompdata
+	optdepends = r-biocgenerics
+	optdepends = r-biocstyle
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-runit
+	optdepends = r-shiny
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/miRcomp_1.38.1.tar.gz
+	md5sums = a66a28071944f7c9723a16c5e896e96c
+	b2sums = 94148efeda3c171c860d39f9ad972db4097940429449229ca32d88a7dbbce1759ee6827e8191e288b7aca305de75c479b00a8e6a30c71911b106c145fac020b3
+
+pkgname = r-mircomp

@@ -1,0 +1,16 @@
+pkgbase = python-pushover-complete
+	pkgdesc = A Python package for interacting with *all* aspects of the Pushover API.
+	pkgver = 2.0.0
+	pkgrel = 1
+	url = https://pypi.org/project/pushover-complete/
+	arch = x86_64
+	license = None
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	makedepends = python-hatchling
+	source = https://files.pythonhosted.org/packages/db/ae/2ed5c277e22316d8a31e2f67c6c9fd5021189ed3754e144aad53d874d687/pushover_complete-2.0.0.tar.gz
+	sha256sums = 24fc7d84d73426840e7678fee80d36f40df0114cb30352ba4f99ab3842ed21a7
+
+pkgname = python-pushover-complete

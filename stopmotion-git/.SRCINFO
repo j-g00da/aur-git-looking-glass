@@ -1,0 +1,24 @@
+pkgbase = stopmotion-git
+	pkgdesc = Stop motion animation creation program
+	pkgver = 0.9.0.r20.gc400b1d
+	pkgrel = 2
+	url = https://invent.kde.org/multimedia/stopmotion
+	arch = x86_64
+	license = GPL-2.0-or-later
+	makedepends = git
+	makedepends = cmake
+	makedepends = qt6-tools
+	makedepends = vulkan-headers
+	depends = qt6-base
+	depends = qt6-multimedia
+	depends = libarchive
+	depends = libxml2
+	depends = glibc
+	depends = gcc-libs
+	depends = libvorbis
+	provides = stopmotion
+	conflicts = stopmotion
+	source = git+https://invent.kde.org/multimedia/stopmotion.git
+	sha256sums = SKIP
+
+pkgname = stopmotion-git

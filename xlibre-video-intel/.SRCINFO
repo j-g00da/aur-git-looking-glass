@@ -1,0 +1,55 @@
+pkgbase = xlibre-video-intel
+	pkgdesc = XLibre Intel i810/i830/i915/945G/G965+ video driver
+	pkgver = 3.0.0.4
+	pkgrel = 1
+	url = https://github.com/X11Libre/xf86-video-intel
+	arch = aarch64
+	arch = x86_64
+	groups = xlibre-drivers
+	license = MIT
+	makedepends = xlibre-server-devel
+	makedepends = libxv
+	makedepends = X-ABI-VIDEODRV_VERSION=28.0
+	makedepends = libxrandr
+	makedepends = libxinerama
+	makedepends = libxcursor
+	makedepends = libxtst
+	makedepends = libxss
+	depends = glibc
+	depends = libpciaccess
+	depends = libx11
+	depends = libxcb
+	depends = libxdamage
+	depends = libdrm
+	depends = libxext
+	depends = libxfixes
+	depends = libxrender
+	depends = libxshmfence
+	depends = libxvmc
+	depends = mesa
+	depends = pixman
+	depends = systemd-libs
+	depends = xcb-util>=0.3.9
+	optdepends = libxrandr: for intel-virtual-output
+	optdepends = libxinerama: for intel-virtual-output
+	optdepends = libxcursor: for intel-virtual-output
+	optdepends = libxtst: for intel-virtual-output
+	optdepends = libxss: for intel-virtual-output
+	provides = xf86-video-intel
+	provides = xf86-video-intel-uxa
+	provides = xf86-video-intel-sna
+	conflicts = xf86-video-intel
+	conflicts = xf86-video-intel-uxa
+	conflicts = xf86-video-intel-sna
+	conflicts = xf86-video-i810
+	conflicts = xf86-video-intel-legacy
+	conflicts = xorg-server<21.1.1
+	conflicts = X-ABI-VIDEODRV_VERSION<28
+	conflicts = X-ABI-VIDEODRV_VERSION>=29
+	replaces = xf86-video-intel-uxa
+	replaces = xf86-video-intel-sna
+	options = !lto
+	source = xf86-video-intel-xlibre-xf86-video-intel-3.0.0.4.tar.gz::https://github.com/X11Libre/xf86-video-intel/archive/refs/tags/xlibre-xf86-video-intel-3.0.0.4.tar.gz
+	b2sums = 0b696b27818d496bb8f73e5c2e46813552b493286e85be2b31239a69298a77bce6a0992eb0c5ce8b2d1136efd99202aec87a8ab077b0047092dce657b37a5512
+
+pkgname = xlibre-video-intel

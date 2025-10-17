@@ -1,0 +1,22 @@
+pkgbase = kmime5
+	pkgdesc = Library for handling mail messages and newsgroup articles
+	pkgver = 23.08.5
+	pkgrel = 2
+	url = https://kontact.kde.org
+	arch = x86_64
+	license = LGPL
+	makedepends = extra-cmake-modules
+	makedepends = doxygen
+	makedepends = qt5-tools
+	depends = ki18n5
+	depends = kcodecs5
+	conflicts = kmime<24
+	source = https://download.kde.org/stable/release-service/23.08.5/src/kmime-23.08.5.tar.xz
+	source = https://download.kde.org/stable/release-service/23.08.5/src/kmime-23.08.5.tar.xz.sig
+	validpgpkeys = CA262C6C83DE4D2FB28A332A3A6A4DB839EAA6D7
+	validpgpkeys = F23275E4BF10AFC1DF6914A6DBD2CE893E2D1C87
+	validpgpkeys = D81C0CB38EB725EF6691C385BB463350D6EF31EF
+	sha256sums = b6894e733abf3a8fb4fc7de37b7cbf15cbebdc737b80f7fe632bdf61e5da3fda
+	sha256sums = SKIP
+
+pkgname = kmime5

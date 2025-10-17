@@ -1,0 +1,20 @@
+pkgbase = can-utils-git
+	pkgdesc = Linux-CAN / SocketCAN user space applications
+	pkgver = 2025.01.r5.gc542c9a
+	pkgrel = 1
+	url = https://github.com/linux-can/can-utils
+	arch = x86_64
+	license = GPL-2.0-only
+	license = BSD-3-Clause
+	makedepends = git
+	makedepends = cmake
+	makedepends = ninja
+	depends = glibc
+	depends = bash
+	optdepends = can-doc: Linux-CAN / SocketCAN documentation
+	provides = can-utils
+	conflicts = can-utils
+	source = can-utils-git::git+https://github.com/linux-can/can-utils.git
+	sha256sums = SKIP
+
+pkgname = can-utils-git

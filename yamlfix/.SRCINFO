@@ -1,0 +1,19 @@
+pkgbase = yamlfix
+	pkgdesc = A simple, opinionated yaml formatter that keeps your comments!
+	pkgver = 1.18.0
+	pkgrel = 1
+	url = https://github.com/lyz-code/yamlfix
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-pdm-backend
+	makedepends = python-wheel
+	depends = python
+	depends = python-click
+	depends = python-maison
+	depends = python-ruyaml
+	source = yamlfix-v1.18.0.tar.gz::https://github.com/lyz-code/yamlfix/archive/refs/tags/1.18.0.tar.gz
+	sha512sums = f3d92ae791850bcc4ba846f01b0536893482c63947d7b1234eb1e69d8121fe8e4f1b484491de8f2a0d031f9e66af3bd970c98d5900bb45ff1a4de7abb9a2d245
+
+pkgname = yamlfix

@@ -1,0 +1,26 @@
+pkgbase = project-graph-nightly-bin
+	pkgdesc = A simple tool to create topology diagrams.
+	pkgver = r485
+	pkgrel = 1
+	url = https://github.com/LiRenTech/project-graph
+	install = project-graph-nightly-bin.install
+	arch = x86_64
+	license = mit
+	depends = cairo
+	depends = desktop-file-utils
+	depends = gdk-pixbuf2
+	depends = glib2
+	depends = gtk3
+	depends = hicolor-icon-theme
+	depends = libsoup
+	depends = pango
+	depends = webkit2gtk
+	provides = project-graph
+	conflicts = project-graph-bin
+	conflicts = project-graph-git
+	options = !strip
+	options = !emptydirs
+	source_x86_64 = https://github.com/LiRenTech/project-graph/releases/download/nightly/Project.Graph_0.0.0-nightly.485_amd64.deb
+	sha256sums_x86_64 = e8b19d8f030ab3975cff1990bc0c2c50894a669e3ff02b28563182478bdc10b2
+
+pkgname = project-graph-nightly-bin

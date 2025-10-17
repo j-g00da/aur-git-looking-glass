@@ -1,0 +1,20 @@
+pkgbase = couchbase-server-community
+	pkgdesc = A document database featuring a powerful query language and unrivaled performance at scale.
+	pkgver = 6.5.1
+	pkgrel = 1
+	url = http://www.couchbase.com/
+	install = couchbase-server.install
+	arch = x86_64
+	depends = glibc
+	depends = gcc-libs
+	depends = sqlite
+	depends = openssl
+	depends = zlib
+	depends = python2
+	conflicts = couchbase3-server-community
+	conflicts = couchbase4-server-community
+	conflicts = couchbase5-server-community
+	source = couchbase-server-community-v6.5.1.deb::http://packages.couchbase.com/releases/6.5.1/couchbase-server-community_6.5.1-ubuntu16.04_amd64.deb
+	sha256sums = baf65fb9cbcec87783d4e9c3ec067143a42cdeef13a884e1f917e8d2f14044b7
+
+pkgname = couchbase-server-community

@@ -1,0 +1,22 @@
+pkgbase = scaphandre
+	pkgdesc = Energy consumption metrology agent
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/hubblo-org/scaphandre/
+	arch = x86_64
+	license = Apache
+	makedepends = rust
+	depends = gcc-libs
+	depends = zlib
+	depends = openssl
+	options = !lto
+	source = scaphandre-1.0.0.tar.gz::https://github.com/hubblo-org/scaphandre/archive/v1.0.0.tar.gz
+	source = systemd-service
+	source = conf
+	source = version-fix.diff
+	sha512sums = 9da49f07dae12e874a9aa7d8b411ab11a7c1bce61eefcd49a9a860d37412584b1452f9cf579b05c5e4a56d39b704bfae5ba5e45d0fc991bafced56c0aaef6032
+	sha512sums = SKIP
+	sha512sums = SKIP
+	sha512sums = SKIP
+
+pkgname = scaphandre

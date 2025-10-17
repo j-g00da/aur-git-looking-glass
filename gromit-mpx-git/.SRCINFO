@@ -1,0 +1,26 @@
+pkgbase = gromit-mpx-git
+	pkgdesc = On-screen annotation tool (git version)
+	pkgver = 1.7.0.r7.ga982685
+	pkgrel = 1
+	url = https://github.com/bk138/gromit-mpx/
+	arch = x86_64
+	license = GPL-2.0-or-later
+	makedepends = cmake
+	makedepends = git
+	depends = cairo
+	depends = gdk-pixbuf2
+	depends = glib2
+	depends = glibc
+	depends = gtk3
+	depends = hicolor-icon-theme
+	depends = libappindicator-gtk3
+	depends = libx11
+	depends = libxi
+	depends = lz4
+	provides = gromit-mpx
+	conflicts = gromit-mpx
+	backup = etc/gromit-mpx/gromit-mpx.cfg
+	source = git+https://github.com/bk138/gromit-mpx.git
+	sha256sums = SKIP
+
+pkgname = gromit-mpx-git

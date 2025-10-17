@@ -1,0 +1,20 @@
+pkgbase = stacher7
+	pkgdesc = Stacher - modern video downloader (proprietary Electron app)
+	pkgver = 7.1.2
+	pkgrel = 1
+	url = https://stacher.io
+	arch = x86_64
+	license = LicenseRef-freeware
+	makedepends = tar
+	makedepends = zstd
+	depends = glibc
+	depends = gtk3
+	depends = nss
+	depends = alsa-lib
+	provides = stacher7
+	conflicts = stacher7
+	options = !strip
+	source = stacher7_7.1.2_amd64.deb::https://s7-releases.stacher-cloud.com/s7-releases/stacher7_7.1.2_amd64.deb
+	sha256sums = 265d24cd6e72112088bc41573b2d6a28fc3b697e41b5109f21384358e3e4febd
+
+pkgname = stacher7

@@ -1,0 +1,22 @@
+pkgbase = threadweaver-git
+	pkgdesc = High-level multithreading framework
+	pkgver = 6.0.0_r608.ge7ba11b
+	pkgrel = 1
+	url = https://community.kde.org/Frameworks
+	arch = x86_64
+	license = LGPL-2.0-only
+	license = LGPL-3.0-only
+	makedepends = git
+	makedepends = doxygen
+	makedepends = extra-cmake-modules-git
+	makedepends = qt6-doc
+	makedepends = qt6-tools
+	depends = gcc-libs
+	depends = glibc
+	depends = qt6-base
+	provides = threadweaver
+	conflicts = threadweaver
+	source = git+https://github.com/KDE/threadweaver.git
+	sha256sums = SKIP
+
+pkgname = threadweaver-git

@@ -1,0 +1,21 @@
+pkgbase = python-xformers
+	pkgdesc = Transformers building blocks, supporting a composable construction
+	pkgver = 0.0.32.post2
+	pkgrel = 1
+	url = https://pypi.org/project/xformers
+	arch = any
+	license = BSD
+	makedepends = python-wheel
+	makedepends = python-fsspec
+	makedepends = python-hatchling
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = ninja
+	depends = python
+	depends = python-pytorch
+	depends = python-numpy
+	source = python-xformers-0.0.32.post2.tar.gz::https://pypi.io/packages/source/x/xformers/xformers-0.0.32.post2.tar.gz
+	sha256sums = 9538be803969c6e1ca16a3ece921e472c24f79970b10be1087a389dcb66e412a
+
+pkgname = python-xformers

@@ -1,0 +1,12 @@
+pkgbase = montage
+	pkgdesc = An astronomical image mosaic engine
+	pkgver = 6.1
+	pkgrel = 1
+	url = http://montage.ipac.caltech.edu/
+	arch = i686
+	arch = x86_64
+	license = custom
+	source = https://github.com/Caltech-IPAC/Montage/archive/a8bde0b.tar.gz
+	sha1sums = fa880dae390e1976ccb018fda4a2fb725aa89460
+
+pkgname = montage

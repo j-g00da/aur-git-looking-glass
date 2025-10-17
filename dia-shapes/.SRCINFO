@@ -1,0 +1,15 @@
+pkgbase = dia-shapes
+	pkgdesc = Additional Shapes for Dia (diagram creation program)
+	pkgver = 0.6.0
+	pkgrel = 3
+	url = http://dia-installer.de/diashapes/index.html
+	arch = i686
+	arch = x86_64
+	groups = base-devel
+	license = GPL2
+	depends = dia
+	source = http://ftp.us.debian.org/debian/pool/main/d/dia-shapes/dia-shapes_0.6.0-3_all.deb
+	md5sums = 9a5ce955cbed2beb5f33288e632a3214
+
+pkgname = dia-shapes
+

@@ -1,0 +1,21 @@
+pkgbase = micromamba-bin
+	pkgdesc = Tiny version of mamba, the fast conda package installer
+	pkgver = 2.3.2.0
+	pkgrel = 1
+	url = https://github.com/mamba-org/mamba
+	arch = x86_64
+	arch = aarch64
+	arch = powerpc64le
+	license = BSD-3-clause
+	depends = glibc
+	provides = micromamba
+	conflicts = micromamba
+	options = strip
+	source_x86_64 = micromamba-2.3.2.0-x86_64.tar.bz2::https://api.anaconda.org/download/conda-forge/micromamba/2.3.2/linux-64/micromamba-2.3.2-0.tar.bz2
+	sha512sums_x86_64 = ec32056ef1a7d99005f349af23bd025041c327a1266652610567d973d32730fc1cadc8ff8849ec2e5f22aca2461c0d7b5edaec51887595be82ddf8a7cc0619dd
+	source_aarch64 = micromamba-2.3.2.0-aarch64.tar.bz2::https://api.anaconda.org/download/conda-forge/micromamba/2.3.2/linux-aarch64/micromamba-2.3.2-0.tar.bz2
+	sha512sums_aarch64 = 983425e01d07fdb2abbe5ccd09a5ffb80b00c5fa73ecd73731da1428b2041bf2f262e7c0a493b042d2dc8b195fe583854adfb8393dd520de2719e712ce2201db
+	source_powerpc64le = micromamba-2.3.2.0-powerpc64le.tar.bz2::https://api.anaconda.org/download/conda-forge/micromamba/2.3.2/linux-ppc64le/micromamba-2.3.2-0.tar.bz2
+	sha512sums_powerpc64le = 8e7e61da049290fbf878d7e046c9a6bd7a14fa2b613286a065bf3969843c54ec9f16846289530fc552fba4e8fa95d64d5dd88dcd8317ca0f337dcea16a182eec
+
+pkgname = micromamba-bin

@@ -1,0 +1,17 @@
+pkgbase = clipse-git
+	pkgdesc = Configurable TUI clipboard manager for Unix
+	pkgver = r255.785eb91
+	pkgrel = 1
+	url = https://github.com/savedra1/clipse
+	arch = any
+	license = MIT
+	makedepends = go
+	makedepends = git
+	optdepends = xclip
+	optdepends = wl-clipboard
+	provides = clipse
+	conflicts = clipse
+	source = git+https://github.com/savedra1/clipse.git
+	sha256sums = SKIP
+
+pkgname = clipse-git

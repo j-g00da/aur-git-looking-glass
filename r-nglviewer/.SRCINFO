@@ -1,0 +1,19 @@
+pkgbase = r-nglviewer
+	pkgdesc = Interactive 3D Visualization of Molecular Structures
+	pkgver = 1.4.0
+	pkgrel = 1
+	url = https://cran.r-project.org/package=NGLVieweR
+	arch = any
+	license = MIT
+	depends = r
+	depends = r-htmlwidgets
+	depends = r-magrittr
+	depends = r-shiny
+	optdepends = r-knitr
+	optdepends = r-markdown
+	optdepends = r-rmarkdown
+	optdepends = r-webshot
+	source = https://cran.r-project.org/src/contrib/NGLVieweR_1.4.0.tar.gz
+	sha256sums = 1ea34e4d6a5ae9ef5ef5eb0471c0a624c9425194408214bee237750db16e4c0c
+
+pkgname = r-nglviewer

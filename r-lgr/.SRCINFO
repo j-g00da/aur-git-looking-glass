@@ -1,0 +1,30 @@
+pkgbase = r-lgr
+	pkgdesc = A Fully Featured Logging Framework
+	pkgver = 0.5.0
+	pkgrel = 1
+	url = https://cran.r-project.org/package=lgr
+	arch = any
+	license = MIT
+	depends = r-r6
+	optdepends = r-cli
+	optdepends = r-covr
+	optdepends = r-crayon
+	optdepends = r-data.table
+	optdepends = r-desc
+	optdepends = r-future
+	optdepends = r-future.apply
+	optdepends = r-glue
+	optdepends = r-jsonlite
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-rotor
+	optdepends = r-rprojroot
+	optdepends = r-testthat
+	optdepends = r-tibble
+	optdepends = r-whoami
+	optdepends = r-yaml
+	source = https://cran.r-project.org/src/contrib/lgr_0.5.0.tar.gz
+	md5sums = fbe51331d79e570af84cb2ebeba9e1c0
+	b2sums = 52b94565543f5e1ff88214cb98024ba53bc236c30bddeb39d5056bdbf07210e7d7d43406d374161667a23c9a954dacdfe670e742281cb422bdf85649b7b8e22c
+
+pkgname = r-lgr

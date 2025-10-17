@@ -1,0 +1,19 @@
+pkgbase = mew-git
+	pkgdesc = Wayland port of dmenu
+	pkgver = 0.0.r24.e96bf18
+	pkgrel = 2
+	url = https://codeberg.org/sewn/mew
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = pkg-config
+	makedepends = wayland-protocols
+	makedepends = tllist
+	depends = wayland
+	depends = libxkbcommon
+	depends = fcft
+	source = git+https://codeberg.org/sewn/mew.git
+	sha256sums = SKIP
+
+pkgname = mew-git

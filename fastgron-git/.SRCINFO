@@ -1,0 +1,20 @@
+pkgbase = fastgron-git
+	pkgdesc = High-performance JSON to GRON (greppable, flattened JSON) converter (development version)
+	pkgver = 0.7.7.r6.g5d5998f
+	pkgrel = 4
+	url = https://github.com/adamritter/fastgron
+	arch = aarch64
+	arch = x86_64
+	license = MIT
+	makedepends = cmake
+	makedepends = git
+	depends = gcc-libs
+	depends = glibc
+	depends = libcurl.so
+	provides = fastgron
+	conflicts = fastgron
+	noextract = fastgron
+	source = git+https://github.com/adamritter/fastgron.git
+	sha256sums = SKIP
+
+pkgname = fastgron-git

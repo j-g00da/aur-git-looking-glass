@@ -1,0 +1,16 @@
+pkgbase = python-fireflyalgorithm
+	pkgdesc = Implementation of Firefly Algorithm in Python
+	pkgver = 0.4.6
+	pkgrel = 1
+	url = https://github.com/firefly-cpp/FireflyAlgorithm
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-poetry-core
+	depends = python-numpy
+	source = FireflyAlgorithm-0.4.6.tar.gz::https://github.com/firefly-cpp/FireflyAlgorithm/archive/0.4.6.tar.gz
+	sha512sums = 2fdd6f33327dd07c232403254bdbe6015ee40d7d89cc8245af8e55a018725a569b1b05ea158be58486da2ab2b6c59e0848da39e075846a756d0dd63fdedd0c41
+
+pkgname = python-fireflyalgorithm

@@ -1,0 +1,21 @@
+pkgbase = r-htsfilter
+	pkgdesc = Filter replicated high-throughput transcriptome sequencing data
+	pkgver = 1.48.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/HTSFilter
+	arch = any
+	license = Artistic2.0
+	depends = r
+	depends = r-biobase
+	depends = r-biocparallel
+	depends = r-deseq2
+	depends = r-edger
+	optdepends = r-biocstyle
+	optdepends = r-edaseq
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/HTSFilter_1.48.0.tar.gz
+	sha256sums = a9c2d113cdac16c311473e9cb0eb0dc8dc3c38b19a322d66a58a880a17cc699a
+
+pkgname = r-htsfilter

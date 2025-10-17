@@ -1,0 +1,15 @@
+pkgbase = lighthouse
+	pkgdesc = Automated auditing, performance metrics, and best practices for the web
+	pkgver = 12.8.2
+	pkgrel = 1
+	url = https://github.com/GoogleChrome/lighthouse
+	arch = any
+	license = Apache-2.0
+	makedepends = npm
+	makedepends = jq
+	depends = nodejs
+	noextract = lighthouse-12.8.2.tgz
+	source = https://registry.npmjs.org/lighthouse/-/lighthouse-12.8.2.tgz
+	sha256sums = d0ccc7ae0ddcd67d165e88ff7dad71c29bc90c32afe8dd85ec7498f0a2c69d72
+
+pkgname = lighthouse

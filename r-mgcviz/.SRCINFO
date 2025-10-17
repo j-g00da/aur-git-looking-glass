@@ -1,0 +1,29 @@
+pkgbase = r-mgcviz
+	pkgdesc = Visualisations for Generalized Additive Models
+	pkgver = 0.2.1
+	pkgrel = 1
+	url = https://cran.r-project.org/package=mgcViz
+	arch = any
+	license = GPL-3.0-only
+	checkdepends = r-hexbin
+	checkdepends = r-testthat
+	depends = r-gamm4
+	depends = r-ggally
+	depends = r-ggplot2
+	depends = r-gridextra
+	depends = r-matrixstats
+	depends = r-plyr
+	depends = r-qgam
+	depends = r-viridis
+	optdepends = r-knitr
+	optdepends = r-rgl
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	optdepends = r-webshot2
+	optdepends = r-shiny
+	optdepends = r-miniui
+	source = https://cran.r-project.org/src/contrib/mgcViz_0.2.1.tar.gz
+	md5sums = 5f3a5fa196c9b19df7cfddcb0b368564
+	b2sums = 660c70633fd063fbcbefbedb69227e1dcc28a56e7da2d151839ef632a2f009b20b7d36864b4d735c23be0e6a983e7c18923275b0e09c6a642d9ce7cfd97b90e9
+
+pkgname = r-mgcviz

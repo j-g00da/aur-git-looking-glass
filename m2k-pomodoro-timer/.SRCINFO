@@ -1,0 +1,27 @@
+pkgbase = m2k-pomodoro-timer
+	pkgdesc = A lightweight Pomodoro timer with zero dependencies - runs with pure Python
+	pkgver = 1.0.1
+	pkgrel = 1
+	url = https://github.com/ming2k/pomodoro-timer
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python
+	optdepends = python-gobject: GTK4 modern interface support
+	optdepends = python-cairo: GTK4 modern interface support
+	optdepends = gtk4: GTK4 modern interface support
+	optdepends = libadwaita: GTK4 modern interface support
+	optdepends = python-sounddevice: Enhanced audio with PipeWire support
+	optdepends = python-numpy: Enhanced audio generation
+	optdepends = pipewire: Modern audio backend
+	optdepends = alsa-utils: Audio playback (aplay)
+	optdepends = ffmpeg: Audio playback fallback
+	optdepends = mplayer: Audio playback fallback
+	optdepends = libnotify: Native desktop notifications (notify-send)
+	source = m2k-pomodoro-timer-1.0.1.tar.gz::https://github.com/ming2k/pomodoro-timer/archive/v1.0.1.tar.gz
+	sha256sums = SKIP
+
+pkgname = m2k-pomodoro-timer

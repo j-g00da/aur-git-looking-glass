@@ -1,0 +1,14 @@
+pkgbase = gobw
+	pkgdesc = Bitwarden TUI written in Go
+	pkgver = 1.0
+	pkgrel = 2
+	url = https://github.com/007Psycho007/gobw
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = go
+	depends = bitwarden-cli
+	conflicts = gobw
+	source = gobw-1.0.tar.gz::https://github.com/007Psycho007/gobw/archive/refs/tags/1.0.tar.gz
+	sha256sums = 085fd99aaa58b929b66b7d07d50b12cacc4125437954446cd365cdf3de8ce0b0
+
+pkgname = gobw

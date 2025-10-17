@@ -1,0 +1,17 @@
+pkgbase = python-magicattr
+	pkgdesc = A getattr and setattr that works on nested objects, lists and dicts
+	pkgver = 0.1.6
+	pkgrel = 1
+	url = https://github.com/frmdstryr/magicattr
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	source = magicattr-0.1.6.tar.gz::https://github.com/frmdstryr/magicattr/archive/refs/tags/v0.1.6.tar.gz
+	b2sums = 4ca48fb150b3a49e4649bd0508967582a0b308fc3aa2f4a73961a7c2ab66585d71886fc86d2c291f7ef12477cbc3afaf19c0e34484a41dfa0e81ef395bfe6379
+
+pkgname = python-magicattr

@@ -1,0 +1,28 @@
+pkgbase = classisland-git
+	pkgdesc = 适用于班级大屏的课表小工具（最新开发构建）。Class schedule displaying tool for interactive whiteboards in classrooms. (Built from latest Git commit)
+	pkgver = 1.7.105.1.r0.g6ad17ef
+	pkgrel = 1
+	url = https://github.com/ClassIsland/ClassIsland
+	install = classisland-git.install
+	arch = x86_64
+	arch = aarch64
+	license = GPL-3.0-only
+	makedepends = dotnet-sdk-8.0
+	makedepends = git
+	depends = bash
+	depends = dotnet-runtime-8.0
+	depends = fontconfig
+	depends = gcc-libs
+	depends = glibc
+	depends = hicolor-icon-theme
+	provides = classisland=1.7.104.0
+	conflicts = classisland
+	options = !debug
+	source = git+https://github.com/ClassIsland/ClassIsland.git#branch=dev
+	source = git+https://github.com/ClassIsland/EdgeTtsSharp.git#branch=classisland-v2
+	source = classisland.sh
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = 5342aed758213e2068c1a41c696b317b935fe491158fc750f454156686a35388
+
+pkgname = classisland-git

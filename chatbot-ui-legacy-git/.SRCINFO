@@ -1,0 +1,22 @@
+pkgbase = chatbot-ui-legacy-git
+	pkgdesc = An open source ChatGPT UI. (legacy version)
+	pkgver = r238.6bdbf1c
+	pkgrel = 1
+	url = https://github.com/mckaywrigley/chatbot-ui
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = npm
+	depends = nodejs
+	options = !emptydirs
+	backup = etc/webapps/chatbot-ui-legacy-git/.env.local
+	source = git+https://github.com/mckaywrigley/chatbot-ui.git#branch=legacy
+	source = sysusers.conf
+	source = chatbot-ui-legacy.service
+	source = 0001-support-GPT-4-Turbo.patch
+	sha256sums = SKIP
+	sha256sums = 58ecd3fccc798f90d906d9a9928ee1268e916f277dfd35e644ca0ce83fde5c30
+	sha256sums = bad9ec7fd322307418ee821b070c45c3f7151cc4ca5ca7a50f29c7892f2e1ed4
+	sha256sums = 6cb74c1c48ee5bbd63f1bec185d83572237e9a3375e33a073cc76c50c443e290
+
+pkgname = chatbot-ui-legacy-git

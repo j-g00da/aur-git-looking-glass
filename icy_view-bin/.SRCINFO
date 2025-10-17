@@ -1,0 +1,13 @@
+pkgbase = icy_view-bin
+	pkgdesc = Icyview is a full features ansi viewing tool doing things a bit different than other tools.
+	pkgver = 0.8.2
+	pkgrel = 2
+	url = https://github.com/mkrueger/icy_tools
+	arch = x86_64
+	license = Apache-2.0
+	provides = icy_view
+	source = https://github.com/mkrueger/icy_tools/releases/download/IcyView0.8.2/icy_view_linux_0.8.2.zip
+	sha256sums = 44a2ea4c908092e1e6b7c42587c6b0ab3c0352b5fcfb8284535dc76157777c9c
+	sha512sums = bad797215564ac88abbbe60677da93c3999735b6b00c70a0b0f6a4d0f85a27f56c31f7d927cfd6515bd0fa62701ce2d418722923385e22a37b86b44c5b948c79
+
+pkgname = icy_view-bin

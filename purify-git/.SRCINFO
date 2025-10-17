@@ -1,0 +1,26 @@
+pkgbase = purify-git
+	pkgdesc = A clean & vibrant colorscheme for Vim & other programs
+	pkgver = r152.f30fb79
+	pkgrel = 1
+	url = https://github.com/kyoz/purify
+	arch = any
+	groups = vim-plugins
+	groups = fish-plugins
+	license = MIT
+	makedepends = git
+	source = purify-git::git+https://github.com/kyoz/purify
+	sha256sums = SKIP
+
+pkgname = vim-purify-git
+	depends = vim-plugin-runtime
+	provides = vim-purify
+	provides = vim-airline-purify
+	provides = vim-lightline-purify
+	conflicts = vim-purify
+	conflicts = vim-airline-purify
+	conflicts = vim-lightline-purify
+
+pkgname = fish-purify-git
+	depends = fish
+	provides = fish-purify
+	conflicts = fish-purify

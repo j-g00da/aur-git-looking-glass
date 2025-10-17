@@ -1,0 +1,21 @@
+pkgbase = jupyterhub-nativeauthenticator
+	pkgdesc = Authenticator for storing users in the JupyterHub database
+	pkgver = 1.3.0
+	pkgrel = 1
+	url = https://github.com/jupyterhub/nativeauthenticator
+	arch = any
+	license = BSD-3-Clause
+	checkdepends = python-pytest
+	checkdepends = python-pytest-asyncio
+	checkdepends = jupyter-notebook
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = jupyterhub
+	depends = python-bcrypt
+	depends = python-onetimepass
+	source = https://files.pythonhosted.org/packages/source/j/jupyterhub-nativeauthenticator/jupyterhub_nativeauthenticator-1.3.0.tar.gz
+	sha256sums = 67d49d6a04658494a658466dbe4c6418b68ae6577324855afe5fc8abdf86ef89
+
+pkgname = jupyterhub-nativeauthenticator

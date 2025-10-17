@@ -1,0 +1,20 @@
+pkgbase = r-massspecwavelet
+	pkgdesc = Peak Detection for Mass Spectrometry data using wavelet-based algorithms
+	pkgver = 1.74.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/MassSpecWavelet
+	arch = x86_64
+	license = LGPL-2.0-or-later
+	depends = r
+	optdepends = r-bench
+	optdepends = r-biocstyle
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-runit
+	optdepends = r-signal
+	optdepends = r-waveslim
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/MassSpecWavelet_1.74.0.tar.gz
+	md5sums = 86c088c7f5e64563b10f43bcc3f46d23
+	b2sums = 80392b29af1517867ffb09c673363cfd6d8dc22d6d09e5d3099509dbaae80d4124b6e4932158991749ed740493acea9cf602140a3e1e5c4a1ce6c32c66f1982f
+
+pkgname = r-massspecwavelet

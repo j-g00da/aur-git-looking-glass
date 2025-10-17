@@ -1,0 +1,21 @@
+pkgbase = kesl-gui
+	pkgdesc = Kaspersky Endpoint Security 12.3.0 for Linux (GUI)
+	pkgver = 12.3.0.1162
+	pkgrel = 1
+	url = https://support.kaspersky.com/help/KES4Linux/12.3.0/en-US/264264.htm
+	install = kesl-gui.install
+	changelog = kesl-gui.changelog
+	arch = x86_64
+	license = custom
+	depends = perl
+	depends = kesl
+	depends = freetype2
+	noextract = kesl-gui_12.3.0-1162_amd64.deb
+	options = !strip
+	source = https://products.s.kaspersky-labs.com/endpoints/keslinux10/12.3.0.1162/multilanguage-12.3.0.1162/3939393232337c44454c7c31/kesl-gui_12.3.0-1162_amd64.deb
+	source = kesl-gui.install
+	validpgpkeys = 6AFE173577C4CBD621DF217FD093435AA3ED2C4A
+	sha256sums = CF981EBB9C0E59BD6F2E364824EAB4F521455B2F689F5FA6B0B06A30DF6BC539
+	sha256sums = 6eb8fdafdd0811ed25d7b36541f8214e1c3b4f9989d8e1df448311535827121a
+
+pkgname = kesl-gui

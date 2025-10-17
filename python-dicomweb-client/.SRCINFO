@@ -1,0 +1,22 @@
+pkgbase = python-dicomweb-client
+	pkgdesc = Python client for DICOMweb RESTful services
+	pkgver = 0.60.1
+	pkgrel = 1
+	url = https://github.com/MGHComputationalPathology/dicomweb-client
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = python-build
+	makedepends = python-hatchling
+	makedepends = python-installer
+	makedepends = python-uv-dynamic-versioning
+	makedepends = python-wheel
+	depends = python-numpy
+	depends = python-pillow
+	depends = python-pydicom
+	depends = python-requests
+	depends = python-six
+	source = dicomweb-client::git+https://github.com/ImagingDataCommons/dicomweb-client.git#tag=v0.60.1
+	sha512sums = cf08ddd7bd7ada80c86e89788b22b14ad76a92fc9d9bea975d233cd4c3001d04c78b9df56957614c087923b7a623b45375edf98b57e70ba5b1ab0b931ff10845
+
+pkgname = python-dicomweb-client

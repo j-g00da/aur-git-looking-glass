@@ -1,0 +1,25 @@
+# Maintainer: Carlos Aznarán <caznaranl@uni.pe>
+_base=charset_normalizer
+pkgname=pypy3-${_base/_/-}
+pkgdesc="The Real First Universal Charset Detector"
+pkgver=3.4.4
+pkgrel=1
+arch=(any)
+url="https://github.com/jawah/${_base}"
+license=(MIT)
+depends=(pypy3)
+makedepends=(pypy3-build pypy3-installer pypy3-setuptools-scm)
+source=(${_base}-${pkgver}.tar.gz::${url}/archive/${pkgver}.tar.gz)
+sha512sums=('825b57ddcb4410ee0c9caeb236d0b7973cd4af1f674806bdbf1bac52e170ec1462e698c5eca0f4a3988f9bb691e5f4b31f9f6a6a675b23411de7ce4d652d6ae5')
+
+build() {
+  cd ${_base}-${pkgver}
+  export SETUPTOOLS_SCM_PRETEND_VERSION=${pkgver}
+  pypy3 -m build --wheel --skip-dependency-check --no-isolation
+}
+
+package() {
+  cd ${_base}-${pkgver}
+  PYTHONPYCACHEPREFIX="${PWD}/.cache/cpython/" pypy3 -m installer --destdir="$pkgdir" dist/*.whl
+  install -Dm 644 LICENSE -t "${pkgdir}/usr/share/licenses/${pkgname}"
+}

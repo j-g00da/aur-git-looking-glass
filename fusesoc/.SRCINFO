@@ -1,0 +1,24 @@
+pkgbase = fusesoc
+	pkgdesc = Package manager and build abstraction tool for FPGA/ASIC development
+	pkgver = 2.4.1
+	pkgrel = 2
+	url = https://github.com/olofk/fusesoc
+	arch = any
+	license = BSD-2-Clause
+	makedepends = python-setuptools-scm
+	makedepends = python-setuptools
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python
+	depends = python-edalize
+	depends = python-pyparsing
+	depends = python-yaml
+	depends = python-simplesat
+	depends = python-fastjsonschema
+	optdepends = iverilog: run simulation/testbenchs
+	optdepends = svn: opencores provider
+	source = fusesoc-2.4.1.tar.gz::https://github.com/olofk/fusesoc/archive/2.4.1.tar.gz
+	sha512sums = a821b1960ee690a110c2b04e5e013b26ff3739570ef9deb9ff8f2edaf455468bee77bd5027ac437edaa3fdb093f68c22a813eec735159df731501383c3262564
+
+pkgname = fusesoc

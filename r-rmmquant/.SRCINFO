@@ -1,0 +1,26 @@
+pkgbase = r-rmmquant
+	pkgdesc = RNA-Seq multi-mapping Reads Quantification Tool
+	pkgver = 1.26.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/Rmmquant
+	arch = x86_64
+	license = GPL
+	depends = r
+	depends = r-apeglm
+	depends = r-biocstyle
+	depends = r-deseq2
+	depends = r-devtools
+	depends = r-genomicranges
+	depends = r-org.mm.eg.db
+	depends = r-rcpp
+	depends = r-s4vectors
+	depends = r-summarizedexperiment
+	depends = r-tbx20bamsubset
+	depends = r-txdb.mmusculus.ucsc.mm9.knowngene
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/Rmmquant_1.26.0.tar.gz
+	sha256sums = 9cf2be89a9e1e47df293e49ecb497f95ab361f1fcf5a02b5508dd2682ea517aa
+
+pkgname = r-rmmquant

@@ -1,0 +1,25 @@
+pkgbase = gamera
+	pkgdesc = Framework for building document analysis applications
+	pkgver = 4.1.0
+	pkgrel = 1
+	url = https://github.com/hsnr-gamera/gamera-4
+	arch = x86_64
+	license = GPL-2.0-or-later
+	checkdepends = python-pytest
+	depends = python>=3.5
+	depends = gtk3
+	depends = libtiff>=3.5
+	depends = libpng>=1.2
+	depends = python-wxpython>=4
+	depends = python-docutils
+	depends = python-numpy
+	depends = python-pillow
+	depends = python-packaging
+	depends = python-pygments
+	depends = python-setuptools
+	source = gamera-4-4.1.0.tar.gz::https://github.com/hsnr-gamera/gamera-4/archive/refs/tags/v4.1.0.tar.gz
+	source = invalid_escape.patch
+	sha256sums = ceac5c1ba5798817b0e46b2113a2c3fe087e0386eb5e24b17a8e51b41533caea
+	sha256sums = a02243aff6dd2efffdf41d6ed41ee6960a7769a01986d22393cf471223c2f4eb
+
+pkgname = gamera

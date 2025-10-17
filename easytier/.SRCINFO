@@ -1,0 +1,34 @@
+pkgbase = easytier
+	pkgdesc = A simple, decentralized mesh VPN with WireGuard support.
+	pkgver = 2.4.5
+	pkgrel = 1
+	url = https://github.com/EasyTier/EasyTier
+	arch = x86_64
+	arch = aarch64
+	license = Apache-2.0
+	makedepends = cargo
+	makedepends = protobuf
+	makedepends = rust-bindgen
+	makedepends = nodejs
+	makedepends = pnpm
+	depends = glibc
+	depends = gcc-libs
+	source = EasyTier-2.4.5.tar.gz::https://github.com/EasyTier/EasyTier/archive/refs/tags/v2.4.5.tar.gz
+	source = easytier.service
+	source = config.toml
+	sha256sums = 8bce53d0390bc9b2842bb863de1d4f18e6bb145fa41ec9d49683285e54423b98
+	sha256sums = c3a88a02c96ccbed58908d91da89338c2d093ec3e571f3861c36a5cd0a92bb21
+	sha256sums = 05518beea8b047d5e9b9adb14f26f85a91e4eea81ead7eeb4743f8978e1fd842
+
+pkgname = easytier
+	pkgdesc = Meta package for EasyTier, A simple, decentralized mesh VPN with WireGuard support.
+	depends = easytier-core
+	depends = easytier-cli
+	depends = easytier-web
+
+pkgname = easytier-core
+	backup = etc/easytier/config.toml
+
+pkgname = easytier-cli
+
+pkgname = easytier-web

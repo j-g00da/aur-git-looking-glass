@@ -1,0 +1,20 @@
+pkgbase = alpine-client
+	pkgdesc = A lightweight multi-version Minecraft modpack
+	pkgver = 1.8.5
+	pkgrel = 1
+	url = https://alpineclient.com
+	arch = x86_64
+	license = MPL2
+	makedepends = go>=1.25.1
+	makedepends = git
+	depends = glibc
+	depends = tar
+	depends = xorg-xrandr
+	depends = xdg-desktop-portal
+	depends = zenity
+	options = !strip
+	options = !debug
+	source = pinnacle-1.8.5.tar.gz::https://github.com/alpine-client/pinnacle/archive/1.8.5.tar.gz
+	sha256sums = 02260971dd213555dcd0ec10a0a930530e6544d21315d80b266809cbae9b52e6
+
+pkgname = alpine-client

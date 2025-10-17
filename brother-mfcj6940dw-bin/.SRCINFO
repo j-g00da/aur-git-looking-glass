@@ -1,0 +1,17 @@
+pkgbase = brother-mfcj6940dw-bin
+	pkgdesc = LPR driver and CUPS wrapper for Brother MFC-J6940DW printer
+	pkgver = 3.5.0
+	pkgrel = 1
+	url = https://support.brother.com/g/b/producttop.aspx?c=eu_ot&lang=en&prod=mfcj6940dw_us_eu_as
+	arch = i686
+	arch = x86_64
+	groups = base-devel
+	license = EULA
+	depends = bash
+	depends = glibc
+	depends = perl
+	depends = lib32-glibc
+	source = https://download.brother.com/welcome/dlf105465/mfcj6940dwpdrv-3.5.0-1.i386.deb
+	md5sums = 7d2f33b2dc5e72b428665b7628fd9d83
+
+pkgname = brother-mfcj6940dw-bin

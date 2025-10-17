@@ -1,0 +1,20 @@
+pkgbase = python-textx
+	pkgdesc = Python library for building Domain-Specific Languages and parsers
+	pkgver = 4.2.0
+	pkgrel = 1
+	url = https://textx.github.io/textX/
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-flit-core
+	depends = python
+	depends = python-setuptools
+	depends = python-arpeggio
+	optdepends = python-click: textX CLI support
+	source = python-textx-4.2.0.tar.gz::https://github.com/textX/textX/archive/4.2.0.tar.gz
+	sha256sums = 9a4e22df45eab34d7c504b8359dced06338a46c2b6a50aad025ec53da49c68a7
+
+pkgname = python-textx

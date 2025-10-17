@@ -1,0 +1,22 @@
+pkgbase = perl-catalyst-view-tt
+	pkgdesc = Template View Class
+	pkgver = 0.46
+	pkgrel = 2
+	url = https://metacpan.org/release/Catalyst-View-TT
+	arch = any
+	license = PerlArtistic
+	license = GPL
+	depends = perl-catalyst-runtime>=0
+	depends = perl-class-accessor>=0
+	depends = perl-data-dump>=0
+	depends = perl-mro-compat>=0
+	depends = perl-path-class>=0
+	depends = perl-template-timer>=0
+	depends = perl-template-toolkit>=0
+	depends = perl>=5.8.1
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/J/JJ/JJNAPIORK/Catalyst-View-TT-0.46.tar.gz
+	md5sums = 7ca95c98aea019e0acadc09cad418dd3
+	sha512sums = 104f1637362d7ecfe0c35fc0457c188045daf9faa91cee826aa18da5bd10a065cadc9d11fe2c272d6d1e1953c2167d2faddef15ef08a85afa596a9ca31efd931
+
+pkgname = perl-catalyst-view-tt

@@ -1,0 +1,26 @@
+pkgbase = ruby-dry-types
+	pkgdesc = Type system for Ruby supporting coercions, constraints and complex types like structs, value objects, enums etc
+	pkgver = 1.8.3
+	pkgrel = 1
+	url = https://github.com/dry-rb/dry-types
+	arch = any
+	license = MIT
+	checkdepends = ruby-bundler
+	checkdepends = ruby-rake
+	checkdepends = ruby-rspec
+	checkdepends = ruby-warning
+	checkdepends = ruby-yard
+	makedepends = ruby-rdoc
+	depends = ruby
+	depends = ruby-bigdecimal
+	depends = ruby-concurrent
+	depends = ruby-dry-core
+	depends = ruby-dry-inflector
+	depends = ruby-dry-logic
+	depends = ruby-zeitwerk
+	options = !emptydirs
+	source = https://github.com/dry-rb/dry-types/archive/v1.8.3/ruby-dry-types-1.8.3.tar.gz
+	sha512sums = aec3d2decae270715ab251feca1d598b2102850367c7fb5763ec3dd5bacfbb7edd3cd7b6f2e1b6511f1e5f5cf8ebd40626079b718ac395dbe3a63a219fd19505
+	b2sums = ca316ede356c82928dbf49a20b80d294b1a96cb0a3d80c5b701375ab228c3ec5c77f6474c5ca85968734be39f34be8c1e8b3638c6195dc0124a7cdb5accba49d
+
+pkgname = ruby-dry-types

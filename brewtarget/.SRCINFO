@@ -1,0 +1,29 @@
+pkgbase = brewtarget
+	pkgdesc = Beer calculator compatible with BeerSmith. Generates instructions from the recipe and interactive mash designer.
+	pkgver = 4.2.1
+	pkgrel = 1
+	url = https://www.brewtarget.beer/
+	arch = x86_64
+	arch = i686
+	license = GPL-3.0-or-later AND WTFPL AND (CC-BY-SA-3.0 OR LGPL-3.0-or-later) AND LGPL-2.1-only
+	makedepends = boost
+	makedepends = clang
+	makedepends = cmake
+	makedepends = git
+	makedepends = meson
+	makedepends = ninja
+	makedepends = pandoc
+	makedepends = qt6-declarative
+	makedepends = qt6-tools
+	depends = openssl
+	depends = qt6-base
+	depends = qt6-multimedia
+	depends = qt6-svg
+	depends = xalan-c
+	depends = xerces-c
+	source = git+https://github.com/Brewtarget/brewtarget.git#tag=v4.2.1
+	source = git+https://github.com/tristanpenman/valijson.git
+	sha512sums = 72aa256e61b6a42c4ecf3d86c9729678dc7a548cdc60c228b9d2ec9bf1776b1488af43f624a2b845ed8b01a155f83a3de2017b692561ab5a4b94c9564a325e4c
+	sha512sums = SKIP
+
+pkgname = brewtarget

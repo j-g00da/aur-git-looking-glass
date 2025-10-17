@@ -1,0 +1,16 @@
+pkgbase = python-python-sat
+	pkgdesc = A Python library for prototyping with SAT oracles
+	pkgver = 1.8.dev17
+	pkgrel = 1
+	url = https://github.com/pysathq/pysat
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python
+	depends = python-six
+	source = https://files.pythonhosted.org/packages/source/p/python-sat/python-sat-1.8.dev17.tar.gz
+	sha512sums = ecb7745371d514cc0658af7a1e799b650280aac729b62465fb2f608e289488dfaf2a9e5a3926430b01a3b2ecb985b625db0ab2e59e6739668e80e5b3ce847954
+
+pkgname = python-python-sat

@@ -1,0 +1,17 @@
+pkgbase = python-moderngl
+	pkgdesc = ModernGL: High performance rendering for Python 3
+	pkgver = 5.12.0
+	pkgrel = 1
+	url = https://github.com/moderngl/moderngl
+	arch = x86_64
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	depends = python-glcontext
+	source = https://github.com/moderngl/moderngl/archive/5.12.0.tar.gz
+	b2sums = 79a5e6eec0d90e64f0c74ed35fc73957fc0a3488c2e831f55ebba41582330f84d104cfb29e051cc0333248d1e66649934432494b505d03765d2f86806e45e259
+
+pkgname = python-moderngl

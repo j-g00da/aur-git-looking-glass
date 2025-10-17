@@ -1,0 +1,15 @@
+pkgbase = perl-perlx-maybe
+	pkgdesc = PerlX::Maybe - return a pair only if they are both defined
+	pkgver = 1.202
+	pkgrel = 2
+	url = https://metacpan.org/release/PerlX-Maybe
+	arch = any
+	license = GPL
+	license = PerlArtistic
+	depends = perl
+	options = !emptydirs
+	options = purge
+	source = https://cpan.metacpan.org/authors/id/T/TO/TOBYINK/PerlX-Maybe-1.202.tar.gz
+	md5sums = d0af9cfe92f94a0b6adcba163f4e95a4
+
+pkgname = perl-perlx-maybe

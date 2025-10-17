@@ -1,0 +1,27 @@
+pkgbase = limine-mkinitcpio-hook-git
+	pkgdesc = Install kernel for the Limine bootloader.
+	pkgver = r433.d190245
+	pkgrel = 1
+	url = https://gitlab.com/Zesko/limine-entry-tool
+	arch = any
+	license = GPL3
+	makedepends = git
+	makedepends = jdk21-openjdk
+	makedepends = maven
+	depends = bash
+	depends = grep
+	depends = tar
+	depends = java-runtime-headless>=17
+	depends = limine
+	depends = mkinitcpio
+	depends = efibootmgr
+	optdepends = kernel-modules-hook: Safely keeps kernel on upgrade failure
+	optdepends = sbctl: Signs UEFI boot files for Secure Boot when enabled
+	optdepends = journalctl-desktop-notification: Sends desktop notifications when errors occur
+	provides = limine-entry-tool
+	conflicts = limine-entry-tool
+	backup = etc/limine-entry-tool.conf
+	source = git+https://gitlab.com/Zesko/limine-entry-tool.git
+	sha256sums = SKIP
+
+pkgname = limine-mkinitcpio-hook-git

@@ -1,0 +1,13 @@
+pkgbase = r-ismev
+	pkgdesc = An Introduction to Statistical Modeling of Extreme Values
+	pkgver = 1.43
+	pkgrel = 1
+	url = https://cran.r-project.org/package=ismev
+	arch = any
+	license = GPL-2.0-or-later
+	depends = r
+	source = https://cran.r-project.org/src/contrib/ismev_1.43.tar.gz
+	md5sums = 78963b1378336d4848a21a214abb58dc
+	b2sums = 224e9b921c6fc9e3ddd3b84fab134ac232a1ebaca2ca9baab2a09eb6c3d7d4764996d0feae4662524ca69cb993b952239699ff7ce9c3500964a180330a72dc24
+
+pkgname = r-ismev

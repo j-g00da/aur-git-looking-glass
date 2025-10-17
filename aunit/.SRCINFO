@@ -1,0 +1,19 @@
+pkgbase = aunit
+	pkgdesc = Ada unit testing framework
+	pkgver = 25.0.0
+	pkgrel = 1
+	epoch = 1
+	url = https://libre.adacore.com
+	arch = i686
+	arch = x86_64
+	license = GPL
+	license = V3.0
+	makedepends = gprbuild
+	makedepends = python-sphinx_rtd_theme
+	depends = gcc-ada
+	source = https://github.com/AdaCore/aunit/archive/refs/tags/v25.0.0.tar.gz
+	source = aunit.gpr.patch
+	sha256sums = 6468914556c95504e9aed1dd81a1fc9969e56416bd3bb25dd3bae3905f35d379
+	sha256sums = 81b5f79ae62d43fbb1867059ed448dd88b1475d32ab902a0cabd77a11c330b9e
+
+pkgname = aunit

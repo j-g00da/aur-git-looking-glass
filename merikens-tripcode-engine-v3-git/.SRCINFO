@@ -1,0 +1,16 @@
+pkgbase = merikens-tripcode-engine-v3-git
+	pkgver = 110.g2d9cd3b
+	pkgrel = 1
+	pkgdesc = OpenCL- and CUDA-compatible custom tripcode generator
+	arch = i686
+	arch = x86_64
+	makedepends = cmake
+	makedepends = p7zip
+	makedepends = opencl-headers
+	depends = ocl-icd
+	optdepends = cuda
+	source = git+https://github.com/meriken/merikens-tripcode-engine-v3
+	url = https://github.com/meriken/merikens-tripcode-engine-v3
+	sha256sums = SKIP
+
+pkgname = merikens-tripcode-engine-v3-git

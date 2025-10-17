@@ -1,0 +1,14 @@
+pkgbase = r-circular
+	pkgdesc = Circular Statistics
+	pkgver = 0.5.2
+	pkgrel = 1
+	url = https://cran.r-project.org/package=circular
+	arch = x86_64
+	license = GPL-2.0-only
+	makedepends = gcc-fortran
+	depends = r-mvtnorm
+	source = https://cran.r-project.org/src/contrib/circular_0.5-2.tar.gz
+	md5sums = 4f33e7d8a9ac8184dccb87533536bef8
+	b2sums = 72091ca97b0d1395b3084c0052cc674743c2f866070570eb7f60019c9f94d0c020b1d8e72c08c52626254f0d075951089de5420e0995d48cd19f16292e455e26
+
+pkgname = r-circular

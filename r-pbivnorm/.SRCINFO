@@ -1,0 +1,14 @@
+pkgbase = r-pbivnorm
+	pkgdesc = Vectorized Bivariate Normal CDF
+	pkgver = 0.6.0
+	pkgrel = 12
+	url = https://cran.r-project.org/package=pbivnorm
+	arch = x86_64
+	license = GPL-2.0-or-later
+	makedepends = gcc-fortran
+	depends = r
+	source = https://cran.r-project.org/src/contrib/pbivnorm_0.6.0.tar.gz
+	md5sums = 8b88ddf960b19cb47add2879d9d7f7ef
+	b2sums = 97c66eb9a19bb09066e7b4213fe6d16c2462cd67052534d50beae3dcc581cb66daf5eb6c2a4206e178efcd9712dd08177795435670a247e8492a4d5d87e4ca9d
+
+pkgname = r-pbivnorm

@@ -1,0 +1,18 @@
+pkgbase = ytsub
+	pkgdesc = A subscriptions only TUI Youtube client
+	pkgver = 0.6.0
+	pkgrel = 1
+	url = https://github.com/sarowish/ytsub
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = cargo
+	depends = sqlite
+	optdepends = mpv: for playing videos,
+	optdepends = yt-dlp: for playing videos
+	provides = ytsub
+	conflicts = ytsub
+	options = !lto
+	source = ytsub-0.6.0.tar.gz::https://github.com/sarowish/ytsub/archive/refs/tags/v0.6.0.tar.gz
+	sha256sums = 4565139f435a4e04a797a85aeef4ed85277488cbe23c1856a1784debd38000f8
+
+pkgname = ytsub

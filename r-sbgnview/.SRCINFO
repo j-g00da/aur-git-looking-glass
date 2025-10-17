@@ -1,0 +1,27 @@
+pkgbase = r-sbgnview
+	pkgdesc = "SBGNview: Data Analysis, Integration and Visualization on SBGN Pathways"
+	pkgver = 1.22.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/SBGNview
+	arch = any
+	license = AGPL
+	depends = r
+	depends = r-annotationdbi
+	depends = r-bookdown
+	depends = r-httr
+	depends = r-igraph
+	depends = r-keggrest
+	depends = r-knitr
+	depends = r-pathview
+	depends = r-rdpack
+	depends = r-rmarkdown
+	depends = r-rsvg
+	depends = r-sbgnview.data
+	depends = r-summarizedexperiment
+	depends = r-xml2
+	optdepends = r-gage
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/SBGNview_1.22.0.tar.gz
+	sha256sums = c06b6e10ce84a510e9cd50afe73f5469d9be14ab363043401c181c035045b81a
+
+pkgname = r-sbgnview

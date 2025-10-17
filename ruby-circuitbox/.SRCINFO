@@ -1,0 +1,13 @@
+pkgbase = ruby-circuitbox
+	pkgdesc = Ruby circuit breaker gem that protects your application from failures of its service dependencies
+	pkgver = 2.0.0
+	pkgrel = 1
+	url = https://github.com/yammer/circuitbox
+	arch = x86_64
+	license = Apache-2.0
+	depends = ruby
+	depends = rubygems
+	source = ruby-circuitbox-2.0.0.tar.gz::https://github.com/yammer/circuitbox/archive/refs/tags/v2.0.0.tar.gz
+	sha256sums = 0b06418aa267f67e303567164bd9a8d53cc08e7662e8addba47caf2d3c167e01
+
+pkgname = ruby-circuitbox

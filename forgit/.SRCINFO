@@ -1,0 +1,26 @@
+pkgbase = forgit
+	pkgdesc = Utility tool powered by fzf for using git interactively
+	pkgver = 25.10.0
+	pkgrel = 1
+	url = https://github.com/wfxr/forgit
+	install = forgit.install
+	arch = any
+	groups = fish-plugins
+	groups = zsh-plugins
+	license = MIT
+	depends = bash
+	depends = fzf>=0.49.0
+	depends = git
+	optdepends = zsh: supported shell
+	optdepends = fish: supported shell
+	optdepends = git-delta: human readable diffs
+	optdepends = diff-so-fancy: human readable diffs
+	optdepends = bat: syntax highlighting for .gitignore
+	optdepends = emoji-cli: emoji support for git log
+	optdepends = tree: directory tree view for gclean
+	provides = forgit
+	conflicts = forgit-git
+	source = forgit-25.10.0.tar.gz::https://github.com/wfxr/forgit/archive/25.10.0.tar.gz
+	sha256sums = 4a32a49a21ff22d8f5ef467cd5d9acb16bb03fb56b940d064b0f79a55be02903
+
+pkgname = forgit

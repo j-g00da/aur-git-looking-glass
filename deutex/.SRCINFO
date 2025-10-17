@@ -1,0 +1,15 @@
+pkgbase = deutex
+	pkgdesc = Composer and decomposer for Doom, Heretic, Hexen, Strife WAD files
+	pkgver = 5.2.3
+	pkgrel = 1
+	url = https://github.com/Doom-Utils/deutex
+	arch = aarch64
+	arch = x86_64
+	license = GPL2
+	makedepends = asciidoc
+	depends = libpng
+	conflicts = deutex-git
+	source = https://github.com/Doom-Utils/deutex/releases/download/v5.2.3/deutex-5.2.3.tar.zst
+	b2sums = fd422f5256d633983420c3d79b12cb95bde4fc6b9aeaf49d93476c169ba9f768bf4d56e3a15e0ae2d946a9a3dc271bf43d2a130e4e258921ab7b298bb69ef19d
+
+pkgname = deutex

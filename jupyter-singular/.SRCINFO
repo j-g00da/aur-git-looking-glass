@@ -1,0 +1,22 @@
+pkgbase = jupyter-singular
+	pkgdesc = Jupyter kernel for Singular
+	pkgver = 0.9.9
+	pkgrel = 1
+	url = https://github.com/sebasguts/jupyter_kernel_singular
+	arch = any
+	license = GPL
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = ipython
+	depends = jupyter-notebook
+	depends = python
+	depends = python-ipykernel
+	depends = python-ipywidgets
+	depends = python-pexpect
+	depends = python-pysingular
+	source = https://pypi.io/packages/source/j/jupyter_kernel_singular/jupyter_kernel_singular-0.9.9.tar.gz
+	md5sums = 40464609dec908950af7058ded8d93e2
+
+pkgname = jupyter-singular

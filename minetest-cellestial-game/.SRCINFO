@@ -1,0 +1,15 @@
+pkgbase = minetest-cellestial-game
+	pkgdesc = Game of Life in three dimensions.
+	pkgver = r41
+	pkgrel = 1
+	url = https://content.minetest.net/packages/LMD/cellestial_game/
+	arch = any
+	license = GPLv3
+	makedepends = unzip
+	depends = minetest-common
+	noextract = cellestial_game-r41.zip
+	options = !strip
+	source = cellestial_game-r41.zip::https://content.minetest.net/packages/LMD/cellestial_game/releases/18356/download/
+	sha256sums = 8fd2653badfbac1d1f9fcff14a979e930b0eda2021fe2c3940ec608014581d82
+
+pkgname = minetest-cellestial-game

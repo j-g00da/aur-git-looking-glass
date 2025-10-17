@@ -1,0 +1,14 @@
+pkgbase = ysbatterytray
+	pkgdesc = Battery information via system tray
+	pkgver = 2.5.6
+	pkgrel = 1
+	url = http://dev.yaki-syndicate.de/
+	arch = any
+	license = GPL
+	depends = python-gobject
+	depends = libnotify
+	source = ysbatterytray-2.5.6.tar.gz::https://github.com/creshal/ysbatterytray/archive/2.5.6.tar.gz
+	sha256sums = d198f538a21b683261a8882763ea718f9aa15a3ba1226679927b930bf99415c3
+
+pkgname = ysbatterytray
+

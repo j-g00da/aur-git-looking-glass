@@ -1,0 +1,19 @@
+pkgbase = astah-professional
+	pkgdesc = Full-Featured Software Modeling Tool for creating UML, ER Diagrams, DFD, Flowchart and more to create a clear understanding of your software design among teams. Easy-to-use UML2.x modeler
+	pkgver = 10.1.0
+	pkgrel = 1
+	url = http://astah.net/products/astah-professional
+	install = astah-professional.install
+	arch = any
+	license = custom
+	depends = jre21-openjdk
+	conflicts = astah_community
+	conflicts = astah-uml
+	source = https://cdn.change-vision.com/files/astah-professional_10.1.0.9ceee1-0_all.deb
+	source = LICENSE
+	source = PRIVACY
+	md5sums = 73fd8f692f3977d5721e9afc43a3f572
+	md5sums = 4667d0dfa5bde4924e3cea64fb310e94
+	md5sums = d041a1336f18d00a99baa330b0e25fb9
+
+pkgname = astah-professional

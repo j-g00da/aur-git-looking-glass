@@ -1,0 +1,23 @@
+pkgbase = locus
+	pkgdesc = An intelligent activity tracker that helps you understand and improve your focus habits.
+	pkgver = 0.2.2
+	pkgrel = 1
+	url = https://github.com/Sushants-Git/locus
+	install = locus.install
+	arch = x86_64
+	license = custom
+	depends = cairo
+	depends = desktop-file-utils
+	depends = gdk-pixbuf2
+	depends = glib2
+	depends = gtk3
+	depends = hicolor-icon-theme
+	depends = libsoup
+	depends = pango
+	depends = webkit2gtk
+	options = !strip
+	options = !emptydirs
+	source_x86_64 = https://github.com/Sushants-Git/locus/releases/download/v0.2.2/locus_0.2.2_amd64.deb
+	sha256sums_x86_64 = 8c8f85c23fc4f1bc542343ff124aa13ca1d4111547d63c8ce4fd0b4eeebf762c
+
+pkgname = locus

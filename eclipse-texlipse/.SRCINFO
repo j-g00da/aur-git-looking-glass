@@ -1,0 +1,15 @@
+pkgbase = eclipse-texlipse
+	pkgdesc = LaTeX support plugin for Eclipse IDE
+	pkgver = 2.0.4
+	pkgrel = 1
+	url = https://projects.eclipse.org/projects/science.texlipse
+	arch = any
+	license = EPL
+	depends = eclipse>=4.5.0
+	depends = texlive-core
+	provides = texlipse
+	conflicts = texlipse
+	source = https://ftp.halifax.rwth-aachen.de/eclipse/texlipse/updates/release/2.0.4/TeXlipse-Updates-2.0.4.zip
+	sha256sums = d624b13d8e2674107f4fc960d8e1f04eca3e6446ee2f387a9155604fe270237e
+
+pkgname = eclipse-texlipse

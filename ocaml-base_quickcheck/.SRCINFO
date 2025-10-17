@@ -1,0 +1,24 @@
+pkgbase = ocaml-base_quickcheck
+	pkgdesc = Randomized testing framework, designed for compatibility with Base
+	pkgver = 0.17.1
+	pkgrel = 1
+	url = https://github.com/janestreet/base_quickcheck
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = dune>=3.11.0
+	depends = ocaml>=5.1.0
+	depends = ocaml-base>=0.17.0
+	depends = ocaml-ppx_base>=0.17.0
+	depends = ocaml-ppx_fields_conv>=0.17.0
+	depends = ocaml-ppx_let>=0.17.0
+	depends = ocaml-ppx_sexp_message>=0.17.0
+	depends = ocaml-ppx_sexp_value>=0.17.0
+	depends = ocaml-ppxlib_jane>=0.17.0
+	depends = ocaml-splittable_random>=0.17.0
+	depends = ocaml-ppxlib>=0.36.0
+	options = !strip
+	source = ocaml-base_quickcheck-0.17.1.tar.gz::https://github.com/janestreet/base_quickcheck/archive/v0.17.1.tar.gz
+	b2sums = 02ffc2a816a4e84e92d6839777ea429f9f06361ecbc5705481bc6c385a5ce80c04f8eb5d0a34f04838dce983f70a1bb15c20cc5b48917c753cca076fe36a8982
+
+pkgname = ocaml-base_quickcheck

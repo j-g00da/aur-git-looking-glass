@@ -1,0 +1,17 @@
+pkgbase = bas-celik
+	pkgdesc = A desktop application for reading ID cards issued by the government of Serbia
+	pkgver = 2.1.3
+	pkgrel = 1
+	url = https://github.com/ubavic/bas-celik
+	arch = x86_64
+	license = MIT
+	makedepends = go>=1.20
+	depends = glibc
+	depends = libglvnd
+	depends = libx11
+	depends = ccid
+	depends = opensc
+	source = bas-celik-2.1.3.tar.gz::https://github.com/ubavic/bas-celik/archive/refs/tags/v2.1.3.tar.gz
+	sha256sums = 5847f8666dc96be56976384fd6822ac471bbf9d5cec147e3bfd5380273af5ba1
+
+pkgname = bas-celik

@@ -1,0 +1,22 @@
+pkgbase = python-maison
+	pkgdesc = Read settings from config files.
+	pkgver = 2.0.2
+	pkgrel = 1
+	url = https://github.com/dbatten5/maison
+	arch = any
+	license = MIT
+	checkdepends = python-coverage
+	checkdepends = python-pydantic
+	checkdepends = python-pytest
+	checkdepends = python-six
+	checkdepends = uv
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python
+	depends = python-click
+	depends = python-toml
+	source = python-maison-v2.0.2.tar.gz::https://github.com/dbatten5/maison/archive/refs/tags/v2.0.2.tar.gz
+	sha512sums = 8dec39d44622d252d7165824c8c0c880d28c517cb9219c26d1f65986bfd2c74c63e9be96da30b69ee0560cef95925ced86bb663f87207311ec66a448d3aa2888
+
+pkgname = python-maison

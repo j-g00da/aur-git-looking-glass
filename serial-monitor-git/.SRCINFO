@@ -1,0 +1,17 @@
+pkgbase = serial-monitor-git
+	pkgdesc = Cross-platform command line serial terminal program (git)
+	pkgver = r39.9cc100b
+	pkgrel = 1
+	url = https://github.com/dhylands/serial-monitor
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	makedepends = git
+	depends = gcc-libs
+	depends = systemd-libs
+	provides = serial-monitor
+	conflicts = serial-monitor
+	source = git+https://github.com/dhylands/serial-monitor
+	sha256sums = SKIP
+
+pkgname = serial-monitor-git

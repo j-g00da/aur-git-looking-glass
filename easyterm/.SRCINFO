@@ -1,0 +1,18 @@
+pkgbase = easyterm
+	pkgdesc = Serial Port Terminal Emulator
+	pkgver = 0.9.3
+	pkgrel = 1
+	url = https://github.com/marker5a/EasyTerm
+	arch = x86_64
+	arch = i686
+	license = GPLv3
+	makedepends = git
+	makedepends = qt5-serialport
+	makedepends = qt5-base
+	provides = easyterm
+	replaces = easyterm
+	source = easyterm::git+http://git.code.sf.net/p/easyterm/code
+	md5sums = SKIP
+
+pkgname = easyterm
+

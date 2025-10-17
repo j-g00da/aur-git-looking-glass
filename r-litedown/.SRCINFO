@@ -1,0 +1,17 @@
+pkgbase = r-litedown
+	pkgdesc = A Lightweight Version of R Markdown
+	pkgver = 0.7
+	pkgrel = 2
+	url = https://cran.r-project.org/package=litedown
+	arch = any
+	license = MIT
+	depends = r-commonmark
+	depends = r-xfun
+	optdepends = r-rbibutils
+	optdepends = r-rstudioapi
+	optdepends = r-tinytex
+	source = https://cran.r-project.org/src/contrib/litedown_0.7.tar.gz
+	md5sums = f236b5be57d891bd42d5dabd27a814de
+	b2sums = da4b53442ee6aec14b37f44b0425892272aa42e88868c8a70d99ed4125937e9ee888fd17895200608b922898fa240aaabd67e9999cccb8ae6cb3e3c0456f6e37
+
+pkgname = r-litedown

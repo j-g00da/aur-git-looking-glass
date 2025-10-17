@@ -1,0 +1,17 @@
+pkgbase = nng-git
+	pkgdesc = A lightweight, broker-less library
+	pkgver = 1.10.1.r570.g5b886b5
+	pkgrel = 1
+	url = https://github.com/nanomsg/nng
+	arch = x86_64
+	license = MIT
+	makedepends = cmake
+	makedepends = git
+	makedepends = ninja
+	depends = wolfssl
+	provides = nng
+	conflicts = nng
+	source = nng::git+https://github.com/nanomsg/nng.git
+	sha256sums = SKIP
+
+pkgname = nng-git

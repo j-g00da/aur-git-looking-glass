@@ -1,0 +1,13 @@
+pkgbase = palemoon-i18n-uk
+	pkgdesc = Ukrainian language pack for Pale Moon browser
+	pkgver = 33.8.0
+	pkgrel = 1
+	url = https://addons.palemoon.org/language-packs/
+	arch = any
+	license = MPL-2.0
+	depends = palemoon-i18n-common
+	noextract = palemoon-i18n-uk-33.8.0.xpi
+	source = palemoon-i18n-uk-33.8.0.xpi::https://addons.palemoon.org/?component=download&version=33.8.0&id=langpack-uk@palemoon.org
+	sha256sums = 6e0f431a6c3ad300276571e08d1c649ea2e0d84c3fbbf9ed6b6d82acd45fac68
+
+pkgname = palemoon-i18n-uk

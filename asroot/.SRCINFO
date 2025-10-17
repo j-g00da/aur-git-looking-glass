@@ -1,0 +1,13 @@
+pkgbase = asroot
+	pkgdesc = A simpler alternative to sudo and doas
+	pkgver = 1.1.9
+	pkgrel = 1
+	url = https://codeberg.org/maandree/asroot
+	arch = x86_64
+	license = custom:ISC
+	makedepends = libenv
+	depends = libenv
+	source = asroot-1.1.9.tar.gz::https://codeberg.org/maandree/asroot/archive/1.1.9.tar.gz
+	sha256sums = 29e7c4e1081846b0b859944daa9e407366e9b82d99a77099d17086740756220e
+
+pkgname = asroot

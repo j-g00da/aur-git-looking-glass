@@ -1,0 +1,22 @@
+pkgbase = ghc8.6-bin
+	pkgdesc = Binary GHC 8.6 installed on /usr/bin/ghc-8.6
+	pkgver = 8.6.5
+	pkgrel = 3
+	url = http://www.haskell.org/ghc/
+	install = ghc.install
+	arch = x86_64
+	license = BSD-3-Clause
+	makedepends = ghc
+	makedepends = libxslt
+	makedepends = docbook-xsl
+	depends = gcc
+	depends = gmp
+	depends = libffi
+	depends = perl
+	depends = ncurses5-compat-libs
+	provides = ghc8.6
+	conflicts = ghc8.6
+	source = https://www.haskell.org/ghc/dist/8.6.5/ghc-8.6.5-x86_64-deb9-linux.tar.xz
+	sha256sums = bc75f5601a9f41d58b2ba161b9e28fad52143a7229060f1e084168d9b2e914df
+
+pkgname = ghc8.6-bin

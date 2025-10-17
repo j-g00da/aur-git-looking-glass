@@ -1,0 +1,26 @@
+pkgbase = msp430-elf-gcc-stage1
+	pkgdesc = The GNU Compiler Collection bootstrap for the msp430-elf target.
+	pkgver = 15.2.0
+	pkgrel = 1
+	url = http://gcc.gnu.org
+	arch = i686
+	arch = x86_64
+	license = GPL
+	license = LGPL
+	depends = msp430-elf-binutils>=2.40
+	depends = libisl
+	depends = libmpc
+	depends = elfutils
+	depends = zlib
+	depends = libisl
+	options = staticlibs
+	options = !buildflags
+	options = !libtool
+	options = !emptydirs
+	options = zipman
+	options = docs
+	options = !strip
+	source = https://gcc.gnu.org/pub/gcc/releases/gcc-15.2.0/gcc-15.2.0.tar.xz
+	sha256sums = 438fd996826b0c82485a29da03a72d71d6e3541a83ec702df4271f6fe025d24e
+
+pkgname = msp430-elf-gcc-stage1

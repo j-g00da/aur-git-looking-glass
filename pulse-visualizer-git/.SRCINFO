@@ -1,0 +1,25 @@
+pkgbase = pulse-visualizer-git
+	pkgdesc = A GPU-accelerated audio visualizer for PulseAudio/PipeWire (latest git)
+	pkgver = 1.3.0.r0.291d107
+	pkgrel = 1
+	url = https://github.com/Audio-Solutions/pulse-visualizer
+	install = pulse-visualizer-git.install
+	arch = any
+	license = GPL3
+	makedepends = cmake
+	makedepends = ninja
+	makedepends = clang
+	makedepends = git
+	depends = sdl3
+	depends = fftw
+	depends = freetype2
+	depends = glew
+	depends = yaml-cpp
+	depends = libebur128
+	optdepends = libpulse: PulseAudio support
+	optdepends = libpipewire: PipeWire support
+	conflicts = pulse-visualizer-bin
+	source = git+https://github.com/Audio-Solutions/pulse-visualizer.git
+	sha256sums = SKIP
+
+pkgname = pulse-visualizer-git

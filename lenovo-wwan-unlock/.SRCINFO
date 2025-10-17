@@ -1,0 +1,16 @@
+pkgbase = lenovo-wwan-unlock
+	pkgdesc = FCC and DPR unlock for Lenovo PCs
+	pkgver = 3.1.0
+	pkgrel = 2
+	url = https://github.com/lenovo/lenovo-wwan-unlock
+	install = lenovo-wwan-unlock.install
+	arch = x86_64
+	license = LicenseRef-lenovo-software-code-license
+	makedepends = git
+	depends = gcc-libs
+	depends = modemmanager
+	depends = pciutils
+	source = lenovo-wwan-unlock::git+https://github.com/lenovo/lenovo-wwan-unlock#tag=v3.1.0
+	b2sums = 202570508860c7a0cf118a0e30e45deb9f371608f2d37fd4168dd2cc023cc3a230eb45450b7286fd42739f64ae3c59e6d62aaa7a050f5f0244f2f7644d0ee05b
+
+pkgname = lenovo-wwan-unlock

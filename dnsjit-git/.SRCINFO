@@ -1,0 +1,26 @@
+pkgbase = dnsjit-git
+	pkgdesc = Engine for capturing, parsing and replaying DNS
+	pkgver = 1.5.0.r11.505e23c
+	pkgrel = 1
+	url = https://codeberg.org/DNS-OARC/dnsjit
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = autoconf
+	makedepends = git
+	depends = gcc-libs
+	depends = glibc
+	depends = gnutls
+	depends = libck
+	depends = libpcap
+	depends = lmdb
+	depends = luajit
+	depends = lz4
+	depends = xz
+	depends = zlib
+	depends = zstd
+	provides = dnsjit
+	conflicts = dnsjit
+	source = git+https://codeberg.org/DNS-OARC/dnsjit.git
+	sha256sums = SKIP
+
+pkgname = dnsjit-git

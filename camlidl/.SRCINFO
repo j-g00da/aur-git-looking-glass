@@ -1,0 +1,17 @@
+pkgbase = camlidl
+	pkgdesc = A stub code generator and COM binding for Objective Caml (OCaml)
+	pkgver = 1.13
+	pkgrel = 1
+	url = https://github.com/xavierleroy/camlidl
+	arch = x86_64
+	license = LGPL2.1
+	depends = ocaml
+	options = staticlibs
+	source = https://github.com/xavierleroy/camlidl/archive/camlidl113.tar.gz
+	source = META.camlidl
+	source = patch.diff
+	sha256sums = c82bfd106208ebedd8c264300e939010f87eed83e6f6339e3a6cf8f66caeed54
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = camlidl

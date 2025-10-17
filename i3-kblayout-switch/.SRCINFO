@@ -1,0 +1,18 @@
+pkgbase = i3-kblayout-switch
+	pkgdesc = Remembers keyboard layout per i3 workspace
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://github.com/f0s3/i3-kblayout-switch
+	arch = any
+	license = MIT
+	makedepends = bun-bin
+	makedepends = xkb-switch
+	makedepends = xkblayout-state
+	depends = bun-bin
+	depends = xkb-switch
+	depends = xkblayout-state
+	options = !debug
+	source = i3-kblayout-switch-1.0.tar.gz::https://github.com/f0s3/i3-kblayout-switch/archive/refs/tags/v1.0.tar.gz
+	sha256sums = 5cbb3e2d20af7f079676c92647072323dbb47782e2e4ffac0ee7b5ea59dad6b9
+
+pkgname = i3-kblayout-switch

@@ -1,0 +1,20 @@
+pkgbase = dmotp-git
+	pkgdesc = CLI TOTP authenticator
+	pkgver = r23.3f6e821
+	pkgrel = 1
+	url = https://gitlab.com/dmotp/dmotp
+	arch = x86_64
+	arch = aarch64
+	license = GPL2
+	makedepends = git
+	depends = python
+	depends = python-pyotp
+	depends = python-cryptography
+	depends = python-pyperclip
+	optdepends = xsel
+	optdepends = xclip
+	provides = dmotp
+	source = git+https://gitlab.com/dmotp/dmotp.git
+	md5sums = SKIP
+
+pkgname = dmotp-git

@@ -1,0 +1,18 @@
+pkgbase = libebml-git
+	pkgdesc = Extensible Binary Meta Language library
+	pkgver = 1.4.5.r521.g50a4d44
+	pkgrel = 1
+	url = https://github.com/Matroska-Org/libebml
+	arch = i686
+	arch = x86_64
+	license = LGPL-2.1-or-later
+	makedepends = git
+	makedepends = cmake
+	depends = gcc-libs
+	provides = libebml=1.4.5.r521.g50a4d44
+	provides = libebml.so
+	conflicts = libebml
+	source = git+https://github.com/Matroska-Org/libebml.git
+	sha256sums = SKIP
+
+pkgname = libebml-git

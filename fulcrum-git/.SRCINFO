@@ -1,0 +1,20 @@
+pkgbase = fulcrum-git
+	pkgdesc = A fast & nimble SPV server for BCH, BTC, and LTC
+	pkgver = 1.12.0.1.r7.ga00f3e8
+	pkgrel = 2
+	url = https://github.com/cculianu/Fulcrum
+	arch = any
+	license = GPL3
+	makedepends = git
+	depends = qt6-base
+	depends = rocksdb
+	depends = python
+	depends = miniupnpc
+	depends = python-pyzmq
+	optdepends = jemalloc: reduce memory fragmentation (recommended)
+	provides = fulcrum
+	conflicts = fulcrum
+	source = fulcrum-git::git+https://github.com/cculianu/Fulcrum.git
+	sha256sums = SKIP
+
+pkgname = fulcrum-git

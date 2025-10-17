@@ -1,0 +1,24 @@
+pkgbase = r-flowviz
+	pkgdesc = Visualization for flow cytometry
+	pkgver = 1.72.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/flowViz
+	arch = any
+	license = Artistic2.0
+	depends = r
+	depends = r-biobase
+	depends = r-flowcore
+	depends = r-hexbin
+	depends = r-idpmisc
+	depends = r-latticeextra
+	depends = r-rcolorbrewer
+	optdepends = r-colorspace
+	optdepends = r-flowstats
+	optdepends = r-knitr
+	optdepends = r-markdown
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/flowViz_1.72.0.tar.gz
+	sha256sums = b2c22ba58f6f49c3c985af0ecc5fe9e598af3fd6af05c4af10c67c55c32db68c
+
+pkgname = r-flowviz

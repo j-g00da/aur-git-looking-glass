@@ -1,0 +1,14 @@
+pkgbase = neovim-luasnip-git
+	pkgdesc = Snippet engine for Neovim
+	pkgver = 2.2.0.r25.ga7a4b46
+	pkgrel = 1
+	url = https://github.com/L3MON4D3/LuaSnip
+	arch = any
+	groups = neovim-plugins
+	license = Apache
+	makedepends = git
+	source = git+https://github.com/L3MON4D3/LuaSnip.git
+	sha512sums = SKIP
+
+pkgname = neovim-luasnip-git
+	depends = neovim

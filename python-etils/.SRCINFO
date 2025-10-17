@@ -1,0 +1,26 @@
+pkgbase = python-etils
+	pkgdesc = Collection of common python utils
+	pkgver = 1.13.0
+	pkgrel = 1
+	url = https://github.com/google/etils
+	arch = any
+	license = Apache-2.0
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-flit-core
+	makedepends = python-wheel
+	depends = python
+	optdepends = python-numpy: for etils.array_types, etils.ecolab, etils.enp
+	optdepends = ipython: for etils.ecolab
+	optdepends = python-importlib_resources: for epath
+	optdepends = python-zipp: for etils.epath
+	optdepends = python-typing_extensions: for etils.epy
+	optdepends = python-absl: for etils.etqdm
+	optdepends = python-tqdm: for etils.etqdm
+	optdepends = python-dm-tree: for etils.etree.tree
+	optdepends = python-jax: for etils.etree.jax
+	optdepends = python-tensorflow: for etils.etree.nest
+	source = etils-1.13.0.tar.gz::https://github.com/google/etils/archive/v1.13.0.tar.gz
+	sha512sums = a4f29927a2b5160b1522b91fd09281a521be33aa5cfc201ae1b605cb20d065818bd622477a081a59d446e183e94c37a7c68cacb77c17d530e15fbb6364ef2698
+
+pkgname = python-etils

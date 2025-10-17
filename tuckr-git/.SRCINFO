@@ -1,0 +1,16 @@
+pkgbase = tuckr-git
+	pkgdesc = A super powered replacement for GNU Stow
+	pkgver = 0.12.0
+	pkgrel = 1
+	epoch = 1
+	url = https://github.com/RaphGL/Tuckr
+	arch = x86_64
+	arch = i686
+	arch = aarch64
+	license = GPLv3
+	makedepends = cargo
+	makedepends = git
+	source = git+https://github.com/RaphGL/Tuckr
+	md5sums = SKIP
+
+pkgname = tuckr-git

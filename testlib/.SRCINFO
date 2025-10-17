@@ -1,0 +1,11 @@
+pkgbase = testlib
+	pkgdesc = C++ library to develop competitive programming problems
+	pkgver = 0.9.41
+	pkgrel = 2
+	url = https://github.com/MikeMirzayanov/testlib
+	arch = any
+	license = MIT
+	source = https://github.com/MikeMirzayanov/testlib/archive/refs/tags/0.9.41.tar.gz
+	sha256sums = 749709b96b76c0f0492841aa08278b7b5daa34d099ab3095f36ec796a790baac
+
+pkgname = testlib

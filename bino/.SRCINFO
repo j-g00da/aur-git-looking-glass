@@ -1,0 +1,19 @@
+pkgbase = bino
+	pkgdesc = A video player with focus on 3D and Virtual Reality
+	pkgver = 2.5
+	pkgrel = 1
+	url = https://bino3d.org/
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = cmake
+	makedepends = qt6-tools
+	depends = qt6-multimedia
+	depends = qt6-svg
+	depends = qvr
+	source = https://bino3d.org/releases/bino-2.5.tar.gz
+	source = https://bino3d.org/releases/bino-2.5.tar.gz.sig
+	validpgpkeys = 2F61B4828BBA779AECB3F32703A2A4AB1E32FD34
+	sha512sums = 3e881b2299ac2922fbb915fcac74aea889e8118e3f1a7f2ffbfbf4ff70b038d0400fee734e6c55a37db416dce77df8b9fdde0d5ed154f7d39ff85a3c45f5aff7
+	sha512sums = SKIP
+
+pkgname = bino

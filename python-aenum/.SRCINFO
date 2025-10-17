@@ -1,0 +1,16 @@
+pkgbase = python-aenum
+	pkgdesc = Advanced Enumerations (compatible with Python's stdlib Enum)
+	pkgver = 3.1.16
+	pkgrel = 1
+	url = https://pypi.org/project/aenum
+	arch = any
+	license = BSD-3-Clause
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	source = python-aenum-3.1.16.tar.gz::https://github.com/ethanfurman/aenum/archive/refs/tags/3.1.16.tar.gz
+	sha256sums = 4c7a5fb76a04ad8dc0c82b13c4cd858b755c69d16c2060a248bf3380a4d1067e
+
+pkgname = python-aenum

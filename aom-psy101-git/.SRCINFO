@@ -1,0 +1,25 @@
+pkgbase = aom-psy101-git
+	pkgdesc = Another aom psy fork
+	pkgver = 3.12.0.r127.58cf4e9818
+	pkgrel = 1
+	url = https://gitlab.com/damian101/aom-psy101
+	arch = x86_64
+	license = BSD-2-Clause
+	license = custom:PATENTS
+	makedepends = git
+	makedepends = cmake
+	makedepends = clang
+	makedepends = lld
+	makedepends = perl
+	makedepends = yasm
+	makedepends = vmaf
+	depends = gcc-libs
+	optdepends = aom-docs
+	optdepends = vmaf
+	provides = aom
+	conflicts = aom
+	replaces = aom-psy101-vmaf-git
+	source = aom-psy101::git+https://gitlab.com/damian101/aom-psy101.git
+	sha256sums = SKIP
+
+pkgname = aom-psy101-git

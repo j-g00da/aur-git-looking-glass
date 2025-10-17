@@ -1,0 +1,30 @@
+pkgbase = rockbox-zig
+        pkgdesc = Open Source high quality audio player
+        pkgver = 2025.02.16
+        pkgrel = 1
+        url = https://github.com/tsirysndr/rockbox-zig
+        arch = x86_64
+        arch = aarch64
+        license = GPL-2.0
+        makedepends = git
+        makedepends = rust
+        makedepends = zig
+        makedepends = sdl2
+        makedepends = libunwind
+        makedepends = rustup
+        makedepends = cmake
+        makedepends = protobuf
+        makedepends = gcc13
+        makedepends = make
+        makedepends = autoconf
+        makedepends = libtool
+        makedepends = zip
+        makedepends = deno
+        makedepends = alsa-lib
+        depends = sdl2
+        depends = libunwind
+        depends = alsa-lib
+        source = git+https://github.com/tsirysndr/rockbox-zig.git#tag=2025.02.16
+        sha256sums = SKIP
+
+pkgname = rockbox-zig

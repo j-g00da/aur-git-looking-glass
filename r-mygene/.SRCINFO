@@ -1,0 +1,21 @@
+pkgbase = r-mygene
+	pkgdesc = Access MyGene.Info_ services
+	pkgver = 1.44.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/mygene
+	arch = any
+	license = Artistic-2.0
+	depends = r-genomicfeatures
+	depends = r-hmisc
+	depends = r-httr
+	depends = r-jsonlite
+	depends = r-plyr
+	depends = r-s4vectors
+	depends = r-sqldf
+	depends = r-txdbmaker
+	optdepends = r-biocstyle
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/mygene_1.44.0.tar.gz
+	md5sums = c9759e4864a1cabda263352751f6a7b9
+	b2sums = 1d6ff119736e2f71629fc32ad3462432fb3f13d382d95006e7f75a1fefb6e942c97466dc9a4b436f048f33fd95fde57cac6c73d37d57209cda79d7c44b7fa982
+
+pkgname = r-mygene

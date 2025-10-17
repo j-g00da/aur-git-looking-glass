@@ -1,0 +1,26 @@
+pkgbase = lib32-lilv
+	pkgdesc = A C library interface to the LV2 plug-in standard (32-bit)
+	pkgver = 0.24.26
+	pkgrel = 1
+	url = https://drobilla.net/software/lilv.html
+	arch = x86_64
+	license = 0BSD OR ISC
+	license = ISC
+	makedepends = lib32-libsndfile
+	makedepends = meson
+	depends = lib32-glibc
+	depends = lib32-lv2
+	depends = lib32-serd
+	depends = lib32-sord
+	depends = lib32-sratom
+	depends = lib32-zix
+	depends = lilv
+	source = https://download.drobilla.net/lilv-0.24.26.tar.xz
+	source = https://download.drobilla.net/lilv-0.24.26.tar.xz.sig
+	validpgpkeys = 907D226E7E13FA337F014A083672782A9BF368F3
+	sha512sums = 3d360d63391554f62d1dd44b9ba0fc28e4ccde9640da1e28ef3f127c23c9f03974b66c5bbb83f022f18810284a0e25060127d580ca2fad6213fe88920618c2ae
+	sha512sums = SKIP
+	b2sums = 23b7a029fd40099420e9e8de222b2534b124a93f899c03c5ada27673fc47431c95866d7d4bc5f34b80110b5142e6564e95390fd56d686ac9958ad8bf71ca6033
+	b2sums = SKIP
+
+pkgname = lib32-lilv

@@ -1,0 +1,15 @@
+pkgbase = hfc
+	pkgdesc = hfc - hosts file client
+	pkgver = 0.1
+	pkgrel = 1
+	url = https://git.marlonivo.com/hfc/log.html
+	arch = x86_64
+	license = MIT
+	makedepends = gcc
+	makedepends = make
+	depends = curl
+	depends = ncurses
+	source = git+https://aur.archlinux.org/hfc.git
+	md5sums = SKIP
+
+pkgname = hfc

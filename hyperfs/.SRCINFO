@@ -1,0 +1,15 @@
+pkgbase = hyperfs
+	pkgdesc = A simple HTTP static file server
+	pkgver = 3.0.1
+	pkgrel = 1
+	url = https://github.com/tmccombs/hyperfs
+	arch = i386
+	arch = x86_64
+	license = MIT
+	makedepends = rust
+	makedepends = cargo
+	depends = gcc-libs
+	source = https://github.com/bytecurry/hyperfs/archive/v3.0.1.tar.gz
+	b2sums = c79d1026057c2b54e6e8179ae822ef9d742f93cac3613a055ba96025275efd63c0f6752ff24b557f97dca8b30687f76fa437d6056c628c1ebc1aeb6fbf82e86f
+
+pkgname = hyperfs

@@ -1,0 +1,19 @@
+pkgbase = python-pyftdi
+	pkgdesc = FTDI device driver written in pure Python
+	pkgver = 0.57.1
+	pkgrel = 1
+	url = https://github.com/eblot/pyftdi
+	arch = any
+	license = BSD-3-Clause
+	checkdepends = python-ruamel-yaml
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	depends = python-pyusb
+	depends = python-pyserial
+	source = pyftdi-0.57.1.tar.gz::https://github.com/eblot/pyftdi/archive/refs/tags/v0.57.1.tar.gz
+	sha512sums = 0f0a9115afe9fe3948edede3977a617d41884d697084b4ec1601abeb1822d4baf2c48bc46affa470fca57f92da41679049988b4defaed9fce9ce8b84bec50ac8
+
+pkgname = python-pyftdi

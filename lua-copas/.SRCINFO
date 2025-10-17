@@ -1,0 +1,44 @@
+pkgbase = lua-copas
+	pkgdesc = A dispatcher based on coroutines that can be used by TCP/IP servers
+	pkgver = 4.8.0
+	pkgrel = 1
+	url = https://lunarmodules.github.io/copas
+	arch = x86_64
+	arch = i686
+	license = MIT
+	makedepends = lua
+	makedepends = lua53
+	makedepends = lua52
+	makedepends = lua51
+	makedepends = luarocks
+	source = https://github.com/lunarmodules/copas/archive/4.8.0/copas-4.8.0.tar.gz
+	sha256sums = 8975fe3ef7bd6253208dec4b9b2390fdff3b682ce4fc9116f3bdb90a1d637291
+
+pkgname = lua-copas
+	depends = lua
+	depends = lua-binaryheap
+	depends = lua-socket
+	depends = lua-timerwheel
+	optdepends = lua-sec: secure sockets support
+
+pkgname = lua53-copas
+	depends = lua53
+	depends = lua53-binaryheap
+	depends = lua53-socket
+	depends = lua53-timerwheel
+	optdepends = lua53-sec: secure sockets support
+
+pkgname = lua52-copas
+	depends = lua52
+	depends = lua52-binaryheap
+	depends = lua52-socket
+	depends = lua52-timerwheel
+	optdepends = lua52-sec: secure sockets support
+
+pkgname = lua51-copas
+	depends = lua51
+	depends = lua51-binaryheap
+	depends = lua51-socket
+	depends = lua51-timerwheel
+	depends = lua51-coxpcall
+	optdepends = lua51-sec: secure sockets support

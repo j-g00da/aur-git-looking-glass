@@ -1,0 +1,18 @@
+pkgbase = perl-css-packer
+	pkgdesc = Perl CSS::Packer CPAN module
+	pkgver = 2.09
+	pkgrel = 1
+	url = http://search.cpan.org/dist/CSS-Packer/
+	arch = any
+	license = unknown
+	makedepends = perl-test-file-contents
+	makedepends = perl-test-memory-cycle
+	makedepends = perl-test-pod
+	depends = perl
+	depends = perl-test-simple
+	depends = perl-regexp-reggrp
+	options = !emptydirs
+	source = http://www.cpan.org/authors/id/L/LE/LEEJO/CSS-Packer-2.09.tar.gz
+	sha256sums = 6f6384f34c78ab819ac75f8167bfb259cd51cd6348ba88d62a9f27a8ca96c0be
+
+pkgname = perl-css-packer

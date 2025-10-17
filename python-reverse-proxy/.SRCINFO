@@ -1,0 +1,26 @@
+pkgbase = python-reverse-proxy
+	pkgdesc = Python reverse proxy.
+	pkgver = 0.0.10
+	pkgrel = 1
+	url = https://pypi.org/project/python-reverse-proxy
+	arch = any
+	license = MIT
+	makedepends = python-poetry
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python
+	depends = python-httpx
+	depends = python-websockets
+	depends = uvicorn
+	depends = python-blacksheep
+	depends = python-dictattr
+	provides = python-reverse-proxy
+	conflicts = python-reverse-proxy
+	options = !strip
+	options = !debug
+	source = python_reverse_proxy-0.0.10.tar.gz::https://files.pythonhosted.org/packages/source/p/python_reverse_proxy/python_reverse_proxy-0.0.10.tar.gz
+	sha256sums = 7a8434ebbd17df013415e3f6fc7b5dff88a08737a8c26e85a7a9dba04764abce
+
+pkgname = python-reverse-proxy

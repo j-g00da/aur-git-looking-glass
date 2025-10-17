@@ -1,0 +1,14 @@
+pkgbase = epson-inkjet-printer-201304j
+	pkgdesc = Epson inkjet printer driver (PX-046A)
+	pkgver = 1.0.1
+	pkgrel = 1
+	url = https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+	arch = x86_64
+	license = custom:Epson End User Software License Agreement
+	depends = epson-inkjet-printer-filter
+	depends = gcc-libs
+	depends = glibc
+	source = https://download3.ebz.epson.net/dsc/f/03/00/15/65/24/99b1460a56a76f472f8a084331b1252868b0c48c/epson-inkjet-printer-201304j-1.0.1-1.src.rpm
+	sha256sums = 0cfb325394ad2e94eca3602070f0c448f40ae0efdd06ff8ad3551a47114af2b4
+
+pkgname = epson-inkjet-printer-201304j

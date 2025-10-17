@@ -1,0 +1,22 @@
+pkgbase = easyroam-desktop-bin
+	pkgdesc = Manage and install your easyroam wifi profiles
+	pkgver = 1.4.3
+	pkgrel = 0
+	epoch = 0
+	url = https://www.easyroam.de/
+	install = .install
+	arch = x86_64
+	license = unknown
+	depends = gtk3
+	depends = lz4
+	depends = xz
+	depends = libnm
+	depends = libsecret
+	depends = webkit2gtk-4.1
+	depends = openssl
+	provides = easyroam-desktop
+	conflicts = easyroam-desktop
+	source = http://packages.easyroam.de/repos/easyroam-desktop/pool/main/e/easyroam-desktop/easyroam_connect_desktop-1.4.3%2B1.4.3-linux.deb
+	sha256sums = d373cb0144105a56803bed1c61c0a8adcd50eb0021bcb4065cdbb49aa87c2efc
+
+pkgname = easyroam-desktop-bin

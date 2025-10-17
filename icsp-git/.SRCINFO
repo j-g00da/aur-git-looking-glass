@@ -1,0 +1,12 @@
+pkgbase = icsp-git
+	pkgdesc = Command-line iCalendar (.ics) parser that converts to TSV/CSV
+	pkgver = r27.d65ab58
+	pkgrel = 2
+	url = https://github.com/loteoo/icsp
+	arch = any
+	license = MIT
+	makedepends = git
+	source = icsp::git+https://github.com/loteoo/icsp.git
+	md5sums = SKIP
+
+pkgname = icsp-git

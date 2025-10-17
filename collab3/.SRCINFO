@@ -1,0 +1,36 @@
+pkgbase = collab3
+	pkgver = 1.0.0
+	pkgrel = 4
+	url = https://github.com/augustofilocamo/superOrgan
+	arch = x86_64
+	license = EULA
+	depends = alsa-lib
+	depends = bzip2
+	depends = brotli
+	depends = freetype2
+	depends = glibc
+	depends = graphite
+	depends = harfbuzz
+	depends = krb5
+	depends = libpng
+	depends = libxau
+	depends = libxext
+	depends = libxcb
+	depends = libx11
+	depends = pcre2
+	depends = zlib
+	source = https://github.com/augustofilocamo/superOrgan/releases/download/v1.0.0/CollaB3-Installer-1.0.0.sh
+	source = collab3.png
+	source = CollaB3.desktop
+	sha256sums = 9e4c14c53ba17e9871147423016f6644f2ca366c1e8c7062e6f63a36127ed381
+	sha256sums = 8d29d2e7f50f504bd973b9abe0dbfdf4089a56caeecf309aa118d070f02d346b
+	sha256sums = a4d78c36d22d66897e3e79bc1928e5573cd74965db1cfe1ee63024c554c0f1f6
+
+pkgname = collab3-standalone-bin
+	pkgdesc = CollaB3 Tone Wheel Organ (Standalone)
+	groups = pro-audio
+
+pkgname = collab3-vst-bin
+	pkgdesc = CollaB3 Tone Wheel Organ (VST)
+	groups = pro-audio
+	groups = vst-plugins

@@ -1,0 +1,16 @@
+pkgbase = s-git
+	pkgdesc = Open a web search in your terminal.
+	pkgver = 0.5.7.r155.gc8c3d86
+	pkgrel = 1
+	url = https://github.com/zquestz/s
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = go
+	provides = s
+	conflicts = s
+	source = s-git::git+https://github.com/zquestz/s
+	md5sums = SKIP
+
+pkgname = s-git

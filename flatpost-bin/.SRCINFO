@@ -1,0 +1,24 @@
+pkgbase = flatpost-bin
+	pkgdesc = Desktop Environment agnostic flatpak-only shop gui
+	pkgver = 1.1.1
+	pkgrel = 2
+	url = https://github.com/GloriousEggroll/flatpost
+	arch = any
+	license = BSD-2-Clause AND GPL-3.0-or-later
+	depends = gdk-pixbuf2
+	depends = gtk3
+	depends = glib2
+	depends = flatpak
+	depends = hicolor-icon-theme
+	depends = python-dbus
+	depends = python-gobject
+	depends = python-requests
+	depends = python
+	depends = appstream
+	depends = xorg-xhost
+	provides = flatpost
+	conflicts = flatpost
+	source = https://github.com/GloriousEggroll/flatpost/releases/download/1.1.1/flatpost-1.1.1.fc42.rpm
+	sha256sums = 28a583a9cf61def49d46eeea14c9d7223c710a59936445b20c4a10190576ed24
+
+pkgname = flatpost-bin

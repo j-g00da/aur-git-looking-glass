@@ -1,0 +1,23 @@
+pkgbase = anime4kcpp-git
+	pkgdesc = A high performance anime upscaler
+	pkgver = v3.0.0.r4.g92a363a
+	pkgrel = 1
+	url = https://github.com/TianZerL/Anime4KCPP
+	arch = x86_64
+	license = MIT
+	license = GPL3
+	makedepends = git
+	makedepends = cmake
+	makedepends = qt6-tools
+	depends = opencv
+	depends = ocl-icd
+	depends = ffmpeg
+	depends = qt6-base
+	depends = vapoursynth
+	depends = avisynthplus
+	provides = anime4kcpp
+	conflicts = anime4kcpp
+	source = anime4kcpp::git+https://github.com/TianZerL/Anime4KCPP.git
+	sha256sums = SKIP
+
+pkgname = anime4kcpp-git

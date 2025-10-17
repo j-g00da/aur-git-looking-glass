@@ -1,0 +1,16 @@
+pkgbase = dput-ng
+	pkgdesc = Next generation Debian package upload tool
+	pkgver = 1.33
+	pkgrel = 1
+	url = https://people.debian.org/~paultag/dput-ng/
+	arch = any
+	license = GPL2
+	makedepends = python-setuptools
+	depends = python-debian
+	depends = python-distro-info
+	provides = dput
+	conflicts = dput
+	source = http://http.debian.net/debian/pool/main/d/dput-ng/dput-ng_1.33.tar.xz
+	sha256sums = d881055539a2ee70ed254398f6cb93893f4a07a6c4327adddbdbddbd136ef635
+
+pkgname = dput-ng

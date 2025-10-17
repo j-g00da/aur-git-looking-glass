@@ -1,0 +1,19 @@
+pkgbase = python-uv-dynamic-versioning
+	pkgdesc = PDynamic versioning based on VCS tags for uv/hatch project
+	pkgver = 0.11.2
+	pkgrel = 2
+	url = https://github.com/ninoseki/uv-dynamic-versioning
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python-tomlkit
+	depends = python-pydantic
+	depends = python-jinja
+	depends = python-hatchling
+	depends = python-dunamai
+	source = uv-dynamic-versioning-0.11.2.tar.gz::https://github.com/ninoseki/uv-dynamic-versioning/archive/refs/tags/v0.11.2.tar.gz
+	sha512sums = a89b7ae9dabc7e093f1fbb9ecaa71573bff597d893eb54790226416b787cbed28259ffb7066ddd345f5fb69a98416609ce38e4381bb208051efb86fc782119ed
+
+pkgname = python-uv-dynamic-versioning

@@ -1,0 +1,17 @@
+pkgbase = python-sievelib
+	pkgdesc = Client-side Sieve and Managesieve library written in Python
+	pkgver = 1.4.2
+	pkgrel = 1
+	url = https://github.com/tonioo/sievelib
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools-scm
+	makedepends = python-wheel
+	depends = python-setuptools
+	source = python-sievelib-1.4.2.tar.gz::https://files.pythonhosted.org/packages/source/s/sievelib/sievelib-1.4.2.tar.gz
+	sha256sums = 60ea0036a5514e2610e5bf561586f324e75ffd91a7209f5fb9e06b8fe28b06bb
+
+pkgname = python-sievelib

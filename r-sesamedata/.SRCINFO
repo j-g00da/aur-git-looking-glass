@@ -1,0 +1,25 @@
+pkgbase = r-sesamedata
+	pkgdesc = Supporting Data for SeSAMe Package
+	pkgver = 1.26.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/sesameData
+	arch = any
+	license = Artistic2.0
+	depends = r
+	depends = r-annotationhub
+	depends = r-experimenthub
+	depends = r-genomeinfodb
+	depends = r-genomicranges
+	depends = r-iranges
+	depends = r-readr
+	depends = r-s4vectors
+	depends = r-stringr
+	optdepends = r-biocgenerics
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-sesame
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/data/experiment/src/contrib/sesameData_1.26.0.tar.gz
+	sha256sums = 8eec3d07daacc40645c53803ecbb9b4bfba6049a11a6012937464d031fe103cf
+
+pkgname = r-sesamedata

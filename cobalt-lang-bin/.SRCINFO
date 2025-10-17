@@ -1,0 +1,14 @@
+pkgbase = cobalt-lang-bin
+	pkgdesc = A minimal, fast interpreted programming language. (prebuilt binaries)
+	pkgver = 0.10.1
+	pkgrel = 1
+	url = https://github.com/cobalt-lang/cobalt-lang
+	arch = x86_64
+	license = GPL-3.0
+	depends = glibc
+	provides = cobalt-lang
+	conflicts = cobalt-lang
+	source = https://github.com/cobalt-lang/cobalt-lang/releases/download/v0.10.1/cobalt-v0.10.1-linux-x86_64.tar.xz
+	sha256sums = b92383f413aee8fba16d91a62a43e9a7b915b9250f459b56e65905ea9dd799b7
+
+pkgname = cobalt-lang-bin

@@ -1,0 +1,18 @@
+pkgbase = vertica-client
+	pkgdesc = Client for the Vertica Analytic Database
+	pkgver = 24.2.0
+	pkgrel = 1
+	url = https://www.vertica.com/
+	install = vertica-client.install
+	arch = x86_64
+	license = custom: commercial
+	depends = java-runtime
+	depends = gcc-libs
+	depends = libxcrypt-compat
+	optdepends = java-environment: Needed for the JDBC client
+	source = https://www.vertica.com/client_drivers/24.2.x/24.2.0-1/vertica-client-24.2.0-1.x86_64.tar.gz
+	source = LICENSE.pdf::https://www.vertica.com/wp-content/uploads/2024/02/Vertica-Client-License-Agreement_Feb2023.pdf
+	sha256sums = e4b097f6a82dc27246686bbbb603411e27c2046c10d92aa6db8053c51f97eed6
+	sha256sums = 2fcc497d2d8ca9e454d300776da094bbdc959d32d5d4eaf59594b6fa748fb1eb
+
+pkgname = vertica-client

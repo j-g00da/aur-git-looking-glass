@@ -1,0 +1,17 @@
+pkgbase = libmixed
+	pkgdesc = A real-time audio processing library
+	pkgver = 2.3.1
+	pkgrel = 1
+	epoch = 0
+	url = https://github.com/shirakumo/libmixed
+	arch = i686
+	arch = x86_64
+	arch = aarch64
+	groups = pro-audio
+	license = zlib
+	license = BSD
+	options = staticlibs
+	source = https://github.com/Shirakumo/libmixed/archive/2.3.1.tar.gz
+	sha1sums = 63d11fc09d1cb71b4a7bb7286eee3e77c0d5eb56
+
+pkgname = libmixed

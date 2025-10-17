@@ -1,0 +1,16 @@
+pkgbase = live-radio-app-bin
+	pkgdesc = An Electron application with React and TypeScript.Streaming norwegian live radio.(Prebuilt version.Use system-wide electron)
+	pkgver = 1.2.1
+	pkgrel = 11
+	url = https://github.com/JesperBry/live-radio-app
+	arch = x86_64
+	license = LicenseRef-custom
+	depends = electron23
+	provides = live-radio-app=1.2.1
+	conflicts = live-radio-app
+	source = live-radio-app-1.2.1.deb::https://github.com/JesperBry/live-radio-app/releases/download/v1.2.1/radio-app_1.2.1_amd64.deb
+	source = live-radio-app.sh
+	sha256sums = 1454aaaa2bac0e6c8167bc570884165ae68602df10c2ba2b966ef0fc560307da
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = live-radio-app-bin

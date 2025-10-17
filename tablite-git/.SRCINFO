@@ -1,0 +1,21 @@
+pkgbase = tablite-git
+	pkgdesc = 🪶 An ai driven lightweight database GUI built on Tauri.
+	pkgver = r226.ec299c7
+	pkgrel = 1
+	url = https://github.com/tmg0/tablite
+	arch = any
+	license = MIT
+	makedepends = nvm
+	makedepends = git
+	makedepends = curl
+	makedepends = rust
+	makedepends = pnpm
+	depends = gtk3
+	depends = gdk-pixbuf2
+	depends = webkit2gtk-4.1
+	provides = tablite=r226.ec299c7
+	conflicts = tablite
+	source = tablite.git::git+https://github.com/tmg0/tablite.git
+	sha256sums = SKIP
+
+pkgname = tablite-git

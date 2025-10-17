@@ -1,0 +1,22 @@
+pkgbase = beyond-identity-bin
+	pkgdesc = Beyond Identity Linux authenticator (official binary)
+	pkgver = 2.104.0_4
+	pkgrel = 1
+	url = https://app.byndid.com/downloads
+	install = beyond-identity-bin.install
+	arch = x86_64
+	license = custom: commercial
+	depends = gnome-keyring
+	depends = tpm2-tss
+	depends = openssl
+	optdepends = tpm2-abrmd
+	optdepends = tpm2-tools
+	optdepends = zenity: Receive desktop notifications
+	provides = beyond-identity
+	conflicts = beyond-identity
+	backup = etc/xdg/autostart/com.beyondidentity.endpoint.pgpauth.autostart.BeyondIdentity.desktop
+	backup = etc/xdg/autostart/com.beyondidentity.endpoint.webserver.autostart.BeyondIdentity.desktop
+	source = https://packages.beyondidentity.com/public/linux-authenticator/raw/versions/2.104.0-4/beyond-identity-2.104.0-4.x86_64.tar.gz
+	sha512sums = 2663a21b83fe5f13e6a9e9b75967b83fac506f48221ead0f0808e1f6d4f245dd4da04932e4ad436394565f2d0b7cab563e1879edfe79044d93aab4d7ad88bd0d
+
+pkgname = beyond-identity-bin

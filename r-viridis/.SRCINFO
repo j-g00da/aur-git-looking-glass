@@ -1,0 +1,31 @@
+pkgbase = r-viridis
+	pkgdesc = Colorblind-Friendly Color Maps for R
+	pkgver = 0.6.5
+	pkgrel = 2
+	url = https://cran.r-project.org/package=viridis
+	arch = any
+	license = MIT
+	checkdepends = r-testthat
+	checkdepends = r-vdiffr
+	depends = r-ggplot2
+	depends = r-gridextra
+	depends = r-viridislite
+	optdepends = r-colorspace
+	optdepends = r-covr
+	optdepends = r-dichromat
+	optdepends = r-hexbin
+	optdepends = r-httr
+	optdepends = r-knitr
+	optdepends = r-mapproj
+	optdepends = r-maps
+	optdepends = r-rmarkdown
+	optdepends = r-scales
+	optdepends = r-svglite
+	optdepends = r-terra
+	optdepends = r-testthat
+	optdepends = r-vdiffr
+	source = https://cran.r-project.org/src/contrib/viridis_0.6.5.tar.gz
+	md5sums = d3379572b7c9e31148c52c8e85417d9e
+	b2sums = bdd0c26a476cc8e9c04de789ca732ca0aedaa6aca34ce1cabb9ba7b8dc24cfa8a056474bc186f5896bd2838a3d3210141be148d37b7a7664c1baf1c0bea952e0
+
+pkgname = r-viridis

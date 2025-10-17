@@ -1,0 +1,18 @@
+pkgbase = hheretic
+	pkgdesc = A Linux port of Raven Game's old shooter, Heretic (aka Hacked Heretic)
+	pkgver = 0.2.4
+	pkgrel = 1
+	url = http://hhexen.sourceforge.net/hheretic.html
+	install = hheretic.install
+	changelog = hheretic.ChangeLog
+	arch = i686
+	arch = x86_64
+	license = GPL2
+	depends = sdl_mixer
+	depends = glu
+	optdepends = timidity++: for midi music support
+	optdepends = heretic1-wad: data files from shareware version
+	source = http://downloads.sourceforge.net/hhexen/hheretic-0.2.4.tar.gz
+	sha256sums = 12572a41280953b606310647320471e132faefacb76f5645c8d6aab1b79cb2c1
+
+pkgname = hheretic

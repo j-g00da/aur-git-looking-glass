@@ -1,0 +1,16 @@
+pkgbase = neatld-git
+	pkgdesc = A simple ARM/x86(_64) static linker.
+	pkgver = r57.569a3c9
+	pkgrel = 1
+	url = http://repo.or.cz/w/ld.git
+	arch = i686
+	arch = x86_64
+	license = custom:BSD
+	makedepends = git
+	optdepends = neatcc-git: A simple ARM/x86(_64) C compiler
+	optdepends = neatas-git: A small ARM assembler
+	optdepends = neatlibc-git: A small ARM/x86(_64) libc
+	source = neatld-git::git+http://repo.or.cz/ld.git
+	md5sums = SKIP
+
+pkgname = neatld-git

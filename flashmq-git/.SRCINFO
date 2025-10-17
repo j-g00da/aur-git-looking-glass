@@ -1,0 +1,24 @@
+pkgbase = flashmq-git
+	pkgdesc = FlashMQ is a light-weight MQTT broker/server, designed to take good advantage of multi-CPU environments
+	pkgver = 1.22.0.r1.g001fe26
+	pkgrel = 1
+	url = https://github.com/halfgaar/FlashMQ
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = cmake
+	makedepends = ninja
+	makedepends = sed
+	makedepends = docbook2x
+	makedepends = libxslt
+	depends = gcc-libs
+	depends = glibc
+	depends = openssl
+	provides = flashmq
+	conflicts = flashmq
+	options = !strip
+	options = !emptydirs
+	source = flashmq::git+https://github.com/halfgaar/FlashMQ.git
+	sha256sums = SKIP
+
+pkgname = flashmq-git

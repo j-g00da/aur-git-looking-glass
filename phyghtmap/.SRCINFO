@@ -1,0 +1,17 @@
+pkgbase = phyghtmap
+	pkgdesc = Generate OSM contour lines from NASA SRTM data
+	pkgver = 2.23
+	pkgrel = 2
+	url = http://katze.tfiu.de/projects/phyghtmap/
+	arch = any
+	license = GPL2
+	makedepends = python-setuptools
+	depends = python
+	depends = python-beautifulsoup4
+	depends = python-matplotlib
+	depends = python-numpy
+	options = !emptydirs
+	source = http://katze.tfiu.de/projects/phyghtmap/phyghtmap_2.23.orig.tar.gz
+	sha256sums = 8c0eae73f1d576b0d0177357d026eee30325e1249dedc03f54ebed451cc3b013
+
+pkgname = phyghtmap

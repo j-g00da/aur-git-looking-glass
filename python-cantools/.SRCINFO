@@ -1,0 +1,30 @@
+pkgbase = python-cantools
+	pkgdesc = Python CAN bus tools in Python 3
+	pkgver = 40.7.1
+	pkgrel = 1
+	url = https://github.com/eerimoq/cantools
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	makedepends = python-setuptools-scm
+	depends = python>=3.8
+	depends = python-bitstruct>=8.16.1
+	depends = python-can>=3.3.4
+	depends = python-textparser>=0.21.1
+	depends = python-diskcache
+	depends = python-argparse-addons
+	depends = python-crccheck
+	depends = python-matplotlib
+	optdepends = mypy
+	optdepends = python-pipx
+	optdepends = python-ruff
+	optdepends = python-tox
+	provides = python-cantools
+	conflicts = python-cantools
+	source = python-cantools-40.7.1.tar.gz::https://github.com/eerimoq/cantools/archive/refs/tags/40.7.1.tar.gz
+	md5sums = 756dd10e73aacf0365e7c46b86047327
+
+pkgname = python-cantools

@@ -1,0 +1,15 @@
+pkgbase = gresg
+	pkgdesc = XML resources generator
+	pkgver = 0.6.0
+	pkgrel = 2
+	url = https://gitlab.com/esodan/gresg
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = git
+	makedepends = meson
+	makedepends = vala
+	depends = gxml
+	source = git+https://gitlab.com/gsvg/gresg.git#tag=0.6.0
+	sha256sums = SKIP
+
+pkgname = gresg

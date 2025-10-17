@@ -1,0 +1,21 @@
+pkgbase = intel-gmmlib-git
+	pkgdesc = Intel Graphics Memory Management Library (git version)
+	pkgver = 22.7.1.r3.g60304dc
+	pkgrel = 2
+	url = https://github.com/intel/gmmlib/
+	arch = x86_64
+	license = MIT
+	makedepends = cmake
+	makedepends = git
+	depends = gcc-libs
+	depends = glibc
+	provides = intel-gmmlib
+	provides = gmmlib-git
+	conflicts = intel-gmmlib
+	conflicts = gmmlib-git
+	replaces = gmmlib-git
+	options = !emptydirs
+	source = git+https://github.com/intel/gmmlib.git
+	sha256sums = SKIP
+
+pkgname = intel-gmmlib-git

@@ -1,0 +1,25 @@
+pkgbase = savvycan
+	pkgdesc = QT-based CAN bus analysis tool
+	pkgver = V220
+	pkgrel = 1
+	epoch = 1
+	url = https://github.com/collin80/SavvyCAN
+	arch = x86_64
+	arch = aarch64
+	arch = riscv64
+	license = MIT
+	makedepends = qt5-tools
+	depends = libglvnd
+	depends = glibc
+	depends = gcc-libs
+	depends = qt5-base
+	depends = qt5-serialbus
+	depends = qt5-serialport
+	depends = qt5-declarative
+	depends = hicolor-icon-theme
+	optdepends = qt5-clx000-git: clx000 loggers
+	optdepends = qt5-wayland: wayland APIs
+	source = savvycan-V220.tar.gz::https://github.com/collin80/SavvyCAN/archive/refs/tags/V220.tar.gz
+	sha256sums = 1fd00dd3d685810484e87999be65e9e81e5922a6da7f17f3d6d756452b5847bf
+
+pkgname = savvycan

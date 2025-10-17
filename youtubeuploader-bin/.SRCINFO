@@ -1,0 +1,15 @@
+pkgbase = youtubeuploader-bin
+	pkgdesc = CLI YouTube uploading utility - upload video files from local disk or from the web
+	pkgver = 1.24.4
+	pkgrel = 1
+	epoch = 1
+	url = https://github.com/porjo/youtubeuploader
+	arch = x86_64
+	license = APACHE
+	provides = youtubeuploader
+	conflicts = youtubeuploader
+	conflicts = youtubeuploader-git
+	source = youtubeuploader-bin-1.24.4.tar.gz::https://github.com/porjo/youtubeuploader/releases/download/v1.24.4/youtubeuploader_1.24.4_Linux_amd64.tar.gz
+	sha256sums = 9dca6d3b8c7fe9020ac8ebf99cdb607a9ace7ebb458f7a6b213cb813bae9207d
+
+pkgname = youtubeuploader-bin

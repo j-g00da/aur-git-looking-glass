@@ -1,0 +1,23 @@
+pkgbase = r-chipseq
+	pkgdesc = chipseq: A package for analyzing chipseq data
+	pkgver = 1.58.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/chipseq
+	arch = x86_64
+	license = Artistic2.0
+	depends = r
+	depends = r-biocgenerics
+	depends = r-genomicranges
+	depends = r-iranges
+	depends = r-s4vectors
+	depends = r-shortread
+	optdepends = r-biocstyle
+	optdepends = r-bsgenome
+	optdepends = r-bsgenome.mmusculus.ucsc.mm9
+	optdepends = r-genomicfeatures
+	optdepends = r-knitr
+	optdepends = r-txdb.mmusculus.ucsc.mm9.knowngene
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/chipseq_1.58.0.tar.gz
+	sha256sums = 9c99993a11d82ddb3d49ad39eccfefc1d9407eb7a154065fb8ec2b024a005bf1
+
+pkgname = r-chipseq

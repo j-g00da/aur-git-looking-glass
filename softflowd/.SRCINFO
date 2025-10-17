@@ -1,0 +1,13 @@
+pkgbase = softflowd
+	pkgdesc = open source netflow probe
+	pkgver = 1.1.1
+	pkgrel = 1
+	url = http://www.mindrot.org/projects/softflowd/
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = automake
+	source = https://github.com/irino/softflowd/archive/refs/tags/softflowd-v1.1.1.tar.gz
+	sha256sums = a6882e59931e5880901f8ee28d78b082cb3000ad8d28af35c13f2b528edbb2c9
+
+pkgname = softflowd

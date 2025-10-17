@@ -1,0 +1,35 @@
+pkgbase = corectrl-git
+	pkgdesc = Application to control your hardware with ease using application profiles
+	pkgver = 1.4.0.r47.g0bbf5ad
+	pkgrel = 1
+	url = https://gitlab.com/corectrl/corectrl
+	arch = i686
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = git
+	makedepends = cmake>=3.3
+	makedepends = extra-cmake-modules
+	makedepends = qt6-tools
+	depends = botan>=3.0.0
+	depends = qt6-base
+	depends = qt6-charts
+	depends = qt6-svg
+	depends = qt6-declarative
+	depends = procps-ng
+	depends = hwdata
+	depends = quazip-qt6
+	depends = dbus
+	depends = polkit
+	depends = pugixml>=1.11
+	depends = spdlog>=1.4
+	depends = fmt>=5.0
+	optdepends = vulkan-tools: for vulkaninfo
+	optdepends = mesa-utils: for glxinfo
+	optdepends = util-linux: for lscpu
+	optdepends = hicolor-icon-theme: for hicolor theme hierarchy
+	provides = corectrl
+	conflicts = corectrl
+	source = git+https://gitlab.com/corectrl/corectrl.git
+	md5sums = SKIP
+
+pkgname = corectrl-git

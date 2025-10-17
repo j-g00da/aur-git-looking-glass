@@ -1,0 +1,60 @@
+pkgbase = wxgtk-git
+	pkgdesc = GTK+3 implementation of wxWidgets API for GUI
+	pkgver = 3.3.1.r36.gd557e926b1
+	pkgrel = 2
+	url = https://github.com/wxWidgets/wxWidgets
+	arch = x86_64
+	license = LicenseRef-wxWindows_Library_Licence
+	makedepends = git
+	makedepends = cmake
+	makedepends = gst-plugins-base
+	makedepends = glu
+	makedepends = webkit2gtk-4.1
+	makedepends = libnotify
+	makedepends = qt5-base
+	makedepends = sdl2
+	makedepends = libmspack
+	makedepends = gspell
+	source = git+https://github.com/wxWidgets/wxWidgets.git
+	source = git+https://github.com/wxWidgets/Catch.git
+	source = git+https://github.com/wxWidgets/pcre.git
+	source = git+https://github.com/wxWidgets/nanosvg.git
+	source = git+https://github.com/wxWidgets/scintilla.git
+	source = wxWidgets-lexilla::git+https://github.com/wxWidgets/lexilla.git
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = wxwidgets-gtk3-git
+	pkgdesc = GTK+3 implementation of wxWidgets API for GUI
+	depends = gtk3
+	depends = gst-plugins-base-libs
+	depends = libsm
+	depends = wxwidgets-common-git
+	depends = libnotify
+	depends = libmspack
+	depends = sdl2
+	optdepends = webkit2gtk-4.1: for webview support
+	provides = wxwidgets-gtk3=3.3.1.r36.gd557e926b1
+	conflicts = wxwidgets-gtk3
+
+pkgname = wxwidgets-qt5-git
+	pkgdesc = Qt5 implementation of wxWidgets API for GUI
+	depends = qt5-base
+	depends = wxwidgets-common-git
+	depends = libmspack
+	depends = sdl2
+	depends = libtiff
+	provides = wxwidgets-qt5=3.3.1.r36.gd557e926b1
+	conflicts = wxwidgets-qt5
+
+pkgname = wxwidgets-common-git
+	pkgdesc = Common libraries and headers for wxwidgets
+	depends = expat
+	depends = pcre2
+	depends = libsecret
+	provides = wxwidgets-common
+	conflicts = wxwidgets-common

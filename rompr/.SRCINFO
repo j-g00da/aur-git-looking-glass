@@ -1,0 +1,27 @@
+pkgbase = rompr
+	pkgdesc = A php web frontend to MPD and Mopidy
+	pkgver = 2.22
+	pkgrel = 1
+	url = https://github.com/fatg3erman/RompR/
+	install = rompr.install
+	arch = any
+	license = LicenseRef-rompr
+	depends = imagemagick
+	depends = php
+	depends = php-sqlite
+	depends = php-gd
+	depends = php-intl
+	depends = python
+	depends = python-websockets
+	optdepends = apache: webserver to serve app
+	optdepends = nginx: webserver to serve app
+	optdepends = mysql: alternate database platform to sqlite
+	optdepends = atomicparsley: handle metadata in m4a podcasts
+	conflicts = rompr<2.00
+	options = emptydirs
+	backup = var/lib/rompr/albumart
+	backup = var/lib/rompr/prefs
+	source = https://github.com/fatg3erman/RompR/releases/download/2.22/rompr-2.22.zip
+	sha256sums = 3dec29f7e8ab076c76872bf85b03b1302c6881733d7907fa4842ec867a83257f
+
+pkgname = rompr

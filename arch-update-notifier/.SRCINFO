@@ -1,0 +1,18 @@
+pkgbase = arch-update-notifier
+	pkgdesc = Sends a notification to you when you have outdated packages
+	pkgver = 0.1.2
+	pkgrel = 1
+	url = https://github.com/Candygoblen123/arch-update-notifier
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = swift-language
+	makedepends = git
+	depends = glib2
+	depends = glibc
+	depends = gcc-libs
+	source = arch-update-notifier-0.1.2.tar.gz::https://github.com/Candygoblen123/arch-update-notifier/archive/0.1.2.tar.gz
+	source = arch-update-notifier.service
+	sha256sums = 3e9944a4869139dbbe98bb37995715e4b67c5fb7949f132fc63895763b889fe0
+	sha256sums = 59480ca440a70735142503410286a0707aa1f1c3428e7798ab676d836c010deb
+
+pkgname = arch-update-notifier

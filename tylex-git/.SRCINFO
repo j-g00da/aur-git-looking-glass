@@ -1,0 +1,18 @@
+pkgbase = tylex-git
+	pkgdesc = A simple, rofi/dmenu-based text expander for X11.
+	pkgver = 0.1.0
+	pkgrel = 1
+	url = https://github.com/raoeus/tylex
+	arch = any
+	license = MIT
+	depends = bash
+	depends = jq
+	depends = rofi
+	depends = dmenu
+	depends = xdotool
+	provides = tylex
+	conflicts = tylex
+	source = tylex-git::git+https://github.com/raoeus/tylex.git
+	sha256sums = SKIP
+
+pkgname = tylex-git

@@ -1,0 +1,23 @@
+pkgbase = android-x86-libxkbcommon
+	pkgdesc = Keymap handling library for toolkits and window systems (Android x86)
+	pkgver = 1.10.0
+	pkgrel = 1
+	url = https://xkbcommon.org/
+	arch = any
+	groups = android-libxkbcommon
+	license = MIT
+	makedepends = android-meson
+	makedepends = android-x86-libxcb
+	makedepends = android-x86-xorgproto
+	makedepends = android-x86-xkeyboard-config
+	makedepends = android-x86-libxml2
+	depends = android-x86-xkeyboard-config
+	depends = android-x86-libxml2
+	options = !strip
+	options = !buildflags
+	options = staticlibs
+	options = !emptydirs
+	source = https://github.com/xkbcommon/libxkbcommon/archive/refs/tags/xkbcommon-1.10.0.tar.gz
+	md5sums = fff567d6841b9127477c303f1e8deb22
+
+pkgname = android-x86-libxkbcommon

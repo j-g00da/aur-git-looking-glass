@@ -1,0 +1,13 @@
+pkgbase = nodebro
+	pkgdesc = TUI to track git tag releases on github
+	pkgver = 0.3.0
+	pkgrel = 1
+	url = https://github.com/jonaburg/nodebro
+	install = nodebro.install
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = go
+	source = nodebro-0.3.0.tar.gz::https://github.com/jonaburg/nodebro/archive/refs/tags/v0.3.0.tar.gz
+	sha256sums = ff8cd7fac004122e68502d16bb89d9ce2a3382eb49b39ad8988873586a55dbb8
+
+pkgname = nodebro

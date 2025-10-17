@@ -1,0 +1,23 @@
+pkgbase = python-optuna
+	pkgdesc = A hyperparameter optimization framework
+	pkgver = 4.4.0
+	pkgrel = 1
+	url = https://optuna.org
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	makedepends = python-build
+	makedepends = python-installer
+	depends = python
+	depends = python-alembic
+	depends = python-colorlog
+	depends = python-numpy
+	depends = python-packaging
+	depends = python-sqlalchemy
+	depends = python-tqdm
+	depends = python-pyyaml
+	source = python-optuna-4.4.0.tar.gz::https://github.com/optuna/optuna/archive/v4.4.0.tar.gz
+	sha256sums = 77dea5dd7d06ceb08a7d5b2e007244c84ba474635ed8908c30940242c8b34479
+
+pkgname = python-optuna

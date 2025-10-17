@@ -1,0 +1,20 @@
+pkgbase = alicorn-git
+	pkgdesc = A high performance custom Minecraft launcher.(Use system-wide electron)
+	pkgver = 3.0.3.r0.gcf2e857
+	pkgrel = 1
+	url = https://alc.pages.dev/
+	arch = aarch64
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = npm
+	makedepends = nvm
+	makedepends = git
+	makedepends = curl
+	makedepends = bun
+	depends = electron36
+	source = alicorn.git::git+https://github.com/Andy-K-Sparklight/Alicorn.git
+	source = alicorn.sh
+	sha256sums = SKIP
+	sha256sums = 31ad33b633744f5361abd964be306cea53ae1050e760c787115f7eca60045ae6
+
+pkgname = alicorn-git

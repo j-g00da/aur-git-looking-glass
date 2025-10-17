@@ -1,0 +1,29 @@
+pkgbase = naemon
+	pkgdesc = Network Application and Event Monitor
+	pkgver = 1.4.4
+	pkgrel = 1
+	url = https://www.naemon.io/
+	install = naemon.install
+	arch = i686
+	arch = x86_64
+	license = GPL2
+	makedepends = gperf
+	makedepends = help2man
+	makedepends = git
+	depends = icu
+	depends = glib2
+	optdepends = logrotate
+	optdepends = thruk: Web interface for Naemon
+	optdepends = naemon-livestatus: Event broker
+	optdepends = monitoring-plugins
+	backup = etc/logrotate.d/naemon
+	backup = etc/naemon/naemon.cfg
+	backup = etc/naemon/resource.cfg
+	source = naemon-git::git+https://github.com/naemon/naemon-core.git#commit=1e854668f5153aa465cecd95335338411f6aaf02
+	source = naemon-tmpfiles.conf
+	source = naemon.service
+	sha512sums = SKIP
+	sha512sums = 756e61e4da56ce614824c3b289d2ee0f4464bf5bcd868dcadbf31c3320967e0179aa6c5aedc16e4bb40c480ab2da8ab08c43e750168e86963a9cd552db01ea1d
+	sha512sums = 28944f2bd918c0718496ce490d0c2da97a127f71cfb23348620cb6c86fc88e206a07409d32dc8c9a9b5b2d1a8106b400c3e1edf3a6b7aca30ac125a38ebed3b2
+
+pkgname = naemon

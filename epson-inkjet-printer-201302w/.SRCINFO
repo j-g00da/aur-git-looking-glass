@@ -1,0 +1,14 @@
+pkgbase = epson-inkjet-printer-201302w
+	pkgdesc = Epson inkjet printer driver (XP-212, XP-213, XP-215, XP-217)
+	pkgver = 1.0.1
+	pkgrel = 1
+	url = https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+	arch = x86_64
+	license = custom:Epson End User Software License Agreement
+	depends = epson-inkjet-printer-filter
+	depends = gcc-libs
+	depends = glibc
+	source = https://download3.ebz.epson.net/dsc/f/03/00/15/64/73/d392e557b891a4dcf469eb681e16015c14b7d567/epson-inkjet-printer-201302w-1.0.1-1.src.rpm
+	sha256sums = bd495795f1d1dc0b44356cc9b7709d199dcc1f80f6008552341b79212098c6e3
+
+pkgname = epson-inkjet-printer-201302w

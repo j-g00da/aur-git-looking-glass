@@ -1,0 +1,17 @@
+pkgbase = mconf
+	pkgdesc = Parser for the mconf configuration language
+	pkgver = 1.2505.7
+	pkgrel = 1
+	epoch = 1
+	url = https://github.com/marzeq/mconf
+	arch = x86_64
+	arch = aarch64
+	license = WTFPL
+	makedepends = go
+	makedepends = git
+	provides = mconf
+	conflicts = mconf-bin
+	source = git+https://github.com/marzeq/mconf.git#tag=v1.2505.7
+	md5sums = SKIP
+
+pkgname = mconf

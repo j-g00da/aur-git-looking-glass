@@ -1,0 +1,20 @@
+pkgbase = goodvibes
+	pkgdesc = Lightweight internet radio player
+	pkgver = 0.8.2
+	pkgrel = 1
+	url = https://gitlab.com/goodvibes/goodvibes
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = meson
+	makedepends = glib2-devel
+	depends = libkeybinder3
+	depends = libsoup
+	depends = gst-plugins-base
+	depends = gst-plugins-bad
+	depends = gst-plugins-good
+	depends = gst-plugins-ugly
+	source = https://gitlab.com/goodvibes/goodvibes/-/archive/v0.8.2/goodvibes-v0.8.2.tar.gz
+	sha256sums = a5b297634f47c3788cd3528874a6268f89989e8d6a3f502d2c542ed281687082
+
+pkgname = goodvibes

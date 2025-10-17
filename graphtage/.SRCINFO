@@ -1,0 +1,20 @@
+pkgbase = graphtage
+	pkgdesc = A utility for semantically comparing and merging tree-like structures, such as JSON, XML, HTML, YAML, and CSS files.
+	pkgver = 0.3.1
+	pkgrel = 1
+	url = https://github.com/trailofbits/graphtage
+	arch = any
+	license = LGPLv3
+	makedepends = python-setuptools
+	depends = python
+	depends = python-colorama
+	depends = python-intervaltree
+	depends = python-json5>=0.9.5
+	depends = python-yaml
+	depends = python-scipy>=1.4.0
+	depends = python-tqdm
+	depends = python-typing_extensions>=3.6.5
+	source = https://github.com/trailofbits/graphtage/archive/v0.3.1.tar.gz
+	sha256sums = 0eb5b3a35488b04ac350204499f3745d82c18afc2de1ff80c3cb1919e1a7913a
+
+pkgname = graphtage

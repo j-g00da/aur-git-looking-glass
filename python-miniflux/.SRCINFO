@@ -1,0 +1,17 @@
+pkgbase = python-miniflux
+	pkgdesc = Python client for Miniflux API.
+	pkgver = 1.1.4
+	pkgrel = 1
+	url = https://github.com/miniflux/python-client
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-setuptools
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python
+	depends = python-requests
+	source = python-miniflux-1.1.4.tar.gz::https://github.com/miniflux/python-client/archive/refs/tags/1.1.4.tar.gz
+	sha512sums = c9ae73d9efe74331587e18673c527d8364abe3b28c77b8cd5dcace952c65149610b45423d89aac1d8f7c92a61f39a1a59eb314f1f19ebf3f8ea07e1577877cd7
+
+pkgname = python-miniflux

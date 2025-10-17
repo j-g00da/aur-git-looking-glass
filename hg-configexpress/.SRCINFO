@@ -1,0 +1,16 @@
+pkgbase = hg-configexpress
+	pkgdesc = Mercurial extension to monitor and enforce client configuration from a server
+	pkgver = 0.4.0
+	pkgrel = 1
+	url = https://wiki.mercurial-scm.org/ConfigExpressExtension
+	arch = any
+	license = GPL-2.0-or-later
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = mercurial
+	source = https://files.pythonhosted.org/packages/source/h/hg-configexpress/hg-configexpress-0.4.0.tar.gz
+	sha512sums = 2cdefd13d4b9b53a2447c93e7813279a437fdbdf2d8ab57bcbd3eb651c91026ff214969d8041def9b276e98827132f8a9ee16e9dd0f5825eb9880b5bd6890e43
+
+pkgname = hg-configexpress

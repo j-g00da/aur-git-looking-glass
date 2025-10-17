@@ -1,0 +1,19 @@
+pkgbase = python-sdbus
+	pkgdesc = Modern Python library for D-Bus
+	pkgver = 0.14.1
+	pkgrel = 1
+	url = https://github.com/python-sdbus/python-sdbus
+	arch = x86_64
+	license = LGPL-2.1-or-later
+	makedepends = git
+	makedepends = python-poetry
+	makedepends = python-setuptools
+	depends = glibc
+	depends = systemd-libs
+	depends = python
+	optdepends = python-jinja: for code generator
+	optdepends = python-sphinx: for autodoc
+	source = python-sdbus-0.14.1.tar.gz::https://github.com/python-sdbus/python-sdbus/archive/0.14.1.tar.gz
+	sha256sums = 691af2fdd3f0dc8c8d52dae819d0ba1c839d675b48433b169dfe54d8cf45bcf9
+
+pkgname = python-sdbus

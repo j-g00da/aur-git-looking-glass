@@ -1,0 +1,18 @@
+pkgbase = ruby-railties
+	pkgdesc = Tools for creating, working with, and running Rails applications
+	pkgver = 8.0.2
+	pkgrel = 3
+	url = https://rubyonrails.org
+	arch = any
+	license = MIT
+	depends = ruby
+	depends = ruby-actionpack
+	depends = ruby-activesupport
+	depends = ruby-method_source
+	depends = ruby-rake
+	depends = ruby-thor
+	options = !emptydirs
+	source = https://github.com/rails/rails/archive/v8.0.2/rails-8.0.2.tar.gz
+	sha512sums = d359714b510efe2876b8c800cc1faba517f5586c50c755428b73bf8e659ba915d10390c9992bb2b6915b229ce86a801862d26bbd43be965e081cdb12c9bb8e21
+
+pkgname = ruby-railties

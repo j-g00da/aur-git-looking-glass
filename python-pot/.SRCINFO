@@ -1,0 +1,22 @@
+pkgbase = python-pot
+	pkgdesc = Python Optimal Transport Library
+	pkgver = 0.9.6.post1
+	pkgrel = 1
+	url = https://github.com/PythonOT/POT
+	arch = x86_64
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	makedepends = cython
+	depends = python-scipy
+	optdepends = python-autograd: necessary to use `ot.dr`
+	optdepends = python-cupy: necessary to use `ot.gpu`
+	optdepends = python-jax: necessary to use `ot.lp`
+	optdepends = python-tensorflow: necessary to use `ot.lp`
+	optdepends = python-pymanopt: necessary to use `ot.dr`
+	source = POT-0.9.6.post1.tar.gz::https://github.com/PythonOT/POT/archive/0.9.6.post1.tar.gz
+	sha512sums = 68cdec944ccce42d65be9fc7951782af3f82b48f8ff55c18bc959b0590362bec4c2b34fe1b1f5a8bc711189de6b8ae4b024d330bd9008e0688df078e288af28e
+
+pkgname = python-pot

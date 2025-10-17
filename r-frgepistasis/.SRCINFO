@@ -1,0 +1,13 @@
+pkgbase = r-frgepistasis
+	pkgdesc = Epistasis Analysis for Quantitative Traits by Functional Regression Model
+	pkgver = 1.44.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/FRGEpistasis
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-fda
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/FRGEpistasis_1.44.0.tar.gz
+	sha256sums = 70daf82f50576b55328d49e66c3fdb315a1f41e73f2c2cf6f67767f1efa6c003
+
+pkgname = r-frgepistasis

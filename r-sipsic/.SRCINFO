@@ -1,0 +1,16 @@
+pkgbase = r-sipsic
+	pkgdesc = Calculate Pathway Scores for Each Cell in scRNA-Seq Data
+	pkgver = 1.8.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/SiPSiC
+	arch = any
+	license = GPL-3.0-only
+	depends = r-singlecellexperiment
+	optdepends = r-biocstyle
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/SiPSiC_1.8.0.tar.gz
+	md5sums = 8c95192faf1e3540fcdfa7a45c0a0e14
+	b2sums = 72b162bee78f0c79ec8cf75fe97889c81bbd1d85b047db71bb8e003c34febab52e748ee6237931a9e5afde0291e1f1d2ce96ed216358f46874d433c97fd22d1b
+
+pkgname = r-sipsic

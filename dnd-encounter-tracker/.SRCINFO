@@ -1,0 +1,13 @@
+pkgbase = dnd-encounter-tracker
+	pkgdesc = DnD 5e CLI-based combat encounter tracker
+	pkgver = 1.1.0
+	pkgrel = 1
+	url = https://github.com/Glitch-Gecko/dnd-encounter-tracker
+	arch = x86_64
+	license = MIT
+	provides = dnd-encounter-tracker
+	conflicts = dnd-encounter-tracker
+	source = https://github.com/Glitch-Gecko/dnd-encounter-tracker/releases/download/v1.1.0/dnd-encounter-tracker-1.1.0-x86_64.tar.gz
+	sha256sums = b64f4cc8413672afb2e2bdb1166c3f8f3b4289b1ab71e3a6a30ff9d42ba96a4c
+
+pkgname = dnd-encounter-tracker-bin

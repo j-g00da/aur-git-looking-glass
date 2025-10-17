@@ -1,0 +1,26 @@
+pkgbase = kcompletion-git
+	pkgdesc = Text completion helpers and widgets
+	pkgver = 6.0.0_r630.ge527200
+	pkgrel = 1
+	url = https://community.kde.org/Frameworks
+	arch = x86_64
+	groups = kf6-git
+	license = LGPL-2.0-only
+	license = LGPL-3.0-only
+	makedepends = git
+	makedepends = doxygen
+	makedepends = extra-cmake-modules-git
+	makedepends = qt6-doc
+	makedepends = qt6-tools
+	depends = gcc-libs
+	depends = glibc
+	depends = kcodecs-git
+	depends = kconfig-git
+	depends = kwidgetsaddons-git
+	depends = qt6-base
+	provides = kcompletion
+	conflicts = kcompletion
+	source = git+https://github.com/KDE/kcompletion.git
+	sha256sums = SKIP
+
+pkgname = kcompletion-git

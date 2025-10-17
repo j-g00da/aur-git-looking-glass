@@ -1,0 +1,24 @@
+pkgbase = python-lottie
+	pkgdesc = A Python framework to work with Lottie files and Telegram animated stickers.
+	pkgver = 0.7.1
+	pkgrel = 1
+	url = https://pypi.org/project/lottie
+	arch = any
+	groups = efb
+	license = AGPL
+	makedepends = python-setuptools
+	depends = python
+	optdepends = python-pillow
+	optdepends = python-glaxnimate
+	optdepends = python-numpy
+	optdepends = python-cairosvg
+	optdepends = python-fonttools
+	optdepends = python-opencv
+	optdepends = python-grapheme
+	optdepends = python-qscintilla-qt5
+	optdepends = python-coverage
+	replaces = python-tgs
+	source = https://files.pythonhosted.org/packages/source/l/lottie/lottie-0.7.1.tar.gz
+	sha512sums = 1857e626105f8e25afd18fb79ede344a66084f9028ca9a625d03a06426d84b986b036cc55e20a8a4b9bd2ea66a610ed65a68822f7a1743c3b787df51edc2588b
+
+pkgname = python-lottie

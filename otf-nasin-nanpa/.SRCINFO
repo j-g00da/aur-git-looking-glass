@@ -1,0 +1,13 @@
+pkgbase = otf-nasin-nanpa
+	pkgdesc = A font for the sitelen pona writing system with UCSUR and ligature support
+	pkgver = 4.0.2
+	pkgrel = 1
+	url = https://github.com/ETBCOR/nasin-nanpa
+	arch = any
+	license = MIT
+	source = https://github.com/ETBCOR/nasin-nanpa/releases/download/n4.0.2/nasin-nanpa-4.0.2.otf
+	source = https://github.com/ETBCOR/nasin-nanpa/raw/n4.0.2/LICENSE
+	sha256sums = 7963dc154a34c84dabe1c2f793214171d1e9d1104a505de4818a95e41e79c343
+	sha256sums = 2bb13a795d1d7f6df0288e228f29e4250e6a0e9b11f90044a737cc024002d6ab
+
+pkgname = otf-nasin-nanpa

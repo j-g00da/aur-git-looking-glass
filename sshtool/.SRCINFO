@@ -1,0 +1,17 @@
+pkgbase = sshtool
+	pkgdesc = Interactive SSH session manager with GPG-encrypted config support
+	pkgver = 0.1.1
+	pkgrel = 1
+	url = https://github.com/hanashiko/sshtool
+	arch = any
+	license = MIT
+	depends = python
+	depends = gnupg
+	depends = fzf
+	optdepends = sshpass: for password-based SSH
+	optdepends = mosh: for mosh support
+	optdepends = tmate: for tmate support
+	source = sshtool-0.1.1.tar.gz::https://github.com/hanashiko/sshtool/archive/v0.1.1.tar.gz
+	sha256sums = ee6762076c6f1c2cbef31fa85321dc75744047948359869251696b59c818e7fb
+
+pkgname = sshtool

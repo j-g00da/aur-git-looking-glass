@@ -1,0 +1,33 @@
+#Maintainer: sukanka <su975853527 AT gmail.com>
+_pkgname=jaspEquivalenceTTests
+_pkgver=0.95.3
+pkgname=r-${_pkgname,,}
+pkgver=0.95.3
+pkgrel=1
+pkgdesc="Equivalence T-Tests Module for JASP"
+arch=('any')
+url="https://github.com/jasp-stats/${_pkgname}"
+license=('GPL')
+depends=(r
+  r-bayesfactor
+  r-ggplot2
+  r-jaspbase
+  r-jaspgraphs
+  r-metabma
+  r-toster
+  r-jaspttests
+)
+groups=(r-jasp r-jaspextra)
+source=("${_pkgname}_${_pkgver}.tar.gz::${url}/archive/refs/tags/v${_pkgver}.tar.gz")
+sha256sums=('9b6c37c6e7360d9f90e1befd683e9bc28a042f960063e2ee7af748dcd191d8b1')
+
+
+build() {
+
+  R CMD INSTALL ${_pkgname}_${_pkgver}.tar.gz -l "${srcdir}"
+}
+
+package() {
+  install -dm0755 "${pkgdir}/usr/lib/R/library"
+  cp -a --no-preserve=ownership "${_pkgname}" "${pkgdir}/usr/lib/R/library"
+}

@@ -1,0 +1,21 @@
+pkgbase = libkcapi
+	pkgdesc = Linux Kernel Crypto API User Space Interface Library
+	pkgver = 1.5.0
+	pkgrel = 1
+	url = http://www.chronox.de/libkcapi.html
+	arch = i686
+	arch = x86_64
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = BSD
+	license = GPL2
+	makedepends = autoconf
+	makedepends = automake
+	makedepends = m4
+	makedepends = make
+	makedepends = pkg-config
+	source = https://github.com/smuellerDD/libkcapi/archive/refs/tags/v1.5.0.tar.gz
+	sha256sums = f1d827738bda03065afd03315479b058f43493ab6e896821b947f391aa566ba0
+
+pkgname = libkcapi

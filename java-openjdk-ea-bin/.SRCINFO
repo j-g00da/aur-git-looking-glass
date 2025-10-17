@@ -1,0 +1,26 @@
+pkgbase = java-openjdk-ea-bin
+	pkgdesc = Java OpenJDK 26 Early-Access Build
+	pkgver = 26b19
+	pkgrel = 1
+	url = https://jdk.java.net/26
+	arch = x86_64
+	arch = aarch64
+	license = GPL2
+	depends = java-environment-common>=3
+	depends = java-runtime-common>=3
+	depends = ca-certificates-utils
+	depends = nss
+	depends = libxrender
+	depends = libxtst
+	depends = alsa-lib
+	depends = freetype2
+	provides = java-environment=26
+	provides = java-environment-openjdk=26
+	provides = java-runtime=26
+	provides = java-runtime-openjdk=26
+	provides = java-runtime-headless=26
+	provides = java-runtime-headless-openjdk=26
+	source = https://download.java.net/java/early_access/jdk26/19/GPL/openjdk-26-ea+19_linux-x64_bin.tar.gz
+	sha256sums = 9a89dcca644d59f40b82f6712c854e416d5b5fe80808c40868e1ba2d6d8e1e9e
+
+pkgname = java-openjdk-ea-bin

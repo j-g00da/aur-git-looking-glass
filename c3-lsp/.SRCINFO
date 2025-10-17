@@ -1,0 +1,18 @@
+pkgbase = c3-lsp
+	pkgdesc = Language Server for the C3 language.
+	pkgver = 0.4.0
+	pkgrel = 1
+	url = https://github.com/pherrymason/c3-lsp
+	arch = x86_64
+	arch = i686
+	arch = pentium4
+	arch = armv7h
+	arch = aarch64
+	license = GPL-3.0-only
+	makedepends = make
+	makedepends = go
+	depends = glibc
+	source = c3-lsp-0.4.0.tar.gz::https://github.com/pherrymason/c3-lsp/archive/refs/tags/v0.4.0.tar.gz
+	sha512sums = 8257448114e9bfd9d497956f8b15437a69a41ea40e844f97998f4920ed8ebb47b68f8cc5964f6b6d11c80fbf51c4cc4633b1c272dc020a85699eca732d5e39bf
+
+pkgname = c3-lsp

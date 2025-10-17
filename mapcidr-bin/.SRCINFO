@@ -1,0 +1,23 @@
+pkgbase = mapcidr-bin
+	pkgdesc = Utility program to perform multiple operations for a given subnet/CIDR ranges
+	pkgver = 1.1.96
+	pkgrel = 1
+	url = https://github.com/projectdiscovery/mapcidr
+	arch = aarch64
+	arch = armv7h
+	arch = i686
+	arch = x86_64
+	license = MIT
+	depends = glibc
+	provides = mapcidr
+	conflicts = mapcidr
+	source_aarch64 = mapcidr-1.1.96-aarch64.zip::https://github.com/projectdiscovery/mapcidr/releases/download/v1.1.96/mapcidr_1.1.96_linux_arm64.zip
+	sha256sums_aarch64 = 81fcff676f2cbcdac788e5a3d8c3b8992fabe1914a528c5d3aea3cbafeba64f8
+	source_armv7h = mapcidr-1.1.96-armv7h.zip::https://github.com/projectdiscovery/mapcidr/releases/download/v1.1.96/mapcidr_1.1.96_linux_arm.zip
+	sha256sums_armv7h = 4723b4283d0efc2cc223e066f7cad13be78441cbe53a9b7391237ecc372fc9d3
+	source_i686 = mapcidr-1.1.96-i686.zip::https://github.com/projectdiscovery/mapcidr/releases/download/v1.1.96/mapcidr_1.1.96_linux_386.zip
+	sha256sums_i686 = 21fc1fce302312753cf9598643bc12fc9f028e22207c78dd07f069ec6aaf4b7d
+	source_x86_64 = mapcidr-1.1.96-x86_64.zip::https://github.com/projectdiscovery/mapcidr/releases/download/v1.1.96/mapcidr_1.1.96_linux_amd64.zip
+	sha256sums_x86_64 = 3118f4ab5c1863881982117746c5140642335b80d03540143182881b1f175267
+
+pkgname = mapcidr-bin

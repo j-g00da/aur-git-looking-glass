@@ -1,0 +1,20 @@
+pkgbase = python-sparklines
+	pkgdesc = Text-based sparkline command line mimicking those of Edward Tufte
+	pkgver = 0.7.0
+	pkgrel = 1
+	url = https://github.com/deeplook/sparklines
+	changelog = python-sparklines.changelog
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python
+	depends = python-termcolor
+	provides = python-sparklines
+	provides = sparklines
+	conflicts = sparklines
+	source = https://pypi.org/packages/source/s/sparklines/sparklines-0.7.0.tar.gz
+	sha256sums = efd2ff5126dac53ea4212c1e225f286beaf1907b35204465b65010db2eec4b2a
+
+pkgname = python-sparklines

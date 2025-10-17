@@ -1,0 +1,19 @@
+pkgbase = contextpilot
+	pkgdesc = Analyze Git blame information, infer code context, and index your codebase for deep, fine-grained search and navigation.
+	pkgver = 0.9.2
+	pkgrel = 1
+	url = https://github.com/krshrimali/context-pilot-rs
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = rust
+	depends = git
+	optdepends = neovim: For neovim integration
+	optdepends = visual-studio-code-bin: For VSCode integration
+	provides = contextpilot
+	conflicts = contextpilot
+	replaces = context-pilot
+	source = contextpilot-0.9.2.tar.gz::https://github.com/krshrimali/context-pilot-rs/archive/v0.9.2.tar.gz
+	sha256sums = 2e6fc7aea5df34075291e3ec93b7936f782237c8580a5cae7a8b716b8da4c9c3
+
+pkgname = contextpilot

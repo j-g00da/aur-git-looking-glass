@@ -1,0 +1,17 @@
+pkgbase = open-tv-bin
+	pkgdesc = Fast and powerful IPTV app
+	pkgver = 1.8.3
+	pkgrel = 1
+	url = https://github.com/fredolx/open-tv
+	arch = x86_64
+	license = GPL2
+	depends = mpv
+	depends = yt-dlp
+	depends = webkit2gtk-4.1
+	depends = ffmpeg
+	depends = libayatana-appindicator
+	options = !emptydirs
+	source = https://github.com/Fredolx/open-tv/releases/download/v1.8.3/Open.TV_1.8.3_amd64.deb
+	sha512sums = cea88973696c388380955fbc9ff85193a0e4619c2a1f3c17a2aa78977508d123879224671815f6be01852ad546ff4eff94ece3052fd4d250064ef71687433b40
+
+pkgname = open-tv-bin

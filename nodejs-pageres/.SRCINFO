@@ -1,0 +1,18 @@
+pkgbase = nodejs-pageres
+	pkgdesc = Get screenshots of websites in different resolutions
+	pkgver = 8.0.0
+	pkgrel = 1
+	epoch = 2
+	url = https://github.com/sindresorhus/pageres-cli
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = npm
+	depends = nodejs
+	noextract = pageres-cli-8.0.0.tgz
+	source = https://registry.npmjs.org/pageres-cli/-/pageres-cli-8.0.0.tgz
+	source = LICENSE
+	sha256sums = 374d48e72f1a16938b6c9b2d5fa6d1708c07685c2062024f8a47b124af7ea76c
+	sha256sums = 48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0
+
+pkgname = nodejs-pageres

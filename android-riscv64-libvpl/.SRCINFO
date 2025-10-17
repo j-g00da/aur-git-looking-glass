@@ -1,0 +1,21 @@
+pkgbase = android-riscv64-libvpl
+	pkgdesc = Intel Video Processing Library (Android riscv64)
+	pkgver = 2.15.0
+	pkgrel = 1
+	url = https://intel.github.io/libvpl/
+	arch = any
+	groups = android-libvpl
+	license = MIT
+	makedepends = android-cmake
+	makedepends = android-riscv64-libpciaccess
+	depends = android-riscv64-libdrm
+	depends = android-riscv64-libva
+	depends = android-riscv64-libx11
+	options = !strip
+	options = !buildflags
+	options = staticlibs
+	options = !emptydirs
+	source = https://github.com/intel/libvpl/archive/v2.15.0/libvpl-2.15.0.tar.gz
+	md5sums = 33da503f11d6f0aa795f8fe9c249dab8
+
+pkgname = android-riscv64-libvpl

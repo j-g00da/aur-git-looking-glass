@@ -1,0 +1,20 @@
+pkgbase = journal-git
+	pkgdesc = Note-taking and tasks management tool
+	pkgver = r31.a521775
+	pkgrel = 1
+	url = https://github.com/danisztls/journal
+	arch = any
+	license = GPL3
+	makedepends = git
+	makedepends = make
+	depends = bash
+	depends = ripgrep
+	depends = sed
+	depends = fd
+	depends = fzf
+	depends = bat
+	provides = journal
+	source = git+https://github.com/danisztls/journal.git#branch=main
+	sha512sums = SKIP
+
+pkgname = journal-git

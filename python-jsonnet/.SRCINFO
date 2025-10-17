@@ -1,0 +1,15 @@
+pkgbase = python-jsonnet
+	pkgdesc = Python bindings for Google's Jsonnet - The data templating language
+	pkgver = 0.21.0.rc1
+	pkgrel = 1
+	url = https://github.com/google/jsonnet
+	arch = i686
+	arch = x86_64
+	license = Apache
+	makedepends = python-build
+	makedepends = python-installer
+	depends = python
+	source = https://github.com/google/jsonnet/archive/v0.21.0-rc1.tar.gz
+	sha512sums = f019ab7558ac80fa277263142ed73e73e5d97db4d6229603fe0b1817302a8e29f71855daaa79e6e65bcb1dadec71d689bbd150cc1848e567657835e6311a9f82
+
+pkgname = python-jsonnet

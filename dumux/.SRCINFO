@@ -1,0 +1,24 @@
+pkgbase = dumux
+	pkgdesc = An open-source simulator and research code in modern C++
+	pkgver = 3.10.0
+	pkgrel = 2
+	url = https://dumux.org
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = doxygen
+	makedepends = graphviz
+	makedepends = python-scikit-build
+	depends = dune-grid>=2.10.0
+	depends = dune-istl>=2.10.0
+	depends = dune-localfunctions>=2.10.0
+	optdepends = dune-alugrid: for grid manager ALUGrid support
+	optdepends = dune-foamgrid: for grid manager FoamGrids support
+	optdepends = dune-functions: for functions spaces support
+	optdepends = opm-grid: for cornerpoint grid support
+	optdepends = dune-subgrid: for grid manager SubGrid support
+	optdepends = dune-spgrid: for grid manager SPGrid support
+	optdepends = dune-mmesh: for grid manager MMesh support
+	source = https://git.iws.uni-stuttgart.de/dumux-repositories/dumux/-/archive/3.10.0/dumux-3.10.0.tar.gz
+	sha512sums = 4f285e359fc999949ec347390bcc6feb5c291d10e974a720d1f1468a771177d231240da6094c2fa3941adb799ccd097fc58376c20fc7d0fd9518fa21ef0f6f01
+
+pkgname = dumux

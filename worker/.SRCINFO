@@ -1,0 +1,21 @@
+pkgbase = worker
+	pkgdesc = A file manager for the X Window System
+	pkgver = 5.2.2
+	pkgrel = 1
+	url = http://www.boomerangsworld.de/worker
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = libxt
+	depends = avfs
+	depends = gcc-libs
+	depends = libx11
+	depends = file
+	depends = xorgproto
+	source = http://www.boomerangsworld.de/cms/worker/downloads/worker-5.2.2.tar.bz2
+	source = http://www.boomerangsworld.de/cms/worker/downloads/worker-5.2.2.tar.bz2.asc
+	validpgpkeys = F9299EE90A729029E71AF26B667132D0FBC52B37
+	sha512sums = 133e5134e1acae7509ef753d6c8a989a02819857dac5f6b604798a7261d908b1dc168e5854c3fd663c607cc3b6f2ad88c4272d6f4c99d276857053f27b5f7897
+	sha512sums = 8fbcd35b9430a870565356232dfef261bc6077ac157abc184481780b62cd9fef0c3129548b66866e345ad77c350bdb462bddf78190672c705226843695aa7a68
+
+pkgname = worker

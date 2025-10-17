@@ -1,0 +1,13 @@
+pkgbase = ii
+	pkgdesc = A minimalist FIFO and filesystem-based IRC client
+	pkgver = 2.0
+	pkgrel = 1
+	url = http://tools.suckless.org/ii
+	arch = i686
+	arch = x86_64
+	license = MIT
+	depends = glibc
+	source = http://dl.suckless.org/tools/ii-2.0.tar.gz
+	md5sums = 14a03b30ea4a7259820882d483c5c727
+
+pkgname = ii

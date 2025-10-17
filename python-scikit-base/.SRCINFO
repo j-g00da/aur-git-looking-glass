@@ -1,0 +1,19 @@
+pkgbase = python-scikit-base
+	pkgdesc = Base classes for sklearn-like parametric objects
+	pkgver = 0.12.4
+	pkgrel = 1
+	url = https://github.com/sktime/skbase
+	arch = any
+	license = BSD-3-Clause
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python
+	depends = python-numpy
+	depends = python-scipy
+	depends = python-scikit-learn
+	depends = python-numba
+	noextract = scikit_base-0.12.4-py3-none-any.whl
+	source = https://files.pythonhosted.org/packages/py3/s/scikit-base/scikit_base-0.12.4-py3-none-any.whl
+	sha256sums = ebb5338813433c86153f22e58d698061eb5442c94313ef4e6ab5c2732b6ab08f
+
+pkgname = python-scikit-base

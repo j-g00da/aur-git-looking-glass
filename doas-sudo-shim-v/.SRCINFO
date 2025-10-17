@@ -1,0 +1,18 @@
+pkgbase = doas-sudo-shim-v
+	pkgdesc = Sudo wrapper which wields doas (includes -k flag and -v flag to ensure makepkg and yay compatibility!)
+	pkgver = 0.1.2v
+	pkgrel = 1
+	url = https://github.com/Enovale/doas-sudo-shim
+	arch = any
+	license = ISC
+	depends = awk
+	depends = doas
+	depends = sh
+	optdepends = asciidoctor: manpage generator
+	provides = sudo
+	conflicts = sudo
+	conflicts = doas-sudo-shim
+	source = doas-sudo-shim-0.1.2v.tar.gz::https://github.com/Enovale/doas-sudo-shim/archive/refs/tags/v0.1.2v.tar.gz
+	sha256sums = ef8af8e1992ec497763c2922b079c49cd64e3d0151b0d112010d8c57299ddc74
+
+pkgname = doas-sudo-shim-v

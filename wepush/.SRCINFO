@@ -1,0 +1,17 @@
+pkgbase = wepush
+	pkgdesc = 专注批量推送的小而美的工具
+	pkgver = 5.0.5
+	pkgrel = 1
+	url = https://rememberber.github.io/WePush/
+	arch = any
+	license = MIT
+	makedepends = patch
+	makedepends = maven
+	makedepends = java-environment=21
+	depends = java-runtime
+	source = wepush-5.0.5.tar.gz::https://github.com/rememberber/WePush/archive/refs/tags/v5.0.5.tar.gz
+	source = 0001-fix-maven-compiler-with-lombok.patch
+	sha256sums = ca8b351cc8967c666098c8a9a12c26efac6c23a6ccdcd2ba90b8eb4106faf70d
+	sha256sums = 27b8a432559ca575f183ecf1b9c2c21a79bb11e156d49f609086c219e1b43b28
+
+pkgname = wepush

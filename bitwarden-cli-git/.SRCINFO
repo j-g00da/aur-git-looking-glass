@@ -1,0 +1,18 @@
+pkgbase = bitwarden-cli-git
+	pkgdesc = Bitwarden Command-line Interface
+	pkgver = 2024.2.2.r100.b37ba717122
+	pkgrel = 1
+	url = https://github.com/bitwarden/clients/tree/master/apps/cli
+	arch = x86_64
+	license = GPL3
+	makedepends = git
+	makedepends = npm
+	makedepends = modclean
+	depends = nodejs-lts-hydrogen
+	provides = bitwarden-cli
+	conflicts = bitwarden-cli
+	options = !emptydirs
+	source = bitwarden-cli::git+https://github.com/bitwarden/clients.git
+	b2sums = SKIP
+
+pkgname = bitwarden-cli-git

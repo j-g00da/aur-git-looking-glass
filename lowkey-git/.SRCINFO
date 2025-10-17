@@ -1,0 +1,20 @@
+pkgbase = lowkey-git
+	pkgdesc = A customizable battery notification daemon
+	pkgver = r10.c2552b7
+	pkgrel = 1
+	url = https://github.com/ZaneFerns360/lowkey
+	arch = x86_64
+	license = MIT
+	makedepends = cmake
+	makedepends = git
+	makedepends = boost
+	depends = boost-libs
+	depends = libnotify
+	optdepends = dunst: Lightweight and customizable notification daemon
+	optdepends = mako: Lightweight notification daemon for Wayland
+	provides = lowkey
+	conflicts = lowkey
+	source = git+https://github.com/ZaneFerns360/lowkey.git
+	sha256sums = SKIP
+
+pkgname = lowkey-git

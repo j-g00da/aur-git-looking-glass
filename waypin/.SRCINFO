@@ -1,0 +1,16 @@
+pkgbase = waypin
+	pkgdesc = A clipboard viewer for Wayland/X11 with GTK3, written in Rust
+	pkgver = 0.1.6
+	pkgrel = 1
+	url = https://github.com/xxanqw/waypin
+	arch = x86_64
+	license = GPL3
+	makedepends = cargo
+	makedepends = git
+	depends = gtk3
+	depends = gdk-pixbuf2
+	depends = wl-clipboard
+	source = git+https://github.com/xxanqw/waypin.git#branch=main
+	sha256sums = SKIP
+
+pkgname = waypin

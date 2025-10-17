@@ -1,0 +1,12 @@
+pkgbase = meshcmd-bin
+	pkgdesc = A command line tool for performing many Intel AMT management operations
+	pkgver = 1.1.46
+	pkgrel = 1
+	url = https://www.meshcommander.com/meshcommander/meshcmd
+	arch = x86_64
+	license = Apache-2.0
+	depends = glibc
+	source = meshcmd::https://alt.meshcentral.com/meshagents?meshcmd=6
+	b2sums = 7b3ccabb29faa6e8204494f33c8f30f4251299791bc8382b2186a9c382c4956464d2eb8a5fe31b48d3cfade82d6621f803e1aa8481bcdae821cb59bcf5e737b3
+
+pkgname = meshcmd-bin

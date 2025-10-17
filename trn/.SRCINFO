@@ -1,0 +1,22 @@
+pkgbase = trn
+	pkgdesc = Text-based threaded Usenet newsreader
+	pkgver = 4.0test77
+	pkgrel = 8
+	url = http://trn.sourceforge.net/
+	arch = i686
+	arch = x86_64
+	license = LicenseRef-trn
+	makedepends = patch
+	makedepends = expect
+	makedepends = bison
+	depends = ncurses
+	depends = libnsl
+	depends = libnet
+	optdepends = aspell: spellcheck support
+	optdepends = sendmail: (or any outgoing mailer) outgoing email support
+	source = http://downloads.sourceforge.net/trn/trn-4.0-test77.tar.gz
+	source = trn-4.0-test77-aur.patch
+	sha256sums = 9ab0430244903ad86ed74fcc2fdc39dc043d23968888e071313050a967b8a6ff
+	sha256sums = 137770df753c476b0028b47ff83c7bad3ad68196b105a6d49ab609514ebf97b8
+
+pkgname = trn

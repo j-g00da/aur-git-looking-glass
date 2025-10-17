@@ -1,0 +1,21 @@
+pkgbase = shpool
+	pkgdesc = Think tmux, then aim... lower
+	pkgver = 0.9.2
+	pkgrel = 1
+	url = https://github.com/shell-pool/shpool
+	arch = i686
+	arch = x86_64
+	arch = armv7h
+	arch = aarch64
+	license = Apache-2.0
+	checkdepends = fish
+	checkdepends = less
+	checkdepends = zsh
+	checkdepends = procps-ng
+	makedepends = cargo
+	depends = glibc
+	depends = gcc-libs
+	source = shpool-0.9.2.tar.gz::https://github.com/shell-pool/shpool/archive/v0.9.2.tar.gz
+	sha512sums = 9173fbf4a47474971de4ba183f516ef6ce1323538f112577ac1a83df5ec75910494da94b1f9a656ea5959bb446ba2802129c5991e46cced5e23bb4a04d38a166
+
+pkgname = shpool

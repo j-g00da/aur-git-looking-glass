@@ -1,0 +1,20 @@
+pkgbase = colorpick-git
+	pkgdesc = Color picker and contrast checker
+	pkgver = 0.1.0.r0.g8d0efbf
+	pkgrel = 1
+	url = https://github.com/qtilities/colorpick
+	arch = x86_64
+	license = BSD
+	makedepends = cmake
+	makedepends = git
+	makedepends = qt5-tools
+	makedepends = qtilitools
+	depends = qt5-base
+	provides = colorpick
+	conflicts = colorpick
+	source = colorpick::git+https://github.com/qtilities/colorpick.git
+	source = colorpick/resources::git+https://github.com/qtilities-i18n/colorpick.git
+	sha512sums = SKIP
+	sha512sums = SKIP
+
+pkgname = colorpick-git

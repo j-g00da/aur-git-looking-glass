@@ -1,0 +1,22 @@
+pkgbase = python-bootstrap-flask
+	pkgdesc = Bootstrap 4 helper for Flask/Jinja2
+	pkgver = 2.5.0
+	pkgrel = 1
+	url = https://github.com/greyli/bootstrap-flask
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	checkdepends = python-flask-sqlalchemy
+	checkdepends = python-flask-wtf
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	depends = python
+	depends = python-flask
+	depends = python-markupsafe
+	depends = python-wtforms
+	conflicts = python-flask-bootstrap
+	source = python-bootstrap-flask-2.5.0.tar.gz::https://github.com/greyli/bootstrap-flask/archive/2.5.0.tar.gz
+	sha512sums = a4bf8d1152737c9a34f8b516c3eae3dc88bc7ac9332f37652375527b2e618d550da07342fca889fc15870db8e03cb031e3d290d88ecb3d8cb38b81bd701484ab
+
+pkgname = python-bootstrap-flask

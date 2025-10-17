@@ -1,0 +1,19 @@
+pkgbase = git-draft-git
+	pkgdesc = git-centric code assistant
+	pkgver = 0.0.0
+	pkgrel = 3
+	url = https://github.com/mtth/git-draft
+	arch = any
+	license = MIT
+	makedepends = asciidoctor
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-poetry
+	makedepends = python-wheel
+	depends = git
+	depends = python
+	optdepends = python-openai: OpenAI API bots
+	source = git+https://github.com/mtth/git-draft.git#branch=main
+	sha256sums = SKIP
+
+pkgname = git-draft-git

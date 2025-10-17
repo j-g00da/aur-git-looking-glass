@@ -1,0 +1,16 @@
+pkgbase = python-eradicate
+	pkgdesc = Removes commented-out code from Python files
+	pkgver = 2.3.0
+	pkgrel = 1
+	url = https://github.com/PyCQA/eradicate
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python
+	source = python-eradicate-2.3.0.tar.gz::https://github.com/PyCQA/eradicate/archive/2.3.0.tar.gz
+	sha512sums = b31f59b5785aa57fa55c329bfce430e8ade5de870bbe99585ff59e68fdd33bb312e49ecd72873780e47e09f713ebbaa929bd6981bf2800f858def80a9c03a8ec
+
+pkgname = python-eradicate

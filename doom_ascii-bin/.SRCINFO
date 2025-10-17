@@ -1,0 +1,22 @@
+pkgbase = doom_ascii-bin
+	pkgdesc = DooM in the terminal!
+	pkgver = 0.3.1
+	pkgrel = 1
+	url = https://github.com/wojciech-graj/doom-ascii
+	arch = x86_64
+	license = GPL-2.0-or-later
+	depends = glibc
+	depends = sh
+	provides = doom_ascii
+	conflicts = doom_ascii
+	backup = opt/doom_ascii/.default.cfg
+	source = doom_ascii.sh
+	source = README-0.3.1.md::https://github.com/wojciech-graj/doom-ascii/raw/0.3.1/README.md
+	source = LICENSE-0.3.1::https://github.com/wojciech-graj/doom-ascii/raw/0.3.1/LICENSE
+	sha256sums = 27864d019900aa0728c95d77e70dfd94869e44a65e6657ef04110c5f5c1cc202
+	sha256sums = 0c1a2eb8f0332fc43ae3843c6d14de6e2fba8a02cfa04103fe095a71358a3883
+	sha256sums = 8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643
+	source_x86_64 = doom_ascii-0.3.1-x86_64-linux.zip::https://github.com/wojciech-graj/doom-ascii/releases/download/0.3.1/doom-ascii-0.3.1-x86_64-linux.zip
+	sha256sums_x86_64 = 1dfb81d3b86ab42738f6c93eb7293001945a04a0185b9d2df0832d5162d95102
+
+pkgname = doom_ascii-bin

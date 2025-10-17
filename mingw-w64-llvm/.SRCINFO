@@ -1,0 +1,29 @@
+pkgbase = mingw-w64-llvm
+	pkgdesc = Collection of modular and reusable compiler and toolchain technologies (mingw-w64)
+	pkgver = 20.1.8
+	pkgrel = 2
+	url = http://llvm.org/
+	arch = any
+	license = custom:Apache 2.0 with LLVM Exception
+	makedepends = mingw-w64-cmake
+	makedepends = llvm>=20
+	makedepends = python
+	depends = mingw-w64-zlib
+	depends = mingw-w64-libxml2
+	depends = mingw-w64-libffi
+	depends = mingw-w64-zstd
+	options = !strip
+	options = !buildflags
+	options = staticlibs
+	source = https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.8/llvm-20.1.8.src.tar.xz
+	source = https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.8/llvm-20.1.8.src.tar.xz.sig
+	source = https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.8/cmake-20.1.8.src.tar.xz
+	source = https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.8/cmake-20.1.8.src.tar.xz.sig
+	validpgpkeys = 474E22316ABF4785A88C6E8EA2C794A986419D8A
+	validpgpkeys = D574BD5D1D0E98895E3BF90044F2485E45D59042
+	sha256sums = e1363888216b455184dbb8a74a347bf5612f56a3f982369e1cba6c7e0726cde1
+	sha256sums = SKIP
+	sha256sums = 3319203cfd1172bbac50f06fa68e318af84dcb5d65353310c0586354069d6634
+	sha256sums = SKIP
+
+pkgname = mingw-w64-llvm

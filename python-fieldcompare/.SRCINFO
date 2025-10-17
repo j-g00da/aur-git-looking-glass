@@ -1,0 +1,21 @@
+pkgbase = python-fieldcompare
+	pkgdesc = Read and compare numerical data against reference data using exact, fuzzy or custom comparison operations
+	pkgver = 0.4.0
+	pkgrel = 1
+	url = https://gitlab.com/dglaeser/fieldcompare
+	arch = any
+	license = GPL-3.0-or-later
+	checkdepends = python-pytest
+	checkdepends = python-meshio
+	checkdepends = python-h5py-openmpi
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python-numpy
+	depends = python-colorama
+	optdepends = python-meshio: for a large number of further mesh file formats support
+	source = https://gitlab.com/dglaeser/fieldcompare/-/archive/0.4.0/fieldcompare-0.4.0.tar.gz
+	sha512sums = c30ebab17c2f4917c81b26e194c22448ebd8d0888b99b88b6ab95530bd1ea87032eb95019bd5624c73c7352780858cf7c1df9ad401c7e57d00c155acbd7a4505
+
+pkgname = python-fieldcompare

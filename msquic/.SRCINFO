@@ -1,0 +1,26 @@
+pkgbase = msquic
+	pkgdesc = Microsoft implementation of the IETF QUIC protocol
+	pkgver = 2.4.11
+	pkgrel = 1
+	epoch = 1
+	url = https://github.com/microsoft/msquic
+	arch = x86_64
+	arch = armv7h
+	arch = aarch64
+	license = MIT
+	makedepends = cmake
+	makedepends = git
+	depends = glibc
+	depends = numactl
+	provides = libmsquic.so
+	conflicts = libmsquic.so
+	source = git+https://github.com/microsoft/msquic.git#tag=v2.4.11
+	source = git+https://github.com/google/googletest.git
+	source = quictls-openssl::git+https://github.com/quictls/openssl.git
+	source = git+https://github.com/microsoft/CLOG.git
+	sha512sums = 0c6b3524343b226d3a7a2abdb343a75e5448c1364f64925bf43dcf67b83c95ced7746e9a73cca95a5c646c2a020bea751722ac318e0eba27ffcd307f9389e9d9
+	sha512sums = SKIP
+	sha512sums = SKIP
+	sha512sums = SKIP
+
+pkgname = msquic

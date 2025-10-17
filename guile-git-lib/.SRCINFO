@@ -1,0 +1,17 @@
+pkgbase = guile-git-lib
+	pkgdesc = guile bindings of libgit2
+	pkgver = 0.10.0
+	pkgrel = 1
+	url = https://gitlab.com/guile-git/guile-git
+	arch = x86_64
+	arch = i686
+	arch = armv7h
+	license = GPL3
+	makedepends = git
+	depends = guile
+	depends = guile-bytestructures
+	depends = libgit2>=1.3.0
+	source = guile-git-lib-0.10.0.tar.gz::https://gitlab.com/guile-git/guile-git/-/archive/v0.10.0/guile-git-v0.10.0.tar.gz
+	sha256sums = 97966a8fb862bf50eb200c92a75039fc655e169a76dcb929e7e6ca3d81b493fc
+
+pkgname = guile-git-lib

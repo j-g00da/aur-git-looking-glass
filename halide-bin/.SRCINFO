@@ -1,0 +1,22 @@
+pkgbase = halide-bin
+	pkgdesc = A language for fast and portable data-parallel computation
+	pkgver = 21.0.0
+	pkgrel = 1
+	url = https://github.com/halide/Halide
+	arch = x86_64
+	arch = i686
+	arch = armv7h
+	arch = aarch64
+	license = MIT
+	provides = halide
+	conflicts = halide
+	source_x86_64 = https://github.com/halide/Halide/releases/download/v21.0.0/Halide-21.0.0-x86-64-linux-b629c80de18f1534ec71fddd8b567aa7027a0876.tar.gz
+	sha512sums_x86_64 = 361918b7f7cb67229dc4436a9db6b41790b274fffa861a31ad17e3c73298bc6bff7fc7524c00af492c2758a6231e8a02e3b42f060e7ac24822e26011e8bd0034
+	source_i686 = https://github.com/halide/Halide/releases/download/v21.0.0/Halide-21.0.0-x86-32-linux-b629c80de18f1534ec71fddd8b567aa7027a0876.tar.gz
+	sha512sums_i686 = 547353d5899d4cc5b9847c445c5b9d157c2df1a719c34e1c4ccfdf4f5029e7ad9645173e82fb78070e88a876670f941beb0de662d8409d3634e25c8d45e4fc70
+	source_armv7h = https://github.com/halide/Halide/releases/download/v21.0.0/Halide-21.0.0-arm-32-linux-b629c80de18f1534ec71fddd8b567aa7027a0876.tar.gz
+	sha512sums_armv7h = 3557827de0ab06281aeac76eecf4b6492fd8c5c08ff807d72f358bc4a4db37e612040b61405cb2478f6c5a64b4f6507d3b5e35c22dec103bec65ea35cb0b1cc5
+	source_aarch64 = https://github.com/halide/Halide/releases/download/v21.0.0/Halide-21.0.0-arm-64-linux-b629c80de18f1534ec71fddd8b567aa7027a0876.tar.gz
+	sha512sums_aarch64 = 6c5eb62191ce449b6db062cbd70a44951468cb74f34223d96c33bf453ba8cf3e85b572fa2ad619f62797aa6c01f6973f9017e1b313cd9479e7e075eff75e7479
+
+pkgname = halide-bin

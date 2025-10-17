@@ -1,0 +1,26 @@
+pkgbase = r-waddr
+	pkgdesc = Statistical tests for detecting differential distributions based on the 2-Wasserstein distance
+	pkgver = 1.22.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/waddR
+	arch = x86_64
+	license = MIT
+	makedepends = r-rcpparmadillo
+	depends = r-arm
+	depends = r-biocfilecache
+	depends = r-biocparallel
+	depends = r-eva
+	depends = r-rcpp
+	depends = r-singlecellexperiment
+	optdepends = r-devtools
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-roxygen2
+	optdepends = r-rprojroot
+	optdepends = r-scater
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/waddR_1.22.0.tar.gz
+	md5sums = b7ab6859ff93c66192170d2e0910394f
+	b2sums = 94536d864a7347be7474eeae945c83eb6b668fa279cdbe8a8e1779bd14617677121d9471cdf6fa0f84274789b8a76fa820b5aafe071a295071f2c4d979e59cc1
+
+pkgname = r-waddr

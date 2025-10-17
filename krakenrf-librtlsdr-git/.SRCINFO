@@ -1,0 +1,18 @@
+pkgbase = krakenrf-librtlsdr-git
+	pkgdesc = Software to turn the RTL2832U into an SDR (for KrakenSDR)
+	pkgver = r657.ea7baad
+	pkgrel = 1
+	url = https://github.com/krakenrf/librtlsdr
+	arch = x86_64
+	license = GPL-2.0-only
+	makedepends = git
+	makedepends = cmake
+	depends = glibc
+	depends = libusb
+	provides = krakenrf-librtlsdr
+	conflicts = rtl-sdr
+	conflicts = krakenrf-librtlsdr
+	source = git+https://github.com/krakenrf/librtlsdr.git
+	sha1sums = SKIP
+
+pkgname = krakenrf-librtlsdr-git

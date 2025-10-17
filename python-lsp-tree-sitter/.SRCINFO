@@ -1,0 +1,25 @@
+pkgbase = python-lsp-tree-sitter
+	pkgdesc = a library to create language servers
+	pkgver = 0.0.18
+	pkgrel = 1
+	url = https://github.com/neomutt/lsp-tree-sitter
+	arch = any
+	license = GPL3
+	makedepends = python-installer
+	depends = python-colorama
+	depends = python-jinja
+	depends = python-jsonschema
+	depends = python-pygls
+	depends = python-tree-sitter
+	optdepends = python-beautifulsoup4
+	optdepends = python-pypandoc
+	optdepends = python-markdown-it-py
+	optdepends = python-pygments
+	optdepends = python-platformdirs
+	optdepends = python-yaml
+	optdepends = python-tomli-w
+	replaces = python-tree-sitter-lsp
+	source = https://files.pythonhosted.org/packages/py3/l/lsp_tree_sitter/lsp_tree_sitter-0.0.18-py3-none-any.whl
+	sha256sums = 357a89b389c3e59cc6c4e9104fc36d32a62dba4574b7606244ff43db4ea85491
+
+pkgname = python-lsp-tree-sitter

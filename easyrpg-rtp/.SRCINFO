@@ -1,0 +1,14 @@
+pkgbase = easyrpg-rtp
+	pkgdesc = RPG Maker 2000/2003 material replacement
+	pkgver = 91.993d88c
+	pkgrel = 1
+	url = https://github.com/EasyRPG/RTP
+	arch = any
+	license = GPL3
+	makedepends = git
+	optdepends = easyrpg-player
+	optdepends = oxipng: optimize images at build time
+	source = easyrpg-rtp::git+https://github.com/EasyRPG/RTP.git
+	sha256sums = SKIP
+
+pkgname = easyrpg-rtp

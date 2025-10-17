@@ -1,0 +1,19 @@
+pkgbase = c-ares-git
+	pkgdesc = A C library for asynchronous DNS requests
+	pkgver = 1.29.0.r366.g71663adc
+	pkgrel = 1
+	url = https://c-ares.org/
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = cmake
+	depends = glibc
+	provides = c-ares=1.29.0.r366.g71663adc
+	provides = libcares.so
+	conflicts = c-ares
+	options = staticlibs
+	source = git+https://github.com/c-ares/c-ares.git
+	sha256sums = SKIP
+
+pkgname = c-ares-git

@@ -1,0 +1,16 @@
+pkgbase = python-pinyin
+	pkgdesc = Chinese to Pinyin library
+	pkgver = 0.55.0
+	pkgrel = 1
+	url = https://github.com/mozillazg/python-pinyin
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	source = python-pinyin-0.55.0.tar.gz::https://files.pythonhosted.org/packages/source/p/pypinyin/pypinyin-0.55.0.tar.gz
+	sha256sums = b5711b3a0c6f76e67408ec6b2e3c4987a3a806b7c528076e7c7b86fcf0eaa66b
+
+pkgname = python-pinyin

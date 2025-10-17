@@ -1,0 +1,25 @@
+pkgbase = montserrat-font
+	pkgdesc = Geometric font with Cyrillic and extended Latin support by Julieta Ulanovsky
+	pkgver = 7.222
+	pkgrel = 1
+	url = https://github.com/JulietaUla/Montserrat
+	arch = any
+	license = OFL
+	source = Montserrat-7.222.tar.gz::https://github.com/JulietaUla/Montserrat/archive/v7.222.tar.gz
+	sha256sums = 3adac1da44046c08179560fb0b11ec3607aea3a2dc591c5829a7acdcccab1c74
+
+pkgname = montserrat-otf
+	provides = montserrat-font
+	provides = otf-montserrat
+	provides = montserrat-font-otf
+	conflicts = otf-montserrat
+	replaces = otf-montserrat
+	replaces = montserrat-font-otf
+
+pkgname = montserrat-ttf
+	provides = montserrat-font
+	provides = ttf-montserrat
+	provides = montserrat-font-ttf
+	conflicts = ttf-montserrat
+	replaces = ttf-montserrat
+	replaces = montserrat-font-ttf

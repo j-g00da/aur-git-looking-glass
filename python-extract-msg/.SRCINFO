@@ -1,0 +1,22 @@
+pkgbase = python-extract-msg
+	pkgdesc = Extracts emails and attachments saved in Microsoft Outlook's .msg files
+	pkgver = 0.54.1
+	pkgrel = 1
+	url = https://github.com/TeamMsgExtractor/msg-extractor
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python-beautifulsoup4
+	depends = python-compressed-rtf
+	depends = python-ebcdic
+	depends = python-olefile
+	depends = python-red-black-tree-mod
+	depends = python-rtfde
+	depends = python-tzlocal
+	source = extract-msg-0.54.1.tar.gz::https://files.pythonhosted.org/packages/source/e/extract_msg/extract_msg-0.54.1.tar.gz
+	sha256sums = fb39e9f0d3971c30ca6ffa5686bc971884f364b6e97c79ccc10013fb3cbd02de
+
+pkgname = python-extract-msg

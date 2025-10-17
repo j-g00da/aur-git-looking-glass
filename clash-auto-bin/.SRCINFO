@@ -1,0 +1,17 @@
+pkgbase = clash-auto-bin
+	pkgdesc = Use clash.meta & speedtest & easy to use.(Prebuilt version.Use system-wide electron)
+	pkgver = 2.5.7
+	pkgrel = 2
+	url = https://clashr-auto.gitbook.io/
+	arch = x86_64
+	license = LicenseRef-unknown
+	makedepends = asar
+	makedepends = icoutils
+	depends = electron24
+	conflicts = clash-auto
+	source = clash-auto-2.5.7.rpm::https://github.com/ClashrAuto/Clashr-Auto-Desktop/releases/download/v2.5.7/clash-auto-amd64-2.5.7.x86_64.rpm
+	source = clash-auto.sh
+	sha256sums = 8939ffd4f0633acfcfc7c2d8adcdeefbb66d4b22ffe1bd2409caf14bf42425b3
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = clash-auto-bin

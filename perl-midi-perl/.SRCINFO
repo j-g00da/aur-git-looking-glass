@@ -1,0 +1,16 @@
+pkgbase = perl-midi-perl
+	pkgdesc = read, compose, modify, and write MIDI files
+	pkgver = 0.84
+	pkgrel = 1
+	url = https://metacpan.org/release/MIDI-Perl
+	arch = any
+	license = PerlArtistic
+	license = GPL
+	depends = perl>=0
+	options = !emptydirs
+	source = https://cpan.metacpan.org/authors/id/C/CO/CONKLIN/MIDI-Perl-0.84.tar.gz
+	md5sums = b1d7f7b428627739e935b713e3cec5af
+	sha512sums = e05fdcd153feb4c848166fb352a9e524bdb68716ba1fc89dde35136b4503157dd4cfd35053bdf89e3c320baa9ffa632b1c1237f03461bc854de073c1b953541c
+
+pkgname = perl-midi-perl
+

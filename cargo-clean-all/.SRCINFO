@@ -1,0 +1,16 @@
+pkgbase = cargo-clean-all
+	pkgdesc = Recursively clean all cargo projects in a given directory that match the spec...
+	pkgver = 0.6.4
+	pkgrel = 1
+	url = https://github.com/dnlmlr/cargo-clean-all
+	arch = aarch64
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	makedepends = cargo-auditable
+	depends = gcc-libs
+	source = cargo-clean-all-0.6.4.tar.gz::https://static.crates.io/crates/cargo-clean-all/0.6.4/download
+	sha512sums = 6b2c7fbeb85d70f41914bd40f05f3b3626a20fed2c7fa44e5c036ec63ab122383844484b5f54228c4b41508487eaa800917d864a920c02481fa7dc930c121ed6
+
+pkgname = cargo-clean-all

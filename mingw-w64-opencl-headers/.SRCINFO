@@ -1,0 +1,17 @@
+pkgbase = mingw-w64-opencl-headers
+	pkgdesc = OpenCL (Open Computing Language) header files (mingw-w64)
+	pkgver = 2024.10.24
+	pkgrel = 1
+	url = https://github.com/KhronosGroup/OpenCL-Headers
+	arch = any
+	groups = mingw-w64-vulkan-devel
+	license = Apache-2.0
+	makedepends = mingw-w64-cmake
+	options = !buildflags
+	options = !debug
+	options = staticlibs
+	options = !strip
+	source = https://github.com/KhronosGroup/OpenCL-Headers/archive/v2024.10.24.tar.gz
+	sha256sums = 159f2a550592bae49859fee83d372acd152328fdf95c0dcd8b9409f8fad5db93
+
+pkgname = mingw-w64-opencl-headers

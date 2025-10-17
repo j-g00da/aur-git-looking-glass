@@ -1,0 +1,18 @@
+pkgbase = r-massir
+	pkgdesc = massiR: MicroArray Sample Sex Identifier
+	pkgver = 1.44.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/massiR
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-biobase
+	depends = r-diptest
+	depends = r-gplots
+	optdepends = r-biocgenerics
+	optdepends = r-biomart
+	optdepends = r-runit
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/massiR_1.44.0.tar.gz
+	sha256sums = 32d4019e8719f70497ccd2b998735ca0d5d62519476940a6f36290415e3c093b
+
+pkgname = r-massir

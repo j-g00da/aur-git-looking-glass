@@ -1,0 +1,52 @@
+# Maintainer: Cryolitia <cryolitia at gmail dot com>
+
+pkgname=gridtracker2
+pkgver=2.250914.1
+pkgrel=1
+_electronver=35
+pkgdesc="An Amateur Radio Companion"
+arch=('any')
+url="https://gridtracker.org"
+license=('BSD-3-Clause')
+makedepends=('npm')
+depends=("electron${_electronver}" 'libxss' 'libappindicator-gtk3' 'libxtst' 'at-spi2-core' 'util-linux-libs' 'libsecret')
+source=("https://gitlab.com/gridtracker.org/${pkgname}/-/archive/v${pkgver}/${pkgname}-v${pkgver}.tar.gz"
+        "gridtracker2.desktop"
+        "gridtracker2.sh")
+sha512sums=('901c0e3e71cd54660a78417c81a8ac37b69d5ef37e52fb1ea1c3b5fbc03d822a61ea8aecb3e8b3800dcabcb8269217f6c98bb4b739fc82237c93bcf9b34c7442'
+            'd0b2a0aa0a1ef8826d594bfab433ce38bd2ba9c6db1fa290552e7cd72312d7de88fb5912b8a0459ba4a137251cc91fb1f981ffcf21d98234555d5fc59fca219f'
+            'bc530bac0b04211bbf1f81851a3c23869a519d9ed6b77c56fcc13b43b56cf855bb01497aa453c69a2a141e17a6003bc534bc75bc3591dcc1e666d5c66202cd53')
+
+prepare() {
+  cd ${pkgname}-v$pkgver
+
+  sed -i "s/@_electronver@/$_electronver/" "$srcdir/${pkgname}.sh"
+  grep -q "\"electron\": \"$_electronver\." package.json \
+    || ( echo "Electron version mismatch in package.json"; exit 1 )
+
+  npm install
+}
+
+build() {
+  cd ${pkgname}-v$pkgver
+  ./node_modules/.bin/electron-builder --linux --x64 --dir \
+     -c.electronDist=/usr/lib/electron$_electronver \
+     -c.electronVersion=$_electronver
+}
+
+package() {
+  cd ${pkgname}-v$pkgver
+
+  install -Dvm644 -t "${pkgdir}/usr/share/${pkgname}/resources" \
+    ./dist/linux-unpacked/resources/*
+  install -Dvm644 -t "${pkgdir}/usr/share/${pkgname}/locales" \
+    ./dist/linux-unpacked/locales/*
+  install -Dvm644 -t "${pkgdir}/usr/share/applications" \
+    "${srcdir}/gridtracker2.desktop"
+  install -Dvm755 "${srcdir}/gridtracker2.sh" \
+    "${pkgdir}/usr/bin/gridtracker2"
+  install -Dvm644 ./resources/icon.png \
+    "${pkgdir}/usr/share/pixmaps/gridtracker2.png"
+  install -Dvm644 -t "${pkgdir}/usr/share/licenses/${pkgname}" \
+    ./LICENSE
+}

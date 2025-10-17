@@ -1,0 +1,19 @@
+pkgbase = bmaptool
+	pkgdesc = Tool optimized for copying largely sparse files using information from a block map (bmap) file
+	pkgver = 3.9.0
+	pkgrel = 2
+	url = https://github.com/yoctoproject/bmaptool
+	arch = any
+	license = GPL2
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-hatchling
+	makedepends = python-wheel
+	depends = python3
+	depends = python-six
+	replaces = bmap-tools
+	source = https://github.com/yoctoproject/bmaptool/archive/v3.9.0.tar.gz
+	sha256sums = 9940bb97fa0f2c11ee4625a2f620a4ae2b94c556f8d01c070aee08486a2a1812
+
+pkgname = bmaptool

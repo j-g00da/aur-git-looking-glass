@@ -1,0 +1,15 @@
+pkgbase = polycat
+	pkgdesc = Runcat module for Polybar
+	pkgver = 2.0.0
+	pkgrel = 1
+	url = https://github.com/2IMT/polycat.git
+	arch = x86_64
+	license = MIT
+	makedepends = make
+	makedepends = gcc
+	depends = glibc
+	depends = gcc-libs
+	source = https://github.com/2IMT/polycat/releases/download/v2.0.0/polycat-2.0.0.tar.gz
+	md5sums = 767a20f1938535b91517ae12fd030eba
+
+pkgname = polycat

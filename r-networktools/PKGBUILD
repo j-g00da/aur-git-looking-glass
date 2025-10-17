@@ -1,0 +1,42 @@
+# Maintainer: sukanka <su975853527@gmail.com>
+
+_pkgname=networktools
+_pkgver=1.6.0
+pkgname=r-${_pkgname,,}
+pkgver=1.6.0
+pkgrel=1
+pkgdesc='Tools for Identifying Important Nodes in Networks'
+arch=('any')
+url="https://cran.r-project.org/package=${_pkgname}"
+license=('GPL')
+depends=(
+  r
+  r-cocor
+  r-eigenmodel
+  r-ggplot2
+  r-gridextra
+  r-igraph
+  r-psych
+  r-qgraph
+  r-r.utils
+  r-rcolorbrewer
+  r-reshape2
+  r-smacof
+  r-wordcloud
+)
+optdepends=(
+  r-dplyr
+  r-testthat
+)
+source=("https://cran.r-project.org/src/contrib/${_pkgname}_${_pkgver}.tar.gz")
+sha256sums=('759d35ca5489ee99d1dc8b9a110da0ba50a44e067c969f7c6f1e138c0a1f8916')
+
+build() {
+  R CMD INSTALL ${_pkgname}_${_pkgver}.tar.gz -l "${srcdir}"
+}
+
+package() {
+  install -dm0755 "${pkgdir}/usr/lib/R/library"
+  cp -a --no-preserve=ownership "${_pkgname}" "${pkgdir}/usr/lib/R/library"
+}
+# vim:set ts=2 sw=2 et:

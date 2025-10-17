@@ -1,0 +1,15 @@
+pkgbase = yolk
+	pkgdesc = Templated dotfile management that won't get in your way
+	pkgver = 0.3.2
+	pkgrel = 1
+	url = https://elkowar.github.io/yolk/
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	depends = git
+	depends = glibc
+	source = yolk-0.3.2.tar.gz::https://github.com/ElKowar/yolk/archive/v0.3.2.tar.gz
+	b2sums = 219fb239dcb4bde84359dafaafd3bfa645ef1e54d3f32ca9b218f7c16fba843c4f2f64d6d330408a52d7c10bfa3dbef9446c6c3f3dd44c58164406c3dcc34cb7
+
+pkgname = yolk

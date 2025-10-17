@@ -1,0 +1,27 @@
+pkgbase = vim-go
+	pkgdesc = Go development plugin for Vim
+	pkgver = 1.29
+	pkgrel = 1
+	url = https://github.com/fatih/vim-go
+	arch = any
+	license = BSD-3-Clause
+	depends = vim-plugin-runtime
+	depends = go
+	optdepends = asmfmt
+	optdepends = delve: for dlv command
+	optdepends = errcheck
+	optdepends = godef
+	optdepends = go-impl: for impl command
+	optdepends = golangci-lint
+	optdepends = gomodifytags
+	optdepends = go-motion: for motion command
+	optdepends = gopls
+	optdepends = gotags
+	optdepends = go-tools: for goimports command
+	optdepends = iferr
+	optdepends = reftools: for fillstruct command
+	optdepends = revive
+	source = vim-go-1.29.tar.gz::https://github.com/fatih/vim-go/archive/v1.29.tar.gz
+	sha512sums = 0dc89d660c5987b685e0314b79064f888a8b423c4cdd20fef86538d75bc55f64dbbee7e26751050018f7cd92877c5a6a6b9eb14c5e0b9e4c408b565decc1c13e
+
+pkgname = vim-go

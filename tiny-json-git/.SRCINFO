@@ -1,0 +1,15 @@
+pkgbase = tiny-json-git
+	pkgdesc = The tiny-json is a versatile and easy to use json parser in C suitable for embedded systems. It is fast, robust and portable.
+	pkgver = r82.025cdde
+	pkgrel = 2
+	url = https://github.com/rafagafe/tiny-json
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = glibc
+	provides = tiny-json
+	conflicts = tiny-json
+	source = tiny-json-git::git+https://github.com/rafagafe/tiny-json.git
+	sha256sums = SKIP
+
+pkgname = tiny-json-git

@@ -1,0 +1,15 @@
+pkgbase = octave-nurbs
+	pkgdesc = Collection of routines for the creation, and manipulation of Non-Uniform Rational B-Splines (NURBS), based on the NURBS toolbox by Mark Spink.
+	pkgver = 1.4.4
+	pkgrel = 1
+	url = https://gnu-octave.github.io/packages/nurbs/
+	install = octave-nurbs.install
+	arch = any
+	groups = octave-forge
+	license = GPL-3.0-or-later
+	depends = octave>=5.1.0
+	noextract = nurbs-1.4.4.tar.gz
+	source = https://downloads.sourceforge.net/octave/nurbs-1.4.4.tar.gz
+	sha256sums = 41f175b6ef73fc54163438ab46ce4e3f721124e1a4911da59c710b9f722d9276
+
+pkgname = octave-nurbs

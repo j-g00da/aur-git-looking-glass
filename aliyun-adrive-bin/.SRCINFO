@@ -1,0 +1,22 @@
+pkgbase = aliyun-adrive-bin
+	pkgdesc = Aliyun aDrive.(Ported from Windows version.Prebuilt version.Use system-wide electron).阿里云盘
+	pkgver = 4.11.0
+	pkgrel = 7
+	url = https://www.aliyundrive.com
+	arch = x86_64
+	license = LicenseRef-custom
+	makedepends = gendesk
+	makedepends = p7zip
+	depends = electron22
+	provides = aliyun-adrive=4.11.0
+	conflicts = aliyun-adrive
+	conflicts = deepin-wine-adrive
+	conflicts = adrive
+	source = aliyun-adrive-4.11.0.exe::https://github.com/zxp19821005/My_AUR_Files/releases/download/aDrive4.11.0/aDrive-4.11.0.exe
+	source = LICENSE.html
+	source = aliyun-adrive.sh
+	sha256sums = 507bf86e5dffe75fc9cdd8caea0e1b284dd10dfeba435e331040c305958df7a6
+	sha256sums = ee4bf71493d9425c0270f59a72778d52b53a9bdcb981f462d1e699d347e9246e
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = aliyun-adrive-bin

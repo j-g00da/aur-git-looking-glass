@@ -1,0 +1,18 @@
+pkgbase = samarium
+	pkgdesc = A dynamic, interpreted language that is transpiled to Python
+	pkgver = 0.6.2
+	pkgrel = 1
+	url = https://github.com/samarium-lang/Samarium
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-poetry-core
+	makedepends = git
+	depends = python>=3.9
+	depends = python-dahlia>=3.0.0
+	depends = python-crossandra>=2.2.1
+	source = samarium-0.6.2.tar.gz::https://files.pythonhosted.org/packages/source/s/samarium/samarium-0.6.2.tar.gz
+	sha512sums = e3d176db33cb4f9821afdc031c96524f0e1e0e018469d8f5d979596430800f7b6cf82107e9df5dd53747419f7fbbfaf9463029181785d63a8ac55d64a05059ce
+
+pkgname = samarium

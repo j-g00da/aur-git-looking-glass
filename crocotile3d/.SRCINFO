@@ -1,0 +1,16 @@
+pkgbase = crocotile3d
+	pkgdesc = Tile-based 3D modeling application
+	pkgver = 2.3.0
+	pkgrel = 1
+	url = https://www.crocotile3d.com/
+	arch = x86_64
+	license = Unknown
+	options = !strip
+	source = https://jdigi.net/AUR/Crocotile3D/Crocotile3D_v2.3.0_linux64.tar.gz
+	source = crocotile3d.desktop
+	source = crocotile3d.png
+	sha256sums = ae00bf5fd2c23e6170dc0a0dff703bb662ea22c2161e7b0980e89bc7eba440eb
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = crocotile3d

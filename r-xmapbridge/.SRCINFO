@@ -1,0 +1,15 @@
+pkgbase = r-xmapbridge
+	pkgdesc = Export plotting files to the xmapBridge for visualisation in X:Map
+	pkgver = 1.66.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/xmapbridge
+	arch = any
+	license = LGPL-3.0-only
+	depends = r
+	optdepends = r-rcolorbrewer
+	optdepends = r-runit
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/xmapbridge_1.66.0.tar.gz
+	md5sums = b9aa83ea3bc2f1c97b68ce73721667d1
+	b2sums = 4a12455ad92bcf2ed942cce87de01ed4c9cb321c5726ef734642b86b23d0be1c5f10bf9834256e603ce7c37e18d9d4ed515ec62143d54230183cc224fd21f08c
+
+pkgname = r-xmapbridge

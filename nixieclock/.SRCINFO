@@ -1,0 +1,18 @@
+pkgbase = nixieclock
+	pkgdesc = Simple little desktop clock that displays date and time using nixie tube digits
+	pkgver = 1.66
+	pkgrel = 1
+	url = https://github.com/erco77/nixieclock
+	arch = i686
+	arch = x86_64
+	license = GPLv2
+	makedepends = perl
+	depends = fltk
+	source = https://github.com/erco77/nixieclock/archive/refs/tags/1.66.tar.gz
+	source = nixieclock.desktop
+	source = nixieclock-icon.png
+	sha256sums = bdf80d41828f96952af853700ec98163bb899cf3ce603afda51785d87542c18e
+	sha256sums = 22104d05a441ad0d68e047faa4312e136b60c3fe59f6228a234664dcdd145bfc
+	sha256sums = 2f18e18d4204a59279e80a990bbd5c8a88126cc1777b4dc0616f02746d501563
+
+pkgname = nixieclock

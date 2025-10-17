@@ -1,0 +1,15 @@
+pkgbase = lightgbm
+	pkgdesc = A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks.
+	pkgver = 4.6.0
+	pkgrel = 2
+	url = https://github.com/microsoft/LightGBM
+	arch = aarch64
+	arch = x86_64
+	license = MIT
+	makedepends = cmake
+	makedepends = gcc
+	options = !debug
+	source = git+https://github.com/microsoft/LightGBM.git#tag=v4.6.0
+	sha256sums = 1e2c2e8ebe9acb8b730e7ca56efddee3ee6bf11d2674efccf4bb27673e1529c0
+
+pkgname = lightgbm

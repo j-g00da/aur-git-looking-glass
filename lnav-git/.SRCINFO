@@ -1,0 +1,20 @@
+pkgbase = lnav-git
+	pkgdesc = A curses-based tool for viewing and analyzing log files
+	pkgver = 0.13.0.beta4.r19.gcdf0cd6
+	pkgrel = 1
+	url = http://lnav.org
+	arch = x86_64
+	license = BSD-2-Clause
+	makedepends = cargo
+	makedepends = git
+	depends = curl
+	depends = openssh
+	depends = pcre
+	depends = sqlite3
+	depends = wireshark-cli
+	provides = lnav
+	conflicts = lnav
+	source = lnav-git::git+https://github.com/tstack/lnav.git
+	sha256sums = SKIP
+
+pkgname = lnav-git

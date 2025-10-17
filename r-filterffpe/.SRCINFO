@@ -1,0 +1,19 @@
+pkgbase = r-filterffpe
+	pkgdesc = FFPE Artificial Chimeric Read Filter for NGS data
+	pkgver = 1.18.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/FilterFFPE
+	arch = any
+	license = LGPL
+	depends = r
+	depends = r-doparallel
+	depends = r-foreach
+	depends = r-genomicranges
+	depends = r-iranges
+	depends = r-rsamtools
+	depends = r-s4vectors
+	optdepends = r-biocstyle
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/FilterFFPE_1.18.0.tar.gz
+	sha256sums = e3499752714e05b7b6fb195ebfab16a39e6bf8a29d13fe41e76f9a614cad817d
+
+pkgname = r-filterffpe

@@ -1,0 +1,25 @@
+pkgbase = raat-server
+	pkgname = raat-server
+	pkgdesc = Remote Archlinux Android Tool (server) for managing and connecting to VNC sessions
+	pkgver = 2.1.0
+	pkgrel = 1
+	arch = any
+	url = https://github.com/Student-Team-Projects/RAAT-Server
+	license = GPL
+	depends = lxde-common
+	depends = lxsession
+	depends = tigervnc
+	depends = openssh
+	depends = iproute2
+	depends = dbus
+	depends = xorg-xrdb
+	depends = xorg-xrandr
+	depends = xorg-xhost
+	depends = xorg-xinit
+	depends = jq
+	depends = cinnamon
+	source = https://github.com/Student-Team-Projects/RAAT-Server/releases/download/v2.1.0/raat-server-bin.tar.gz
+	source = https://raw.githubusercontent.com/Student-Team-Projects/RAAT-Server/main/README.md
+	sha256sums = SKIP
+	sha256sums = SKIP
+

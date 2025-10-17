@@ -1,0 +1,33 @@
+pkgbase = r-cowplot
+	pkgdesc = Streamlined Plot Theme and Plot Annotations for 'ggplot2'
+	pkgver = 1.2.0
+	pkgrel = 1
+	url = https://cran.r-project.org/package=cowplot
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-ggplot2
+	depends = r-gtable
+	depends = r-rlang
+	depends = r-scales
+	optdepends = r-cairo
+	optdepends = r-covr
+	optdepends = r-dplyr
+	optdepends = r-forcats
+	optdepends = r-gridgraphics
+	optdepends = r-knitr
+	optdepends = r-lattice
+	optdepends = r-magick
+	optdepends = r-maps
+	optdepends = r-paswr
+	optdepends = r-patchwork
+	optdepends = r-ragg
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	optdepends = r-tidyr
+	optdepends = r-vdiffr
+	optdepends = r-venndiagram
+	source = https://cran.r-project.org/src/contrib/cowplot_1.2.0.tar.gz
+	sha256sums = 431d582a4fb68f005f45e0d963c19daad826289374b429b05fe168ef6f231aa1
+
+pkgname = r-cowplot

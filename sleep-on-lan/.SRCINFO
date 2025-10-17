@@ -1,0 +1,14 @@
+pkgbase = sleep-on-lan
+	pkgdesc = Multi-platform process allowing to sleep on LAN a linux or windows computer, through wake-on-lan (reversed) magic packets or through HTTP REST requests.
+	pkgver = 1.1.1
+	pkgrel = 1
+	url = https://github.com/SR-G/sleep-on-lan
+	arch = x86_64
+	arch = aarch64
+	license = Apache
+	makedepends = go
+	depends = glibc
+	source = sleep-on-lan-1.1.1.tar.gz::https://github.com/SR-G/sleep-on-lan/archive/refs/tags/1.1.1-RELEASE.tar.gz
+	md5sums = 23d0caf14631f16da01cb44a3a9cc0e7
+
+pkgname = sleep-on-lan

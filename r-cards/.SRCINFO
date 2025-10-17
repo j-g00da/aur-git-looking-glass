@@ -1,0 +1,23 @@
+pkgbase = r-cards
+	pkgdesc = Analysis Results Data
+	pkgver = 0.7.0
+	pkgrel = 1
+	url = https://cran.r-project.org/package=cards
+	arch = any
+	license = Apache-2.0
+	checkdepends = r-hms
+	checkdepends = r-testthat
+	depends = r-cli
+	depends = r-dplyr
+	depends = r-glue
+	depends = r-rlang
+	depends = r-tidyr
+	depends = r-tidyselect
+	depends = r-lifecycle
+	optdepends = r-testthat
+	optdepends = r-withr
+	source = https://cran.r-project.org/src/contrib/cards_0.7.0.tar.gz
+	md5sums = 3364c4f61981a493181be0fd7eb34753
+	b2sums = 3f1c3fb8786e4c7cb2a63519008687ff212ede3efc3ba313adde5220a0c00685c93dd1187a1797bbc66a262f3c2a59acd489af650bef24afe814b6a51b1fa17f
+
+pkgname = r-cards

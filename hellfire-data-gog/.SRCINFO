@@ -1,0 +1,15 @@
+pkgbase = hellfire-data-gog
+	pkgdesc = Diablo & Hellfire devolved
+	pkgver = 1.09
+	pkgrel = 1
+	url = https://www.gog.com/game/diablo
+	arch = any
+	license = custom
+	makedepends = innoextract
+	makedepends = unzip
+	makedepends = icoutils
+	provides = hellfire-data
+	source = setup_diablo_1.09_hellfire_v4_(78466).exe::gog://setup_diablo_1.09_hellfire_v4_(78466).exe
+	sha256sums = ed8d8b05ecc6a6e539b41f3fc4807de528b1123fdf6a2a7bd38be3486b12cb84
+
+pkgname = hellfire-data-gog

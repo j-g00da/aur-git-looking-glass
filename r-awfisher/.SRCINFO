@@ -1,0 +1,16 @@
+pkgbase = r-awfisher
+	pkgdesc = An R package for fast computing for adaptively weighted fisher's method
+	pkgver = 1.22.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/AWFisher
+	arch = x86_64
+	license = GPL
+	depends = r
+	depends = r-edger
+	depends = r-limma
+	optdepends = r-knitr
+	optdepends = r-tightclust
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/AWFisher_1.22.0.tar.gz
+	sha256sums = c818b7b41d81bdbfb439b2c6f08beed91d783b6163cf33698e7c8afee7f03fa0
+
+pkgname = r-awfisher

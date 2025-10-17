@@ -1,0 +1,19 @@
+pkgbase = beanquery
+	pkgdesc = A customizable light-weight SQL query tool that works on tabular data, including Beancount
+	pkgver = 0.2.0
+	pkgrel = 1
+	url = https://github.com/beancount/beanquery
+	arch = any
+	license = GPL
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python
+	depends = beancount>=3
+	depends = python-click
+	depends = python-tatsu-lts
+	source = https://files.pythonhosted.org/packages/source/b/beanquery/beanquery-0.2.0.tar.gz
+	b2sums = 2b9c389fcafe5186beba9c2b0cb1178fa78e7cb415c0f9e72c23f88ef947f8bfe8971f27fc87c4675d85ff965c8d6d5181cf23f8607f298e58a0354841a9b6d8
+
+pkgname = beanquery

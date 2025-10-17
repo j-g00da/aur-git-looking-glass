@@ -1,0 +1,125 @@
+pkgbase = java-openj9
+	pkgver = 20.0.1.u9_openj9_0.39.0_pre20230517
+	pkgrel = 1
+	url = http://www.eclipse.org/openj9/
+	arch = x86_64
+	license = custom
+	makedepends = java-environment>=19
+	makedepends = cpio
+	makedepends = unzip
+	makedepends = zip
+	makedepends = libelf
+	makedepends = libcups
+	makedepends = libx11
+	makedepends = libxrender
+	makedepends = libxtst
+	makedepends = libxt
+	makedepends = libxext
+	makedepends = libxrandr
+	makedepends = alsa-lib
+	makedepends = graphviz
+	makedepends = freetype2
+	makedepends = libjpeg-turbo
+	makedepends = giflib
+	makedepends = libpng
+	makedepends = lcms2
+	makedepends = libnet
+	makedepends = bash
+	makedepends = harfbuzz
+	makedepends = gcc-libs
+	makedepends = glibc
+	makedepends = numactl
+	makedepends = nasm
+	makedepends = cmake
+	options = !lto
+	source = openj9-openjdk-jdk20-c6bbaba.tar.gz::https://github.com/ibmruntimes/openj9-openjdk-jdk20/archive/c6bbabab95ea24e30cf8c1225db464cff3e12594.tar.gz
+	source = openj9-8b5fd99.tar.gz::https://github.com/eclipse/openj9/archive/8b5fd99a8d71561e94dcbdf84af681ef7d1bb701.tar.gz
+	source = openj9-omr-e4f52d2.tar.gz::https://github.com/eclipse/openj9-omr/archive/e4f52d2e479f7e64e092dcec573f1fae864395cb.tar.gz
+	source = freedesktop-java.desktop
+	source = freedesktop-jconsole.desktop
+	source = freedesktop-jshell.desktop
+	source = omr-omrstr-iconv-failure-overflow.patch
+	source = openj9-openjdk-override-version.patch
+	sha256sums = dd590d1a30d5e8ebabc8dde557997bd6af898fa9cbe256afcb028d518311a2b9
+	sha256sums = d0c1d158569e68858b977087e9010942e98755cead82d1ad08a05541df54b44c
+	sha256sums = 4f962ec233a814f0f8ffb46834e9a12d18233a508502bc876526cb845073b1bd
+	sha256sums = 7cb89746dbbcf498dd43b53fee59b124f42e3ea0d8b7134ab803cc2bd6b50230
+	sha256sums = bf76024528d050fd912f72d73e18a814a930df3478b132a99a887fbbdc0c9dfd
+	sha256sums = bd2d4da78a65eec20dc32e21fd4fe134a2483b0bbe2dfb940d66755acc237975
+	sha256sums = f37290530dcb8eb5acb4f70609c55b7e2be134f1052ebf20f117c2996a749858
+	sha256sums = 2a97f38ee08ed6a80be38879b47b78fc710adb9dfb69c44d2a33bee45bd06263
+
+pkgname = jre-openj9-headless
+	pkgdesc = OpenJDK Java 20 headless runtime environment
+	install = install_jre-openj9-headless.sh
+	depends = java-runtime-common>=3
+	depends = ca-certificates-utils
+	depends = nss
+	depends = libjpeg-turbo
+	depends = libjpeg.so
+	depends = lcms2
+	depends = liblcms2.so
+	depends = libnet
+	depends = freetype2
+	depends = libfreetype.so
+	depends = harfbuzz
+	depends = libharfbuzz.so
+	depends = glibc
+	depends = gcc-libs
+	optdepends = java-rhino: for some JavaScript support
+	provides = java-runtime-headless=20
+	provides = java-runtime-headless-openj9=20
+	provides = jre20-openj9-headless=20.0.1.u9_openj9_0.39.0_pre20230517-1
+	backup = etc/java-openj9/logging.properties
+	backup = etc/java-openj9/management/jmxremote.access
+	backup = etc/java-openj9/management/jmxremote.password.template
+	backup = etc/java-openj9/management/management.properties
+	backup = etc/java-openj9/net.properties
+	backup = etc/java-openj9/security/java.policy
+	backup = etc/java-openj9/security/java.security
+	backup = etc/java-openj9/security/policy/README.txt
+	backup = etc/java-openj9/security/policy/limited/default_US_export.policy
+	backup = etc/java-openj9/security/policy/limited/default_local.policy
+	backup = etc/java-openj9/security/policy/limited/exempt_local.policy
+	backup = etc/java-openj9/security/policy/unlimited/default_US_export.policy
+	backup = etc/java-openj9/security/policy/unlimited/default_local.policy
+	backup = etc/java-openj9/sound.properties
+
+pkgname = jre-openj9
+	pkgdesc = OpenJDK Java 20 full runtime environment
+	install = install_jre-openj9.sh
+	depends = jre20-openj9-headless=20.0.1.u9_openj9_0.39.0_pre20230517-1
+	depends = giflib
+	depends = libgif.so
+	depends = glibc
+	depends = gcc-libs
+	depends = libpng
+	optdepends = alsa-lib: for basic sound support
+	optdepends = gtk2: for the Gtk+ 2 look and feel - desktop usage
+	optdepends = gtk3: for the Gtk+ 3 look and feel - desktop usage
+	provides = java-runtime=20
+	provides = java-runtime-openj9=20
+	provides = jre20-openj9=20.0.1.u9_openj9_0.39.0_pre20230517-1
+
+pkgname = jdk-openj9
+	pkgdesc = OpenJDK Java 20 development kit
+	install = install_jdk-openj9.sh
+	depends = jre20-openj9=20.0.1.u9_openj9_0.39.0_pre20230517-1
+	depends = java-environment-common=3
+	depends = hicolor-icon-theme
+	depends = libelf
+	depends = glibc
+	depends = gcc-libs
+	provides = java-environment=20
+	provides = java-environment-openj9=20
+	provides = jdk20-openj9=20.0.1.u9_openj9_0.39.0_pre20230517-1
+
+pkgname = openj9-src
+	pkgdesc = OpenJDK Java 20 sources
+	depends = jdk20-openj9=20.0.1.u9_openj9_0.39.0_pre20230517-1
+	provides = openj9-20-src=20.0.1.u9_openj9_0.39.0_pre20230517-1
+
+pkgname = openj9-doc
+	pkgdesc = OpenJDK Java 20 documentation
+	depends = jdk20-openj9=20.0.1.u9_openj9_0.39.0_pre20230517-1
+	provides = openj9-20-doc=20.0.1.u9_openj9_0.39.0_pre20230517-1

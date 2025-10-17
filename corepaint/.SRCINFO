@@ -1,0 +1,18 @@
+pkgbase = corepaint
+	pkgdesc = A paint app from the C Suite
+	pkgver = 5.0.0
+	pkgrel = 1
+	url = https://gitlab.com/cubocore/coreapps/corepaint
+	arch = x86_64
+	arch = aarch64
+	groups = coreapps
+	license = GPL-3.0-or-later
+	makedepends = cmake
+	makedepends = ninja
+	depends = qt6-base
+	depends = hicolor-icon-theme
+	depends = libcprime
+	source = https://gitlab.com/cubocore/coreapps/corepaint/-/archive/v5.0.0/corepaint-v5.0.0.tar.gz
+	sha256sums = d813f423788b5370853050b29e6731631b6179457e5643f8c1ff4c72d0eb00e5
+
+pkgname = corepaint

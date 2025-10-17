@@ -1,0 +1,14 @@
+pkgbase = tkdiff
+	pkgdesc = a graphical front end to the diff program
+	pkgver = 6.0
+	pkgrel = 1
+	url = http://tkdiff.sourceforge.net/
+	arch = any
+	license = GPL
+	depends = tcl
+	depends = tk
+	conflicts = tkcvs
+	source = https://downloads.sourceforge.net/project/tkdiff/tkdiff/6.0/tkdiff-6-0.zip
+	sha256sums = 4fa27c87846c1d6635da5beaa90ce4561638ee25a9169e455175afcf5288e453
+
+pkgname = tkdiff

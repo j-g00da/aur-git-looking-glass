@@ -1,0 +1,26 @@
+pkgbase = zyfun-git
+	pkgdesc = zyfun client
+	pkgver = 3.4.0.r13.gc49f4ad
+	pkgrel = 1
+	epoch = 1
+	url = https://github.com/Hiram-Wong/ZyPlayer
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = npm
+	makedepends = yarn
+	makedepends = nvm
+	makedepends = curl
+	depends = electron36
+	depends = ffmpeg
+	provides = zyfun
+	conflicts = zyfun
+	conflicts = zy-player
+	conflicts = zyfun-appimage
+	conflicts = zyfun-bin
+	source = zyfun.git::git+https://github.com/Hiram-Wong/ZyPlayer.git
+	source = zyfun.sh
+	sha256sums = SKIP
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = zyfun-git

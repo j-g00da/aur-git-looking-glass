@@ -1,0 +1,32 @@
+pkgbase = r-forecast
+	pkgdesc = Forecasting Functions for Time Series and Linear Models
+	pkgver = 8.24.0
+	pkgrel = 1
+	url = https://cran.r-project.org/package=forecast
+	arch = x86_64
+	license = GPL
+	depends = r
+	depends = r-colorspace
+	depends = r-fracdiff
+	depends = r-ggplot2
+	depends = r-generics
+	depends = r-lmtest
+	depends = r-magrittr
+	depends = r-rcpp
+	depends = r-rcpparmadillo
+	depends = r-timedate
+	depends = r-tseries
+	depends = r-urca
+	depends = r-zoo
+	optdepends = r-forectheta
+	optdepends = r-knitr
+	optdepends = r-methods
+	optdepends = r-rmarkdown
+	optdepends = r-rticles
+	optdepends = r-seasonal
+	optdepends = r-testthat
+	optdepends = r-uroot
+	source = https://cran.r-project.org/src/contrib/forecast_8.24.0.tar.gz
+	sha256sums = fb0bf1f1bfa3e3df379d6a1ebce9e64d92829eefedde5400d13578f37bd61646
+
+pkgname = r-forecast

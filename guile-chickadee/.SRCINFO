@@ -1,0 +1,21 @@
+pkgbase = guile-chickadee
+	pkgdesc = A game development toolkit for Guile Scheme
+	pkgver = 0.10.0
+	pkgrel = 1
+	url = https://dthompson.us/projects/chickadee.html
+	arch = x86_64
+	license = Apache-2.0
+	depends = freetype2
+	depends = guile>=3.0.6
+	depends = guile-sdl2>=0.8.0
+	depends = guile-opengl>=0.1.0
+	depends = libjpeg-turbo
+	depends = libpng
+	depends = libvorbis
+	depends = mpg123
+	depends = openal
+	depends = readline
+	source = https://files.dthompson.us/chickadee/chickadee-0.10.0.tar.gz
+	sha256sums = 132f53b6e59a1a51c6d9c618c2a248b76457ed73545b6f0e1a5fe4b8f5020f75
+
+pkgname = guile-chickadee

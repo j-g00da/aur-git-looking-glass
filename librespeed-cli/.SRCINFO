@@ -1,0 +1,17 @@
+pkgbase = librespeed-cli
+	pkgdesc = Command line client for LibreSpeed
+	pkgver = 1.0.12
+	pkgrel = 2
+	url = https://github.com/librespeed/speedtest-cli
+	arch = x86_64
+	arch = aarch64
+	arch = armv6h
+	arch = armv7h
+	license = LGPL-3.0-only
+	makedepends = git
+	makedepends = go
+	depends = glibc
+	source = librespeed-cli-1.0.12.tar.gz::https://github.com/librespeed/speedtest-cli/archive/refs/tags/v1.0.12.tar.gz
+	sha256sums = 2813ff49a8bc99687e70599212e05f0d995cd7f685e1202e80eea4ff58767301
+
+pkgname = librespeed-cli

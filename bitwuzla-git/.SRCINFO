@@ -1,0 +1,41 @@
+pkgbase = bitwuzla-git
+	pkgdesc = SMT solver for the theories of fixed-size bit-vectors, floating-point arithmetic, arrays and uninterpreted functions and their combinations
+	pkgver = 0.8.0.r7.g1cc3415
+	pkgrel = 1
+	url = https://bitwuzla.github.io
+	arch = x86_64
+	license = MIT
+	checkdepends = gtest
+	checkdepends = python-pytest
+	makedepends = cmake
+	makedepends = cython
+	makedepends = doxygen
+	makedepends = git
+	makedepends = meson>=0.64
+	makedepends = ninja
+	makedepends = python-breathe
+	makedepends = python-sphinx
+	makedepends = python-sphinx-tabs
+	makedepends = python-sphinx_rtd_theme
+	makedepends = python-sphinxcontrib-bibtex
+	makedepends = python>=3.7
+	makedepends = python-sphinx
+	depends = cryptominisat
+	depends = gcc-libs
+	depends = glibc
+	depends = gmp>=6.1
+	optdepends = aiger: Utilities for And-Inverter Graphs (AIGs)
+	optdepends = python>=3.7: Python bindings
+	provides = bitwuzla
+	provides = bitwuzla-docs
+	provides = libbitwuzlabv.so
+	provides = libbitwuzlabb.so
+	provides = libbitwuzlals.so
+	provides = libbitwuzla.so
+	conflicts = bitwuzla
+	conflicts = bitwuzla-docs
+	options = !lto
+	source = git+https://github.com/bitwuzla/bitwuzla.git
+	b2sums = SKIP
+
+pkgname = bitwuzla-git

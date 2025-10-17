@@ -1,0 +1,21 @@
+pkgbase = numen
+	pkgdesc = Voice control for handsfree computing
+	pkgver = 0.7
+	pkgrel = 2
+	url = https://git.sr.ht/~geb/numen
+	arch = i686
+	arch = x86_64
+	arch = arm
+	arch = aarch64
+	license = GPL3
+	makedepends = go>=1.19
+	makedepends = gcc
+	makedepends = scdoc
+	depends = alsa-utils
+	depends = dmenu
+	depends = dotool
+	depends = vosk-api
+	source = numen-0.7.tar.gz::https://git.sr.ht/~geb/numen/archive/0.7.tar.gz
+	sha512sums = 99dc883f7de187e241353d4fa5a1deb84cb24c32ac8cdc9138daffc7747c020b66428f576401bda2f139a3c022fd15c4ff4df1b8c9b87a09bc829b50035fc57b
+
+pkgname = numen

@@ -1,0 +1,14 @@
+pkgbase = r-blockcluster
+	pkgdesc = Co-Clustering Package for Binary, Categorical, Contingency and Continuous Data-Sets
+	pkgver = 4.5.5
+	pkgrel = 1
+	url = https://cran.r-project.org/package=blockcluster
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = r-rcpp
+	depends = r-rtkore
+	source = https://cran.r-project.org/src/contrib/blockcluster_4.5.5.tar.gz
+	md5sums = 229a6a56d3653a9c8cdbb7837da8a561
+	b2sums = 5cc00e76666906771c730b3008533097fc9a40b3c1944735ad444ba93d01dcc819c32495bb4785ca9d1fe52c09ae542850ac1dcfc119a206b01c482e90a4372f
+
+pkgname = r-blockcluster

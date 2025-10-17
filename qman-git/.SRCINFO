@@ -1,0 +1,24 @@
+pkgbase = qman-git
+	pkgdesc = A more modern manual page viewer for our terminals
+	pkgver = 1.4.3.r104.g9b702ac
+	pkgrel = 1
+	url = https://github.com/plp13/qman
+	arch = x86_64
+	arch = aarch64
+	license = BSD-2-Clause
+	checkdepends = cunit
+	makedepends = git
+	makedepends = meson
+	makedepends = python-cogapp
+	depends = ncurses
+	depends = zlib
+	depends = bzip2
+	depends = xz
+	depends = man-db
+	provides = qman
+	conflicts = qman
+	backup = etc/xdg/qman/qman.conf
+	source = git+https://github.com/plp13/qman.git#branch=devel
+	sha256sums = SKIP
+
+pkgname = qman-git

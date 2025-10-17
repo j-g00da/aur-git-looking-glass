@@ -1,0 +1,16 @@
+pkgbase = pachi
+	pkgdesc = A reasonably strong engine for the board game go
+	pkgver = 12.84
+	pkgrel = 1
+	url = http://pachi.or.cz/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	depends = glibc
+	options = !makeflags
+	source = https://github.com/pasky/pachi/archive/pachi-12.84.tar.gz
+	source = makefile.patch
+	sha256sums = 5ced9ffd9fdb0ee4cdb24ad341abbcb7df0ab8a7f244932b7dd3bfa0ff6180ba
+	sha256sums = e2cfd2bf317494e602e52075f2577b904c3fcf0ec359556b5f74f4cc17d322ae
+
+pkgname = pachi

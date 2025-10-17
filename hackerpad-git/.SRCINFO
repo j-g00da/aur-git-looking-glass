@@ -1,0 +1,18 @@
+pkgbase = hackerpad-git
+	pkgdesc = Lightweight scratch pad for software engineers.
+	pkgver = r93.731f5c0
+	pkgrel = 1
+	url = https://github.com/hackerpad-app/hackerpad-tauri
+	arch = any
+	license = LicenseRef-unknown
+	makedepends = npm
+	makedepends = nvm
+	makedepends = git
+	makedepends = curl
+	makedepends = yarn
+	depends = webkit2gtk
+	depends = libsoup
+	source = hackerpad.git::git+https://github.com/hackerpad-app/hackerpad-tauri.git
+	sha256sums = SKIP
+
+pkgname = hackerpad-git

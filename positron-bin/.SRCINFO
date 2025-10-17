@@ -1,0 +1,18 @@
+pkgbase = positron-bin
+	pkgdesc = Desktop application that allows you to manage your movie and show watchlist.(Prebuilt version.Use system-wide electron)
+	pkgver = 0.3.0
+	pkgrel = 2
+	url = https://github.com/agustinmista/positron
+	arch = x86_64
+	license = MIT
+	depends = electron30
+	provides = positron=0.3.0
+	conflicts = positron
+	options = !strip
+	options = !emptydirs
+	source = positron-0.3.0.rpm::https://github.com/agustinmista/positron/releases/download/v0.3.0/positron-0.3.0-1.x86_64.rpm
+	source = positron.sh
+	sha256sums = f75591ae0dad84d687dba7573eae82080cb68de0ee03ceec238806c0e9fb7a24
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = positron-bin

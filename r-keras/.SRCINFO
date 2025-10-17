@@ -1,0 +1,30 @@
+pkgbase = r-keras
+	pkgdesc = R Interface to 'Keras'
+	pkgver = 2.16.0
+	pkgrel = 1
+	url = https://cran.r-project.org/package=keras
+	arch = any
+	license = MIT
+	depends = r
+	depends = r-generics
+	depends = r-glue
+	depends = r-magrittr
+	depends = r-r6
+	depends = r-reticulate
+	depends = r-rlang
+	depends = r-tensorflow
+	depends = r-tfruns
+	depends = r-zeallot
+	optdepends = r-callr
+	optdepends = r-ggplot2
+	optdepends = r-jpeg
+	optdepends = r-knitr
+	optdepends = r-png
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	optdepends = r-tfdatasets
+	optdepends = r-withr
+	source = https://cran.r-project.org/src/contrib/keras_2.16.0.tar.gz
+	sha256sums = 4a03130d045b11d1bf250ba8fc88f9bbdc502137d110bd497d417010fb4db803
+
+pkgname = r-keras

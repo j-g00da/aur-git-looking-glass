@@ -1,0 +1,23 @@
+pkgbase = qtel
+	pkgdesc = Graphical Userinteface for Echolink written in QT
+	pkgver = 25.05.1
+	pkgrel = 1
+	url = http://www.github.com/sm0svx/svxlink/
+	arch = x86_64
+	license = GPL
+	makedepends = cmake
+	depends = alsa-utils
+	depends = alsa-lib
+	depends = libsigc++
+	depends = gsm
+	depends = libgcrypt
+	depends = popt
+	depends = tcl
+	depends = speex
+	depends = opus
+	depends = qt5-tools
+	conflicts = svxlink
+	source = https://github.com/sm0svx/svxlink/archive/25.05.1.tar.gz
+	sha256sums = 1cf152511394158f9ead60aff092a5f8fb0d0da5378a68e0a641652ef752887f
+
+pkgname = qtel

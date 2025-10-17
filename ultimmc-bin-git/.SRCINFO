@@ -1,0 +1,22 @@
+pkgbase = ultimmc-bin-git
+	pkgdesc = Free, open source launcher and instance manager for Minecraft.
+	pkgver = 1.6
+	pkgrel = 5
+	url = https://github.com/UltimMC/Launcher
+	arch = x86_64
+	license = Apache
+	depends = zlib
+	depends = opengl-driver
+	depends = qt5-base
+	depends = qt5-x11extras
+	depends = qt5-svg
+	depends = xorg-xrandr
+	depends = zenity
+	depends = wget
+	depends = unzip
+	source = ultimmc-bin-git-1.6.zip::https://nightly.link/TasinFarhanMC/ultimmc-deb/workflows/ci/master/UltimMC.zip
+	source = https://raw.githubusercontent.com/UltimMC/ultimmc-deb/master/ultimmc/usr/share/man/man1/ultimmc.1
+	sha256sums = SKIP
+	sha256sums = ef4957acc5be202049b46039512418df6556e409b816967b4949940bfadc2933
+
+pkgname = ultimmc-bin-git

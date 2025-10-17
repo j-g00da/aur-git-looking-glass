@@ -1,0 +1,30 @@
+pkgbase = wnacg-downloader
+	pkgdesc = 绅士漫画 wnacg.com wnacg 的多线程下载器，带图形界面 支持导出 cbz 和 pdf
+	pkgver = 0.4.2
+	pkgrel = 1
+	url = https://github.com/lanyeeee/wnacg-downloader
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = rust
+	makedepends = cargo-tauri
+	makedepends = pnpm
+	depends = cairo
+	depends = gcc-libs
+	depends = gdk-pixbuf2
+	depends = glib2
+	depends = glibc
+	depends = gtk3
+	depends = hicolor-icon-theme
+	depends = libsoup3
+	depends = openssl
+	depends = webkit2gtk-4.1
+	provides = wnacg-downloader
+	conflicts = wnacg-downloader
+	options = !debug
+	options = !strip
+	options = !lto
+	source = wnacg-downloader::git+https://github.com/lanyeeee/wnacg-downloader.git#tag=v0.4.2
+	sha256sums = 11e04392e23b62058a8341ad7cc335cd38dc88bcec909ddeeac39fda74f1b171
+
+pkgname = wnacg-downloader

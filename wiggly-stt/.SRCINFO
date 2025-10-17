@@ -1,0 +1,22 @@
+pkgbase = wiggly-stt
+	pkgdesc = Local speech-to-text transcription with whisper.cpp, voice recording, and clipboard integration
+	pkgver = 1.1.0
+	pkgrel = 1
+	url = https://github.com/hansp27/wiggly-stt
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = ffmpeg
+	depends = wl-clipboard
+	depends = libnotify
+	depends = curl
+	depends = bash
+	optdepends = ydotool: for auto-paste functionality
+	optdepends = whisper.cpp: for local AI transcription (whisper-cli and whisper-server)
+	provides = speech-to-text
+	provides = voice-transcription
+	provides = stt
+	source = wiggly-stt-1.1.0.tar.gz::https://github.com/hansp27/wiggly-stt/archive/v1.1.0.tar.gz
+	sha256sums = c7a7094fbabf8e2857c8ca7ef4fc331ff3d7da9b670d1f27034923327aa92d49
+
+pkgname = wiggly-stt

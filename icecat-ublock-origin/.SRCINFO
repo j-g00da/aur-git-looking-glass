@@ -1,0 +1,18 @@
+pkgbase = icecat-ublock-origin
+	pkgdesc = Efficient blocker add-on for various browsers. Fast, potent, and lean
+	pkgver = 1.66.4
+	pkgrel = 1
+	url = https://github.com/gorhill/uBlock
+	arch = any
+	groups = icecat-addons
+	license = GPL-3.0-or-later
+	makedepends = git
+	makedepends = npm
+	makedepends = python
+	makedepends = strip-nondeterminism
+	makedepends = zip
+	source = git+https://github.com/gorhill/uBlock.git#commit=1.66.4?signed
+	validpgpkeys = 603B28AA5D6CD687A554347425E1490B761470C2
+	b2sums = cf299735ba8400ab1942cf357048d4e0c7cd64488ba87d40243af6410d10ed08eecc635b00d3f76206f3e9de058f9ef5b4485e9546dd5f7a26416b67344bcc40
+
+pkgname = icecat-ublock-origin

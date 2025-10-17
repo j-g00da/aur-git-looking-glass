@@ -1,0 +1,21 @@
+pkgbase = r-sights
+	pkgdesc = Statistics and dIagnostic Graphs for HTS
+	pkgver = 1.34.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/sights
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-ggplot2
+	depends = r-qvalue
+	depends = r-reshape2
+	optdepends = r-ggthemes
+	optdepends = r-gridextra
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	optdepends = r-xlsx
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/sights_1.34.0.tar.gz
+	sha256sums = f293f92bd1b04a42ba90994f766d50a0add5a509838e88b33be7c8743aaef3c6
+
+pkgname = r-sights

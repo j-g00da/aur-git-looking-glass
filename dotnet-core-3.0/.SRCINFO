@@ -1,0 +1,63 @@
+pkgbase = dotnet-core-3.0
+	pkgver = 3.0.3.sdk103
+	pkgrel = 4
+	url = https://www.microsoft.com/net/core
+	arch = x86_64
+	arch = armv7h
+	arch = aarch64
+	license = MIT
+	options = staticlibs
+	source_x86_64 = https://download.visualstudio.microsoft.com/download/pr/43f3a3bd-3df2-41e6-beca-3ec4952ca6c4/30fe7779249607d1bb3bb4b20d61a479/dotnet-sdk-3.0.103-linux-x64.tar.gz
+	sha512sums_x86_64 = 22acd337c1f837c586b9d0e3581feeba828c7d6dc64e4c6c9b24bdc6159c635eb7019c3fb0534edeb4f84971e9c3584c7e3a4d80854cf5664d2792ee8fde189b
+	source_armv7h = https://download.visualstudio.microsoft.com/download/pr/4a44d4d2-19c1-485a-8b58-fa06805cddcf/cc805a1ebd9d72099309dcd46492d36f/dotnet-sdk-3.0.103-linux-arm.tar.gz
+	sha512sums_armv7h = c4836970b33813f5de36ba6b92cbce2b2ecb9bfd23101cb20af194824ef7b2c899d9d550284616036f546804032aeabc93d5edf5471f9bea73060c341a813a2a
+	source_aarch64 = https://download.visualstudio.microsoft.com/download/pr/eb4ffaf1-b0a9-466d-8440-0220dca8f806/48df585d8d978c5418fa514da6a2bd9b/dotnet-sdk-3.0.103-linux-arm64.tar.gz
+	sha512sums_aarch64 = ceeea4f5590dab0ccc8f016f61db72515bfe1b0d2308a1065696ec654088993f2fbfa7e5b12a486a229c9fbbda657be9f80e03879d9e3038b2d78ea4020f82c4
+
+pkgname = aspnet-runtime-3.0
+	pkgdesc = The ASP.NET Core runtime (binary) - End-of-life
+	depends = dotnet-runtime-3.0
+	provides = aspnet-runtime-3.0
+	provides = aspnet-runtime=3.0.3.sdk103
+	conflicts = aspnet-runtime-3.0
+	conflicts = aspnet-runtime=3.0.3.sdk103
+
+pkgname = dotnet-runtime-3.0
+	pkgdesc = The .NET Core runtime (binary) - End-of-life
+	depends = dotnet-host
+	depends = icu
+	depends = krb5
+	depends = libunwind
+	depends = openssl
+	depends = zlib
+	depends = libcurl.so
+	optdepends = lttng-ust: CoreCLR tracing
+	provides = dotnet-runtime-3.0
+	provides = dotnet-runtime=3.0.3.sdk103
+	conflicts = dotnet-runtime-3.0
+	conflicts = dotnet-runtime=3.0.3.sdk103
+
+pkgname = dotnet-sdk-3.0
+	pkgdesc = The .NET Core SDK (binary) - End-of-life
+	depends = dotnet-runtime-3.0
+	depends = dotnet-sdk>=3.1
+	depends = glibc
+	provides = dotnet-sdk-3.0
+	provides = dotnet-sdk=3.0.3.sdk103
+	conflicts = dotnet-sdk-3.0
+	conflicts = dotnet-sdk=3.0.3.sdk103
+
+pkgname = dotnet-targeting-pack-3.0
+	pkgdesc = The .NET Core targeting pack (binary) - End-of-life
+	depends = netstandard-targeting-pack-2.1
+	provides = dotnet-targeting-pack=3.0.3
+	provides = dotnet-targeting-pack-3.0
+	conflicts = dotnet-targeting-pack=3.0.3
+
+pkgname = aspnet-targeting-pack-3.0
+	pkgdesc = The ASP.NET Core targeting pack (binary) - End-of-life
+	depends = dotnet-targeting-pack-3.0
+	provides = aspnet-targeting-pack=3.0.3
+	provides = aspnet-targeting-pack-3.0
+	conflicts = aspnet-targeting-pack=3.0.3
+

@@ -1,0 +1,13 @@
+pkgbase = tetrigo
+	pkgdesc = Play Tetris in your terminal.
+	pkgver = 0.2.0
+	pkgrel = 1
+	url = https://github.com/Broderick-Westrope/tetrigo
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = go
+	depends = glibc
+	source = tetrigo-0.2.0.tar.gz::https://github.com/Broderick-Westrope/tetrigo/archive/refs/tags/v0.2.0.tar.gz
+	sha256sums = 0347e2739e6fd7fc37667eb8873030f700d26e824d124d73ff8eb49c910946a8
+
+pkgname = tetrigo

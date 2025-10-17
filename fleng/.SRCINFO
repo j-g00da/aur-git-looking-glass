@@ -1,0 +1,18 @@
+pkgbase = fleng
+	pkgdesc = A low level concurrent logic programming language descended from Prolog
+	pkgver = 20
+	pkgrel = 1
+	url = http://www.call-with-current-continuation.org/fleng/fleng.html
+	arch = x86_64
+	license = Public Domain
+	makedepends = gcc
+	makedepends = make
+	depends = sdl2
+	depends = sdl2_image
+	depends = sdl2_mixer
+	depends = sdl2_ttf
+	options = !strip
+	source = http://www.call-with-current-continuation.org/fleng/fleng-20.tgz
+	sha256sums = 924a2e0cd6dd54613bbec926bbc908480fd11c819e779bcb63f721e2a81ec378
+
+pkgname = fleng

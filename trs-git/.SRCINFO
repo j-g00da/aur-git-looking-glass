@@ -1,0 +1,17 @@
+pkgbase = trs-git
+	pkgdesc = A CLI program to manage a trash folder
+	pkgver = r6.c586ca89
+	pkgrel = 1
+	url = https://github.com/willuhmjs/trs
+	arch = x86_64
+	arch = i686
+	arch = aarch64
+	arch = armv7h
+	license = MIT
+	makedepends = rust
+	makedepends = cargo
+	makedepends = git
+	source = git+https://github.com/willuhmjs/trs.git
+	sha256sums = SKIP
+
+pkgname = trs-git

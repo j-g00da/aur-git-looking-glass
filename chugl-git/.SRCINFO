@@ -1,0 +1,18 @@
+pkgbase = chugl-git
+	pkgdesc = ChuGL => ChucK Graphics Library
+	pkgver = 0.2.4.r0.g6c8e36e
+	pkgrel = 1
+	url = https://chuck.stanford.edu/chugl/
+	arch = x86_64
+	groups = pro-audio
+	groups = multimedia
+	license = MIT
+	makedepends = git
+	makedepends = cmake
+	depends = chuck
+	provides = chugl
+	conflicts = chugl
+	source = chugl::git+https://github.com/ccrma/chugl.git
+	sha256sums = SKIP
+
+pkgname = chugl-git

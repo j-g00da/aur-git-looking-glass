@@ -1,0 +1,19 @@
+pkgbase = python-fenics-plotly
+	pkgdesc = A package for plotting FEniCS objects using plotly
+	pkgver = 2025.0.0
+	pkgrel = 1
+	url = https://github.com/finsberg/fenics-plotly
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python-dolfin
+	depends = python-ipywidgets
+	depends = python-plotly
+	source = fenics-plotly-2025.0.0.tar.gz::https://github.com/finsberg/fenics-plotly/archive/v2025.0.0.tar.gz
+	sha512sums = bdbdab190f478a64e1f3c77964bde7d32e90fc98f99e6454fb481b07af2459fe8afe192d31b848bca73675aa3483d38fff41c3a01ab02c93f01a7c9f14da51f5
+
+pkgname = python-fenics-plotly

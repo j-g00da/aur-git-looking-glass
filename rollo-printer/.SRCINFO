@@ -1,0 +1,17 @@
+pkgbase = rollo-printer
+	pkgdesc = Rollo Thermal Printer Driver for Linux
+	pkgver = 1.8.4
+	pkgrel = 1
+	url = https://www.rollo.com/driver-linux/
+	arch = x86_64
+	license = GPL3
+	makedepends = gcc
+	makedepends = make
+	depends = cups
+	source = https://rollo-main.b-cdn.net/driver-dl/linux/rollo-cups-driver-1.8.4.tar.gz
+	source = https://rollo-main.b-cdn.net/driver-dl/linux/rollo-cups-driver-1.8.4.tar.gz.sig
+	validpgpkeys = B97479172D7D70EF193B2B2FE3ACFF5DAFB03654
+	sha512sums = 6a7bbdcc6ba0bfa423de34d51e525270f1961977adfb82d7a6180713eff2200e7cc1814c58039272a78d1f37f4343df4ff52324f728966c6505f621a35a1b7e9
+	sha512sums = SKIP
+
+pkgname = rollo-printer

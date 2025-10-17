@@ -1,0 +1,15 @@
+pkgbase = flumi-bin
+	pkgdesc = The wayfinder (browser) for Gurted, a "web ecosystem".
+	pkgver = 1.0.2
+	pkgrel = 1
+	epoch = 1
+	url = https://github.com/outpoot/gurted
+	arch = x86_64
+	license = CC BY-NC 4.0
+	depends = glibc
+	source = https://github.com/outpoot/gurted/releases/download/v1.0.2/Flumi_Linux.tar.gz
+	source = flumi-bin.desktop
+	sha256sums = c51c92912e292820583fb875e55b81c28bd8197db2affb978e0d245278b72d88
+	sha256sums = 19befd866c5deafebd476545f12df46e0db8ff2223709bad7b30978596a4336b
+
+pkgname = flumi-bin

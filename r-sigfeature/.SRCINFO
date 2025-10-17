@@ -1,0 +1,24 @@
+pkgbase = r-sigfeature
+	pkgdesc = sigFeature: Significant feature selection using SVM-RFE & t-statistic
+	pkgver = 1.26.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/sigFeature
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-biocparallel
+	depends = r-biocviews
+	depends = r-e1071
+	depends = r-openxlsx
+	depends = r-pheatmap
+	depends = r-rcolorbrewer
+	depends = r-sparsem
+	depends = r-summarizedexperiment
+	optdepends = r-biocgenerics
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-runit
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/sigFeature_1.26.0.tar.gz
+	sha256sums = 1b19cea229485bdc9dea65fa8946db4091f62f24f4d3a52893a2b4ffb2259807
+
+pkgname = r-sigfeature

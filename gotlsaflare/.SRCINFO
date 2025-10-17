@@ -1,0 +1,20 @@
+pkgbase = gotlsaflare
+	pkgdesc = Update TLSA DANE records on Cloudflare from X509 certificate
+	pkgver = 2.7.4
+	pkgrel = 1
+	url = https://github.com/Stenstromen/gotlsaflare
+	arch = i686
+	arch = pentium4
+	arch = x86_64
+	arch = arm
+	arch = armv7h
+	arch = armv6h
+	arch = aarch64
+	license = MIT
+	makedepends = go
+	makedepends = git
+	depends = glibc
+	source = git+https://github.com/Stenstromen/gotlsaflare#tag=v2.7.4
+	sha256sums = 83f2e2022b2f54326077e063bad15b045116e1b443a94dcaa3849d74c3133a9e
+
+pkgname = gotlsaflare

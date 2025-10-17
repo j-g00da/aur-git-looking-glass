@@ -1,0 +1,23 @@
+pkgbase = xlibre-video-dummy
+	pkgdesc = XLibre dummy video driver
+	pkgver = 0.4.1.2
+	pkgrel = 1
+	url = https://github.com/X11Libre/xf86-video-dummy
+	arch = aarch64
+	arch = x86_64
+	groups = xlibre-drivers
+	license = MIT AND X11
+	makedepends = systemd
+	makedepends = xlibre-xserver-devel
+	makedepends = xorgproto
+	makedepends = X-ABI-VIDEODRV_VERSION=28.0
+	depends = glibc
+	provides = xf86-video-dummy
+	conflicts = xf86-video-dummy
+	conflicts = xorg-xxserver<1.20.0
+	conflicts = X-ABI-VIDEODRV_VERSION<28
+	conflicts = X-ABI-VIDEODRV_VERSION>=29
+	source = xf86-video-dummy-xlibre-xf86-video-dummy-0.4.1.2.tar.gz::https://github.com/X11Libre/xf86-video-dummy/archive/refs/tags/xlibre-xf86-video-dummy-0.4.1.2.tar.gz
+	b2sums = e88c1d602042d1a27964517d8457bb0fa4655ba4fe3491bd3bac820c3a8af4f6a11a96b952e3b90ab7bba91b23772d91244f71c772c01548b93e3eb90cf583bf
+
+pkgname = xlibre-video-dummy

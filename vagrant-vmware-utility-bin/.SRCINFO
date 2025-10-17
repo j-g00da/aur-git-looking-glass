@@ -1,0 +1,17 @@
+pkgbase = vagrant-vmware-utility-bin
+	pkgdesc = Plugin for vagrant vmware provider.
+	pkgver = 1.0.24
+	pkgrel = 1
+	url = https://www.vagrantup.com/vmware/
+	install = vagrant-vmware-utility.install
+	arch = x86_64
+	license = MPL-2.0
+	makedepends = libarchive
+	depends = vagrant
+	depends = bash
+	provides = vagrant-vmware-utility
+	conflicts = vagrant-vmware-utility
+	source = https://releases.hashicorp.com/vagrant-vmware-utility/1.0.24/vagrant-vmware-utility-1.0.24-1.x86_64.rpm
+	b2sums = a8f922361807c5c567d51f2494151bd4525b475b824de72b21625cd2deb70460e0fd92e09c46f5d0906c24cb798f590326a422f09652807a89b909148b51ff4b
+
+pkgname = vagrant-vmware-utility-bin

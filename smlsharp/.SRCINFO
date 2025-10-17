@@ -1,0 +1,20 @@
+pkgbase = smlsharp
+	pkgdesc = A new programming language in the Standard ML family
+	pkgver = 4.2.0
+	pkgrel = 1
+	url = https://smlsharp.github.io/
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = chrpath
+	depends = gmp
+	depends = massivethreads=1.02
+	depends = llvm>=7.1
+	options = libtool
+	options = staticlibs
+	source = https://github.com/smlsharp/smlsharp/releases/download/v4.2.0/smlsharp-4.2.0.tar.gz
+	source = remove-tz-test.patch
+	sha256sums = 931fb54762c30ab018c804e669d696522cfabafe0a6f85cadefecee1eff710b7
+	sha256sums = 9ad167dd7582349a84218c1d61347376e439d476cca1ffa26b6addeaf162dc6c
+
+pkgname = smlsharp

@@ -1,0 +1,34 @@
+pkgbase = stm32cubeprog
+	pkgdesc = An all-in-one multi-OS software tool for programming STM32 products.
+	pkgver = 2.20.0
+	pkgrel = 1
+	url = https://www.st.com/en/development-tools/stm32cubeprog.html
+	arch = x86_64
+	license = custom:SLA0048
+	makedepends = icoutils
+	makedepends = gendesk
+	makedepends = gsfonts
+	makedepends = p7zip
+	makedepends = java-environment=8
+	depends = stlink
+	depends = libusb
+	depends = qt6-serialport
+	provides = stm32cubeprogrammer
+	options = !strip
+	options = !debug
+	source = en.stm32cubeprg-lin-v2-20-0.zip::https://www.st.com/bin/st/s3-software-download?s3url=publish/stm32cubeprg-lin-v2-20-0/2.20.0/en/stm32cubeprg-lin-v2-20-0.zip
+	source = http_headers
+	source = AnalyticsPanelsConsoleHelper.java
+	source = CheckedHelloPorgrammerPanelConsoleHelper.java
+	source = FinishProgrammerPanelConsoleHelper.java
+	source = TargetProgrammerPanelConsoleHelper.java
+	source = SLA0048_STM32CubeProg.pdf
+	sha256sums = 5fe26a9350c0c72c3b4a87aa3012fdeb6cfb0952b3e0fc05ba84f049f2f1401e
+	sha256sums = 4fc6f177425adbd491cbb7326969a4e77a78588c30e674a1e3455981ad523c40
+	sha256sums = 12f3f8a3301d6f50c00195f9c852e25f8d841246768bf3bbfd4e91fd2052ce6e
+	sha256sums = 8775375cfd21848eafb92bc11712b2d797bbec4f0109e728c175c4abb014131c
+	sha256sums = d67e0fe0e16cb6f8e1f01f324a348484f38805fdbb48780788607f53b2e46901
+	sha256sums = 95a6ee378bb3d2b6bea9284d930a58af43db825ec22c89e5617af9b9ec959890
+	sha256sums = c6d92c00dee63e0f4a54d8ea62f82a646243c3e1480142ae3e7f4ca5d77d5702
+
+pkgname = stm32cubeprog

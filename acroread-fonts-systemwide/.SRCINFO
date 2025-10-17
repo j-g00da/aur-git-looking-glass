@@ -1,0 +1,20 @@
+pkgbase = acroread-fonts-systemwide
+	pkgdesc = Fonts from Adobe Acrobat Reader DC
+	pkgver = DC_2023.008.20421
+	pkgrel = 1
+	epoch = 1
+	url = https://helpx.adobe.com/acrobat/kb/windows-font-packs-32-bit-reader.html
+	arch = any
+	license = LicenseRef-Adobe_PlatformClients_PC_WWEULA
+	makedepends = p7zip
+	conflicts = ttf-adobe-fonts
+	conflicts = ttf-adobe-fonts-cjkext
+	conflicts = acroread-fonts
+	conflicts = acroread-font-chinese-simplified
+	noextract = AcroRdrDC2300820421_en_US.exe
+	source = http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2300820421/AcroRdrDC2300820421_en_US.exe
+	source = http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/misc/FontPack2300820421_XtdAlf_Lang_DC.msi
+	sha256sums = 71c1566ea91139eb1ba748252e6438e1d225a38d6407ff03e4da00fc8a2fd0b0
+	sha256sums = 0e82429c95c1eb2904fb39895932786b51e78015f3e14fbd89959db314089e5b
+
+pkgname = acroread-fonts-systemwide

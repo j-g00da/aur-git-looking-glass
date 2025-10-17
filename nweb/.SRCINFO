@@ -1,0 +1,13 @@
+pkgbase = nweb
+	pkgdesc = Tiny web server for serving static pages
+	pkgver = 25
+	pkgrel = 1
+	url = https://nmon.sourceforge.io/pmwiki.php?n=Site.Nweb
+	arch = x86_64
+	arch = i686
+	license = custom
+	depends = glibc
+	source = https://sourceforge.net/projects/nmon/files/nweb25.c
+	sha256sums = 5f22d4b27854a3a08fed21c46d68f49b3a2ee666cd9c5664705ace3f047b3553
+
+pkgname = nweb

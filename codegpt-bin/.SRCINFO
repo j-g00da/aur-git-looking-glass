@@ -1,0 +1,21 @@
+pkgbase = codegpt-bin
+	pkgdesc = A CLI written in Go language that writes git commit messages or do a code review brief for you using ChatGPT AI (gpt-4, gpt-3.5-turbo model) and automatically installs a git prepare-commit-msg hook
+	pkgver = 1.2.1
+	pkgrel = 1
+	url = https://github.com/appleboy/CodeGPT
+	arch = aarch64
+	arch = armv7h
+	arch = x86_64
+	license = MIT
+	provides = codegpt=1.2.1
+	conflicts = codegpt
+	source = LICENSE-1.2.1::https://raw.githubusercontent.com/appleboy/CodeGPT/v1.2.1/LICENSE
+	sha256sums = 11d290bc694f8f7fa7393406a3b47c0f51c06093634c6e24c21bb6dd74e5874b
+	source_aarch64 = codegpt-1.2.1-aarch64.xz::https://github.com/appleboy/CodeGPT/releases/download/v1.2.1/CodeGPT-1.2.1-linux-arm64.xz
+	sha256sums_aarch64 = 330e60475c45aec326f5e6eadb44b9de5f401746d8534983e1a9bb2c79c55c1f
+	source_armv7h = codegpt-1.2.1-armv7h.xz::https://github.com/appleboy/CodeGPT/releases/download/v1.2.1/CodeGPT-1.2.1-linux-arm-7.xz
+	sha256sums_armv7h = f4a4458741ebbb94f49d774140ab0df1d6b76fa7c863c484d34bcaee84f02a8b
+	source_x86_64 = codegpt-1.2.1-x86_64.xz::https://github.com/appleboy/CodeGPT/releases/download/v1.2.1/CodeGPT-1.2.1-linux-amd64.xz
+	sha256sums_x86_64 = fcd9ea2ef1c916651f9f94f37891e83dabdd29b0a367ca19c367bcfd57c0f703
+
+pkgname = codegpt-bin

@@ -1,0 +1,14 @@
+pkgbase = epson-inkjet-printer-escpr
+	pkgdesc = Epson Inkjet Printer Driver (ESC/P-R) for Linux
+	pkgver = 1.8.6
+	pkgrel = 1
+	url = http://support.epson.net/linux/Printer/LSB_distribution_pages/en/escpr.php
+	arch = x86_64
+	arch = aarch64
+	license = GPL-2.0-or-later
+	depends = cups
+	depends = ghostscript
+	source = https://download3.ebz.epson.net/dsc/f/03/00/16/21/81/74d098a47c3a616713079c9cd5904b468bb33dea/epson-inkjet-printer-escpr-1.8.6-1.tar.gz
+	sha512sums = d0040c99793ba33e54ec5f0137f3b672628f089a6cd792916c24fc5edab75702561dade91eb63cd4b3b8e898f7b4647c899ca425e1449a401c7ff562f8cc0f1e
+
+pkgname = epson-inkjet-printer-escpr

@@ -1,0 +1,42 @@
+pkgbase = ares-emu
+	pkgdesc = Cross-platform, open source, multi-system emulator by Near and Ares team, focusing on accuracy and preservation.
+	pkgver = 146
+	pkgrel = 2
+	url = https://ares-emu.net/
+	install = ares.install
+	arch = x86_64
+	arch = i686
+	arch = aarch64
+	license = ISC
+	makedepends = cmake
+	makedepends = mesa
+	makedepends = ninja
+	makedepends = pkgconf
+	depends = alsa-lib
+	depends = gcc-libs
+	depends = libao
+	depends = libgl
+	depends = libpulse
+	depends = librashader>=0.5.1-1
+	depends = libretro-shaders
+	depends = libudev.so=1-64
+	depends = libx11
+	depends = libxrandr
+	depends = openal
+	depends = sdl3
+	depends = vulkan-driver
+	depends = vulkan-icd-loader
+	depends = zlib
+	depends = cairo
+	depends = gdk-pixbuf2
+	depends = glib2
+	depends = glibc
+	depends = gtk3
+	depends = hicolor-icon-theme
+	depends = pango
+	provides = ares-emu
+	conflicts = ares-emu
+	source = ares-emu-146.tar.gz::https://github.com/ares-emulator/ares/releases/download/v146/ares-source.tar.gz
+	sha512sums = 62e5d6d34054403f469634b3c9c5d7db72b198aa8bae0c6f10ec1eb06d11b111152b026278441c0729896bdb3746cabe9d6f2628f5bc9c9827d7c4a975826cfa
+
+pkgname = ares-emu

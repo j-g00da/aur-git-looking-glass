@@ -1,0 +1,22 @@
+pkgbase = ofinstaller-beans
+	pkgdesc = Installer for Open Fortress
+	pkgver = 1.7.3
+	pkgrel = 1
+	url = https://github.com/ktwrd/beans-rs
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = cargo-nightly
+	depends = glibc
+	depends = gcc-libs
+	depends = cairo
+	depends = pango
+	depends = libxcursor
+	depends = libxfixes
+	depends = libxinerama
+	depends = glib2
+	depends = libx11
+	source = https://github.com/ktwrd/beans-rs/archive/refs/tags/v1.7.3.tar.gz
+	sha256sums = e82c1be815d68b79ff8d82e8f380cdd143329cd2ea193f58b086a980cbd426d8
+	sha256sums = 8b51d3482aa4750dd51d6bbdc4c2905c7e281c0b280da989c000dd371109dea4
+
+pkgname = ofinstaller-beans

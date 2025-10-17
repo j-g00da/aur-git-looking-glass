@@ -1,0 +1,15 @@
+pkgbase = pololu-jrk-g2-software
+	pkgdesc = Software and drivers for the Pololu Jrk G2 USB Motor Controllers with Feedback.
+	pkgver = 1.4.1
+	pkgrel = 1
+	url = https://github.com/pololu/pololu-jrk-g2-software
+	arch = i686
+	arch = x86_64
+	license = custom
+	makedepends = cmake
+	depends = qt5-base
+	depends = libusbp-1
+	source = https://github.com/pololu/pololu-jrk-g2-software/archive/1.4.1.tar.gz
+	sha256sums = c15071a1aa523d5a84de0bda81740af857cd28a9718f65e6b92cfd8c7ff568d6
+
+pkgname = pololu-jrk-g2-software

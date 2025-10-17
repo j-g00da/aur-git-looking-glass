@@ -1,0 +1,23 @@
+pkgbase = nerolauncher
+	pkgdesc = Unofficial Minecraft Launcher built with NextJS and Tauri
+	pkgver = 0.1.0
+	pkgrel = 1
+	url = https://github.com/nsydykovich/nerolauncher
+	install = nerolauncher.install
+	arch = x86_64
+	license = MIT
+	depends = cairo
+	depends = desktop-file-utils
+	depends = gdk-pixbuf2
+	depends = glib2
+	depends = gtk3
+	depends = hicolor-icon-theme
+	depends = libsoup
+	depends = pango
+	depends = webkit2gtk-4.1
+	options = !strip
+	options = !debug
+	source_x86_64 = https://github.com/nsydykovich/nerolauncher/releases/download/v0.1.0/Nero.Launcher_0.1.0_amd64.deb
+	sha256sums_x86_64 = 8e5063f37b53fd1712d707928418f652cba5a597c5e78cb00b338d132e1129b8
+
+pkgname = nerolauncher

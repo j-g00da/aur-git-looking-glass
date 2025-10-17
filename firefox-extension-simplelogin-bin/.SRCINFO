@@ -1,0 +1,14 @@
+pkgbase = firefox-extension-simplelogin-bin
+	pkgdesc = Create a different email for each website to hide your real email
+	pkgver = 3.0.7
+	pkgrel = 1
+	url = https://github.com/simple-login/browser-extension
+	install = firefox-extension-simplelogin-bin.install
+	arch = any
+	groups = firefox-addons
+	license = MIT
+	depends = firefox
+	source = https://addons.mozilla.org/firefox/downloads/file/4458602/simplelogin-3.0.7.xpi
+	b2sums = 1c7d764c4861f9673da2d5aea85ed1f10a676e6a095f3bb5ef8f5e904465bb89bd6460a7a601c01013e75bb3eec8293c8c8ce056fbaaf19a03a40130de0914c6
+
+pkgname = firefox-extension-simplelogin-bin

@@ -1,0 +1,13 @@
+pkgbase = zclock-git
+	pkgdesc = A cross-platform terminal digital clock
+	pkgver = r4.cf8403a
+	pkgrel = 1
+	url = https://github.com/tr1ckydev/zclock
+	arch = x86_64
+	license = MIT
+	makedepends = zig>=0.14
+	makedepends = git
+	source = git+https://github.com/tr1ckydev/zclock.git
+	sha256sums = SKIP
+
+pkgname = zclock-git

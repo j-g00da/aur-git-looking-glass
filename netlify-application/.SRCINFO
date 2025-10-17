@@ -1,0 +1,18 @@
+pkgbase = netlify-application
+	pkgdesc = Unofficial Netlify desktop application
+	pkgver = 1.1.4.aurpatch
+	pkgrel = 2
+	url = https://gitlab.com/linuxbombay/netlify-desktop//application
+	arch = x86_64
+	arch = aarch64
+	license = GPL
+	makedepends = unzip
+	depends = libelectron>=2025.1
+	depends = nss
+	depends = gtk3
+	depends = libxss
+	depends = git
+	source = https://gitlab.com/linuxbombay/netlify-desktop//application/-/archive/1.1.4.aurpatch/application-1.1.4.aurpatch.tar.bz2
+	sha256sums = fab686bd89b6590858ce3848946ed88737497c8988d7d56efd28450f08c8818f
+
+pkgname = netlify-application

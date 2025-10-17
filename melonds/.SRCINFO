@@ -1,0 +1,29 @@
+pkgbase = melonds
+	pkgdesc = DS emulator, sorta
+	pkgver = 1.0
+	pkgrel = 1
+	url = http://melonds.kuribo64.net/
+	arch = x86_64
+	arch = i686
+	arch = pentium4
+	arch = armv7h
+	arch = aarch64
+	license = GPL-3.0-or-later
+	makedepends = wayland
+	makedepends = git
+	makedepends = cmake
+	makedepends = pkg-config
+	makedepends = extra-cmake-modules
+	makedepends = clang
+	depends = qt6-base
+	depends = qt6-multimedia
+	depends = qt6-svg
+	depends = sdl2
+	depends = enet
+	depends = libx11
+	depends = libglvnd
+	depends = hicolor-icon-theme
+	source = melonds::git+https://github.com/melonDS-emu/melonDS.git#tag=1.0
+	sha256sums = 414b376e14a66d8e095605b83a6b7711c04330be159b2649c87213fe8af0c9c6
+
+pkgname = melonds

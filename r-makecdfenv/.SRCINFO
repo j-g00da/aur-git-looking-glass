@@ -1,0 +1,16 @@
+pkgbase = r-makecdfenv
+	pkgdesc = CDF Environment Maker
+	pkgver = 1.84.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/makecdfenv
+	arch = x86_64
+	license = GPL
+	depends = r
+	depends = r-affy
+	depends = r-affyio
+	depends = r-biobase
+	depends = r-zlibbioc
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/makecdfenv_1.84.0.tar.gz
+	sha256sums = 0583b44e9ddc0b418b19df90a03153e4b2f9a47a46c6fdaf7d541b820fc454f2
+
+pkgname = r-makecdfenv

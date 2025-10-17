@@ -1,0 +1,27 @@
+pkgbase = gourou-git
+	pkgdesc = Download and decrypt adobe encrypted (acsm) pdf and epub files (git version)
+	pkgver = r148.469d378
+	pkgrel = 2
+	url = https://forge.soutade.fr/soutade/libgourou
+	arch = x86_64
+	license = LGPL-3.0-only
+	makedepends = git
+	depends = glibc
+	depends = gcc-libs
+	depends = zlib
+	depends = libzip
+	depends = openssl
+	depends = pugixml
+	depends = curl
+	provides = gourou=r148.469d378
+	provides = libgourou=r148.469d378
+	conflicts = gourou
+	conflicts = gourou-bin
+	conflicts = gourou-appimage
+	options = strip
+	source = git://forge.soutade.fr/soutade/libgourou.git
+	source = git://forge.soutade.fr/soutade/updfparser.git
+	sha512sums = SKIP
+	sha512sums = SKIP
+
+pkgname = gourou-git

@@ -1,0 +1,24 @@
+pkgbase = python-citeproc-py
+	pkgdesc = Citations and bibliography formatter
+	pkgver = 0.9.0
+	pkgrel = 1
+	url = https://github.com/citeproc-py/citeproc-py
+	arch = any
+	license = BSD-2-Clause-Views
+	checkdepends = python-nose
+	makedepends = git
+	makedepends = python-setuptools
+	makedepends = python-versioneer
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = rnc2rng
+	depends = python
+	depends = python-lxml
+	source = python-citeproc-py::git+https://github.com/citeproc-py/citeproc-py.git#tag=v0.9.0
+	source = csl-schema::git+https://github.com/citation-style-language/schema.git
+	source = csl-locales::git+https://github.com/citation-style-language/locales.git
+	sha256sums = 5a5bc0b652c8a3f51e7078b022778be11bd5b78993629133d33d5dc28c69a1b6
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = python-citeproc-py

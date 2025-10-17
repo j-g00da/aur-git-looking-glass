@@ -1,0 +1,36 @@
+# Maintainer: Integral <integral@member.fsf.org>
+# Contributor: bpozdena <https://github.com/bpozdena>
+
+pkgname=onedrivegui-git
+_pkgname=OneDriveGUI
+pkgver=1.2.1.r10.g740cd51
+pkgrel=1
+pkgdesc="A simple GUI for OneDrive Linux client, with multi-account support."
+arch=('any')
+url="https://github.com/bpozdena/${_pkgname}"
+license=("GPL-3.0-or-later")
+depends=("pyside6" "python-requests" "onedrive-abraunegg" "qt6-webengine")
+makedepends=("git")
+conflicts=("onedrivegui")
+provides=("onedrivegui")
+source=("git+${url}.git")
+sha256sums=('SKIP')
+
+pkgver() {
+	cd "${_pkgname}/"
+	git describe --tags --long | sed 's/v//;s/-/.r/;s/-/./g'
+}
+
+package() {
+	cd "${_pkgname}/src/"
+	install -d "${pkgdir}/usr/lib/${_pkgname}/"
+	cp -a * "${pkgdir}/usr/lib/${_pkgname}/"
+	chmod +x "${pkgdir}/usr/lib/${_pkgname}/${_pkgname}.py"
+
+	cd resources
+	install -Dm644 "images/${_pkgname}.png" -t "${pkgdir}/usr/share/icons/hicolor/48x48/apps/"
+	install -Dm644 "${_pkgname}.desktop" -t "${pkgdir}/usr/share/applications/"
+
+	install -d "${pkgdir}/usr/bin/"
+	ln -sf "/usr/lib/${_pkgname}/${_pkgname}.py" "${pkgdir}/usr/bin/${_pkgname}"
+}

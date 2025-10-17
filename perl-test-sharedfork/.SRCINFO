@@ -1,0 +1,16 @@
+pkgbase = perl-test-sharedfork
+	pkgdesc = Utility module for Test::Builder, to test fork(2)
+	pkgver = 0.35
+	pkgrel = 2
+	url = https://metacpan.org/release/Test-SharedFork
+	arch = any
+	license = GPL
+	license = PerlArtistic
+	depends = perl
+	depends = perl-test-requires
+	options = !emptydirs
+	options = purge
+	source = https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Test-SharedFork-0.35.tar.gz
+	sha256sums = 2932e865610e80758f764c586757ef8e11db1284d958e25e4b7a85098414c59f
+
+pkgname = perl-test-sharedfork

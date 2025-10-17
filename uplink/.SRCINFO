@@ -1,0 +1,27 @@
+pkgbase = uplink
+	pkgdesc = Trust is a weakness (original CD release)
+	pkgver = 1.55
+	pkgrel = 6
+	url = https://www.introversion.co.uk/introversion/#games:~:text=Uplink
+	arch = x86_64
+	license = LicenseRef-Proprietary
+	makedepends = patchelf
+	depends = bash
+	depends = lib32-freetype2
+	depends = lib32-gcc-libs
+	depends = lib32-glibc
+	depends = lib32-glu
+	depends = lib32-libgl
+	depends = lib32-libjpeg6-turbo
+	depends = lib32-sdl12-compat
+	depends = lib32-sdl_mixer
+	depends = lib32-zlib
+	noextract = uplink.zip
+	source = file://uplink.zip
+	source = https://pkgbuild.com/~heftig/uplink/UplinkBoBCodeCard.pdf
+	source = https://pkgbuild.com/~heftig/uplink/uplink-patch-1.55.tar.gz
+	sha256sums = 52d5b1efaecca11b400c2ab7755924a8034c09a4edd201737ba61da6bc479c02
+	sha256sums = e5734f6c394b8eaa3a3449f4d4a6df0fefa4675fb8e8a515f83e4a3b710d528a
+	sha256sums = 147f41468b0d837a168c760d045b23eecd95a7936fca239d3bea78be0a1936a0
+
+pkgname = uplink

@@ -1,0 +1,17 @@
+pkgbase = python-case-converter
+	pkgdesc = A case conversion library for Python
+	pkgver = 1.2.0
+	pkgrel = 1
+	url = https://github.com/chrisdoherty4/python-case-converter
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	source = python-case-converter-1.2.0.tar.gz::https://github.com/chrisdoherty4/python-case-converter/archive/v1.2.0.tar.gz
+	sha256sums = a2bdc878fa911817e8b4a493b33f200c458e35cd71d1e37a29a43a2e8ef7c446
+
+pkgname = python-case-converter

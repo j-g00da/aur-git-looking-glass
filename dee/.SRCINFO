@@ -1,0 +1,16 @@
+pkgbase = dee
+	pkgdesc = Model to synchronize multiple instances over DBus
+	pkgver = 1.2.9
+	pkgrel = 16
+	url = https://github.com/MercySimp/dee
+	arch = x86_64
+	license = LGPL3.0
+	makedepends = gobject-introspection
+	makedepends = python
+	makedepends = vala
+	depends = glib2
+	depends = icu
+	source = dee-1.2.9.tar.gz::https://github.com/MercySimp/dee/releases/download/v$1.2.9/$dee-1.2.9.tar.gz
+	sha256sums = 212872b3f6bf433820976c5147543c05232a0177f23a614e51c5f17554846fa1
+
+pkgname = dee

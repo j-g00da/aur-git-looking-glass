@@ -1,0 +1,27 @@
+pkgbase = supercronic-bin
+	pkgdesc = A crontab-compatible job runner, designed specifically to run in containers (Pre-compiled version)
+	pkgver = 0.2.36
+	pkgrel = 1
+	url = https://github.com/aptible/supercronic
+	arch = aarch64
+	arch = armv7h
+	arch = i686
+	arch = x86_64
+	license = MIT
+	provides = supercronic
+	conflicts = supercronic
+	conflicts = supercronic-git
+	options = !strip
+	options = !emptydirs
+	source = LICENSE-supercronic-bin-0.2.36.md::https://raw.githubusercontent.com/aptible/supercronic/refs/tags/v0.2.36/LICENSE.md
+	b2sums = a6b6216404b1faba0feec03f5948ee5f3663288afdce33c63c159dd964f24e29197943d38c7288d446ee328e2553952dada226a41326387f2d21cca4a3b928c5
+	source_aarch64 = supercronic-bin-0.2.36-arm64::https://github.com/aptible/supercronic/releases/download/v0.2.36/supercronic-linux-arm64
+	b2sums_aarch64 = 164091a69ca17b718fd0bd832c6de1a0b73f4a445f7e9c2b7beb1355633add295c8e948714269e9e3215ecc05fff8b8a79fdbbc7fa49cdefa9101768f034538f
+	source_armv7h = supercronic-bin-0.2.36-arm::https://github.com/aptible/supercronic/releases/download/v0.2.36/supercronic-linux-arm
+	b2sums_armv7h = d44e04597b28a3a41f46856c2c51030e1e93039c764b5cc5a361196977bce4a24f0b5949359d5571a869bada831bc4f7b3a2299fccd7635b29af86d08f857a14
+	source_i686 = supercronic-bin-0.2.36-386::https://github.com/aptible/supercronic/releases/download/v0.2.36/supercronic-linux-386
+	b2sums_i686 = 6038b55ba04d165c0d32a3333402198aac5d0043ceba1bc0b08f8b19bd8beb3df9cc1cd2437be53d4f27ba0664d914d699bb9510b59a18f645153b9ab42b786c
+	source_x86_64 = supercronic-bin-0.2.36-amd64::https://github.com/aptible/supercronic/releases/download/v0.2.36/supercronic-linux-amd64
+	b2sums_x86_64 = 3e56c621caa216916fc7294b47ccb45b0c5d13535063eb69415e31d64d09127b549ff05331ea5dabeb8432c67294144ea2cdce0f4117770f096e150761a1474f
+
+pkgname = supercronic-bin

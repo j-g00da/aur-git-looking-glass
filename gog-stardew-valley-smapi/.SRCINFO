@@ -1,0 +1,21 @@
+pkgbase = gog-stardew-valley-smapi
+	pkgdesc = The modding API for Stardew Valley.
+	pkgver = 4.3.2
+	pkgrel = 1
+	url = https://github.com/Pathoschild/SMAPI
+	install = gog-stardew-valley-smapi.install
+	arch = x86_64
+	license = LGPL-3.0-only
+	depends = gog-stardew-valley
+	depends = kdialog
+	depends = bash
+	options = strip
+	options = !debug
+	source = https://github.com/Pathoschild/SMAPI/archive/refs/tags/4.3.2.zip
+	source = SMAPI.desktop
+	source = smapi.sh
+	sha256sums = ed8e9ae12fc83a875f52fbc24eb7623c8981826083edc1b16b240beaabbcee51
+	sha256sums = 4cd0a2b975d11c72fcf3d00aaa97ab783f7b82af1355be12dd64e24806cd5884
+	sha256sums = 5008d5678c3dfbbe87e2e2eea2d30e34b126a6196f5cd967b22f7cf0a6d5fc8a
+
+pkgname = gog-stardew-valley-smapi

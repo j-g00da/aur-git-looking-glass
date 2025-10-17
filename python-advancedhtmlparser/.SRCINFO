@@ -1,0 +1,17 @@
+pkgbase = python-advancedhtmlparser
+	pkgdesc = Indexed HTML parser
+	pkgver = 9.0.2
+	pkgrel = 1
+	url = http://github.com/kata198/AdvancedHTMLParser
+	changelog = CHANGELOG
+	arch = any
+	license = LGPL3
+	makedepends = python-setuptools
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python-queryablelist
+	source = python-advancedhtmlparser-9.0.2.tar.gz::http://github.com/kata198/AdvancedHTMLParser/archive/9.0.2.tar.gz
+	sha256sums = ba2ba4a70a6b7cf769b34b0e981bc5646632a1cd76ad4ca31c3b7b79eb8df9cd
+
+pkgname = python-advancedhtmlparser

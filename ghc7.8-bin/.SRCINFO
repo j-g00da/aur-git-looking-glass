@@ -1,0 +1,23 @@
+pkgbase = ghc7.8-bin
+	pkgdesc = Binary GHC 7.8 installed on /usr/bin/ghc-7.8
+	pkgver = 7.8.4
+	pkgrel = 2
+	url = http://www.haskell.org/ghc/
+	install = ghc.install
+	arch = x86_64
+	license = BSD-3-Clause
+	makedepends = ghc
+	makedepends = libxslt
+	makedepends = docbook-xsl
+	depends = gcc
+	depends = gmp
+	depends = libffi
+	depends = perl
+	depends = ncurses5-compat-libs
+	provides = ghc7.8
+	conflicts = ghc7.8
+	noextract = ghc-7.8.4-x86_64-unknown-linux-deb7.tar.xz
+	source = https://www.haskell.org/ghc/dist/7.8.4/ghc-7.8.4-x86_64-unknown-linux-deb7.tar.xz
+	sha256sums = f62e00e93a5ac16ebfe97cd7cb8cde6c6f3156073d4918620542be3e0ad55f8d
+
+pkgname = ghc7.8-bin

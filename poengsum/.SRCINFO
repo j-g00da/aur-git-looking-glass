@@ -1,0 +1,16 @@
+pkgbase = poengsum
+	pkgdesc = Quickly generate a leaderboard for a quiz from your terminal.
+	pkgver = 0.2.3
+	pkgrel = 1
+	url = https://github.com/sigurd4/poengsum
+	arch = x86_64
+	arch = armv7h
+	arch = aarch64
+	license = MIT
+	makedepends = rust
+	makedepends = base-devel
+	options = !lto
+	source = poengsum-0.2.3.tar.gz::https://static.crates.io/crates/poengsum/poengsum-0.2.3.crate
+	sha256sums = 78d0f8917db048cc79a91f72cd137ea3f6817101136a1c587fc5f2d753d25dbb
+
+pkgname = poengsum

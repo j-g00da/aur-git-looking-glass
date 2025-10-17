@@ -1,0 +1,27 @@
+pkgbase = mlmmj
+	pkgdesc = Simple and slim mailing list manager (MLM) inspired by ezmlm
+	pkgver = 1.6.0
+	pkgrel = 1
+	url = https://codeberg.org/mlmmj/mlmmj
+	install = mlmmj.install
+	arch = aarch64
+	arch = armv7h
+	arch = i686
+	arch = x86_64
+	license = MIT
+	depends = bash
+	depends = glibc
+	depends = smtp-server
+	optdepends = perl: for running some of the contributed scripts
+	optdepends = python: for running some of the contributed scripts
+	source = https://codeberg.org/mlmmj/mlmmj/releases/download/RELEASE_1.6.0/mlmmj-1.6.0.tar.xz
+	source = sysuser.conf
+	source = tmpfile.conf
+	sha256sums = 5442cb9d46b925593831743668f47a0b44c1c8a6bd6dc80ba582f435369a3b4a
+	sha256sums = SKIP
+	sha256sums = SKIP
+	b2sums = 247018d16ef82c96ead6d381e5dfc7bac18daf4286f567a37715ab6beeff7f8587f740438228f25012952af18ccd30d6b03884849cce92116d380bac5f000f67
+	b2sums = SKIP
+	b2sums = SKIP
+
+pkgname = mlmmj

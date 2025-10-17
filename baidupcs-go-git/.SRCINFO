@@ -1,0 +1,15 @@
+pkgbase = baidupcs-go-git
+	pkgdesc = The terminal utility for Baidu Network Disk (Golang Version).
+	pkgver = 3.9.5.r6.g5612fc3
+	pkgrel = 1
+	url = https://github.com/qjfoidnh/BaiduPCS-Go
+	arch = x86_64
+	license = Apache
+	makedepends = git
+	makedepends = go-pie
+	depends = glibc
+	provides = baidupcs
+	source = baidupcs-go::git+https://github.com/qjfoidnh/BaiduPCS-Go.git
+	sha256sums = SKIP
+
+pkgname = baidupcs-go-git

@@ -1,0 +1,16 @@
+pkgbase = vim-indexed-search-git
+	pkgdesc = A Vim plugin to show the number of matches and index when searching
+	pkgver = r40.1bae237
+	pkgrel = 2
+	url = https://github.com/henrik/vim-indexed-search
+	arch = any
+	groups = vim-plugins
+	license = unknown
+	makedepends = git
+	depends = vim-plugin-runtime
+	provides = vim-indexed-search
+	conflicts = vim-indexed-search
+	source = git+https://github.com/henrik/vim-indexed-search.git
+	sha256sums = SKIP
+
+pkgname = vim-indexed-search-git

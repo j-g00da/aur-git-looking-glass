@@ -1,0 +1,15 @@
+pkgbase = python-hat-util
+	pkgdesc = Hat utility library
+	pkgver = 0.6.19
+	pkgrel = 1
+	url = https://github.com/hat-open/hat-util
+	arch = any
+	license = Apache
+	makedepends = python-build
+	makedepends = python-hat-doit
+	makedepends = python-installer
+	depends = python
+	source = https://github.com/hat-open/hat-util/archive/refs/tags/v0.6.19.tar.gz
+	sha256sums = 1d955d6b5f437cc9511d9382ac1f58f81ca041babc6c64b8928c9f89f17466e9
+
+pkgname = python-hat-util

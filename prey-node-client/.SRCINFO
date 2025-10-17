@@ -1,0 +1,28 @@
+pkgbase = prey-node-client
+	pkgdesc = Node.js client for the Prey anti-theft software
+	pkgver = 1.13.8
+	pkgrel = 1
+	url = https://github.com/prey/prey-node-client
+	install = prey-node-client.install
+	arch = x86_64
+	license = GPL-3.0-or-later
+	depends = nodejs>=20.16.0
+	depends = mpg123
+	depends = xawtv
+	depends = scrot
+	depends = openssh
+	depends = wireless_tools
+	depends = lsb-release
+	depends = python
+	depends = networkmanager
+	depends = npm
+	depends = gtk3
+	depends = python-gobject
+	source = prey-node-client-1.13.8.zip::https://github.com/prey/prey-node-client/releases/download/v1.13.8/prey-linux-1.13.8-x64.zip
+	source = prey-tracker.sh
+	source = disable-auto-updates.patch
+	sha256sums = 710bb38af8e7909928c32ead90748c92474bd5e5128ccdaba8184f7b3fa12212
+	sha256sums = f2e837b40bea3a4e24ada3a9ef385f0db71e9c0aa9e463f9c63619563bd27ef3
+	sha256sums = 58ceec470e1da9c945abfeeb36e421e1cf9ec1a74002349bb1652849d361206b
+
+pkgname = prey-node-client

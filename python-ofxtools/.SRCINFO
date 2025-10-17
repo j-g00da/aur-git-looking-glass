@@ -1,0 +1,13 @@
+pkgbase = python-ofxtools
+	pkgdesc = A Python library for working with Open Financial Exchange (OFX) data
+	pkgver = 0.9.5
+	pkgrel = 1
+	url = https://github.com/csingley/ofxtools
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = python-setuptools
+	depends = python
+	source = python-ofxtools-0.9.5-1.tar.gz::https://pypi.io/packages/source/o/ofxtools/ofxtools-0.9.5.tar.gz
+	sha256sums = 682a516bfa5ccad0f9551c17cc2cf155422f9f5f85a341cfb4911b324de46045
+
+pkgname = python-ofxtools

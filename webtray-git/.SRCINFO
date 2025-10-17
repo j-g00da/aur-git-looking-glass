@@ -1,0 +1,13 @@
+pkgbase = webtray-git
+	pkgdesc = Attach Web-Applications to Tray
+	pkgver = 34c9a7b
+	pkgrel = 1
+	url = https://git.nathanreiner.xyz/webtray
+	arch = x86_64
+	license = GPL
+	depends = qt6-webengine
+	depends = imagemagick
+	source = git+https://git.nathanreiner.xyz/webtray#tag=34c9a7b64c09ad5c699d633346621fcb2e987eb6
+	sha256sums = 74aeb353f6bf7e6c547d4c32b9819ee2ebe8e582c32b8823af5339c1b128edcc
+
+pkgname = webtray-git

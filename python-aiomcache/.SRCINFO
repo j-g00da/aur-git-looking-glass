@@ -1,0 +1,13 @@
+pkgbase = python-aiomcache
+	pkgdesc = Minimal pure python memcached client
+	pkgver = 0.8.2
+	pkgrel = 1
+	url = https://github.com/aio-libs/aiomcache
+	arch = any
+	license = custom:BSD-2-Clause
+	makedepends = python-setuptools
+	depends = python-typing_extensions
+	source = https://files.pythonhosted.org/packages/source/a/aiomcache/aiomcache-0.8.2.tar.gz
+	sha256sums = 43b220d7f499a32a71871c4f457116eb23460fa216e69c1d32b81e3209e51359
+
+pkgname = python-aiomcache

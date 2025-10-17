@@ -1,0 +1,15 @@
+pkgbase = ffnightman-git
+	pkgdesc = Siemens filesystem extractor.
+	pkgver = 0.0.1
+	pkgrel = 4
+	url = https://github.com/siemens-mobile-hacks/ffnightman
+	arch = any
+	license = MIT
+	makedepends = cmake
+	depends = libffshit-git
+	depends = spdlog
+	depends = fmt
+	source = git+https://github.com/siemens-mobile-hacks/ffnightman
+	sha256sums = SKIP
+
+pkgname = ffnightman-git

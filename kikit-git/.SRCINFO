@@ -1,0 +1,28 @@
+pkgbase = kikit-git
+	pkgdesc = Automation for KiCAD boards
+	pkgver = r751.4f1a424
+	pkgrel = 3
+	url = https://github.com/yaqwsx/KiKit.git
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	makedepends = python-versioneer
+	makedepends = python-build
+	makedepends = python-installer
+	depends = kicad>=5.1.0
+	depends = python-shapely
+	depends = python-solidpython
+	depends = python-numpy
+	depends = python-click
+	depends = python-markdown2
+	depends = python-commentjson
+	depends = python-matplotlib
+	depends = python-pybars3
+	depends = python-pcbnewtransition
+	optdepends = python-wxpython: for plugin hideReferences
+	provides = kikit
+	conflicts = python-kikit
+	source = kikit-git::git+https://github.com/yaqwsx/KiKit.git
+	md5sums = SKIP
+
+pkgname = kikit-git

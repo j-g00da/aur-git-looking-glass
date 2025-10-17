@@ -1,0 +1,27 @@
+pkgbase = kesl
+	pkgdesc = Kaspersky Endpoint Security 12.3.0 for Linux
+	pkgver = 12.3.0.1162
+	pkgrel = 1
+	url = https://support.kaspersky.com/help/KES4Linux/12.3.0/en-US/264264.htm
+	install = kesl.install
+	changelog = kesl.changelog
+	arch = x86_64
+	license = custom
+	depends = perl
+	conflicts = eea
+	conflicts = esets
+	conflicts = eea-dkms
+	conflicts = eea7-dkms
+	noextract = kesl_12.3.0-1162_amd64.deb
+	options = !strip
+	source = https://products.s.kaspersky-labs.com/endpoints/keslinux10/12.3.0.1162/multilanguage-12.3.0.1162/3939393231377c44454c7c31/kesl_12.3.0-1162_amd64.deb
+	source = kesl.install
+	source = kesl.ini
+	source = kesl.start.conf
+	validpgpkeys = 6AFE173577C4CBD621DF217FD093435AA3ED2C4A
+	sha256sums = D673482ADE77C7965FBD2D066E5EDFA5B4EE4779966033C9F5B538C0FD8D74C5
+	sha256sums = b30c734af4d4a5cdf5d40e2c7f0e4bcc5f59210c84656f159027f1f486011eb0
+	sha256sums = 72899f7a8d5c63e1541762603cf6fc1a05a9114c60a529e7b18bac2b334040f1
+	sha256sums = 29efcd166bb0fc5baa5a85dc0f41c6c2e253f6b8fd3ee723862496364281cb4c
+
+pkgname = kesl

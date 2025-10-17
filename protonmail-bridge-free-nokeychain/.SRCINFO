@@ -1,0 +1,22 @@
+pkgbase = protonmail-bridge-free-nokeychain
+	pkgdesc = Proton Mail Bridge fork (free) without keychain requirement; stores secrets in a file
+	pkgver = 3.21.2
+	pkgrel = 6
+	url = https://github.com/mnixry/proton-bridge
+	arch = x86_64
+	license = GPL3
+	makedepends = git
+	makedepends = go
+	provides = protonmail-bridge
+	conflicts = protonmail-bridge
+	conflicts = protonmail-bridge-core
+	conflicts = protonmail-bridge-nokeychain
+	conflicts = protonmail-bridge-free-nokeychain
+	source = proton-bridge::git+https://github.com/mnixry/proton-bridge.git
+	source = keyfile.patch
+	source = protonmail-bridge.service
+	sha256sums = SKIP
+	sha256sums = 8417bf590a731aa207b055d0b5ee47468cfde0183b7f87ea501919748e27616f
+	sha256sums = 58668370a896fadffa69b2ec2d34660edc1e88338608c8a9516f1650350726a9
+
+pkgname = protonmail-bridge-free-nokeychain-git

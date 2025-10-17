@@ -1,0 +1,26 @@
+pkgbase = flrig-git
+	pkgdesc = Ham Radio - Xcvr control program - GIT version
+	pkgver = 2.0.08.r0.g2d9aa65c
+	pkgrel = 2
+	url = http://www.w1hkj.com/flrig-help/index.html
+	arch = armv7h
+	arch = i686
+	arch = x86_64
+	arch = aarch64
+	license = GPL
+	makedepends = git
+	makedepends = autoconf
+	makedepends = automake
+	makedepends = pkg-config
+	depends = fltk<1.5
+	depends = flxmlrpc>=1.0.1
+	depends = systemd-libs
+	depends = hamradio-menus
+	optdepends = fldigi: for digital mode interface
+	provides = flrig
+	conflicts = flrig
+	source = flrig::git://git.code.sf.net/p/fldigi/flrig#branch=master
+	md5sums = SKIP
+	sha256sums = SKIP
+
+pkgname = flrig-git

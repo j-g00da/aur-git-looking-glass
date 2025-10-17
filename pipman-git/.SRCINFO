@@ -1,0 +1,16 @@
+pkgbase = pipman-git
+	pkgdesc = Generate PKGBUILD from pip packages
+	pkgver = 1.1.r0.g2a4c138
+	pkgrel = 1
+	url = http://github.com/sollidsnake/pipman
+	arch = any
+	license = GPL
+	depends = python
+	depends = python-pip
+	depends = python-docopt
+	depends = python-colorama
+	source = git+https://github.com/sollidsnake/pipman
+	md5sums = SKIP
+
+pkgname = pipman-git
+

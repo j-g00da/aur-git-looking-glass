@@ -1,0 +1,12 @@
+pkgbase = obsidian-export
+	pkgdesc = Rust library and CLI to export an Obsidian vault to regular Markdown
+	pkgver = 24.11.0
+	pkgrel = 1
+	url = https://github.com/zoni/obsidian-export
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	source = https://github.com/zoni/obsidian-export/archive/v24.11.0.tar.gz
+	b2sums = a4ac2ebe9bc4d20808ff3b898963a322ff32c36b2b9406e00310e106d42a53a7d4f7e3fba4e72fc86830d3e44bc01f9f5f5329db24ad82f5854044b4b57b9f08
+
+pkgname = obsidian-export

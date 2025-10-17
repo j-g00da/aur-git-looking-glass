@@ -1,0 +1,14 @@
+pkgbase = epson-inkjet-printer-201213j
+	pkgdesc = Epson inkjet printer driver (PX-K701, PX-K751F)
+	pkgver = 1.0.1
+	pkgrel = 1
+	url = https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+	arch = x86_64
+	license = custom:Epson End User Software License Agreement
+	depends = epson-inkjet-printer-filter
+	depends = gcc-libs
+	depends = glibc
+	source = https://download3.ebz.epson.net/dsc/f/03/00/15/65/49/2c909555e3be0a2ca82dfaa3724e74c0233e0bb4/epson-inkjet-printer-201213j-1.0.1-1.src.rpm
+	sha256sums = 57ce5c4e2c487ae4353182c6cebfaac450d81090dd40e4dd87d8de57f83a4d57
+
+pkgname = epson-inkjet-printer-201213j

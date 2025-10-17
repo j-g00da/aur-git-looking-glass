@@ -1,0 +1,16 @@
+pkgbase = perl-cpanplus-dist-arch
+	pkgdesc = CPANPLUS backend for building Archlinux pacman packages
+	pkgver = 1.32
+	pkgrel = 13
+	url = https://metacpan.org/release/CPANPLUS-Dist-Arch
+	arch = any
+	license = Artistic-2.0
+	license = GPL-1.0-only
+	depends = perl-cpanplus>=0
+	depends = perl-pod-parser>=0
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/J/JN/JNBEK/CPANPLUS-Dist-Arch-1.32.tar.gz
+	md5sums = 673be0f0651e975faf4aa59536361d60
+	sha512sums = 92aa6214c56b73c5ce48998a9cc86d619ac3e8c01c1cd3445a99fc9dbc4740923f0cc7708f7270dbc1e930cc783366f98833a8ae58a62f225b614d626c79665d
+
+pkgname = perl-cpanplus-dist-arch

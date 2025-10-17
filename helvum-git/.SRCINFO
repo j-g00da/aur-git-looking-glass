@@ -1,0 +1,24 @@
+pkgbase = helvum-git
+	pkgdesc = A GTK patchbay for pipewire.
+	pkgver = 0.5.1.r15.g980bb139
+	pkgrel = 1
+	url = https://gitlab.freedesktop.org/pipewire/helvum.git
+	arch = i686
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = appstream-glib
+	makedepends = rust
+	makedepends = cargo
+	makedepends = clang
+	makedepends = git
+	makedepends = meson
+	depends = pipewire
+	depends = gtk4
+	depends = libadwaita
+	provides = helvum
+	conflicts = helvum
+	options = !lto
+	source = helvum::git+https://gitlab.freedesktop.org/pipewire/helvum.git
+	sha384sums = SKIP
+
+pkgname = helvum-git

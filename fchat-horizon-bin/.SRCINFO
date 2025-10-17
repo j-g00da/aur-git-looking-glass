@@ -1,0 +1,25 @@
+pkgbase = fchat-horizon-bin
+	pkgdesc = A continuation of the heavily modified F-Chat Rising client. Uses system electron.
+	pkgver = 1.34.1
+	pkgrel = 1
+	url = https://github.com/Fchat-Horizon/Horizon
+	arch = x86_64
+	license = GPL-3.0
+	depends = electron
+	depends = libnotify
+	depends = libsecret
+	depends = libappindicator-gtk3
+	provides = fchat
+	conflicts = fchat
+	source = fchat-horizon-v1.34.1.tar.gz::https://github.com/Fchat-Horizon/Horizon/releases/download/v1.34.1/F-Chat.Horizon-linux-x64.tar.gz
+	source = fchat-horizon.sh
+	source = fchat-horizon.desktop
+	source = fchat-horizon-v1.34.1.png::https://raw.githubusercontent.com/Fchat-Horizon/Horizon/refs/heads/main/electron/build/icon.png
+	source = fchat-horizon-v1.34.1-LICENSE::https://raw.githubusercontent.com/Fchat-Horizon/Horizon/refs/heads/main/LICENSE
+	sha256sums = 98b22d4c3c095dbb329720e2d2c3290af8094586e33bd85c38979e518acd616f
+	sha256sums = 6853b8e9d7ce674b063fe277c98fc9dcec4be4949731e6134a5f134d48892be5
+	sha256sums = 1402f1449db1349c38ebdf3b1d4d8091beeefdb6bc185a02de75befae4d4f5d0
+	sha256sums = 79c24919dcaa51f2907af9beb3fdf3ec0703e662ae2434d8e7fe28e15ae29b02
+	sha256sums = d4a32ce6914b6ab0bd2112076688870a66da29cb83576223bf6d3a911512929f
+
+pkgname = fchat-horizon-bin

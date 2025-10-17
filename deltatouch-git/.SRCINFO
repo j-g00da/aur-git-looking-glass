@@ -1,0 +1,23 @@
+pkgbase = deltatouch-git
+	pkgdesc = Delta Chat client using Lomiri UI toolkit
+	pkgver = r560.fe158c2
+	pkgrel = 1
+	url = https://codeberg.org/lk108/deltatouch
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = git
+	makedepends = cmake
+	makedepends = intltool
+	depends = lomiri-ui-toolkit
+	depends = quirc
+	depends = qt5-quickcontrols2
+	depends = qt5-webengine
+	depends = qt5-multimedia
+	depends = libdeltachat
+	depends = qt5-pim
+	provides = deltatouch
+	conflicts = deltatouch
+	source = git+https://codeberg.org/lk108/deltatouch.git#commit=fe158c2b2d7fd218720df4cc9c54f2c3e86816d7
+	sha256sums = SKIP
+
+pkgname = deltatouch-git

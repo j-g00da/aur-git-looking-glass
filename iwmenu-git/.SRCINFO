@@ -1,0 +1,26 @@
+pkgbase = iwmenu-git
+	pkgdesc = Launcher-driven Wi-Fi manager for Linux
+	pkgver = 0.2.0.r0.gfb7cf0c
+	pkgrel = 1
+	url = https://github.com/e-tho/iwmenu
+	arch = x86_64
+	arch = aarch64
+	license = GPL-3.0-or-later
+	makedepends = git
+	makedepends = cargo
+	depends = iwd
+	depends = dbus
+	optdepends = dmenu: launcher for options navigation via stdin
+	optdepends = rofi: launcher for options navigation via stdin
+	optdepends = fuzzel: launcher for options navigation via stdin
+	optdepends = walker: launcher for options navigation via stdin
+	optdepends = nerd-fonts: for font-based icons (default mode)
+	provides = iwmenu=0.2.0.r0.gfb7cf0c
+	conflicts = iwmenu-bin
+	conflicts = iwmenu
+	options = !debug
+	options = !strip
+	source = iwmenu::git+https://github.com/e-tho/iwmenu.git
+	sha256sums = SKIP
+
+pkgname = iwmenu-git

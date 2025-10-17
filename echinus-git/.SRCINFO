@@ -1,0 +1,24 @@
+pkgbase = echinus-git
+	pkgdesc = A window manager for X in the spirit of dwm
+	pkgver = 0.4.9.r35.g987e139
+	pkgrel = 1
+	url = https://plhk.ru/
+	install = echinus.install
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = pkgconfig
+	depends = libxft
+	depends = libxrandr
+	optdepends = ourico: complementary taskbar for echinus
+	provides = echinus
+	conflicts = echinus
+	source = echinus-git::git+https://github.com/polachok/echinus.git
+	source = fix-incompatible-pointer-types.patch
+	source = echinus.desktop
+	sha256sums = SKIP
+	sha256sums = e31aa3b0a8804e98d9d066206a2ee861b7b806c6ed4b12e973f150d6c85cfefb
+	sha256sums = 8e86f3550b66701fe2f481b556df05b0d06647b470f1adb8bfa50cd55df4bf9b
+
+pkgname = echinus-git

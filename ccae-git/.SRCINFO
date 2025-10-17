@@ -1,0 +1,20 @@
+pkgbase = ccae-git
+	pkgdesc = Colour Contrast Analyser (CCA) - Checks color contrast against WCAG criteria.
+	pkgver = 3.5.4.r2.gc2ab5c0
+	pkgrel = 3
+	url = https://developer.paciellogroup.com/color-contrast-checker/
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = asar
+	makedepends = git
+	makedepends = npm
+	makedepends = libxcrypt-compat
+	depends = electron34
+	depends = imlib2
+	depends = hicolor-icon-theme
+	source = ccae-git::git+https://github.com/ThePacielloGroup/CCAe.git
+	source = cca.desktop
+	sha256sums = SKIP
+	sha256sums = 573202ba311de756575dca1bf5d6469d352c1155afdd3347c79949d7cfcf053c
+
+pkgname = ccae-git

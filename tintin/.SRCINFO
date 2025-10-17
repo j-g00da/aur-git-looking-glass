@@ -1,0 +1,17 @@
+pkgbase = tintin
+	pkgdesc = A console-based MUD client
+	pkgver = 2.02.51
+	pkgrel = 1
+	url = http://tintin.sourceforge.net/
+	arch = i686
+	arch = x86_64
+	arch = aarch64
+	license = GPL3
+	depends = zlib
+	depends = pcre
+	depends = gnutls
+	options = strip
+	source = https://github.com/scandum/tintin/releases/download/2.02.51/tintin-2.02.51.tar.gz
+	sha512sums = b93cd98b93cbe16f26a6aa1eca76a7b6dec8a33745caaf8bae1894191d5b2e4646caefcae02578b2a0254a025b7626ea012b8891f4ebabc423fdda3a15a8bfc7
+
+pkgname = tintin

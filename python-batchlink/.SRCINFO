@@ -1,0 +1,16 @@
+pkgbase = python-batchlink
+	pkgdesc = Batch link file utility and library
+	pkgver = 1.1.0
+	pkgrel = 1
+	url = https://github.com/jaxvanyang/batchlink
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-pdm-backend
+	depends = python>=3.10
+	source = python-batchlink-1.1.0.tar.gz::https://github.com/jaxvanyang/batchlink/archive/v1.1.0.tar.gz
+	sha256sums = f79f08f65fe3c8dc2b70ab9bef97b31d8e1424a20d23049ad61340f5c5247ab0
+
+pkgname = python-batchlink

@@ -1,0 +1,20 @@
+pkgbase = r-anf
+	pkgdesc = Affinity Network Fusion for Complex Patient Clustering
+	pkgver = 1.30.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/ANF
+	arch = any
+	license = GPL-3.0-only
+	depends = r-biobase
+	depends = r-igraph
+	depends = r-rcolorbrewer
+	optdepends = r-experimenthub
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-snftool
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/ANF_1.30.0.tar.gz
+	md5sums = c9fcabc14f444d2727559be3f84d8801
+	b2sums = 86ca01130e884a54d3a55125792e77177fa80a646b1b67da830b8fbd0c4ec384fdeb003d87223e782bed6a8bfbe5690a83b87ddeedb294353e64b03fc2ecfc4c
+
+pkgname = r-anf

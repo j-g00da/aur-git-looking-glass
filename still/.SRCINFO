@@ -1,0 +1,18 @@
+pkgbase = still
+	pkgdesc = Freeze the screen of a Wayland compositor until a provided command exits
+	pkgver = 0.0.7
+	pkgrel = 1
+	url = https://github.com/faergeek/still
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = git
+	makedepends = meson
+	makedepends = scdoc
+	makedepends = wayland-protocols
+	depends = pixman
+	depends = wayland
+	source = https://github.com/faergeek/still/releases/download/v0.0.7/still-0.0.7.tar.xz
+	sha256sums = 3807d32a78d4cb0b0b56cbd88bb33c9b16edc0068aefdf6382d1495cdda00023
+
+pkgname = still

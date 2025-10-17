@@ -1,0 +1,21 @@
+pkgbase = r-pdftools
+	pkgdesc = Text Extraction, Rendering and Converting of PDF Documents
+	pkgver = 3.6.0
+	pkgrel = 1
+	url = https://cran.r-project.org/package=pdftools
+	arch = x86_64
+	license = MIT
+	checkdepends = r-testthat
+	depends = poppler
+	depends = poppler-data
+	depends = r-qpdf
+	depends = r-rcpp
+	optdepends = r-png
+	optdepends = r-tesseract
+	optdepends = r-testthat
+	optdepends = r-webp
+	source = https://cran.r-project.org/src/contrib/pdftools_3.6.0.tar.gz
+	md5sums = c11a1a889a9088304b150a57fbe7c52e
+	b2sums = 553a584504fbd49080ac68f7d0bb86083e2704693b2c0e6971df32a324d4a089410e417beab9a893d5faf325855372a00dfa8cb515d78becad9b3c34759de359
+
+pkgname = r-pdftools

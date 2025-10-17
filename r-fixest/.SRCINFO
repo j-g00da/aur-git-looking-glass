@@ -1,0 +1,30 @@
+pkgbase = r-fixest
+	pkgdesc = Fast Fixed-Effects Estimations
+	pkgver = 0.13.2
+	pkgrel = 1
+	url = https://cran.r-project.org/package=fixest
+	arch = x86_64
+	license = GPL-3.0-only
+	checkdepends = r-data.table
+	depends = r-dreamerr
+	depends = r-numderiv
+	depends = r-rcpp
+	depends = r-sandwich
+	depends = r-stringmagic
+	optdepends = r-aer
+	optdepends = r-data.table
+	optdepends = r-emmeans
+	optdepends = r-estimability
+	optdepends = r-ggplot2
+	optdepends = r-knitr
+	optdepends = r-lfe
+	optdepends = r-pander
+	optdepends = r-pdftools
+	optdepends = r-plm
+	optdepends = r-rmarkdown
+	optdepends = r-tinytex
+	source = https://cran.r-project.org/src/contrib/fixest_0.13.2.tar.gz
+	md5sums = 51669e0d09a29071a86b4937f7b98337
+	b2sums = ced8b6908066af323bc30bc2ef27c26369ddb887bd91fbc5cf47868bf137a1ee4391d276a1ecd34015916c66c2c0a8277f87dba75abacc0afae0808a94ce6032
+
+pkgname = r-fixest

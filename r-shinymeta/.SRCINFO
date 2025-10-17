@@ -1,0 +1,36 @@
+pkgbase = r-shinymeta
+	pkgdesc = Export Domain Logic from Shiny using Meta-Programming
+	pkgver = 0.2.1
+	pkgrel = 1
+	url = https://cran.r-project.org/package=shinymeta
+	arch = any
+	license = GPL-3.0-only
+	checkdepends = r-knitr
+	checkdepends = r-rmarkdown
+	checkdepends = r-stringr
+	checkdepends = r-testthat
+	depends = r-callr
+	depends = r-fastmap
+	depends = r-fs
+	depends = r-htmltools
+	depends = r-rlang
+	depends = r-shiny
+	depends = r-sourcetools
+	depends = r-styler
+	optdepends = r-clipr
+	optdepends = r-cranlogs
+	optdepends = r-dplyr
+	optdepends = r-ggplot2
+	optdepends = r-knitr
+	optdepends = r-magrittr
+	optdepends = r-rmarkdown
+	optdepends = r-shinyace
+	optdepends = r-stringr
+	optdepends = r-testthat
+	optdepends = r-xfun
+	optdepends = r-zoo
+	source = https://cran.r-project.org/src/contrib/shinymeta_0.2.1.tar.gz
+	md5sums = e037bae6ddfd43052402e2fc50a2faf4
+	b2sums = d2448f521d3301da5248758921ef4bde75e1459b073e3498ebeb673a3c73702ed8431574070723c10f026a8988ed9f17d9ae5944f4d311a6c2b3c3dbe3625fbe
+
+pkgname = r-shinymeta

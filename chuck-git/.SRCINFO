@@ -1,0 +1,19 @@
+pkgbase = chuck-git
+	pkgdesc = Concurrent, on-the-fly audio programming language
+	pkgver = 1.5.4.2.r1.gb800b05
+	pkgrel = 1
+	url = https://chuck.stanford.edu/
+	arch = x86_64
+	groups = pro-audio
+	license = GPL-2.0-or-later OR MIT
+	makedepends = git
+	depends = jack
+	depends = libsndfile
+	optdepends = chugl: ChucK Graphics Library
+	optdepends = chugins-git: Officially Supported ChuGins (plug-ins for ChucK)
+	provides = chuck
+	conflicts = chuck
+	source = chuck::git+https://github.com/ccrma/chuck.git
+	sha256sums = SKIP
+
+pkgname = chuck-git

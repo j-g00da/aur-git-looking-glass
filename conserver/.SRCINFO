@@ -1,0 +1,18 @@
+pkgbase = conserver
+	pkgdesc = Serial console remote sharing and logging daemon with support for IPMI.
+	pkgver = 8.2.7.39.g290933b
+	pkgrel = 1
+	url = https://www.conserver.com
+	arch = i686
+	arch = x86_64
+	license = BSD
+	depends = freeipmi
+	depends = openssl
+	depends = libwrap
+	depends = pam
+	source = git+https://github.com/conserver/conserver#commit=290933b4a7964d56f74d2e3c61f7045c5e0d6bfe
+	source = conserver.service
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = conserver

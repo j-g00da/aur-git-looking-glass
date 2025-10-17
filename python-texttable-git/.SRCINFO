@@ -1,0 +1,19 @@
+pkgbase = python-texttable-git
+	pkgdesc = Python module to create simple ASCII tables
+	pkgver = r105.1696325441.b4c00a6
+	pkgrel = 1
+	url = https://github.com/foutaise/texttable
+	arch = any
+	license = GPL2
+	checkdepends = python-pytest
+	makedepends = git
+	makedepends = python-cjkwrap
+	makedepends = python-setuptools
+	depends = python
+	optdepends = python-cjkwrap: for better CJK support
+	provides = python-texttable
+	conflicts = python-texttable
+	source = texttable::git+https://github.com/foutaise/texttable.git
+	sha512sums = SKIP
+
+pkgname = python-texttable-git

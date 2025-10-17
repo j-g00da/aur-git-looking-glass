@@ -1,0 +1,14 @@
+pkgbase = mod-desktop-network-bin
+	pkgdesc = MOD Desktop Application with network access to mod-ui
+	pkgver = 0.0.10
+	pkgrel = 3
+	url = https://github.com/moddevices/mod-desktop
+	arch = x86_64
+	license = AGPLv3+
+	provides = mod-desktop
+	conflicts = mod-desktop
+	conflicts = mod-desktop-git
+	source = mod-desktop-0.0.10-linux-x86_64.tar.xz::https://github.com/moddevices/mod-desktop/releases/download/0.0.10/mod-desktop-0.0.10-linux-x86_64.tar.xz
+	sha256sums = f58ddb42f90b4c2add17d288e9e6fb5ccd261edf92ecfe5bc5df64ebd8f6cbf4
+
+pkgname = mod-desktop-network-bin

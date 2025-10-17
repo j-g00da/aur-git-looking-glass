@@ -1,0 +1,18 @@
+pkgbase = minidsp-rs
+	pkgdesc = Alternative control software for certain MiniDSP products
+	pkgver = 0.1.12
+	pkgrel = 1
+	url = https://github.com/mrene/minidsp-rs
+	arch = x86_64
+	license = APACHE
+	makedepends = git
+	makedepends = clang
+	makedepends = cmake
+	makedepends = rust
+	depends = gcc-libs
+	depends = libusb
+	options = !lto
+	source = minidsp_0.1.12.tar.gz::https://github.com/mrene/minidsp-rs/archive/refs/tags/v0.1.12.tar.gz
+	sha256sums = 2ab458800db532e3e3d28255ff58e6a6f3a985778970bc07ca172611b775dd18
+
+pkgname = minidsp-rs

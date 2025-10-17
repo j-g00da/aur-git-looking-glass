@@ -1,0 +1,27 @@
+pkgbase = python-emby-proxy
+	pkgdesc = Python emby reverse proxy.
+	pkgver = 0.0.3
+	pkgrel = 2
+	url = https://pypi.org/project/python-emby-proxy
+	arch = any
+	license = MIT
+	makedepends = python-poetry
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python
+	depends = python-httpx
+	depends = python-yaml
+	depends = python-yarl
+	depends = python-blacksheep
+	depends = python-reverse-proxy
+	optdepends = emby-theater: Bring together your videos, music, photos, and live television
+	provides = python-emby-proxy
+	conflicts = python-emby-proxy
+	options = !strip
+	options = !debug
+	source = python_emby_proxy-0.0.3.tar.gz::https://files.pythonhosted.org/packages/source/p/python_emby_proxy/python_emby_proxy-0.0.3.tar.gz
+	sha256sums = e617b99f8e1452471fe097a64c6e3f902b1f239fde6cd8e329364eff3bf269ef
+
+pkgname = python-emby-proxy

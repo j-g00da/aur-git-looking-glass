@@ -1,0 +1,11 @@
+pkgbase = route-rnd
+	pkgdesc = free/open source, flexible, modular autorouter for Printed Circuit Boards
+	pkgver = 0.9.3
+	pkgrel = 1
+	url = http://www.repo.hu/projects/route-rnd/
+	arch = x86_64
+	license = GPL2
+	source = http://www.repo.hu/projects/route-rnd/releases/route-rnd-0.9.3.tar.gz
+	sha256sums = 0cba858e5047246d66c70f2c2948cc626def5296c68fab3c8b978aa31159c33b
+
+pkgname = route-rnd

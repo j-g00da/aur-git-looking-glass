@@ -1,0 +1,27 @@
+pkgbase = python-tagpy
+	pkgdesc = Python bindings for TagLib
+	pkgver = 2025.1
+	pkgrel = 1
+	url = https://github.com/palfrey/tagpy
+	arch = i686
+	arch = x86_64
+	arch = armv6h
+	arch = armv7h
+	arch = arm
+	arch = aarch64
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	makedepends = boost
+	depends = python
+	depends = python-packaging
+	depends = taglib
+	depends = boost-libs
+	depends = gcc-libs
+	depends = glibc
+	source = tagpy-2025.1.tar.gz::https://github.com/palfrey/tagpy/archive/refs/tags/v2025.1.tar.gz
+	sha256sums = 4343389b8792928ce54acdcb88c50dcdd06dff8cd5821068438e98ccecaee295
+
+pkgname = python-tagpy

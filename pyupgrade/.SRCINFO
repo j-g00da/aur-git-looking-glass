@@ -1,0 +1,17 @@
+pkgbase = pyupgrade
+	pkgdesc = A tool to automatically upgrade syntax for newer versions of the language
+	pkgver = 3.19.1
+	pkgrel = 1
+	url = https://github.com/asottile/pyupgrade
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	depends = python-tokenize-rt
+	source = https://github.com/asottile/pyupgrade/archive/v3.19.1.tar.gz
+	b2sums = 393bf5343e1ca004474d3a0d3e7866fe9a5a9d0a346a375451130c925b9b0a11808e629340d0a1ca69da772ea30f161629974b80cfcbd6e0a3cb086694bb9432
+
+pkgname = pyupgrade

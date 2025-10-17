@@ -1,0 +1,18 @@
+pkgbase = systempreferences
+	pkgdesc = An application which allows to manage the settings of many aspects of the gnustep environment and its applications.
+	pkgver = 1.2.1
+	pkgrel = 1
+	url = http://www.gnustep.org/experience/systempreferences.html
+	install = systempreferences.install
+	arch = i686
+	arch = x86_64
+	license = GPL2
+	makedepends = gcc-objc
+	makedepends = gnustep-make
+	depends = gnustep-base
+	depends = gnustep-gui
+	depends = gnustep-back
+	source = https://github.com/gnustep/apps-systempreferences/releases/download/systempreferences-1_2_1/SystemPreferences-1.2.1.tar.gz
+	sha256sums = 1c690784d9a86d8eaf8e4724afb38d4cf0e5443ca8c9e70b1242f63d660a44f2
+
+pkgname = systempreferences

@@ -1,0 +1,15 @@
+pkgbase = pa
+	pkgdesc = Password manager similar to pass but with symmetric encryption
+	pkgver = 0.2
+	pkgrel = 2
+	url = https://codeberg.org/aylen384/pa
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = git
+	depends = python
+	depends = python-gnupg
+	depends = xclip
+	source = git+https://codeberg.org/aylen384/pa.git#tag=0.2
+	sha256sums = c194581faa9affb8bd982ec32e80381ac5382145b0ec62bbb119b3b19d5be143
+
+pkgname = pa

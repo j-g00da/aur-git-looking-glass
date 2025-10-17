@@ -1,0 +1,38 @@
+pkgbase = python-spectral-cube
+	pkgdesc = Library for reading and analyzing astrophysical spectral data cubes
+	pkgver = 0.6.6
+	pkgrel = 1
+	url = http://spectral-cube.readthedocs.io
+	arch = any
+	license = BSD-3-Clause
+	makedepends = python-setuptools-scm
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-sphinx-astropy
+	makedepends = python-matplotlib
+	makedepends = python-dask
+	makedepends = python-radio_beam
+	makedepends = python-tqdm
+	makedepends = python-casa-formats-io
+	source = https://files.pythonhosted.org/packages/source/s/spectral_cube/spectral_cube-0.6.6.tar.gz
+	md5sums = a3fcb91b003b877b10b4ac58c237486d
+
+pkgname = python-spectral-cube
+	depends = python-numpy>=1.8.0
+	depends = python-astropy>=4.0
+	depends = python-radio_beam>=0.3.3
+	depends = python-joblib
+	depends = python-dask
+	depends = python-six
+	depends = python-casa-formats-io
+	depends = python-packaging
+	depends = python-tqdm
+	optdepends = python-scipy: Used for subcube creation
+	optdepends = python-bottleneck: Speeds up median and percentile operations on cubes with missing data
+	optdepends = python-regions>=0.7: Serialises/Deserialises DS9/CRTF region files and handles them. Used when extracting a subcube from region
+	optdepends = python-spectral-cube-doc: Documentation for spectral-cube
+	optdepends = python-fsspec: Used for storing computations to disk when using the dask-enabled classes
+	optdepends = python-zarr: Used for storing computations to disk when using the dask-enabled classes
+
+pkgname = python-spectral-cube-doc
+	pkgdesc = Documentation for Python Radio Beam module

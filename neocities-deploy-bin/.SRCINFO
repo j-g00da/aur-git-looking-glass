@@ -1,0 +1,22 @@
+pkgbase = neocities-deploy-bin
+	pkgdesc = Command-line tool for deploying your Neocities site (prebuilt statically-linked binary)
+	pkgver = 0.1.15
+	pkgrel = 4
+	url = https://github.com/kugland/neocities-deploy
+	arch = x86_64
+	arch = i686
+	arch = aarch64
+	arch = armv7h
+	license = GPL-3.0-or-later
+	source = neocities-deploy-0.1.15.tar.gz::https://github.com/kugland/neocities-deploy/archive/refs/tags/v0.1.15.tar.gz
+	sha256sums = abfd357f58967cb553ed68f7e2df1cbf93a91585e697df2eb2eb382ff0d1a957
+	source_x86_64 = neocities-deploy-0.1.15-bin-x86_64.tar.gz::https://github.com/kugland/neocities-deploy/releases/download/v0.1.15/neocities-deploy-Linux-x86_64-musl.tar.gz
+	sha256sums_x86_64 = 7322b218f7fd18bc03894759165ddbe081ceb4a5fd92ab9ed9e90e1f7aed3325
+	source_i686 = neocities-deploy-0.1.15-bin-i686.tar.gz::https://github.com/kugland/neocities-deploy/releases/download/v0.1.15/neocities-deploy-Linux-i686-musl.tar.gz
+	sha256sums_i686 = ab0943a7381cf03d0f2d14cdc2058daa688c79b4e8e1865620a6888316564dec
+	source_aarch64 = neocities-deploy-0.1.15-bin-aarch64.tar.gz::https://github.com/kugland/neocities-deploy/releases/download/v0.1.15/neocities-deploy-Linux-aarch64-musl.tar.gz
+	sha256sums_aarch64 = 595f25dd51202eda803a772f454220c657132480c34a54c432eb15defffa7bc2
+	source_armv7h = neocities-deploy-0.1.15-bin-arm.tar.gz::https://github.com/kugland/neocities-deploy/releases/download/v0.1.15/neocities-deploy-Linux-arm-musl.tar.gz
+	sha256sums_armv7h = 2df89be44868b858eef7da0a4c200c9cb9bd2069096b7003b2c94ae9f61ef299
+
+pkgname = neocities-deploy-bin

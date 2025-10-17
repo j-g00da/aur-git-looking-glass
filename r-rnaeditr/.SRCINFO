@@ -1,0 +1,24 @@
+pkgbase = r-rnaeditr
+	pkgdesc = Statistical analysis of RNA editing sites and hyper-editing regions
+	pkgver = 1.18.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/rnaEditr
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-biocgenerics
+	depends = r-bumphunter
+	depends = r-corrplot
+	depends = r-genomeinfodb
+	depends = r-genomicranges
+	depends = r-iranges
+	depends = r-logistf
+	depends = r-plyr
+	depends = r-s4vectors
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/rnaEditr_1.18.0.tar.gz
+	sha256sums = 46e19a38c0536912430e053bbd50ff478271b4d1286a9166c566b0b74fdb9e6d
+
+pkgname = r-rnaeditr

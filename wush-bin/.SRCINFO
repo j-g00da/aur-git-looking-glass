@@ -1,0 +1,22 @@
+pkgbase = wush-bin
+	pkgdesc = Easily transfer files and open shells over a peer-to-peer WireGuard connection
+	pkgver = 0.4.1
+	pkgrel = 1
+	url = https://github.com/coder/wush
+	arch = x86_64
+	arch = aarch64
+	arch = i686
+	arch = armv7h
+	license = CC0-1.0
+	provides = wush
+	conflicts = wush
+	source_x86_64 = wush-0.4.1-x86_64.tar.gz::https://github.com/coder/wush/releases/download/v0.4.1/wush_0.4.1_linux_amd64.tar.gz
+	sha256sums_x86_64 = cb04d34e48f08597e0274c2d27041e93f852a8b3fa2113fe6868e157883e7c3b
+	source_aarch64 = wush-0.4.1-aarch64.tar.gz::https://github.com/coder/wush/releases/download/v0.4.1/wush_0.4.1_linux_arm64.tar.gz
+	sha256sums_aarch64 = f85ac301e2020268cb68a03f5f288c3cfc79ef043c03a69df81156344f0a957f
+	source_i686 = wush-0.4.1-i686.tar.gz::https://github.com/coder/wush/releases/download/v0.4.1/wush_0.4.1_linux_386.tar.gz
+	sha256sums_i686 = a490a8824a821653eba0d0f182e964df519e33cd5dab59a20c27e5db66e2a15f
+	source_armv7h = wush-0.4.1-armv7h.tar.gz::https://github.com/coder/wush/releases/download/v0.4.1/wush_0.4.1_linux_armv7.tar.gz
+	sha256sums_armv7h = cb7773de4495dff66f426f6d3bdf35c0c08ca630b5b0faadf8030567d1ab1796
+
+pkgname = wush-bin

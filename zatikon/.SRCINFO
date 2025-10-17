@@ -1,0 +1,17 @@
+pkgbase = zatikon
+	pkgdesc = Turn-based board strategy game inspired by chess, made by Chronic Logic
+	pkgver = 1.003
+	pkgrel = 3
+	url = http://www.zatikon.com
+	install = zatikon.install
+	arch = any
+	license = custom:ZatikonEULA
+	depends = java-runtime-jre<=7
+	depends = hicolor-icon-theme
+	depends = sh
+	source = https://dl.dropboxusercontent.com/s/ww6ibq603fmvck1/zatikon-jars.tar.xz
+	md5sums = f67c04f9c086f198dfc85c5a4a99b284
+	sha256sums = 4d8839d5638033769a152b12584f455c9985288852808579e1084eac58966aa0
+
+pkgname = zatikon
+

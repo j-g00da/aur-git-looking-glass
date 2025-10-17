@@ -1,0 +1,23 @@
+pkgbase = python-metno-locationforecast
+	pkgdesc = Python interface for MET Norway's Locationforecast/2.0 weather service
+	pkgver = 2.1.0
+	pkgrel = 2
+	epoch = 1
+	url = https://github.com/Rory-Sullivan/metno-locationforecast
+	changelog = python-metno-locationforecast.changelog
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools>=75.2
+	makedepends = python-wheel
+	depends = python>=3.9
+	depends = python-requests>=2.25.1
+	source = metno-locationforecast-2.1.0.tar.gz::https://github.com/Rory-Sullivan/metno-locationforecast/archive/refs/tags/v2.1.0.tar.gz
+	source = pyproject.diff
+	sha256sums = 6046af64526af65a5f92ff1ac251d498762346091d323c4c84a1508a165533ab
+	sha256sums = ea05bdee67fa8f8eb2bb2e361c6b461eea5cfabbe5855dc6de533b095878ee07
+	b2sums = 65374be3a52a31d9eb91230864f070ce6b59da661d9c21258bb1a999ff536dc054ba4b2201836cfc28483728d321cc268f983978bcf62e5d158260d13e58d888
+	b2sums = 75cbc5655b7d19c87bddf2b42d8fec593273d84cbfa67e7b34ed7f7547e445dba85bb7eaff015d75c3aaace00c3bfa83822fda7683b93c54739950bfc76e3405
+
+pkgname = python-metno-locationforecast

@@ -1,0 +1,19 @@
+pkgbase = arch-checkfw
+	pkgdesc = auto detect required firmware packages on Arch Linux
+	pkgver = 1.1.0
+	pkgrel = 1
+	url = https://github.com/GalaxySnail/arch-checkfw
+	arch = any
+	license = GPL-2.0-or-later
+	makedepends = git
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	depends = kmod
+	depends = pacfiles
+	source = arch-checkfw::git+https://github.com/GalaxySnail/arch-checkfw#commit=1372b1c40e2f0f103fc7a4adb520ffa81b9f95ee
+	sha256sums = SKIP
+
+pkgname = arch-checkfw

@@ -1,0 +1,16 @@
+pkgbase = r-hdo.db
+	pkgdesc = A set of annotation maps describing the entire Human Disease Ontology
+	pkgver = 1.0.0
+	pkgrel = 2
+	url = https://bioconductor.org/packages/HDO.db
+	arch = any
+	license = Artistic2.0
+	depends = r
+	depends = r-annotationdbi
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/data/annotation/src/contrib/HDO.db_1.0.0.tar.gz
+	sha256sums = 04b951ada0ae9f0ed002c22966db70b910c2a91d139f8f706016556667370240
+
+pkgname = r-hdo.db

@@ -1,0 +1,26 @@
+pkgbase = python-osmnx
+	pkgdesc = Retrieve, model, analyze, and visualize OpenStreetMap street networks and other spatial data
+	pkgver = 2.0.0
+	pkgrel = 1
+	url = https://github.com/gboeing/osmnx
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-hatchling
+	depends = python-geopandas
+	depends = python-networkx
+	depends = python-numpy
+	depends = python-pandas
+	depends = python-requests
+	depends = python-shapely
+	optdepends = python-matplotlib: for visualization
+	optdepends = python-scipy: for entropy
+	optdepends = python-scikit-learn: for neighbors
+	optdepends = python-gdal: for rasterization
+	optdepends = python-rasterio: for rasterization
+	source = https://files.pythonhosted.org/packages/source/o/osmnx/osmnx-2.0.0.tar.gz
+	sha256sums = 4fd2eb3736cea503be94ab18d31a669addbaf2dd6a8249527cef94163bb93975
+
+pkgname = python-osmnx

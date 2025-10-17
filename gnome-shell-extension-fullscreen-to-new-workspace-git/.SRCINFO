@@ -1,0 +1,14 @@
+pkgbase = gnome-shell-extension-fullscreen-to-new-workspace-git
+	pkgdesc = Fullscreen to New Workspace Gnome Extension (Revived Version)
+	pkgver = r53.18faccb
+	pkgrel = 3
+	url = https://github.com/corgijan/fullscreen-to-new-workspace
+	arch = any
+	license = GPL3
+	depends = gnome-shell>=48
+	provides = gnome-shell-extension-fullscreen-to-new-workspace
+	conflicts = gnome-shell-extension-fullscreen-to-new-workspace
+	source = git+https://github.com/corgijan/fullscreen-to-new-workspace.git
+	sha256sums = SKIP
+
+pkgname = gnome-shell-extension-fullscreen-to-new-workspace-git

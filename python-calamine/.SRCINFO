@@ -1,0 +1,18 @@
+pkgbase = python-calamine
+	pkgdesc = Python binding for a library for reading excel and odf file: calamine
+	pkgver = 0.3.2
+	pkgrel = 1
+	url = https://github.com/dimastbk/python-calamine
+	arch = x86_64
+	license = MIT
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-maturin
+	makedepends = python-wheel
+	depends = python
+	options = !lto
+	source = python-calamine-0.3.2.tar.gz::https://github.com/dimastbk/python-calamine/archive/v0.3.2.tar.gz
+	sha256sums = d9ac2d104fe18acf56900373d7598090a6e35a964b1e3973c22ed5b9f076ac8f
+
+pkgname = python-calamine

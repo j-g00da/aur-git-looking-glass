@@ -1,0 +1,27 @@
+pkgbase = elan-simple-bin
+	pkgdesc = A video and audio annotation tool (simplified version)
+	pkgver = 1.5
+	pkgrel = 1
+	url = https://archive.mpi.nl/tla/elan
+	arch = x86_64
+	license = GPL-3.0-or-later
+	depends = alsa-lib
+	depends = freetype2
+	depends = glibc
+	depends = gcc-libs
+	depends = java-runtime
+	depends = libx11
+	depends = libxext
+	depends = libxi
+	depends = libxrender
+	depends = libxtst
+	depends = libxcb
+	depends = zlib
+	provides = elan-simple
+	conflicts = elan-simple
+	source = https://www.mpi.nl/tools/elan/simple/Simple-ELAN_1-5_linux.tar.gz
+	source = elan-simple.desktop
+	sha256sums = 31bb4e24810bbe1960775562d5904a1c40fed25d667fc2cee5b03c050188d4a6
+	sha256sums = 8b3ef7210dd7d6e3748c6fedda3da0fa5ca92b82bfac5e7dc603dd87e75b133f
+
+pkgname = elan-simple-bin

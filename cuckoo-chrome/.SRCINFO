@@ -1,0 +1,17 @@
+pkgbase = cuckoo-chrome
+	pkgdesc = A tool to make managing linux installations on chromebooks easier.
+	pkgver = 1.5
+	pkgrel = 2
+	url = https://github.com/pl-luk/cuckoo
+	arch = x86_64
+	license = GPL3
+	depends = python3
+	depends = python-configobj
+	depends = python-cryptography
+	depends = openssl
+	depends = vboot-utils
+	backup = etc/cuckoo.ini
+	source = cuckoo-chrome-1.5.tar.gz::https://github.com/pl-luk/cuckoo/archive/refs/tags/v1.5.tar.gz
+	sha256sums = dcb46c49de3ac3fa028c7346110c13002a3f1ef113b838b534022f9c2ee173c6
+
+pkgname = cuckoo-chrome

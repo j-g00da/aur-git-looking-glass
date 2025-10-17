@@ -1,0 +1,16 @@
+pkgbase = parallel-rust
+	pkgdesc = Inspired by GNU Parallel, a command-line CPU load balancer written in Rust.
+	pkgver = 0.11.3
+	pkgrel = 3
+	url = https://github.com/mmstick/parallel
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = rustup
+	makedepends = musl
+	optdepends = dash: increased performance over sh
+	conflicts = parallel
+	source = https://github.com/mmstick/parallel/archive/0.11.3.tar.gz
+	md5sums = 03645f9059b24493716f7e9ff64241e9
+
+pkgname = parallel-rust

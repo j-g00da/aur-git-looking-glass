@@ -1,0 +1,25 @@
+pkgbase = art-rawconverter-imageio
+	pkgdesc = add on for ART raw converter to support more image formats
+	pkgver = 1.1.2
+	pkgrel = 1
+	epoch = 1
+	url = https://github.com/artpixls/ART-imageio/
+	arch = any
+	license = GPL-3.0-only
+	makedepends = pkgconf
+	makedepends = git
+	makedepends = fakeroot
+	depends = art-rawconverter
+	depends = python-pillow
+	depends = libwebp
+	depends = libjxl
+	depends = python-numpy
+	depends = python-tifffile
+	depends = python-openexr
+	depends = perl-image-exiftool
+	depends = siril
+	depends = libavif
+	source = art-rawconverter-imageio::https://github.com/artpixls/ART-imageio/archive/refs/tags/1.1.2.tar.gz
+	sha256sums = 56443d2b7dc8fa19a1e8441a809d5ad85d525931c8cd173cba1cedfb91f4e6b0
+
+pkgname = art-rawconverter-imageio

@@ -1,0 +1,22 @@
+pkgbase = python-sport-activities-features
+	pkgdesc = Minimalistic toolbox for extracting features from sports activity files written in Python
+	pkgver = 0.5.2
+	pkgrel = 1
+	url = https://github.com/firefly-cpp/sport-activities-features
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-poetry-core
+	depends = python-geopy
+	depends = python-overpy
+	depends = python-geotiler
+	depends = python-tcxreader
+	depends = python-niaaml
+	depends = python-tcx2gpx
+	depends = python-gpxpy
+	source = sport-activities-features-0.5.2.tar.gz::https://github.com/firefly-cpp/sport-activities-features/archive/0.5.2.tar.gz
+	sha512sums = bfa76ba5cf8f39a5150522a843a87d0ea1a024836ca0404d0ddb60d2edd80f30a06234ece44e8bf7bff61cb2921e539f04644c2501308796ada9da7c046329fd
+
+pkgname = python-sport-activities-features

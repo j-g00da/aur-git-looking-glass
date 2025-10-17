@@ -1,0 +1,27 @@
+pkgbase = steam-gamepadui-session-git
+	pkgdesc = Steam Big Picture session based on gamescope for vanilla Arch Linux
+	pkgver = r24.2460526
+	pkgrel = 1
+	url = https://github.com/chenx-dust/steam-gamepadui-session
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = steam
+	depends = gamescope
+	depends = gamescope-session-git
+	optdepends = ttf-dejavu: for initial screen text
+	optdepends = noto-sans-cjk: for initial screen text in cjk
+	optdepends = steam-removable-media-git: removable media support
+	optdepends = mangohud: performance overlay
+	optdepends = ibus: input support
+	optdepends = ibus-pinyin: pinyin input support
+	optdepends = ibus-anthy: japanese input support
+	optdepends = ibus-table: alternative of ibus-table-cangjie-lite
+	optdepends = inputplumber: better controller support, conflict with hhd
+	optdepends = hhd: better controller support, conflict with inputplumber
+	optdepends = pacman-contrib: for upgrade arch linux in steam ui
+	conflicts = gamescope-session-steam-git
+	source = steam-gamepadui-session::git+https://github.com/chenx-dust/steam-gamepadui-session.git
+	md5sums = SKIP
+
+pkgname = steam-gamepadui-session-git

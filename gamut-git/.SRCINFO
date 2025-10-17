@@ -1,0 +1,14 @@
+pkgbase = gamut-git
+	pkgdesc = Toolkit of (hopefully) suckless filters for the farbfeld image format
+	pkgver = r25.a926de3
+	pkgrel = 1
+	url = https://github.com/erik/gamut
+	arch = i686
+	arch = x86_64
+	license = Custom
+	makedepends = git
+	depends = glibc
+	source = gamut-git::git+https://github.com/erik/gamut
+	sha512sums = SKIP
+
+pkgname = gamut-git

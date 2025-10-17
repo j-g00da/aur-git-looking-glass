@@ -1,0 +1,22 @@
+pkgbase = hangar
+	pkgdesc = Command line utility for container images
+	pkgver = 1.9.3
+	pkgrel = 1
+	url = https://github.com/cnrancher/hangar
+	arch = x86_64
+	arch = aarch64
+	license = Apache-2.0
+	makedepends = go
+	makedepends = git
+	makedepends = btrfs-progs
+	depends = gpgme
+	depends = device-mapper
+	depends = containers-common
+	conflicts = hangar-bin
+	conflicts = hangar-git
+	conflicts = hangar-bin-debug
+	conflicts = hangar-git-debug
+	source = git+https://github.com/cnrancher/hangar#tag=v1.9.3
+	sha256sums = SKIP
+
+pkgname = hangar

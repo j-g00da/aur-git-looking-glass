@@ -1,0 +1,22 @@
+pkgbase = gnome-extensions-cli
+	pkgdesc = Command line tool to manage your GNOME Shell extensions
+	pkgver = 0.10.6
+	pkgrel = 1
+	url = https://github.com/essembeh/gnome-extensions-cli
+	arch = any
+	license = Apache-2.0
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-poetry-core
+	makedepends = python-wheel
+	depends = python-colorama
+	depends = python-gobject
+	depends = python-packaging
+	depends = python-pydantic
+	depends = python-requests
+	depends = python-tqdm
+	optdepends = python-dbus: communicate with GNOME Shell directly
+	source = gnome-extensions-cli-0.10.6.tar.gz::https://github.com/essembeh/gnome-extensions-cli/archive/refs/tags/0.10.6.tar.gz
+	sha256sums = 30d88aa10bde0dd94a9ce8085c3227a37ee350c30b4e4ca5c9d71722e6ddc797
+
+pkgname = gnome-extensions-cli

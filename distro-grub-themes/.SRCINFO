@@ -1,0 +1,431 @@
+pkgbase = distro-grub-themes
+	pkgdesc = Grub themes for distributions and brands
+	pkgver = 3.4
+	pkgrel = 2
+	url = https://github.com/ahmedmoselhi/distro-grub-themes
+	arch = any
+	license = GPL-3.0-only
+	noextract = grub-theme-acer-3.4.tar
+	noextract = grub-theme-almalinux-3.4.tar
+	noextract = grub-theme-aorus-3.4.tar
+	noextract = grub-theme-apple-3.4.tar
+	noextract = grub-theme-arch-linux-3.4.tar
+	noextract = grub-theme-archcraft-3.4.tar
+	noextract = grub-theme-arco-linux-3.4.tar
+	noextract = grub-theme-artix-linux-3.4.tar
+	noextract = grub-theme-asrock-3.4.tar
+	noextract = grub-theme-asus-rog-3.4.tar
+	noextract = grub-theme-asus-tuf-3.4.tar
+	noextract = grub-theme-asus-3.4.tar
+	noextract = grub-theme-bedrock-linux-3.4.tar
+	noextract = grub-theme-centos-3.4.tar
+	noextract = grub-theme-chromeos-3.4.tar
+	noextract = grub-theme-debian-3.4.tar
+	noextract = grub-theme-deepin-3.4.tar
+	noextract = grub-theme-dell-3.4.tar
+	noextract = grub-theme-elementaryos-3.4.tar
+	noextract = grub-theme-endeavouros-3.4.tar
+	noextract = grub-theme-fedora-3.4.tar
+	noextract = grub-theme-framework-3.4.tar
+	noextract = grub-theme-freebsd-3.4.tar
+	noextract = grub-theme-fujitsu-3.4.tar
+	noextract = grub-theme-garuda-3.4.tar
+	noextract = grub-theme-gentoo-3.4.tar
+	noextract = grub-theme-gigabyte-3.4.tar
+	noextract = grub-theme-hp-omen-3.4.tar
+	noextract = grub-theme-hp-victus-3.4.tar
+	noextract = grub-theme-hp-3.4.tar
+	noextract = grub-theme-huawei-3.4.tar
+	noextract = grub-theme-kde-neon-3.4.tar
+	noextract = grub-theme-kingston-3.4.tar
+	noextract = grub-theme-kubuntu-3.4.tar
+	noextract = grub-theme-legion-3.4.tar
+	noextract = grub-theme-lenovo-3.4.tar
+	noextract = grub-theme-lg-3.4.tar
+	noextract = grub-theme-linux-lite-3.4.tar
+	noextract = grub-theme-linux-mint-3.4.tar
+	noextract = grub-theme-lubuntu-3.4.tar
+	noextract = grub-theme-manjaro-3.4.tar
+	noextract = grub-theme-medion-3.4.tar
+	noextract = grub-theme-msi-3.4.tar
+	noextract = grub-theme-mx-linux-3.4.tar
+	noextract = grub-theme-nixos-3.4.tar
+	noextract = grub-theme-nobara-3.4.tar
+	noextract = grub-theme-opensuse-3.4.tar
+	noextract = grub-theme-parabola-3.4.tar
+	noextract = grub-theme-pop-os-3.4.tar
+	noextract = grub-theme-proxmox-3.4.tar
+	noextract = grub-theme-razer-3.4.tar
+	noextract = grub-theme-rocky-linux-3.4.tar
+	noextract = grub-theme-samsung-3.4.tar
+	noextract = grub-theme-slackware-3.4.tar
+	noextract = grub-theme-solus-3.4.tar
+	noextract = grub-theme-supermicro-3.4.tar
+	noextract = grub-theme-system76-3.4.tar
+	noextract = grub-theme-thinkpad-3.4.tar
+	noextract = grub-theme-toshiba-3.4.tar
+	noextract = grub-theme-ubuntu-mate-3.4.tar
+	noextract = grub-theme-ubuntu-3.4.tar
+	noextract = grub-theme-ultramarine-3.4.tar
+	noextract = grub-theme-vaio-3.4.tar
+	noextract = grub-theme-vanilla-os-3.4.tar
+	noextract = grub-theme-ventoy-3.4.tar
+	noextract = grub-theme-void-linux-3.4.tar
+	noextract = grub-theme-windows-10-3.4.tar
+	noextract = grub-theme-windows-11-3.4.tar
+	noextract = grub-theme-xero-linux-3.4.tar
+	noextract = grub-theme-zorin-os-3.4.tar
+	noextract = gen.sh
+	options = !strip
+	source = grub-theme-acer-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/acer.tar
+	source = grub-theme-almalinux-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/almalinux.tar
+	source = grub-theme-aorus-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/aorus.tar
+	source = grub-theme-apple-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/apple.tar
+	source = grub-theme-arch-linux-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/arch-linux.tar
+	source = grub-theme-archcraft-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/archcraft.tar
+	source = grub-theme-arco-linux-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/arco-linux.tar
+	source = grub-theme-artix-linux-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/artix-linux.tar
+	source = grub-theme-asrock-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/asrock.tar
+	source = grub-theme-asus-rog-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/asus-rog.tar
+	source = grub-theme-asus-tuf-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/asus-tuf.tar
+	source = grub-theme-asus-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/asus.tar
+	source = grub-theme-bedrock-linux-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/bedrock-linux.tar
+	source = grub-theme-centos-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/centos.tar
+	source = grub-theme-chromeos-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/chromeos.tar
+	source = grub-theme-debian-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/debian.tar
+	source = grub-theme-deepin-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/deepin.tar
+	source = grub-theme-dell-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/dell.tar
+	source = grub-theme-elementaryos-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/elementaryos.tar
+	source = grub-theme-endeavouros-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/endeavouros.tar
+	source = grub-theme-fedora-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/fedora.tar
+	source = grub-theme-framework-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/framework.tar
+	source = grub-theme-freebsd-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/freebsd.tar
+	source = grub-theme-fujitsu-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/fujitsu.tar
+	source = grub-theme-garuda-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/garuda.tar
+	source = grub-theme-gentoo-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/gentoo.tar
+	source = grub-theme-gigabyte-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/gigabyte.tar
+	source = grub-theme-hp-omen-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/hp-omen.tar
+	source = grub-theme-hp-victus-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/hp-victus.tar
+	source = grub-theme-hp-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/hp.tar
+	source = grub-theme-huawei-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/huawei.tar
+	source = grub-theme-kde-neon-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/kde-neon.tar
+	source = grub-theme-kingston-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/kingston.tar
+	source = grub-theme-kubuntu-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/kubuntu.tar
+	source = grub-theme-legion-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/legion.tar
+	source = grub-theme-lenovo-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/lenovo.tar
+	source = grub-theme-lg-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/lg.tar
+	source = grub-theme-linux-lite-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/linux-lite.tar
+	source = grub-theme-linux-mint-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/linux-mint.tar
+	source = grub-theme-lubuntu-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/lubuntu.tar
+	source = grub-theme-manjaro-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/manjaro.tar
+	source = grub-theme-medion-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/medion.tar
+	source = grub-theme-msi-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/msi.tar
+	source = grub-theme-mx-linux-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/mx-linux.tar
+	source = grub-theme-nixos-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/nixos.tar
+	source = grub-theme-nobara-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/nobara.tar
+	source = grub-theme-opensuse-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/opensuse.tar
+	source = grub-theme-parabola-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/parabola.tar
+	source = grub-theme-pop-os-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/pop-os.tar
+	source = grub-theme-proxmox-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/proxmox.tar
+	source = grub-theme-razer-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/razer.tar
+	source = grub-theme-rocky-linux-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/rocky-linux.tar
+	source = grub-theme-samsung-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/samsung.tar
+	source = grub-theme-slackware-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/slackware.tar
+	source = grub-theme-solus-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/solus.tar
+	source = grub-theme-supermicro-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/supermicro.tar
+	source = grub-theme-system76-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/system76.tar
+	source = grub-theme-thinkpad-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/thinkpad.tar
+	source = grub-theme-toshiba-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/toshiba.tar
+	source = grub-theme-ubuntu-mate-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/ubuntu-mate.tar
+	source = grub-theme-ubuntu-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/ubuntu.tar
+	source = grub-theme-ultramarine-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/ultramarine.tar
+	source = grub-theme-vaio-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/vaio.tar
+	source = grub-theme-vanilla-os-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/vanilla-os.tar
+	source = grub-theme-ventoy-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/ventoy.tar
+	source = grub-theme-void-linux-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/void-linux.tar
+	source = grub-theme-windows-10-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/windows-10.tar
+	source = grub-theme-windows-11-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/windows-11.tar
+	source = grub-theme-xero-linux-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/xero-linux.tar
+	source = grub-theme-zorin-os-3.4.tar::https://github.com/ahmedmoselhi/distro-grub-themes/releases/download/v3.4/zorin-os.tar
+	source = gen.sh
+	md5sums = cd417d49f5ed79e390882b33a3ce0f0f
+	md5sums = c75b94f53ad881befc284c346061d4a5
+	md5sums = cd51c43fd8186f35aec41b98d8d5d3df
+	md5sums = c54d417dea760ceeffb173dcfd88d225
+	md5sums = 21d19a408513b3710968936e848ab996
+	md5sums = fb576b90c26df1ad298655ed9a6dec25
+	md5sums = 1c84f8303ce095d89565d1cbcf0bcf04
+	md5sums = fa9486e24a4ddc1a5123365c22282ae6
+	md5sums = 25693d96bbac323114d6a71baa46a8b0
+	md5sums = f026f59f206e5e20526d4362471038e6
+	md5sums = f77ac28ceab7ed4547f0b5240c47f109
+	md5sums = 8629a7bf790db1042053ce6478859142
+	md5sums = 9dea8a93ee828dd7e3da3f73836e5c0c
+	md5sums = 06422585e90cca7cbb79a7dd5eca0490
+	md5sums = bd0c16027482b12c2d37a18d36782fff
+	md5sums = 7f9c5e4fdcd9188f8a471c3255df4d19
+	md5sums = 3779bb9c5378b21f3cd8b0693dc96935
+	md5sums = f0c1c6b01372985bb92ceab8dab2b49d
+	md5sums = d8eab867c20542be6a4fedc2d54a37f3
+	md5sums = 03ff47cc6cfaf802270b918e9eedf3bb
+	md5sums = 586e608b8cf427018c50e815c8bebac3
+	md5sums = d85e67fa598d56a7e3c5e127f99994cb
+	md5sums = 81630f4ae6264b757b01449638257b54
+	md5sums = f6a553f4d7530cafc453f1e0a5b2aada
+	md5sums = 24e2bbff8e548a2ef2db4746d4e125ad
+	md5sums = f8114fb35543742e510995ce6f99612b
+	md5sums = 1326c51a40aa1277bffaeda65fe937b1
+	md5sums = f5e1faaa82d7cf0c7cabbf460dde6479
+	md5sums = 68d4df527d2897f9e268594ee555cb6f
+	md5sums = 4a7d73542c0231a82ec719c66fd62ca2
+	md5sums = b2f93713d458f9ba132ccedae05a0c96
+	md5sums = 6ef6b297670b3d4acddcfa5e40234e25
+	md5sums = 2fede919c7303d9be8f90372a94a5598
+	md5sums = 7fd03fcd8c733f429df1141b0fb94f7a
+	md5sums = bcd11907f1ed233b0796a86014209976
+	md5sums = 7bd568f11b5b1c4c5ba21ba9d1fb4360
+	md5sums = 42d7e9b268bdb6ec1bda1fdf593b91af
+	md5sums = a36b4ddb403912c5f9f5b9bc151a81a8
+	md5sums = c05b46c98a526b5b1e8c283254327729
+	md5sums = bff2bb5f19626100efacf22f2d0cc0dc
+	md5sums = a8d7ead07121020458230f579e131625
+	md5sums = 79eeff12c50ca6803bcfef3f5391c457
+	md5sums = b159596367d014565391b661c0053f6c
+	md5sums = cb3e0ac3f543f6ddc4d7d0cd78613c67
+	md5sums = a5dd090780b90489321a04089cbac8a7
+	md5sums = a60af1619e52031ba496c1d0996cc03d
+	md5sums = ca4357631eb69d783c93fcf65d07e295
+	md5sums = a388a7f574d5b163f187f97d7e85b7a7
+	md5sums = 02e531a6cdc103d3197e75e9b68e41c0
+	md5sums = 38562a6a1c9fafea210c1b318d8c17c5
+	md5sums = 1ff5d82c9b1b2dc72a2a2ac05bb284c3
+	md5sums = 1a981dec8d8babe8804a56addb384e9d
+	md5sums = 42612086d6c9577e9de1ca47dae83387
+	md5sums = 1c165bfaddbcbdc82354179d8876a973
+	md5sums = b59e6bd68d896a1b6a22e2a91ec4fc29
+	md5sums = b01d47b2bfa4234dee4c34f5912fb017
+	md5sums = 026fd706217447fe74f90e44272395fb
+	md5sums = ad9416b16185000ddfe8ccb396c5d43d
+	md5sums = e6b92b54c8500087673916a263ad1dd2
+	md5sums = efa6bbb0bf0c0494e39abffd996b06f9
+	md5sums = 10c2714083677d6556ee5f41a513098f
+	md5sums = 43bf3c36388a42de9572a0d4dca0a78f
+	md5sums = f25f34716b2ec2d2835c6e218cfc140a
+	md5sums = 159a78bcf8a99a0da184f1792250fc34
+	md5sums = 76b17411c30d193afaeb0f2090310155
+	md5sums = eb933d47143cc1cfb92ae891aeb957e8
+	md5sums = abd6b9944116febada5941a24147603c
+	md5sums = 85b033eebd675204abf22dcabca1cb2a
+	md5sums = 6caa2389979ce372e0d4e6e9b7a08984
+	md5sums = c07c7eed710c9194afef013efa528823
+	md5sums = 698931170a5c9b45bd05c8826fd37902
+
+pkgname = grub-theme-acer
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-almalinux
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-aorus
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-apple
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-arch-linux
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-archcraft
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-arco-linux
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-artix-linux
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-asrock
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-asus-rog
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-asus-tuf
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-asus
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-bedrock-linux
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-centos
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-chromeos
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-debian
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-deepin
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-dell
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-elementaryos
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-endeavouros
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-fedora
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-framework
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-freebsd
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-fujitsu
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-garuda
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-gentoo
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-gigabyte
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-hp-omen
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-hp-victus
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-hp
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-huawei
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-kde-neon
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-kingston
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-kubuntu
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-legion
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-lenovo
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-lg
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-linux-lite
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-linux-mint
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-lubuntu
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-manjaro
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-medion
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-msi
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-mx-linux
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-nixos
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-nobara
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-opensuse
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-parabola
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-pop-os
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-proxmox
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-razer
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-rocky-linux
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-samsung
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-slackware
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-solus
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-supermicro
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-system76
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-thinkpad
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-toshiba
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-ubuntu-mate
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-ubuntu
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-ultramarine
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-vaio
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-vanilla-os
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-ventoy
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-void-linux
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-windows-10
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-windows-11
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-xero-linux
+	pkgdesc = Theme for Grub2
+
+pkgname = grub-theme-zorin-os
+	pkgdesc = Theme for Grub2

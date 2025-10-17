@@ -1,0 +1,18 @@
+pkgbase = tarlz
+	pkgdesc = Archiver with multimember lzip compression
+	pkgver = 0.28.1
+	pkgrel = 1
+	url = https://www.nongnu.org/lzip/tarlz.html
+	arch = x86_64_v3
+	arch = x86_64
+	arch = i686
+	arch = pentium4
+	arch = armv7h
+	arch = aarch64
+	license = GPL-2.0-or-later
+	depends = lzlib
+	depends = gcc-libs
+	source = https://download.savannah.gnu.org/releases/lzip/tarlz/tarlz-0.28.1.tar.lz
+	sha512sums = 344ca4629b3868f525d08c67af1a0e394151b9263473a39fbc380ed4baef15a2feb6e8661ef88bf16e59623fbe70eadb1e36e7cd522ceee9956016c4edc5f30a
+
+pkgname = tarlz

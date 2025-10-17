@@ -1,0 +1,15 @@
+pkgbase = hale-cli-bin
+	pkgdesc = Command-line interface for hale studio (binary package)
+	pkgver = 6.1.4
+	pkgrel = 1
+	url = https://github.com/halestudio/hale-cli
+	arch = any
+	license = LGPL-3.0-only
+	depends = java-runtime
+	provides = hale-cli
+	conflicts = hale-cli
+	conflicts = hale
+	source = hale-cli_6.1.4_all.deb::https://github.com/halestudio/hale-cli/releases/download/v6.1.4/hale-cli_6.1.4_all.deb
+	sha256sums = d9fd416281adfed6e5257c4e074a58dffc0a70937252d2ae03966cd9f0ed6593
+
+pkgname = hale-cli-bin

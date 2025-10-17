@@ -1,0 +1,16 @@
+pkgbase = erigon-git
+	pkgdesc = Ethereum execution layer implementation in Go
+	pkgver = 3.0.4.r0.406d855
+	pkgrel = 4
+	url = https://github.com/erigontech/erigon
+	arch = x86_64
+	license = GPL3
+	makedepends = go
+	depends = glibc
+	provides = erigon
+	conflicts = erigon
+	options = !strip
+	source = git+https://github.com/erigontech/erigon.git
+	sha256sums = SKIP
+
+pkgname = erigon-git

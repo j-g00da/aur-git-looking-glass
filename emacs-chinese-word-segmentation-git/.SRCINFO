@@ -1,0 +1,19 @@
+pkgbase = emacs-chinese-word-segmentation-git
+	pkgdesc = Chinese word segmentation tool for Emacs based on libjieba.
+	pkgver = r75.fd2e711
+	pkgrel = 1
+	url = https://github.com/kanglmf/emacs-chinese-word-segmentation
+	install = cns.install
+	arch = x86_64
+	license = GPL3
+	makedepends = git
+	makedepends = gcc
+	makedepends = cmake
+	makedepends = emacs
+	depends = emacs
+	provides = emacs-chinese-word-segmentation
+	conflicts = emacs-chinese-word-segmentation
+	source = emacs-chinese-word-segmentation::git+https://github.com/kanglmf/emacs-chinese-word-segmentation.git
+	sha256sums = SKIP
+
+pkgname = emacs-chinese-word-segmentation-git

@@ -1,0 +1,16 @@
+pkgbase = opennhrp
+	pkgdesc = An opensource NHRP implementation
+	pkgver = 0.14.1
+	pkgrel = 1
+	url = https://sourceforge.net/projects/opennhrp
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	depends = linux>=3.7.4-1
+	depends = bash
+	depends = c-ares
+	backup = etc/opennhrp/opennhrp.conf
+	source = https://downloads.sourceforge.net/project/opennhrp/opennhrp/opennhrp-0.14.1.tar.bz2
+	sha256sums = 1517d53d688ffc165a1da20c344d96b4c53e60f34bd73c64e60cb67cfca4e9ab
+
+pkgname = opennhrp

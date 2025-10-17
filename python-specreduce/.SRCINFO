@@ -1,0 +1,32 @@
+pkgbase = python-specreduce
+	pkgdesc = Astropy coordinated package for Spectroscopic Reductions
+	pkgver = 1.5.1
+	pkgrel = 1
+	url = https://specreduce.readthedocs.io
+	arch = any
+	license = BSD-3-Clause
+	license = MIT
+	checkdepends = python-pytest-astropy-header
+	checkdepends = python-pytest-doctestplus
+	checkdepends = python-pytest-remotedata
+	makedepends = python-setuptools-scm
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-sphinx-astropy
+	makedepends = python-matplotlib
+	makedepends = python-photutils
+	makedepends = python-specutils
+	makedepends = python-synphot
+	source = https://files.pythonhosted.org/packages/source/s/specreduce/specreduce-1.5.1.tar.gz
+	md5sums = 8ef2b518ec20bb39c2cf65b27816da27
+
+pkgname = python-specreduce
+	depends = python>=3.10
+	depends = python-specutils>=1.9.1
+	optdepends = python-matplotlib
+	optdepends = python-photutils
+	optdepends = python-synphot
+	optdepends = python-specreduce-doc: Documentation for Specreduce
+
+pkgname = python-specreduce-doc
+	pkgdesc = Documentation for Python Specreduce

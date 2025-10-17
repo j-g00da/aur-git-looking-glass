@@ -1,0 +1,19 @@
+pkgbase = lastpass-cli
+	pkgdesc = LastPass command line interface tool
+	pkgver = 1.6.1
+	pkgrel = 2
+	url = https://lastpass.com/
+	arch = x86_64
+	license = GPL2
+	makedepends = asciidoc
+	makedepends = cmake
+	makedepends = bash-completion
+	depends = openssl
+	depends = curl
+	depends = libxml2
+	optdepends = xclip: clipboard support
+	optdepends = pinentry: securely read passwords
+	source = https://github.com/lastpass/lastpass-cli/archive/v1.6.1/lastpass-cli-1.6.1.tar.gz
+	sha256sums = 9989ef0650db18bc3f80ba52964202b778abda0548f95dcd321e9c7c39a1a24e
+
+pkgname = lastpass-cli

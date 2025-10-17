@@ -1,0 +1,15 @@
+pkgbase = r-mratios
+	pkgdesc = Ratios of Coefficients in the General Linear Model
+	pkgver = 1.4.4
+	pkgrel = 1
+	url = https://cran.r-project.org/package=mratios
+	arch = any
+	license = GPL-2.0-only
+	depends = r-multcomp
+	depends = r-mvtnorm
+	depends = r-survpresmooth
+	source = https://cran.r-project.org/src/contrib/mratios_1.4.4.tar.gz
+	md5sums = 61f63772d72066769091964b063d31ea
+	b2sums = 5a095726ea179a73db4d535bd4b9335efc284b13ac127f13423b6cb288951ebe299cb84251e934a82780b70cb0c3f12b72c3d389b0eec4dc6f1aa4897863e664
+
+pkgname = r-mratios

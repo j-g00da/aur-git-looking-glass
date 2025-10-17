@@ -1,0 +1,14 @@
+pkgbase = epson-inkjet-printer-201214w
+	pkgdesc = Epson inkjet printer driver (WF-M1030, WF-M1560, WF-M1561)
+	pkgver = 1.0.1
+	pkgrel = 1
+	url = https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+	arch = x86_64
+	license = custom:Epson End User Software License Agreement
+	depends = epson-inkjet-printer-filter
+	depends = gcc-libs
+	depends = glibc
+	source = https://download3.ebz.epson.net/dsc/f/03/00/15/69/61/da53ee2796d210d87d9970aab3aed67447e31098/epson-inkjet-printer-201214w-1.0.1-1.src.rpm
+	sha256sums = 5154aa57822d5a2638e571693a949225d4940ff4a1af98aa9baf62c910cdc6d0
+
+pkgname = epson-inkjet-printer-201214w

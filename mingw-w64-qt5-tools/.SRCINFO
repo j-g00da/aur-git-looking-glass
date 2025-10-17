@@ -1,0 +1,30 @@
+pkgbase = mingw-w64-qt5-tools
+	pkgdesc = A cross-platform application and UI framework (Development Tools, QtHelp; mingw-w64)
+	pkgver = 5.15.17+kde+r3
+	pkgrel = 1
+	url = https://www.qt.io/
+	arch = i686
+	arch = x86_64
+	groups = mingw-w64-qt5
+	license = GPL3
+	license = LGPL3
+	license = FDL
+	license = custom
+	makedepends = mingw-w64-gcc
+	makedepends = mingw-w64-pkg-config
+	makedepends = mingw-w64-postgresql
+	makedepends = mingw-w64-mariadb-connector-c
+	makedepends = mingw-w64-vulkan-headers
+	makedepends = git
+	depends = mingw-w64-qt5-declarative
+	options = !strip
+	options = !buildflags
+	options = staticlibs
+	source = git+https://invent.kde.org/qt/qt/qttools#commit=e02ce0dfa692913bd5dcc50917f7e21f5a41cd2b
+	source = 0001-Fix-linguist-macro.patch
+	source = 0002-Avoid-build-error-in-qcollectiongenerator.patch
+	sha256sums = 5085b155531670bbc019bb7a29eebc333f26e5f8076ef6c2593b22a25daccccf
+	sha256sums = 10fc2ce11300a73acdbac4d84391fefccae89ab105416a98a2dfb074d3d601e7
+	sha256sums = 863a628588e0a608dfbf4dc94a2e9de50afb8e61a7ef09544d4c9db51823d968
+
+pkgname = mingw-w64-qt5-tools

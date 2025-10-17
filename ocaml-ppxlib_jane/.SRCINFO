@@ -1,0 +1,16 @@
+pkgbase = ocaml-ppxlib_jane
+	pkgdesc = Utilities for working with Jane Street AST constructs
+	pkgver = 0.17.4
+	pkgrel = 1
+	url = https://github.com/janestreet/ppxlib_jane
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = dune>=3.11.0
+	depends = ocaml>=5.3.0
+	depends = ocaml-ppxlib>=0.36.0
+	options = !strip
+	source = ocaml-ppxlib_jane-0.17.4.tar.gz::https://github.com/janestreet/ppxlib_jane/archive/v0.17.4.tar.gz
+	b2sums = 67da586b173350032d322aef8b1823b22a98a89cc8917c5e6d577af46b57cd869b5f2d4d9354762b73c374a190706555507e82a2ff465aa05cd8cc0da028cf40
+
+pkgname = ocaml-ppxlib_jane

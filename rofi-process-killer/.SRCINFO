@@ -1,0 +1,15 @@
+pkgbase = rofi-process-killer
+	pkgdesc = A rofi module for listing and killing Linux processes with full command line display
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/MADHUR/rofi-process-killer
+	arch = any
+	license = MIT
+	depends = rofi
+	depends = procps-ng
+	optdepends = libnotify: desktop notifications for kill status
+	source = rofi-process-killer-1.0.0.tar.gz::https://github.com/MADHUR/rofi-process-killer/archive/v1.0.0.tar.gz
+	sha256sums = a1b2c3d4e5f6...
+
+pkgname = rofi-process-killer
+

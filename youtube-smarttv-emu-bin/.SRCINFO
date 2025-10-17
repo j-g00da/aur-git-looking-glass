@@ -1,0 +1,18 @@
+pkgbase = youtube-smarttv-emu-bin
+	pkgdesc = A cross platform app built with Electron that opens an instance of the Smart TV version of Youtube.(Prebuilt version.Use system-wide electron)
+	pkgver = 1.1.0
+	pkgrel = 1
+	url = https://github.com/platevoltage/youtube-smarttv-emu
+	arch = x86_64
+	license = MIT
+	depends = electron34
+	provides = youtube-smarttv-emu=1.1.0
+	conflicts = youtube-smarttv-emu
+	source = youtube-smarttv-emu-1.1.0.rpm::https://github.com/platevoltage/youtube-smarttv-emu/releases/download/1.1.0/youtube-smarttv-emu-1.1.0.x86_64.rpm
+	source = LICENSE-1.1.0::https://raw.githubusercontent.com/platevoltage/youtube-smarttv-emu/1.1.0/LICENCE
+	source = youtube-smarttv-emu.sh
+	sha256sums = 98253b7ad204aa3fbc5846efec8af1160256edb08ae655e119e6d0386ae31e28
+	sha256sums = 2c7bd4372f284a7f952702e50d98d0ef6c5fbb1d1792f9d6d54862cd5fc03860
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = youtube-smarttv-emu-bin

@@ -1,0 +1,22 @@
+pkgbase = python-asn1tools
+	pkgdesc = A Python package for ASN.1 parsing, encoding and decoding
+	pkgver = 0.167.0
+	pkgrel = 1
+	url = https://github.com/eerimoq/asn1tools.git
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	checkdepends = python-trio
+	makedepends = python-setuptools
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-prompt_toolkit
+	makedepends = python-diskcache
+	depends = python
+	depends = licenses
+	depends = python-pyparsing
+	depends = python-bitstruct
+	source = git+https://github.com/eerimoq/asn1tools.git#commit=7b72219c5bc529068d1b9abe84a46773f38c465f
+	b2sums = SKIP
+
+pkgname = python-asn1tools

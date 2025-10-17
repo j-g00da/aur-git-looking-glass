@@ -1,0 +1,25 @@
+pkgbase = cursor-beta-bin
+	pkgdesc = AI-first coding environment
+	pkgver = 1.7.46
+	pkgrel = 1
+	url = https://www.cursor.com
+	arch = x86_64
+	license = LicenseRef-Cursor_EULA
+	depends = ripgrep
+	depends = xdg-utils
+	depends = gcc-libs
+	depends = hicolor-icon-theme
+	depends = libxkbfile
+	conflicts = cursor-bin
+	options = !strip
+	source = cursor-beta-bin-1.7.46.AppImage::https://downloads.cursor.com/production/b9e5948c1ad20443a5cecba6b84a3c9b99d62582/linux/x64/Cursor-1.7.46-x86_64.AppImage
+	source = https://gitlab.archlinux.org/archlinux/packaging/packages/code/-/raw/main/code.sh
+	sha512sums = 92ce04a2196182af2ed3385c3eb0d2977b951c41d080f204f008445b58901bb2a46800e86c2b8fa652b860e53fa586da08e0bbeeef4b509ddcb262d02a8b3a0f
+	sha512sums = 937299c6cb6be2f8d25f7dbc95cf77423875c5f8353b8bd6cd7cc8e5603cbf8405b14dbf8bd615db2e3b36ed680fc8e1909410815f7f8587b7267a699e00ab37
+
+pkgname = cursor-beta-bin
+	depends = ripgrep
+	depends = xdg-utils
+	depends = gcc-libs
+	depends = hicolor-icon-theme
+	depends = libxkbfile

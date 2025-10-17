@@ -1,0 +1,30 @@
+pkgbase = python-h3
+	pkgdesc = Hexagonal Hierarchical Geospatial Indexing System in Python
+	pkgver = 4.3.1
+	pkgrel = 2
+	url = https://github.com/uber/h3-py
+	arch = x86_64
+	arch = x86_64_v3
+	license = Apache-2.0
+	checkdepends = python-pytest
+	checkdepends = python-pytest-cov
+	checkdepends = python-ruff
+	checkdepends = python-numpy
+	checkdepends = make
+	checkdepends = python-pip
+	checkdepends = cython
+	makedepends = git
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = cython
+	makedepends = python-scikit-build-core
+	depends = python
+	depends = glibc
+	optdepends = python-numpy
+	source = git+https://github.com/uber/h3-py.git#tag=v4.3.1
+	source = git+https://github.com/uber/h3.git
+	b2sums = 43a8b67be8065fff15d7c882132c04952865ddf7283145092c625b63d265d367475609c9cd6af8e4a366bfbc9ca5796d4c77b98987b3e1d28352238efa5ed1c0
+	b2sums = SKIP
+
+pkgname = python-h3

@@ -1,0 +1,22 @@
+pkgbase = alimama-shuheiti
+	pkgdesc = 阿里妈妈数黑体 AlimamaShuHeiTi
+	pkgver = 1.0.0
+	pkgrel = 4
+	url = https://www.alibabafonts.com/#/more
+	arch = any
+	license = LicenseRef-Custom
+	makedepends = libarchive
+	source = alimama-shuheiti-1.0.0.zip::https://fonts.alibabadesign.com/AlimamaShuHeiTi/AlimamaShuHeiTi-Bold.zip
+	sha256sums = 06f162d6802ab6e41b4f0e79abe90e084691ad480d5247d793f60167da4b9180
+
+pkgname = ttf-alimama-shuheiti
+	pkgdesc = 阿里妈妈数黑体 AlimamaShuHeiTi(ttf)
+
+pkgname = otf-alimama-shuheiti
+	pkgdesc = 阿里妈妈数黑体 AlimamaShuHeiTi(otf)
+
+pkgname = woff-alimama-shuheiti
+	pkgdesc = 阿里妈妈数黑体 AlimamaShuHeiTi(woff)
+
+pkgname = woff2-alimama-shuheiti
+	pkgdesc = 阿里妈妈数黑体 AlimamaShuHeiTi(woff2)

@@ -1,0 +1,20 @@
+pkgbase = lib32-libgme
+	pkgdesc = Video game music file emulation/playback library (32-bit)
+	pkgver = 0.6.4
+	pkgrel = 1
+	url = https://github.com/libgme/game-music-emu
+	arch = x86_64
+	license = LGPL-2.1-or-later
+	makedepends = cmake
+	makedepends = git
+	makedepends = lib32-sdl2
+	makedepends = ninja
+	depends = lib32-gcc-libs
+	depends = lib32-glibc
+	depends = lib32-zlib
+	depends = libgme
+	source = git+https://github.com/libgme/game-music-emu.git#tag=0.6.4
+	validpgpkeys = 5406ECE83665DA9D201D35720BAF0C9C7B6AE9F2
+	b2sums = 32a0582bd197a7a7f11fb0745d34545745dd1901d9a39b0e1abc0b24a3d9ab3b59dc6e228dc7e7eea9494474ded1beadce172121518bba3bf422820c74cdd84e
+
+pkgname = lib32-libgme

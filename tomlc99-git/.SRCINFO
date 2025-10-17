@@ -1,0 +1,17 @@
+pkgbase = tomlc99-git
+	pkgdesc = TOML C library
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://github.com/cktan/tomlc99
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = make
+	depends = glibc
+	provides = tomlc99
+	conflicts = tomlc99
+	options = !debug
+	source = git+https://github.com/cktan/tomlc99.git
+	md5sums = SKIP
+
+pkgname = tomlc99-git

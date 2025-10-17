@@ -1,0 +1,14 @@
+pkgbase = tldr-lint
+	pkgdesc = Validate tldr pages
+	pkgver = 0.0.20
+	pkgrel = 1
+	url = https://github.com/tldr-pages/tldr-lint
+	arch = any
+	license = MIT
+	makedepends = npm
+	depends = nodejs
+	noextract = tldr-lint-0.0.20.tar.gz
+	source = tldr-lint-0.0.20.tar.gz::https://github.com/tldr-pages/tldr-lint/archive/refs/tags/v0.0.20.tar.gz
+	sha256sums = 5c96655cea33f835a390964911c2c48f088237f1b66f070e6b1f817fe3a34861
+
+pkgname = tldr-lint

@@ -1,0 +1,22 @@
+pkgbase = lychee-photo-management
+	pkgdesc = Easy to use and great looking photo management system
+	pkgver = 5.1.2
+	pkgrel = 1
+	url = https://lycheeorg.github.io/
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = php>=8.2
+	depends = php-gd
+	optdepends = php-apache
+	optdepends = nginx
+	optdepends = mysql
+	optdepends = postgresql
+	options = !strip
+	options = emptydirs
+	source = lychee-photo-management-5.1.2.tar.gz::https://github.com/LycheeOrg/Lychee/archive/v5.1.2.tar.gz
+	source = apache.example.conf
+	b2sums = dd590ff9544fa9f5be753a6f30e2f005916e81e350e51896ee6d9ee99636059c27ee30f69f253ee3816ba7e713e5927a527d3ddfa9f1e7974a38203dbd713e4e
+	b2sums = d989b2940b26787315d08ea40bf23184de09b66c4d400da4022cedf24daa09596eb8841afee3aa7f984d28dc15968b76f0048a1c436b0cf2a27f1cbfa0bde31e
+
+pkgname = lychee-photo-management

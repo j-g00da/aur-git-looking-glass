@@ -1,0 +1,18 @@
+pkgbase = keypress
+	pkgdesc = A raw keyboard input reader
+	pkgver = 0.3.5
+	pkgrel = 1
+	url = https://github.com/leo-arch/keypress
+	arch = i686
+	arch = pentium4
+	arch = x86_64
+	arch = arm
+	arch = aarch64
+	arch = armv7h
+	license = MIT
+	makedepends = make
+	provides = keypress
+	source = keypress-0.3.5.tar.gz::https://github.com/leo-arch/keypress/archive/v0.3.5.tar.gz
+	sha256sums = 555d45cfbf55d795844e2324b3b1eb7b4cd2c8208305e15e062236a5f377e6d4
+
+pkgname = keypress

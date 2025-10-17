@@ -1,0 +1,12 @@
+pkgbase = binmerge
+	pkgdesc = Tool to merge multiple bin/cue tracks into one.
+	pkgver = 1.0.3
+	pkgrel = 1
+	url = https://github.com/putnam/binmerge
+	arch = any
+	license = GPL2
+	depends = python
+	source = https://github.com/putnam/binmerge/archive/refs/tags/1.0.3.tar.gz
+	sha256sums = a5e19c04790c26ec8a577310ae1a1726a4abf34029d6278bdfe4fde801b136a0
+
+pkgname = binmerge

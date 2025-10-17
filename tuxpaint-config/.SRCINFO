@@ -1,0 +1,20 @@
+pkgbase = tuxpaint-config
+	pkgdesc = Tux Paint configuration tool
+	pkgver = 0.0.26
+	pkgrel = 1
+	url = https://www.tuxpaint.org/
+	arch = x86_64
+	license = GPL-2.0-only
+	depends = fltk
+	depends = fontconfig
+	depends = gcc-libs
+	depends = glibc
+	depends = hicolor-icon-theme
+	depends = libpaper
+	depends = libunibreak
+	depends = pango
+	optdepends = tuxpaint: ability to use tuxpaint provided fonts
+	source = https://downloads.sourceforge.net/sourceforge/tuxpaint/tuxpaint-config-0.0.26.tar.gz
+	sha256sums = f9ac5f2baf005e162841ceebc5ba0f77004fb05abe32354d5b26e3edc456e3b8
+
+pkgname = tuxpaint-config

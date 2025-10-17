@@ -1,0 +1,25 @@
+pkgbase = activate-linux-toggle
+	pkgdesc = A simple UI app to enable or disable activate-linux on boot
+	pkgver = 1.0.1
+	pkgrel = 2
+	url = https://github.com/USSURATONCACHI/activate-linux-toggle
+	arch = any
+	license = Apache-2.0
+	makedepends = coreutils
+	makedepends = rustup
+	makedepends = git
+	makedepends = gcc
+	makedepends = pkg-config
+	depends = bash
+	depends = coreutils
+	depends = systemd
+	depends = gtk4
+	depends = activate-linux
+	provides = activate-linux-toggle
+	provides = activate-linux-enable
+	provides = activate-linux-disable
+	provides = activate-linux-is-enabled
+	source = https://github.com/USSURATONCACHI/activate-linux-toggle/archive/refs/tags/v1.0.1.tar.gz
+	sha256sums = 37e2e4631469e48c6b360d4e8cf337d467c2d2262b2ea7cb3993a242c913859a
+
+pkgname = activate-linux-toggle

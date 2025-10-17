@@ -1,0 +1,16 @@
+pkgbase = clip-transfer
+	pkgdesc = Lightweight LAN clipboard/text sharing tool with automatic server/client detection
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/Evr5/ClipTransfer
+	arch = x86_64
+	license = MIT
+	makedepends = gcc
+	makedepends = make
+	makedepends = cmake
+	provides = clip-transfer
+	conflicts = clip-transfer
+	source = https://github.com/Evr5/ClipTransfer/releases/download/v1.1.0/clip-transfert-1.1.0-x86_64.pkg.tar.zst
+	sha256sums = bc5825b115572ba8a9372df1c6a1eced53206dae7743398ee20c417919cd91a9
+
+pkgname = clip-transfer

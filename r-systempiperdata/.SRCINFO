@@ -1,0 +1,27 @@
+pkgbase = r-systempiperdata
+	pkgdesc = systemPipeRdata: Workflow templates and sample data
+	pkgver = 2.12.2
+	pkgrel = 1
+	url = https://bioconductor.org/packages/systemPipeRdata
+	arch = any
+	license = Artistic2.0
+	depends = r
+	depends = r-biocgenerics
+	depends = r-biostrings
+	depends = r-jsonlite
+	depends = r-remotes
+	optdepends = r-biocstyle
+	optdepends = r-genomicfeatures
+	optdepends = r-genomicranges
+	optdepends = r-iranges
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-rsamtools
+	optdepends = r-rtracklayer
+	optdepends = r-runit
+	optdepends = r-shortread
+	optdepends = r-systempiper
+	source = https://bioconductor.org/packages/release/data/experiment/src/contrib/systemPipeRdata_2.12.2.tar.gz
+	sha256sums = 0e8a39c961965da1045ba38303996efdbe444ea03840fb8c009e3f9340857d8b
+
+pkgname = r-systempiperdata

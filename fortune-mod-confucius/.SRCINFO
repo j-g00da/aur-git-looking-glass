@@ -1,0 +1,12 @@
+pkgbase = fortune-mod-confucius
+	pkgdesc = Fortune cookies: Confucius sayings.)
+	pkgver = 20200529
+	pkgrel = 1
+	url = https://billy.wolfe.casa/fortunes/confucius
+	arch = any
+	license = WTFPL
+	depends = fortune-mod
+	source = https://billy.wolfe.casa/fortunes/confucius
+	md5sums = 6220f31873850dafc72e849dab15b682
+
+pkgname = fortune-mod-confucius

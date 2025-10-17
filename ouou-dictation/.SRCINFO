@@ -1,0 +1,18 @@
+pkgbase = ouou-dictation
+	pkgdesc = A command-line program for self-help dictation supporting Chinese, Japanese and English
+	pkgver = 1.0.0
+	pkgrel = 3
+	url = https://github.com/OuOu2021/ouou-dictation
+	arch = x86_64
+	arch = aarch64
+	license = Apache-2.0 OR MIT
+	makedepends = cargo
+	makedepends = clang
+	makedepends = libspeechd
+	depends = speech-dispatcher
+	optdepends = festival: Speech output using Festival
+	optdepends = espeak-ng: Speech output using ESpeak-ng
+	source = ouou-dictation-1.0.0.tar.gz::https://github.com/OuOu2021/ouou-dictation/archive/refs/tags/v1.0.0.tar.gz
+	sha256sums = b64abb8684adbcddf698bbfe3cfa5267e257228f34493ffe42a5d95698d3ff91
+
+pkgname = ouou-dictation

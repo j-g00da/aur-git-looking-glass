@@ -1,0 +1,19 @@
+pkgbase = python-pylibjpeg
+	pkgdesc = A Python framework for decoding JPEG images, with a focus on supporting pydicom
+	pkgver = 2.1.0
+	pkgrel = 1
+	url = https://github.com/pydicom/pylibjpeg
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-flit-core
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python-numpy
+	optdepends = python-pylibjpeg-libjpeg
+	optdepends = python-pylibjpeg-openjpeg
+	optdepends = python-pylibjpeg-rle
+	source = python-pylibjpeg-2.1.0.tar.gz::https://github.com/pydicom/pylibjpeg/archive/v2.1.0.tar.gz
+	sha512sums = 0aca7112a042a44e39169a38bae27c775765f61d85ef239d6fa4c1bfd75249fddee06a0b590e4011126139df8c737bb27a1e174a84a7cc22195bcc8fd778cce4
+
+pkgname = python-pylibjpeg

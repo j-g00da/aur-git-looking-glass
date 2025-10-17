@@ -1,0 +1,15 @@
+pkgbase = pypy3-packaging
+	pkgdesc = Core utilities for Python packages
+	pkgver = 25.0
+	pkgrel = 1
+	url = https://packaging.pypa.io
+	arch = any
+	license = Apache-2.0
+	license = BSD-2-Clause
+	makedepends = pypy3-installer
+	makedepends = pypy3-flit-core
+	depends = pypy3
+	source = packaging-25.0.tar.gz::https://github.com/pypa/packaging/archive/25.0.tar.gz
+	sha512sums = fb8419f81f0f817440c0b297fc6e963832e219e7a324bf4e0321f1e131a4822f17a19f2eb033a8d4adb622ccb16db59776ec44906a0c0b34f2877b59b9558c18
+
+pkgname = pypy3-packaging

@@ -1,0 +1,17 @@
+pkgbase = fdispatcher-git
+	pkgdesc = An easy-to-use file dispatcher based on extension
+	pkgver = 0.3.0
+	pkgrel = 1
+	url = https://github.com/pbackz/fdispatcher
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = git
+	depends = gcc
+	depends = cargo
+	provides = fdispatcher
+	conflicts = fdispatcher
+	source = git+https://github.com/pbackz/fdispatcher
+	sha256sums = SKIP
+
+pkgname = fdispatcher-git

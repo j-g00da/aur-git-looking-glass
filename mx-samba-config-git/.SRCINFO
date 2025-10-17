@@ -1,0 +1,28 @@
+pkgbase = mx-samba-config-git
+	pkgdesc = Samba configuration tool designed to work with the usershare system
+	pkgver = 24.4.r1.gce56e6d
+	pkgrel = 1
+	url = https://github.com/MX-Linux/mx-samba-config
+	install = mx-samba-config.install
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = cmake
+	makedepends = git
+	depends = qt6-base
+	optdepends = smb.conf: samba configuration
+	provides = mx-samba-config=24.4
+	conflicts = mx-samba-config
+	options = emptydirs
+	source = mx-samba-config::git+https://github.com/MX-Linux/mx-samba-config.git
+	source = mx-samba-config.sysusers.conf
+	source = mx-samba-config-lib.sh
+	source = mx-samba-config-list-users.sh
+	sha256sums = SKIP
+	sha256sums = 65f5888ecfd8bf4c7f5a65213ddd710b93c632c1f05f258e1c691e9f7acff83e
+	sha256sums = 02c7cbb51bd9b635e52bb64e858c87d539832e82c2df2c48af1efb47b1acd148
+	sha256sums = 7d1636d66b34b04a91e03095132f54489e343934defe67c618e28312f4643ef4
+
+pkgname = mx-samba-config-git
+	depends = qt6-base
+	depends = hicolor-icon-theme
+	depends = samba

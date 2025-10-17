@@ -1,0 +1,20 @@
+pkgbase = popsql
+	pkgdesc = Collaborative SQL editor for teams
+	pkgver = 1.0.135
+	pkgrel = 1
+	url = https://popsql.com
+	arch = x86_64
+	license = custom:proprietary
+	depends = fuse2
+	depends = gtk3
+	depends = nss
+	depends = libxss
+	depends = libnotify
+	depends = alsa-lib
+	provides = popsql
+	conflicts = popsql
+	options = !strip
+	source = PopSQL-1.0.135.AppImage::https://get.popsql.com/download/AppImage
+	sha256sums = 1dec3c2cbea7365a80967f50970321b5e2de8cf039ddc9c0d9f92f4dfcab1746
+
+pkgname = popsql

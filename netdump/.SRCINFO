@@ -1,0 +1,12 @@
+pkgbase = netdump
+	pkgdesc = Network packet analyzer supporting real-time and offline analysis with ASCII visualization
+	pkgver = 1.0.1
+	pkgrel = 1
+	url = https://github.com/giorgiopapini/netdump
+	arch = x86_64
+	license = GPL-3.0-only
+	depends = libpcap
+	source = netdump-1.0.1.tar.gz::https://github.com/giorgiopapini/netdump/archive/refs/tags/1.0.1.tar.gz
+	sha256sums = 050b225a198478ef99506ef308e0b327912566546bef70081cc1ef368eebdfdc
+
+pkgname = netdump

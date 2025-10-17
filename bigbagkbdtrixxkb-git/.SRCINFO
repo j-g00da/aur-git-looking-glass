@@ -1,0 +1,15 @@
+pkgbase = bigbagkbdtrixxkb-git
+	pkgdesc = DreymaR's Big Bag of Keyboard Tricks For Linux. Colemak mappings and modifications.
+	pkgver = r66.7340bd9
+	pkgrel = 1
+	url = https://github.com/DreymaR/BigBagKbdTrixXKB
+	install = BigBagKbdTrixXKB-git.install
+	arch = any
+	makedepends = git
+	depends = bash
+	provides = bigbagkbdtrixxkb
+	conflicts = bigbagkbdtrixxkb
+	source = git+https://github.com/DreymaR/BigBagKbdTrixXKB.git
+	md5sums = SKIP
+
+pkgname = bigbagkbdtrixxkb-git

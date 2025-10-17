@@ -1,0 +1,22 @@
+pkgbase = r-jaspaudit
+	pkgdesc = Audit Module for JASP
+	pkgver = 0.95.3
+	pkgrel = 1
+	url = https://github.com/jasp-stats/jaspAudit
+	arch = any
+	groups = r-jasp
+	groups = r-jaspextra
+	license = GPL
+	depends = r
+	depends = r-bstats
+	depends = r-digittests
+	depends = r-extradistr
+	depends = r-ggplot2
+	depends = r-ggrepel
+	depends = r-jaspbase
+	depends = r-jaspgraphs
+	depends = r-jfa
+	source = jaspAudit_0.95.3.tar.gz::https://github.com/jasp-stats/jaspAudit/archive/refs/tags/v0.95.3.tar.gz
+	sha256sums = 08a97bd3223fe0fa2b99eee371b04f3309061eaf34e74882ed6dd8157c0d869b
+
+pkgname = r-jaspaudit

@@ -1,0 +1,23 @@
+pkgbase = qpdfview-bzr
+	pkgdesc = A tabbed PDF viewer using the poppler library (development version)
+	pkgver = 2070
+	pkgrel = 1
+	url = https://launchpad.net/qpdfview
+	arch = x86_64
+	license = GPL-2.0-or-later
+	makedepends = qt6-tools
+	makedepends = libspectre
+	makedepends = djvulibre
+	makedepends = breezy
+	depends = libcups
+	depends = libsynctex
+	depends = poppler-qt6
+	depends = qt6-svg
+	optdepends = libspectre: for PostScript support
+	optdepends = djvulibre: for DjVu support
+	provides = qpdfview
+	conflicts = qpdfview
+	source = qpdfview::bzr+http://bazaar.launchpad.net/~adamreichold/qpdfview/trunk/
+	md5sums = SKIP
+
+pkgname = qpdfview-bzr

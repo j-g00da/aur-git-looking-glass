@@ -1,0 +1,13 @@
+pkgbase = clib
+	pkgdesc = C package manager-ish
+	pkgver = 2.8.7
+	pkgrel = 1
+	url = https://github.com/clibs/clib
+	arch = i686
+	arch = x86_64
+	license = MIT
+	depends = curl
+	source = clib-2.8.7.tar.gz::https://github.com/clibs/clib/archive/2.8.7.tar.gz
+	b2sums = a5494c7233fe8474b686f87277d84836d6f68d9e6642d932524eaa3b4874ddf2db4f16f5a157b7c05ddc04099fb30dd37aaa8b5e646b605176d1a141d64ca758
+
+pkgname = clib

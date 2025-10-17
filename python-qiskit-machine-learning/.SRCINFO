@@ -1,0 +1,23 @@
+pkgbase = python-qiskit-machine-learning
+	pkgdesc = Quantum Machine Learning package for IBM qiskit framework
+	pkgver = 0.8.2
+	pkgrel = 3
+	url = https://github.com/qiskit-community/qiskit-machine-learning
+	arch = x86_64
+	license = Apache-2.0
+	checkdepends = python-ddt
+	checkdepends = python-pytest
+	checkdepends = python-qiskit-ibm-runtime
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python-dill
+	depends = python-numpy
+	depends = python-qiskit
+	depends = python-scikit-learn
+	depends = python-scipy
+	source = qiskit-machine-learning-0.8.2.tar.gz::https://github.com/qiskit-community/qiskit-machine-learning/archive/refs/tags/0.8.2.tar.gz
+	b2sums = aaa39abcca0b621ebfc10734ff52df2a4ca48fbe97dca686cec2fc7b1a591e7ae785f8d3dfbcd9b35dc0457d125cda63ee7890a1435fbc17ae0def22489bc7b9
+
+pkgname = python-qiskit-machine-learning

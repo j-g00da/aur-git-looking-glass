@@ -1,0 +1,16 @@
+pkgbase = liblognorm
+	pkgdesc = A fast-samples based normalization library for logs
+	pkgver = 2.0.6
+	pkgrel = 2
+	url = https://www.liblognorm.com/
+	arch = i686
+	arch = x86_64
+	license = LGPL-2.1
+	license = Apache-2.0
+	depends = glibc
+	depends = libestr
+	depends = libfastjson
+	source = liblognorm-2.0.6.tar.gz::https://github.com/rsyslog/liblognorm/archive/v2.0.6.tar.gz
+	sha256sums = 594ea3318ef419cb7f21cf81c513db35a838b32207999a11a82b709da9ff9a2b
+
+pkgname = liblognorm

@@ -1,0 +1,24 @@
+pkgbase = seaview
+	pkgdesc = GUI for multiple sequence alignment and molecular phylogeny. https://doi.org/10.1093/molbev/msp259
+	pkgver = 5.1
+	pkgrel = 1
+	url = http://doua.prabi.fr/software/seaview
+	arch = x86_64
+	license = GPL3
+	makedepends = make
+	makedepends = gcc
+	makedepends = fltk
+	depends = fltk
+	optdepends = clustal-omega
+	optdepends = muscle
+	optdepends = gblocks
+	optdepends = phyml
+	optdepends = bionj
+	source = https://doua.prabi.fr/software/seaview_data/seaview.tar.gz
+	source = seaview.desktop
+	source = seaview.png
+	md5sums = 57853e73a4e99b15fc1c1b8d50869d76
+	md5sums = e4cfc6d76819c5cd8e68ac93c2121557
+	md5sums = 337583df60b24d724d96e511a3f063ce
+
+pkgname = seaview

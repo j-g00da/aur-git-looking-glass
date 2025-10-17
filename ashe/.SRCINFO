@@ -1,0 +1,13 @@
+pkgbase = ashe
+	pkgdesc = UNIX toy shell.
+	pkgver = r105.875c025
+	pkgrel = 1
+	url = https://github.com/b-jure/ashe
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = git
+	depends = glibc
+	source = ashe::git+https://github.com/b-jure/ashe
+	md5sums = SKIP
+
+pkgname = ashe

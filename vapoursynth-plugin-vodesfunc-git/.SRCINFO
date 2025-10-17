@@ -1,0 +1,26 @@
+pkgbase = vapoursynth-plugin-vodesfunc-git
+	pkgdesc = Plugin for Vapoursynth: vodesfunc (GIT version)
+	pkgver = 1.6.1.21.gb87c906
+	pkgrel = 2
+	url = https://github.com/Vodes/vodesfunc
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = python-build
+	makedepends = python-wheel
+	makedepends = python-installer
+	makedepends = python-setuptools
+	depends = vapoursynth
+	depends = vapoursynth-plugin-vsscale
+	depends = vapoursynth-plugin-vsrgtools
+	depends = vapoursynth-plugin-vskernels
+	depends = vapoursynth-plugin-vstools
+	depends = vapoursynth-plugin-vsmasktools
+	depends = vapoursynth-plugin-vsmuxtools
+	depends = vapoursynth-plugin-descale-jet-git
+	provides = vapoursynth-plugin-vodesfunc
+	conflicts = vapoursynth-plugin-vodesfunc
+	source = vodesfunc::git+https://github.com/Vodes/vodesfunc.git
+	sha256sums = SKIP
+
+pkgname = vapoursynth-plugin-vodesfunc-git

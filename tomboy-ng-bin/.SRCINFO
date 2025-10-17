@@ -1,0 +1,18 @@
+pkgbase = tomboy-ng-bin
+	pkgdesc = A complete rewriting of the Tomboy note taking app. QT6 version
+	pkgver = 0.42
+	pkgrel = 1
+	url = https://wiki.gnome.org/Apps/Tomboy
+	arch = x86_64
+	license = MIT
+	depends = qt6pas
+	depends = pango
+	depends = libnotify
+	depends = hicolor-icon-theme
+	provides = tomboy-ng
+	conflicts = tomboy-ng
+	replaces = tomboy-ng
+	source = https://github.com/tomboy-notes/tomboy-ng/releases/download/v0.42/tomboy-ng-0.42-1-Qt6-x86_64.pkg.tar.zst
+	sha256sums = 967b72b31687cab7af758f25379756c60d3e0a8cdb32c1d7edbe4a1d1beda16f
+
+pkgname = tomboy-ng-bin

@@ -1,0 +1,17 @@
+pkgbase = pypy3-pythran
+	pkgdesc = Ahead of Time compiler for numeric kernels
+	pkgver = 0.18.0
+	pkgrel = 1
+	url = https://github.com/serge-sans-paille/pythran
+	arch = any
+	license = BSD-3-Clause
+	makedepends = pypy3-setuptools
+	depends = pypy3-ply
+	depends = pypy3-numpy
+	depends = pypy3-beniget
+	depends = xsimd
+	depends = boost
+	source = pythran-0.18.0.tar.gz::https://github.com/serge-sans-paille/pythran/archive/0.18.0.tar.gz
+	sha512sums = 70761b08724264ab048d6943b143123d19d81b65d3a5ab9aa023dc7d989bc51b33e17f9bb81a6e8f25f7bde4745f36d1208c8c2bd49f8d27b7a4776611f310a5
+
+pkgname = pypy3-pythran

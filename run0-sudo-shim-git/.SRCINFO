@@ -1,0 +1,16 @@
+pkgbase = run0-sudo-shim-git
+	pkgdesc = An imitation of sudo, using run0 internally - WARNING: !!! THIS REPLACES SUDO !!!
+	pkgver = 1.2.0.r8.g84b51f4
+	pkgrel = 1
+	url = https://github.com/LordGrimmauld/run0-sudo-shim
+	arch = any
+	license = BSD-3-Clause
+	makedepends = git
+	makedepends = rust
+	depends = systemd>=256.0
+	provides = sudo
+	conflicts = sudo
+	source = run0-sudo-shim-git::git+https://github.com/LordGrimmauld/run0-sudo-shim
+	sha256sums = SKIP
+
+pkgname = run0-sudo-shim-git

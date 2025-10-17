@@ -1,0 +1,21 @@
+pkgbase = dfix-git
+	pkgdesc = Tool for automatically upgrading D source code - git version
+	pkgver = 0.3.5.r7.g954c50f
+	pkgrel = 1
+	url = https://github.com/dlang-community/dfix
+	arch = x86_64
+	groups = dlang
+	license = BSL-1.0
+	makedepends = dmd
+	makedepends = git
+	depends = gcc-libs
+	provides = dfix
+	conflicts = dfix
+	source = git+https://github.com/dlang-community/dfix
+	source = git+https://github.com/Hackerpilot/libdparse
+	source = git+https://github.com/dlang-community/stdx-allocator
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = dfix-git

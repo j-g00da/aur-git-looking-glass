@@ -1,0 +1,17 @@
+pkgbase = goful
+	pkgdesc = CUI file manager written in Go
+	pkgver = 0.2.1
+	pkgrel = 1
+	url = https://github.com/anmitsu/goful
+	arch = x86_64
+	arch = i686
+	arch = aarch64
+	license = MIT
+	makedepends = go
+	provides = goful
+	conflicts = goful-bin
+	conflicts = goful
+	source = goful-0.2.1.tar.gz::https://github.com/anmitsu/goful/archive/refs/tags/v0.2.1.tar.gz
+	b2sums = 3633920f46b8c18b8944de785c6ccb4e201e29bb76a73bef27e2bdfbfd73634e17b54f8d0b1da18bfc925c5e9f49dfb169e768186d931bdde5fda9427415ab14
+
+pkgname = goful

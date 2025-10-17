@@ -1,0 +1,17 @@
+pkgbase = usb-hid-brightness
+	pkgdesc = Utility to control brightness for USB and Thunderbolt monitors with HID brightness interface (e.g. LG UltraFine 5K)
+	pkgver = 0.2.0
+	pkgrel = 1
+	url = https://github.com/ei-grad/usb-hid-brightness
+	arch = x86_64
+	license = MIT
+	makedepends = cmake
+	makedepends = make
+	makedepends = gcc
+	depends = libusb
+	source = https://github.com/ei-grad/usb-hid-brightness/archive/v0.2.0.tar.gz
+	source = 90-usb-hid-brightness.rules
+	sha256sums = 9fdf730ceff48fd8fbcc906818df3a95f89684afd5ad18ec7791db86f8df6ab8
+	sha256sums = d29eacf98e2d4da969aa8c32a7bb80d676280a6869400e19823d77243e4176bb
+
+pkgname = usb-hid-brightness

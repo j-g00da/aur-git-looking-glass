@@ -1,0 +1,24 @@
+pkgbase = python-devtools
+	pkgdesc = Python's missing debug print command, and more.
+	pkgver = 0.12.2
+	pkgrel = 2
+	url = https://github.com/samuelcolvin/python-devtools
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	checkdepends = python-pytest-mock
+	checkdepends = python-asyncpg
+	checkdepends = python-multidict
+	checkdepends = python-numpy
+	checkdepends = python-pydantic
+	checkdepends = python-sqlalchemy
+	makedepends = python-hatchling
+	depends = python
+	depends = python-executing
+	depends = python-asttokens
+	depends = python-six
+	depends = python-pygments
+	source = https://files.pythonhosted.org/packages/source/d/devtools/devtools-0.12.2.tar.gz
+	sha256sums = efceab184cb35e3a11fa8e602cc4fadacaa2e859e920fc6f87bf130b69885507
+
+pkgname = python-devtools

@@ -1,0 +1,19 @@
+pkgbase = picturama-bin
+	pkgdesc = Digital image organizer powered by the web.(Prebuilt version.Use system-wide electron)
+	pkgver = 1.3.0
+	pkgrel = 5
+	url = https://picturama.github.io/
+	arch = x86_64
+	license = MIT
+	makedepends = asar
+	depends = electron9
+	provides = picturama=1.3.0
+	conflicts = picturama
+	source = picturama-1.3.0.AppImage::https://github.com/picturama/picturama/releases/download/v1.3.0/Picturama-1.3.1.AppImage
+	source = LICENSE-1.3.0.md::https://raw.githubusercontent.com/picturama/picturama/master/LICENSE.md
+	source = picturama.sh
+	sha256sums = a40fc27395841cf3220ed7db3ba98717d3b3a24fc1733b81759218fbd28c3e3a
+	sha256sums = b8ff1b44d19d011a234dc2490176e17231321a397f742088679c6c96555aba25
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = picturama-bin

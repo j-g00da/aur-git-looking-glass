@@ -1,0 +1,22 @@
+pkgbase = xtables-addons
+	pkgdesc = Set of additional extensions for the Xtables packet filter that is present in the Linux kernel
+	pkgver = 3.29
+	pkgrel = 1
+	url = https://inai.de/projects/xtables-addons
+	arch = x86_64
+	arch = aarch64
+	license = GPL2
+	makedepends = linux-api-headers
+	makedepends = linux-headers
+	makedepends = libtool
+	makedepends = gcc
+	makedepends = pkg-config
+	depends = iptables
+	depends = glibc
+	depends = linux
+	conflicts = xtables-addons-dkms
+	replaces = xtables-addons-dkms
+	source = https://inai.de/files/xtables-addons/xtables-addons-3.29.tar.xz
+	sha256sums = eb4a2238a1e928f817f5eb2a58ffb830e2e3bea31fac936d7565c7f2069a38b1
+
+pkgname = xtables-addons

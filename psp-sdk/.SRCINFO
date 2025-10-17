@@ -1,0 +1,18 @@
+pkgbase = psp-sdk
+	pkgdesc = An open-source SDK for PSP homebrew development (psp)
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://github.com/pspdev/pspsdk
+	arch = any
+	groups = psp
+	license = GPL
+	makedepends = psp-gcc
+	makedepends = git
+	depends = zlib
+	options = !buildflags
+	options = !strip
+	options = staticlibs
+	source = https://github.com/pspdev/pspsdk/archive/master.zip
+	md5sums = SKIP
+
+pkgname = psp-sdk

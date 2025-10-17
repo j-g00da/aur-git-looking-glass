@@ -1,0 +1,16 @@
+pkgbase = gochiusearch
+	pkgdesc = Search by image of gochiusa
+	pkgver = 1.1.5902.28922
+	pkgrel = 2
+	url = https://github.com/ksasao/Gochiusearch
+	arch = any
+	license = Apache
+	makedepends = git
+	depends = gtk-sharp-3
+	source = gochiusearch::git+https://github.com/ksasao/Gochiusearch.git#commit=5370cb326177f3e15cdbcf07ecc52fb80eb56c82
+	source = gochiusearch.sh
+	sha512sums = SKIP
+	sha512sums = f92c35a18c1c040d63ea5cfb371511d476a20a9a0560b3068c2f0da78d46ea2a72b3e33160571b83223942f3d6f78befe29d2b677b8023a0c9265759d718f6a8
+
+pkgname = gochiusearch
+

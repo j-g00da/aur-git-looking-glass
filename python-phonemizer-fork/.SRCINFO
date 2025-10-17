@@ -1,0 +1,25 @@
+pkgbase = python-phonemizer-fork
+	pkgdesc = Simple text to phones converter for multiple languages
+	pkgver = 3.3.2
+	pkgrel = 3
+	url = https://pypi.org/project/phonemizer-fork
+	arch = any
+	license = MIT
+	makedepends = python-hatchling
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python
+	depends = python-joblib
+	depends = python-typing_extensions
+	depends = python-dlinfo
+	depends = python-segments
+	provides = python-phonemizer
+	conflicts = python-phonemizer
+	options = !strip
+	options = !debug
+	source = phonemizer_fork-3.3.2.tar.gz::https://files.pythonhosted.org/packages/source/p/phonemizer_fork/phonemizer_fork-3.3.2.tar.gz
+	sha256sums = 10e16e827d0443b087062e21b55e805c00989cf1343b2e81e734cae5f6c0cf69
+
+pkgname = python-phonemizer-fork

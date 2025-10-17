@@ -1,0 +1,27 @@
+pkgbase = r-m6aboost
+	pkgdesc = m6Aboost
+	pkgver = 1.14.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/m6Aboost
+	arch = any
+	license = Artistic2.0
+	depends = r
+	depends = r-adabag
+	depends = r-biostrings
+	depends = r-bsgenome
+	depends = r-dplyr
+	depends = r-experimenthub
+	depends = r-genomicranges
+	depends = r-iranges
+	depends = r-rtracklayer
+	depends = r-s4vectors
+	optdepends = r-biocstyle
+	optdepends = r-bookdown
+	optdepends = r-bsgenome.mmusculus.ucsc.mm10
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/m6Aboost_1.14.0.tar.gz
+	sha256sums = 3f4f861c05826568608074e0c3398f3bff8bd843d25338195e4192c62d10b1e5
+
+pkgname = r-m6aboost

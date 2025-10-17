@@ -1,0 +1,23 @@
+pkgbase = vkpeak-git
+	pkgdesc = A tool which profiles Vulkan devices to find their peak capacities. Git version.
+	pkgver = 20250531.r5.gc810bd2
+	pkgrel = 1
+	url = https://github.com/nihui/vkpeak
+	arch = x86_64
+	license = MIT
+	makedepends = cmake
+	makedepends = glslang
+	makedepends = ninja
+	makedepends = protobuf
+	makedepends = vulkan-headers
+	depends = vulkan-icd-loader
+	depends = gcc-libs
+	depends = glibc
+	provides = vkpeak
+	conflicts = vkpeak
+	source = vkpeak-git::git+https://github.com/nihui/vkpeak.git
+	source = ncnn::git+https://github.com/Tencent/ncnn.git
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = vkpeak-git

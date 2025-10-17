@@ -1,0 +1,16 @@
+pkgbase = rhash-git
+	pkgdesc = Utility for verifying hash sums of files
+	pkgver = 1.4.5.r19.ge3c4c8c
+	pkgrel = 1
+	url = https://github.com/rhash/rhash
+	arch = x86_64
+	license = 0BSD
+	makedepends = git
+	depends = glibc
+	provides = rhash
+	conflicts = rhash
+	backup = etc/rhashrc
+	source = git+https://github.com/rhash/rhash.git
+	sha256sums = SKIP
+
+pkgname = rhash-git

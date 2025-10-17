@@ -1,0 +1,14 @@
+pkgbase = vim-jsonnet-git
+	pkgdesc = Jsonnet filetype plugin for Vim.
+	pkgver = 0.33.4ebc661
+	pkgrel = 3
+	url = https://github.com/google/vim-jsonnet
+	arch = any
+	groups = vim-plugins
+	license = Apache-2.0
+	makedepends = git
+	depends = vim
+	source = git+https://github.com/google/vim-jsonnet.git
+	sha256sums = SKIP
+
+pkgname = vim-jsonnet-git

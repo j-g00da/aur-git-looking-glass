@@ -1,0 +1,21 @@
+pkgbase = python-imblearn
+	pkgdesc = A Python Package to Tackle the Curse of Imbalanced Datasets in Machine Learning
+	pkgver = 0.14.0
+	pkgrel = 1
+	url = https://imbalanced-learn.org/
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	depends = python-numpy
+	depends = python-scipy
+	depends = python-scikit-learn
+	depends = python-joblib
+	depends = python-threadpoolctl
+	optdepends = python-pandas
+	optdepends = python-keras-applications
+	optdepends = python-tensorflow
+	source = git+https://github.com/scikit-learn-contrib/imbalanced-learn.git#tag=0.14.0
+	sha256sums = 2e2299abd3ff662e8cb5fdadb4a88dbcd2d0a8d08c13de917ebbfa52a87e6eb5
+
+pkgname = python-imblearn

@@ -1,0 +1,21 @@
+pkgbase = r-receptloss
+	pkgdesc = Unsupervised Identification of Genes with Expression Loss in Subsets of Tumors
+	pkgver = 1.20.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/receptLoss
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-dplyr
+	depends = r-ggplot2
+	depends = r-magrittr
+	depends = r-summarizedexperiment
+	depends = r-tidyr
+	optdepends = r-here
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/receptLoss_1.20.0.tar.gz
+	sha256sums = 29bbd99979b9a34b8cfd60681bd5e904b07b00142e07d103ddfec7da8e76d4ac
+
+pkgname = r-receptloss

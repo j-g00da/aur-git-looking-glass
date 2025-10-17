@@ -1,0 +1,22 @@
+pkgbase = r-tenxpbmcdata
+	pkgdesc = PBMC data from 10X Genomics
+	pkgver = 1.26.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/TENxPBMCData
+	arch = any
+	license = CCPL:by-nc-sa
+	depends = r
+	depends = r-annotationhub
+	depends = r-experimenthub
+	depends = r-hdf5array
+	depends = r-singlecellexperiment
+	optdepends = r-biocfilecache
+	optdepends = r-biocparallel
+	optdepends = r-biocstyle
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-snow
+	source = https://bioconductor.org/packages/release/data/experiment/src/contrib/TENxPBMCData_1.26.0.tar.gz
+	sha256sums = 3b94a30270ff26401536fd404272b5fc540014b6315e452ed317c000ce2097fa
+
+pkgname = r-tenxpbmcdata

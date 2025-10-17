@@ -1,0 +1,47 @@
+pkgbase = linux-amd-git
+	pkgdesc = Linux kernel with bleeding-edge AMDGPU drivers
+	pkgver = 6.15.r1354009.2f0268ca1cac
+	pkgrel = 1
+	url = https://gitlab.freedesktop.org/agd5f/linux
+	arch = x86_64
+	license = GPL-2.0-only
+	makedepends = bc
+	makedepends = cpio
+	makedepends = gettext
+	makedepends = git
+	makedepends = libelf
+	makedepends = pahole
+	makedepends = perl
+	makedepends = python
+	makedepends = rust
+	makedepends = rust-bindgen
+	makedepends = rust-src
+	makedepends = tar
+	makedepends = xz
+	options = !debug
+	options = !strip
+	source = linux-amd-git::git+https://gitlab.freedesktop.org/agd5f/linux.git#branch=drm-next
+	source = config
+	sha256sums = SKIP
+	sha256sums = ae7298c307ab82ba7e2e5046a5a8b1b6507363e694d9a1823597966a31e9ed57
+	b2sums = SKIP
+	b2sums = d9fce63715a2de2416515fbbc9a230e8e175cdf9bb186896a20d74e38e55aa02910d839612353be9d4fcfea8c57c53fede416e79378125bea2d9405a9050a462
+
+pkgname = linux-amd-git
+	pkgdesc = The Linux kernel with bleeding-edge AMDGPU drivers kernel and modules
+	depends = coreutils
+	depends = initramfs
+	depends = kmod
+	optdepends = linux-firmware: firmware images needed for some devices
+	optdepends = scx-scheds: to use sched-ext schedulers
+	optdepends = wireless-regdb: to set the correct wireless channels of your country
+	provides = KSMBD-MODULE
+	provides = NTSYNC-MODULE
+	provides = VIRTUALBOX-GUEST-MODULES
+	provides = WIREGUARD-MODULE
+	replaces = virtualbox-guest-modules-arch
+	replaces = wireguard-arch
+
+pkgname = linux-amd-headers-git
+	pkgdesc = Headers and scripts for building modules for the Linux kernel with bleeding-edge AMDGPU drivers kernel
+	depends = pahole

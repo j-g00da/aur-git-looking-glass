@@ -1,0 +1,34 @@
+pkgbase = ziftrcoin
+	pkgver = 0.9.31
+	pkgrel = 1
+	url = https://www.ziftrcoin.com/
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = boost
+	makedepends = automoc4
+	makedepends = qrencode
+	makedepends = miniupnpc
+	makedepends = protobuf
+	source = https://github.com/ZiftrCOIN/ziftrcoin/archive/v0.9.31.tar.gz
+	sha256sums = eadd015867a24cc28cd18a00dcc550185efbfc300e123710aaf912a90eb1ec44
+
+pkgname = ziftrcoin-daemon
+	pkgdesc = Ziftrcoin is an experimental new digital couponing system - daemon
+	depends = boost-libs
+	depends = miniupnpc
+	depends = openssl
+
+pkgname = ziftrcoin-cli
+	pkgdesc = Ziftrcoin is an experimental new digital couponing system - RPC client
+	depends = boost-libs
+	depends = openssl
+
+pkgname = ziftrcoin-qt
+	pkgdesc = Ziftrcoin is an experimental new digital couponing system - Qt
+	install = ziftrcoin-qt.install
+	depends = boost-libs
+	depends = qt4
+	depends = miniupnpc
+	depends = qrencode
+	depends = protobuf

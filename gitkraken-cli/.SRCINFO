@@ -1,0 +1,14 @@
+pkgbase = gitkraken-cli
+	pkgdesc = The intuitive, fast, and beautiful cross-platform Git client.
+	pkgver = 3.1.39
+	pkgrel = 1
+	url = https://www.gitkraken.com/
+	arch = x86_64
+	license = custom
+	optdepends = git-lfs: git-lfs support
+	optdepends = org.freedesktop.secrets: Provides ways to store passwords and encryption keys
+	provides = gitkraken
+	source = gitkraken-cli-3.1.39.zip::https://github.com/gitkraken/gk-cli/releases/download/v3.1.39/gk_3.1.39_linux_amd64.zip
+	sha256sums = 29f5912143b52726605dc844eb1ee59d1cd2b1017fbcfdffd1fc588f85d5c83b
+
+pkgname = gitkraken-cli

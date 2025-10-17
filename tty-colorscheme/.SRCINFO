@@ -1,0 +1,14 @@
+pkgbase = tty-colorscheme
+	pkgdesc = A simple script to change colors in the linux TTY with over 400 colorschemes
+	pkgver = 1.9
+	pkgrel = 1
+	url = https://github.com/red-magic/tty-colorscheme
+	install = tty-colorscheme.install
+	arch = any
+	depends = bash
+	options = !debug
+	backup = etc/tty-colorscheme/tty-colorscheme.conf
+	source = 1.9.tar.gz::https://github.com/red-magic/tty-colorscheme/archive/refs/tags/1.9.tar.gz
+	b2sums = 3b5deb03b0ee3f40b21376c0ad6db5d4ba557e31574edfa416e1b5816586d39711186bb5f3d945e4143456914f957a219f601ebe4b3fb48eaa433eba69fc3d1e
+
+pkgname = tty-colorscheme

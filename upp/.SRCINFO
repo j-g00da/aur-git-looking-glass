@@ -1,0 +1,35 @@
+pkgbase = upp
+	pkgdesc = Radical and innovative multiplatform C++ framework (known as U++)
+	pkgver = 17490
+	pkgrel = 1
+	url = http://www.ultimatepp.org
+	arch = any
+	license = BSD
+	depends = gcc
+	depends = make
+	depends = zlib
+	depends = bzip2
+	depends = gtk3
+	depends = libnotify
+	depends = openssl
+	depends = clang
+	depends = pkgconfig
+	depends = gdb
+	conflicts = upp-nightly
+	conflicts = theide-nightly
+	conflicts = umk-nightly
+	options = !makeflags
+	options = emptydirs
+	options = !strip
+	source = http://downloads.sourceforge.net/upp/upp/2024.1.1/upp-posix-17490.tar.xz
+	sha256sums = 9c88c384d42d88c5ac09095851fa48dd3ac6dcde9000e4095cdc86d7bc2e2073
+
+pkgname = upp
+	pkgdesc = Radical and innovative multiplatform C++ framework (known as U++)
+	depends = theide
+
+pkgname = theide
+	pkgdesc = Modern IDE designed for developing large U++/C++ applications
+
+pkgname = umk
+	pkgdesc = Command line builder for U++ applications

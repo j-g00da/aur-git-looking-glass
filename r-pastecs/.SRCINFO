@@ -1,0 +1,17 @@
+pkgbase = r-pastecs
+	pkgdesc = Package for Analysis of Space-Time Ecological Series
+	pkgver = 1.4.2
+	pkgrel = 1
+	url = https://cran.r-project.org/package=pastecs
+	arch = any
+	license = GPL-2.0-only
+	depends = r
+	optdepends = r-covr
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-svunit
+	source = https://cran.r-project.org/src/contrib/pastecs_1.4.2.tar.gz
+	md5sums = 9ae8c1a1da977897a3688f262bbc13c3
+	b2sums = fc318bfa9e1aa48c08ddd393ab2aacbab643da1014e6928996fec1ac5acecdb835464ef2f283faa9ef1db4e855f6e8a2073d2f5dcf0d68905452a72e6a70551e
+
+pkgname = r-pastecs

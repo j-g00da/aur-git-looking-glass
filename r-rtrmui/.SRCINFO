@@ -1,0 +1,17 @@
+pkgbase = r-rtrmui
+	pkgdesc = A shiny user interface for rTRM
+	pkgver = 1.46.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/rTRMui
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-motifdb
+	depends = r-org.hs.eg.db
+	depends = r-org.mm.eg.db
+	depends = r-rtrm
+	depends = r-shiny
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/rTRMui_1.46.0.tar.gz
+	sha256sums = f87944c03de813f2f5bce9c1cb471a59124fd107867baf25a6fcb08276fa6cd8
+
+pkgname = r-rtrmui

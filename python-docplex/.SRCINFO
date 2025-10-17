@@ -1,0 +1,16 @@
+pkgbase = python-docplex
+	pkgdesc = The IBM Decision Optimization CPLEX Modeling for Python
+	pkgver = 2.30.251
+	pkgrel = 1
+	url = https://pypi.org/project/docplex/
+	arch = any
+	license = Apache-2.0
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python-six
+	source = docplex-2.30.251.tar.gz::https://files.pythonhosted.org/packages/source/d/docplex/docplex-2.30.251.tar.gz
+	b2sums = 035fb3f18928b6dfb7f9eeee0fb73223ad93df0d78809b5e0878ce7b3c7d82d9ba0939084ed2134a3814ce05c3fb040b8a3a8f9e7f1f0a82dd099159efa0d663
+
+pkgname = python-docplex

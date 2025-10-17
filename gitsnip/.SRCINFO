@@ -1,0 +1,12 @@
+pkgbase = gitsnip
+	pkgdesc = CLI tool to download specific directories from a git repository
+	pkgver = 0.1.1
+	pkgrel = 1
+	url = https://github.com/dagimg-dot/gitsnip
+	arch = x86_64
+	license = MIT
+	makedepends = go
+	source = gitsnip-0.1.1.tar.gz::https://github.com/dagimg-dot/gitsnip/archive/refs/tags/v0.1.1.tar.gz
+	b2sums = 53c641b89941bcc253976a4a7cb682a9b7c075753332eb2babbfae8e78517af0187e6cb41b4e9b6037a5abc3353e7b7268a1da4f711632b3ca9b3232cc85c336
+
+pkgname = gitsnip

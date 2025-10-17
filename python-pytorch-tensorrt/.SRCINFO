@@ -1,0 +1,25 @@
+pkgbase = python-pytorch-tensorrt
+	pkgdesc = PyTorch/TorchScript/FX compiler for NVIDIA GPUs using TensorRT
+	pkgver = 1.4.0
+	pkgrel = 1
+	url = https://github.com/pytorch/TensorRT
+	arch = x86_64
+	license = BSD
+	makedepends = git
+	makedepends = cmake
+	makedepends = ninja
+	makedepends = cuda
+	makedepends = python-build
+	makedepends = python-wheel
+	makedepends = python-installer
+	makedepends = python-setuptools
+	depends = python-pytorch-opt-cuda
+	depends = python-tensorrt
+	depends = python-torchvision-cuda
+	depends = python-graphviz
+	depends = python-pydot
+	options = debug
+	source = git+https://github.com/pytorch/TensorRT.git#tag=v1.4.0
+	sha256sums = SKIP
+
+pkgname = python-pytorch-tensorrt

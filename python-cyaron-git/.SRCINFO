@@ -1,0 +1,21 @@
+pkgbase = python-cyaron-git
+	pkgdesc = Random Olympic-informatics test data generator
+	pkgver = v0.7.0.r0.g0865426
+	pkgrel = 2
+	url = https://github.com/luogu-dev/cyaron
+	arch = any
+	license = LGPL3
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	makedepends = python-poetry-core
+	depends = python
+	depends = python-colorful
+	depends = python-xeger
+	provides = python-cyaron
+	source = cyaron::git+https://github.com/luogu-dev/cyaron.git
+	validpgpkeys = 517E4E3C364C6C55C907284915AC252CE20E3FC8
+	sha256sums = SKIP
+
+pkgname = python-cyaron-git

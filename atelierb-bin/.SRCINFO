@@ -1,0 +1,21 @@
+pkgbase = atelierb-bin
+	pkgdesc = The industrial tool to efficiently deploy the B Method (precompiled binary)
+	pkgver = 24.04.2
+	pkgrel = 1
+	url = https://www.atelierb.eu
+	arch = x86_64
+	license = custom
+	depends = libxrandr
+	depends = libxcursor
+	depends = libxinerama
+	depends = fontconfig
+	depends = libsm
+	depends = icu72-bin
+	optdepends = texlive-bin
+	optdepends = firefox
+	provides = atelierb
+	conflicts = atelierb
+	source = https://www.atelierb.eu/wp-content/uploads/2024/10/atelierb-free-24.04.2-debian12.deb
+	sha256sums = SKIP
+
+pkgname = atelierb-bin

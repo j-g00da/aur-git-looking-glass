@@ -1,0 +1,26 @@
+pkgbase = smiley-sans
+	pkgdesc = 一款在人文观感和几何特征中寻找平衡的中文黑体
+	pkgver = 2.0.1
+	pkgrel = 1
+	url = https://atelier-anchor.com/typefaces/smiley-sans
+	arch = any
+	license = OFL-1.1-RFN
+	makedepends = python-fontmake
+	makedepends = python-fonttools
+	source = smiley-sans-2.0.1.tar.gz::https://github.com/atelier-anchor/smiley-sans/archive/refs/tags/v2.0.1.tar.gz
+	b2sums = 3f1e1d7316f2e4ffc51cde15312149c080337e88c7931438728d18e80411027dc5af2b9768b48a47c6106e2aeef6b59c74d99f6b3279a65ade0a5fa080d6adbb
+
+pkgname = otf-smiley-sans
+	pkgdesc = 一款在人文观感和几何特征中寻找平衡的中文黑体 (otf)
+	provides = otf-smiley-sans
+	conflicts = otf-smiley-sans
+
+pkgname = ttf-smiley-sans
+	pkgdesc = 一款在人文观感和几何特征中寻找平衡的中文黑体 (ttf)
+	provides = ttf-smiley-sans
+	conflicts = ttf-smiley-sans
+
+pkgname = woff2-smiley-sans
+	pkgdesc = 一款在人文观感和几何特征中寻找平衡的中文黑体 (woff2)
+	provides = woff2-smiley-sans
+	conflicts = woff2-smiley-sans

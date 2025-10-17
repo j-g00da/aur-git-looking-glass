@@ -1,0 +1,53 @@
+#Maintainer: sukanka <su975853527 AT gmail.com>
+_pkgname=jaspQualityControl
+_pkgver=0.95.3
+pkgname=r-${_pkgname,,}
+pkgver=0.95.3
+pkgrel=1
+pkgdesc="Quality Control Module for JASP"
+arch=('any')
+url="https://github.com/jasp-stats/${_pkgname}"
+license=('GPL')
+replaces=('r-jaspprocesscontrol')
+depends=(r
+  r-doe.base
+  r-fitdistrplus
+  r-frf2
+  r-ggplot2
+  r-ggrepel
+  r-goftest
+  r-irr
+  r-jaspbase
+  r-jaspdescriptives
+  r-jaspgraphs
+  r-mle.tools
+  r-psych
+  r-qcc
+  r-rsm
+  r-rspc
+  r-tidyr
+  r-cowplot
+  r-vipor
+  r-ggpp
+  r-tibble
+  r-envstats
+  r-fadist
+  r-daewr
+  r-desirability
+  r-weibullness
+  r-car
+)
+groups=(r-jasp r-jaspextra)
+source=("${_pkgname}_${_pkgver}.tar.gz::${url}/archive/refs/tags/v${_pkgver}.tar.gz")
+sha256sums=('950880151a0458f64c47b3222397f9373eff3f6cc85057d452fd572fab2125b1')
+
+
+build() {
+
+  R CMD INSTALL ${_pkgname}_${_pkgver}.tar.gz -l "${srcdir}"
+}
+
+package() {
+  install -dm0755 "${pkgdir}/usr/lib/R/library"
+  cp -a --no-preserve=ownership "${_pkgname}" "${pkgdir}/usr/lib/R/library"
+}

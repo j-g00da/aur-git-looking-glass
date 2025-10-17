@@ -1,0 +1,24 @@
+pkgbase = wallman
+	pkgdesc = A simple program to set dynamic wallpapers on standalone X11 window managers and wayland compositors
+	pkgver = 1.5.2.8
+	pkgrel = 1
+	url = https://git.entheuer.de/emma/wallman
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	makedepends = python-installer
+	depends = feh
+	depends = python
+	depends = python-apscheduler
+	depends = python-pillow
+	depends = python-pystray
+	provides = wallman=1.5.2.8
+	backup = etc/wallman/icons/WallmanLogo.jpg
+	backup = etc/wallman/icons/systrayIcon.jpg
+	backup = etc/wallman/DefaultFallbackWallpaper.jpg
+	source = https://files.pythonhosted.org/packages/4e/fe/0998cd577e5b4e72cc60a7a3d95d11ff9b86c7c5e848aa0d8dc4690f75e8/wallman-1.5.2.8.tar.gz
+	b2sums = 116ef95afff6569cea63d0777b13a59da07ea6e0cf08692a3c470d1b3d135b7051adc0892f5558aecba2a49c81f7a2c848baa63763dceffe53d8565952654b3a
+
+pkgname = wallman

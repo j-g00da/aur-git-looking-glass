@@ -1,0 +1,21 @@
+pkgbase = odamex
+	pkgdesc = A free client/server multiplayer engine for the classic FPS Doom.
+	pkgver = 11.0.0
+	pkgrel = 1
+	url = http://odamex.net/
+	arch = i686
+	arch = x86_64
+	arch = aarch64
+	license = GPL
+	makedepends = cmake
+	makedepends = deutex
+	depends = sdl2_mixer
+	depends = portmidi
+	depends = wxwidgets-gtk3
+	depends = miniupnpc
+	depends = jsoncpp
+	optdepends = timidity++: Required for music
+	source = http://downloads.sourceforge.net/odamex/Odamex/11.0.0/odamex-src-11.0.0.tar.gz
+	sha256sums = 7e4e83ac08546b778ea9e08d5a34a82a0f57f3505bde3ad4aba265a13c1f1387
+
+pkgname = odamex

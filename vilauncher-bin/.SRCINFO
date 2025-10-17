@@ -1,0 +1,18 @@
+pkgbase = vilauncher-bin
+	pkgdesc = A custom Minecraft launcher, developed with modern technologies that offers a smooth and user-friendly experience to start your favorite game.(Prebuilt version.Use system-wide electron)
+	pkgver = 1.1
+	pkgrel = 1
+	url = https://github.com/vdkvdev/VILauncher
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = asar
+	makedepends = fuse2
+	depends = electron33
+	provides = vilauncher=1.1
+	conflicts = vilauncher
+	source = vilauncher-1.1-x86_64.AppImage::https://github.com/vdkvdev/VILauncher/releases/download/v1.1/VILauncher-1.1.0.AppImage
+	source = vilauncher.sh
+	sha256sums = 3d8a5978faf8e17ed49f4fa70919efb02841ff72764b92aefbc2ee8c5815d66c
+	sha256sums = f2fe8c189974ffb9d445e9a42bd4f1d5b60185607c3fcafae79ab44be224e013
+
+pkgname = vilauncher-bin

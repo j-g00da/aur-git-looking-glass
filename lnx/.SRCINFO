@@ -1,0 +1,16 @@
+pkgbase = lnx
+	pkgdesc = Adaptable search engine API
+	pkgver = 0.9.0
+	pkgrel = 2
+	url = https://github.com/lnx-search/lnx
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	depends = glibc
+	depends = mimalloc
+	depends = zstd
+	source = lnx-0.9.0::https://github.com/lnx-search/lnx/archive/0.9.0-master.tar.gz
+	md5sums = 1aeae479dfd3c8ae928369115dfd2088
+
+pkgname = lnx

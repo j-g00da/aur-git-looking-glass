@@ -1,0 +1,17 @@
+pkgbase = vsearch
+	pkgdesc = Versatile open-source tool for microbiome analysis. https://doi.org/10.7717/peerj.2584
+	pkgver = 2.30.1
+	pkgrel = 1
+	url = https://github.com/torognes/vsearch
+	arch = x86_64
+	arch = aarch64
+	arch = ppc64le
+	license = BSD-2-Clause OR GPL-3.0-only
+	makedepends = ghostscript
+	depends = glibc
+	depends = zlib
+	depends = bzip2
+	source = vsearch-2.30.1.tar.gz::https://github.com/torognes/vsearch/archive/v2.30.1.tar.gz
+	sha256sums = f65f03538a77cd1212bd04a52bb722114765329e64bd35e10ee2aefcd81137fe
+
+pkgname = vsearch

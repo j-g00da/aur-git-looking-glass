@@ -1,0 +1,18 @@
+pkgbase = r-rrdp
+	pkgdesc = Interface to the RDP Classifier
+	pkgver = 1.42.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/rRDP
+	arch = any
+	license = GPL-2.0-only AND Apache-2.0 AND LGPL-2.1-only
+	depends = java-runtime
+	depends = r-biostrings
+	depends = r-rjava
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-rrdpdata
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/rRDP_1.42.0.tar.gz
+	md5sums = 99d24b0d09340118c2e507a559d6bfa2
+	b2sums = 2311464586f14f776a281ebfa4ebcc26394bbbc26c4125bc32d36faf08cdf7e95a26d831575db638ac5adb71381707e97812a2755385718302482b3bee5d3024
+
+pkgname = r-rrdp

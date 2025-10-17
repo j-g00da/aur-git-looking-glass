@@ -1,0 +1,16 @@
+pkgbase = freesweep
+	pkgdesc = a console minesweeper-style game written in C for *nix
+	pkgver = 1.0.2
+	pkgrel = 1
+	url = https://github.com/rwestlund/freesweep
+	install = freesweep.install
+	arch = x86_64
+	arch = i686
+	license = GPL
+	depends = ncurses
+	backup = etc/sweeprc
+	backup = var/games/freesweep/sweeptimes
+	source = freesweep-1.0.2.tar.gz::https://github.com/rwestlund/freesweep/archive/v1.0.2.tar.gz
+	sha512sums = 1695bb29efbaed5e6baf5faadcbd685e8e6b4ccb5d52567a833b5f5eeb69200fc220579fea7d6907bffc92a06e9b220bca494e8597394820a421f81f0af1d3aa
+
+pkgname = freesweep

@@ -1,0 +1,22 @@
+pkgbase = perl-moosex-types
+	pkgdesc = Organise your Moose types in libraries
+	pkgver = 0.51
+	pkgrel = 1
+	url = https://metacpan.org/dist/MooseX-Types
+	arch = any
+	license = GPL-1.0-or-later OR Artistic-1.0-Perl
+	checkdepends = perl-test-fatal
+	checkdepends = perl-test-needs
+	makedepends = perl-module-build-tiny
+	depends = perl
+	depends = perl-carp-clan
+	depends = perl-module-runtime
+	depends = perl-moose
+	depends = perl-sub-exporter
+	depends = perl-sub-exporter-formethods
+	depends = perl-sub-install
+	depends = perl-namespace-autoclean
+	source = https://www.cpan.org/modules/by-module/MooseX/MooseX-Types-0.51.tar.gz
+	sha512sums = 0030a5b770349635605e08b93c90c4442b954b76d096c6fe845ee724a13b4d23dc68c963b5b7d7017b7e310011d87159ee27eabac1a524f8becece66ce97a464
+
+pkgname = perl-moosex-types

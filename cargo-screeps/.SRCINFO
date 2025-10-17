@@ -1,0 +1,15 @@
+pkgbase = cargo-screeps
+	pkgdesc = Build tool for deploying Rust WASM code to Screeps game servers
+	pkgver = 0.5.2
+	pkgrel = 1
+	url = https://github.com/rustyscreeps/cargo-screeps/
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = cargo
+	provides = cargo-screeps
+	conflicts = cargo-screeps
+	source = cargo-screeps-0.5.2.tar.gz::https://github.com/rustyscreeps/cargo-screeps/archive/refs/tags/cargo-screeps-0.5.2.tar.gz
+	sha256sums = 98a62c00f843af6f04ff6868a9e4c34d19747edd387b0f0951a3c94ad8b6986e
+
+pkgname = cargo-screeps

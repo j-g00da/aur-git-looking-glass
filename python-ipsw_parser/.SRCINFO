@@ -1,0 +1,24 @@
+pkgbase = python-ipsw_parser
+	pkgdesc = Python3 utility for parsing and extracting data from IPSW
+	pkgver = 1.4.4
+	pkgrel = 1
+	url = https://github.com/doronz88/ipsw_parser
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = python-build
+	makedepends = python-wheel
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-setuptools-scm
+	depends = python
+	depends = python-construct
+	depends = python-click
+	depends = python-coloredlogs
+	depends = python-cached-property
+	depends = python-plumbum
+	depends = python-pyimg4
+	depends = python-remotezip2
+	source = python-ipsw_parser-1.4.4.tar.gz::https://github.com/doronz88/ipsw_parser/archive/refs/tags/v1.4.4.tar.gz
+	sha256sums = 67123fda0ac9cb46a64dc2b8fcc922cdae45d37e1e94fd56c1e297fed3002161
+
+pkgname = python-ipsw_parser

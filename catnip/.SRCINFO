@@ -1,0 +1,21 @@
+pkgbase = catnip
+	pkgdesc = terminal audio visualizer for linux/unix/macOS/windows written in go.
+	pkgver = 1.8.7
+	pkgrel = 1
+	url = https://github.com/noriah/catnip
+	arch = i686
+	arch = pentium4
+	arch = x86_64
+	arch = arm
+	arch = armv7h
+	arch = armv6h
+	arch = aarch64
+	arch = riscv64
+	license = MIT
+	makedepends = go>=1.21
+	depends = ffmpeg
+	optdepends = portaudio: PortAudio support
+	source = catnip-1.8.7.tar.gz::https://github.com/noriah/catnip/archive/v1.8.7.tar.gz
+	sha256sums = 59413846f463ae8adc564b49260b1d646a2d0377928e0445790e7816e2af5369
+
+pkgname = catnip

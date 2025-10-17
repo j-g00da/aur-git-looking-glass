@@ -1,0 +1,28 @@
+pkgbase = grayjay
+	pkgdesc = Grayjay Desktop - follow creators, not platforms (privacy- and freedom-respecting client for YouTube, Rumble, Twitch, Spotify etc)
+	pkgver = 10
+	pkgrel = 1
+	url = https://grayjay.app/desktop/
+	arch = x86_64
+	license = custom:Source-First-License-1.1
+	makedepends = dotnet-sdk>=9
+	makedepends = git
+	makedepends = git-lfs
+	makedepends = npm
+	depends = ffmpeg
+	depends = libsodium
+	conflicts = grayjay-git
+	options = !strip
+	options = staticlibs
+	source = Grayjay::git+https://gitlab.futo.org/videostreaming/Grayjay.Desktop.git
+	source = grayjay.desktop
+	source = grayjay.sh
+	source = Grayjay.Desktop.CEF.csproj.user
+	source = FUTO.MDNS.csproj.user
+	sha256sums = SKIP
+	sha256sums = 3d37aacfe2c23495448da3d7202abfa2e28db5a10cb69453f9b00b1e80a70f5d
+	sha256sums = 3a1f43abacc62ad257edbb6c7744c132f5a50d64d0725aa79e251ddc19b6e489
+	sha256sums = bc13ae396e2fcd2849e4564db67fad6e1461cedebb2abdafece81fc4c00f38dd
+	sha256sums = be103a98e070fd289a2e5bbd1ad1e8e45fd6d9e3c9c01e791c93cc89fe1a8936
+
+pkgname = grayjay

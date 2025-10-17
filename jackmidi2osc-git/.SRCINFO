@@ -1,0 +1,21 @@
+pkgbase = jackmidi2osc-git
+	pkgdesc = Generate OSC messages triggered by JACK MIDI events (git version)
+	pkgver = 0.2.r4.g19b67b2
+	pkgrel = 1
+	url = https://github.com/x42/jackmidi2osc
+	arch = x86_64
+	groups = pro-audio
+	license = GPL2
+	makedepends = git
+	makedepends = jack
+	makedepends = liblo
+	depends = glibc
+	provides = jackmidi2osc
+	conflicts = jackmidi2osc
+	source = jackmidi2osc::git+https://github.com/x42/jackmidi2osc.git
+	sha256sums = SKIP
+
+pkgname = jackmidi2osc-git
+	depends = glibc
+	depends = libjack.so
+	depends = liblo.so

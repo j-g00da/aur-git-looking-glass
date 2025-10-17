@@ -1,0 +1,27 @@
+pkgbase = my-yesplaymusic-bin
+	pkgdesc = A third party music player for Netease Music.(Prebuilt version.Use system-wide electron)高颜值的第三方网易云播放器，支持本地音乐播放、离线歌单、桌面歌词、Touch Bar歌词、Mac状态栏歌词显示。
+	pkgver = 0.4.20
+	pkgrel = 3
+	url = https://my-yesplaymusic-five.vercel.app/
+	arch = aarch64
+	arch = armv7h
+	arch = x86_64
+	license = MIT
+	depends = electron13
+	provides = yesplaymusic
+	conflicts = yesplaymusic
+	conflicts = my-yesplaymusic
+	conflicts = r3play
+	conflicts = r3playx
+	source = LICENSE-0.4.20::https://raw.githubusercontent.com/stark81/my_yesplaymusic/v0.4.20/LICENSE
+	source = my-yesplaymusic.sh
+	sha256sums = c33378c6fd12e6d040cedd06dc0d1bedfca74fd66bc46cc2cf10cc10e0906be6
+	sha256sums = f2fe8c189974ffb9d445e9a42bd4f1d5b60185607c3fcafae79ab44be224e013
+	source_aarch64 = my-yesplaymusic-0.4.20-aarch64.deb::https://github.com/stark81/my_yesplaymusic/releases/download/v0.4.20/yesplaymusic_0.4.20_arm64.deb
+	sha256sums_aarch64 = 00e50275dbda1858b9a0f286817b9e210bdf0d02ce3b190a2156a3f6722ea003
+	source_armv7h = my-yesplaymusic-0.4.20-armv7h.deb::https://github.com/stark81/my_yesplaymusic/releases/download/v0.4.20/yesplaymusic_0.4.20_armv7l.deb
+	sha256sums_armv7h = f9201e43f899c85c3ac37a560a237d639a4c99ce1dd2712468f022623701fd35
+	source_x86_64 = my-yesplaymusic-0.4.20-x86_64.deb::https://github.com/stark81/my_yesplaymusic/releases/download/v0.4.20/yesplaymusic_0.4.20_amd64.deb
+	sha256sums_x86_64 = 7e02adb2168949de0c86b547202575fda7faf2431f8669f6b07fe8919d1dada6
+
+pkgname = my-yesplaymusic-bin

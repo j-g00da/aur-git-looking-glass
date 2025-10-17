@@ -1,0 +1,25 @@
+pkgbase = r-quantreg
+	pkgdesc = Quantile Regression
+	pkgver = 6.1
+	pkgrel = 1
+	url = https://cran.r-project.org/package=quantreg
+	arch = x86_64
+	license = GPL-2.0-or-later
+	makedepends = gcc-fortran
+	depends = blas
+	depends = lapack
+	depends = r-matrixmodels
+	depends = r-sparsem
+	optdepends = r-conquer
+	optdepends = r-formula
+	optdepends = r-interp
+	optdepends = r-logspline
+	optdepends = r-nor1mix
+	optdepends = r-r.rsp
+	optdepends = r-rgl
+	optdepends = r-zoo
+	source = https://cran.r-project.org/src/contrib/quantreg_6.1.tar.gz
+	md5sums = 838f88ce6e3c7ecfb9e2488b2c498495
+	b2sums = 4d2eed5a4d500669be80bc101e113f30bca6c881fb90b7be71c039790b9a8044181dfd3eefded922fb20331f0babe2f3e0b7f02e83e51a18c21f85e9521a746d
+
+pkgname = r-quantreg

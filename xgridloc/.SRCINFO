@@ -1,0 +1,27 @@
+pkgbase = xgridloc
+	pkgdesc = Ham Radio Maidenhead grid converter & bearing + distance calculator
+	pkgver = 1.8.4
+	pkgrel = 1
+	url = http://www.qsl.net/5b4az/pkg/locator/xgridloc/xgridloc.html
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = autoconf
+	makedepends = automake
+	makedepends = intltool
+	makedepends = gettext
+	makedepends = pkg-config
+	depends = gtk3
+	depends = hamradio-menus
+	optdepends = xplanet: provides visual path on great circle map
+	source = http://www.qsl.net/5b4az/pkg/locator/xgridloc/xgridloc-1.8.4.tar.bz2
+	source = xgridloc.desktop
+	source = xdemorse.png
+	md5sums = 5b0f958fd00845683ab631f6b08c0d6b
+	md5sums = f4da450b0dd9f4c996bf38ab7985feb9
+	md5sums = edcd3f301ec8ea95453d40534beb6ede
+	sha256sums = 0333e160fa5ed0a7d3aa2f80904bb48b2a16455439f2896a49d2695dfccaaddb
+	sha256sums = 2258247e36111af347a7067630f5b0736a4ea6932d9880bceb9cd982187a07fe
+	sha256sums = 857eb46c32c12333a7110fb3ea99d2246084724856638f2e04324fc2a576626d
+
+pkgname = xgridloc

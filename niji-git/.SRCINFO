@@ -1,0 +1,24 @@
+pkgbase = niji-git
+	pkgdesc = A customizable tool for theming linux systems
+	pkgver = 0.3.0
+	pkgrel = 4
+	url = https://github.com/lina-roether/niji
+	arch = x86_64
+	arch = i686
+	arch = arm
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = GPL-3.0
+	makedepends = cargo
+	makedepends = git
+	makedepends = jq
+	depends = luajit
+	provides = niji
+	conflicts = niji
+	source = git+https://github.com/lina-roether/niji.git
+	source = git+https://github.com/vinceliuice/Colloid-gtk-theme.git
+	md5sums = SKIP
+	md5sums = SKIP
+
+pkgname = niji-git

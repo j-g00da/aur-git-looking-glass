@@ -1,0 +1,25 @@
+pkgbase = rift-bin
+	pkgdesc = The RIFT Intel Fusion Tool, for Eve Online
+	pkgver = 5.8.2
+	pkgrel = 1
+	url = https://riftforeve.online/
+	arch = x86_64
+	license = custom
+	depends = alsa-lib
+	depends = freetype2
+	depends = gcc-libs
+	depends = glibc
+	depends = libx11
+	depends = libxext
+	depends = libxi
+	depends = libxrender
+	depends = libxtst
+	depends = openal
+	depends = zlib
+	optdepends = xorg-xwayland
+	provides = rift
+	conflicts = rift
+	source = https://riftforeve.online/download/debian/rift_5.8.2_amd64.deb
+	sha256sums = 7b36b54e0890302719f7fb88968ffae3ef2785806d19797393e81d49ea29cd48
+
+pkgname = rift-bin

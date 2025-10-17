@@ -1,0 +1,16 @@
+pkgbase = python-stdl
+	pkgdesc = Extended Python Standard Library
+	pkgver = 0.6.1
+	pkgrel = 1
+	url = https://github.com/zigai/stdl
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python-yaml
+	depends = python-dateutil
+	depends = python-toml
+	depends = python-tqdm
+	source = stdl-0.6.1.tar.gz::https://github.com/zigai/stdl/archive/refs/tags/0.6.1.tar.gz
+	b2sums = d28a9af68e6734356a16640379ecd57ccac0b34b4268fb6386f98131103ad1d5c26984abb1b132056f6a75b68cea534888385879578181c0f02597d025683635
+
+pkgname = python-stdl

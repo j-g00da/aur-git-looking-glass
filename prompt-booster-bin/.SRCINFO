@@ -1,0 +1,21 @@
+pkgbase = prompt-booster-bin
+	pkgdesc = A comprehensive tool for optimizing LLM prompts with version control, A/B testing, and template management. Supports multiple AI providers.(Prebuilt version.Use system-wide electron)
+	pkgver = 0.8.0
+	pkgrel = 1
+	url = https://hexart.github.io/prompt-booster/
+	arch = aarch64
+	arch = x86_64
+	license = MIT
+	license = Apache-2.0
+	makedepends = fuse2
+	depends = electron37
+	provides = prompt-booster=0.8.0
+	conflicts = prompt-booster
+	source = prompt-booster.sh
+	sha256sums = 31ad33b633744f5361abd964be306cea53ae1050e760c787115f7eca60045ae6
+	source_aarch64 = prompt-booster-0.8.0-aarch64.AppImage::https://github.com/hexart/prompt-booster/releases/download/v0.8.0/Prompt-Booster-0.8.0-arm64.AppImage
+	sha256sums_aarch64 = c26aec039f3314f1fede06559da097cad06e8d9a404f29a178bf3b08374f8c9c
+	source_x86_64 = prompt-booster-0.8.0-x86_64.AppImage::https://github.com/hexart/prompt-booster/releases/download/v0.8.0/Prompt-Booster-0.8.0.AppImage
+	sha256sums_x86_64 = 95f55fcb2a2d2efcf1d32329a4b3e61390a96856d639b27a55216162a88e117e
+
+pkgname = prompt-booster-bin

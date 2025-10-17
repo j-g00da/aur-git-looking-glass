@@ -1,0 +1,22 @@
+pkgbase = zxtune-bin
+	pkgdesc = Portable toolkit for ZX-Spectrum music playing (pre-compiled)
+	pkgver = r5100
+	pkgrel = 2
+	url = https://zxtune.bitbucket.io/
+	arch = x86_64
+	license = GPL3
+	depends = boost-libs
+	depends = gcc-libs
+	depends = qt5-base
+	depends = zlib
+	optdepends = alsa-lib: for ALSA output support
+	optdepends = lame: for conversion to .mp3 format
+	optdepends = libvorbis: for conversion to .ogg format
+	optdepends = flac: for conversion to .flac format
+	optdepends = curl: for accessing data via network schemes
+	provides = zxtune
+	conflicts = zxtune-git
+	source = https://storage.zxtune.ru/builds/public/r5100/linux/x86_64/zxtune_r5100_linux_x86_64.tar.gz
+	md5sums = 88674efc799d2b3f0d9102b90b76981e
+
+pkgname = zxtune-bin

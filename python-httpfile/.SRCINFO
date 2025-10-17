@@ -1,0 +1,25 @@
+pkgbase = python-httpfile
+	pkgdesc = Python httpfile.
+	pkgver = 0.0.5.2
+	pkgrel = 1
+	url = https://pypi.org/project/python-httpfile
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python
+	depends = python-poetry
+	depends = python-asynctools
+	depends = python-filewrap
+	depends = python-http-response
+	depends = python-urlopen
+	provides = python-httpfile
+	conflicts = python-httpfile
+	options = !strip
+	options = !debug
+	source = python_httpfile-0.0.5.2.tar.gz::https://files.pythonhosted.org/packages/source/p/python_httpfile/python_httpfile-0.0.5.2.tar.gz
+	sha256sums = 10a9201ae62e9927f3c6109192499093aef97b36ce13bd8253fc2b8545aedf4f
+
+pkgname = python-httpfile

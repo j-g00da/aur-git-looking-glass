@@ -1,0 +1,24 @@
+pkgbase = xfwm4-gaps
+	pkgdesc = Xfce's window manager - now with extra gaps
+	pkgver = 4.20.0
+	pkgrel = 2
+	url = https://docs.xfce.org/xfce/xfwm4/start
+	arch = x86_64
+	groups = xfce4
+	license = GPL-2.0-or-later
+	makedepends = git
+	makedepends = xfce4-dev-tools
+	depends = libxfce4ui
+	depends = xfconf
+	depends = libwnck3
+	depends = libepoxy
+	depends = libxpresent
+	depends = hicolor-icon-theme
+	provides = xfwm4
+	conflicts = xfwm4
+	source = git+https://gitlab.xfce.org/xfce/xfwm4.git#tag=xfwm4-4.20.0
+	source = gaps.patch
+	sha256sums = 68691593f06659f1ba1a0363be161b2cd50a84016612394c909bce1485a75cff
+	sha256sums = SKIP
+
+pkgname = xfwm4-gaps

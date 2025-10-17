@@ -1,0 +1,16 @@
+pkgbase = fstl
+	pkgdesc = A viewer for .stl files
+	pkgver = 0.11.1
+	pkgrel = 1
+	url = http://www.mattkeeter.com/projects/fstl/
+	arch = x86_64
+	license = MIT
+	makedepends = icoutils
+	makedepends = cmake
+	depends = qt5-base
+	source = https://github.com/mkeeter/fstl/archive/v0.11.1.tar.gz
+	source = fstl.desktop
+	sha256sums = b90d02743a1f76927d5d7c4373c3ebcf3da86d97362501035d504c7a008da5ca
+	sha256sums = 53d2a7911cacc1ca8e9fe823e8ecf2777c1158f51d2b909ebb106d976c70bec5
+
+pkgname = fstl

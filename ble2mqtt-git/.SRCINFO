@@ -1,0 +1,24 @@
+pkgbase = ble2mqtt-git
+	pkgdesc = Bluetooth to MQTT bridge, add your bluetooth-capable devices to your smart home
+	pkgver = 0.2.5.r1.g9ec2940
+	pkgrel = 2
+	url = https://github.com/devbis/ble2mqtt
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = python-build
+	makedepends = python-setuptools
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python-pycryptodome
+	depends = python-aio-mqtt-mod
+	depends = python-bleak
+	provides = ble2mqtt
+	conflicts = ble2mqtt
+	conflicts = ble2mqtt-git
+	source = git+https://github.com/devbis/ble2mqtt.git
+	source = ble2mqtt.service
+	sha256sums = SKIP
+	sha256sums = d638271a618676bad3989f45a02da9f711fa9e1bf8274acd66825fdc1a7bf0f3
+
+pkgname = ble2mqtt-git

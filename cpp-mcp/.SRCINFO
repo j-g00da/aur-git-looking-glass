@@ -1,0 +1,18 @@
+pkgbase = cpp-mcp
+	pkgdesc = C++ implementation of Model Context Protocol (MCP)
+	pkgver = alpha
+	pkgrel = 1
+	url = https://github.com/klogdotwebsitenotdotcom/cpp-mcp
+	arch = x86_64
+	arch = i686
+	arch = armv7h
+	arch = aarch64
+	license = MIT
+	makedepends = cmake
+	depends = openssl
+	options = !strip
+	options = staticlibs
+	source = git+https://github.com/klogdotwebsitenotdotcom/cpp-mcp.git#branch=distribution
+	sha256sums = SKIP
+
+pkgname = cpp-mcp

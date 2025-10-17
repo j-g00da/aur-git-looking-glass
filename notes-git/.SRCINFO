@@ -1,0 +1,27 @@
+pkgbase = notes-git
+	pkgdesc = Note taking application, write down your thoughts
+	pkgver = 2.3.1.r44.g7cd90f9
+	pkgrel = 1
+	url = https://github.com/nuttyartist/notes
+	arch = x86_64
+	license = MPL-2.0
+	makedepends = git
+	makedepends = cmake
+	depends = libx11
+	depends = gcc-libs
+	depends = glibc
+	depends = hicolor-icon-theme
+	depends = qt6-base
+	depends = qt6-declarative
+	provides = notes
+	conflicts = notes
+	source = notes-git::git+https://github.com/nuttyartist/notes
+	source = git+https://github.com/b00f/qautostart.git
+	source = git+https://github.com/pbek/qmarkdowntextedit.git
+	source = git+https://github.com/alex-spataru/QSimpleUpdater.git
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = notes-git

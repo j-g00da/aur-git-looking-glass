@@ -1,0 +1,11 @@
+pkgbase = exdupe-bin
+	pkgdesc = Fast file archiver that supports data deduplication and differential backups
+	pkgver = 3.0.0
+	pkgrel = 1
+	url = https://github.com/rrrlasse/exdupe
+	arch = x86_64
+	license = unknown
+	source = exdupe-bin-3.0.0.tar.gz::https://github.com/rrrlasse/exdupe/releases/download/v3.0.0/exdupe_3.0.0_linux_amd64.tar.gz
+	b2sums = fbcef07df7da68be33be63d1f7bdb42b36c217f5ce3adae80ccc87c7528e7cf5da02d1d0f2e12adc106ecfe0429e3a622a7892cd974199983c3cbed7590e6bff
+
+pkgname = exdupe-bin

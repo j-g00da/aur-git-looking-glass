@@ -1,0 +1,24 @@
+pkgbase = r-tdbasedufe
+	pkgdesc = Tensor Decomposition Based Unsupervised Feature Extraction
+	pkgver = 1.8.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/TDbasedUFE
+	arch = any
+	license = GPL-3.0-only
+	checkdepends = r-testthat
+	depends = r-genomicranges
+	depends = r-mofadata
+	depends = r-readr
+	depends = r-rtensor
+	depends = r-shiny
+	depends = r-tximport
+	depends = r-tximportdata
+	optdepends = r-biocstyle
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/TDbasedUFE_1.8.0.tar.gz
+	md5sums = 4da4e089c764dfd3bafbfa9ad2da7fb2
+	b2sums = 979ba84c74e64e92796741bb44b111781f08d3b10905ea9718e81e87545afc012960d721ce7b4185fd3f3d99381e36212f255f0b81608baaaca821896a63281a
+
+pkgname = r-tdbasedufe

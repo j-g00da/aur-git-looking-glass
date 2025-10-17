@@ -1,0 +1,25 @@
+pkgbase = makemkv-cli
+	pkgdesc = DVD and Blu-ray to MKV converter and network streamer - CLI only
+	pkgver = 1.18.2
+	pkgrel = 1
+	url = https://www.makemkv.com
+	install = makemkv.install
+	arch = i686
+	arch = x86_64
+	license = LGPL
+	license = MPL
+	license = custom
+	makedepends = less
+	depends = ffmpeg
+	depends = java-runtime
+	depends = openssl-1.1
+	provides = makemkv
+	conflicts = makemkv
+	source = https://www.makemkv.com/download/makemkv-bin-1.18.2.tar.gz
+	source = https://www.makemkv.com/download/makemkv-oss-1.18.2.tar.gz
+	source = makemkvcon.1
+	b2sums = a0372519087db6881207b2a2f828a08d9ebbe57a6166391a3141ae5074a3b1b03314f57aecb7e3bd594064fcae6d1f97bb8db2d52658b398fef2a44689c00ee8
+	b2sums = b15088a01835dbe576b400d8e08e16ce4e58ec61a4956120abc507b01981707cdf4e2004a9d7b673306a110f8c3567506d62c48942d7f7d38321767308cae595
+	b2sums = a318361982271bee3db2fa6f3e2b51afd7fe35f3dcb821c24bc21f8189be74cf9093559dbf9689eedd458226b30ddf59333af10ef509dc850331639b9035be39
+
+pkgname = makemkv-cli

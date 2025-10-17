@@ -1,0 +1,25 @@
+pkgbase = python-rawpy
+	pkgdesc = Python wrapper for the libraw library
+	pkgver = 0.25.1
+	pkgrel = 1
+	url = https://github.com/letmaik/rawpy
+	arch = x86_64
+	license = MIT
+	checkdepends = python-pytest
+	checkdepends = python-imageio
+	checkdepends = python-opencv
+	makedepends = cython
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-sphinx
+	makedepends = python-sphinx_rtd_theme
+	makedepends = python-wheel
+	depends = libraw
+	depends = python-numpy
+	optdepends = python-scikit-image: for rawpy.enhance
+	optdepends = python-opencv: for rawpy.enhance
+	source = python-rawpy-0.25.1.tar.gz::https://github.com/letmaik/rawpy/archive/v0.25.1.tar.gz
+	sha512sums = b80ed5123648747707a4ea457877cda67c19d506ffe74aa932f3eb6cc82f1095d1a31f213aaabf1d58a484743920a8c48e20d28b53a7d8dac944f897c1f4cbf1
+
+pkgname = python-rawpy

@@ -1,0 +1,27 @@
+pkgbase = stavekontrolden
+	pkgdesc = Danish dictionaries; for use with multiple programs
+	pkgver = 2.9.039
+	pkgrel = 1
+	url = https://stavekontrolden.dk/
+	arch = any
+	license = GPL-3.0-only AND (GPL-2.0-only AND LGPL-2.1-only AND MPL-1.1)
+	makedepends = libarchive
+	makedepends = coreutils
+	makedepends = findutils
+	optdepends = hunspell: the spell checking libraries and apps
+	optdepends = hyphen: for use of hyphenation rules
+	optdepends = libmythes: for use of thesaurus dictionary
+	provides = libreoffice-extension-da_dk
+	provides = openoffice-extension-da_dk
+	provides = hunspell-da
+	provides = hyphen-da
+	provides = mythes-da
+	conflicts = libreoffice-extension-da_dk
+	conflicts = openoffice-extension-da_dk
+	conflicts = hunspell-da
+	conflicts = hyphen-da
+	conflicts = mythes-da
+	source = https://stavekontrolden.dk/dictionaries/da_DK/da_DK-2.9.039.oxt
+	b2sums = 38b3fdd688dece22a03016a09cd5e406226bd842fd1e46132c9eb88ab3b4e19b838c3b497942987bfd572c30d3682d128e77a130864fa128485f2a44f5c6c042
+
+pkgname = stavekontrolden

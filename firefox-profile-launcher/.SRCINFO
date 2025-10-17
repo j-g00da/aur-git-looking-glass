@@ -1,0 +1,19 @@
+pkgbase = firefox-profile-launcher
+	pkgdesc = Simple Firefox profile launcher
+	pkgver = 1.0
+	pkgrel = 2
+	url = https://github.com/jfsanchez91/firefox-profile-launcher
+	arch = any
+	license = MIT
+	depends = gtk4
+	depends = python-gobject
+	depends = python3
+	depends = firefox
+	source = firefox-profile-launcher
+	source = firefox-profile-launcher.desktop
+	source = style.css
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = firefox-profile-launcher

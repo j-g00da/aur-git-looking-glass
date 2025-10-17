@@ -1,0 +1,19 @@
+pkgbase = r-distr
+	pkgdesc = Object Oriented Implementation of Distributions
+	pkgver = 2.9.7
+	pkgrel = 1
+	url = https://cran.r-project.org/package=distr
+	arch = x86_64
+	license = LGPL-3.0-only
+	depends = r-sfsmisc
+	depends = r-startupmsg
+	optdepends = r-distrex
+	optdepends = r-distrmod
+	optdepends = r-knitr
+	optdepends = r-roptest
+	optdepends = r-svunit
+	source = https://cran.r-project.org/src/contrib/distr_2.9.7.tar.gz
+	md5sums = 168013c7ac28e8afcfaabcb2cc1bc1f7
+	b2sums = f369e60ce4bae5f2ccc3b360ae919d0ec73b99de3999d44e2fbc3a43e47bb001fe5d5856cb958a4c8ee1f4190c966f6aa1a62984cf95b97f6177350037ef59c0
+
+pkgname = r-distr

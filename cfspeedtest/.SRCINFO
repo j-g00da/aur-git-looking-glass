@@ -1,0 +1,15 @@
+pkgbase = cfspeedtest
+	pkgdesc = Unofficial CLI for speed.cloudflare.com
+	pkgver = 1.4.1
+	pkgrel = 2
+	url = https://github.com/code-inflation/cfspeedtest
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = cargo
+	depends = glibc
+	depends = gcc-libs
+	source = https://github.com/code-inflation/cfspeedtest/archive/refs/tags/v1.4.1.tar.gz
+	sha256sums = 942b85fc54bcf0f654b986d4808027e00ba34be63bc21cb7f525e9f2ff54f884
+
+pkgname = cfspeedtest

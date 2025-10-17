@@ -1,0 +1,17 @@
+# Contributor: Alex Suykov <axs@ukr.net>
+
+pkgname=ttf-code2001
+pkgver=0.922
+pkgrel=1
+pkgdesc="Plane 1 Unicode-based font (TTF)"
+arch=('any')
+url="https://www.code2001.com/"
+license=('custom')
+source=('http://www.code2001.com/CODE2001.ZIP')
+md5sums=('63149b53b5f335c74f05a792f33f3513')
+sha256sums=('da8b6059fc204d4a88e7feff8203e5086cd1d48b7e28e6d438bf383a042a80eb')
+sha512sums=('7fa5a7a829e6dcbbaf8494ed9b919f314de535f73ecb3848e3377f6fe27dbfe242c70724f5eb267c0a4270aa0aa744cd84afc5dbaa2327ca1ee161c05b2857ac')
+
+package() {
+  install -D -m644 CODE2001.TTF "$pkgdir/usr/share/fonts/TTF/Code2001.ttf"
+}

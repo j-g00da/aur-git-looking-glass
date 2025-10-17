@@ -1,0 +1,12 @@
+pkgbase = chomsky-font
+	pkgdesc = A font in the style of the New York Times masthead
+	pkgver = 2.3
+	pkgrel = 1
+	url = https://github.com/ctrlcctrlv/chomsky
+	arch = any
+	license = OFL
+	source = chomsky-2.3.tgz::https://github.com/ctrlcctrlv/chomsky/archive/v2.3.tar.gz
+	sha256sums = 23198f26aa149112914c0487ce5180921fedb869a40b1175f308ad577085d532
+
+pkgname = otf-chomsky
+	provides = chomsky-font

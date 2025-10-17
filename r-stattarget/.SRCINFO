@@ -1,0 +1,23 @@
+pkgbase = r-stattarget
+	pkgdesc = Statistical Analysis of Molecular Profiles
+	pkgver = 1.38.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/statTarget
+	arch = any
+	license = LGPL
+	depends = r
+	depends = r-impute
+	depends = r-pdist
+	depends = r-pls
+	depends = r-plyr
+	depends = r-randomforest
+	depends = r-roc
+	depends = r-rrcov
+	optdepends = r-biocstyle
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/statTarget_1.38.0.tar.gz
+	sha256sums = 42bf84957eda7bd757b1d477c2cb432ec651b0ff50d0fba8193cd9f02f349ae9
+
+pkgname = r-stattarget

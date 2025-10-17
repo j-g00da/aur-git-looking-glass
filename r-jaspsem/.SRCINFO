@@ -1,0 +1,27 @@
+pkgbase = r-jaspsem
+	pkgdesc = SEM Module for JASP
+	pkgver = 0.95.3
+	pkgrel = 1
+	url = https://github.com/jasp-stats/jaspSem
+	arch = any
+	groups = r-jasp
+	groups = r-jaspextra
+	license = GPL
+	depends = r
+	depends = r-csem
+	depends = r-forcats
+	depends = r-ggplot2
+	depends = r-jaspbase
+	depends = r-jaspgraphs
+	depends = r-lavaan
+	depends = r-reshape2
+	depends = r-semplot
+	depends = r-semtools
+	depends = r-stringr
+	depends = r-tibble
+	depends = r-tidyr
+	depends = r-semsens
+	source = jaspSem_0.95.3.tar.gz::https://github.com/jasp-stats/jaspSem/archive/refs/tags/v0.95.3.tar.gz
+	sha256sums = 0444d3a157b7a2719e12273157bdb3bf80fb253f045fd1bb98753ba761e945d7
+
+pkgname = r-jaspsem

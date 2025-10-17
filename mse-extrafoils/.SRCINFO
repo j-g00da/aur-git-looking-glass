@@ -1,0 +1,59 @@
+pkgbase = mse-extrafoils
+	pkgdesc = Various extra foils for MSE.
+	pkgver = 2.1.2
+	pkgrel = 1
+	url = http://msetemps.sourceforge.net/phpBB3/viewtopic.php?&t=144
+	arch = any
+	groups = mse-addons
+	groups = mse-addons-foils
+	license = GPL
+	depends = magicseteditor
+	source = https://github.com/silverhikari/magic-set-templates-aur/raw/main/2.1.2-extrafoils.tar.gz
+	sha256sums = 2be5caca81465965cac576375e444a1174c1a116d5e3f5f2c8bb084b72e5b163
+
+pkgname = mse-extrafoils-clights
+	pkgdesc = Various extra foils for MSE. This one is the Christmas Lights object gradient by Art_Freak.
+
+pkgname = mse-extrafoils-fire
+	pkgdesc = Various extra foils for MSE. This one is the fire object gradient.
+
+pkgname = mse-extrafoils-fracture
+	pkgdesc = Various extra foils for MSE. This one is the fracture foil gradient.
+
+pkgname = mse-extrafoils-ghost
+	pkgdesc = Various extra foils for MSE. This one is the ghost foil gradient by smr1313.
+
+pkgname = mse-extrafoils-insanity
+	pkgdesc = Various extra foils for MSE. This one is the insanity object gradient.
+
+pkgname = mse-extrafoils-jss
+	pkgdesc = Various extra foils for MSE. This one is the JSS foil gradient by Art_Freak.
+
+pkgname = mse-extrafoils-oil
+	pkgdesc = Various extra foils for MSE. This one is the oil foil gradient.
+
+pkgname = mse-extrafoils-old
+	pkgdesc = Various extra foils for MSE. This one is the old foil gradient.
+
+pkgname = mse-extrafoils-parallel
+	pkgdesc = Various extra foils for MSE. This one is the parallel foil gradient.
+
+pkgname = mse-extrafoils-polishedstone
+	pkgdesc = Various extra foils for MSE. This one is the polishedstone foil gradient.
+
+pkgname = mse-extrafoils-ribbon
+	pkgdesc = Various extra foils for MSE. This one is the ribbon object gradient.
+	conflicts = mse-extrafoils-ribbons
+	replaces = mse-extrafoils-ribbons
+
+pkgname = mse-extrafoils-ripples
+	pkgdesc = Various extra foils for MSE. This one is the ripples foil gradient.
+
+pkgname = mse-extrafoils-holes
+	pkgdesc = Various extra foils for MSE. This one is the holes foil gradient.
+
+pkgname = mse-extrafoils-normal
+	pkgdesc = Various extra foils for MSE. This one is the normal foil gradient.
+
+pkgname = mse-extrafoils-oldfeed
+	pkgdesc = Various extra foils for MSE. This one is the oldfeed foil gradient.

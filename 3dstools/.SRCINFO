@@ -1,0 +1,12 @@
+pkgbase = 3dstools
+	pkgdesc = Various tools for 3DS development
+	pkgver = 1.3.1
+	pkgrel = 1
+	url = https://github.com/devkitPro/3dstools
+	arch = x86_64
+	license = unknown
+	depends = gcc-libs
+	source = https://github.com/devkitPro/3dstools/archive/refs/tags/v1.3.1.tar.gz
+	sha256sums = a1eab5138ad985f6fb3e999706a51300c363399bb1a83ec5a052958ed74d8f45
+
+pkgname = 3dstools

@@ -1,0 +1,20 @@
+pkgbase = inertial-sense-sdk
+	pkgdesc = Quick integration for communication with the Inertial Sense product line.
+	pkgver = 2.0.1
+	pkgrel = 1
+	url = https://github.com/inertialsense/inertial-sense-sdk
+	arch = any
+	license = MIT
+	makedepends = cmake
+	makedepends = ninja
+	depends = libusb
+	depends = yaml-cpp
+	provides = inertial-sense-sdk
+	conflicts = inertial-sense-sdk
+	options = !strip
+	source = https://github.com/inertialsense/inertial-sense-sdk/archive/refs/tags/2.0.1.tar.gz
+	source = 01-use-system-libraries.patch
+	sha256sums = f6da6c2e3c13879d781ac7590b4f0ae8756052d7bb3a041baefb64ad57db36f2
+	sha256sums = a0437e369076d2df17f7ae98ecfde86d67d5437c3ddec10a596d64662f77896b
+
+pkgname = inertial-sense-sdk

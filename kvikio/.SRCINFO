@@ -1,0 +1,21 @@
+pkgbase = kvikio
+	pkgdesc = KvikIO - High Performance File IO
+	pkgver = 25.10.00
+	pkgrel = 1
+	url = https://github.com/rapidsai/kvikio
+	arch = x86_64
+	license = Apache-2.0
+	makedepends = cmake
+	makedepends = ninja
+	depends = gcc-libs
+	depends = cuda
+	depends = nvtx3
+	depends = bs-thread-pool
+	source = https://github.com/rapidsai/kvikio/archive/refs/tags/v25.10.00.tar.gz
+	source = system-lib.patch
+	sha256sums = 1106f576e90cf816a846e207dda3630853ac2033de0785c03ce11e4f9794c116
+	sha256sums = 96723986a190d582c80a4d9008dae99844d06e8fb60b5f92f9e45c77a3b6875e
+
+pkgname = kvikio
+
+pkgname = python-kvikio

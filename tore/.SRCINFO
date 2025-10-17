@@ -1,0 +1,12 @@
+pkgbase = tore
+	pkgdesc = A notification/reminder command-line utility
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/nickheyer/tore
+	install = tore.install
+	arch = x86_64
+	license = MIT
+	source = https://github.com/nickheyer/tore/archive/refs/tags/v1.0.0.tar.gz
+	sha256sums = SKIP
+
+pkgname = tore

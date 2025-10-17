@@ -1,0 +1,20 @@
+pkgbase = r-pviz
+	pkgdesc = Peptide Annotation and Data Visualization using Gviz
+	pkgver = 1.42.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/Pviz
+	arch = any
+	license = Artistic2.0
+	depends = r
+	depends = r-biostrings
+	depends = r-biovizbase
+	depends = r-data.table
+	depends = r-genomicranges
+	depends = r-gviz
+	depends = r-iranges
+	optdepends = r-knitr
+	optdepends = r-pepdat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/Pviz_1.42.0.tar.gz
+	sha256sums = dc6093a67efd37c8f1b641ef4ee926d0522182cb8a79ea66e6c8c3f3b90f46d8
+
+pkgname = r-pviz

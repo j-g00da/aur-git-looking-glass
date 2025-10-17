@@ -1,0 +1,16 @@
+pkgbase = firefox-esr-noscript
+	pkgdesc = Extension for firefox which disables javascript
+	pkgver = 11.4.29
+	pkgrel = 1
+	url = https://noscript.net/
+	arch = any
+	license = GPL2
+	makedepends = unzip
+	makedepends = jq
+	noextract = noscript-11.4.29.xpi
+	source = noscript-11.4.29.xpi::https://secure.informaction.com/download/releases/noscript-11.4.29.xpi
+	sha256sums = 05b98840b05ef2acbac333543e4b7c3d40fee2ce5fb4e29260b05e2ff6fe24cd
+	b2sums = 409947675258d95961b6c4368cc449fd81c6281e4b2bb73e916fd1cc53a26f2681085f500510dffa75774e921da2d8cc9e255e13071933a8369fed427982daee
+
+pkgname = firefox-esr-noscript
+	depends = firefox-esr

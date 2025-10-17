@@ -1,0 +1,17 @@
+pkgbase = teyjus
+	pkgdesc = An efficient implementation of the higher-order logic programming language λProlog
+	pkgver = 2.1.1
+	pkgrel = 1
+	url = http://teyjus.cs.umn.edu/
+	arch = i686
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = ocaml
+	makedepends = omake
+	makedepends = flex
+	makedepends = bison
+	depends = glibc
+	source = https://github.com/teyjus/teyjus/archive/v2.1.1.tar.gz
+	sha256sums = a8fafe8ab7cd857a3f46ab8e4a7f76f9f3fac2169fdb72f95b84d1d0bcdf66f9
+
+pkgname = teyjus

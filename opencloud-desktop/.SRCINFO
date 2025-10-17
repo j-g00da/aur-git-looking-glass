@@ -1,0 +1,25 @@
+pkgbase = opencloud-desktop
+	pkgdesc = opencloud desktop application
+	pkgver = 2.0.0
+	pkgrel = 1
+	url = https://github.com/opencloud-eu/desktop
+	arch = x86_64
+	license = GPL-2.0-only
+	makedepends = doxygen
+	makedepends = extra-cmake-modules
+	makedepends = python-sphinx
+	makedepends = qt6-declarative
+	makedepends = qt6-tools
+	depends = gcc-libs
+	depends = glibc
+	depends = kdsingleapplication
+	depends = libre-graph-api
+	depends = qt6-base
+	depends = qtkeychain-qt6
+	depends = sqlite
+	depends = zlib
+	backup = etc/OpenCloud/sync-exclude.lst
+	source = opencloud-desktop-2.0.0.tar.gz::https://github.com/opencloud-eu/desktop/archive/refs/tags/v2.0.0.tar.gz
+	sha256sums = cc636048998d7ee511d5f838c59f45185a3f3d75967e310f5a13757970281980
+
+pkgname = opencloud-desktop

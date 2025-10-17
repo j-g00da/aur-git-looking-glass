@@ -1,0 +1,17 @@
+pkgbase = phpactor-bin
+	pkgdesc = Mainly a PHP Language Server with more features than you can shake a stick at
+	pkgver = 2025.07.25.0
+	pkgrel = 1
+	url = https://github.com/phpactor/phpactor
+	arch = any
+	license = MIT
+	depends = php
+	provides = phpactor
+	conflicts = phpactor
+	conflicts = phpactor-git
+	source = phpactor-2025.07.25.0.phar::https://github.com/phpactor/phpactor/releases/download/2025.07.25.0/phpactor.phar
+	source = LICENSE-2025.07.25.0::https://github.com/phpactor/phpactor/raw/refs/tags/2025.07.25.0/LICENSE
+	sha256sums = a1ca78dcc143f54cc0addc344aa4bd306d2647c9e2f3fdedb0727668a9915f0a
+	sha256sums = 4287c3b7c293133dc59e92cb32a1aae899c4441ac6d64455c537c82070c84caa
+
+pkgname = phpactor-bin

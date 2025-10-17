@@ -1,0 +1,17 @@
+pkgbase = wrdlist
+	pkgdesc = Lightweight Wordlists Generator
+	pkgver = 0.0.5
+	pkgrel = 1
+	url = https://github.com/6z7y56/wrdlist
+	arch = x86_64
+	arch = aarh64
+	license = MIT
+	makedepends = rust
+	makedepends = make
+	makedepends = git
+	depends = rust
+	depends = make
+	source = git+https://github.com/6z7y56/wrdlist.git
+	sha256sums = SKIP
+
+pkgname = wrdlist

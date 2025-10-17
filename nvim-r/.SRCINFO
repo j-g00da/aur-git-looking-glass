@@ -1,0 +1,23 @@
+pkgbase = nvim-r
+	pkgdesc = Vim plugin to work with R
+	pkgver = 0.9.21
+	pkgrel = 1
+	url = https://github.com/jalvesaq/nvim-r
+	install = nvim-r.install
+	arch = any
+	groups = vim-plugins
+	license = GPL-2.0-or-later
+	depends = vim-plugin-runtime
+	optdepends = vim>=8.2.84: either vim or neovim
+	optdepends = tmux>=2.0: if using vim and running R in an external terminal emulator, necessary for sending commands to R
+	optdepends = neovim>=0.6.0: either neovim or vim
+	optdepends = r>=3.0.0: for integration with R
+	optdepends = pandoc: render output from markup files
+	optdepends = vim-csv: inspect data.frames and matrices
+	conflicts = vim-r
+	conflicts = r-vimcom
+	replaces = vim-r
+	source = nvim-r-0.9.21.tar.gz::https://github.com/jalvesaq/Nvim-R/archive/v0.9.21.tar.gz
+	sha256sums = 2b7e3efd9fe35d3f1d0358178304c1d56ff6cbf9c92d964ae8d241556191b417
+
+pkgname = nvim-r

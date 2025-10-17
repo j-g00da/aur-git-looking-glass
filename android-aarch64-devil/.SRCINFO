@@ -1,0 +1,23 @@
+pkgbase = android-aarch64-devil
+	pkgdesc = Library for reading several different image formats (Android aarch64)
+	pkgver = 1.8.0
+	pkgrel = 4
+	url = https://sourceforge.net/projects/openil/
+	arch = any
+	groups = android-devil
+	license = GPL
+	makedepends = android-cmake
+	depends = android-aarch64-libpng
+	depends = android-aarch64-jasper
+	depends = android-aarch64-lcms2
+	depends = android-aarch64-libjpeg-turbo
+	options = !strip
+	options = !buildflags
+	options = staticlibs
+	options = !emptydirs
+	source = https://downloads.sourceforge.net/openil/DevIL-1.8.0.tar.gz
+	source = jasper.patch
+	md5sums = 4d8c21aa4822ac86d77e44f8d7c9becd
+	md5sums = 750c53a2c9ce49b61ffb075066d07f21
+
+pkgname = android-aarch64-devil

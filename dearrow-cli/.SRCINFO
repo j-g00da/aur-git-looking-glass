@@ -1,0 +1,20 @@
+pkgbase = dearrow-cli
+	pkgdesc = Program to view and vote for DeArrow submissions
+	pkgver = 4.3.0
+	pkgrel = 1
+	url = https://mschae23.de/git/mschae23/dearrow-cli
+	arch = i686
+	arch = x86_64
+	arch = armv6h
+	arch = armv7h
+	license = AGPL-3.0-only
+	makedepends = cargo
+	depends = gcc-libs
+	depends = glibc
+	depends = openssl
+	source = dearrow-cli-v4.3.0.tar.gz::https://github.com/mschae23/dearrow-cli/archive/v4.3.0.tar.gz
+	source = 0001-correct-license.patch
+	sha512sums = a2d8cd3bf307d6c746a8f4a3626b6a36aa8302010eb77c922b1cb45d17fcf477891f88f268ce32d5b766963a192e3a85dbb09d53e06c83223ad183d6ce6a236f
+	sha512sums = 31633690825550f574469ebccebdd2167968b965a6f9192a6b2fe6c6318286f5716c734957631d78a468787a2426874dcd2ee0e3f82734970b6107c1b2a66bdb
+
+pkgname = dearrow-cli

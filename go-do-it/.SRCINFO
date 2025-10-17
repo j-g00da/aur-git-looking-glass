@@ -1,0 +1,11 @@
+pkgbase = go-do-it
+	pkgver = v2.0.0.r7.g7224519
+	pkgrel = 1
+	url = https://github.com/hardikkum444/go-do-it
+	arch = i686
+	arch = x86_64
+	makedepends = go
+	source = git+https://github.com/hardikkum444/go-do-it
+	sha1sums = SKIP
+
+pkgname = go-do-it

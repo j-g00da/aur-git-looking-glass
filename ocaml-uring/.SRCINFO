@@ -1,0 +1,23 @@
+pkgbase = ocaml-uring
+	pkgdesc = Bindings to io_uring for OCaml
+	pkgver = 2.7.0
+	pkgrel = 1
+	url = https://github.com/ocaml-multicore/ocaml-uring
+	arch = x86_64
+	arch = aarch64
+	license = ISC AND (LGPL-2.1-only OR MIT) AND (GPL-2.0-only WITH Linux-syscall-note OR MIT)
+	checkdepends = ocaml-cmdliner>=1.1.0
+	checkdepends = ocaml-logs>=0.5.0
+	checkdepends = ocaml-lwt>=5.0.0
+	checkdepends = ocaml-mdx>=2.1.0
+	makedepends = linux-api-headers
+	depends = dune>=3.0.0
+	depends = ocaml>=4.12.0
+	depends = ocaml-cstruct>=6.0.1
+	depends = ocaml-fmt>=0.8.10
+	depends = ocaml-optint>=0.1.0
+	options = !strip
+	source = ocaml-uring-2.7.0.tar.gz::https://github.com/ocaml-multicore/ocaml-uring/archive/v2.7.0.tar.gz
+	b2sums = 05828cfb43493dfc27cc4dc6ee21a24918baf38fb2da7c6bf1639cc121e3c459fcb6defdf289d29f6ff15a4457c4657fefd1093e2175c656eb675a067ab8d6c1
+
+pkgname = ocaml-uring

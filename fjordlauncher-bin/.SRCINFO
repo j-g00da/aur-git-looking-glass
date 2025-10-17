@@ -1,0 +1,31 @@
+pkgbase = fjordlauncher-bin
+	pkgdesc = Prism Launcher fork with support for alternative auth servers
+	pkgver = 9.4.2
+	pkgrel = 1
+	url = https://github.com/unmojang/FjordLauncher
+	arch = x86_64
+	license = GPL-3.0-only AND LGPL-3.0-or-later AND LGPL-2.0-or-later AND Apache-2.0 AND MIT AND BSD-2-Clause AND BSD-3-Clause AND LicenseRef-Batch AND OFL-1.1
+	depends = glibc
+	depends = gcc-libs
+	depends = java-runtime>=17
+	depends = libgl
+	depends = qt6-base
+	depends = qt6-5compat
+	depends = qt6-svg
+	depends = qt6-imageformats
+	depends = qt6-networkauth
+	depends = zlib
+	depends = hicolor-icon-theme
+	optdepends = glfw: to use system GLFW libraries
+	optdepends = openal: to use system OpenAL libraries
+	optdepends = visualvm: Profiling support
+	optdepends = xorg-xrandr: for older minecraft versions
+	optdepends = java-runtime=8: support for Minecraft versions < 1.17
+	optdepends = flite: minecraft voice narration
+	provides = fjordlauncher
+	conflicts = fjordlauncher
+	noextract = FjordLauncher-Linux-Qt6-Portable-9.4.2.tar.gz
+	source = https://github.com/unmojang/FjordLauncher/releases/download/9.4.2/FjordLauncher-Linux-Qt6-Portable-9.4.2.tar.gz
+	sha256sums = 7cc0e27b5c5033da9ee997efd47db1f7358153ae6cc64c1353a497fe0f6a7fb3
+
+pkgname = fjordlauncher-bin

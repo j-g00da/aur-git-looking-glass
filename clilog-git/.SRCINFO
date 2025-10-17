@@ -1,0 +1,18 @@
+pkgbase = clilog-git
+	pkgdesc = CLI To-do list manager built in Bash with TUI and Python for Web interface support, adhering to XDG Base Directory Specification.
+	pkgver = 0.3.r28.gc1ceec6
+	pkgrel = 1
+	url = https://github.com/simeulinuxkaliaiwr/clilog
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = bash
+	depends = dialog
+	depends = python
+	depends = python-flask
+	source = clilog-git::git+https://github.com/simeulinuxkaliaiwr/clilog
+	source = mit.txt::https://raw.githubusercontent.com/github/choosealicense.com/gh-pages/_licenses/mit.txt
+	sha256sums = SKIP
+	sha256sums = e6919db13cacb3300f918d1048d996d0f4506e1f110b7caa21f31ea7ca3ef5b8
+
+pkgname = clilog-git

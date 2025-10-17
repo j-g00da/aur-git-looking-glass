@@ -1,0 +1,14 @@
+pkgbase = uvm-systemc
+	pkgdesc = Universal Verification Methodology (UVM) in SystemC
+	pkgver = 1.0_beta5
+	pkgrel = 1
+	url = http://www.accellera.org/activities/working-groups/systemc-verification/uvm-systemc-faq
+	arch = x86_64
+	arch = i686
+	license = Apache License Version 2.0, January 2004
+	depends = systemc
+	provides = uvm-systemc
+	source = https://www.accellera.org/images/downloads/drafts-review/uvm-systemc-1.0-beta5.tar.gz
+	md5sums = 7374d29f173b57e41e52a2565fcc9efb
+
+pkgname = uvm-systemc

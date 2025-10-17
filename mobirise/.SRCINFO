@@ -1,0 +1,22 @@
+pkgbase = mobirise
+	pkgdesc = Website builder with drag and drop
+	pkgver = 6.0.1
+	pkgrel = 2
+	url = https://mobirise.com/
+	arch = x86_64
+	license = custom
+	depends = gtk3
+	depends = nss
+	depends = libxss
+	depends = libxtst
+	depends = xdg-utils
+	depends = at-spi2-core
+	depends = util-linux-libs
+	depends = libappindicator-gtk3
+	depends = libsecret
+	source = https://download.mobirise.com/MobiriseSetup.deb
+	source = mobirise.desktop
+	sha256sums = 050175c940be4bc921b98d0f345097652bf50a3c1fa229a516fe95d06dd03e06
+	sha256sums = SKIP
+
+pkgname = mobirise

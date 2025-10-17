@@ -1,0 +1,18 @@
+pkgbase = cen64-qt-git
+	pkgdesc = A basic frontend for CEN64
+	pkgver = 20241110
+	pkgrel = 1
+	url = https://github.com/dh4/cen64-qt
+	install = cen64-qt-git.install
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = git
+	makedepends = cmake
+	depends = quazip-qt6
+	depends = cen64-git
+	depends = hicolor-icon-theme
+	source = git+https://www.github.com/dh4/cen64-qt.git
+	sha256sums = SKIP
+
+pkgname = cen64-qt-git

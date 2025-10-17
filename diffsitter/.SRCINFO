@@ -1,0 +1,22 @@
+pkgbase = diffsitter
+	pkgdesc = Tree-sitter based AST diff tool
+	pkgver = 0.9.0
+	pkgrel = 1
+	url = https://github.com/afnanenayet/diffsitter
+	arch = x86_64
+	arch = i686
+	arch = arm
+	arch = aarch64
+	license = MIT
+	checkdepends = tree-sitter-cpp
+	checkdepends = tree-sitter-python
+	checkdepends = tree-sitter-rust
+	makedepends = git
+	makedepends = cargo
+	depends = tree-sitter
+	options = !lto
+	source = git+https://github.com/afnanenayet/diffsitter.git?signed#tag=v0.9.0
+	validpgpkeys = 1C519E4FEF5757BFB30C636494EEFE1FD178056B
+	sha512sums = 1eed90e0308bf1ebbb858b516b92338226777ec788c4f89336c00f9b58623c8c42bc799e54ea3399930f09fe3398a4ebc9ee00494ef72e0376849b749bdbccd8
+
+pkgname = diffsitter

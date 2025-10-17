@@ -1,0 +1,14 @@
+pkgbase = perl-tenjin
+	pkgdesc = Fast templating engine with support for embedded Perl.
+	pkgver = 1.000001
+	pkgrel = 1
+	url = http://search.cpan.org/dist/Tenjin
+	arch = any
+	license = MIT
+	depends = perl-html-parser
+	depends = perl-try-tiny
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/I/ID/IDOPEREL/Tenjin-1.000001.tar.gz
+	sha256sums = 314a41ec9ca15fa6ea3ed36e3ed8264869f96d0d255dafbfdb224aea93f8a1e6
+
+pkgname = perl-tenjin

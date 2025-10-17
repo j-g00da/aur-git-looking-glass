@@ -1,0 +1,27 @@
+pkgbase = perl-net-z3950-simpleserver
+	pkgdesc = Simple Perl API for building Z39.50 servers.
+	pkgver = 1.29
+	pkgrel = 1
+	url = https://metacpan.org/release/Net-Z3950-SimpleServer
+	arch = i686
+	arch = x86_64
+	license = PerlArtistic
+	license = GPL
+	depends = perl>=0
+	depends = glibc>=2.40+r16+gaa533d58ff
+	depends = libxml2>=2.13.4
+	depends = libxml2>=2.13.4
+	depends = libxslt>=1.1.42
+	depends = libxslt>=1.1.42
+	depends = libxslt>=1.1.42
+	depends = libxslt>=1.1.42
+	depends = yaz>=5.34.0
+	depends = yaz>=5.34.0
+	depends = yaz>=5.34.0
+	depends = yaz>=5.34.0
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/M/MI/MIRK/Net-Z3950-SimpleServer-1.29.tar.gz
+	md5sums = 6fe2b1b4f46f1e72d4485648190ff254
+	sha512sums = dad4e75a3323d738123c0ebf77dae8576180a3b41d47821779d1f116dc9d239e1fe07f2d620e3212935743d6d0560ff8246c69125d366b90f3e17cc6de31375f
+
+pkgname = perl-net-z3950-simpleserver

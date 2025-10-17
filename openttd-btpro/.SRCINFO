@@ -1,0 +1,21 @@
+pkgbase = openttd-btpro
+	pkgdesc = OpenTTD Fork of citymania client with changes for n-ice and btpro community.
+	pkgver = 14.1
+	pkgrel = 1
+	url = https://www.openttd.org
+	arch = x86_64
+	license = GPL
+	makedepends = cmake
+	makedepends = ninja
+	depends = fluidsynth
+	depends = fontconfig
+	depends = hicolor-icon-theme
+	optdepends = openttd-opengfx: free graphics
+	optdepends = openttd-opensfx: free soundset
+	conflicts = openttd
+	source = https://github.com/n-ice-community/openttd-cmclient/releases/download/14.1/citymania-client-14.1-source.tar.xz
+	source = https://github.com/OpenTTD/OpenTTD/commit/14fac2ad.patch
+	b2sums = b15bd5b138cf04f825852972cdc68ab6d318e628f27a636975940561442836448a0a1fb7259b3acdb19791c0a2109c6bb6718fa1f83c36e27b0f0227dc4c48dc
+	b2sums = ea5fa5d19f3195bfcd2b279e153c4c17e61b6f57a189a3ab65e9450956c7ce720420ba7aed5df4c8944875ead8753a5699af2644c9d29639b3750b86e9b4ad6d
+
+pkgname = openttd-btpro

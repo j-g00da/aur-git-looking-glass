@@ -1,0 +1,21 @@
+pkgbase = novpn
+	pkgdesc = CLI tool to easily run programs with access to only one network device
+	pkgver = 1.4.0
+	pkgrel = 1
+	url = https://github.com/USSURATONCACHI/novpn
+	install = novpn.install
+	arch = any
+	license = Apache-2.0
+	makedepends = coreutils
+	depends = bash
+	depends = switch-netns
+	depends = iproute2
+	depends = iptables
+	depends = grep
+	depends = gawk
+	depends = coreutils
+	depends = systemd
+	source = https://github.com/USSURATONCACHI/novpn/archive/refs/tags/v1.4.0.tar.gz
+	sha256sums = 3254ef8ee681329cd300c4a791cc3403580c4d14a4d61466f2171bae15abee7f
+
+pkgname = novpn

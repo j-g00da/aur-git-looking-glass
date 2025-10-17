@@ -1,0 +1,12 @@
+pkgbase = pi-im
+	pkgdesc = the XMPP client from hell
+	pkgver = 3i
+	pkgrel = 5
+	url = https://forge.sunglocto.net/sunglocto/pi-im
+	arch = x86_64
+	license = AGPL
+	makedepends = go
+	source = https://forge.sunglocto.net/sunglocto/pi-im/archive/3i.tar.gz
+	sha256sums = c66ee58dd59fb61fd66ecda29683ebf29aa403c557c8bd81da142b9f57290f27
+
+pkgname = pi-im

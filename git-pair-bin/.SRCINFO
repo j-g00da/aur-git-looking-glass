@@ -1,0 +1,20 @@
+pkgbase = git-pair-bin
+	pkgdesc = A simple CLI app to make it easier for pairing for co-authoring commits
+	pkgver = 0.1.11
+	pkgrel = 1
+	url = https://github.com/inverse/git-pair/
+	license = MIT
+	depends = git
+	conflicts = git-pair
+	provides = git-pair
+	arch = aarch64
+	source_aarch64 = https://github.com/inverse/git-pair/releases/download/v0.1.11/git-pair_Linux_arm64.tar.gz
+	sha256sums_aarch64 = 199f727542e491fd71caf78f08f766cb4831b65a917edb68fa5ae38253b689a8
+	arch = i686
+	source_i686 = https://github.com/inverse/git-pair/releases/download/v0.1.11/git-pair_Linux_i386.tar.gz
+	sha256sums_i686 = 60c0faa37a76567d82cde54b9be95e098eb8c20c0f273e396d2961c304926610
+	arch = x86_64
+	source_x86_64 = https://github.com/inverse/git-pair/releases/download/v0.1.11/git-pair_Linux_x86_64.tar.gz
+	sha256sums_x86_64 = 271595ab69e6a0fba64351f16ef56f3c913b7cae2c8856f98d71fdba2572758d
+	
+pkgname = git-pair-bin

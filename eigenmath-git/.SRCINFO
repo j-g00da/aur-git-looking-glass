@@ -1,0 +1,17 @@
+pkgbase = eigenmath-git
+	pkgdesc = Symbolic math app
+	pkgver = r2768.cc92936
+	pkgrel = 1
+	url = https://github.com/georgeweigt/eigenmath
+	arch = any
+	license = BSD
+	makedepends = git
+	depends = glibc
+	provides = eigenmath
+	conflicts = eigenmath
+	source = git+https://github.com/georgeweigt/eigenmath.git
+	source = https://georgeweigt.github.io/manual/eigenmath.pdf
+	md5sums = SKIP
+	md5sums = 458a68601d9253535592a3a11141038a
+
+pkgname = eigenmath-git

@@ -1,0 +1,22 @@
+pkgbase = android-x86-gettext
+	pkgdesc = GNU internationalization library (Android x86)
+	pkgver = 0.25
+	pkgrel = 1
+	url = http://www.gnu.org/software/gettext/
+	arch = any
+	groups = android-x86-gettext
+	license = GPL
+	makedepends = android-configure
+	depends = android-x86-termcap
+	depends = android-x86-libunistring
+	depends = android-x86-libxml2
+	options = !strip
+	options = !buildflags
+	options = staticlibs
+	options = !emptydirs
+	source = http://ftp.gnu.org/pub/gnu/gettext/gettext-0.25.tar.gz
+	source = intl.pc
+	md5sums = 7001edf7c4c160d921f8cc5ea83968f4
+	md5sums = b0a123ec7ad1a345d0d712dae986a543
+
+pkgname = android-x86-gettext

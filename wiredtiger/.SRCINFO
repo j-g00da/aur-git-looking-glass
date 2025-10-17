@@ -1,0 +1,18 @@
+pkgbase = wiredtiger
+	pkgdesc = High performance, scalable, NoSQL, extensible platform for data management
+	pkgver = 11.3.1
+	pkgrel = 1
+	url = https://github.com/wiredtiger/wiredtiger
+	arch = x86_64
+	license = GPL
+	makedepends = cmake
+	makedepends = swig
+	makedepends = python
+	depends = lz4
+	depends = snappy
+	depends = zlib
+	depends = zstd
+	source = wiredtiger-11.3.1.tar.gz::https://github.com/wiredtiger/wiredtiger/archive/refs/tags/11.3.1.tar.gz
+	sha256sums = ac0417c10cecc686baff5fdc00a7872003fc007993163bafba387fad903d5091
+
+pkgname = wiredtiger

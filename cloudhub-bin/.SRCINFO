@@ -1,0 +1,24 @@
+pkgbase = cloudhub-bin
+	pkgdesc = The desktop client of CloudHub.(Prebuilt version.Use system-wide electron)云之家桌面端
+	pkgver = 5.0.0
+	pkgrel = 1
+	url = https://www.yunzhijia.com
+	arch = aarch64
+	arch = x86_64
+	license = LicenseRef-custom
+	makedepends = asar
+	depends = electron12
+	depends = gtk2
+	provides = cloudhub=5.0.0
+	conflicts = cloudhub
+	options = !strip
+	source = LICENSE-5.0.0.html::https://www.yunzhijia.com/public/agreement/client-agreement.html
+	source = cloudhub.sh
+	sha256sums = e7bd9b52b886a7bdcc36eb66cc16a993754b22f1fd4644d1db6f0e27cd6ebcca
+	sha256sums = 31ad33b633744f5361abd964be306cea53ae1050e760c787115f7eca60045ae6
+	source_aarch64 = cloudhub-5.0.0-aarch64.rpm::https://res.yunzhijia.com/mixed/cloudhubx/linux_arm64/CloudHub_arm64_5.0.0_2508281633.rpm
+	sha256sums_aarch64 = f23df3e2afcc88e77bcf6403116bc31cae9a9402b8ecbd84109420b15582c42e
+	source_x86_64 = cloudhub-5.0.0-x86_64.rpm::https://res.yunzhijia.com/mixed/cloudhubx/linux_x64/CloudHub_x64_5.0.0_2508281631.rpm
+	sha256sums_x86_64 = 68179fd30c724aa036d28ae50431ebd9140bb40b329bf251fc30d231bc63a99b
+
+pkgname = cloudhub-bin

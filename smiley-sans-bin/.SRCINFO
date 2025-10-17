@@ -1,0 +1,26 @@
+pkgbase = smiley-sans-bin
+	pkgdesc = 一款在人文观感和几何特征中寻找平衡的中文黑体
+	pkgver = 2.0.1
+	pkgrel = 1
+	url = https://atelier-anchor.com/typefaces/smiley-sans
+	arch = any
+	license = OFL-1.1-RFN
+	source = smiley-sans-2.0.1.zip::https://github.com/atelier-anchor/smiley-sans/releases/download/v2.0.1/smiley-sans-v2.0.1.zip
+	source = LICENSE::https://github.com/atelier-anchor/smiley-sans/raw/v2.0.1/LICENSE
+	b2sums = 8ab08c55f215b700803dd3ad606a7ed9ad7807422eab2ffd669e95893a75399ce401586da56b84bce44c739be2c547ace9fd17707703957f7f2f6f17e75b8f26
+	b2sums = a0bf4661bbbfe17f20112612a25abdea8db2de6f034f4532c8090ede7a862932708dd6eb3342316e4c0461d131c48c65dce7c2c7854e871ef9824b18617c056e
+
+pkgname = otf-smiley-sans-bin
+	pkgdesc = 一款在人文观感和几何特征中寻找平衡的中文黑体 (otf)
+	provides = otf-smiley-sans
+	conflicts = otf-smiley-sans
+
+pkgname = ttf-smiley-sans-bin
+	pkgdesc = 一款在人文观感和几何特征中寻找平衡的中文黑体 (ttf)
+	provides = ttf-smiley-sans
+	conflicts = ttf-smiley-sans
+
+pkgname = woff2-smiley-sans-bin
+	pkgdesc = 一款在人文观感和几何特征中寻找平衡的中文黑体 (woff2)
+	provides = woff2-smiley-sans
+	conflicts = woff2-smiley-sans

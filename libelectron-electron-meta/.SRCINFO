@@ -1,0 +1,12 @@
+pkgbase = libelectron-electron-meta
+	pkgdesc = A meta package for setting and controlling the electron versioning for LibElectron packages
+	pkgver = 38
+	pkgrel = 1
+	arch = x86_64
+	arch = aarch64
+	license = GPL
+	depends = electron38
+	source = electron
+	sha256sums = 4a80d80d206df14913ef46ac85b4773c0b43a7f088376bf8157d6b392ca0a673
+
+pkgname = libelectron-electron-meta

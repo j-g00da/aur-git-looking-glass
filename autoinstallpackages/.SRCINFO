@@ -1,0 +1,19 @@
+pkgbase = autoinstallpackages
+	pkgdesc = Simple Arch post-install tool (CLI + optional Tk GUI)
+	pkgver = 5.0.0
+	pkgrel = 1
+	url = https://github.com/Firebleudark/Autoinstallpackages
+	arch = any
+	license = GPL3
+	depends = bash
+	optdepends = sudo: required for system changes
+	optdepends = python: GUI wrapper runtime
+	optdepends = tk: Tkinter for the GUI
+	optdepends = pciutils: lspci used in checks
+	optdepends = curl: network checks/downloads
+	optdepends = git: AUR helper bootstrap
+	optdepends = flatpak: optional app source
+	source = autoinstallpackages-5.0.0.tar.gz::https://github.com/Firebleudark/Autoinstallpackages/archive/refs/tags/v5.0.0.tar.gz
+	sha256sums = 49b3cceb3ab579aaf27502bb04130f444e814008969f89104717fbd06c182bab
+
+pkgname = autoinstallpackages

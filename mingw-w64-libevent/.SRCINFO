@@ -1,0 +1,18 @@
+pkgbase = mingw-w64-libevent
+	pkgdesc = An event notification library (mingw-w64)
+	pkgver = 2.1.12
+	pkgrel = 3
+	url = http://www.monkey.org/~provos/libevent
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-configure
+	depends = mingw-w64-crt
+	depends = mingw-w64-openssl
+	options = !libtool
+	options = !strip
+	options = !buildflags
+	options = staticlibs
+	source = https://github.com/libevent/libevent/releases/download/release-2.1.12-stable/libevent-2.1.12-stable.tar.gz
+	sha256sums = 92e6de1be9ec176428fd2367677e61ceffc2ee1cb119035037a27d346b0403bb
+
+pkgname = mingw-w64-libevent

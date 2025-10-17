@@ -1,0 +1,18 @@
+pkgbase = dim-screen
+	pkgdesc = Native Wayland screen dimming tool
+	pkgver = 0.4.1
+	pkgrel = 1
+	url = https://github.com/marcelohdez/dim
+	arch = x86_64
+	arch = aarch64
+	license = GPL-3.0-only
+	makedepends = cargo
+	makedepends = scdoc
+	makedepends = gzip
+	depends = gcc-libs
+	depends = glibc
+	depends = libxkbcommon
+	source = dim-screen-0.4.1.tar.gz::https://static.crates.io/crates/dim-screen/dim-screen-0.4.1.crate
+	sha256sums = 6f10e12bbc0358cf20a43c1136f552ffe7081dc8023c8b131858f7fc87d709b7
+
+pkgname = dim-screen

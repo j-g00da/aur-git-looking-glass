@@ -1,0 +1,16 @@
+pkgbase = spedread
+	pkgdesc = GTK speed reading software: Read like a speedrunner!
+	pkgver = 2.5.1
+	pkgrel = 1
+	url = https://github.com/Darazaki/Spedread
+	arch = x86_64
+	arch = aarch64
+	license = GPL3
+	checkdepends = appstream-glib
+	makedepends = meson
+	makedepends = vala
+	depends = libadwaita
+	source = https://github.com/Darazaki/Spedread/archive/v2.5.1.tar.gz
+	b2sums = 3dbb3b343941b8567b9edb982b0b8a1eb75cc6852e8a01749b30fff7d0296c001b013a039bd7197fdc0733a812e2ef091ea17c9385011e8700ae7fc805a21f1b
+
+pkgname = spedread

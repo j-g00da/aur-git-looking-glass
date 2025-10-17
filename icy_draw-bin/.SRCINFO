@@ -1,0 +1,14 @@
+pkgbase = icy_draw-bin
+	pkgdesc = IcyDraw is a full features ansi drawing tool doing things a bit different than other tools.
+	pkgver = 0.4.1
+	pkgrel = 2
+	url = https://github.com/mkrueger/icy_tools
+	arch = x86_64
+	groups = icy_tools-bin
+	license = Apache-2.0
+	provides = icy_draw
+	source = https://github.com/mkrueger/icy_tools/releases/download/IcyDraw0.4.1/icy_draw_linux_0.4.1.zip
+	sha256sums = c521728178703d041104a794c3ceab453ff86365301763724cb7703959a9a77c
+	sha512sums = 3aeda30b282fd50bf3e457792de140a913a36944266204aa1ffacc895e6b606cb9873e718cfc1825f9991fc6e223afdb3fe82edfc2e3c529ab969e41b68eff1d
+
+pkgname = icy_draw-bin

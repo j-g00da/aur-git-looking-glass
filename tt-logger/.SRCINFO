@@ -1,0 +1,17 @@
+pkgbase = tt-logger
+	pkgdesc = A flexible and performant C++ logging library for Tenstorrent projects
+	pkgver = 1.1.6
+	pkgrel = 1
+	url = https://github.com/tenstorrent/tt-logger
+	arch = x86_64
+	license = Apache-2.0
+	makedepends = cmake
+	makedepends = git
+	depends = spdlog
+	depends = fmt
+	provides = tt-logger
+	conflicts = tt-logger
+	source = tt-logger::git+https://github.com/tenstorrent/tt-logger.git#tag=v1.1.6
+	sha256sums = 6b55f54502b4dc6348879258d00d752169c5f9a9acd48235039cf9794bb84a60
+
+pkgname = tt-logger

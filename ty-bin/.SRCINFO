@@ -1,0 +1,26 @@
+pkgbase = ty-bin
+	pkgdesc = An extremely fast Python type checker and language server, written in Rust.
+	pkgver = 0.0.1_alpha.23
+	pkgrel = 1
+	url = https://github.com/astral-sh/ty
+	arch = aarch64
+	arch = armv7
+	arch = i686
+	arch = x86_64
+	license = MIT
+	depends = glibc
+	depends = gcc-libs
+	provides = ty
+	conflicts = ty
+	source = LICENSE-0.0.1_alpha.23::https://github.com/astral-sh/ty/raw/refs/tags/0.0.1-alpha.23/LICENSE
+	sha256sums = 860e3d7a86b84e6a7012c7a635fc64df475cebc6cce34dfeb73a5982ec58176c
+	source_aarch64 = ty-aarch64-0.0.1_alpha.23.tgz::https://github.com/astral-sh/ty/releases/download/0.0.1-alpha.23/ty-aarch64-unknown-linux-gnu.tar.gz
+	sha256sums_aarch64 = fd36afcd807be8a710a74c04e2973710a7473ce227fd52a79e0f0bb21e68568b
+	source_armv7 = ty-armv7-0.0.1_alpha.23.tgz::https://github.com/astral-sh/ty/releases/download/0.0.1-alpha.23/ty-armv7-unknown-linux-gnueabihf.tar.gz
+	sha256sums_armv7 = 6d4095a22a5f5287217410d46c3f79fd5f62604b520483359d557ebfc96432c8
+	source_i686 = ty-i686-0.0.1_alpha.23.tgz::https://github.com/astral-sh/ty/releases/download/0.0.1-alpha.23/ty-i686-unknown-linux-gnu.tar.gz
+	sha256sums_i686 = 027ae51f62d3c143b8a71f0ca0d98f33b14286c7d0c520211859f654296626df
+	source_x86_64 = ty-x86_64-0.0.1_alpha.23.tgz::https://github.com/astral-sh/ty/releases/download/0.0.1-alpha.23/ty-x86_64-unknown-linux-gnu.tar.gz
+	sha256sums_x86_64 = 01c83adc0ca7dda17050438523eadecd0c80b5be2d1ba5543b04f3de3391b390
+
+pkgname = ty-bin

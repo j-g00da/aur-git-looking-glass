@@ -1,0 +1,13 @@
+pkgbase = python-djangocms-admin-style
+	pkgdesc = Adds pretty CSS styles for the django CMS admin interface
+	pkgver = 3.2.7
+	pkgrel = 1
+	url = http://pypi.python.org/pypi/djangocms-admin-style
+	arch = any
+	license = custom
+	makedepends = python-setuptools
+	depends = python-django
+	source = https://pypi.org/packages/source/d/djangocms-admin-style/djangocms-admin-style-3.2.7.tar.gz
+	sha512sums = 00d12af0baadeecc000ee1f3cb6fbcf653bcdf7033cc5bf425a6b4b130a82e4b2f5c5f150f9896774d1002961b02e978a7ff3c119c4b0e24005bd5eddad1abeb
+
+pkgname = python-djangocms-admin-style

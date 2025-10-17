@@ -1,0 +1,22 @@
+pkgbase = whatmp3
+	pkgdesc = Convert a list of directories containing FLAC files into MP3
+	pkgver = 3.9
+	pkgrel = 1
+	url = https://github.com/RecursiveForest/whatmp3
+	arch = any
+	license = MIT
+	depends = python
+	depends = mktorrent
+	depends = flac
+	optdepends = vorbis-tools: OGG Vorbis support
+	optdepends = lame: MP3 support
+	optdepends = neroaacenc: AAC support
+	optdepends = neroaactag: AAC support
+	optdepends = mp3gain: ReplayGain support
+	optdepends = vorbisgain: ReplayGain support
+	optdepends = aacgain: ReplayGain support
+	optdepends = sox: dither support
+	source = whatmp3-3.9.tar.gz::https://github.com/RecursiveForest/whatmp3/archive/v3.9.tar.gz
+	b2sums = 45194bcd0ffffdabc87e6819f96c619295bb8eef7cfaff6ffb44d3981d821fe6801fa2ae68d24e1b5000e0b3193e697176821982d6184ba7b775f19abc595636
+
+pkgname = whatmp3

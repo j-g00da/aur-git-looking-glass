@@ -1,0 +1,17 @@
+pkgbase = adless-bin
+	pkgdesc = Local domains blocker written in Go
+	pkgver = 1.0.4
+	pkgrel = 1
+	url = https://github.com/WIttyJudge/adless
+	arch = x86_64
+	arch = aarch64
+	license = Apache License 2.0
+	provides = adless
+	conflicts = adless
+	conflicts = adless-git
+	source_x86_64 = adless-bin-1.0.4-x86_64.tar.gz::https://github.com/WIttyJudge/adless/releases/download/v1.0.4/adless_v1.0.4_linux_x86_64.tar.gz
+	sha256sums_x86_64 = d565220dfa6536d884d67b3673ea040051f83a2082b762e1292946f74fb98e77
+	source_aarch64 = adless-bin-1.0.4-aarch64.tar.gz::https://github.com/WIttyJudge/adless/releases/download/v1.0.4/adless_v1.0.4_linux_arm64.tar.gz
+	sha256sums_aarch64 = 3918aae3f5a0d1229faa18a1ecfc853936d10d92c3dcc8f290170ada8fb46fc5
+
+pkgname = adless-bin

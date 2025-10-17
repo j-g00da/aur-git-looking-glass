@@ -1,0 +1,16 @@
+pkgbase = xc-music
+	pkgdesc = 第三方网易云音乐客户端 / GUI of Netease Cloud Music
+	pkgver = 0.3.1
+	pkgrel = 3
+	url = https://github.com/yiktllw/XCMusic
+	arch = x86_64
+	license = MIT
+	depends = npm
+	source = xc-music-0.3.1.tar.gz::https://github.com/yiktllw/XCMusic/archive/refs/tags/0.3.1.tar.gz
+	source = xc-music.sh
+	source = xc-music.desktop
+	sha256sums = dfe80a7d60ae6e400896d36e2de437a08ae3a99b06714d4161bd4bfbc9a155a9
+	sha256sums = c31264219d2bf17ac2650aab36c68e06586fd3794517741e34f7c78cba72035b
+	sha256sums = 322306532f7c9964d21fddd5c1286f793bf72fac3bd1a6dbd59f3ec07998afcb
+
+pkgname = xc-music

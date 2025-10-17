@@ -1,0 +1,17 @@
+pkgbase = r-generalizedhyperbolic
+	pkgdesc = The Generalized Hyperbolic Distribution
+	pkgver = 0.8.7
+	pkgrel = 1
+	url = https://cran.r-project.org/package=GeneralizedHyperbolic
+	arch = any
+	license = GPL-2.0-or-later
+	depends = r-distributionutils
+	optdepends = r-actuar
+	optdepends = r-runit
+	optdepends = r-skewhyperbolic
+	optdepends = r-variancegamma
+	source = https://cran.r-project.org/src/contrib/GeneralizedHyperbolic_0.8-7.tar.gz
+	md5sums = a21b05a70270293f5d42aac38f6224c8
+	b2sums = dbe17f4cf716ff6590f3b0541c7e06ffbf7103c7dbb2945ec2670bdc3f04924a43e1872e75b80748debd6e6bd793b7af254fd57a6ece7551c4049c6753620da5
+
+pkgname = r-generalizedhyperbolic

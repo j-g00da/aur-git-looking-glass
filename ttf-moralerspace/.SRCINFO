@@ -1,0 +1,19 @@
+pkgbase = ttf-moralerspace
+	pkgdesc = A composite font of IBM Plex Sans JP and Monaspace
+	pkgver = 2.0.0
+	pkgrel = 1
+	url = https://github.com/yuru7/moralerspace
+	arch = any
+	license = custom:SIL
+	source = https://github.com/yuru7/moralerspace/releases/download/v2.0.0/Moralerspace_v2.0.0.zip
+	source = https://github.com/yuru7/moralerspace/releases/download/v2.0.0/MoralerspaceJPDOC_v2.0.0.zip
+	source = https://github.com/yuru7/moralerspace/releases/download/v2.0.0/MoralerspaceHW_v2.0.0.zip
+	source = https://github.com/yuru7/moralerspace/releases/download/v2.0.0/MoralerspaceHWJPDOC_v2.0.0.zip
+	source = https://raw.githubusercontent.com/yuru7/moralerspace/v2.0.0/LICENSE
+	sha256sums = 56175ee16373ba1a3d2fd5ec46f3b0b6bf0412be7db1481ec7dee757f2e3d557
+	sha256sums = 5abe6465910b1253a5de57bf32e79d2d268f5efea6c9ec9a668c6ea610a16f73
+	sha256sums = 500a7774297c829265ebd472b6d8c1159cfb3e9daa4ca0570170af541b991b7d
+	sha256sums = 3598729cb4693ff74fe32695fac167991d6bee55fc1649281aab64f311624907
+	sha256sums = 9d23767271951afeaddbe5de4dec5d1cb60456c06f45e4d04fbb9ab517d79e30
+
+pkgname = ttf-moralerspace

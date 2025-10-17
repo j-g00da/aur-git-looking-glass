@@ -1,0 +1,19 @@
+pkgbase = strfry-git
+	pkgdesc = a nostr relay w/filesystem LMDB and merkle-tree reconcilliation
+	pkgver = r236.c0dec7c
+	pkgrel = 1
+	url = https://github.com/hoytech/strfry
+	arch = x86_64
+	license = GPL
+	makedepends = git
+	makedepends = flatbuffers
+	makedepends = perl-regexp-grammars
+	makedepends = perl-template-toolkit
+	makedepends = perl-yaml
+	makedepends = libsecp256k1
+	provides = strfry
+	conflicts = strfry
+	source = strfry::git+https://github.com/hoytech/strfry
+	md5sums = SKIP
+
+pkgname = strfry-git

@@ -1,0 +1,13 @@
+pkgbase = athena-jot
+	pkgdesc = Print sequential or random data
+	pkgver = 9.0
+	pkgrel = 4
+	epoch = 1
+	url = http://www.mit.edu/afs/athena/system/rhlinux/athena-9.0/free/SRPMS/athena-jot-9.0-3.src.rpm
+	arch = x86_64
+	license = BSD
+	makedepends = gcc
+	source = http://www.mit.edu/afs/athena/system/rhlinux/athena-9.0/free/SRPMS/athena-jot-9.0-3.src.rpm
+	sha1sums = ffb286569ea48159d760c3de0fd3749db92348c8
+
+pkgname = athena-jot

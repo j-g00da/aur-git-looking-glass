@@ -1,0 +1,21 @@
+pkgbase = obs-plugin-input-overlay-git
+	pkgdesc = OBS Studio plugin showing keyboard, gamepad or mouse input as sources.
+	pkgver = 5.1.0.r3.g0992c07
+	pkgrel = 1
+	url = https://github.com/univrsal/input-overlay
+	arch = x86_64
+	groups = obs-plugins
+	license = GPL2
+	makedepends = cmake
+	makedepends = make
+	makedepends = gcc
+	makedepends = git
+	depends = obs-studio>=28.0.0
+	depends = libuiohook
+	depends = pkgconf
+	provides = obs-plugin-input-overlay
+	conflicts = obs-plugin-input-overlay
+	source = input-overlay::git+https://github.com/univrsal/input-overlay.git#branch=master
+	sha256sums = SKIP
+
+pkgname = obs-plugin-input-overlay-git

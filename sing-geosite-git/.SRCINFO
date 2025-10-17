@@ -1,0 +1,31 @@
+pkgbase = sing-geosite-git
+	pkgdesc = sing-geosite
+	pkgver = 20240104053246.r0.gfc71b5c
+	pkgrel = 2
+	url = https://github.com/SagerNet/sing-geosite
+	arch = any
+	license = GPL3
+	makedepends = go
+	makedepends = git
+	source = git+https://github.com/SagerNet/sing-geosite.git
+	sha256sums = SKIP
+
+pkgname = sing-geosite-common-git
+	pkgdesc = sing-geosite (common files)
+	provides = sing-geosite-common
+	conflicts = sing-geosite-common
+
+pkgname = sing-geosite-rule-set-git
+	pkgdesc = sing-geosite (rule sets)
+	depends = sing-geosite-common-git
+	provides = sing-geosite
+	provides = sing-geosite-rule-set
+	conflicts = sing-geosite-rule-set
+
+pkgname = sing-geosite-db-git
+	pkgdesc = sing-geosite (database)
+	depends = sing-geosite-common-git
+	provides = sing-geosite
+	provides = sing-geosite-db
+	conflicts = sing-geosite-db
+	replaces = sing-geosite-git

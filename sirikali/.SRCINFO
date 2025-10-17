@@ -1,0 +1,34 @@
+pkgbase = sirikali
+	pkgdesc = A Qt/C++ GUI front end to sshfs, cryfs, gocryptfs, securefs, fscrypt and encfs
+	pkgver = 1.8.4
+	pkgrel = 2
+	url = https://mhogomchungu.github.io/sirikali/
+	arch = i686
+	arch = x86_64
+	arch = aarch64
+	license = GPL
+	makedepends = cmake
+	makedepends = libgcrypt
+	makedepends = gcc-libs
+	depends = qt6-base
+	depends = libpwquality
+	depends = hicolor-icon-theme
+	optdepends = lxqt_wallet: use an external lxqt_wallet (must recompile)
+	optdepends = libsecret: support for Gnome libsecret password storage (must recompile)
+	optdepends = kwallet: support for KDE wallet storage (must recompile)
+	optdepends = cryfs: for CryFS backend
+	optdepends = ecryptfs-simple: for eCryptfs backend
+	optdepends = encfs: for EncFS backend
+	optdepends = fscrypt: for fscrypt backend
+	optdepends = gocryptfs: for gocryptfs backend
+	optdepends = securefs: for securefs backend
+	optdepends = sshfs: for SSHFS backend
+	conflicts = sirikali-git
+	source = SiriKali-1.8.4.tar.xz::https://github.com/mhogomchungu/sirikali/releases/download/1.8.4/SiriKali-1.8.4.tar.xz
+	source = SiriKali-1.8.4.tar.xz.asc::https://github.com/mhogomchungu/sirikali/releases/download/1.8.4/SiriKali-1.8.4.tar.xz.asc
+	validpgpkeys = 6855E493B5B2DF96E319BB6D16E2E1ACC6F51242
+	sha256sums = e89daa759aa59990ea3e6995e2e2d18b6fb95dafb8e7b2b875285660c470e0c8
+	sha256sums = SKIP
+
+pkgname = sirikali
+

@@ -1,0 +1,14 @@
+pkgbase = pulumi-language-yaml
+	pkgdesc = Modern Infrastructure as Code (YAML provider)
+	pkgver = 1.13.0
+	pkgrel = 1
+	url = https://github.com/pulumi/pulumi-yaml
+	arch = x86_64
+	license = Apache
+	makedepends = go
+	depends = glibc
+	options = !lto
+	source = pulumi-yaml-1.13.0.tar.gz::https://github.com/pulumi/pulumi-yaml/archive/v1.13.0.tar.gz
+	sha256sums = f547f5292ff73a5f93f3ed36fc315097d36a73154c7ab5d5dde3772e42957855
+
+pkgname = pulumi-language-yaml

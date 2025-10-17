@@ -1,0 +1,18 @@
+pkgbase = miru-go-bin
+	pkgdesc = A command-line tool for viewing package documentation with a man-like interface
+	pkgver = 0.0.21
+	pkgrel = 1
+	url = https://github.com/ka2n/miru
+	license = MIT
+	optdepends = github-cli
+	optdepends = glab
+	conflicts = miru
+	provides = miru
+	arch = aarch64
+	source_aarch64 = https://github.com/ka2n/miru/releases/download/v0.0.21/miru_v0.0.21_linux_arm64.tar.gz
+	sha256sums_aarch64 = b040e983abcf521bf0b7ce2cb165a232fe86fd0607f00bcb4606a75c45c1c76b
+	arch = x86_64
+	source_x86_64 = https://github.com/ka2n/miru/releases/download/v0.0.21/miru_v0.0.21_linux_amd64.tar.gz
+	sha256sums_x86_64 = 8b31f9d426a277e2cb94d956f5da6accfcd450271cd2b62bdd3bc01d97867d18
+	
+pkgname = miru-go-bin

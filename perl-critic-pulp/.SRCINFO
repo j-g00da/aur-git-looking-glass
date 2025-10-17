@@ -1,0 +1,20 @@
+pkgbase = perl-critic-pulp
+	pkgdesc = some add-on perlcritic policies
+	pkgver = 100
+	pkgrel = 1
+	url = https://metacpan.org/release/Perl-Critic-Pulp
+	arch = any
+	license = Artistic-1.0
+	depends = perl-io-string>=1.02
+	depends = perl-list-moreutils>=0.24
+	depends = perl-ppi>=1.220
+	depends = perl-perl-critic>=1.084
+	depends = perl-pod-minimumversion>=50
+	depends = perl-pod-parser>=0
+	depends = perl>=5.006
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/K/KR/KRYDE/Perl-Critic-Pulp-100.tar.gz
+	md5sums = 17edf2a21d2ff4f368aa3390669895a5
+	sha512sums = 2d683d70737649137d143ab52c7a0f122ec4f1719da5dc9e1a34362d8f34cb8d8f7ed51ad954e883a5c5c796b9c4ededdd4934594eb283c6c194f2c1a285670a
+
+pkgname = perl-critic-pulp

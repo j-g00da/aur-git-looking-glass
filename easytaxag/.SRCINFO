@@ -1,0 +1,20 @@
+pkgbase = easytaxag
+	pkgdesc = EasyTax Applikation zur Steuererklärung 2024 für den Kanton Aargau
+	pkgver = 2024.1.0
+	pkgrel = 1
+	url = https://msg-easytax.ch/ag/
+	arch = any
+	license = unknown
+	depends = sh
+	depends = hicolor-icon-theme
+	depends = jre17-openjdk
+	source = https://msg-easytax.ch/ag/2024/EasyTax2024AG_unix_1_0.tar.gz
+	source = https://upload.wikimedia.org/wikipedia/commons/d/d9/Wappen_Aargau.svg
+	source = easytaxag.desktop
+	source = EasyTax_AG.patch
+	sha256sums = 97026c06dd0b99c7cb24cccf7b88c909cebafcd763c01f7f3f8ada00b2e736a7
+	sha256sums = 253d315b20371cd9add777dc990f96545c60d5d07a3f34cd33720d5148e82486
+	sha256sums = 32d0ac4d2a6141b9651e6298a81910558672e04026d44171b00329f3cc32045b
+	sha256sums = ae25c2210ddb59098400c5cc70896e8a696b209da3061931d633d04d05dee477
+
+pkgname = easytaxag

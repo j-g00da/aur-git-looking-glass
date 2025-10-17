@@ -1,0 +1,18 @@
+pkgbase = journalctl-desktop-notification-git
+	pkgdesc = Displays notifications for journalctl error messages.
+	pkgver = r51.c23509b
+	pkgrel = 1
+	url = https://gitlab.com/Zesko/journalctl-desktop-notification
+	arch = any
+	license = GPL3
+	makedepends = git
+	depends = libnotify
+	depends = systemd
+	optdepends = dunst
+	provides = journalctl-desktop-notification
+	conflicts = journalctl-desktop-notification
+	backup = etc/journalctl-desktop-notification.conf
+	source = git+https://gitlab.com/Zesko/journalctl-desktop-notification.git
+	sha256sums = SKIP
+
+pkgname = journalctl-desktop-notification-git

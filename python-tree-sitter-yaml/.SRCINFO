@@ -1,0 +1,19 @@
+pkgbase = python-tree-sitter-yaml
+	pkgdesc = YAML Grammar for tree-sitter
+	pkgver = 0.7.2
+	pkgrel = 1
+	url = https://github.com/tree-sitter-grammars/tree-sitter-yaml
+	arch = x86_64
+	license = MIT
+	checkdepends = python-pytest
+	checkdepends = python-tree-sitter
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = glibc
+	depends = python
+	source = tree-sitter-yaml-0.7.2.tar.gz::https://github.com/tree-sitter-grammars/tree-sitter-yaml/archive/v0.7.2.tar.gz
+	sha512sums = ad91f349db724af9feecb909a8f7b3eb0421b45432636f399d94ec48c9e0d7ece709d416c20949d2439c9de7aadf3d53762e2a74a97cb9115a94de81ce0914bf
+
+pkgname = python-tree-sitter-yaml

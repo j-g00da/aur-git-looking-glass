@@ -1,0 +1,26 @@
+pkgbase = hawck-git
+	pkgdesc = Keyboard macro system
+	pkgver = 20240108
+	pkgrel = 1
+	url = https://github.com/snyball/hawck
+	install = hawck-git.install
+	arch = x86_64
+	license = BSD
+	makedepends = meson
+	makedepends = gcc
+	makedepends = pkg-config
+	makedepends = ninja
+	makedepends = git
+	depends = libnotify
+	depends = lua53
+	depends = ruby
+	depends = python
+	depends = kbd
+	depends = hicolor-icon-theme
+	optdepends = doxygen
+	optdepends = zenity
+	optdepends = polkit-gnome
+	source = git+https://github.com/snyball/hawck.git
+	md5sums = SKIP
+
+pkgname = hawck-git

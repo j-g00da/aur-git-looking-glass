@@ -1,0 +1,25 @@
+pkgbase = python-srsly-bin
+	pkgdesc = Modern high-performance serialization utilities for Python - bin (no cython0 req)
+	pkgver = 2.5.1
+	pkgrel = 1
+	url = https://github.com/explosion/srsly
+	arch = x86_64
+	license = MIT
+	checkdepends = python-pytest
+	checkdepends = python-scipy
+	checkdepends = python-psutil
+	checkdepends = python-pytest-timeout
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python-catalogue
+	depends = python-pytz
+	depends = python-mock
+	depends = python-numpy
+	depends = python-configobj
+	provides = python-srsly
+	conflicts = python-srsly
+	noextract = srsly-2.5.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+	source = https://github.com/explosion/srsly/releases/download/release-v2.5.1/srsly-2.5.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+	b2sums = b65ddaee0c99075a4e4c0eddac015b7bc228f873bc133851c8c73ad24c9d553def2c225cc58f4fd34a1a220c7a29b493d07ad52ec5e5c6117dc5802303a72e12
+
+pkgname = python-srsly-bin

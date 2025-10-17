@@ -1,0 +1,15 @@
+pkgbase = rapids-logger
+	pkgdesc = A logging interface for RAPIDS built on spdlog
+	pkgver = 0.2.3
+	pkgrel = 1
+	url = https://github.com/rapidsai/rapids-logger
+	arch = x86_64
+	license = Apache-2.0
+	makedepends = cmake
+	makedepends = gcc
+	makedepends = ninja
+	depends = gcc-libs
+	source = https://github.com/rapidsai/rapids-logger/archive/refs/tags/v0.2.3.tar.gz
+	sha256sums = 36578b337993cdbc7f4c52e5d871289628ac408f3a6028ab4e73a64fcdaa9412
+
+pkgname = rapids-logger

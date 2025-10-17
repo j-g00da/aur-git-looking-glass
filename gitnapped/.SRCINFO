@@ -1,0 +1,14 @@
+pkgbase = gitnapped
+	pkgdesc = Find out why you didn’t sleep
+	pkgver = 0.1.4
+	pkgrel = 3
+	url = https://github.com/Solexma/gitnapped
+	arch = x86_64
+	license = AGPL-3.0-only
+	makedepends = rust
+	provides = gitnapped
+	conflicts = gitnapped
+	source = gitnapped-0.1.4.tar.gz::https://github.com/Solexma/gitnapped/archive/refs/tags/v0.1.4.tar.gz
+	sha256sums = 31a459cd6554d597335727a921161c8142868611f2acbfb5787fe60b77fee7e1
+
+pkgname = gitnapped

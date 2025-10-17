@@ -1,0 +1,15 @@
+pkgbase = scrapscript-git
+	pkgdesc = A functional, content-addressable programming language
+	pkgver = r428.467a577
+	pkgrel = 3
+	url = https://github.com/tekknolagi/scrapscript
+	arch = any
+	license = MIT
+	makedepends = cosmocc-bin
+	depends = python
+	depends = bash
+	depends = ape-loader-bin
+	source = git+https://github.com/tekknolagi/scrapscript.git
+	sha256sums = SKIP
+
+pkgname = scrapscript-git

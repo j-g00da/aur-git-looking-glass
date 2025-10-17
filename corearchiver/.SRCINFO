@@ -1,0 +1,19 @@
+pkgbase = corearchiver
+	pkgdesc = Archiver from the C Suite to create and extract archives
+	pkgver = 5.0.0
+	pkgrel = 1
+	url = https://gitlab.com/cubocore/coreapps/corearchiver
+	arch = x86_64
+	arch = aarch64
+	groups = coreapps
+	license = GPL-3.0-or-later
+	makedepends = cmake
+	makedepends = ninja
+	depends = qt6-base
+	depends = hicolor-icon-theme
+	depends = libcprime
+	depends = libarchive-qt-qt6
+	source = https://gitlab.com/cubocore/coreapps/corearchiver/-/archive/v5.0.0/corearchiver-v5.0.0.tar.gz
+	sha256sums = 2f82ca17bffe6ec8d3f6bad0fb3a72e6248e59340d59898d6656d4f1f371d02a
+
+pkgname = corearchiver

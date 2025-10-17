@@ -1,0 +1,32 @@
+pkgbase = refind-btrfs-c3-c4-git
+	pkgdesc = rEFInd Boot Manager - git version with btrfs c3/c4 support
+	pkgver = 0.14.0.r845.g47af961
+	pkgrel = 1
+	url = https://www.rodsbooks.com/refind/
+	arch = any
+	license = BSD
+	license = CCPL
+	license = FDL1.3
+	license = GPL2
+	license = GPL3
+	license = LGPL3
+	makedepends = git
+	makedepends = gnu-efi-libs
+	depends = bash
+	depends = dosfstools
+	depends = efibootmgr
+	optdepends = gptfdisk: for finding non-vfat ESP with refind-install
+	optdepends = imagemagick: for refind-mkfont
+	optdepends = mokutil: for Machine Owner Key enrollment
+	optdepends = openssl: for generating local certificates with refind-install
+	optdepends = preloader-signed: pre-signed Secure Boot shim loader
+	optdepends = python: for refind-mkdefault
+	optdepends = sbsigntools: for EFI binary signing with refind-install
+	optdepends = sudo: for privilege elevation in refind-install and refind-mkdefault
+	optdepends = shim-signed: pre-signed Secure Boot shim loader
+	provides = refind-btrfs-c3-c4=0.14.0.r845.g47af961
+	conflicts = refind-btrfs-c3-c4
+	source = refind::git+https://github.com/amfern/refind.git#branch=master
+	sha512sums = SKIP
+
+pkgname = refind-btrfs-c3-c4-git

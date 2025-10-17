@@ -1,0 +1,27 @@
+pkgbase = spice-vdagent-git
+	pkgdesc = SPICE VDAgent for Linux
+	pkgver = 0.22.1.r3.gaa08162
+	pkgrel = 1
+	url = https://www.spice-space.org
+	arch = i686
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = git
+	makedepends = spice-protocol
+	depends = glib2
+	depends = alsa-lib
+	depends = libdrm
+	depends = libxfixes
+	depends = libxrandr
+	depends = libxinerama
+	depends = systemd
+	depends = gtk3
+	depends = dbus
+	provides = spice-vdagent
+	conflicts = spice-vdagent
+	source = spice-vdagent::git+https://gitlab.freedesktop.org/spice/linux/vd_agent.git
+	source = spice-vdagentd.conf.sample
+	sha256sums = SKIP
+	sha256sums = ab5231eb6375fee5baaf10a59559e7dea58def158fa0ab8e125e9b7340c5e4e8
+
+pkgname = spice-vdagent-git

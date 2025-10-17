@@ -1,0 +1,17 @@
+pkgbase = bioformats2raw
+	pkgdesc = Bio-Formats image file format to raw format converter
+	pkgver = 0.10.1
+	pkgrel = 1
+	url = https://github.com/glencoesoftware/bioformats2raw
+	arch = any
+	license = GPL-2.0-or-later
+	makedepends = git
+	makedepends = gradle
+	makedepends = java-environment=17
+	depends = bash
+	depends = blosc
+	depends = java-runtime=17
+	source = bioformats2raw-0.10.1.tar.gz::https://github.com/glencoesoftware/bioformats2raw/archive/refs/tags/v0.10.1.tar.gz
+	sha512sums = 27f102471ebc07982e2783af0a0ecc87043b8b2309edd6ddab465c1d1a90e0d74464b453732db4b4aa603c362376f9814903229f5fe0ae75a972ebfd0f14ed90
+
+pkgname = bioformats2raw

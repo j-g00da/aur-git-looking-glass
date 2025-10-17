@@ -1,0 +1,22 @@
+pkgbase = gopherpress-bin
+	pkgdesc = CLI tool for creating epubs from markdown files (with links to HTML pages)
+	pkgver = 0.2.1
+	pkgrel = 1
+	url = https://github.com/SphericalKat/gopherpress
+	license = GPL3
+	conflicts = gopherpress
+	provides = gopherpress
+	arch = aarch64
+	source_aarch64 = https://github.com/SphericalKat/gopherpress/releases/download/v0.2.1/gopherpress_linux_arm64
+	sha256sums_aarch64 = 99c33c2aecfa629fec579aaf8604eb35caa593d2db2040f55f295811acd5b57d
+	arch = armv7h
+	source_armv7h = https://github.com/SphericalKat/gopherpress/releases/download/v0.2.1/gopherpress_linux_armv7
+	sha256sums_armv7h = e660a0ac3841af2e39b1c6497b05393f0c4172e37dc6bfeb5afd126d50929587
+	arch = i686
+	source_i686 = https://github.com/SphericalKat/gopherpress/releases/download/v0.2.1/gopherpress_linux_386
+	sha256sums_i686 = 3b5cc1d67231e011e5460c21058c25fbd632035ac307060ae5bfdd4bd72240ef
+	arch = x86_64
+	source_x86_64 = https://github.com/SphericalKat/gopherpress/releases/download/v0.2.1/gopherpress_linux_amd64
+	sha256sums_x86_64 = 193ae3f96182527b8861b956b6bfa57b91b10e8e28da47fefbe6128aca1f46a9
+	
+pkgname = gopherpress-bin

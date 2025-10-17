@@ -1,0 +1,19 @@
+pkgbase = python-readabilipy
+	pkgdesc = A Python wrapper for Mozilla's Readability.js.
+	pkgver = 0.3.0
+	pkgrel = 1
+	url = https://github.com/alan-turing-institute/ReadabiliPy
+	changelog = python-readabilipy.changelog.md
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python>=3.6.0
+	depends = python-beautifulsoup4>=4.7.1
+	depends = python-html5lib
+	depends = python-lxml
+	depends = python-regex
+	optdepends = nodejs>=10.0.0: Readability.js wrapper
+	source = https://files.pythonhosted.org/packages/source/r/readabilipy/readabilipy-0.3.0.tar.gz
+	sha256sums = e13313771216953935ac031db4234bdb9725413534bfb3c19dbd6caab0887ae0
+
+pkgname = python-readabilipy

@@ -1,0 +1,14 @@
+pkgbase = r-zlibbioc
+	pkgdesc = An R packaged zlib-1.2.5
+	pkgver = 1.52.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/release/bioc/html/zlibbioc.html
+	arch = i686
+	arch = x86_64
+	license = Artistic-2.0
+	depends = r
+	optdepends = r-biocstyle
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/zlibbioc_1.52.0.tar.gz
+	b2sums = 8447845b3a9149afc4e21fb51ddc25f83534c930dafbafa831ff0ec83ad61f42f9ed6bef5b9b3b8e1938995893741d5a76b7f9839ab2880ba3efdec73e129998
+
+pkgname = r-zlibbioc

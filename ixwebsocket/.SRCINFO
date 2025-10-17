@@ -1,0 +1,18 @@
+pkgbase = ixwebsocket
+	pkgdesc = websocket and http client and server library, with TLS support and very few dependencies
+	pkgver = 11.4.5
+	pkgrel = 1
+	url = https://github.com/machinezone/IXWebSocket
+	arch = x86_64
+	arch = aarch64
+	arch = armv7h
+	arch = riscv64
+	license = BSD-3-Clause
+	makedepends = cmake
+	makedepends = make
+	makedepends = gcc
+	depends = openssl
+	source = https://github.com/machinezone/IXWebSocket/archive/refs/tags/v11.4.5.tar.gz
+	sha256sums = c5fc225edec32bf7d583e55347ef2c9c4940d005c13ef5e848354a85602f5fd6
+
+pkgname = ixwebsocket

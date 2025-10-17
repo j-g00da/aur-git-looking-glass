@@ -1,0 +1,21 @@
+pkgbase = r-rbioformats
+	pkgdesc = R interface to Bio-Formats
+	pkgver = 1.8.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/RBioFormats
+	arch = any
+	license = GPL-3.0-only
+	checkdepends = r-testthat
+	depends = java-runtime
+	depends = r-ebimage
+	depends = r-rjava
+	depends = r-s4vectors
+	optdepends = r-biocstyle
+	optdepends = r-knitr
+	optdepends = r-testthat
+	optdepends = r-xml2
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/RBioFormats_1.8.0.tar.gz
+	md5sums = 63a22ebb416d889d88fc296bdccdd1d3
+	b2sums = 2c9fa302e407f8b6408f5b77e44123fccba98a925374e24543d7cf57ca2eb7e9b362cdb1d7d0d894bc1d1140add6a7dd8a2de05855e66674fef98fe5abb75986
+
+pkgname = r-rbioformats

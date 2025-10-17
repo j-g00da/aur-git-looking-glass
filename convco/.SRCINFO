@@ -1,0 +1,19 @@
+pkgbase = convco
+	pkgdesc = Conventional commits, changelog, versioning, validation
+	pkgver = 0.6.2
+	pkgrel = 1
+	url = https://convco.github.io
+	arch = x86_64
+	arch = i686
+	arch = arm
+	arch = aarch64
+	license = MIT
+	makedepends = cargo
+	makedepends = cmake
+	depends = gcc-libs
+	depends = libgit2
+	source = convco-0.6.2.tar.gz::https://github.com/convco/convco/archive/refs/tags/v0.6.2.tar.gz
+	sha256sums = 6f8e58f8572a785e32d287cad80d174303a5db5abc4ce0cf50022e05125549dd
+	b2sums = aadd837b395fd366765847696befb7e3ac185120837c7d56ba7bbfc94a8fc120e49d3bf288463bc4395aaed99cdf986fba5c798e702338548af224334a8cad96
+
+pkgname = convco

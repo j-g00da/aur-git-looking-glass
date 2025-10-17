@@ -1,0 +1,20 @@
+pkgbase = cascadia-code-git
+	pkgdesc = A new monospaced font that includes programming ligatures
+	pkgver = 2105.24.r13.gf1a0b0e6
+	pkgrel = 1
+	url = https://github.com/microsoft/cascadia-code
+	arch = any
+	license = custom:OFL
+	makedepends = git
+	makedepends = python
+	makedepends = ttfautohint
+	provides = otf-cascadia-code=2105.24.r13.gf1a0b0e6
+	provides = ttf-cascadia-code=2105.24.r13.gf1a0b0e6
+	conflicts = nerd-fonts-cascadia-code
+	conflicts = ttf-cascadia-code
+	source = git+https://github.com/microsoft/cascadia-code.git
+	sha256sums = SKIP
+
+pkgname = otf-cascadia-code-git
+
+pkgname = ttf-cascadia-code-git

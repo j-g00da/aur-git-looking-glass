@@ -1,0 +1,14 @@
+pkgbase = qpress
+	pkgdesc = qpress is a portable high-speed file archiver using QuickLZ designed to utilize fast storage systems
+	pkgver = 20230507
+	pkgrel = 4
+	url = https://github.com/PierreLvx/qpress
+	arch = x86_64
+	arch = i686
+	arch = aarch64
+	arch = armv7h
+	license = GPL
+	source = https://github.com/PierreLvx/qpress/archive/refs/tags/20230507.tar.gz
+	sha256sums = 5110929b93b415b4e1aa912cec8021f54787b38316e5906f104a086b763604e8
+
+pkgname = qpress

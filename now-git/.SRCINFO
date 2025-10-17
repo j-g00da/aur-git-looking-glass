@@ -1,0 +1,15 @@
+pkgbase = now-git
+	pkgdesc = Convenient global date printer
+	pkgver = r13.5a84890
+	pkgrel = 1
+	url = https://github.com/robpike/now
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = git
+	makedepends = go>=1.5
+	conflicts = now
+	source = now-git::git+https://github.com/robpike/now
+	md5sums = SKIP
+
+pkgname = now-git

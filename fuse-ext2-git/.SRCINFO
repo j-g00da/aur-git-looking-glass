@@ -1,0 +1,16 @@
+pkgbase = fuse-ext2-git
+	pkgdesc = A multi OS FUSE module to mount ext2, ext3 and ext4 file system devices and/or images with read write support
+	pkgver = 0.0.11.r2.ge8f1063
+	pkgrel = 1
+	url = https://github.com/alperakcan/fuse-ext2
+	arch = x86_64
+	license = GPL-2.0-only
+	makedepends = git
+	depends = e2fsprogs
+	depends = fuse2
+	provides = fuse-ext2=0.0.11
+	conflicts = fuse-ext2
+	source = fuse-ext2::git+https://github.com/alperakcan/fuse-ext2.git
+	sha256sums = SKIP
+
+pkgname = fuse-ext2-git

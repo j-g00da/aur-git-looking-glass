@@ -1,0 +1,20 @@
+pkgbase = ogar-git
+	pkgdesc = An open source Agar.io server implementation, written with Node.js.
+	pkgver = git
+	pkgrel = 4
+	url = https://github.com/OgarProject/Ogar
+	install = ogar-git.install
+	arch = any
+	license = Apache
+	depends = nodejs
+	depends = npm
+	depends = git
+	depends = systemd
+	backup = usr/share/ogar/gameserver.ini
+	source = git+https://github.com/OgarProject/Ogar
+	source = ogar.service
+	sha256sums = SKIP
+	sha256sums = f41103fe9323c16d8677f436a23bcd06e76988172ea82c345366bceff01f6cb8
+
+pkgname = ogar-git
+

@@ -1,0 +1,17 @@
+pkgbase = gorm
+	pkgdesc = GNUstep's easy-to-use interface designer
+	pkgver = 1.5.0
+	pkgrel = 1
+	url = http://www.gnustep.org/experience/Gorm.html
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = gcc-objc
+	makedepends = gnustep-make
+	depends = gnustep-back
+	depends = gnustep-base
+	depends = gnustep-gui
+	source = https://github.com/gnustep/apps-gorm/archive/refs/tags/gorm-1_5_0/gorm-1.5.0.tar.gz
+	sha256sums = 21bb0ba0f9a24ab5ef47e455198c4b2e0e8c9d17e7b0853bafbd89b80127bb2b
+
+pkgname = gorm

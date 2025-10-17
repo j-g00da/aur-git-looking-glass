@@ -1,0 +1,14 @@
+pkgbase = protoc-gen-dart
+	pkgdesc = Protobuf plugin for generating Dart code
+	pkgver = 22.5.0
+	pkgrel = 1
+	url = https://pub.dev/packages/protoc_plugin
+	arch = x86_64
+	license = BSD-3-Clause
+	makedepends = dart
+	depends = glibc
+	options = !strip
+	source = https://github.com/google/protobuf.dart/archive/protoc_plugin-v22.5.0.tar.gz
+	sha256sums = d5a80573b81a742a0d12f003a4e610319e6232d2fe95af727cdf50250adeca69
+
+pkgname = protoc-gen-dart

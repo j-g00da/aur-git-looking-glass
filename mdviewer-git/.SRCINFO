@@ -1,0 +1,22 @@
+pkgbase = mdviewer-git
+	pkgdesc = Rendered display of markdown on terminal (latest git commit)
+	pkgver = 0.1.1.r23.gffd5000
+	pkgrel = 2
+	url = https://github.com/noborus/mdviewer
+	arch = aarch64
+	arch = arm
+	arch = armv6h
+	arch = armv7h
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = go
+	depends = glibc
+	provides = mdviewer
+	conflicts = mdviewer
+	options = lto
+	source = git+https://github.com/noborus/mdviewer.git
+	sha256sums = SKIP
+
+pkgname = mdviewer-git

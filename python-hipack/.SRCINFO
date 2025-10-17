@@ -1,0 +1,17 @@
+pkgbase = python-hipack
+	pkgdesc = Python module for the HiPack serialization format
+	pkgver = 14
+	pkgrel = 1
+	url = http://hipack.org
+	arch = any
+	license = GPL-3.0-only
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	source = https://github.com/aperezdc/hipack-python/releases/download/v14/hipack-14.tar.xz
+	b2sums = 88183f38f8fb7a97fb9870a8b742bdfbe648cc8a2ad9cfa785f2438e6376236608c544fb2887255153f05f4c30b55b374dfa3a237400768d8a34589a4fe30714
+
+pkgname = python-hipack

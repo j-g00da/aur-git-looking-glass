@@ -1,0 +1,17 @@
+pkgbase = r-optimalflowdata
+	pkgdesc = optimalFlowData
+	pkgver = 1.20.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/optimalFlowData
+	arch = any
+	license = Artistic-2.0
+	depends = r
+	optdepends = r-biocstyle
+	optdepends = r-knitr
+	optdepends = r-magick
+	optdepends = r-rmarkdown
+	source = https://bioconductor.org/packages/release/data/experiment/src/contrib/optimalFlowData_1.20.0.tar.gz
+	md5sums = b56ce226da3054b7786fe9db329906e2
+	b2sums = bb2bb4da541f2d7ebf07c2fda8fd3af2e79a67d6f637434259f92ccf4cd2e1b34b1e0ec80693b11373fc280eee0a02a6b9832a30b4120ecbe2012c7c28fa63fd
+
+pkgname = r-optimalflowdata

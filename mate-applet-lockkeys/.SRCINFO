@@ -1,0 +1,16 @@
+pkgbase = mate-applet-lockkeys
+	pkgdesc = A MATE panel applet that shows which of the CapsLock, NumLock and ScrollLock keys are on and which are off.
+	pkgver = 0.4.0
+	pkgrel = 1
+	url = https://github.com/rezso/mate-applet-lockkeys
+	arch = x86_64
+	license = GPL-2.0-or-later
+	makedepends = mate-common
+	makedepends = perl-xml-parser
+	makedepends = yelp-tools
+	depends = gtk3
+	depends = mate-panel
+	source = mate-applet-lockkeys-0.4.0.tar.gz::https://github.com/rezso/mate-applet-lockkeys/archive/refs/tags/0.4.0.tar.gz
+	sha256sums = beb0ee598d7fd623a7e9daee2a10eef5ca40445a47d72b042f4ecc2786b4246e
+
+pkgname = mate-applet-lockkeys

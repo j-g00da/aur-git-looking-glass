@@ -1,0 +1,18 @@
+pkgbase = mkinitcpio-extras
+	pkgdesc = Collection of mkinitcpio hooks for busybox based initramfs
+	pkgver = 2
+	pkgrel = 1
+	url = https://gitlab.com/allddd/mkinitcpio-extras
+	arch = any
+	license = GPL-2.0-only
+	depends = mkinitcpio
+	optdepends = mkinitcpio-nfs-utils: required for netconf
+	optdepends = dropbear: required for dropbear
+	optdepends = tinyssh: required for tinyssh
+	conflicts = mkinitcpio-netconf
+	conflicts = mkinitcpio-dropbear
+	conflicts = mkinitcpio-tinyssh
+	source = https://gitlab.com/allddd/mkinitcpio-extras/-/archive/v2/mkinitcpio-extras-v2.tar.gz
+	sha256sums = 7f541506eb07cb5d85e30da5a33e24ff59e21e7b9154624c23f884e3c6057aaf
+
+pkgname = mkinitcpio-extras

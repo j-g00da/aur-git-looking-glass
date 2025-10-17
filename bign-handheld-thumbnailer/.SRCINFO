@@ -1,0 +1,17 @@
+pkgbase = bign-handheld-thumbnailer
+	pkgdesc = A thumbnailer for Nintendo handheld systems (Nintendo DS and 3DS) roms and files
+	pkgver = 1.1.2
+	pkgrel = 1
+	url = https://github.com/MateusRodCosta/bign-handheld-thumbnailer/
+	arch = i686
+	arch = x86_64
+	arch = armv6h
+	arch = armv7h
+	license = GPL-2.0-or-later
+	makedepends = cargo
+	makedepends = meson
+	makedepends = ninja
+	source = bign-handheld-thumbnailer-1.1.2.tar.gz::https://github.com/MateusRodCosta/bign-handheld-thumbnailer/archive/refs/tags/v1.1.2.tar.gz
+	sha256sums = 1bc2e6aa441cb8e889df797d2cc5fc4d29e929ecd7ed902b27e27b67cea64109
+
+pkgname = bign-handheld-thumbnailer

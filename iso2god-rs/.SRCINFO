@@ -1,0 +1,17 @@
+pkgbase = iso2god-rs
+	pkgdesc = A tool to convert Xbox 360 and original Xbox ISOs into an Xbox 360 compatible Games-On-Demand file format
+	pkgver = 1.8.1
+	pkgrel = 1
+	url = https://github.com/iliazeus/iso2god-rs
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	depends = glibc
+	provides = iso2god
+	conflicts = iso2god
+	source = iso2god-rs-1.8.1.tar.gz::https://github.com/iliazeus/iso2god-rs/archive/refs/tags/v1.8.1.tar.gz
+	b2sums = dc993724f943889774562fdc4676a2abbbf5f0959d528a048be8c95cab80a2290324b21b4da0e3ad7a5e2aa9c18cdb05503acfa7a4099486951b84378b7c9b0f
+
+pkgname = iso2god-rs

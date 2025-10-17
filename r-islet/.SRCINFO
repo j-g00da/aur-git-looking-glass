@@ -1,0 +1,26 @@
+pkgbase = r-islet
+	pkgdesc = Individual-Specific ceLl typE referencing Tool
+	pkgver = 1.10.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/ISLET
+	arch = any
+	license = GPL-2.0-only
+	checkdepends = r-runit
+	depends = r-abind
+	depends = r-biocgenerics
+	depends = r-biocparallel
+	depends = r-lme4
+	depends = r-nnls
+	depends = r-purrr
+	depends = r-summarizedexperiment
+	optdepends = r-biocstyle
+	optdepends = r-dplyr
+	optdepends = r-htmltools
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-runit
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/ISLET_1.10.0.tar.gz
+	md5sums = 21b4f1579796a88040c9d2e4c390b8ef
+	b2sums = ed2800e4a1591a2b8aa19b24c5ebb6712e2c743621a4ff61e9bf12bf8e44ba168058ae44b33863da30eae4a082e816b583f26e34e5108db70f0a0586ae83cf96
+
+pkgname = r-islet

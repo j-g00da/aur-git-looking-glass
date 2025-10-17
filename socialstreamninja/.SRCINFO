@@ -1,0 +1,26 @@
+pkgbase = socialstreamninja
+	pkgdesc = Standalone version of Social Stream Ninja - Electron-based application for capturing social media streams
+	pkgver = 0.3.43
+	pkgrel = 1
+	url = https://github.com/steveseguin/ssn_app
+	arch = x86_64
+	license = GPL3
+	depends = fuse
+	depends = zlib
+	depends = glibc
+	optdepends = gtk3: GTK integration
+	optdepends = nss: Network security services
+	optdepends = libxss: X11 screensaver extension
+	optdepends = libnotify: Desktop notifications
+	optdepends = libxtst: X11 testing
+	provides = socialstreamninja
+	conflicts = socialstreamninja-bin
+	conflicts = socialstreamninja-git
+	noextract = socialstreamninja-0.3.43.AppImage
+	options = !strip
+	source = socialstreamninja-0.3.43.AppImage::https://github.com/steveseguin/social_stream/releases/download/0.3.43/socialstreamninja_linux_v0.3.43_x86_64.AppImage
+	source = socialstreamninja.desktop
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = socialstreamninja

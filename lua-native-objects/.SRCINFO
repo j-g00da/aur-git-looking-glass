@@ -1,0 +1,18 @@
+pkgbase = lua-native-objects
+	pkgdesc = A Lua bindings generator written in Lua
+	pkgver = 0.5
+	pkgrel = 1
+	url = https://github.com/Neopallium/LuaNativeObjects
+	arch = any
+	license = MIT
+	makedepends = luarocks
+	source = https://luarocks.org/manifests/neopallium/luanativeobjects-0.5-1.src.rock
+	sha256sums = 86fa6f7e2608800946a171eb809334affdf85a38bad8b7ab505fb618e9f932c4
+
+pkgname = lua-native-objects
+
+pkgname = lua51-native-objects
+
+pkgname = lua52-native-objects
+
+pkgname = lua53-native-objects

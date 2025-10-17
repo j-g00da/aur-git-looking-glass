@@ -1,0 +1,26 @@
+pkgbase = r-ctsge
+	pkgdesc = Clustering of Time Series Gene Expression data
+	pkgver = 1.34.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/ctsGE
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-ccapp
+	depends = r-ggplot2
+	depends = r-limma
+	depends = r-reshape2
+	depends = r-shiny
+	depends = r-stringr
+	optdepends = r-biocstyle
+	optdepends = r-dplyr
+	optdepends = r-dt
+	optdepends = r-geoquery
+	optdepends = r-knitr
+	optdepends = r-pander
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/ctsGE_1.34.0.tar.gz
+	sha256sums = 3f75bce9df591b7799f91c3cf470fb40bc300f714c75f8d10a258f5e6fac7d58
+
+pkgname = r-ctsge

@@ -1,0 +1,18 @@
+pkgbase = python-pytest-image-diff
+	pkgdesc = pytest helps for compare images and regression
+	pkgver = 0.0.14
+	pkgrel = 1
+	url = https://pypi.org/project/pytest-image-diff/
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python
+	depends = python-diffimg
+	depends = python-imgdiff
+	source = https://files.pythonhosted.org/packages/source/p/pytest_image_diff/pytest_image_diff-0.0.14.tar.gz
+	sha256sums = 2405dba60c8009c93a7cafc15976cc8f2b1b8f33ffe8126e35d72a6d22e19850
+
+pkgname = python-pytest-image-diff

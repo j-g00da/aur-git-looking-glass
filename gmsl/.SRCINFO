@@ -1,0 +1,12 @@
+pkgbase = gmsl
+	pkgdesc = GNU Make Standard Library: extra functions to extend functionality of Makefiles
+	pkgver = 1.2.4
+	pkgrel = 1
+	url = https://gmsl.jgc.org/
+	arch = any
+	license = BSD
+	depends = make
+	source = gmsl-1.2.4.tar.gz::https://github.com/jgrahamc/gmsl/archive/v1.2.4.tar.gz
+	sha512sums = 3e4e6dceb884c3f36de6ff6dc2f52810782c9eb382128d2fb29168270e24e305e268bfaedc2c5ef39f3cc697b2d4a7abba02013aa0ef24aceb5352b3a10fc5b5
+
+pkgname = gmsl

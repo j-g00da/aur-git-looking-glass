@@ -1,0 +1,19 @@
+pkgbase = python-sphinx-multibuild
+	pkgdesc = Allow sphinx to build with multiple source directories and watch for changes.
+	pkgver = 1.2.1
+	pkgrel = 2
+	url = https://github.com/rowanG077/sphinx-multibuild
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-setuptools
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python
+	depends = python-watchdog
+	source = https://files.pythonhosted.org/packages/source/s/sphinx-multibuild/sphinx-multibuild-1.2.1.tar.gz
+	source = LICENSE.TXT
+	sha256sums = 88aedb55dbee166e0029b7771a96a602bd2709b2ead69c8eb3d2f4ecf6dc2c87
+	sha256sums = d5466c93a4bfc35e94a1f088bf531081c4a597481d2515eed45f8d3e8cde95f0
+
+pkgname = python-sphinx-multibuild

@@ -1,0 +1,18 @@
+pkgbase = open-fuse-iso
+	pkgdesc = Rapid image mounting/unmounting in userspace using fuseiso.
+	pkgver = 1.1
+	pkgrel = 1
+	url = http://forum.manjaro.org/index.php?topic=9306.0
+	install = open-fuse-iso.install
+	arch = any
+	license = GPL
+	makedepends = binutils
+	depends = fuseiso
+	depends = libnotify
+	provides = open-fuse-iso-term
+	conflicts = open-fuse-iso-term
+	source = open-fuse-iso::git+https://github.com/alexandruianu/open-fuse-iso
+	md5sums = SKIP
+
+pkgname = open-fuse-iso
+

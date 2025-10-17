@@ -1,0 +1,20 @@
+pkgbase = r-annaffy
+	pkgdesc = Annotation tools for Affymetrix biological metadata
+	pkgver = 1.80.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/annaffy
+	arch = any
+	license = LGPL
+	depends = r
+	depends = r-annotationdbi
+	depends = r-biobase
+	depends = r-biocmanager
+	depends = r-dbi
+	depends = r-go.db
+	optdepends = r-hgu95av2.db
+	optdepends = r-multtest
+	optdepends = r-tcltk
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/annaffy_1.80.0.tar.gz
+	sha256sums = 618cb62f050b46c7ceb6ddde7420e85f0d86bf070ff50038639ba90d3b2c89a9
+
+pkgname = r-annaffy

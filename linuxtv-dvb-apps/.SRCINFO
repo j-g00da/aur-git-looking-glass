@@ -1,0 +1,22 @@
+pkgbase = linuxtv-dvb-apps
+	pkgdesc = Linux DVB API applications and utilities
+	pkgver = 1.1.1+rev1500
+	pkgrel = 1
+	url = https://launchpad.net/ubuntu/+source/linuxtv-dvb-apps
+	arch = x86_64
+	arch = i686
+	arch = arm
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = GPL-2.0-or-later
+	license = LGPL-2.1-or-later
+	makedepends = git
+	makedepends = imagemagick
+	depends = libx11
+	depends = zvbi
+	optdepends = dtv-scan-tables-git: initial tuning data necessary for scanning utils
+	source = launchpad.linuxtv-dvb-apps::git+https://git.launchpad.net/ubuntu/+source/linuxtv-dvb-apps
+	sha256sums = SKIP
+
+pkgname = linuxtv-dvb-apps

@@ -1,0 +1,42 @@
+pkgbase = gmlghd
+	pkgdesc = The gemlog http daemon
+	pkgver = 1.5
+	pkgrel = 2
+	url = https://git.sr.ht/~shtrophic/gmlghd
+	arch = x86_64
+	arch = aarch64
+	license = AGPL-3.0-or-later
+	checkdepends = fish
+	makedepends = git
+	makedepends = meson
+	makedepends = scdoc
+	makedepends = linux-api-headers
+	depends = glibc
+	depends = confuse
+	depends = libbsd
+	depends = libmd
+	depends = libevent
+	depends = libretls
+	optdepends = nginx: fastcgi reverse proxy
+	backup = etc/gmlghd.conf
+	source = gmlghd-1.5.tar.gz::https://git.sr.ht/~shtrophic/gmlghd/archive/1.5.tar.gz
+	source = gmlghd-1.5.tar.gz.asc::https://git.sr.ht/~shtrophic/gmlghd/archive/1.5.tar.gz.asc
+	source = ctk::git+https://git.sr.ht/~shtrophic/ctk#tag=7791114
+	source = foocgi::git+https://git.sr.ht/~shtrophic/foocgi#tag=9575997
+	source = sysusers-gmlghd.conf
+	source = tmpfiles-gmlghd.conf
+	source = mime.types
+	source = gmlghd.example.conf
+	source = gmlghd.service
+	validpgpkeys = 10F1CC925057D456798EBF9C1B3EB6FE2D338B4A
+	sha256sums = 166ddd36a4215280f01bf15b1a87d8ee0b2af6a08b8336157a6979e9ba4b01af
+	sha256sums = SKIP
+	sha256sums = f80656e2ee8e43515dcb82cef094f08761b2f4d63fc7e0146da457d51056368e
+	sha256sums = 8343f9e563ccfc33f3cc1e60e48580b56315d056e4f4592a7fb8efb4da169300
+	sha256sums = a73c3d9a9798c307b70be4e764cb7023dd7a0ab4a21c906e72663a7cb45ebaf2
+	sha256sums = 99fe77ece238d533bba8e849c4b830d534e8ccc193cf9e291af257f60180823d
+	sha256sums = 27040f1df57b570b3117bd30ceb5685fbfa5aba61108f37cf86f0304d4f29f09
+	sha256sums = c3d26f48b57bf51b33ef9f1dded4270b439cfa5a6642186071a64affc44c1494
+	sha256sums = 7a26e5d17796e4adec3f6dc4c22f03b68aab08be403c9d316b3fbac1264cad9f
+
+pkgname = gmlghd

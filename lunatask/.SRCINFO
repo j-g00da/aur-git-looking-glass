@@ -1,0 +1,18 @@
+pkgbase = lunatask
+	pkgdesc = all-in-one encrypted productivity app (unofficial, not supported by upstream)
+	pkgver = 2.1.10
+	pkgrel = 1
+	url = https://lunatask.app
+	arch = x86_64
+	license = LicenseRef-proprietary
+	depends = libindicator-gtk3
+	depends = libappindicator-gtk3
+	depends = libnotify
+	depends = libxss
+	depends = libxtst
+	options = !strip
+	options = !strip
+	source = https://github.com/lunatask/lunatask/releases/download/v2.1.10/Lunatask-2.1.10.AppImage
+	sha512sums = aaa59a103096c7ebc24b01a2e47dbff6451882c5dc6cb22b3c1ac4fa8a4ea43d6607ee59691ba389909c240cc8863af52cc435770af1f45f1fcbe54c494126d3
+
+pkgname = lunatask

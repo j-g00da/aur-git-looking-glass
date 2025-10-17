@@ -1,0 +1,14 @@
+pkgbase = python-tagui
+	pkgdesc = RPA for Python is a Python package for RPA (robotic process automation) (tagui dependency)
+	pkgver = 1.50.0
+	pkgrel = 1
+	url = https://github.com/tebelorg/RPA-Python
+	arch = x86_64
+	license = Apache
+	makedepends = python-setuptools
+	depends = php
+	depends = python
+	source = https://files.pythonhosted.org/packages/source/t/tagui/tagui-1.50.0.tar.gz
+	b2sums = 7cfb48dbf10816d91c1be3ca7a9138d83dbf207222d6f148e0f2741a71357274632eedce2a1874513f5db455b43ce07b529da8776b41ca24327efb964af88f19
+
+pkgname = python-tagui

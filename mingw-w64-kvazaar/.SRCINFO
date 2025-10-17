@@ -1,0 +1,18 @@
+pkgbase = mingw-w64-kvazaar
+	pkgdesc = An open-source HEVC encoder (mingw-w64)
+	pkgver = 2.3.2
+	pkgrel = 1
+	url = http://ultravideo.cs.tut.fi/#encoder
+	arch = any
+	license = BSD-3-Clause
+	makedepends = mingw-w64-cmake
+	makedepends = mingw-w64-crypto++
+	makedepends = ninja
+	depends = mingw-w64-crt
+	options = !strip
+	options = !buildflags
+	options = staticlibs
+	source = kvazaar-2.3.2.tar.gz::https://github.com/ultravideo/kvazaar/archive/v2.3.2.tar.gz
+	sha256sums = ddd0038696631ca5368d8e40efee36d2bbb805854b9b1dda8b12ea9b397ea951
+
+pkgname = mingw-w64-kvazaar

@@ -1,0 +1,27 @@
+pkgbase = jetty11
+	pkgdesc = Jetty is a pure Java-based HTTP server and Java Servlet container
+	pkgver = 11.0.19
+	pkgrel = 1
+	url = http://www.eclipse.org/jetty/
+	arch = any
+	license = Apache
+	license = EPL
+	depends = java-environment
+	options = !strip
+	source = https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-home/11.0.19/jetty-home-11.0.19.tar.gz
+	source = https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-home/11.0.19/jetty-home-11.0.19.tar.gz.asc
+	source = jetty.default
+	source = jetty.logrotate
+	source = jetty.service
+	source = jetty.sysusers
+	source = jetty.tmpfiles
+	validpgpkeys = 5989BAF76217B843D66BE55B2D0E1FB8FE4B68B4
+	sha256sums = 089a4949e22e14d89db82a624a86b9daf6089dc5a7e7fb4c120315b25242732d
+	sha256sums = SKIP
+	sha256sums = 4517310a4ed94248403e68b96b1e984d39e7073c6cd1dd9e312d00b9f4d2ca0f
+	sha256sums = aef27b34d181f0f31a023e4b31c10347c711d0e45b89b9702e501709bd07689e
+	sha256sums = 56c318ce307726ffd667ec6024e1488266e70d0a1ed3802a2257e4edbbb0e61c
+	sha256sums = 425d9c157753129e7d003652ecbb746feb5591ba1a9abf0b4a8428c91b1511da
+	sha256sums = 3458ab5158f32be90a24c4b005af354403272ad043ab79842b8879f0a7aa57c5
+
+pkgname = jetty11

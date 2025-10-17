@@ -1,0 +1,25 @@
+pkgbase = st-community-git
+	pkgdesc = A simple virtual terminal emulator for X, with community patches included.
+	pkgver = 0.9+9846a56
+	pkgrel = 2
+	url = https://github.com/dc138/st-community/
+	arch = i686
+	arch = x86_64
+	arch = armv7h
+	license = MIT
+	makedepends = ncurses
+	makedepends = libxext
+	makedepends = git
+	depends = libxft
+	depends = gd
+	depends = harfbuzz
+	depends = freetype2
+	depends = fontconfig
+	provides = st
+	conflicts = st
+	source = st-community::git+https://github.com/dc138/st-community.git
+	source = terminfo.patch
+	sha256sums = SKIP
+	sha256sums = 1d4dbc5ed36d97fa1d7852b84a12bf59906b245f60c47c0134fb3fdbc834f23e
+
+pkgname = st-community-git

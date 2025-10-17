@@ -1,0 +1,17 @@
+pkgbase = androidscreencast-bin
+	pkgdesc = Desktop app to control an android device remotely using mouse and keyboard
+	pkgver = 0.1
+	pkgrel = 2
+	url = https://github.com/xSAVIKx/AndroidScreencast
+	arch = any
+	license = Apache
+	depends = java-runtime>=7
+	depends = android-tools
+	source = androidscreencast-bin-0.1.tgz::https://github.com/xSAVIKx/AndroidScreencast/releases/download/v0.1/androidscreencast-0.1-linux.tar.gz
+	source = androidscreencast
+	source = androidscreencast.desktop
+	sha256sums = 07e5982d430a431e55528ef7d7b385fbf9d634adbc53249e4d97b72ca1128253
+	sha256sums = 0746179cd97a7f2b17bff51f6e810c6fd5f22f9b0f671b8df1ac89705034436b
+	sha256sums = d0cb97ddb4482710b8c0c54bc8c78cc2ca24c52f721cca9a13f0f99e4bd7252e
+
+pkgname = androidscreencast-bin

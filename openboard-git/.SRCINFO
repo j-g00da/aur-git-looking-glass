@@ -1,0 +1,31 @@
+pkgbase = openboard-git
+	pkgdesc = Interactive whiteboard software for schools and universities (development version current master)
+	pkgver = 1.7.3.r5.g9a884af1
+	pkgrel = 2
+	url = http://openboard.ch/index.en.html
+	arch = x86_64
+	arch = i686
+	license = GPL3
+	makedepends = git
+	makedepends = cmake
+	makedepends = qt6-tools
+	depends = qt6-base
+	depends = qt6-declarative
+	depends = qt6-multimedia
+	depends = qt6-svg
+	depends = qt6-webchannel
+	depends = qt6-webengine
+	depends = libpaper
+	depends = bzip2
+	depends = openssl
+	depends = libfdk-aac
+	depends = sdl
+	depends = ffmpeg
+	depends = quazip-qt6
+	depends = poppler
+	provides = openboard=1.7.3
+	conflicts = openboard
+	source = git+https://github.com/OpenBoard-org/OpenBoard.git#branch=master
+	sha256sums = SKIP
+
+pkgname = openboard-git

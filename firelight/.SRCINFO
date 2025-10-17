@@ -1,0 +1,31 @@
+pkgbase = firelight
+	pkgdesc = A libretro-based frontend
+	pkgver = 0.12.2
+	pkgrel = 2
+	url = https://github.com/firelight-emulator/firelight
+	arch = x86_64
+	license = GPL3
+	makedepends = cmake
+	makedepends = clang
+	makedepends = clang-tools-extra
+	makedepends = gettext
+	makedepends = git
+	makedepends = gtest
+	makedepends = ninja
+	depends = cpr
+	depends = ffmpeg
+	depends = libarchive
+	depends = nlohmann-json
+	depends = qt6-base
+	depends = qt6-tools
+	depends = sdl2
+	depends = spdlog
+	depends = vulkan-headers
+	source = firelight::git+https://github.com/firelight-emulator/firelight.git#tag=v0.12.2
+	source = firelight.desktop
+	source = CMakeLists.patch
+	sha256sums = SKIP
+	sha256sums = 3cdb9183d4c875831ccd0dd859ffa915fc8d64032d076aefa0f8cf8d88e8f0b3
+	sha256sums = 6a0582ad0469c7b898c6d46e35fa8b9eb3c8345274381071ec2f4ef53267eac1
+
+pkgname = firelight

@@ -1,0 +1,39 @@
+# Maintainer: Christopher Cooper <christopher@cg505.com>
+pkgname=cursor-cli
+# extracted from https://cursor.com/install (managed by 'update-pkgver.sh')
+_upstream_ver='2025.10.02-bd871ac'
+# Baseline pkgver; update using './update-pkgver.sh'
+pkgver=2025.10.02.1.bd871ac
+pkgrel=3
+epoch=1
+pkgdesc="Cursor Agent CLI - AI-powered code assistant"
+arch=('x86_64' 'aarch64')
+url="https://cursor.com"
+license=('LicenseRef-Cursor')
+depends=('gcc-libs' 'bash' 'glibc' 'nodejs' 'ripgrep')
+source=('Cursor-TOS')
+source_x86_64=("cursor-cli-${_upstream_ver}-x86_64.tar.gz::https://downloads.cursor.com/lab/${_upstream_ver}/linux/x64/agent-cli-package.tar.gz")
+source_aarch64=("cursor-cli-${_upstream_ver}-aarch64.tar.gz::https://downloads.cursor.com/lab/${_upstream_ver}/linux/arm64/agent-cli-package.tar.gz")
+b2sums=('7079c023e03ea4d78b067ed0f22b5cc1982c306721b2ea6be3c7f73bbbe0e8f05b148fd6571902b838464ee80a787ef7be73135c622f0a4fdb16c38429ced8d6')
+b2sums_x86_64=('8cbc58234ed52955753535a5106b1b0a1307d7de8b6e25ae64153276cb6feb3ffee52544593af5a869123df4c086d6cd8d4920e9620e54589b5ae64598a1c0f2')
+b2sums_aarch64=('25a430cd7c826c648966a002572e411196c25a2894058dfb492f65191c0f8d1917f3569c6e5bfe73c941fcffb101d8e07d5889e10c97a2ee99d56cc77a4427b3')
+
+package() {
+    # Create necessary directories
+    install -dm755 "${pkgdir}/opt/cursor-agent"
+    install -dm755 "${pkgdir}/usr/bin"
+
+    # Copy all files from the extracted package
+    cp -r "${srcdir}"/dist-package/* "${pkgdir}/opt/cursor-agent/"
+
+	# Replace node and rg with system versions
+	ln -sf "/usr/bin/node" "${pkgdir}/opt/cursor-agent/node"
+	ln -sf "/usr/bin/rg" "${pkgdir}/opt/cursor-agent/rg"
+
+    # Create symlink in /usr/bin
+    ln -s "/opt/cursor-agent/cursor-agent" "${pkgdir}/usr/bin/cursor-agent"
+
+	# Install license
+	# This is downloaded from https://cursor.com/terms-of-service
+	install -Dm644 Cursor-TOS "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+}

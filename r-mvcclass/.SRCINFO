@@ -1,0 +1,13 @@
+pkgbase = r-mvcclass
+	pkgdesc = Model-View-Controller (MVC) Classes
+	pkgver = 1.82.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/MVCClass
+	arch = any
+	license = LGPL-2.0-or-later
+	depends = r
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/MVCClass_1.82.0.tar.gz
+	md5sums = 23b166db6ea26cebad092bacd082ee2f
+	b2sums = 2a57160f10f38f48df4ec041abad0b143baaba160ca188f7779c6a60090f9bdaaea21273248e45e27cc3a2c0ae44379dbc31f7b9d688f28c44d3fef33203308e
+
+pkgname = r-mvcclass

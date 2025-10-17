@@ -1,0 +1,13 @@
+pkgbase = visd-git
+	pkgdesc = Use vim and ex mode as a stream editor
+	pkgver = 9
+	pkgrel = 1
+	url = https://github.com/icasdri/visd
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = vim
+	source = git+https://github.com/icasdri/visd.git
+	sha256sums = SKIP
+
+pkgname = visd-git

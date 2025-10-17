@@ -1,0 +1,21 @@
+pkgbase = python-certomancer-csc-dummy
+	pkgdesc = A Certomancer-based demo CSC server for integration tests
+	pkgver = 0.4.1
+	pkgrel = 1
+	url = https://github.com/MatthiasValvekens/certomancer-csc-dummy
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	depends = python-asn1crypto
+	depends = python-cryptography
+	depends = certomancer
+	depends = python-aiohttp
+	depends = python-pae
+	source = certomancer-csc-dummy-0.4.1.tar.gz::https://github.com/MatthiasValvekens/certomancer-csc-dummy/archive/0.4.1.tar.gz
+	sha512sums = b1cb976debb2ad063c18a45e961235fa0a24a1f1f26e26e296326ec1c106656e1bd4557e677bf8b4023277f5906a33f51b5eb83207cde72916d7c2f445b31b55
+
+pkgname = python-certomancer-csc-dummy

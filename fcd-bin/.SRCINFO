@@ -1,0 +1,19 @@
+pkgbase = fcd-bin
+	pkgdesc = Text mode file manager combining the best features of ranger and mc
+	pkgver = 1.0.1
+	pkgrel = 2
+	url = https://github.com/bugnano/fcd
+	arch = x86_64
+	arch = aarch64
+	license = GPL-3.0-or-later
+	depends = glibc
+	optdepends = archivefs: compressed archive support
+	provides = fcd
+	conflicts = fcd
+	replaces = rnr-fm
+	source_x86_64 = https://github.com/bugnano/fcd/releases/download/1.0.1/fcd-Linux-x86_64.tar.gz
+	sha256sums_x86_64 = df3ed819f81e15e2831df56504849f5934f52239393dba4689b808b5fed2a888
+	source_aarch64 = https://github.com/bugnano/fcd/releases/download/1.0.1/fcd-Linux-arm64.tar.gz
+	sha256sums_aarch64 = 1e5b68ad19c1efd51822f042236a5daa4318d180d02574574d9401c8d5a5c081
+
+pkgname = fcd-bin

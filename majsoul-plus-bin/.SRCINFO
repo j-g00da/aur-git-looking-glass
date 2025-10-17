@@ -1,0 +1,25 @@
+pkgbase = majsoul-plus-bin
+	pkgdesc = Majsoul browser (Binary)
+	pkgver = 2.0.1
+	pkgrel = 1
+	url = https://github.com/MajsoulPlus/majsoul-plus
+	arch = i686
+	arch = x86_64
+	license = AGPL-3.0
+	makedepends = imagemagick
+	depends = gtk3
+	depends = libxss
+	depends = nss
+	optdepends = kde-cli-tools: file deletion support (kioclient5)
+	optdepends = trash-cli: file deletion support (trash-put)
+	optdepends = xdg-utils: open URLs with desktop's default (xdg-email, xdg-open)
+	provides = majsoul-plus
+	conflicts = majsoul-plus
+	source = https://raw.githubusercontent.com/MajsoulPlus/majsoul-plus/master/assets/bin/icons/icon.png
+	sha256sums = be6005b9ae4238d53fcd9fe728a4985502c660adb670d3047b17da4a35f6fe31
+	source_i686 = majsoul-plus-bin-2.0.1-i686.tar.gz::https://github.com/MajsoulPlus/majsoul-plus/releases/download/v2.0.1/Majsoul_Plus-2.0.1-linux-ia32.tar.gz
+	sha256sums_i686 = 207d2755cc15a3f6e837d57982212b05e0ce05690e0b5e10c93d3612b21ae130
+	source_x86_64 = majsoul-plus-bin-2.0.1-x86_64.tar.gz::https://github.com/MajsoulPlus/majsoul-plus/releases/download/v2.0.1/Majsoul_Plus-2.0.1-linux-x64.tar.gz
+	sha256sums_x86_64 = 5f865dbb441fa80b29f4fcf05425dc00f4c0f3fb0b4f5011337324846138ff7b
+
+pkgname = majsoul-plus-bin

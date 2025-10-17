@@ -1,0 +1,18 @@
+pkgbase = qed-git
+	pkgdesc = A new, improved, port of the Qed editor for Unix, with UTF-8 processing
+	pkgver = r29.69fe7a6
+	pkgrel = 1
+	epoch = 1
+	url = https://github.com/phonologus/qed-new
+	arch = i686
+	arch = x86_64
+	license = unknown
+	makedepends = git
+	provides = qed
+	conflicts = qed
+	source = qed-git::git+https://github.com/phonologus/qed-new
+	source = git+https://github.com/phonologus/QED
+	md5sums = SKIP
+	md5sums = SKIP
+
+pkgname = qed-git

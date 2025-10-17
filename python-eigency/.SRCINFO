@@ -1,0 +1,18 @@
+pkgbase = python-eigency
+	pkgdesc = Cython interface between the numpy arrays and the Matrix/Array classes of the Eigen C++ library
+	pkgver = 3.4.0.4
+	pkgrel = 1
+	url = https://github.com/wouterboomsma/eigency
+	arch = x86_64
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools-scm
+	makedepends = python-wheel
+	makedepends = cython
+	depends = eigen
+	depends = python-numpy
+	source = eigency-3.4.0.4.tar.gz::https://github.com/wouterboomsma/eigency/archive/3.4.0.4.tar.gz
+	sha512sums = 374c0f127f9e19b0f7220571159a00dac724ac5afd2b54a0652b31616c8e10d64d270b10b5b5967f27d01460afd8acfd9338695ada7cdadcd89e0bbe4217cab1
+
+pkgname = python-eigency

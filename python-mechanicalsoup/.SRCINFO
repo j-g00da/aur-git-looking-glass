@@ -1,0 +1,19 @@
+pkgbase = python-mechanicalsoup
+	pkgdesc = A Python library for automating interaction with websites
+	pkgver = 1.4.0
+	pkgrel = 1
+	url = https://github.com/hickford/MechanicalSoup
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python
+	depends = python-beautifulsoup4
+	depends = python-requests
+	depends = python-six
+	depends = python-lxml
+	source = https://github.com/hickford/MechanicalSoup/archive/v1.4.0.tar.gz
+	sha512sums = ea5f4c0ea9ccc4437503172d573a3e5353a666c6b85c9f0b7b7cdb4bc47d3da9af4345bc0299d26ae1027b795bc61a9e045c0a70241f0b0596725b370ebe35e3
+
+pkgname = python-mechanicalsoup

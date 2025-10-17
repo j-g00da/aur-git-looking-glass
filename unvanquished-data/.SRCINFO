@@ -1,0 +1,12 @@
+pkgbase = unvanquished-data
+	pkgdesc = Game assets for Unvanquished
+	pkgver = 0.55.5
+	pkgrel = 1
+	url = https://www.unvanquished.net
+	arch = any
+	license = CC-BY-SA-2.5
+	makedepends = aria2
+	source = https://cdn.unvanquished.net/unvanquished_0.55.5.torrent
+	sha256sums = e343339fe747958a8381d33da0b246ec93f1cb595642bacd4c318ed89ca4f43b
+
+pkgname = unvanquished-data

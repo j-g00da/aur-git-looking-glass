@@ -1,0 +1,19 @@
+pkgbase = rustdesk-appimage
+	pkgdesc = Yet another remote desktop software, written in Rust. Works out of the box, no configuration required.
+	pkgver = 1.4.2
+	pkgrel = 1
+	url = https://github.com/rustdesk/rustdesk
+	arch = x86_64
+	arch = aarch64
+	license = AGPL-3.0-only
+	optdepends = libappindicator-gtk3: tray icon
+	optdepends = libayatana-appindicator: tray icon
+	provides = rustdesk
+	conflicts = rustdesk
+	options = !strip
+	source_x86_64 = rustdesk-1.4.2-1-x86_64.AppImage::https://github.com/rustdesk/rustdesk/releases/download/1.4.2/rustdesk-1.4.2-x86_64.AppImage
+	sha256sums_x86_64 = 69ccb9387c87f158c4b1c4aecb981407a23dc5aa4684b1502675b37d32693d54
+	source_aarch64 = rustdesk-1.4.2-1-aarch64.AppImage::https://github.com/rustdesk/rustdesk/releases/download/1.4.2/rustdesk-1.4.2-aarch64.AppImage
+	sha256sums_aarch64 = 7ee4ff8ebb898d3144e5c96b61ed15acafe05ae992c39a21a8e276513909243d
+
+pkgname = rustdesk-appimage

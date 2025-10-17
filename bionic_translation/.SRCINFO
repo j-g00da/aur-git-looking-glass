@@ -1,0 +1,21 @@
+pkgbase = bionic_translation
+	pkgdesc = A set of libraries for loading bionic-linked .so files on musl/glibc
+	pkgver = r107.026ea254
+	pkgrel = 1
+	url = https://gitlab.com/android_translation_layer/bionic_translation
+	arch = x86_64
+	arch = aarch64
+	arch = armv7h
+	license = MIT
+	makedepends = elfutils
+	makedepends = mesa
+	makedepends = meson
+	depends = bubblewrap
+	depends = glibc
+	depends = libbsd
+	depends = libglvnd
+	depends = libunwind
+	source = bionic_translation-026ea2542258a7e0cbb52f22d7475aea68cbcbf5.tar.gz::https://gitlab.com/android_translation_layer/bionic_translation/-/archive/026ea2542258a7e0cbb52f22d7475aea68cbcbf5/bionic_translation-026ea2542258a7e0cbb52f22d7475aea68cbcbf5.tar.gz
+	sha256sums = 84883fd65c29ca8f3d9b58d0f41b594a5e85d03c00fb0eb28c84dfba3b93b0a1
+
+pkgname = bionic_translation

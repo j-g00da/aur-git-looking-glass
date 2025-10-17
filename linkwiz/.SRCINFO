@@ -1,0 +1,16 @@
+pkgbase = linkwiz
+	pkgdesc = A tool that lets users select their preferred browser for opening links.
+	pkgver = 0.4.0
+	pkgrel = 1
+	url = https://github.com/icealtria/linkwiz
+	arch = x86_64
+	license = GPL3
+	makedepends = cargo
+	depends = gcc-libs
+	depends = glibc
+	source = linkwiz-0.4.0.tar.gz::https://github.com/icealtria/linkwiz/archive/0.4.0.tar.gz
+	source = https://raw.githubusercontent.com/icealtria/linkwiz/main/Linkwiz.desktop
+	sha256sums = bffbdb7b64446a6e1ba744180758d2408c2f275214d09ec2894928e740b6daf9
+	sha256sums = 3532bc9e5e7f7393b38bc539eb7b6451c0c33951aae79906fb6d4926eec1e027
+
+pkgname = linkwiz

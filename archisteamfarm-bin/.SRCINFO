@@ -1,0 +1,18 @@
+pkgbase = archisteamfarm-bin
+	pkgdesc = C# application that allows you to farm steam cards using multiple steam accounts simultaneously.
+	pkgver = 6.1.7.8
+	pkgrel = 1
+	url = https://github.com/JustArchiNET/ArchiSteamFarm
+	arch = x86_64
+	license = Apache
+	makedepends = unzip
+	makedepends = curl
+	makedepends = jq
+	depends = dotnet-runtime
+	noextract = archisteamfarm-6.1.7.8.zip
+	options = !strip
+	options = staticlibs
+	source = archisteamfarm-6.1.7.8.zip::https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/6.1.7.8/ASF-linux-x64.zip
+	sha512sums = e41364b254b5b9a9cf5a6ae8b8bfd2b66ef2fe1160eccf270198f0854f71b7b2a200f1a61cabe52f26245935d3ad986cf13f9bbf2e9067ab338078f1caa4d8c2
+
+pkgname = archisteamfarm-bin

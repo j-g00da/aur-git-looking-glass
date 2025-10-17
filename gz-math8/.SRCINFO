@@ -1,0 +1,22 @@
+pkgbase = gz-math8
+	pkgdesc = General purpose math library for robot applications.
+	pkgver = 8.2.0
+	pkgrel = 1
+	url = https://github.com/gazebosim/gz-math
+	arch = any
+	license = Apache-2.0
+	makedepends = cmake
+	makedepends = doxygen
+	makedepends = gz-cmake=4
+	makedepends = pybind11
+	makedepends = python
+	makedepends = ruby
+	makedepends = swig
+	depends = eigen
+	depends = gz-utils=3
+	provides = gz-math=8
+	conflicts = gz-math
+	source = https://github.com/gazebosim/gz-math/archive/gz-math8_8.2.0.tar.gz
+	sha256sums = 6a6e9af99378b4ab81392bd8ad58be1c611f917c669c981b39cf20fc03d412f4
+
+pkgname = gz-math8

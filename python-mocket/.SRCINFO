@@ -1,0 +1,19 @@
+pkgbase = python-mocket
+	pkgdesc = Socket Mock Framework - for all kinds of socket animals, web-clients included - with gevent/asyncio/SSL support
+	pkgver = 3.13.11
+	pkgrel = 1
+	url = https://github.com/mindflayer/python-mocket
+	arch = any
+	license = BSD
+	makedepends = python-hatchling
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python-decorator>=4.0.0
+	depends = python-h11
+	depends = python-typing_extensions
+	depends = python-urllib3
+	source = https://github.com/mindflayer/python-mocket/archive/3.13.11/python-mocket-3.13.11.tar.gz
+	sha512sums = 2c7a9c4306c235c464a621fa345922a3bcafb18589ef47ca25626668aa9a89baf6bfa327182a211427797a43ae9c1c269e7b256bb5befd310943b63a43fef818
+
+pkgname = python-mocket

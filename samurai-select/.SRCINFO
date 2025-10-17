@@ -1,0 +1,17 @@
+pkgbase = samurai-select
+	pkgdesc = A screen selection tool for wayland compositors using the layer shell
+	pkgver = 1.24.1
+	pkgrel = 1
+	url = https://github.com/Samudevv/samurai-select
+	arch = x86_64
+	arch = aarch64
+	license = ZLIB
+	makedepends = go
+	makedepends = scdoc
+	makedepends = gzip
+	depends = samurai-render
+	optdepends = grim: Required to take screenshots with the -s|--screenshot flag
+	source = samurai-select-1.24.1::https://github.com/Samudevv/samurai-select/archive/refs/tags/v1.24.1.tar.gz
+	sha256sums = a4598e903c6e2ef89bbe3474ad880cfbe0ff3aa0f6448720bd199902361fe867
+
+pkgname = samurai-select

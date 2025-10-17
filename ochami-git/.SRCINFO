@@ -1,0 +1,25 @@
+pkgbase = ochami-git
+	pkgdesc = Command line interface for OpenCHAMI services
+	pkgver = v0.0.7.r0.ca7625f
+	pkgrel = 1
+	url = https://github.com/OpenCHAMI/ochami
+	arch = aarch64
+	arch = x86_64
+	groups = openchami
+	license = MIT
+	makedepends = git
+	makedepends = go
+	makedepends = inetutils
+	makedepends = make
+	makedepends = scdoc
+	optdepends = bash-completion: for bash completion support
+	optdepends = jq: for pretty-printing JSON
+	optdepends = zsh-completions: for zsh completion support
+	provides = ochami
+	conflicts = ochami
+	conflicts = ochami-bin
+	backup = etc/ochami/config.yaml
+	source = git+https://github.com/OpenCHAMI/ochami
+	sha256sums = SKIP
+
+pkgname = ochami-git

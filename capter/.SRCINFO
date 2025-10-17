@@ -1,0 +1,23 @@
+pkgbase = capter
+	pkgdesc = Cross-Platform Screen Capture and Annotation Tool
+	pkgver = 4.0.1
+	pkgrel = 1
+	url = https://github.com/decipher3114/Capter
+	arch = x86_64
+	license = Apache-2.0
+	makedepends = base-devel
+	makedepends = clang
+	makedepends = libxcb
+	makedepends = libxrandr
+	makedepends = dbus
+	makedepends = libpipewire
+	makedepends = xdotool
+	makedepends = gtk3
+	depends = libayatana-appindicator
+	provides = capter
+	conflicts = capter-bin
+	replaces = capter
+	source = capter::git+https://github.com/decipher3114/Capter.git
+	sha512sums = SKIP
+
+pkgname = capter

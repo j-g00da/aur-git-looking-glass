@@ -1,0 +1,18 @@
+pkgbase = lunarml-git
+	pkgdesc = A Standard ML compiler that produces Lua/JavaScript
+	pkgver = v0.2.1.r4.g9e5351f
+	pkgrel = 1
+	url = https://github.com/minoki/LunarML.git
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = make
+	makedepends = mlton
+	makedepends = lua
+	depends = gmp
+	depends = glibc
+	provides = lunarml
+	source = lunarml-git::git+https://github.com/minoki/LunarML.git
+	md5sums = SKIP
+
+pkgname = lunarml-git

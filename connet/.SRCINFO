@@ -1,0 +1,14 @@
+pkgbase = connet
+	pkgdesc = A P2P reverse proxy with NAT traversal
+	pkgver = 0.6.3
+	pkgrel = 1
+	url = https://github.com/connet-dev/connet
+	arch = x86_64
+	arch = aarch64
+	license = Apache-2.0
+	makedepends = go
+	depends = glibc
+	source = connet-0.6.3.tar.gz::https://github.com/connet-dev/connet/archive/v0.6.3.tar.gz
+	sha256sums = f38b5544f939fabe130b5163d5b30e60c02658e98ff0baf6266e3af6f1adf076
+
+pkgname = connet

@@ -1,0 +1,26 @@
+pkgbase = tessen
+	pkgdesc = An interactive menu to autotype and copy password-store and gopass data
+	pkgver = 2.2.3
+	pkgrel = 1
+	url = https://sr.ht/~ayushnix/tessen/
+	install = tessen.install
+	arch = any
+	license = GPL2
+	makedepends = scdoc
+	optdepends = pass: supported pass backend
+	optdepends = gopass: supported pass backend
+	optdepends = wtype: to autotype data
+	optdepends = wl-clipboard: to copy data
+	optdepends = libnotify: to send notifications about copied data
+	optdepends = fuzzel: wayland native dmenu backend
+	optdepends = tofi: wayland native dmenu backend
+	optdepends = bemenu: wayland native dmenu backend
+	optdepends = yofi: wayland native dmenu backend
+	optdepends = wofi: wayland native dmenu backend
+	optdepends = rofi-lbonn-wayland-git: the wayland native fork of rofi
+	optdepends = pass-otp: to generate OTP
+	optdepends = xdg-utils: to open URLs in default web browser
+	source = https://git.sr.ht/~ayushnix/tessen/refs/download/v2.2.3/tessen-2.2.3.tar.gz
+	sha256sums = f38dbbacac1bbc370fa04baf119d4ff70dd6f8bb6bcb2ae7d3a56c6860bc0fbb
+
+pkgname = tessen

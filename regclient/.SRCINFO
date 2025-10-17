@@ -1,0 +1,21 @@
+pkgbase = regclient
+	pkgdesc = Docker and OCI Registry tooling - regctl / regsync / regbot
+	pkgver = 0.9.0
+	pkgrel = 1
+	url = https://github.com/regclient/regclient
+	arch = x86_64
+	arch = aarch64
+	license = Apache-2.0
+	makedepends = go
+	depends = glibc
+	source = https://github.com/regclient/regclient/archive/v0.9.0/regclient-0.9.0.tar.gz
+	sha256sums = 3bd9e7ad3e3b99d9d11303597a1ce36f7c96d3c84562af47fa6ff552ed869b71
+
+pkgname = regclient-regctl
+	pkgdesc = Utility for accessing docker registries
+
+pkgname = regclient-regsync
+	pkgdesc = Utility for mirroring docker repositories
+
+pkgname = regclient-regbot
+	pkgdesc = Utility for automating repository actions

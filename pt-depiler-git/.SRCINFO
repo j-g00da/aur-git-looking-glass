@@ -1,0 +1,18 @@
+pkgbase = pt-depiler-git
+	pkgdesc = A web extension that can improve the efficiency of PT sites, based on PT-Plugin-Plus and Manifest v3.
+	pkgver = 0.0.5.1020
+	pkgrel = 1
+	url = https://github.com/pt-plugins/PT-depiler
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = jq
+	makedepends = pnpm
+	optdepends = edge-stable
+	optdepends = google-chrome
+	provides = pt-depiler
+	conflicts = pt-depiler
+	source = pt-depiler::git+https://github.com/pt-plugins/PT-depiler.git#branch=master
+	sha256sums = SKIP
+
+pkgname = pt-depiler-git

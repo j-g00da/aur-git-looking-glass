@@ -1,0 +1,16 @@
+pkgbase = minetest-proxima-survival
+	pkgdesc = Survival on Proxima Centauri B. Work in Progress!
+	pkgver = 0.1.1
+	pkgrel = 1
+	epoch = 2
+	url = https://content.minetest.net/packages/debiankaios/proxima_survival/
+	arch = any
+	license = GPLv3
+	makedepends = unzip
+	depends = minetest-common
+	noextract = proxima_survival-0.1.1.zip
+	options = !strip
+	source = proxima_survival-0.1.1.zip::https://content.minetest.net/packages/debiankaios/proxima_survival/releases/16508/download/
+	sha256sums = 563107f50b7403f7d312fcb58eb5d58457de95cd36c7b29714b9a5a1954c73ce
+
+pkgname = minetest-proxima-survival

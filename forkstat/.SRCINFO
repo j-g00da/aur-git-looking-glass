@@ -1,0 +1,13 @@
+pkgbase = forkstat
+	pkgdesc = logs process fork(), exec() and exit() activity.
+	pkgver = 0.03.02
+	pkgrel = 1
+	url = https://github.com/ColinIanKing/forkstat
+	arch = x86_64
+	license = GPL2
+	makedepends = make
+	makedepends = gcc
+	source = https://github.com/ColinIanKing/forkstat/archive/V0.03.02.tar.gz
+	sha256sums = eaa4d69d674cf8871db01272d1d7d82005cc5595f83ed948e5fd24d571c78cd2
+
+pkgname = forkstat

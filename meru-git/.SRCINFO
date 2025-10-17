@@ -1,0 +1,21 @@
+pkgbase = meru-git
+	pkgdesc = 📮 Nifty Gmail desktop app for macOS, Linux & Windows (previously Gmail Desktop).(Use system-wide electron)
+	pkgver = 3.10.1.r0.g8842f1d
+	pkgrel = 1
+	url = https://github.com/zoidsh/meru
+	arch = any
+	license = MIT
+	makedepends = bun
+	makedepends = git
+	makedepends = nvm
+	makedepends = gendesk
+	makedepends = curl
+	depends = electron38
+	provides = meru=3.10.1
+	conflicts = meru
+	source = meru.git::git+https://github.com/zoidsh/meru.git
+	source = meru.sh
+	sha256sums = SKIP
+	sha256sums = 31ad33b633744f5361abd964be306cea53ae1050e760c787115f7eca60045ae6
+
+pkgname = meru-git

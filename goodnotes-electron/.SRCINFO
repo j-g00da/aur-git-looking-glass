@@ -1,0 +1,14 @@
+pkgbase = goodnotes-electron
+	pkgdesc = Unofficial Electron wrapper for GoodNotes web app
+	pkgver = 1.1.2
+	pkgrel = 1
+	url = https://web.goodnotes.com
+	arch = x86_64
+	license = MIT
+	makedepends = npm
+	makedepends = nodejs
+	depends = electron
+	source = https://github.com/belanasaikiran/goodnotes-electron/archive/refs/tags/1.1.2.tar.gz
+	sha256sums = dd227cc08db01a75d1e3ecdae99e850d93e66e6252b6fef847ea38e4b8c7fc87
+
+pkgname = goodnotes-electron

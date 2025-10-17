@@ -1,0 +1,14 @@
+pkgbase = tracker
+	pkgdesc = A terminal-based real-time satellite tracking and orbit prediction application
+	pkgver = 0.1.14
+	pkgrel = 1
+	url = https://github.com/ShenMian/tracker
+	arch = x86_64
+	license = Apache-2.0
+	makedepends = cargo
+	depends = gcc-libs
+	options = !lto
+	source = tracker-0.1.14.tar.gz::https://github.com/ShenMian/tracker/archive/v0.1.14.tar.gz
+	sha512sums = a002ce608eacd69f1320cb8ce825dd9948c5367690831f18b72162294cfa9ec24a2dca9046b3bf88a46e17fe11fff83e9a35ac2dcffb5cadb72b279f139f83ad
+
+pkgname = tracker

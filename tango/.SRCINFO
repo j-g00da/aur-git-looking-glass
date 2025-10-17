@@ -1,0 +1,20 @@
+pkgbase = tango
+	pkgdesc = Tango Controls a toolkit for controlling any kind of hardware or software and building SCADA systems
+	pkgver = 9.5.0
+	pkgrel = 1
+	url = http://www.tango-controls.org/
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	depends = jre8-openjdk
+	depends = mysql
+	depends = doxygen
+	depends = zeromq
+	depends = omniorb
+	depends = binutils
+	depends = tango-idl
+	depends = cppzmq
+	source = cppTango-9.5.0.tar.gz::https://gitlab.com/tango-controls/cppTango/-/archive/9.5.0/cppTango-9.5.0.tar.gz
+	md5sums = 5448a2a09c817a841a1c8435f0af8288
+
+pkgname = tango

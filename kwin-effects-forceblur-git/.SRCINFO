@@ -1,0 +1,27 @@
+pkgbase = kwin-effects-forceblur-git
+	pkgdesc = KWin Blur effect fork with window class force blur feature (Wayland & X11)
+	pkgver = r366.5feff4aac
+	pkgrel = 2
+	url = https://github.com/taj-ny/kwin-effects-forceblur
+	install = kwin-effects-forceblur-git.install
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = git
+	makedepends = extra-cmake-modules
+	makedepends = qt6-tools
+	makedepends = kwin
+	makedepends = kwin-x11
+	depends = kio
+	depends = knotifications
+	depends = kcrash
+	depends = kglobalaccel
+	depends = kcmutils
+	depends = libepoxy
+	optdepends = kwin-x11: for X11
+	optdepends = kwin: for Wayland
+	provides = kwin-effects-forceblur
+	conflicts = kwin-effects-forceblur
+	source = kwin-effects-forceblur-git::git+https://github.com/taj-ny/kwin-effects-forceblur.git
+	sha256sums = SKIP
+
+pkgname = kwin-effects-forceblur-git

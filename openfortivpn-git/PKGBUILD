@@ -1,0 +1,57 @@
+# Maintainer: asamk
+# Contributor: envolution
+# Contributor: Olliver Schinagl <oliver@schinagl.nl>
+# Contributor: Maxime Gauduin <alucryd@archlinux.org>
+# Contributor: Bartłomiej Piotrowski <bpiotrowski@archlinux.org>
+pkgname=openfortivpn-git
+_pkgname=openfortivpn
+pkgver=1.23.0+r4+g27517e0
+pkgrel=1
+pkgdesc="An open implementation of Fortinet's proprietary PPP+SSL VPN solution"
+arch=(x86_64)
+url=https://github.com/adrienverge/openfortivpn
+license=(GPL-3.0-only)
+depends=(
+  glibc
+  openssl
+  ppp
+  resolvconf
+  systemd-libs
+)
+makedepends=(
+  git
+  systemd
+)
+provides=('openfortivpn')
+conflicts=('openfortivpn')
+backup=(etc/openfortivpn/config)
+source=(git+https://github.com/adrienverge/openfortivpn.git)
+sha256sums=('SKIP')
+
+prepare() {
+  cd openfortivpn
+  autoreconf -fiv
+}
+
+pkgver(){
+  cd "${srcdir}/openfortivpn"
+  ( set -o pipefail
+    git describe --long --tags 2>/dev/null | sed 's/\([^-]*-g\)/r\1/;s/-/+/g;s/v//' ||
+    printf "r%s+%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+  )
+}
+
+build() {
+  cd openfortivpn
+  ./configure \
+    --prefix=/usr \
+    --sysconfdir=/etc \
+    --enable-resolvconf
+  make
+}
+
+package() {
+  make DESTDIR="${pkgdir}" -C openfortivpn install
+}
+
+# vim: ts=2 sw=2 et:

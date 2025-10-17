@@ -1,0 +1,20 @@
+pkgbase = vcvrack-not-things
+	pkgdesc = not-things VCV Rack modules
+	pkgver = 2.0.5
+	pkgrel = 1
+	url = https://github.com/not-things-modular/not-things-vcv
+	arch = aarch64
+	arch = x86_64
+	groups = pro-audio
+	groups = vcvrack-plugins
+	license = GPL-3.0-or-later
+	makedepends = git
+	makedepends = nlohmann-json
+	makedepends = simde
+	makedepends = zstd
+	depends = gcc-libs
+	depends = vcvrack
+	source = git+https://github.com/not-things-modular/not-things-vcv#tag=v2.0.5
+	sha256sums = 272d41edd4e62bdfa3d47a43af87419fcc690bb9ce0fa00940938dada6731ce2
+
+pkgname = vcvrack-not-things

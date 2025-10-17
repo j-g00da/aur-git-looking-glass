@@ -1,0 +1,17 @@
+pkgbase = r-nanostringdiff
+	pkgdesc = Differential Expression Analysis of NanoString nCounter Data
+	pkgver = 1.38.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/NanoStringDiff
+	arch = x86_64
+	license = GPL
+	depends = r
+	depends = r-biobase
+	depends = r-matrixstats
+	depends = r-rcpp
+	optdepends = r-biocstyle
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/NanoStringDiff_1.38.0.tar.gz
+	sha256sums = e80943be4e9a15cb5e012fe592c6b392907bd4d64f268c2e431dfab9c0cede4d
+
+pkgname = r-nanostringdiff

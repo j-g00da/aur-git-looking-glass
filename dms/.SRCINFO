@@ -1,0 +1,18 @@
+pkgbase = dms
+	pkgdesc = UPnP DLNA Digital Media Server
+	pkgver = 1.7.2
+	pkgrel = 1
+	url = https://github.com/anacrolix/dms/
+	arch = x86_64
+	arch = i686
+	arch = arm
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = BSD
+	makedepends = go
+	depends = glibc
+	source = dms-1.7.2.tar.gz::https://github.com/anacrolix/dms/archive/v1.7.2.tar.gz
+	sha256sums = 696f49409e4b079ca76ed0b836134f5d34558027ca1346b4d224353151def0d9
+
+pkgname = dms

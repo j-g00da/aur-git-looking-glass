@@ -1,0 +1,14 @@
+pkgbase = noauto_mounter
+	pkgdesc = auto mount local and nfs noauto fstab mounts
+	pkgver = 0.5.r3.g05f3ce2
+	pkgrel = 2
+	url = https://github.com/longranger/noauto_mounter
+	install = noauto_mounter.install
+	arch = x86_64
+	license = GPL
+	makedepends = git
+	source = noauto_mounter-0.5.r3.g05f3ce2::git://github.com/longranger/noauto_mounter.git
+	md5sums = SKIP
+
+pkgname = noauto_mounter
+

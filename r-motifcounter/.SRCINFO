@@ -1,0 +1,19 @@
+pkgbase = r-motifcounter
+	pkgdesc = R package for analysing TFBSs in DNA sequences
+	pkgver = 1.32.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/motifcounter
+	arch = x86_64
+	license = GPL
+	depends = r
+	depends = r-biostrings
+	optdepends = r-knitr
+	optdepends = r-motifdb
+	optdepends = r-prettydoc
+	optdepends = r-rmarkdown
+	optdepends = r-seqlogo
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/motifcounter_1.32.0.tar.gz
+	sha256sums = 9b01efac395577df204c83eada223b29717ad898f4ddb1f4d9a99b6359f18ea7
+
+pkgname = r-motifcounter

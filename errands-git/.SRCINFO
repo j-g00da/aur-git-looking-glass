@@ -1,0 +1,26 @@
+pkgbase = errands-git
+	pkgdesc = Todo application for those who prefer simplicity.
+	pkgver = r2015.c37d711
+	pkgrel = 1
+	url = https://github.com/mrvladus/Errands
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = meson
+	makedepends = ninja
+	makedepends = git
+	makedepends = cmake
+	depends = gtk4
+	depends = libadwaita
+	depends = libportal
+	depends = libical
+	depends = gtksourceview5
+	depends = json-glib
+	depends = curl
+	depends = libxml2
+	depends = webkitgtk-6.0
+	depends = cmark
+	source = git+https://github.com/mrvladus/Errands.git
+	md5sums = SKIP
+
+pkgname = errands-git

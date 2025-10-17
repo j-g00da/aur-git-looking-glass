@@ -1,0 +1,19 @@
+pkgbase = idris2-lsp-git
+	pkgdesc = Language Server for Idris2
+	pkgver = latest
+	pkgrel = 3
+	url = https://github.com/idris-community/idris2-lsp
+	arch = x86_64
+	license = custom:BSD
+	makedepends = git
+	makedepends = idris2-lsp-lib-git
+	depends = idris2
+	depends = sh
+	provides = idris2-lsp
+	conflicts = idris2-lsp
+	source = idris2-lsp::git+https://github.com/idris-community/idris2-lsp.git
+	source = idris2::git+https://github.com/idris-lang/Idris2.git
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = idris2-lsp-git

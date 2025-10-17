@@ -1,0 +1,21 @@
+pkgbase = gameclock-git
+	pkgdesc = Track your Game time with your friends!(Use system-wide electron)
+	pkgver = 2.6.1.r0.g2303367
+	pkgrel = 1
+	url = https://github.com/Didiloy/GameClock
+	arch = any
+	license = GPL-3.0-only
+	makedepends = npm
+	makedepends = git
+	makedepends = nvm
+	makedepends = gendesk
+	makedepends = curl
+	depends = electron29
+	provides = gameclock=2.6.1
+	conflicts = gameclock
+	source = gameclock.git::git+https://github.com/Didiloy/GameClock.git
+	source = gameclock.sh
+	sha256sums = SKIP
+	sha256sums = 31ad33b633744f5361abd964be306cea53ae1050e760c787115f7eca60045ae6
+
+pkgname = gameclock-git

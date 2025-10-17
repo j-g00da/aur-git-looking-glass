@@ -1,0 +1,25 @@
+pkgbase = sing-box-db-ruleset-ru-antizapret
+	pkgdesc = Geosite Database and Rule Sets for sing-box (RUSSIA antizapret)
+	pkgver = latest
+	pkgrel = 1
+	url = https://github.com/savely-krasovsky/antizapret-sing-box
+	arch = any
+	license = MIT
+	makedepends = curl
+	makedepends = awk
+	source = latest-geosite.db::https://github.com/savely-krasovsky/antizapret-sing-box/releases/latest/download/geosite.db
+	source = latest-geosite.db.sha256sum::https://github.com/savely-krasovsky/antizapret-sing-box/releases/latest/download/geosite.db.sha256sum
+	source = latest-geoip.db::https://github.com/savely-krasovsky/antizapret-sing-box/releases/latest/download/geoip.db
+	source = latest-geoip.db.sha256sum::https://github.com/savely-krasovsky/antizapret-sing-box/releases/latest/download/geoip.db.sha256sum
+	source = latest-antizapret.srs::https://github.com/savely-krasovsky/antizapret-sing-box/releases/latest/download/antizapret.srs
+	source = latest-antizapret.srs.sha256sum::https://github.com/savely-krasovsky/antizapret-sing-box/releases/latest/download/antizapret.srs.sha256sum
+	source = LICENSE::https://raw.githubusercontent.com/savely-krasovsky/antizapret-sing-box/refs/heads/master/LICENSE
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = 6160153f24af1710db67447fc3610b56daed3c4e1f4539177e1cb87db00a4499
+
+pkgname = sing-box-db-ruleset-ru-antizapret

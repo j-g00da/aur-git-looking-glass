@@ -1,0 +1,14 @@
+pkgbase = passed-git
+	pkgdesc = A simple script to modify password store entries with sed commands
+	pkgver = 0.0.1
+	pkgrel = 1
+	url = https://github.com/jreinert/passed
+	arch = any
+	depends = ruby
+	depends = pass
+	provides = passed
+	source = passed-git::git+https://github.com/jreinert/passed.git
+	sha512sums = SKIP
+
+pkgname = passed-git
+

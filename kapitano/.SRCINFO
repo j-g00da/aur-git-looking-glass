@@ -1,0 +1,21 @@
+pkgbase = kapitano
+	pkgdesc = Modern ClamAV front-end that uses gtk4/libadwaita
+	pkgver = 1.1.4
+	pkgrel = 1
+	epoch = 1
+	url = https://codeberg.org/zynequ/Kapitano
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = git
+	makedepends = meson
+	makedepends = appstream
+	depends = glib2
+	depends = gtk4
+	depends = libadwaita
+	depends = python-gobject
+	depends = clamav
+	provides = kapitano
+	source = kapitano-1.1.4.tar.gz::https://codeberg.org/zynequ/Kapitano/archive/1.1.4.tar.gz
+	sha256sums = d118d18a9f6f01aa32a4541184dc96ad77f4810529fb5c9e70089170baf2405d
+
+pkgname = kapitano

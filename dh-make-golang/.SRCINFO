@@ -1,0 +1,18 @@
+pkgbase = dh-make-golang
+	pkgdesc = debianize go library packages
+	pkgver = 0.8.0
+	pkgrel = 1
+	url = https://github.com/Debian/dh-make-golang
+	arch = x86_64
+	arch = i686
+	license = BSD
+	makedepends = go
+	makedepends = pandoc
+	makedepends = git
+	depends = git-buildpackage
+	options = !strip
+	options = !emptydirs
+	source = https://github.com/Debian/dh-make-golang/archive/v0.8.0.tar.gz
+	sha256sums = 13f86275887783984eae146c96d52ecd7e4738540df7b9b4219fc46efc619bc9
+
+pkgname = dh-make-golang

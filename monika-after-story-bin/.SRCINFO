@@ -1,0 +1,16 @@
+pkgbase = monika-after-story-bin
+	pkgdesc = A mod for the free game Doki Doki Literature Club from Team Salvato, which builds on Act 3 to create a simulator of your eternal life with Monika.
+	pkgver = 0.12.17
+	pkgrel = 10
+	url = https://github.com/adogecheems/monika-after-story-linux
+	arch = i686
+	arch = x86_64
+	license = custom
+	optdepends = monika-after-story-tr-cn: A third-party Chinese language patch for the Monika After Story.
+	provides = ddlc-mas
+	conflicts = monika-after-story
+	noextract = monika-after-story.pkg.tar.zst
+	source = monika-after-story.pkg.tar.zst::https://github.com/adogecheems/monika-after-story-linux/releases/latest/download/monika-after-story-0.12.17-10-x86_64.pkg.tar.zst
+	sha256sums = SKIP
+
+pkgname = monika-after-story-bin

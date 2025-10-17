@@ -1,0 +1,24 @@
+# Maintainer: Carlos Aznarán <caznaranl@uni.pe>
+_base=tcxreader
+pkgname=python-${_base}
+pkgdesc="Reader for Garmin's TCX file format"
+pkgver=0.4.11
+pkgrel=1
+arch=(any)
+url="https://github.com/alenrajsp/${_base}"
+license=(MIT)
+depends=(python)
+makedepends=(python-build python-installer python-poetry-core python-wheel)
+source=(https://pypi.org/packages/source/${_base::1}/${_base}/${_base}-${pkgver}.tar.gz)
+sha512sums=('a104654acb825a1f3c56633e46b5c0ee0ad4acf5ab08bb5b81cb56fc04fef3543892d96c211a627ce32acfe7b611774fc96eeb6094d46014a180114992d7e004')
+
+build() {
+  cd ${_base}-${pkgver}
+  python -m build --wheel --skip-dependency-check --no-isolation
+}
+
+package() {
+  cd ${_base}-${pkgver}
+  PYTHONPYCACHEPREFIX="${PWD}/.cache/cpython/" python -m installer --destdir="${pkgdir}" dist/*.whl
+  install -Dm 644 LICENSE -t "${pkgdir}/usr/share/licenses/${pkgname}"
+}

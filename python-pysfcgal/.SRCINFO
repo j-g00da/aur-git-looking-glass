@@ -1,0 +1,15 @@
+pkgbase = python-pysfcgal
+	pkgdesc = A Python package for segmenting geospatial data with the Segment Anything Model (SAM)
+	pkgver = 2.2.0
+	pkgrel = 1
+	url = https://gitlab.com/sfcgal/pysfcgal
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = python-setuptools
+	depends = python
+	depends = sfcgal
+	source = pysfcgal-2.2.0.tar.gz::https://gitlab.com/sfcgal/pysfcgal/-/archive/v2.2.0/pysfcgal-v2.2.0.tar.gz
+	sha256sums = b6bc1ec00d4b946fcf78c85bce111595a0a7ae6b5e463b973c20d566d747ea83
+
+pkgname = python-pysfcgal

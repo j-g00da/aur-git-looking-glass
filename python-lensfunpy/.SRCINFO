@@ -1,0 +1,23 @@
+pkgbase = python-lensfunpy
+	pkgdesc = Python wrapper for the lensfun library
+	pkgver = 1.17.0
+	pkgrel = 1
+	url = https://github.com/letmaik/lensfunpy
+	arch = x86_64
+	license = MIT
+	checkdepends = python-pytest
+	makedepends = cython
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-sphinx
+	makedepends = python-sphinx_rtd_theme
+	makedepends = python-wheel
+	depends = lensfun
+	depends = python-numpy
+	depends = python-scipy
+	optdepends = python-opencv: faster image remap
+	source = python-lensfunpy-1.17.0.tar.gz::https://github.com/letmaik/lensfunpy/archive/v1.17.0.tar.gz
+	sha512sums = 82c71558aad1339e0e9a5152ae3943e53317dc723c5cca723717dc11d755385c8106c15b8432f5a2ea336efc47f7f2e5a2c49d3d31c1ff8e25d6829a78b0ee6d
+
+pkgname = python-lensfunpy

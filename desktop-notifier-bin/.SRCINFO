@@ -1,0 +1,17 @@
+pkgbase = desktop-notifier-bin
+	pkgdesc = Application which sent a notifier when data change about a link.(Prebuilt version.Use system-wide electron)
+	pkgver = 0.0.8
+	pkgrel = 12
+	url = https://github.com/maxgfr/desktop-notifier
+	arch = x86_64
+	license = MIT
+	makedepends = fuse2
+	depends = electron23
+	provides = desktop-notifier=0.0.8
+	conflicts = desktop-notifier
+	source = desktop-notifier-0.0.8.AppImage::https://github.com/maxgfr/desktop-notifier/releases/download/0.0.8/Desktop.Notifier-0.0.7.AppImage
+	source = desktop-notifier.sh
+	sha256sums = bcde59d6d7501d990adfe88f08c9794153df98177da073b80442fab2c8d13abe
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = desktop-notifier-bin

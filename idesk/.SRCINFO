@@ -1,0 +1,19 @@
+pkgbase = idesk
+	pkgdesc = IDesk gives users icons on their desktop. Features include transparency, configurable actions to run shell commands, PNG, SVG and GIF image support, and XFT anti-aliased fonts
+	pkgver = 0.7.9
+	pkgrel = 10
+	url = https://github.com/neagix/idesk/
+	arch = x86_64
+	arch = i686
+	license = GPL
+	depends = pkgconfig
+	depends = imlib2
+	depends = libpng
+	depends = libxpm
+	depends = libxft
+	depends = gcc-libs
+	depends = librsvg
+	source = https://github.com/neagix/idesk/archive/v0.7.9.zip
+	sha256sums = fb20428a35c58a655d6183768d57f475e8569e843c472fdd651c3e43f0592b62
+
+pkgname = idesk

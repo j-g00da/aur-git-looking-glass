@@ -1,0 +1,14 @@
+pkgbase = google-crc32c
+	pkgdesc = CRC32C implementation with support for CPU-specific acceleration instructions
+	pkgver = 1.1.2
+	pkgrel = 5
+	url = https://github.com/google/crc32c
+	arch = x86_64
+	license = BSD-3-Clause
+	makedepends = cmake
+	makedepends = git
+	depends = gcc-libs
+	source = google-crc32c::git+https://github.com/google/crc32c.git#tag=2bbb3be42e20a0e6c0f7b39dc07dc863d9ffbc07
+	sha256sums = 622e752bac7eb19110e53639b1c86ae9188a4882dca8796f81eb0bcb088262f1
+
+pkgname = google-crc32c

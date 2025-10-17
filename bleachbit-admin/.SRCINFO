@@ -1,0 +1,20 @@
+pkgbase = bleachbit-admin
+	pkgdesc = Run BleachBit as root for cleaning system files.
+	pkgver = 0.1
+	pkgrel = 1
+	url = https://www.bleachbit.org/
+	arch = any
+	license = GPL3
+	depends = bleachbit
+	depends = polkit
+	depends = wmctrl
+	depends = xdotool
+	provides = bleachbit-admin
+	conflicts = bleachbit-admin
+	conflicts = bleachbit-cli
+	conflicts = bleachbit-root
+	options = !strip
+	source = https://gitlab.com/linux-stuffs/linux-goodies/-/raw/master/run-as-root/bleachbit-admin/distrib/bleachbit-admin-0.1-1.tar.gz
+	sha256sums = SKIP
+
+pkgname = bleachbit-admin

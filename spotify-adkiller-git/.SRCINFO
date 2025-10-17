@@ -1,0 +1,19 @@
+pkgbase = spotify-adkiller-git
+	pkgdesc = Your Party with Spotify - without ads!
+	pkgver = r188.416e544
+	pkgrel = 3
+	url = https://github.com/thelightstream/Spotify-AdMuter
+	arch = any
+	license = GPL3
+	makedepends = git
+	depends = libnotify
+	depends = pulse-native-provider
+	depends = spotify
+	depends = xdotool
+	depends = xorg-xprop
+	provides = spotify-adkiller
+	conflicts = spotify-adkiller
+	source = git+https://github.com/thelightstream/Spotify-AdMuter.git#branch=pactl
+	sha512sums = SKIP
+
+pkgname = spotify-adkiller-git

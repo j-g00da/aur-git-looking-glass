@@ -1,0 +1,22 @@
+pkgbase = papi
+	pkgdesc = Performance Application Programming Interface
+	pkgver = 7.2.0
+	pkgrel = 1
+	url = http://icl.cs.utk.edu/papi
+	arch = x86_64
+	arch = i686
+	arch = pentium4
+	arch = armv7h
+	arch = aarch64
+	license = BSD
+	makedepends = bash
+	depends = glibc
+	depends = gcc-fortran
+	optdepends = python
+	provides = libpfm
+	conflicts = libpfm
+	options = staticlibs
+	source = http://icl.cs.utk.edu/projects/papi/downloads/papi-7.2.0.tar.gz
+	md5sums = fc7f90ef8686d15261831fd35dfdbb1b
+
+pkgname = papi

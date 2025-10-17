@@ -1,0 +1,19 @@
+pkgbase = tget-git
+	pkgdesc = Like wget but for torrents (latest commit)
+	pkgver = 0.1.1.r6.g97ffbe2
+	pkgrel = 2
+	url = https://github.com/sweetbbak/tget
+	arch = aarch64
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = go
+	depends = gcc-libs
+	depends = glibc
+	provides = tget
+	conflicts = nodejs-tget
+	conflicts = tget
+	source = git+https://github.com/sweetbbak/tget.git
+	sha256sums = SKIP
+
+pkgname = tget-git

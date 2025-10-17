@@ -1,0 +1,18 @@
+pkgbase = r-sspaths
+	pkgdesc = ssPATHS: Single Sample PATHway Score
+	pkgver = 1.22.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/ssPATHS
+	arch = any
+	license = MIT
+	depends = r
+	depends = r-dml
+	depends = r-mess
+	depends = r-rocr
+	depends = r-summarizedexperiment
+	optdepends = r-ggplot2
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/ssPATHS_1.22.0.tar.gz
+	sha256sums = aced944e3df0e8a486e1da6a7d93e093a561075247ad5b10d3d70a885e2f2721
+
+pkgname = r-sspaths

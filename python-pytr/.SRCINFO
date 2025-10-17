@@ -1,0 +1,25 @@
+pkgbase = python-pytr
+	pkgdesc = This is a library for the private API of the Trade Republic online brokerage.
+	pkgver = 0.3.1
+	pkgrel = 0
+	url = https://github.com/pytr-org/pytr
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	depends = python-shtab
+	depends = python-babel
+	depends = python-websockets
+	depends = python-requests-futures
+	depends = python-pygments
+	depends = python-pathvalidate
+	depends = python-packaging
+	depends = python-ecdsa
+	depends = python-coloredlogs
+	depends = python-certifi
+	provides = python-pytr
+	conflicts = python-pytr
+	source = pytr-0.3.1.tar.gz::https://github.com/pytr-org/pytr/archive/refs/tags/v0.3.1.tar.gz
+	sha256sums = f621618b3ddd679698e822987c9f791344a4ae68136090d2db9325ffffe9a9f0
+
+pkgname = python-pytr

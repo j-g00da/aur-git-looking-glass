@@ -1,0 +1,20 @@
+pkgbase = uaspl-bin
+	pkgdesc = UASPL Automatizado para la Seguridad y Protección de Linux
+	pkgver = 1.2.2
+	pkgrel = 3
+	url = https://github.com/KevinCrrl/UASPL
+	arch = x86_64
+	license = GPL3
+	depends = clamav
+	depends = ufw
+	depends = rkhunter
+	depends = systemd
+	depends = sudo
+	depends = glibc
+	depends = zlib
+	source = https://github.com/KevinCrrl/UASPL/releases/download/1.2.2/uaspl-1.2.2
+	source = LICENSE
+	sha256sums = d382eddd46ece5fade84750d4ebb991e0dd8d26af67570cdf0707bd15f7ad310
+	sha256sums = SKIP
+
+pkgname = uaspl-bin

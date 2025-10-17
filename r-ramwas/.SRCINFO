@@ -1,0 +1,25 @@
+pkgbase = r-ramwas
+	pkgdesc = Fast Methylome-Wide Association Study Pipeline for Enrichment Platforms
+	pkgver = 1.32.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/ramwas
+	arch = x86_64
+	license = LGPL
+	depends = r
+	depends = r-biocgenerics
+	depends = r-biomart
+	depends = r-biostrings
+	depends = r-digest
+	depends = r-filematrix
+	depends = r-genomicalignments
+	depends = r-glmnet
+	depends = r-rsamtools
+	optdepends = r-biocstyle
+	optdepends = r-bsgenome.ecoli.ncbi.20080805
+	optdepends = r-knitr
+	optdepends = r-pander
+	optdepends = r-rmarkdown
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/ramwas_1.32.0.tar.gz
+	sha256sums = e9363c651670b9d26aaeb8ff34e3a9cbd6239ba7ed1e2e83c616bd9687efccff
+
+pkgname = r-ramwas

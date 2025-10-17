@@ -1,0 +1,14 @@
+pkgbase = python-statemachine
+	pkgdesc = Python finite-state machines made easy
+	pkgver = 2.5.0
+	pkgrel = 1
+	url = https://github.com/fgmacedo/python-statemachine
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	depends = python-pydot
+	source = python-statemachine-2.5.0.tar.gz::https://github.com/fgmacedo/python-statemachine/archive/v2.5.0.tar.gz
+	sha512sums = 79331758fe305525fd7f97e3e1a9eecc22f79e96047080a31ad8df8d033b506d39c79fa5fe9e20cc2cb63db271517842ffcdab3f1fdb9785d135d3f65dffce6d
+
+pkgname = python-statemachine

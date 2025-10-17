@@ -1,0 +1,15 @@
+pkgbase = sqlrpt-git
+	pkgdesc = For viewing and printing SQLite output, output can be processed with tbl, with nroff convenient in-terminal viewing.
+	pkgver = r20.47652d0
+	pkgrel = 1
+	url = https://github.com/jklowden/sqlrpt
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = git
+	optdepends = groff
+	conflicts = sqlrpt
+	source = sqlrpt-git::git+https://github.com/jklowden/sqlrpt
+	md5sums = SKIP
+
+pkgname = sqlrpt-git

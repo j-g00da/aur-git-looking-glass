@@ -1,0 +1,24 @@
+pkgbase = skippy-xd-git
+	pkgdesc = A full-screen task switcher for X11, similar to Overview and Exposé
+	pkgver = 2025.02.28.r66.gaf6e2a5
+	pkgrel = 2
+	url = https://github.com/felixfung/skippy-xd
+	arch = i686
+	arch = x86_64
+	license = GPL-2.0-or-later
+	makedepends = git
+	makedepends = meson
+	depends = giflib
+	depends = libjpeg
+	depends = libxcomposite
+	depends = libxdamage
+	depends = libxext
+	depends = libxft
+	depends = libxinerama
+	provides = skippy-xd=2025.02.28
+	conflicts = skippy-xd
+	backup = etc/xdg/skippy-xd.rc
+	source = felixfung.skippy-xd::git+https://github.com/felixfung/skippy-xd.git
+	sha256sums = SKIP
+
+pkgname = skippy-xd-git

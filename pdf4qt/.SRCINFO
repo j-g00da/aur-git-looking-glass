@@ -1,0 +1,31 @@
+pkgbase = pdf4qt
+	pkgdesc = Open source PDF editor
+	pkgver = 1.5.1.0
+	pkgrel = 2
+	url = https://jakubmelka.github.io/
+	arch = x86_64
+	license = LGPL-3.0-only
+	makedepends = git
+	makedepends = qt6-declarative
+	makedepends = qt6-multimedia
+	makedepends = qt6-tools
+	makedepends = cmake
+	depends = openssl
+	depends = libjpeg-turbo
+	depends = qt6-speech
+	depends = qt6-svg
+	depends = qt6-base
+	depends = openjpeg2
+	depends = onetbb
+	depends = lcms2
+	depends = blend2d
+	optdepends = flite: Text-To-Speech using flite synthesizer
+	optdepends = libspeechd: Text-To-Speech using speechd synthesizer
+	conflicts = pdf4qt
+	options = !strip
+	source = pdf4qt.git::git+https://github.com/JakubMelka/PDF4QT.git#tag=v1.5.1.0
+	source = FindLCMS2.cmake
+	sha256sums = b3e84d6ddf2bb6899dada595013fc0cfe6bcc93499d07f1419e1f40ee7c51524
+	sha256sums = 5f64f0b7a3e265cc02cbe0e968482337ed8d197a043d926d7714e938d1da9f34
+
+pkgname = pdf4qt

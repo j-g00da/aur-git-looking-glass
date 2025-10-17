@@ -1,0 +1,24 @@
+pkgbase = searx-qt
+	pkgdesc = Desktop client application for Searx/SearXNG/searx-space
+	pkgver = 0.6.1.alpha
+	pkgrel = 1
+	url = https://notabug.org/CYBERDEViL/searx-qt
+	arch = any
+	license = GPL3
+	makedepends = gettext
+	makedepends = qt5-tools
+	makedepends = python-setuptools
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = make
+	depends = python-requests
+	depends = python-pyqt5
+	depends = python-jsonschema
+	depends = python-beautifulsoup4
+	optdepends = python-pysocks: socks proxy support
+	optdepends = python-pillow: thumbnail support
+	source = searx-qt-0.6.1-alpha.tar.gz::https://notabug.org/CYBERDEViL/searx-qt/archive/0.6.1-alpha.tar.gz
+	sha512sums = a9bb5aef81ee137348f0be5bf7b8abf8068bde75a4b2aca86f51edea6447560bdeab805aacd28ac6f4b2f4c668388982c3649f783038c99163dc3b7c698f0a04
+
+pkgname = searx-qt

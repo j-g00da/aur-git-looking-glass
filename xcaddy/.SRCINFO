@@ -1,0 +1,17 @@
+pkgbase = xcaddy
+	pkgdesc = Build Caddy with plugins
+	pkgver = 0.4.5
+	pkgrel = 1
+	url = https://github.com/caddyserver/xcaddy
+	arch = i686
+	arch = x86_64
+	arch = armv7h
+	arch = aarch64
+	license = Apache-2.0
+	makedepends = git
+	depends = go
+	depends = glibc
+	source = git+https://github.com/caddyserver/xcaddy.git#tag=v0.4.5
+	sha512sums = SKIP
+
+pkgname = xcaddy

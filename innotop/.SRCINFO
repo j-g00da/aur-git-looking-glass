@@ -1,0 +1,14 @@
+pkgbase = innotop
+	pkgdesc = A powerful top clone for MySQL (MariaDB)
+	pkgver = 1.15.2
+	pkgrel = 1
+	url = https://github.com/innotop/innotop
+	arch = any
+	license = GPL-2.0-or-later
+	depends = perl-dbd-mysql
+	depends = perl-term-readkey
+	options = !emptydirs
+	source = https://github.com/innotop/innotop/archive/v1.15.2/innotop-1.15.2.tar.gz
+	sha256sums = cfedf31ba5617a5d53ff0fedc86a8578f805093705a5e96a5571d86f2d8457c0
+
+pkgname = innotop

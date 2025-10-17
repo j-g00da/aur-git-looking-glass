@@ -1,0 +1,18 @@
+pkgbase = gurk-git
+	pkgdesc = CLI client for Signal
+	pkgver = 0.7.1.r309.g4274bc9
+	pkgrel = 2
+	url = https://github.com/boxdot/gurk-rs
+	arch = x86_64
+	license = AGPL3
+	makedepends = git
+	makedepends = rust
+	makedepends = cmake
+	makedepends = protobuf
+	provides = gurk
+	conflicts = gurk
+	options = !lto
+	source = gurk::git+https://github.com/boxdot/gurk-rs
+	sha1sums = SKIP
+
+pkgname = gurk-git

@@ -1,0 +1,18 @@
+pkgbase = tmparch
+	pkgdesc = Part of the tmplinux suite. Temporary Arch Linux
+	pkgver = 3.1.2
+	pkgrel = 1
+	url = https://github.com/TheOddCell/tmparch
+	arch = any
+	license = MIT
+	depends = bash
+	depends = arch-install-scripts
+	depends = shadow
+	depends = util-linux
+	depends = systemd
+	depends = squashfs-tools
+	depends = libtmplinux
+	source = https://github.com/TheOddCell/tmparch/archive/refs/tags/v3.1.2.tar.gz
+	sha256sums = SKIP
+
+pkgname = tmparch

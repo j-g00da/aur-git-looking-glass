@@ -1,0 +1,21 @@
+pkgbase = traccar
+	pkgdesc = Open source GPS tracking system
+	pkgver = 6.8.1
+	pkgrel = 0
+	url = http://www.traccar.org/
+	arch = x86_64
+	license = APACHE
+	depends = npm
+	depends = makeself
+	depends = jdk-openjdk
+	depends = zip
+	depends = unzip
+	provides = traccar=6.8.1
+	conflicts = traccar-bin
+	backup = opt/traccar/conf/traccar.xml
+	source = git+https://github.com/traccar/traccar.git
+	source = package.patch
+	sha512sums = SKIP
+	sha512sums = SKIP
+
+pkgname = traccar

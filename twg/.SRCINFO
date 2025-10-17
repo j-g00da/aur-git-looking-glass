@@ -1,0 +1,14 @@
+pkgbase = twg
+	pkgdesc = twitter client for CLI
+	pkgver = 0.4.8
+	pkgrel = 1
+	url = https://github.com/syui/twg
+	arch = x86_64
+	license = MIT
+	makedepends = go
+	options = !strip
+	options = !emptydirs
+	source = twg-0.4.8.tar.gz::https://github.com/syui/twg/archive/refs/tags/v0.4.8.tar.gz
+	sha256sums = 5f60a8685c671d1cd0bb1996d56e7ec5f63c8c56dcb91cf6541fe709711d04eb
+
+pkgname = twg

@@ -1,0 +1,32 @@
+pkgbase = cadet-core
+	pkgdesc = Modeling and simulation framework for biotechnology processes – simulation backend
+	pkgver = 5.1.0
+	pkgrel = 1
+	url = https://github.com/cadet/cadet-core
+	arch = aarch64
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = cmake
+	makedepends = eigen
+	makedepends = git
+	makedepends = python-sphinx-sitemap
+	makedepends = python-sphinxcontrib-bibtex
+	makedepends = python-myst-parser
+	makedepends = python-sphinx-multiversion
+	depends = blas
+	depends = gcc-libs
+	depends = glibc
+	depends = hdf5
+	depends = lapack
+	depends = suitesparse
+	optdepends = cadet-python: low-level python interface
+	optdepends = cadet-process: high-level python interface
+	source = git+https://github.com/cadet/cadet-core#tag=v5.1.0
+	sha256sums = ca119f9bb63d3a3dcfc90f92d17210a7a1a0ef2e8620940367d27aa3e00a3853
+
+pkgname = cadet-core
+	provides = libcadet.so
+
+pkgname = cadet-core-docs
+	pkgdesc = Modeling and simulation framework for biotechnology processes – simulation backend (documentation)
+	arch = any

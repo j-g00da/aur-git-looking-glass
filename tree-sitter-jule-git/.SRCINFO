@@ -1,0 +1,19 @@
+pkgbase = tree-sitter-jule-git
+	pkgdesc = Jule syntax tree for the Tree-sitter parsing library
+	pkgver = rd7655da
+	pkgrel = 1
+	url = https://github.com/TheLooped/tree-sitter-jule
+	arch = any
+	groups = jule
+	groups = tree-sitter-grammars
+	license = BSD-3-Clause
+	makedepends = tree-sitter
+	makedepends = git
+	makedepends = tree-sitter-cli
+	makedepends = nodejs
+	provides = tree-sitter-jule
+	conflicts = tree-sitter-jule
+	source = git+https://github.com/TheLooped/tree-sitter-jule.git
+	sha256sums = SKIP
+
+pkgname = tree-sitter-jule-git

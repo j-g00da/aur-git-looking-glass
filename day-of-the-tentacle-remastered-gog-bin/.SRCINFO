@@ -1,0 +1,49 @@
+pkgbase = day-of-the-tentacle-remastered-gog-bin
+	pkgdesc = Day of the Tentacle Remastered. You need a GOG account and have purchased the file through GOG; PKGBUILD might ask you for GOG login.
+	pkgver = 1.4.1+gog2.1.0.2
+	pkgrel = 10
+	epoch = 1
+	url = https://www.doublefine.com/games/day-of-the-tentacle-remastered
+	changelog = dott.changelog
+	arch = i686
+	arch = x86_64
+	groups = games
+	license = LicenseRef-Proprietary
+	license = LicenseRef-GOG_User_Agreement
+	license = Zlib
+	license = GPL-2.0-or-later
+	license = GPL-3.0-or-later
+	makedepends = gogextract
+	makedepends = lgogdownloader
+	makedepends = zopfli
+	source = dott.desktop
+	source = dott.changelog
+	source = license-note-proprietary.txt
+	sha256sums = f3f6ce50a0dabaa344b66d7c70c828714a45944f2043170530b0cba715328d0d
+	sha256sums = b3cc9cfcc82ac701a9a543c4b8d351786b0c8e24c38386d762a9ad6ffa167cb4
+	sha256sums = c75b0fc50592bf1bccbd9556efdd52894c08ffde633d35e6f2f1dfc50ce1b55e
+
+pkgname = day-of-the-tentacle-remastered-bin
+	pkgdesc = Day of the Tentacle Remastered. You need a GOG account and have purchased the file through GOG; PKGBUILD might ask you for GOG login.
+	arch = i686
+	arch = x86_64
+	depends = 
+	provides = dott=20161228
+	provides = day-of-the-tentacle-remastered-gog-bin=1.4.1+gog2.1.0.2
+	provides = day-of-the-tentacle-remastered=1.4.1+gog2.1.0.2
+	provides = day-of-the-tentacle
+	conflicts = dott
+	conflicts = day-of-the-tentacle-remastered-gog-bin
+	conflicts = day-of-the-tentacle-remastered
+	conflicts = day-of-the-tentacle
+	replaces = day-of-the-tentacle-remastered-gog-bin=1.4.1+gog2.1.0.2
+	replaces = dott<=20161228
+	depends_i686 = alsa-lib
+	depends_i686 = mesa-libgl
+	optdepends_i686 = libxrandr: multi-monitor support
+	optdepends_i686 = libxinerama: multi-monitor support
+	depends_x86_64 = lib32-alsa-lib
+	depends_x86_64 = lib32-libudev0-shim
+	depends_x86_64 = lib32-mesa-libgl
+	optdepends_x86_64 = lib32-libxrandr: multi-monitor support
+	optdepends_x86_64 = lib32-libxinerama: multi-monitor support

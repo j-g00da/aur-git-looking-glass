@@ -1,0 +1,25 @@
+pkgbase = plasticscm-client-gui
+	pkgdesc = Unity Version Control (formerly Plastic SCM) originally developed by Códice Software (Graphical utilities)
+	pkgver = 11.0.16.9546
+	pkgrel = 1
+	url = https://www.plasticscm.com/plastic-for-linux
+	arch = x86_64
+	groups = plasticscm-complete
+	groups = plasticscm-client-complete
+	license = LicenseRef-UnityVersionControl
+	depends = e2fsprogs
+	depends = gcc-libs
+	depends = glibc
+	depends = icu
+	depends = keyutils
+	depends = krb5
+	depends = lttng-ust
+	depends = zlib
+	depends = plasticscm-client-core
+	options = !strip
+	source = https://plastic-releases.s3.eu-west-2.amazonaws.com/releases/11.0.16.9546/plasticscm/linux/PlasticSCM-11.0.16.9546-linux-client-gui.tar.gz
+	source = https://plastic-releases.s3.eu-west-2.amazonaws.com/releases/11.0.16.9546/plasticscm/linux/PlasticSCM-11.0.16.9546-linux-theme.tar.gz
+	b2sums = 93f41bff38323ecfb09c0cb54464bc3a1ede93f219a0a540f74a97c8412b33887f454776578c00a4f58b24c21c0989ee6fbb86d0bbb10d4134db3db7ee59be0d
+	b2sums = c83c7c2e3b0345f8ce58e705f780235142dccc10555f918dbf5c6b11bf45795081f6b2dc2f88de3ade116dfc6be6b985369424a15673e1ad3529a36008d40ea1
+
+pkgname = plasticscm-client-gui

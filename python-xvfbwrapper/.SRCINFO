@@ -1,0 +1,19 @@
+pkgbase = python-xvfbwrapper
+	pkgdesc = Manage headless displays with Xvfb (X virtual framebuffer)
+	pkgver = 0.2.14
+	pkgrel = 1
+	url = https://github.com/cgoldberg/xvfbwrapper
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	depends = xorg-server-xvfb
+	options = !debug
+	source = python-xvfbwrapper-0.2.14.tar.gz::https://github.com/cgoldberg/xvfbwrapper/archive/refs/tags/0.2.14.tar.gz
+	sha256sums = 164c4ab90bcc205155aacdbec2e728aeaa1dc5f9d1187b8dc3a78979d2ac33e3
+
+pkgname = python-xvfbwrapper

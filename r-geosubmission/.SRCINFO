@@ -1,0 +1,14 @@
+pkgbase = r-geosubmission
+	pkgdesc = Prepares microarray data for submission to GEO
+	pkgver = 1.60.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/GEOsubmission
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-affy
+	depends = r-biobase
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/GEOsubmission_1.60.0.tar.gz
+	sha256sums = c6b93f29bd5796350116224211348393f20a059a931e6d5502dcd435700b88e5
+
+pkgname = r-geosubmission

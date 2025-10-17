@@ -1,0 +1,15 @@
+pkgbase = ereandel
+	pkgdesc = A Gemini web browser using shell script
+	pkgver = 0.26.1
+	pkgrel = 2
+	url = https://github.com/blmayer/ereandel
+	arch = any
+	license = MIT
+	depends = sed
+	depends = grep
+	depends = openssl
+	depends = coreutils
+	source = https://github.com/blmayer/ereandel/archive/refs/tags/v0.26.1.tar.gz
+	sha256sums = 78bf4f35500ae9b1bc75ee22174cbdf2ff15eb694d9b46b9d3926ac943786201
+
+pkgname = ereandel

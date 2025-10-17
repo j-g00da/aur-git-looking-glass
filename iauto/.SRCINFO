@@ -1,0 +1,14 @@
+pkgbase = iauto
+	pkgdesc = Flowchart diagrams drawer
+	pkgver = 3.7.6
+	pkgrel = 1
+	url = https://www.iautodraw.com
+	arch = x86_64
+	license = unknown
+	makedepends = p7zip
+	makedepends = gendesk
+	depends = electron25
+	source = iauto-3.7.6.exe::https://www.iautodraw.com/static/version/IAuto%20Setup%203.7.6(win%2064).exe
+	sha512sums = f10d78741f5504182d3cce5cc12d7cf4a41b77dc97e6f3fc5a1f0838409d636b003ef826797539e4585bd86dc8a47f4a02188baba6a5b893ec9edc973bd37e7b
+
+pkgname = iauto

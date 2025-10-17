@@ -1,0 +1,72 @@
+pkgbase = dosh
+	pkgdesc = Docker shell
+	pkgver = 8
+	pkgrel = 1
+	url = https://github.com/gportay/dosh
+	arch = any
+	license = LGPL-2.1-or-later
+	checkdepends = shellcheck
+	makedepends = asciidoctor
+	makedepends = bash-completion
+	depends = bash
+	source = dosh-8.tar.gz::https://github.com/gportay/dosh/archive/8.tar.gz
+	source = bash-completion-cqfd::https://raw.githubusercontent.com/savoirfairelinux/cqfd/v5.7.0/bash-completion
+	validpgpkeys = 8F3491E60E62695ED780AC672FA122CA0501CA71
+	sha256sums = fb0d1e75cd0dc9ac0899a60c9bacd8faac7c38cb15599199089dc92e2f3d5116
+	sha256sums = 4af081815df72cde10579b085133f35734221680e3118883980cefe5d853bbb3
+
+pkgname = dosh
+	depends = bash
+	depends = docker
+	optdepends = dosh-docker-shell
+
+pkgname = dosh-docker-shell
+	pkgdesc = Docker CLI plugin for dosh
+	depends = bash
+	depends = dosh
+
+pkgname = dosh-linux-amd64
+	pkgdesc = Docker shell for linux/amd64 platform
+	depends = bash
+	depends = dosh
+
+pkgname = dosh-linux-arm64
+	pkgdesc = Docker shell for linux/arm64 platform
+	depends = bash
+	depends = dosh
+
+pkgname = dosh-linux-arm
+	pkgdesc = Docker shell for linux/arm platform
+	depends = bash
+	depends = dosh
+
+pkgname = dosh-linux-ppc64le
+	pkgdesc = Docker shell for linux/ppc64le platform
+	depends = bash
+	depends = dosh
+
+pkgname = dosh-linux-riscv64
+	pkgdesc = Docker shell for linux/riscv64 platform
+	depends = bash
+	depends = dosh
+
+pkgname = dosh-linux-s390x
+	pkgdesc = Docker shell for linux/s390x platform
+	depends = bash
+	depends = dosh
+
+pkgname = dosh-posh
+	pkgdesc = Podman shell
+	depends = bash
+	depends = dosh
+	depends = podman
+
+pkgname = dosh-cqfd
+	pkgdesc = Wrap commands in controlled Docker containers using dosh
+	depends = bash
+	depends = dosh
+
+pkgname = dosh-docker-cqfd
+	pkgdesc = Docker CLI plugin for cqfd
+	depends = bash
+	depends = dosh-cqfd

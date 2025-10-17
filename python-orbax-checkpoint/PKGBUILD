@@ -1,0 +1,44 @@
+# Maintainer: Daniel Bershatsky <bepshatsky@yandex.ru>
+
+pkgname=python-orbax-checkpoint
+_pkgname=${pkgname#python-}
+pkgver=0.11.14
+pkgrel=1
+pkgdesc='Common utility libraries for JAX users (checkpoint).'
+arch=('any')
+url='https://github.com/google/orbax'
+license=('Apache-2.0')
+groups=('jax')
+depends=(
+    'python-absl'
+    'python-etils'
+    'python-humanize'
+    'python-jax>=0.5.0'
+    'python-msgpack'
+    'python-nest-asyncio'
+    'python-numpy'
+    'python-protobuf'
+    'python-simplejson'
+    'python-tensorstore'
+    'python-typing_extensions'  # etils[epy]
+    'python-yaml'
+)
+makedepends=('python-build' 'python-flit-core' 'python-installer')
+optdepends=(
+    'python-orbax-export: Serialization JAX to TensorFlow Saved Models.'
+)
+conflicts=('python-orbax')
+replaces=('python-orbax')
+source=("$_pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
+sha256sums=('0196dcb4527de5aab1b3747390b6f889edbc9086e1d3d9f77df83bc936ddedfb')
+
+build() {
+    python -m build -nw orbax-$pkgver/checkpoint
+}
+
+package() {
+    cd orbax-$pkgver
+    install -Dm644 README.md -t "${pkgdir}/usr/share/doc/${pkgname}"
+    python -m installer --compile-bytecode=1 --destdir=$pkgdir \
+        checkpoint/dist/orbax_checkpoint-$pkgver-*.whl
+}

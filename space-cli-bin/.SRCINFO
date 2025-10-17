@@ -1,0 +1,18 @@
+pkgbase = space-cli-bin
+	pkgdesc = Deta Space CLI
+	pkgver = 0.5.0rc0
+	pkgrel = 1
+	url = https://deta.space
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	provides = space-cli
+	provides = space
+	conflicts = space-cli
+	conflicts = space
+	source_x86_64 = space-cli-0.5.0rc0-x86_64.zip::https://github.com/deta/space-cli/releases/download/v0.5.0-rc.0/space-linux-x86_64.zip
+	sha256sums_x86_64 = 87e4ba4e28fe84ce9c2d5d86767da1e507ff5509bfc63877951fe0e004677274
+	source_aarch64 = space-cli-0.5.0rc0-aarch64.zip::https://github.com/deta/space-cli/releases/download/v0.5.0-rc.0/space-linux-arm64.zip
+	sha256sums_aarch64 = 6beca64b1baa61806709e1b0d61427804fdb236e6042e4a2fabad542c8beb0bf
+
+pkgname = space-cli-bin

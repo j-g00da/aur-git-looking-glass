@@ -1,0 +1,14 @@
+pkgbase = blst
+	pkgdesc = Multilingual BLS12-381 signature library
+	pkgver = 0.3.15
+	pkgrel = 1
+	url = https://github.com/supranational/blst
+	arch = aarch64
+	arch = x86_64
+	license = Apache
+	depends = glibc
+	options = staticlibs
+	source = https://github.com/supranational/blst/archive/refs/tags/v0.3.15.tar.gz
+	sha256sums = 9e503ff6b50e044efb075d260c81c751702b3ed6f2e45394b0833834e71c3afa
+
+pkgname = blst

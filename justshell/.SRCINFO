@@ -1,0 +1,16 @@
+pkgbase = justshell
+	pkgdesc = Simple webapp wrapper
+	pkgver = 0.3.4
+	pkgrel = 1
+	url = https://github.com/chardoncs/justshell
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = rust
+	makedepends = cargo
+	depends = gtk4
+	depends = webkitgtk-6.0
+	source = https://github.com/chardoncs/justshell/archive/refs/tags/v0.3.4.tar.gz
+	sha256sums = 8ddc3d0a4c8db224b9eec3f376bea3c797c9bf9502ca77841a0044c6184aa6e5
+
+pkgname = justshell

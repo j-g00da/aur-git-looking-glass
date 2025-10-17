@@ -1,0 +1,17 @@
+pkgbase = qspeakers
+	pkgdesc = DIY speaker design software
+	pkgver = 1.8
+	pkgrel = 1
+	url = http://brouits.free.fr/qspeakers/
+	install = qspeakers.install
+	arch = i686
+	arch = x86_64
+	arch = aarch64
+	license = GPL3
+	makedepends = qt6-tools
+	depends = qt6-charts
+	conflicts = qspeakers-svn
+	source = http://brouits.free.fr/qspeakers/qspeakers-1.8.tar.gz
+	sha256sums = 4518d55847670b4cca760a689312e63d682b418cddd22c330c738ef89e491047
+
+pkgname = qspeakers

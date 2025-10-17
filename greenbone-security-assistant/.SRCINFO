@@ -1,0 +1,17 @@
+pkgbase = greenbone-security-assistant
+	pkgdesc = Greenbone Security Assistant - Meta package
+	pkgver = 25.0.0
+	pkgrel = 1
+	url = https://greenbone.github.io/docs/latest/index.html
+	arch = any
+	groups = greenbone-vulnerability-manager
+	license = AGPL-3.0-only
+	depends = gsa
+	depends = gsad
+	depends = gvmd
+	depends = openvas-scanner
+	depends = ospd-openvas
+	optdepends = gvm-tools: tools for remote controlling the installation
+	validpgpkeys = 8AE4BE429B60A59B311C2E739823FAA60ED1E580
+
+pkgname = greenbone-security-assistant

@@ -1,0 +1,20 @@
+pkgbase = catgirl-engine-git
+	pkgdesc = A game engine for cool moddability and procedurally generated data
+	pkgver = v0.14.40.r0.ge34977d
+	pkgrel = 1
+	url = https://github.com/foxgirl-labs/catgirl-engine
+	arch = any
+	license = Zlib
+	makedepends = git
+	makedepends = git-lfs
+	makedepends = rustup
+	makedepends = cargo
+	makedepends = sed
+	optdepends = wayland: Graphics display server
+	optdepends = xorg-server: Graphics display server
+	provides = catgirl-engine=v0.14.40
+	conflicts = catgirl-engine
+	options = !strip
+	options = !debug
+
+pkgname = catgirl-engine-git

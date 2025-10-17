@@ -1,0 +1,18 @@
+pkgbase = lrxed-bin
+	pkgdesc = A tui application for synchronising lyrics
+	pkgver = 0.1.4
+	pkgrel = 1
+	url = https://github.com/LunaPresent/lrxed
+	arch = x86_64
+	arch = aarch64
+	license = EUPL-1.2
+	depends = gcc-libs
+	depends = alsa-lib
+	provides = lrxed
+	conflicts = lrxed
+	source_x86_64 = https://github.com/LunaPresent/lrxed/releases/download/v0.1.4/lrxed-v0.1.4-x86_64-linux.tar.gz
+	sha256sums_x86_64 = dcf4a2a7ecab33fbdde57af5f9b9d7a8f8e505c3da021685cff3e3995d59aedb
+	source_aarch64 = https://github.com/LunaPresent/lrxed/releases/download/v0.1.4/lrxed-v0.1.4-aarch64-linux.tar.gz
+	sha256sums_aarch64 = 69a5b7e962ef86c1ef84d55cee106f66a214059b055e345800e59bfd639253da
+
+pkgname = lrxed-bin

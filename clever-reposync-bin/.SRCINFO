@@ -1,0 +1,14 @@
+pkgbase = clever-reposync-bin
+	pkgdesc = Sync repos for a GitHub user or organization into a folder on your computer
+	pkgver = 0.8.0
+	pkgrel = 0
+	url = https://github.com/Clever/reposync
+	arch = x86_64
+	depends = git
+	depends = openssh
+	provides = clever-reposync
+	conflicts = clever-reposync
+	source = clever-reposync-bin-0.8.0::https://github.com/Clever/reposync/releases/download/v0.8.0/reposync-0.8.0-linux-amd64
+	sha256sums = 8e5af308105eb626ec8767dfbfa834a2b04453586cd451b2a80832622c080ec1
+
+pkgname = clever-reposync-bin

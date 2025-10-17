@@ -1,0 +1,22 @@
+pkgbase = pulseaudio-qt-git
+	pkgdesc = Qt bindings for libpulse
+	pkgver = 1.5.0_r776.gc4fc3d9
+	pkgrel = 1
+	url = https://community.kde.org/Frameworks
+	arch = x86_64
+	license = LGPL
+	makedepends = git
+	makedepends = doxygen
+	makedepends = extra-cmake-modules-git
+	makedepends = qt6-doc
+	makedepends = qt6-tools
+	depends = gcc-libs
+	depends = glibc
+	depends = libpulse
+	depends = qt6-base
+	provides = pulseaudio-qt
+	conflicts = pulseaudio-qt
+	source = git+https://github.com/KDE/pulseaudio-qt.git
+	sha256sums = SKIP
+
+pkgname = pulseaudio-qt-git

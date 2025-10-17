@@ -1,0 +1,17 @@
+pkgbase = python-imgdiff
+	pkgdesc = Compare two images side-by-side
+	pkgver = 1.8.0
+	pkgrel = 1
+	url = https://pypi.org/project/imgdiff/
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python
+	depends = python-pillow
+	source = https://files.pythonhosted.org/packages/source/i/imgdiff/imgdiff-1.8.0.tar.gz
+	sha256sums = ee8d6da71fe74ca27cc1086a133e91028a7dea7690c09d37077dcda0150f4677
+
+pkgname = python-imgdiff

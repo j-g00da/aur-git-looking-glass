@@ -1,0 +1,23 @@
+pkgbase = r-pathwaypca
+	pkgdesc = Integrative Pathway Analysis with Modern PCA Methodology and Gene Selection
+	pkgver = 1.24.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/pathwayPCA
+	arch = any
+	license = GPL-3.0-only
+	depends = r-lars
+	optdepends = r-airway
+	optdepends = r-circlize
+	optdepends = r-knitr
+	optdepends = r-rcurl
+	optdepends = r-reshape2
+	optdepends = r-rmarkdown
+	optdepends = r-summarizedexperiment
+	optdepends = r-survminer
+	optdepends = r-testthat
+	optdepends = r-tidyverse
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/pathwayPCA_1.24.0.tar.gz
+	md5sums = 387c676b78f927fd178a89bb1ac9604a
+	b2sums = 772dc80e135aa613abf9f23225f3ca318d039841eb2b596ef57bd7ebd14d46151769987dae079ebc7caa0c5a1c3b5a8c9e336d7f42001ec2bfa69b49bbf31d74
+
+pkgname = r-pathwaypca

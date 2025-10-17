@@ -1,0 +1,16 @@
+pkgbase = sunxi-fw-git
+	pkgdesc = Allwinner firmware images decoding and extraction tool
+	pkgver = r23.60712ec
+	pkgrel = 5
+	url = https://github.com/apritzel/sunxi-fw
+	arch = x86_64
+	license = GPL-2.0-only
+	makedepends = git
+	depends = dtc
+	depends = glibc
+	provides = sunxi-fw
+	conflicts = sunxi-fw
+	source = sunxi-fw-git::git+https://github.com/apritzel/sunxi-fw.git
+	sha256sums = SKIP
+
+pkgname = sunxi-fw-git

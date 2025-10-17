@@ -1,0 +1,21 @@
+pkgbase = tree-sitter-css-git
+	pkgdesc = CSS grammar for tree-sitter
+	pkgver = 0.23.2.r4.g6e327db
+	pkgrel = 3
+	url = https://github.com/tree-sitter/tree-sitter-css
+	arch = i686
+	arch = x86_64
+	groups = tree-sitter-grammars
+	license = MIT
+	makedepends = git
+	makedepends = nodejs
+	makedepends = tree-sitter-cli
+	depends = glibc
+	provides = tree-sitter-css=0.23.2.r4.g6e327db
+	provides = libtree-sitter-css.so
+	conflicts = tree-sitter-css
+	options = staticlibs
+	source = git+https://github.com/tree-sitter/tree-sitter-css.git
+	sha256sums = SKIP
+
+pkgname = tree-sitter-css-git

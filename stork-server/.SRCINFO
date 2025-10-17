@@ -1,0 +1,23 @@
+pkgbase = stork-server
+	pkgdesc = A dashboard for BIND 9 and Kea DHCP.
+	pkgver = 2.2.1
+	pkgrel = 1
+	url = https://gitlab.isc.org/isc-projects/stork
+	arch = any
+	license = MPL2
+	makedepends = java-runtime
+	makedepends = python
+	makedepends = rake
+	makedepends = sed
+	makedepends = tar
+	makedepends = unzip
+	makedepends = wget
+	backup = etc/stork/server.env
+	source = https://downloads.isc.org/isc/stork/2.2.1/stork-2.2.1.tar.gz
+	source = https://downloads.isc.org/isc/stork/2.2.1/stork-server-ldap-2.2.1.tar.gz
+	source = stork-server.sysuser
+	sha512sums = d07bfb16ebcba202064c1105c991169e1d66ee381af5b63912123b1c7ae81b06b9cc2e182881fa588b3b76f92cce60010874f445a845b029b82a603cd322f0ae
+	sha512sums = ead15e4ed3e4ea0b2fc3553dd55adc83a9b89b3aeb390fa601f6a14443b599e0d32b98d03378087286be6700f0a6b30a8e4f19b1a17de7e73293ab0283c6203c
+	sha512sums = 524a319ab3b938bdab902b82c99744dcbf90cf5b44dc2bc7003b5fac7b77f6bb07d260c7f5cdd3fee8d3f673ca23611b00d1ded27a96da6fcb85d16e70b7a580
+
+pkgname = stork-server

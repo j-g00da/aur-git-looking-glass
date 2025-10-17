@@ -1,0 +1,19 @@
+pkgbase = projectable
+	pkgdesc = A TUI file manager built for projects.
+	pkgver = 1.3.2
+	pkgrel = 1
+	url = https://github.com/dzfrias/projectable
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = libgit2
+	depends = libssh2
+	depends = openssl
+	depends = gcc-libs
+	depends = glibc
+	provides = projectable
+	conflicts = projectable-git
+	source = projectable-1.3.2.tar.gz::https://github.com/dzfrias/projectable/archive/1.3.2.tar.gz
+	sha256sums = 8677aa186b50e28ae1addaa9178b65de9e07b3fcd54056fd92464b49c9f71312
+
+pkgname = projectable

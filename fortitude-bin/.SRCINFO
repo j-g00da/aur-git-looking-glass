@@ -1,0 +1,24 @@
+pkgbase = fortitude-bin
+	pkgdesc = A Blazingly Fast Fortran linter, inspired by (and built upon) Ruff.
+	pkgver = 0.7.5
+	pkgrel = 1
+	url = https://github.com/PlasmaFAIR/fortitude
+	arch = x86_64
+	arch = aarch64
+	arch = i686
+	license = MIT
+	depends = glibc
+	depends = gcc-libs
+	provides = fortitude
+	conflicts = fortitude
+	options = !debug
+	source = https://github.com/PlasmaFAIR/fortitude/blob/main/LICENSE
+	sha256sums = SKIP
+	source_x86_64 = https://github.com/PlasmaFAIR/fortitude/releases/download/v0.7.5/fortitude-x86_64-unknown-linux-gnu.tar.gz
+	sha256sums_x86_64 = e88de102a93e1aa23db7187dd9cc164b55bbc19b1994a6b811c2a2e8057c2854
+	source_aarch64 = https://github.com/PlasmaFAIR/fortitude/releases/download/v0.7.5/fortitude-aarch64-unknown-linux-gnu.tar.gz
+	sha256sums_aarch64 = f6a8d42612e1c240af3934888eac67ea90f450e8bc757756f58560202a7d622c
+	source_i686 = https://github.com/PlasmaFAIR/fortitude/releases/download/v0.7.5/fortitude-i686-unknown-linux-gnu.tar.gz
+	sha256sums_i686 = cabec3a1076c89cb2778ec2573a4c5440608c3b6266f4bcdc2dd5c1bc29a38d2
+
+pkgname = fortitude-bin

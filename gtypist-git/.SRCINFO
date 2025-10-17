@@ -1,0 +1,20 @@
+pkgbase = gtypist-git
+	pkgdesc = universal typing tutor
+	pkgver = 2.10.1
+	pkgrel = 4
+	url = http://www.gnu.org/software/gtypist/gtypist.html
+	arch = x86_64
+	license = GPL3
+	makedepends = git
+	makedepends = gengetopt
+	makedepends = help2man
+	depends = ncurses
+	depends = perl
+	provides = gtypist
+	conflicts = gtypist
+	source = git+https://git.savannah.gnu.org/git/gtypist.git
+	source = ncurses.patch
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = gtypist-git

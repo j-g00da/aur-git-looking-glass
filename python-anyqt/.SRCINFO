@@ -1,0 +1,17 @@
+pkgbase = python-anyqt
+	pkgdesc = PyQt/PySide compatibility layer (PyQt4/PyQt5/PyQt6/PySide/PySide2)
+	pkgver = 0.2.1
+	pkgrel = 1
+	url = https://github.com/ales-erjavec/anyqt
+	arch = any
+	license = GPL-3.0
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python-pyqt5
+	source = https://files.pythonhosted.org/packages/source/a/anyqt/anyqt-0.2.1.tar.gz
+	sha256sums = a9ed7c5169691a105ef2cea9114d6f8d439875b807d7258a2107f55cb56483f6
+
+pkgname = python-anyqt

@@ -1,0 +1,14 @@
+pkgbase = ruby-mbox2csv
+	pkgdesc = Parse MBOX files and export email data into CSV format
+	pkgver = 0.2.1
+	pkgrel = 1
+	url = https://github.com/firefly-cpp/mbox2csv
+	arch = any
+	license = MIT
+	depends = ruby-mail
+	depends = ruby-ruby-progressbar
+	noextract = mbox2csv-0.2.1.gem
+	source = https://rubygems.org/downloads/mbox2csv-0.2.1.gem
+	sha256sums = d94c13259ab4d44e778edda4b9b43a1709887ea944c17bf4c63db9a266e32678
+
+pkgname = ruby-mbox2csv

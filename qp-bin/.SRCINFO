@@ -1,0 +1,24 @@
+pkgbase = qp-bin
+	pkgdesc = qp - query packages. A CLI utility for querying installed packages across multiple package ecosystems.
+	pkgver = 5.108.0
+	pkgrel = 1
+	url = https://github.com/Zweih/qp
+	arch = x86_64
+	arch = aarch64
+	arch = armv7h
+	license = GPL3
+	optdepends = sqlite: RPM support
+	provides = qp
+	conflicts = qp
+	conflicts = qp-git
+	replaces = yaylog
+	replaces = yaylog-bin
+	replaces = yaylog-git
+	source_x86_64 = https://github.com/Zweih/qp/releases/download/v5.108.0/qp-v5.108.0-x86_64.tar.gz
+	sha256sums_x86_64 = 5c5a9380ffb8dbdcdb16110fa416fa96960a32713d98cfddab23bede065e37b0
+	source_aarch64 = https://github.com/Zweih/qp/releases/download/v5.108.0/qp-v5.108.0-aarch64.tar.gz
+	sha256sums_aarch64 = a5f598fba76422718b6850c985f925741f1898f8fd1c38d3747f8849b0c874c1
+	source_armv7h = https://github.com/Zweih/qp/releases/download/v5.108.0/qp-v5.108.0-armv7h.tar.gz
+	sha256sums_armv7h = 44d11206bff28efed77d6f756b6066659f9604dd7847401ec7196e5503453f1b
+
+pkgname = qp-bin

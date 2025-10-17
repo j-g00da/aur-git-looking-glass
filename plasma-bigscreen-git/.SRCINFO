@@ -1,0 +1,22 @@
+pkgbase = plasma-bigscreen-git
+	pkgdesc = A big launcher giving you easy access to any installed apps and skills
+	pkgver = 5.26.90.r555.g6c442f7
+	pkgrel = 1
+	url = https://plasma-bigscreen.org/
+	arch = any
+	license = GPL2
+	makedepends = cmake
+	makedepends = extra-cmake-modules-git
+	makedepends = git
+	depends = kdeconnect-git
+	depends = plasma-nm-git
+	depends = plasma-pa-git
+	depends = plasma-nano-git
+	depends = bluez-qt-git
+	optdepends = libcec: add USB-CEC support in order to be controlled by TV remotes
+	optdepends = plasma-remotecontrollers-git: add support for remote controllers
+	conflicts = plasma-bigscreen
+	source = git+https://invent.kde.org/plasma/plasma-bigscreen.git
+	md5sums = SKIP
+
+pkgname = plasma-bigscreen-git

@@ -1,0 +1,21 @@
+# Maintainer: Adrian Perez de Castro <aperez@igalia.com>
+
+pkgdesc='GTK theme for the Budgie and Cinnamon desktops'
+pkgname=marwaita-gtk-theme
+pkgver=23
+pkgrel=1
+url=https://github.com/darkomarko42/Marwaita
+arch=(any)
+license=(GPL-3.0-only)
+source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/$pkgver.tar.gz")
+b2sums=('1a564bd5ee224e6c3f47b00b5fc995b703991bdadb8b67299690fd83f8e940ca0721e5f9ce6e7f37974636de4103c49f6cffbe29c1bb45749217c6924d3e67a2')
+
+build () {
+	msg2 'Nothing to build'
+}
+
+package () {
+	cd "Marwaita-$pkgver"
+	install -dm755 "$pkgdir/usr/share/themes"
+	cp -pr Marwaita{,-s}{,-{Alt,Dark}} "$pkgdir/usr/share/themes"
+}

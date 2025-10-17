@@ -1,0 +1,22 @@
+pkgbase = python-qiskit-addon-cutting
+	pkgdesc = Reduce width and depth of quantum circuits by cutting gates and wires
+	pkgver = 0.10.0
+	pkgrel = 1
+	url = https://github.com/Qiskit/qiskit-addon-cutting
+	arch = any
+	license = Apache-2.0
+	checkdepends = python-ddt
+	checkdepends = python-pytest
+	checkdepends = python-qiskit-aer
+	checkdepends = python-qiskit-ibm-runtime
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-hatchling
+	depends = blas-openblas
+	depends = python-numpy
+	depends = python-qiskit
+	depends = python-rustworkx
+	source = qiskit-addon-cutting-0.10.0.tar.gz::https://github.com/Qiskit/qiskit-addon-cutting/archive/refs/tags/0.10.0.tar.gz
+	b2sums = d807482bb6e53c385152bce0909d6b76848e5ce5b0f722357d53e699d80fce188f7dc0eb4fa28ba2b0190e72c0a0cc2d36e51ec0b16620581cf405b77e62f069
+
+pkgname = python-qiskit-addon-cutting

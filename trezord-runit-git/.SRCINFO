@@ -1,0 +1,15 @@
+pkgbase = trezord-runit-git
+	pkgdesc = Runit service for Trezor Communication Daemon (aka Trezor Bridge)
+	pkgver = r10.b3e35ec
+	pkgrel = 3
+	url = https://codeberg.org/sripwoud/trezord-runit
+	install = trezord-runit.install
+	arch = any
+	license = AGPL-3.0-only
+	makedepends = git
+	depends = runit
+	depends = trezor-bridge-bin
+	source = git+https://codeberg.org/sripwoud/trezord-runit.git
+	sha256sums = SKIP
+
+pkgname = trezord-runit-git

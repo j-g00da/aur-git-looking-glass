@@ -1,0 +1,27 @@
+pkgbase = lib32-glfw
+	pkgdesc = A free, open source, portable framework for graphical application development (32-bit)
+	pkgver = 3.4
+	pkgrel = 2
+	url = https://www.glfw.org/
+	arch = x86_64
+	license = custom:ZLIB
+	makedepends = lib32-mesa
+	makedepends = cmake
+	makedepends = vulkan-headers
+	makedepends = lib32-vulkan-icd-loader
+	makedepends = extra-cmake-modules
+	makedepends = wayland-protocols
+	makedepends = lib32-libxi
+	makedepends = lib32-libxrandr
+	makedepends = lib32-libxcursor
+	makedepends = lib32-libxinerama
+	depends = lib32-libgl
+	depends = lib32-libxkbcommon
+	provides = lib32-glfw-x11
+	provides = lib32-glfw-wayland
+	replaces = lib32-glfw-x11
+	replaces = lib32-glfw-wayland
+	source = glfw-3.4.tar.gz::https://github.com/glfw/glfw/archive/3.4.tar.gz
+	sha512sums = 39ad7a4521267fbebc35d2ff0c389a56236ead5fa4bdff33db113bd302f70f5f2869ff4e6db1979512e1542813292dff5a482e94dfce231750f0746c301ae9ed
+
+pkgname = lib32-glfw

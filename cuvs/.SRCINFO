@@ -1,0 +1,36 @@
+pkgbase = cuvs
+	pkgdesc = cuVS - a library for vector search and clustering on the GPU
+	pkgver = 25.10.00
+	pkgrel = 1
+	url = https://github.com/rapidsai/cuvs
+	arch = x86_64
+	license = Apache-2.0
+	makedepends = cuda
+	makedepends = python-setuptools
+	makedepends = cmake
+	makedepends = python-scikit-build-core
+	makedepends = python-rapids-build-backend
+	makedepends = ninja
+	makedepends = cython
+	depends = cuda
+	depends = rmm
+	depends = libraft
+	source = https://github.com/rapidsai/cuvs/archive/refs/tags/v25.10.00.tar.gz
+	source = system-lib.patch
+	source = missing-pkg.patch
+	sha256sums = 4bfe4f07ce430261ad03618d200ecc061f18fc03915037f425cde8f820312511
+	sha256sums = 50365355e85bf3b6ead903f39aa2cb82667d2b4f9172d95b903bd85c77b395dd
+	sha256sums = 4781db2b3b552e1bcae18a7ca80ba094c66fb5ad33f588423fb2c1f51331743c
+
+pkgname = libcuvs
+	depends = cuda
+	depends = rmm
+	depends = libraft
+	depends = dlpack
+
+pkgname = python-cuvs
+	depends = cuda
+	depends = rmm
+	depends = libraft
+	depends = libcuvs
+	depends = python-pylibraft

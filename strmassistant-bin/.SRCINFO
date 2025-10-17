@@ -1,0 +1,20 @@
+pkgbase = strmassistant-bin
+	pkgdesc = Strm Assistant for Emby
+	pkgver = 2.0.0.30
+	pkgrel = 1
+	url = https://github.com/sjtuross/StrmAssistant
+	arch = x86_64
+	license = GPL-3.0-or-later
+	depends = emby-server
+	optdepends = emby-theater: An Electron app for Emby
+	provides = strmassistant
+	provides = StrmAssistant
+	conflicts = strmassistant
+	conflicts = StrmAssistant
+	options = !strip
+	options = !debug
+	options = !lto
+	source = StrmAssistant-2.0.0.30.dll::https://github.com/sjtuross/StrmAssistant/releases/download/v2.0.0.30/StrmAssistant.dll
+	sha256sums = 1432eeb738d553ee2c7964720958b3c293eeffa8f82485786a0357097b6498d3
+
+pkgname = strmassistant-bin

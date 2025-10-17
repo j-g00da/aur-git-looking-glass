@@ -1,0 +1,17 @@
+pkgbase = python-colorthief
+	pkgdesc = Python module for grabbing the color palette from an image
+	pkgver = 0.2.1
+	pkgrel = 4
+	url = https://lokeshdhakar.com/projects/color-thief
+	arch = any
+	license = BSD-3-Clause
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	depends = python-pillow
+	source = color-thief-py-0.2.1.tar.gz::https://github.com/fengsp/color-thief-py/archive/refs/tags/0.2.1.tar.gz
+	sha256sums = f2c47cad43809048adb9be1e4e63519d32e3b68532e8f0ab7bf46a58ddf7d099
+
+pkgname = python-colorthief

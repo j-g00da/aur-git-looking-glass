@@ -1,0 +1,21 @@
+pkgbase = vookiimageviewer-bin
+	pkgdesc = A cross-platform lightweight image viewer for a fast image preview.(Prebuilt version)
+	pkgver = 2025.02.15
+	pkgrel = 1
+	url = https://vookiimageviewer.cz/
+	arch = aarch64
+	arch = x86_64
+	license = GPL-3.0-only
+	depends = libraw
+	depends = qt6-base
+	depends = exiv2
+	provides = vookiimageviewer
+	conflicts = vookiimageviewer
+	source = vookiimageviewer.sh
+	sha256sums = 346cd32afa9661092ead7c6b2fbc954ae402343306cd0b8e74f5d723e3dc5f20
+	source_aarch64 = vookiimageviewer-2025.02.15-aarch64.zip::https://github.com/vookimedlo/vooki-image-viewer/releases/download/v2025.02.15/debian_trixie_clang_vookiimageviewer_2025.02.15_arm64.deb.zip
+	sha256sums_aarch64 = b0d6a44c45ff4ae2251fe12c8d9b26d597ee53940048fe46e6bec5830100098f
+	source_x86_64 = vookiimageviewer-2025.02.15-x86_64.zip::https://github.com/vookimedlo/vooki-image-viewer/releases/download/v2025.02.15/debian_trixie_clang_vookiimageviewer_2025.02.15_amd64.deb.zip
+	sha256sums_x86_64 = 31bb3d0dad2ce2b1f6a941f83d71b2503dfb8ef68ab96d3c114122684902d6fa
+
+pkgname = vookiimageviewer-bin

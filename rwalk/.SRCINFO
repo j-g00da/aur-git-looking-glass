@@ -1,0 +1,15 @@
+pkgbase = rwalk
+	pkgdesc = A blazingly fast web directory scanner
+	pkgver = 0.9.1
+	pkgrel = 1
+	url = https://github.com/cestef/rwalk
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	depends = openssl
+	options = !lto
+	source = rwalk-0.9.1.tar.gz::https://github.com/cestef/rwalk/archive/v0.9.1.tar.gz
+	sha256sums = ada53621edfa093ce8f80048ae2f2a574e6410e5b75e92d3d3d1f13af3e3af25
+
+pkgname = rwalk

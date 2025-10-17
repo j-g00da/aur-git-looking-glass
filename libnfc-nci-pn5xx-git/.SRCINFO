@@ -1,0 +1,17 @@
+pkgbase = libnfc-nci-pn5xx-git
+	pkgdesc = NFC stack for NXP NFC Controllers targeting NPC300/PN548 with i2c transport
+	pkgver = 1.0.0.r74.g7ce9c8a
+	pkgrel = 1
+	url = https://github.com/StarGate01/linux_libnfc-nci
+	arch = any
+	license = Apache-2.0
+	makedepends = git
+	depends = nxp-pn5xx-dkms
+	provides = libnfc-nci-pn5xx=1.0.0.r74.g7ce9c8a
+	conflicts = libnfc-nci-lpcusbsio
+	conflicts = libnfc-nci-i2c
+	conflicts = libnfc-nci-alt
+	source = libnfc-nci-pn5xx::git+https://github.com/StarGate01/linux_libnfc-nci#branch=master
+	sha256sums = SKIP
+
+pkgname = libnfc-nci-pn5xx-git

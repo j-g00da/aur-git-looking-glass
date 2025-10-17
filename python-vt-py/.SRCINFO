@@ -1,0 +1,22 @@
+pkgbase = python-vt-py
+	pkgdesc = Official Python client library for VirusTotal's REST API
+	pkgver = 0.21.0
+	pkgrel = 1
+	url = https://github.com/virustotal/vt-py
+	arch = any
+	license = Apache-2.0
+	checkdepends = python-pytest-asyncio
+	checkdepends = python-pytest-httpserver
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	makedepends = python-sphinx
+	depends = python-aiohttp
+	depends = python-aiofiles
+	provides = python-virustotal
+	replaces = python-virustotal-api
+	source = python-vt-py-0.21.0.tar.gz::https://github.com/virustotal/vt-py/archive/0.21.0.tar.gz
+	sha512sums = 4baa1ddfc77fb74ab296ec510745f5c828b26545fbd4aface9fe54dc3cd488059affedc020a22e982b145ee348ba9e6c54de7198c5f8c0f635b6064fa3ae2629
+
+pkgname = python-vt-py

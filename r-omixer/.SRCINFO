@@ -1,0 +1,26 @@
+pkgbase = r-omixer
+	pkgdesc = Omixer: multivariate and reproducible sample randomization to proactively counter batch effects in omics studies
+	pkgver = 1.18.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/Omixer
+	arch = any
+	license = MIT
+	depends = r
+	depends = r-dplyr
+	depends = r-forcats
+	depends = r-ggplot2
+	depends = r-gridextra
+	depends = r-magrittr
+	depends = r-readr
+	depends = r-stringr
+	depends = r-tibble
+	depends = r-tidyselect
+	optdepends = r-biocstyle
+	optdepends = r-knitr
+	optdepends = r-magick
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/Omixer_1.18.0.tar.gz
+	sha256sums = 5b8c5edcea0aef1923c1959909a01ca7248dcb74474b82cabe1033607ce9558c
+
+pkgname = r-omixer

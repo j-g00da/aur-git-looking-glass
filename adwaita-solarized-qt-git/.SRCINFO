@@ -1,0 +1,23 @@
+pkgbase = adwaita-solarized-qt-git
+	pkgdesc = A solarized style to bend Qt applications to look like they belong into GNOME Shell
+	pkgver = 1.4.1.r29.g3c98239
+	pkgrel = 1
+	url = https://github.com/FedoraQt/adwaita-qt
+	arch = x86_64
+	license = GPL
+	makedepends = cmake
+	makedepends = qt5-x11extras
+	makedepends = qt6-base
+	source = git+https://github.com/Ferdi265/adwaita-solarized-qt
+	sha256sums = SKIP
+
+pkgname = adwaita-solarized-qt5
+	pkgdesc = A solarized style to bend Qt5 applications to look like they belong into GNOME Shell
+	depends = qt5-x11extras
+	conflicts = adwaita-qt5
+	replaces = adwaita-qt
+
+pkgname = adwaita-solarized-qt6
+	pkgdesc = A solarized style to bend Qt6 applications to look like they belong into GNOME Shell
+	depends = qt6-base
+	conflicts = adwaita-qt6

@@ -1,0 +1,13 @@
+pkgbase = isisdl
+	pkgdesc = A downloading utility for ISIS of TU-Berlin. Download all your files and videos from ISIS.
+	pkgver = 1.3.19
+	pkgrel = 1
+	url = https://github.com/Emily3403/isisdl
+	arch = x86_64
+	license = GPL3
+	depends = zlib
+	provides = isisdl
+	source = https://github.com/Emily3403/isisdl/releases/download/V1.3/isisdl-linux.bin
+	sha256sums = b97ba1f08dff6348c96795576fa2711b7d1fc6b3c5e89f401b62ad6bfc47424b
+
+pkgname = isisdl

@@ -1,0 +1,19 @@
+pkgbase = python-colour-datasets
+	pkgdesc = Colour science datasets for use with Colour
+	pkgver = 0.2.6
+	pkgrel = 1
+	url = https://github.com/colour-science/colour-datasets
+	arch = any
+	license = custom:BSD-3-clause
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python-cachetools
+	depends = python-colour-science
+	depends = python-opencv
+	depends = python-tqdm
+	depends = python-xlrd
+	source = https://files.pythonhosted.org/packages/source/c/colour_datasets/colour_datasets-0.2.6.tar.gz
+	sha256sums = 242d93831e9d64fcc411fc7fea010a30d7d739d1e8f9535b3e9526da75222ce4
+
+pkgname = python-colour-datasets

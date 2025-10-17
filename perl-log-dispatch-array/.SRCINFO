@@ -1,0 +1,16 @@
+pkgbase = perl-log-dispatch-array
+	pkgdesc = log events to an array (reference)
+	pkgver = 1.005
+	pkgrel = 2
+	url = https://metacpan.org/release/Log-Dispatch-Array
+	arch = any
+	license = Artistic-1.0
+	checkdepends = perl-test-deep>=0
+	depends = perl-log-dispatch>=0
+	depends = perl>=5.012
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/Log-Dispatch-Array-1.005.tar.gz
+	md5sums = ba5371862efa974c27ba42b93761d8ea
+	sha512sums = 35d632ae0d2b8c34f132884c606b7e2ec12ad3e763ebc043a53449c0a63da03adf661ae2aa45f1b95d50f39a662f472e37f013ada727fbe53242c7d5d361e87e
+
+pkgname = perl-log-dispatch-array

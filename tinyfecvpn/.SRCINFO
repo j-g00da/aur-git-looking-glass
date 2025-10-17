@@ -1,0 +1,14 @@
+pkgbase = tinyfecvpn
+	pkgdesc = A Lightweight VPN with Build-in Forward Error Correction Support
+	pkgver = 20230206.0
+	pkgrel = 1
+	url = https://github.com/wangyu-/tinyfecVPN
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	source = git+https://github.com/wangyu-/tinyfecvpn.git#tag=20230206.0
+	source = git+https://github.com/wangyu-/UDPspeeder.git
+	sha256sums = fa08b72f2498f51efbdc2d3d4d0be40491aaa99a23afe795798c2b8323db8717
+	sha256sums = SKIP
+
+pkgname = tinyfecvpn

@@ -1,0 +1,19 @@
+pkgbase = jan-appimage
+	pkgdesc = An open source alternative to ChatGPT that runs 100% offline on your computer
+	pkgver = 0.5.16
+	pkgrel = 1
+	url = https://jan.ai/
+	arch = x86_64
+	license = AGPL-3.0-only
+	depends = fuse2
+	depends = hicolor-icon-theme
+	depends = zlib
+	provides = jan
+	conflicts = jan-bin
+	conflicts = jan
+	noextract = jan-appimage-0.5.16.AppImage
+	options = !strip
+	source = jan-appimage-0.5.16.AppImage::https://github.com/menloresearch/jan/releases/download/v0.5.16/jan-linux-x86_64-0.5.16.AppImage
+	sha256sums = a0a2525fc56e092fc2cc8ae8618cee12dc9fbe2bf79dac58afc8e97d471cc418
+
+pkgname = jan-appimage

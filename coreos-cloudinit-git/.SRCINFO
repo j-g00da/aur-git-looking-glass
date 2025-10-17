@@ -1,0 +1,20 @@
+pkgbase = coreos-cloudinit-git
+	pkgdesc = coreos-cloudinit
+	pkgver = 1.10.1.r0.g1cd1ecb
+	pkgrel = 5
+	url = https://github.com/coreos/coreos-cloudinit
+	arch = x86_64
+	license = apache
+	makedepends = go
+	optdepends = update-ssh-keys: ssh key management support
+	conflicts = cloud-init
+	conflicts = coreos-cloudinit
+	source = coreos-cloudinit-git::git+https://github.com/coreos/coreos-cloudinit
+	source = coreos-cloudinit.service
+	source = switch_core_user.patch
+	sha256sums = SKIP
+	sha256sums = a640d582e7fc9024d8a7c394f390020bfabf1c5a0d32d659693f9a2db8275d58
+	sha256sums = 704088383d9201932c7a78d05781435bac7eb8e1d009999a849ac44b27d9d56a
+
+pkgname = coreos-cloudinit-git
+

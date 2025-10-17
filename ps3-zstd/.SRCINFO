@@ -1,0 +1,21 @@
+pkgbase = ps3-zstd
+	pkgdesc = Zstandard - Fast real-time compression algorithm
+	pkgver = 1.5.7
+	pkgrel = 1
+	url = https://www.zlib.net/
+	arch = x86_64
+	arch = aarch64
+	arch = powerpc64le
+	arch = powerpc64
+	arch = powerpc
+	arch = riscv64
+	license = custom
+	depends = ps3-env
+	depends = ps3-ppu-gcc
+	options = !emptydirs
+	options = !strip
+	options = staticlibs
+	source = https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-1.5.7.tar.zst
+	sha256sums = 5b331d961d6989dc21bb03397fc7a2a4d86bc65a14adc5ffbbce050354e30fd2
+
+pkgname = ps3-zstd

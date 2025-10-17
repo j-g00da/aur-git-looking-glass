@@ -1,0 +1,14 @@
+pkgbase = wmweather
+	pkgdesc = Shows local weather conditions in a WindowMaker dockapp
+	pkgver = 2.4.8
+	pkgrel = 1
+	url = https://www.dockapps.net/wmweather
+	arch = i686
+	arch = x86_64
+	groups = x11
+	license = GPL
+	depends = libxpm
+	source = https://people.debian.org/~godisch/wmweather/wmweather-2.4.8.tar.gz
+	md5sums = 34d8c9fef4a4d62983df08d489c87a4c
+
+pkgname = wmweather

@@ -1,0 +1,19 @@
+pkgbase = python-icalevents
+	pkgdesc = Python module for iCal URL/file parsing and querying.
+	pkgver = 0.3.1
+	pkgrel = 1
+	url = https://github.com/jazzband/icalevents
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-poetry-core
+	depends = python-icalendar
+	depends = python-dateutil
+	depends = python-pytz
+	depends = python-urllib3
+	source = https://files.pythonhosted.org/packages/source/i/icalevents/icalevents-0.3.1.tar.gz
+	sha256sums = 6263b914bf6836647ea4eec4a908cd59d2c1fe0a5b1cd1c533840056bf5d17cd
+
+pkgname = python-icalevents

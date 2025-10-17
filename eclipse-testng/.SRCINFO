@@ -1,0 +1,13 @@
+pkgbase = eclipse-testng
+	pkgdesc = A testing framework plugin for Eclipse IDE inspired by JUnit and NUnit
+	pkgver = 7.9.0
+	pkgrel = 1
+	url = http://testng.org/
+	arch = any
+	license = APACHE
+	depends = eclipse>=4.5.0
+	options = !strip
+	source = https://testng.org/testng-eclipse-update-site/zipped/7.9.0.202312310355/org.testng.eclipse.updatesite.zip
+	sha256sums = f74491ec18c75a85e8114aa3e27a45b9ba1fe96774ab7c3b2db1759eb782362d
+
+pkgname = eclipse-testng

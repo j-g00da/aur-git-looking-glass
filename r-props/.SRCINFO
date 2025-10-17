@@ -1,0 +1,18 @@
+pkgbase = r-props
+	pkgdesc = PRObabilistic Pathway Score (PROPS)
+	pkgver = 1.30.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/PROPS
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-biobase
+	depends = r-bnlearn
+	depends = r-reshape2
+	depends = r-sva
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/PROPS_1.30.0.tar.gz
+	sha256sums = 9e2cb55563e1f2920d6cc7f978f99cfaabe4b58a3e3d8488ba99679bf14f245b
+
+pkgname = r-props

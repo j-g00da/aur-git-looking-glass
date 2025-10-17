@@ -1,0 +1,15 @@
+pkgbase = python-pyvmomi
+	pkgdesc = VMware vSphere API Python Bindings
+	pkgver = 9.0.0.0
+	pkgrel = 1
+	url = https://pypi.python.org/pypi/pyvmomi/
+	arch = any
+	license = Apache
+	makedepends = python-setuptools
+	source = https://github.com/vmware/pyvmomi/archive/v9.0.0.0.tar.gz
+	sha256sums = eeed490ca13b7bdc055d6c514d3a905aba6a10cf2749a8fb514790e7d515d3ee
+
+pkgname = python-pyvmomi
+	depends = python
+	depends = python-six
+	depends = python-requests

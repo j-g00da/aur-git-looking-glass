@@ -1,0 +1,18 @@
+pkgbase = python-ibm-cloud-sdk-core
+	pkgdesc = Core python functionality required by the IBM Cloud OpenAPI SDK Generator
+	pkgver = 3.24.1
+	pkgrel = 1
+	url = https://github.com/IBM/python-sdk-core
+	arch = any
+	license = Apache-2.0
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python-requests
+	depends = python-dateutil
+	depends = python-pyjwt
+	source = https://github.com/IBM/python-sdk-core/archive/refs/tags/v3.24.1.tar.gz
+	sha256sums = 7a80fc0678e9a7018da70dfeb3d3221444070e76bd6f4df05797c33694d7eab6
+
+pkgname = python-ibm-cloud-sdk-core

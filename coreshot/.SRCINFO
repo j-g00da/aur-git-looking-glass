@@ -1,0 +1,19 @@
+pkgbase = coreshot
+	pkgdesc = A screen capture utility from the C Suite
+	pkgver = 5.0.0
+	pkgrel = 1
+	url = https://gitlab.com/cubocore/coreapps/coreshot
+	arch = x86_64
+	arch = aarch64
+	groups = coreapps
+	license = GPL-3.0-or-later
+	makedepends = cmake
+	makedepends = ninja
+	depends = qt6-base
+	depends = hicolor-icon-theme
+	depends = libx11
+	depends = libcprime
+	source = https://gitlab.com/cubocore/coreapps/coreshot/-/archive/v5.0.0/coreshot-v5.0.0.tar.gz
+	sha256sums = 854b21aaa7009307128894231b1b82fa6aa55dfa6c177de17a1af168670df4ad
+
+pkgname = coreshot

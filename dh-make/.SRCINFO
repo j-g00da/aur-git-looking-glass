@@ -1,0 +1,15 @@
+pkgbase = dh-make
+	pkgdesc = Tool that converts source archives into Debian package source
+	pkgver = 2.202503
+	pkgrel = 1
+	url = https://salsa.debian.org/debian/dh-make
+	arch = any
+	license = GPL
+	makedepends = git
+	depends = dpkg
+	depends = make
+	depends = python
+	source = git+https://salsa.debian.org/debian/dh-make.git#tag=debian/2.202503
+	sha512sums = c0d3e9de84c67948a42dde33c5bcc576f05c603614f7cb52af727f99625438b37a33d662a0f4f4d802eca31bcf448ac3b0c7325b54f55ab87cdd1f11c1f43635
+
+pkgname = dh-make

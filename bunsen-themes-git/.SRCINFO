@@ -1,0 +1,17 @@
+pkgbase = bunsen-themes-git
+	pkgdesc = BunsenLabs GTK/Openbox/Lightdm Themes
+	pkgver = r202.281e8aa
+	pkgrel = 1
+	url = https://github.com/BunsenLabs/bunsen-themes
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = git
+	depends = gtk-engine-murrine
+	optdepends = lib32-gtk-engine-murrine: required for multilib (GTK2)
+	optdepends = gtk3: required for the GTK3 themes
+	provides = bunsen-themes
+	conflicts = bunsen-themes
+	source = git+https://github.com/BunsenLabs/bunsen-themes.git
+	md5sums = SKIP
+
+pkgname = bunsen-themes-git

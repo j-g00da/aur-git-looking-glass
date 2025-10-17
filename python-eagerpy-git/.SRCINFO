@@ -1,0 +1,23 @@
+pkgbase = python-eagerpy-git
+	pkgdesc = Toolbox to create adversarial examples that fool neural networks in PyTorch, TensorFlow, Keras,
+	pkgver = 0.30.0.r11.g5b3b37a
+	pkgrel = 1
+	url = https://github.com/jonasrauber/eagerpy
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = git
+	depends = python-numpy
+	optdepends = python-pytorch: PyTorch functionality
+	optdepends = python-tensorflow: TensorFlow functionality
+	optdepends = python-jax: Jax functionality
+	provides = python-eagerpy
+	conflicts = python-eagerpy
+	options = !emptydirs
+	source = git+https://github.com/jonasrauber/eagerpy.git
+	sha256sums = SKIP
+
+pkgname = python-eagerpy-git

@@ -1,0 +1,15 @@
+pkgbase = redlib
+	pkgdesc = Private front-end for Reddit
+	pkgver = 0.36.0
+	pkgrel = 1
+	url = https://github.com/redlib-org/redlib
+	arch = x86_64
+	license = AGPL-3.0
+	makedepends = cargo
+	makedepends = git
+	options = !lto
+	backup = etc/redlib.conf
+	source = redlib-0.36.0.tar.gz::https://github.com/redlib-org/redlib/archive/refs/tags/v0.36.0.zip
+	sha256sums = cb5f474d2b38bfd5b14587af20459447f433188f72db1cd8f22178aecf753b0c
+
+pkgname = redlib

@@ -1,0 +1,17 @@
+pkgbase = startup-configuration
+	pkgdesc = Configure startup applications for the COSMIC desktop environment
+	pkgver = 1.0.1
+	pkgrel = 1
+	url = https://github.com/ellieplayswow/startup-configuration
+	arch = x86_64
+	arch = aarch64
+	license = GPL-3.0-or-later
+	makedepends = cargo
+	makedepends = git
+	makedepends = just
+	depends = hicolor-icon-theme
+	depends = libxkbcommon
+	source = git+https://github.com/ellieplayswow/startup-configuration.git#tag=v1.0.1
+	sha256sums = 9f8b519a2c29e0f63881128d805f0a2ef351277c7dc2ffc4a02892461bdc8643
+
+pkgname = startup-configuration

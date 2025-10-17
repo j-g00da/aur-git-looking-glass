@@ -1,0 +1,26 @@
+pkgbase = scotch
+	pkgdesc = Package for graph, mesh/hypergraph partitioning, static mapping, and sparse matrix block ordering
+	pkgver = 7.0.10
+	pkgrel = 1
+	url = https://gitlab.inria.fr/scotch/scotch
+	arch = i686
+	arch = x86_64
+	license = CECILL-C
+	makedepends = gcc-fortran
+	makedepends = cmake
+	depends = zlib
+	depends = openmpi
+	depends = bzip2
+	depends = xz
+	provides = ptscotch
+	provides = ptscotch-openmpi
+	provides = scotch_esmumps
+	provides = scotch_ptesmumps
+	conflicts = ptscotch-openmpi
+	conflicts = scotch_esmumps
+	conflicts = scotch_esmumps5
+	options = !emptydirs
+	source = https://gitlab.inria.fr/scotch/scotch/-/archive/v7.0.10/scotch-v7.0.10.tar.gz
+	sha512sums = 758dfc043a64082ec2f962ae043fa49d2784096ebbb0171696ed4a10aee9a5d6d0852488c48f1edde048ea59c58717eb378ae1398101720425db1bc8fc174884
+
+pkgname = scotch

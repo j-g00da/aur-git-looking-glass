@@ -1,0 +1,37 @@
+#Maintainer: sukanka <su975853527 AT gmail.com>
+_pkgname=jaspFactor
+_pkgver=0.95.3
+pkgname=r-${_pkgname,,}
+pkgver=0.95.3
+pkgrel=1
+pkgdesc="Factor Module for JASP"
+arch=('any')
+url="https://github.com/jasp-stats/${_pkgname}"
+license=('GPL')
+depends=(r
+  r-ggplot2
+  r-jaspbase
+  r-jaspgraphs
+  r-jaspsem
+  r-lavaan
+  r-psych
+  r-qgraph
+  r-reshape2
+  r-semplot
+  r-gparotation
+  r-rcsdp
+)
+groups=(r-jasp r-jaspcommon)
+source=("${_pkgname}_${_pkgver}.tar.gz::${url}/archive/refs/tags/v${_pkgver}.tar.gz")
+sha256sums=('025fd773f8e179b2bcc0af68e5dc9d86e743ffb03bf1520de696c34697b99012')
+
+
+build() {
+
+  R CMD INSTALL ${_pkgname}_${_pkgver}.tar.gz -l "${srcdir}"
+}
+
+package() {
+  install -dm0755 "${pkgdir}/usr/lib/R/library"
+  cp -a --no-preserve=ownership "${_pkgname}" "${pkgdir}/usr/lib/R/library"
+}

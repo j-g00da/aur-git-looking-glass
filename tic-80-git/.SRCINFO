@@ -1,0 +1,25 @@
+pkgbase = tic-80-git
+	pkgdesc = TIC-80 tiny computer emulator
+	pkgver = 1.2.3019.32853aa
+	pkgrel = 1
+	url = https://tic80.com/
+	arch = x86_64
+	arch = i686
+	arch = armv7h
+	arch = aarch64
+	license = MIT
+	makedepends = git
+	makedepends = cmake
+	makedepends = ruby-rake
+	makedepends = glu
+	depends = glibc
+	depends = gcc-libs
+	depends = libglvnd
+	depends = curl
+	provides = tic-80
+	source = git+https://github.com/nesbox/TIC-80.git
+	source = get_version.cmake
+	sha256sums = SKIP
+	sha256sums = 4ab65f4733179a551a928a9e757ae6eab1681a6369ea3aa571d258ea1189697a
+
+pkgname = tic-80-git

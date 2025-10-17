@@ -1,0 +1,14 @@
+pkgbase = lzma-sdk
+	pkgdesc = The LZMA SDK provides the documentation, samples, header files, libraries, and tools you need to develop applications that use LZMA compression.
+	pkgver = 2501
+	pkgrel = 1
+	url = https://www.7-zip.org/sdk.html
+	arch = any
+	license = public domain
+	depends = p7zip
+	noextract = lzma2102.7z
+	options = !strip
+	source = https://www.7-zip.org/a/lzma2501.7z
+	sha256sums = cbc3babd589d971e45971d787ff100be8aaa5eab15b2694497ec3e447009e1f2
+
+pkgname = lzma-sdk

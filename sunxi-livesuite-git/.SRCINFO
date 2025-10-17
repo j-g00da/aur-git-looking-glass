@@ -1,0 +1,31 @@
+pkgbase = sunxi-livesuite-git
+	pkgver = r5.20140913.1a0b52a
+	pkgrel = 10
+	epoch = 1
+	url = https://github.com/linux-sunxi/sunxi-livesuite
+	arch = x86_64
+	arch = i686
+	groups = sunxi-livesuite-git
+	license = GPL-2.0-only
+	makedepends = git
+	source = sunxi-livesuite::git+https://github.com/linux-sunxi/sunxi-livesuite.git
+	source = git+https://github.com/M0Rf30/sunxi-awusb.git
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = sunxi-livesuite-git
+	pkgdesc = LiveSuit is a tool to flash Images to the NAND of Allwinner devices.
+	depends = sunxi-livesuite-dkms-git
+	depends = libpng12
+	provides = sunxi-livesuite
+	conflicts = sunxi-livesuite
+
+pkgname = sunxi-livesuite-dkms-git
+	pkgdesc = DKMS module for Allwinner devices
+	url = https://github.com/M0Rf30/sunxi-awusb
+	depends = dkms
+	provides = sunxi-livesuite-dkms
+	conflicts = sunxi-livesuite-dkms
+	conflicts = sunxi-awusb-dkms
+	replaces = sunxi-livesuite-git-dkms
+	replaces = sunxi-awusb-dkms

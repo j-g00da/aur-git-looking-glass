@@ -1,0 +1,18 @@
+pkgbase = mlc
+	pkgdesc = Media Library Compiler: rips your media library to a lossy compilation
+	pkgver = 1.3.4
+	pkgrel = 1
+	url = https://git.macaw.me/blue/mlc
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = cmake>=3.5
+	makedepends = gcc>=7.0
+	depends = flac
+	depends = lame
+	depends = libjpeg
+	depends = taglib
+	source = mlc-1.3.4.tar.gz::https://git.macaw.me/blue/mlc/archive/1.3.4.tar.gz
+	sha256sums = 7cf2f159b59c4c899a3a1c1550f8e58a97111f64e2e41c629b76a1eccdbdaf88
+
+pkgname = mlc

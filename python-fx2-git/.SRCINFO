@@ -1,0 +1,16 @@
+pkgbase = python-fx2-git
+	pkgdesc = Allow interacting with Cypress EZ-USB FX2 series microcontrollers
+	pkgver = v0.13.r2.g0134160
+	pkgrel = 1
+	url = https://github.com/whitequark/libfx2
+	arch = any
+	license = 0BSD
+	makedepends = git
+	makedepends = python-setuptools
+	depends = python
+	depends = python-libusb1
+	provides = python-fx2
+	source = git+https://github.com/whitequark/libfx2.git
+	sha256sums = SKIP
+
+pkgname = python-fx2-git

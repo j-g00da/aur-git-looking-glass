@@ -1,0 +1,19 @@
+pkgbase = legume
+	pkgdesc = A minimalist, distributed, database-free issue tracker using traditional TODO/FIXME code comments.
+	pkgver = 1.6.1
+	pkgrel = 1
+	url = https://hg.sr.ht/~ser/legume
+	changelog = Changelog
+	arch = x86_64
+	arch = i686
+	arch = arm
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = MIT
+	makedepends = go>=1.24.0
+	depends = glibc
+	source = legume-1.6.1.tar.gz::https://hg.sr.ht/~ser/legume/archive/v1.6.1.tar.gz
+	sha256sums = 509c0bfea2447a717c33fc793f0a7a3d2f9a8ebe48789d7d58591c647d0839b1
+
+pkgname = legume

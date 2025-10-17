@@ -1,0 +1,52 @@
+pkgbase = exaile
+	pkgdesc = A full-featured Amarok-style media player for GTK+
+	pkgver = 4.1.4
+	pkgrel = 1
+	url = https://exaile.org
+	arch = any
+	license = GPL-2.0-only
+	checkdepends = python-pytest
+	checkdepends = python-sunau
+	checkdepends = python-pipes
+	makedepends = pygobject-devel>=3.24.0
+	makedepends = help2man
+	depends = python>=3.8
+	depends = python-bsddb
+	depends = gtk3>=3.24.0
+	depends = gst-python>=1.16.0
+	depends = gst-plugins-base>=1.16.0
+	depends = gst-plugins-base-libs
+	depends = gst-plugins-good>=1.16.0
+	depends = python-mutagen>=1.44.0
+	depends = python-dbus
+	depends = python-cairo
+	depends = python-gobject>=3.24.0
+	depends = gvfs
+	depends = pango
+	depends = hicolor-icon-theme
+	depends = libgirepository
+	depends = glib2
+	depends = gstreamer
+	depends = gdk-pixbuf2
+	depends = at-spi2-core
+	optdepends = udisks2: device detection
+	optdepends = python-discid: CD info
+	optdepends = python-musicbrainzngs: CD info / Musicbrainz covers
+	optdepends = spydaap: DAAP server
+	optdepends = python-zeroconf: DAAP plugins (daapserver and daapclient)
+	optdepends = python-pylast: Last.FM integration
+	optdepends = python-lxml: lyrics from lyricsmania.com (lyricsmania)
+	optdepends = python-feedparser: podcast plugin
+	optdepends = webkit2gtk: Wikipedia info
+	optdepends = libkeybinder3: Xlib-based hotkeys
+	optdepends = librsvg: scalable icons
+	optdepends = libnotify: native notifications
+	optdepends = streamripper: recording streams
+	optdepends = moodbar: moodbar plugin
+	optdepends = gst-plugins-bad: BPM Counter plugin
+	optdepends = python-beautifulsoup4: lyrics from lyrics.wikia.com (lyricwiki)
+	optdepends = ipython: ipconsole plugin
+	source = exaile-4.1.4.tar.gz::https://github.com/exaile/exaile/archive/4.1.4.tar.gz
+	sha512sums = c84ae8c18f330c95b860fc211150eb02b47791340e3a6ce83b0d58f542b916a3187177996d4f572b4eddd28e253d061a3932d0d0d3a85c1f95be160fea2e32bc
+
+pkgname = exaile

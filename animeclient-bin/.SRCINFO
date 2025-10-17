@@ -1,0 +1,22 @@
+pkgbase = animeclient-bin
+	pkgdesc = An application that brings together several anime streaming platforms.(Prebuilt version)
+	pkgver = 2.1.4
+	pkgrel = 1
+	url = https://animeclient.zvbt.space/
+	arch = x86_64
+	license = MIT
+	makedepends = fuse2
+	depends = gtk3
+	depends = alsa-lib
+	depends = at-spi2-core
+	depends = nss
+	depends = nspr
+	depends = gtk2
+	depends = libdbusmenu-glib
+	depends = dbus-glib
+	provides = animeclient=2.1.4
+	conflicts = animeclient
+	source = animeclient-2.1.4.AppImage::https://github.com/zvbt/AnimeClient/releases/download/v2.1.4/AnimeClient-2.1.4.AppImage
+	sha256sums = 802adf98f4fde37ac5f12e6855984cc060414ed14746e5a93cecee04f13408d0
+
+pkgname = animeclient-bin

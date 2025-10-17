@@ -1,0 +1,22 @@
+pkgbase = c3c-git
+	pkgdesc = Compiler for the C3 language
+	pkgver = r3411.ad02fad1
+	pkgrel = 1
+	url = https://github.com/c3lang/c3c
+	arch = x86_64
+	license = LGPL-3.0-or-later
+	license = MIT
+	makedepends = clang
+	makedepends = cmake
+	makedepends = git
+	makedepends = libedit
+	makedepends = llvm
+	depends = curl
+	depends = lld
+	depends = llvm-libs
+	provides = c3c
+	conflicts = c3c
+	source = git+https://github.com/c3lang/c3c.git
+	b2sums = SKIP
+
+pkgname = c3c-git

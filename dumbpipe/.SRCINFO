@@ -1,0 +1,16 @@
+pkgbase = dumbpipe
+	pkgdesc = Connect A to B. Send Data.
+	pkgver = 0.31.0
+	pkgrel = 1
+	url = https://github.com/n0-computer/dumbpipe
+	arch = x86_64
+	license = MIT
+	license = Apache-2.0
+	makedepends = cargo
+	depends = gcc-libs
+	depends = glibc
+	options = !lto
+	source = dumbpipe-0.31.0.tar.gz::https://static.crates.io/crates/dumbpipe/dumbpipe-0.31.0.crate
+	b2sums = 93d7049189a4171db1d384035be99bd11c16471ae1f3ee2511cf63c68b24139c0bc1b2450aa7e9e83d6ee4f7ad037f78e0f70f22f1c0483c154a5fd65bc25128
+
+pkgname = dumbpipe

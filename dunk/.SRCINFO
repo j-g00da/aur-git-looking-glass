@@ -1,0 +1,17 @@
+pkgbase = dunk
+	pkgdesc = Prettier git diffs in the terminal
+	pkgver = 0.5.0b0
+	pkgrel = 1
+	url = https://github.com/darrenburns/dunk
+	arch = any
+	license = MIT
+	makedepends = uv
+	makedepends = python-installer
+	makedepends = python-hatchling
+	depends = python
+	depends = python-unidiff
+	depends = python-rich
+	source = dunk-0.5.0b0.tar.gz::https://github.com/darrenburns/dunk/archive/refs/tags/v0.5.0b0.tar.gz
+	sha256sums = 50dc9902abb2eb943489df5cca72a4db41c456b65b5b83ead82f0be2e0d4f0ee
+
+pkgname = dunk

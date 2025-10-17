@@ -1,0 +1,16 @@
+pkgbase = lightdm-webkit-theme-tendou
+	pkgdesc = A Windows 10 inspired theme for the LightDM WebKit greeter
+	pkgver = 1.2.1
+	pkgrel = 1
+	url = https://github.com/codehearts/lightdm-webkit-theme-tendou
+	install = theme.install
+	arch = any
+	license = MIT
+	depends = lightdm
+	depends = lightdm-webkit2-greeter
+	conflicts = lightdm-webkit-theme-tendou
+	source = lightdm-webkit-theme-tendou-1.2.1.tar.gz::https://github.com/codehearts/lightdm-webkit-theme-tendou/archive/v1.2.1.tar.gz
+	sha256sums = 481e7eaad1213b9771a5c7ea6cfe6a308c272bdb919c941af85743f0ae1e082b
+
+pkgname = lightdm-webkit-theme-tendou
+

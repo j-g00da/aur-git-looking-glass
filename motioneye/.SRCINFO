@@ -1,0 +1,26 @@
+pkgbase = motioneye
+	pkgdesc = A web frontend for the motion daemon
+	pkgver = 0.43.1b4
+	pkgrel = 1
+	url = https://github.com/motioneye-project/motioneye
+	install = motioneye.install
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = python-setuptools
+	makedepends = python-build
+	makedepends = python-wheel
+	makedepends = python-installer
+	depends = motion
+	depends = ffmpeg
+	depends = v4l-utils
+	depends = python-tornado
+	depends = python-jinja
+	depends = python-pillow
+	depends = python-pycurl
+	depends = python-babel
+	depends = python-boto3
+	backup = etc/motioneye/motioneye.conf
+	source = motioneye-0.43.1b4.tar.gz::https://github.com/motioneye-project/motioneye/archive/0.43.1b4.tar.gz
+	sha512sums = 492aa342d26485cae46eb9d87affba2b4d32153445d43cf85f6184ac8352ec040b30ee4620edb62fdcfdb03800866cc8ec9482de12bf6fed584705d7e86b229c
+
+pkgname = motioneye

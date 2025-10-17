@@ -1,0 +1,20 @@
+pkgbase = python-junitparser
+	pkgdesc = junitparser handles JUnit/xUnit Result XML files. Use it to parse and manipulate existing Result XML files, or create new JUnit/xUnit result XMLs from scratch.
+	pkgver = 3.2.0
+	pkgrel = 1
+	url = https://github.com/weiwei/junitparser
+	arch = any
+	license = Apache 2.0
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	makedepends = python-setuptools-scm
+	makedepends = python-pytest
+	makedepends = python-anyio
+	makedepends = python-pytest-curio
+	depends = python
+	source = junitparser-3.2.0.tar.gz::https://github.com/weiwei/junitparser/archive/refs/tags/3.2.0.tar.gz
+	sha256sums = 25771690d2d450a2426a78b58fd9719b5098bd44f05eb5aedf9a4731bb63157f
+
+pkgname = python-junitparser

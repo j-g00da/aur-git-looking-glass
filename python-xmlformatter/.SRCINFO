@@ -1,0 +1,19 @@
+pkgbase = python-xmlformatter
+	pkgdesc = CLI utility and Python library for formatting XML documents
+	pkgver = 0.2.6
+	pkgrel = 1
+	url = https://pypi.org/project/xmlformatter
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	provides = xmlformatter=0.2.6
+	conflicts = xmlformatter
+	source = xmlformatter-0.2.6.tar.gz::https://github.com/pamoller/xmlformatter/archive/refs/tags/v0.2.6.tar.gz
+	b2sums = 1403e3b320551b130d580964c378900bc91869b4b2209815eb51ce073a2fe818337c10f65bbb30efe2ee1a431f885168b4aed1462846eed34599ffbd84edbb69
+
+pkgname = python-xmlformatter

@@ -1,0 +1,68 @@
+pkgbase = dotnet-core-6.0-bin
+	pkgver = 6.0.36.sdk428
+	pkgrel = 1
+	url = https://www.microsoft.com/net/core
+	arch = x86_64
+	arch = armv7h
+	arch = aarch64
+	license = MIT
+	options = staticlibs
+	source_x86_64 = https://builds.dotnet.microsoft.com/dotnet/Sdk/6.0.428/dotnet-sdk-6.0.428-linux-x64.tar.gz
+	sha512sums_x86_64 = 04395f991ab50e4755ce1ae53e23592a7420b71b82160883bae3194dd1dfd5dcaed78743e4e0b4dd51ea43c49ec84b5643630707b3854f1471265dc98490d2f9
+	source_armv7h = https://builds.dotnet.microsoft.com/dotnet/Sdk/6.0.428/dotnet-sdk-6.0.428-linux-arm.tar.gz
+	sha512sums_armv7h = c751881dd27ef098428e616b99a9c16e8bf82526484f76987dac1efcb5177534749c8f943f6d9daacc3a91bb086c9cb9c8d535c9881c0be3dc19c647065968fe
+	source_aarch64 = https://builds.dotnet.microsoft.com/dotnet/Sdk/6.0.428/dotnet-sdk-6.0.428-linux-arm64.tar.gz
+	sha512sums_aarch64 = cb8454865ecb99ce557bd0a5741d3dc84657a45ea00f9b2a0f0593e94e4e661e898a5690df90cf0175bf5982973c19985a168998aaa975b7ac7a3bef2ecd05d2
+
+pkgname = aspnet-runtime-6.0-bin
+	pkgdesc = The ASP.NET Core runtime (binary)
+	depends = dotnet-runtime-6.0-bin
+	provides = aspnet-runtime=6.0.36
+	provides = aspnet-runtime-6.0
+	conflicts = aspnet-runtime=6.0.36
+	conflicts = aspnet-runtime-6.0
+
+pkgname = dotnet-runtime-6.0-bin
+	pkgdesc = The .NET Core runtime (binary)
+	depends = dotnet-host>=6.0.36
+	depends = gcc-libs
+	depends = glibc
+	depends = icu
+	depends = libgssapi_krb5.so
+	depends = libunwind
+	depends = zlib
+	depends = openssl
+	optdepends = lttng-ust: CoreCLR tracing
+	provides = dotnet-runtime=6.0.36
+	provides = dotnet-runtime-6.0
+	conflicts = dotnet-runtime=6.0.36
+	conflicts = dotnet-runtime-6.0
+
+pkgname = dotnet-sdk-6.0-bin
+	pkgdesc = The .NET Core SDK (binary)
+	depends = glibc
+	depends = gcc-libs
+	depends = dotnet-runtime-6.0-bin
+	depends = dotnet-targeting-pack-6.0-bin
+	depends = netstandard-targeting-pack
+	optdepends = aspnet-targeting-pack-bin: Build ASP.NET Core applications
+	provides = dotnet-sdk=6.0.36.sdk428
+	provides = dotnet-sdk-6.0
+	conflicts = dotnet-sdk=6.0.36.sdk428
+	conflicts = dotnet-sdk-6.0
+
+pkgname = dotnet-targeting-pack-6.0-bin
+	pkgdesc = The .NET Core targeting pack (binary)
+	depends = netstandard-targeting-pack
+	provides = dotnet-targeting-pack=6.0.36
+	provides = dotnet-targeting-pack-6.0
+	conflicts = dotnet-targeting-pack=6.0.36
+	conflicts = dotnet-targeting-pack-6.0
+
+pkgname = aspnet-targeting-pack-6.0-bin
+	pkgdesc = The ASP.NET Core targeting pack (binary)
+	depends = dotnet-targeting-pack-6.0-bin
+	provides = aspnet-targeting-pack=6.0.36
+	provides = aspnet-targeting-pack-6.0
+	conflicts = aspnet-targeting-pack=6.0.36
+	conflicts = aspnet-targeting-pack-6.0

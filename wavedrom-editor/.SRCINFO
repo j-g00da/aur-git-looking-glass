@@ -1,0 +1,17 @@
+pkgbase = wavedrom-editor
+	pkgdesc = Timing diagram rendering engine
+	pkgver = 3.5.0
+	pkgrel = 1
+	url = http://wavedrom.com
+	arch = x86_64
+	license = MIT
+	makedepends = zip
+	depends = nodejs
+	depends = npm
+	options = !strip
+	source_x86_64 = https://github.com/wavedrom/wavedrom.github.io/archive/v3.5.0.tar.gz
+	source_x86_64 = wavedrom-editor.desktop
+	sha256sums_x86_64 = 06577b9003acf60bd4af367338843d44f2ba96e6c5649d9e2f0c24820b8f5183
+	sha256sums_x86_64 = c8cf2a7f6626452bb10eef4f8b4b02bf1992e360e93857a90b2ed7212044f1e2
+
+pkgname = wavedrom-editor

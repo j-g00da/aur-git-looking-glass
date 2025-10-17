@@ -1,0 +1,27 @@
+pkgbase = bandcamp-dl-git
+	pkgdesc = Download audio from bandcamp.com
+	pkgver = v0.0.17.r42.g0b77700
+	pkgrel = 1
+	url = https://github.com/Evolution0/bandcamp-dl
+	arch = any
+	license = Unlicense
+	makedepends = git
+	makedepends = python-build
+	makedepends = python-installer
+	depends = python
+	depends = python-beautifulsoup4
+	depends = python-chardet
+	depends = python-demjson3
+	depends = python-docopt
+	depends = python-mutagen
+	depends = python-requests
+	depends = python-unicode-slugify
+	depends = python-setuptools
+	depends = python-urllib3-future
+	provides = bandcamp-dl
+	conflicts = bandcamp-dl
+	options = !emptydirs
+	source = git+https://github.com/Evolution0/bandcamp-dl.git
+	sha512sums = SKIP
+
+pkgname = bandcamp-dl-git

@@ -1,0 +1,15 @@
+pkgbase = tcptrack
+	pkgdesc = A sniffer which displays information about TCP connections it sees on a network interface
+	pkgver = 1.4.3
+	pkgrel = 2
+	url = https://github.com/bchretien/tcptrack
+	arch = i686
+	arch = x86_64
+	license = GPL-2.1
+	depends = libpcap
+	source = tcptrack-1.4.3.tar.gz::https://github.com/bchretien/tcptrack/archive/v1.4.3.tar.gz
+	source = Fix-printf-format-ftbfs.patch
+	sha256sums = 8725205ecbeddc3f891e3345e70f150d87705b099eafd8780f4739ab14f8c862
+	sha256sums = c278676f1751f7e5c397f59d460662ca03f45c48b0dc2126efdba386eb05b44c
+
+pkgname = tcptrack

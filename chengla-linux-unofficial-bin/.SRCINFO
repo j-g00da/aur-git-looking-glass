@@ -1,0 +1,16 @@
+pkgbase = chengla-linux-unofficial-bin
+	pkgdesc = The unofficial Linux client side of OrangeVIP platform.(Prebuilt version.Use system-wide electron)橙啦平台的非官方Linux客户端
+	pkgver = 1.0.8
+	pkgrel = 7
+	url = https://github.com/pokon548/chengla-for-linux
+	arch = x86_64
+	license = GPL-3.0-only
+	depends = electron27
+	provides = chengla-linux-unofficial=1.0.8
+	conflicts = chengla-linux-unofficial
+	source = chengla-linux-unofficial-1.0.8.rpm::https://github.com/pokon548/chengla-for-linux/releases/download/v1.0.8/chengla-linux-unofficial-1.0.8.x86_64.rpm
+	source = chengla-linux-unofficial.sh
+	sha256sums = 0768fab1de576308278eb5e75f2045c296c59c14dca83f5295f82c9d44338972
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = chengla-linux-unofficial-bin

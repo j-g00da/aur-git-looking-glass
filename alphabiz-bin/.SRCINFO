@@ -1,0 +1,17 @@
+pkgbase = alphabiz-bin
+	pkgdesc = Web3 ecosystem - enable developers to build fully decentralized media platform and blockchain-based marketplace.(Prebuilt version.Use system-wide electron)
+	pkgver = 0.3.3
+	pkgrel = 2
+	url = https://alpha.biz/
+	arch = x86_64
+	license = GPL-2.0-only
+	makedepends = asar
+	depends = electron21
+	provides = alphabiz=0.3.3
+	conflicts = alphabiz
+	source = alphabiz-0.3.3.deb::https://github.com/tanshuai/alphabiz/releases/download/0.3.3/alphabiz-0.3.3.deb
+	source = alphabiz.sh
+	sha256sums = 82ccfd7ec4d3dcd657d811f4352e8f3a7f83a80879f561e12be7c2a5ff3bd176
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = alphabiz-bin

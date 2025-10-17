@@ -1,0 +1,22 @@
+pkgbase = r-funtoonorm
+	pkgdesc = Normalization Procedure for Infinium HumanMethylation450 BeadChip Kit
+	pkgver = 1.32.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/funtooNorm
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-genomeinfodb
+	depends = r-illuminahumanmethylation450kanno.ilmn12.hg19
+	depends = r-illuminahumanmethylation450kmanifest
+	depends = r-matrixstats
+	depends = r-minfi
+	depends = r-pls
+	optdepends = r-knitr
+	optdepends = r-minfidata
+	optdepends = r-prettydoc
+	optdepends = r-rmarkdown
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/funtooNorm_1.32.0.tar.gz
+	sha256sums = 63d7b642bbe73ed4fd0cb16b97ee7087101ea41c1e68998482709a0eeec9dad5
+
+pkgname = r-funtoonorm

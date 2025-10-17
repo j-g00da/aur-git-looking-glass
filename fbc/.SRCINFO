@@ -1,0 +1,25 @@
+pkgbase = fbc
+	pkgdesc = FreeBASIC Compiler (Release version)
+	pkgver = 1.10.1
+	pkgrel = 2
+	url = http://www.freebasic.net
+	arch = i686
+	arch = x86_64
+	arch = aarch64
+	arch = armv7h
+	license = GPL2
+	license = LGPL
+	makedepends = libffi
+	makedepends = libxpm
+	makedepends = gpm
+	makedepends = libffi
+	makedepends = libxrandr
+	makedepends = mesa
+	provides = fbc
+	conflicts = freebasic
+	conflicts = fbc-git
+	options = staticlibs
+	source = https://downloads.sourceforge.net/fbc/Source%20Code/FreeBASIC-1.10.1-source.tar.gz
+	sha256sums = SKIP
+
+pkgname = fbc

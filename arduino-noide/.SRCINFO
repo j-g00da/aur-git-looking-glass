@@ -1,0 +1,19 @@
+pkgbase = arduino-noide
+	pkgdesc = Arduino prototyping platform without the IDE
+	pkgver = 1.8.19
+	pkgrel = 1
+	url = http://arduino.cc/en/Main/Software
+	arch = any
+	license = GPL
+	license = LGPL
+	conflicts = arduino
+	conflicts = arduino10
+	options = !strip
+	source = https://github.com/arduino/Arduino/archive/1.6.8.zip
+	sha256sums = 786428ff0e20e033e78108d289d090f9ecade43314c3a4bf4668089cd3e02fe0
+
+pkgname = arduino-noide-libs
+	pkgdesc = Arduino prototyping platform: software libraries
+
+pkgname = arduino-noide-avr
+	pkgdesc = Arduino prototyping platform: AVR hardware support

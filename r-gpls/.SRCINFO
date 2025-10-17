@@ -1,0 +1,13 @@
+pkgbase = r-gpls
+	pkgdesc = Classification using generalized partial least squares
+	pkgver = 1.80.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/gpls
+	arch = any
+	license = Artistic-2.0
+	depends = r
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/gpls_1.80.0.tar.gz
+	md5sums = be626385bc932d8eb104bb2e72465741
+	b2sums = 8ce384c1237a8e1d2bd29c9a32415aa103b42708f0c5febed3a2859b864e0b1bfc5de292b19c526cc3168d373a2e2154613bc65605de32a559f04e909f44ff94
+
+pkgname = r-gpls

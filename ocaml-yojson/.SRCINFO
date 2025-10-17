@@ -1,0 +1,17 @@
+pkgbase = ocaml-yojson
+	pkgdesc = Low level JSON binary for OCaml
+	pkgver = 2.2.2
+	pkgrel = 1
+	url = https://github.com/ocaml-community/yojson
+	arch = x86_64
+	license = BSD
+	makedepends = dune
+	depends = ocaml
+	depends = ocaml-biniou
+	depends = ocaml-easy-format
+	options = !strip
+	options = staticlibs
+	source = https://github.com/ocaml-community/yojson/releases/download/2.2.2/yojson-2.2.2.tbz
+	sha256sums = 9abfad8c9a79d4723ad2f6448e669c1e68dbfc87cc54a1b7c064b0c90912c595
+
+pkgname = ocaml-yojson

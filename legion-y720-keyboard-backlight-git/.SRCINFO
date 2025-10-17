@@ -1,0 +1,16 @@
+pkgbase = legion-y720-keyboard-backlight-git
+	pkgdesc = Simple C program to control the keyboard backlight on the Lenovo Legion Y720
+	pkgver = 2.0.2.r4.g65518ad
+	pkgrel = 1
+	url = https://github.com/threadexio/Legion-Y720-Keyboard-Backlight
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = cmake
+	depends = libconfig
+	provides = legion-y720-keyboard-backlight
+	conflicts = legion-y720-keyboard-backlight
+	source = legion-y720-keyboard-backlight-git::git+https://github.com/threadexio/Legion-Y720-Keyboard-Backlight.git
+	md5sums = SKIP
+
+pkgname = legion-y720-keyboard-backlight-git

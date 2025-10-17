@@ -1,0 +1,17 @@
+pkgbase = firefox-extension-multi-account-containers
+	pkgdesc = Firefox extension that lets you assign websites to isolated containers to help protect privacy.
+	pkgver = 8.2.0
+	pkgrel = 1
+	url = https://github.com/mozilla/multi-account-containers
+	arch = any
+	groups = firefox-addons
+	license = MPL2
+	makedepends = npm
+	makedepends = unzip
+	makedepends = zip
+	source = https://github.com/mozilla/multi-account-containers/archive/8.2.0/multi-account-containers-8.2.0.tar.gz
+	source = https://github.com/mozilla-l10n/multi-account-containers-l10n/archive/bdaa01291b7367a5e815470fd263ea36c862fe32.tar.gz
+	sha512sums = 561d45192490d176d525ffcb5b96b89e39da34d7bcb7b8282eca88e4b3e70af1e6d60f6077b5841f34199d942fd10a63481a1fe82acf37b517bf0c263ed5f9e0
+	sha512sums = f6b9e7af7e1cd2cc48f530890576f03daaaf4d39137673be10eff3a3cfad68943be767727a0f224c986428b620c3362c835812db845f1fc76f17cd0a3647b303
+
+pkgname = firefox-extension-multi-account-containers

@@ -1,0 +1,14 @@
+pkgbase = ef3usb
+	pkgdesc = All-in-1 utility for the EasyFlash3 cartridge and its USB connection to the PC
+	pkgver = 1.94
+	pkgrel = 1
+	url = https://csdb.dk/release/?id=198123
+	arch = i686
+	arch = x86_64
+	license = unknown
+	depends = libftdi-compat
+	depends = tass64
+	source = http://csdb.dk/getinternalfile.php/206596/ef3usb194.zip
+	sha256sums = 4aece312019dbbc53d10d8ec2ffeff762bbc83ace7e453d3fbc32b553943e133
+
+pkgname = ef3usb

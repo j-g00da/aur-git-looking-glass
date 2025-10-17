@@ -1,0 +1,39 @@
+# Maintainer: Guoyi Zhang <myname at malacology dot net>
+# Contributor: Clint Valentine <valentine.clint@gmail.com>
+
+pkgname=libmaus
+pkgver=2.0.813_release_20221210220409
+pkgrel=1
+pkgdesc="Bioinformatics data structures and algorithms in C++"
+arch=('x86_64')
+url=https://gitlab.com/german.tischler/libmaus2
+license=('GPL-2.0-or-later')
+source=(https://gitlab.com/german.tischler/"${pkgname}"2/-/archive/"${pkgver//_/-}"/"${pkgname}"2-"${pkgver//_/-}".tar.gz
+	"gcc13.patch::https://gitlab.com/malacology/libmaus2/-/commit/f148c4571d17965192f01a1a25248c3cc3e07da8.patch")
+sha256sums=('4125f8daefd6900185675026498369457088e25e81029597659249be49cd5261'
+            '3f5a37c3c0a5cf5b0252a278ea434d98bbcf044e09712a0560740275f2555c5f')
+makedepends=('make' 'gcc' 'boost')
+
+prepare() {
+  cd "${srcdir}"/libmaus2-"${pkgver//_/-}"
+  patch -p1 < $srcdir/gcc13.patch
+}
+
+
+build() {
+  cd "${srcdir}"/libmaus2-"${pkgver//_/-}"
+  ./configure --prefix="${pkgdir}"/usr --exec-prefix "${pkgdir}"/
+  make
+}
+
+check() {
+  cd ${srcdir}/libmaus2-"${pkgver//_/-}"
+  make test
+}
+
+package() {
+  cd ${srcdir}/libmaus2-"${pkgver//_/-}"
+  make install
+  mv "${pkgdir}"/lib "${pkgdir}"/usr/lib
+  install -Dm644 AUTHORS "${pkgdir}"/usr/share/licenses/"${pkgname}"2/AUTHORS
+}

@@ -1,0 +1,16 @@
+pkgbase = haveibeenpwned-downloader-git
+	pkgdesc = A tool to download all Pwned Passwords hash ranges and save them offline
+	pkgver = r62.6b5eec3
+	pkgrel = 1
+	url = https://github.com/HaveIBeenPwned/PwnedPasswordsDownloader
+	arch = x86_64
+	license = BSD-3-Clause
+	makedepends = dotnet-sdk-8.0
+	makedepends = git
+	depends = dotnet-runtime-8.0
+	depends = gcc-libs
+	depends = glibc
+	source = haveibeenpwned-downloader::git+https://github.com/HaveIBeenPwned/PwnedPasswordsDownloader.git
+	sha256sums = SKIP
+
+pkgname = haveibeenpwned-downloader-git

@@ -1,0 +1,25 @@
+pkgbase = cellframe-wallet
+	pkgdesc = Official Cellframe Wallet
+	pkgver = 4.3.15
+	pkgrel = 1
+	url = https://cellframe.net
+	install = cellframe-wallet.install
+	arch = x86_64
+	arch = aarch64
+	license = GPL-3.0-or-later
+	makedepends = git
+	makedepends = cmake
+	makedepends = libxslt
+	depends = qt6-declarative
+	depends = qt6-base
+	depends = qt6-svg
+	depends = qt6-5compat
+	optdepends = cellframe-node: Support for local node management
+	provides = cellframe-wallet
+	options = !debug
+	source = git+https://gitlab.demlabs.net/cellframe/cellframe-wallet.git#commit=437d9eeafa65dc227f0990422c401f3bd08eb2f4
+	source = cellframe-wallet-tmpfiles.conf
+	sha256sums = SKIP
+	sha256sums = 067aa7c1c738347d3d9e046cdb773671e74dc89888bcf65d55aba8eb7877c745
+
+pkgname = cellframe-wallet

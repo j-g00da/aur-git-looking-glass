@@ -1,0 +1,20 @@
+pkgbase = python-powerxrd
+	pkgdesc = Simple tools to handle powder XRD (and XRD) data with Python.
+	pkgver = 3.0.0
+	pkgrel = 1
+	url = https://github.com/andrewrgarcia/powerxrd
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-poetry-core
+	depends = python
+	depends = python-numpy
+	depends = python-pandas
+	depends = python-scipy
+	depends = python-matplotlib
+	source = https://files.pythonhosted.org/packages/ee/16/90c4a086ca7f699f99422b216e9628e39253966861652831b4dd7319c18b/powerxrd-3.0.0.tar.gz
+	sha256sums = d62b7d1914e7ac993c2c3f56fffa2fbf6f741f0bc68d399de1e726d7b97aa420
+
+pkgname = python-powerxrd

@@ -1,0 +1,27 @@
+pkgbase = elan-bin
+	pkgdesc = A video and audio annotation tool
+	pkgver = 7.0
+	pkgrel = 1
+	url = https://tla.mpi.nl/tools/tla-tools/elan/
+	arch = x86_64
+	license = GPL-3.0-or-later
+	depends = alsa-lib
+	depends = ffmpeg
+	depends = freetype2
+	depends = gcc-libs
+	depends = glibc
+	depends = libx11
+	depends = libxcb
+	depends = libxext
+	depends = libxi
+	depends = libxrender
+	depends = libxtst
+	depends = zlib
+	provides = elan
+	conflicts = elan
+	source = https://www.mpi.nl/tools/elan/ELAN_7-0_linux.tar.gz
+	source = elan.desktop
+	sha256sums = e04d41a06c5abddafeb846421f538062c5c422b7845accfe8081e4c0cc7ddf72
+	sha256sums = 918720769c986b0183b563596da1a8a9da039eb1196132b224b3b110d8233394
+
+pkgname = elan-bin

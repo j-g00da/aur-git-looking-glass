@@ -1,0 +1,13 @@
+pkgbase = deepin-default-settings
+	pkgdesc = Deepin default settings
+	pkgver = 2020.10.21
+	pkgrel = 2
+	url = https://github.com/linuxdeepin/default-settings
+	arch = x86_64
+	license = GPL3
+	source = deepin-default-settings-2020.10.21.tar.gz::https://github.com/linuxdeepin/default-settings/archive/2020.10.21.tar.gz
+	sha512sums = 520e14f647cc6f3cf5e71c97427533c27a4ae1b0658faa86e74c631e18865fb386385eb66d24d4d4a8b9e8b9726737bcf64d2fc9dfb445d8d919f20e228e7778
+
+pkgname = deepin-font-settings
+	depends = fontconfig
+

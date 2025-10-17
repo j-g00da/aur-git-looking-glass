@@ -1,0 +1,16 @@
+pkgbase = python-simplematch
+	pkgdesc = Minimal, super readable string pattern matching for Python.
+	pkgver = 1.4
+	pkgrel = 1
+	url = https://github.com/tfeldmann/simplematch
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-poetry-core
+	depends = python
+	source = https://files.pythonhosted.org/packages/source/s/simplematch/simplematch-1.4.tar.gz
+	sha1sums = 2beed5a1007f143ae18f8df4e769d34bdabdf6d0
+	sha256sums = 55a77278b3d0686cb38e3ffe5a326a5f59c2995f1ba1fa1a4f68872c17caf4cb
+
+pkgname = python-simplematch

@@ -1,0 +1,14 @@
+pkgbase = blks-git
+	pkgdesc = dwmblocks/slstatus-like program written in go
+	pkgver = r8.09582d6
+	pkgrel = 1
+	url = https://codeberg.org/Marti/blks
+	arch = x86_64
+	license = GPL
+	makedepends = git
+	makedepends = go
+	options = !debug
+	source = blks-git::git+https://codeberg.org/Marti/blks.git
+	md5sums = SKIP
+
+pkgname = blks-git

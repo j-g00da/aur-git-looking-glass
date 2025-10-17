@@ -1,0 +1,20 @@
+pkgbase = git-diff-image-git
+	pkgdesc = An extension to 'git diff' that provides support for diffing images.
+	pkgver = 0.0.0.r62.gf12098b
+	pkgrel = 2
+	url = https://github.com/ewanmellor/git-diff-image
+	arch = any
+	license = CC0
+	makedepends = git
+	depends = imagemagick
+	depends = perl-image-exiftool
+	depends = xdg-utils
+	depends = xorg-xdpyinfo
+	provides = git-diff-image=0.0.0.r62.gf12098b
+	conflicts = git-diff-image
+	source = git-diff-image::git+https://github.com/ewanmellor/git-diff-image.git#branch=master
+	source = git-diff-image.patch
+	sha256sums = SKIP
+	sha256sums = 8cafcc3b170c436fef7da0c13722dd79be2d9873068fffb48bc63383a45dce7a
+
+pkgname = git-diff-image-git

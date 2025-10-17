@@ -1,0 +1,14 @@
+pkgbase = epson-inkjet-printer-201203j
+	pkgdesc = Epson inkjet printer driver (PX-405A, PX-435A)
+	pkgver = 1.0.1
+	pkgrel = 1
+	url = https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+	arch = x86_64
+	license = custom:Epson End User Software License Agreement
+	depends = epson-inkjet-printer-filter
+	depends = gcc-libs
+	depends = glibc
+	source = https://download3.ebz.epson.net/dsc/f/03/00/15/69/67/40fe293c4d4732183d5c96b4f566f509ccc10983/epson-inkjet-printer-201203j-1.0.1-1.src.rpm
+	sha256sums = f1e71f3d141b99ee040b1b665f64f0ec6b4942153672116fac0b0c043f3145b9
+
+pkgname = epson-inkjet-printer-201203j

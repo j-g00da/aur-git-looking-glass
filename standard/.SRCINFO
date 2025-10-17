@@ -1,0 +1,17 @@
+pkgbase = standard
+	pkgdesc = JavaScript style guide, linter, and formatter
+	pkgver = 17.1.2
+	pkgrel = 1
+	url = https://standardjs.com
+	arch = any
+	license = MIT
+	makedepends = npm
+	depends = nodejs
+	provides = nodejs-standard
+	conflicts = nodejs-standard
+	replaces = nodejs-standard
+	noextract = standard-17.1.2.tgz
+	source = https://registry.npmjs.org/standard/-/standard-17.1.2.tgz
+	sha512sums = 58b9b5d96a17bde2a4be73e73e76855141ee381d9c51d02c2780221872f61b450d32b7110166365ab890695f08437a11998af401651b2cdafde1e9181401ceac
+
+pkgname = standard

@@ -1,0 +1,23 @@
+pkgbase = notcurses-git
+	pkgdesc = Blingful TUI/character graphics library
+	pkgver = v3.0.16.r6.ge6aeee519
+	pkgrel = 1
+	url = https://nick-black.com/dankwiki/index.php/Notcurses
+	arch = x86_64
+	arch = aarch64
+	license = Apache
+	makedepends = cmake
+	makedepends = libdeflate
+	makedepends = doctest
+	makedepends = qrcodegen
+	makedepends = ninja
+	makedepends = gpm
+	depends = ncurses
+	depends = ffmpeg
+	depends = libunistring
+	provides = notcurses=3.0.6
+	conflicts = notcurses
+	source = notcurses-git::git+https://github.com/dankamongmen/notcurses.git
+	sha256sums = SKIP
+
+pkgname = notcurses-git

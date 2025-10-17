@@ -1,0 +1,27 @@
+pkgbase = r-metaneighbor
+	pkgdesc = Single cell replicability analysis
+	pkgver = 1.28.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/MetaNeighbor
+	arch = any
+	license = MIT
+	depends = r
+	depends = r-beanplot
+	depends = r-dplyr
+	depends = r-ggplot2
+	depends = r-gplots
+	depends = r-igraph
+	depends = r-matrixstats
+	depends = r-rcolorbrewer
+	depends = r-singlecellexperiment
+	depends = r-summarizedexperiment
+	depends = r-tibble
+	depends = r-tidyr
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	optdepends = r-upsetr
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/MetaNeighbor_1.28.0.tar.gz
+	sha256sums = af6043e348097cb6f6d69e8ef168c9603227ff4183ef4b9dd6fc36c625fd6339
+
+pkgname = r-metaneighbor

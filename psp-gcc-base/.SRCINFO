@@ -1,0 +1,19 @@
+pkgbase = psp-gcc-base
+	pkgdesc = A port of gcc to the PSP (bootstrap) (psp)
+	pkgver = 14.1.0
+	pkgrel = 1
+	url = https://github.com/pspdev/gcc
+	arch = x86_64
+	license = GPL
+	license = LGPL
+	license = FDL
+	license = custom
+	makedepends = psp-binutils
+	makedepends = git
+	depends = mpfr
+	conflicts = psp-gcc
+	options = !buildflags
+	options = !strip
+	options = staticlibs
+
+pkgname = psp-gcc-base

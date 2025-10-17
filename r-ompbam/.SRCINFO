@@ -1,0 +1,24 @@
+pkgbase = r-ompbam
+	pkgdesc = C++ Library for OpenMP-based multi-threaded sequential profiling of Binary Alignment Map (BAM) files
+	pkgver = 1.12.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/ompBAM
+	arch = any
+	license = MIT
+	checkdepends = r-devtools
+	checkdepends = r-rcppprogress
+	checkdepends = r-testthat
+	depends = r-rcpp
+	optdepends = r-desc
+	optdepends = r-devtools
+	optdepends = r-knitr
+	optdepends = r-rcppprogress
+	optdepends = r-rmarkdown
+	optdepends = r-roxygen2
+	optdepends = r-testthat
+	optdepends = r-usethis
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/ompBAM_1.12.0.tar.gz
+	md5sums = b13d72b15880a5f3a49e2369f0c1ac97
+	b2sums = 2760937be1509a6ed2a75a3d1e267967c6fe56650cf14011b17a8db54d0a3c2546466c21a5d2071b3ec0618f0c032189efa9d2a87429b80222941d4bde89e9b0
+
+pkgname = r-ompbam

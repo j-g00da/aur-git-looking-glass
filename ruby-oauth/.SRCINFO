@@ -1,0 +1,17 @@
+pkgbase = ruby-oauth
+	pkgdesc = OAuth for Ruby
+	pkgver = 1.1.2
+	pkgrel = 1
+	url = https://github.com/oauth-xx/oauth-ruby
+	arch = any
+	license = MIT
+	makedepends = ruby-rdoc
+	depends = ruby-oauth-tty
+	depends = ruby-snaky_hash
+	depends = ruby-version_gem
+	noextract = oauth-1.1.2.gem
+	options = !emptydirs
+	source = https://rubygems.org/downloads/oauth-1.1.2.gem
+	sha256sums = e29a96f9accd2b269caa5941d82f37d484ffe5da777a699feb766c51c856fb86
+
+pkgname = ruby-oauth

@@ -1,0 +1,23 @@
+pkgbase = xpipe-bin
+	pkgdesc = Your entire server infrastructure at your fingertips.(Prebuilt version)
+	pkgver = 18.7
+	pkgrel = 1
+	url = https://xpipe.io/
+	arch = aarch64
+	arch = x86_64
+	license = Apache-2.0
+	depends = gtk3
+	depends = libx11
+	depends = alsa-lib
+	depends = ffmpeg4.4
+	depends = ffmpeg
+	provides = xpipe=18.7
+	conflicts = xpipe
+	source = xpipe.sh
+	sha256sums = 235061e14a5ba0983364e506bdf824ea11f6c987d9b116af7ce6ce8967ef5603
+	source_aarch64 = xpipe-18.7-aarch64.rpm::https://github.com/xpipe-io/xpipe/releases/download/18.7/xpipe-installer-linux-arm64.rpm
+	sha256sums_aarch64 = 22c7f59628e89046242c0ef4ce52f7d4ab408208342dfed9e7b9fda7cf420fb1
+	source_x86_64 = xpipe-18.7-x86_64.rpm::https://github.com/xpipe-io/xpipe/releases/download/18.7/xpipe-installer-linux-x86_64.rpm
+	sha256sums_x86_64 = 6b102c551a342443e3c72a1409ec1b078943eeb0b294232a5a2aa02e66a4b399
+
+pkgname = xpipe-bin

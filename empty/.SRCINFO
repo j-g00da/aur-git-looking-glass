@@ -1,0 +1,12 @@
+pkgbase = empty
+	pkgdesc = Run applications under pseudo-terminal sessions
+	pkgver = 0.6.23d
+	pkgrel = 1
+	url = https://empty.sourceforge.net/
+	arch = i686
+	arch = x86_64
+	license = custom
+	source = https://downloads.sourceforge.net/sourceforge/empty/empty-0.6.23d.tgz
+	sha256sums = 9ad495d52b942e3fd858643536d8d12e282568214300954d4518d8c22b893585
+
+pkgname = empty

@@ -1,0 +1,18 @@
+pkgbase = alda-git
+	pkgdesc = A music programming language for musicians
+	pkgver = 2.3.1.r55.ge003968
+	pkgrel = 1
+	url = https://github.com/alda-lang/alda
+	arch = x86_64
+	license = custom:EPL2
+	makedepends = git
+	makedepends = go>=1.19
+	makedepends = gradle
+	depends = bash
+	depends = java-runtime>=8
+	provides = alda
+	conflicts = alda
+	source = alda-git::git+https://github.com/alda-lang/alda
+	sha256sums = SKIP
+
+pkgname = alda-git

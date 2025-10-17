@@ -1,0 +1,26 @@
+pkgbase = python-pymunk
+	pkgdesc = Pymunk is a easy-to-use pythonic 2D physics library.
+	pkgver = 7.0.1
+	pkgrel = 2
+	url = http://www.pymunk.org/
+	arch = any
+	license = MIT
+	checkdepends = python-pygame
+	makedepends = python-setuptools
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-cffi
+	makedepends = cmake
+	makedepends = gcc
+	depends = python
+	depends = python-cffi
+	optdepends = python-pyglet
+	optdepends = python-pygame
+	optdepends = python-aafigure
+	optdepends = python-matplotlib
+	optdepends = python-numpy
+	source = https://files.pythonhosted.org/packages/source/p/pymunk/pymunk-7.0.1.tar.gz
+	sha256sums = 96a38e8123f4d89f8820b43640f1f623d6844f1f97eea09c4660f031780a9ff8
+
+pkgname = python-pymunk

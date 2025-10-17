@@ -1,0 +1,104 @@
+# Maintainer: Cody P Schafer <aur [at] codyps [dot] com>
+# Maintainer: Grey Christoforo <first name [at] last name [dot] net>
+# Contributor: Stefan Seemayer <stefan@seemayer.de>
+# Contributor: Alexey Stukalov: <astukalov -at- gmail -dot- com>
+
+pkgbase=tsmclient
+pkgname=(tsmclient-service tsmclient-dkms)
+pkgver=8.1.23.0
+pkgrel=1
+pkgdesc="IBM Tivoli Storage Manager Client"
+arch=('x86_64')
+url="http://www-03.ibm.com/software/products/en/tivostormana/"
+license=('proprietary')
+depends=('gcc-libs' 'zlib' 'libxcrypt-compat')
+makedepends=(libarchive patchelf)
+checkdepends=()
+optdepends=('jre8-openjdk: support for dsmj java gui')
+provides=()
+conflicts=()
+install=
+options=(!strip)
+
+# For 7.1.6.2:
+# 7
+_ver_major="${pkgver%%.*}"
+# 7.1.6
+_ver_3="${pkgver%.*}"
+# 716
+_ver_3_nd="${_ver_3//.}"
+# 7.1
+_ver_2="${_ver_3%.*}"
+# 1
+_ver_minor="${_ver_2#*.}"
+source=(
+	https://public.dhe.ibm.com/storage/tivoli-storage-management/maintenance/client/v${_ver_major}r${_ver_minor}/Linux/LinuxX86/BA/v${_ver_3_nd}/${pkgver}-TIV-TSMBAC-LinuxX86.tar
+	dkms.conf
+	jbb_version.h
+)
+
+sha256sums=('8aa79527914a8e7749d940b7d269286a8a9165e7302e61c463ead8cea6714dac'
+            '6ae5ff0c4c23138573ec8254cfc45c7f0883f43dbcede57ded5831ae9d233bf3'
+            'b47806d7307fc955469f5b46b9f23cad24f72725a204380d369013c8d9fde88d')
+
+prepare() {
+	cd "$srcdir/"
+	for rpmfile in *.rpm; do
+		case "$rpmfile" in
+			TIVsm-filepath-*) continue ;;
+		esac
+		echo "Extracting '$rpmfile'"
+		bsdtar -xf $rpmfile
+	done
+
+	bsdtar -xf TIVsm-filepath-source.tar.gz
+}
+
+package_tsmclient-service() {
+	pkgdesc="IBM Tivoli Storage Manager Client and Systemd Service"
+	cd "$srcdir/"
+
+	#cp -r "$srcdir/etc" "$pkgdir/"
+	cp -r "$srcdir/opt" "$pkgdir/"
+	install -d "$pkgdir"/usr
+	cp -r "$srcdir"/usr/{bin,lib64,local} "$pkgdir"/usr
+        mv "$pkgdir/usr/lib64" "$pkgdir/usr/lib"
+
+	ln -s "/opt/tivoli/tsm/client/lang/EN_US" "$pkgdir/opt/tivoli/tsm/client/ba/bin/EN_US"
+
+	for serv in "$srcdir"/opt/tivoli/tsm/client/ba/bin/*.service; do
+		install -d "$pkgdir"/usr/lib/systemd/system
+		install -m 644 "$serv" "$pkgdir"/usr/lib/systemd/system
+	done
+
+	# Permissions even for owner are locked down, fix what we need for now.
+	chmod u+rw -R "$pkgdir"/opt/tivoli/tsm/client/ba
+
+	# GSK stuff is in wierd places, tweak rpath to allow it
+	# TODO: consider relocating these somewhere else
+	for bin in "$pkgdir"/opt/tivoli/tsm/client/ba/bin/{dsmadmc,dsmagent,dsmc,dsmcad,dsmcert,dsmswitch,dsmtrace,tsmjbbd}; do
+		if ! [ -x "$bin" ]; then
+			>&2 echo "Error: could not find $bin"
+			exit 1
+		fi
+		echo "Patch rpath of $bin"
+		patchelf --set-rpath '/usr/local/ibm/gsk8_64/lib64:/opt/tivoli/tsm/client/api/bin64'  "$bin"
+	done
+}
+
+package_tsmclient-dkms() {
+	arch=('any')
+	depends=('dkms')
+	pkgdesc="IBM Tivoli Storage Manager Client Journal-based Backup Kernel Module"
+	license=('GPL' 'BSD')
+
+	dkmsdir="${pkgdir}"/usr/src/${pkgbase}-${pkgver}
+	install -d -m 0755 ${dkmsdir}
+	install -D -m 0644 "${srcdir}"/{dkms.conf,jbb_version.h} ${dkmsdir}/
+	install -m 0644 "${srcdir}"/jbb_gpl/{Makefile,*.c,*.h} ${dkmsdir}/
+
+	sed \
+		-e "s/@PKGBASE@/${pkgbase}/" \
+		-e "s/@PKGVER@/${pkgver}/" \
+		-i ${dkmsdir}/{dkms.conf,jbb_version.h}
+}

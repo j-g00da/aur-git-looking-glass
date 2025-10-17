@@ -1,0 +1,16 @@
+pkgbase = audiokit-kde
+	pkgdesc = KDE audio utility suite that extends Dolphin context menus with format conversion, etc.
+	pkgver = 0.3.0
+	pkgrel = 4
+	url = https://github.com/TomB16/audiokit-kde
+	arch = any
+	license = GPL3
+	makedepends = git
+	depends = ffmpeg
+	depends = bashdev
+	depends = shntool
+	depends = cuetools
+	source = git+https://github.com/TomB16/audiokit-kde.git#branch=master
+	sha256sums = SKIP
+
+pkgname = audiokit-kde

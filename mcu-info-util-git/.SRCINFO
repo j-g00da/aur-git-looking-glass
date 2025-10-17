@@ -1,0 +1,18 @@
+pkgbase = mcu-info-util-git
+	pkgdesc = Utility which can find toolchain and compiler flags for specified MCU and generated linker script and header file if needed
+	pkgver = 0.4
+	pkgrel = 1
+	url = https://github.com/KivApple/mcu-info-util
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	depends = cmsis-svd-git
+	optdepends = avr-gcc: AVR toolchain
+	optdepends = avr-libc: AVR libc
+	optdepends = arm-none-eabi-gcc: ARM toolchain
+	source = mcu-info-util::git+https://github.com/KivApple/mcu-info-util
+	md5sums = SKIP
+
+pkgname = mcu-info-util-git
+

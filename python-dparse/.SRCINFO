@@ -1,0 +1,19 @@
+pkgbase = python-dparse
+	pkgdesc = Parser for Python dependency files
+	pkgver = 0.6.4
+	pkgrel = 1
+	url = https://github.com/pyupio/dparse
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-hatchling
+	depends = python-packaging
+	optdepends = python-pipenv: pipenv
+	optdepends = python-pyyaml: conda
+	optdepends = python-poetry: poetry
+	source = python-dparse-0.6.4.tar.gz::https://github.com/pyupio/dparse/archive/0.6.4.tar.gz
+	sha256sums = b897bbf1df2cd0fb0c7d45b04e660c256cf368a1f46e34d78b41c167f877b582
+
+pkgname = python-dparse

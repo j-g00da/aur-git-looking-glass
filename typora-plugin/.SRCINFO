@@ -1,0 +1,25 @@
+pkgbase = typora-plugin
+	pkgdesc = A minimal markdown editor and reader. with obgnail/typora_plugin plugin.
+	pkgver = 1.11.5+plugin+1.15.11
+	pkgrel = 5
+	url = https://typora.io/
+	arch = x86_64
+	arch = aarch64
+	license = custom:"Copyright (c) 2015 Abner Lee All Rights Reserved."
+	depends = gtk3
+	depends = nss
+	depends = alsa-lib
+	optdepends = noto-fonts-emoji: Or some other emoji font to see emojis
+	optdepends = pandoc: Import/export for extra file formats
+	provides = typora
+	conflicts = typora
+	source = typora.sh
+	source = https://github.com/obgnail/typora_plugin/releases/download/1.15.11/typora-plugin@v1.15.11.zip
+	sha512sums = 108cb69c5ada4e06dcd9995f4c45f9e5566a4ac41002af1d7cc22ecdc54f1186e43920019e54657be8b91b132dd60919241e135560d3d85d60f9618f4112095c
+	sha512sums = 9774ecf6f0b4fcdde1a79339b613d5ad98a386e8a2ad0fd1a926c5f51235e9eae42327dd075f2427dd971f949c1a2ed8d42c0169970aace6b9ccb597cf643559
+	source_x86_64 = https://download.typora.io/linux/typora_1.11.5_amd64.deb
+	sha512sums_x86_64 = e9ec473aca25a7a42a5a1ca0268a66dadda0966d4b969069197c42924a216f98707a9cf3325a502b3164a8d24846de64f3cdbc103ea947eb98d5a7c737ad4bfb
+	source_aarch64 = https://download.typora.io/linux/typora_1.11.5_arm64.deb
+	sha512sums_aarch64 = f424a1ba555e8b79d61478e9cfa703ad54fb6466581e1c2483695ea395b7fd16002c7b4714b9ba9e62cce5d5ad76d6a9c709bfe0cd9264df369ebb25bb91ab37
+
+pkgname = typora-plugin

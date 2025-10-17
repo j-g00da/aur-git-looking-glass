@@ -1,0 +1,16 @@
+pkgbase = nodejs-socket-cli-js
+	pkgdesc = The Socket CLI tool
+	pkgver = 0.14.67
+	pkgrel = 1
+	url = https://github.com/SocketDev/socket-cli/
+	arch = any
+	license = MIT
+	makedepends = npm
+	makedepends = python
+	makedepends = python-setuptools
+	depends = nodejs
+	noextract = cli-0.14.67.tgz
+	source = https://registry.npmjs.org/@socketsecurity/cli/-/cli-0.14.67.tgz
+	sha256sums = 3d1882886b35e2b4c7ec080f5ced2542f4f1795b8d371e4abc87227af16660ca
+
+pkgname = nodejs-socket-cli-js

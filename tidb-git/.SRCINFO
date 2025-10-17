@@ -1,0 +1,22 @@
+pkgbase = tidb-git
+	pkgdesc = Distributed NewSQL database compatible with MySQL protocol
+	pkgver = 9.0.0.alpha.386.gc902ad1f4cb
+	pkgrel = 1
+	url = https://pingcap.com/
+	arch = i686
+	arch = x86_64
+	license = APACHE
+	makedepends = go
+	makedepends = git
+	depends = glibc
+	backup = etc/tidb/config.toml
+	source = git+https://github.com/pingcap/tidb.git
+	source = tidb.service
+	source = tidb.user
+	source = tidb.tmpfile
+	sha256sums = SKIP
+	sha256sums = d7694b2c69447e05b2995c7c09b5735eb9766f5c405311822614971bbcf73544
+	sha256sums = e8e60176eca71d4f930828e9e152c3bae4db70cff409a7557f12e145700e4a03
+	sha256sums = 30ce83fbec8f102c30e438282bb5b18c026d08480f2386d68f1116c12481bf66
+
+pkgname = tidb-git

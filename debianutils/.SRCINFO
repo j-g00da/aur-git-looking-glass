@@ -1,0 +1,14 @@
+pkgbase = debianutils
+	pkgdesc = Miscellaneous utilities specific to Debian
+	pkgver = 5.23
+	pkgrel = 1
+	url = https://tracker.debian.org/pkg/debianutils
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = po4a
+	depends = run-parts
+	source = https://salsa.debian.org/debian/debianutils/-/archive/debian/5.23/debianutils-debian-5.23.tar.bz2
+	sha512sums = d435f5280748362a546505418d41943c8c51d8ed359e96ebb851eec1c64c7375e9e14d361ab8f4ba81373f2654bb561556fae5eb440c7140398b7908500a6f74
+
+pkgname = debianutils

@@ -1,0 +1,16 @@
+pkgbase = polaronproton-git
+	pkgdesc = Symlink manager for Steam Play (Proton) prefixes
+	pkgver = r2.44c6f0d
+	pkgrel = 1
+	url = https://github.com/Meister1593/polaronproton
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = git
+	makedepends = rust
+	provides = polaronproton
+	conflicts = polaronproton
+	source = git+https://github.com/Meister1593/polaronproton.git
+	sha256sums = SKIP
+
+pkgname = polaronproton-git

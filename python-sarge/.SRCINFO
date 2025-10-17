@@ -1,0 +1,14 @@
+pkgbase = python-sarge
+	pkgdesc = The sarge package provides a wrapper for subprocess which provides command pipeline functionality.
+	pkgver = 0.1.7.post1
+	pkgrel = 2
+	url = https://github.com/vsajip/sarge
+	arch = any
+	license = BSD
+	makedepends = python-pip
+	depends = python
+	conflicts = python-sarge-git
+	source = git+https://github.com/vsajip/sarge.git#tag=0.1.7.post1
+	sha256sums = b882b7529c22ab95ee4c6bab40557529640a28841180b4cc1fdb59d67a982e1f
+
+pkgname = python-sarge

@@ -1,0 +1,18 @@
+pkgbase = ocaml-flac
+	pkgdesc = OCaml bindings to libFLAC
+	pkgver = 0.5.1
+	pkgrel = 1
+	url = https://github.com/savonet/ocaml-flac
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = dune
+	makedepends = ocaml-findlib
+	depends = ocaml
+	depends = flac
+	depends = ocaml-ogg
+	options = !strip
+	source = https://github.com/savonet/ocaml-flac/archive/v0.5.1.tar.gz
+	sha256sums = 4911b2e4d85b452ad31042dbebfcbbd0f47403451a08d76416cd2e1469b76406
+
+pkgname = ocaml-flac

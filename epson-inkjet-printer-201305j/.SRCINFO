@@ -1,0 +1,14 @@
+pkgbase = epson-inkjet-printer-201305j
+	pkgdesc = Epson inkjet printer driver (EP-976A3)
+	pkgver = 1.0.1
+	pkgrel = 1
+	url = https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+	arch = x86_64
+	license = custom:Epson End User Software License Agreement
+	depends = epson-inkjet-printer-filter
+	depends = gcc-libs
+	depends = glibc
+	source = https://download3.ebz.epson.net/dsc/f/03/00/15/65/32/59375026e2dbe20c1b54cb1a7b12ed1863d6dae7/epson-inkjet-printer-201305j-1.0.1-1.src.rpm
+	sha256sums = 5b5f82e57b1b38802a5fe0f06d09b5cc4c4a428329f4a4cbd6684ef73c91a2e8
+
+pkgname = epson-inkjet-printer-201305j

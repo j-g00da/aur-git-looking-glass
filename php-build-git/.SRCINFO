@@ -1,0 +1,18 @@
+pkgbase = php-build-git
+	pkgdesc = Install PHP versions
+	pkgver = 0.10.0.r437.g0aed607
+	pkgrel = 1
+	url = https://github.com/php-build/php-build
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = libmcrypt
+	depends = gmp
+	depends = tidyhtml
+	provides = php-build
+	conflicts = php-build
+	source = git://github.com/php-build/php-build
+	md5sums = SKIP
+
+pkgname = php-build-git
+

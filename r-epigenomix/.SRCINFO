@@ -1,0 +1,22 @@
+pkgbase = r-epigenomix
+	pkgdesc = Epigenetic and gene transcription data normalization and integration with mixture models
+	pkgver = 1.48.1
+	pkgrel = 1
+	url = https://bioconductor.org/packages/epigenomix
+	arch = any
+	license = LGPL
+	depends = r
+	depends = r-beadarray
+	depends = r-biobase
+	depends = r-biocgenerics
+	depends = r-genomeinfodb
+	depends = r-genomicranges
+	depends = r-iranges
+	depends = r-mcmcpack
+	depends = r-rsamtools
+	depends = r-s4vectors
+	depends = r-summarizedexperiment
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/epigenomix_1.48.1.tar.gz
+	sha256sums = 7a0d62831308b5bf52032f40ed14fb241d429793660e543192170af9b26b9b17
+
+pkgname = r-epigenomix

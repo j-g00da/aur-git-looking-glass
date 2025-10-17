@@ -1,0 +1,14 @@
+pkgbase = python-xlrd-1
+	pkgdesc = Library for developers to extract data from Excel spreadsheet files
+	pkgver = 1.2.0
+	pkgrel = 2
+	url = http://www.python-excel.org/
+	arch = any
+	license = BSD
+	makedepends = python-setuptools
+	depends = python
+	conflicts = python-xlrd
+	source = python-xlrd-1-1.2.0.tar.gz::https://github.com/python-excel/xlrd/archive/1.2.0.tar.gz
+	b2sums = ea9b351faa60bbeac1f60b700abe392bec2df7ff5880abc13524579a621ef601af62fd6120a0e33043df74c48d3b4f8a170e33aae09ab816ba632a0c2c018344
+
+pkgname = python-xlrd-1

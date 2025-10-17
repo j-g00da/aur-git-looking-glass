@@ -1,0 +1,21 @@
+pkgbase = goodix-param-dkms
+	pkgdesc = Patched Goodix touchscreen with parameters
+	pkgver = 6.7.3
+	pkgrel = 1
+	url = https://github.com/nicholascw/aur-goodix-param-dkms
+	arch = any
+	license = GPL2
+	depends = dkms
+	source = goodix.c
+	source = goodix.h
+	source = goodix_fwupload.c
+	source = dkms.conf
+	source = Makefile
+	source = goodixparam.conf
+	md5sums = SKIP
+	md5sums = SKIP
+	md5sums = SKIP
+	md5sums = SKIP
+	md5sums = SKIP
+
+pkgname = goodix-param-dkms

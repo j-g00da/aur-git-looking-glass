@@ -1,0 +1,20 @@
+pkgbase = doot-git
+	pkgdesc = A fast, simple and intuitive dotfiles manager that just gets the job done (git version)
+	pkgver = 0.0.0
+	pkgrel = 1
+	url = https://github.com/pol-rivero/doot
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = git
+	makedepends = go
+	makedepends = sed
+	depends = git
+	depends = git-crypt
+	optdepends = diffutils: To display changes before overwriting a file
+	provides = doot
+	conflicts = doot
+	source = git+https://github.com/pol-rivero/doot.git#branch=main
+	sha256sums = SKIP
+
+pkgname = doot-git

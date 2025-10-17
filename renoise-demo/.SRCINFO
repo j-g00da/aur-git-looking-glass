@@ -1,0 +1,18 @@
+pkgbase = renoise-demo
+	pkgdesc = A music composition program
+	pkgver = 3.5.2
+	pkgrel = 1
+	url = https://www.renoise.com
+	arch = x86_64
+	license = custom:renoise
+	depends = alsa-lib
+	depends = gcc-libs
+	depends = hicolor-icon-theme
+	depends = libxext
+	optdepends = jack: For JACK audio support
+	conflicts = renoise
+	options = !strip
+	source = https://files.renoise.com/demo/Renoise_3_5_2_Demo_Linux_x86_64.tar.gz
+	sha512sums = e64c9b1e5b5fab4a2cae81ca8477c2a27b372b643d10eb09522851e23662fbcddf9c83103e5ee4d9d84cc642e2f0be076765c711f3df093d29060176c0344e2f
+
+pkgname = renoise-demo

@@ -1,0 +1,26 @@
+pkgbase = maui-station-git
+	pkgdesc = Convergent terminal emulator
+	pkgver = 4.0.1.r16.g3cc9b06
+	pkgrel = 1
+	url = https://invent.kde.org/maui/station
+	arch = x86_64
+	arch = i686
+	arch = armv7h
+	arch = aarch64
+	groups = maui
+	license = GPL-3.0-or-later
+	makedepends = git
+	makedepends = extra-cmake-modules
+	depends = kconfig
+	depends = kcoreaddons
+	depends = ki18n
+	depends = mauikit-filebrowsing-git
+	depends = mauikit-terminal-git
+	depends = qt6-base
+	depends = qt6-declarative
+	provides = maui-station
+	conflicts = maui-station
+	source = git+https://invent.kde.org/maui/station.git
+	sha256sums = SKIP
+
+pkgname = maui-station-git

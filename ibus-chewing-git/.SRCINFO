@@ -1,0 +1,22 @@
+pkgbase = ibus-chewing-git
+	pkgdesc = Chinese Chewing Engine for IBus Framework
+	pkgver = 2.0.0.rc1.r0.g900596e
+	pkgrel = 1
+	url = https://github.com/chewing/ibus-chewing
+	arch = i686
+	arch = x86_64
+	license = GPL-2.0-or-later
+	checkdepends = dbus
+	checkdepends = xorg-server-xvfb
+	makedepends = cmake
+	makedepends = git
+	depends = ibus
+	depends = libchewing-git
+	depends = gtk4
+	depends = libadwaita
+	provides = ibus-chewing=2.0.0.rc1.r0.g900596e
+	conflicts = ibus-chewing
+	source = git+https://github.com/definite/ibus-chewing.git
+	sha512sums = SKIP
+
+pkgname = ibus-chewing-git

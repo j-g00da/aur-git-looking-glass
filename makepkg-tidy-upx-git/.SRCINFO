@@ -1,0 +1,18 @@
+pkgbase = makepkg-tidy-upx-git
+	pkgdesc = Compress executables during packaging via a makepkg tidy script for UPX.
+	pkgver = r386.7878316
+	pkgrel = 1
+	url = https://gitlab.archlinux.org/freso/makepkg-tidy-upx
+	arch = any
+	license = GPL-2.0-or-later
+	makedepends = git
+	makedepends = coreutils
+	provides = makepkg-tidy-upx
+	conflicts = makepkg-tidy-upx
+	conflicts = makepkg-tidy-scripts
+	source = git+https://gitlab.archlinux.org/freso/makepkg-tidy-upx.git
+	b2sums = SKIP
+
+pkgname = makepkg-tidy-upx-git
+	depends = upx
+	depends = pacman

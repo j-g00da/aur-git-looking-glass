@@ -1,0 +1,34 @@
+pkgbase = numix-icon-theme-pack
+	pkgdesc = Numix project Icon Themes - Updated with Numix Core
+	pkgver = r6086
+	pkgrel = 1
+	url = http://numixproject.org/
+	arch = any
+	license = GPL3
+	makedepends = git
+	makedepends = python-gobject
+	makedepends = inkscape
+	provides = numix-square-icon-theme
+	provides = numix-square-light-icon-theme
+	provides = numix-circle-icon-theme
+	provides = numix-circle-light-icon-theme
+	provides = numix-icon-theme
+	conflicts = numix-square-icon-theme-git
+	conflicts = numix-circle-icon-theme-git
+	conflicts = numix-square-icon-theme
+	conflicts = numix-square-light-icon-theme
+	conflicts = numix-circle-icon-theme
+	conflicts = numix-circle-light-icon-theme
+	conflicts = numix-icon-theme
+	options = !strip
+	source = numix-core::git+https://github.com/numixproject/numix-core
+	source = numix-icon-theme::git+https://github.com/numixproject/numix-icon-theme
+	source = numix-icon-circle::git+https://github.com/numixproject/numix-icon-theme-circle
+	source = numix-icon-square::git+https://github.com/numixproject/numix-icon-theme-square
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = numix-icon-theme-pack-git
+

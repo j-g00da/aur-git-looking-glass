@@ -1,0 +1,17 @@
+pkgbase = python-deap
+	pkgdesc = DEAP is a novel evolutionary computation framework for rapid prototyping and testing of ideas.
+	pkgver = 1.4.1
+	pkgrel = 8
+	url = https://github.com/DEAP/deap
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	source = python-deap.1.4.1.tar.gz::https://github.com/DEAP/deap/archive/refs/tags/1.4.1.tar.gz
+	sha256sums = 9da7b57534c94cd622e2bbd2de304c5be696982be89ce4196150f93410f7f2b8
+
+pkgname = python-deap
+	depends = python

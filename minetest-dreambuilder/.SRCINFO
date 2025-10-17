@@ -1,0 +1,15 @@
+pkgbase = minetest-dreambuilder
+	pkgdesc = An attempt to give the player pretty much everything they could ever want to build with, and all the tools they should need to actually get the job done.
+	pkgver = 2024.01.13
+	pkgrel = 1
+	url = https://content.minetest.net/packages/mt-mods/dreambuilder/
+	arch = any
+	license = LGPLv3
+	makedepends = unzip
+	depends = minetest-common
+	noextract = dreambuilder-2024.01.13.zip
+	options = !strip
+	source = dreambuilder-2024.01.13.zip::https://content.minetest.net/packages/mt-mods/dreambuilder/releases/22951/download/
+	sha256sums = 331cbded85fbc377260c2b34aa30757995df17e1f571444a0c917b9e7ddce223
+
+pkgname = minetest-dreambuilder

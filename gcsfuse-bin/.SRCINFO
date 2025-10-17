@@ -1,0 +1,24 @@
+pkgbase = gcsfuse-bin
+	pkgdesc = A user-space file system for interacting with Google Cloud Storage
+	pkgver = 3.0.1
+	pkgrel = 1
+	url = https://cloud.google.com/storage/docs/gcs-fuse
+	arch = aarch64
+	arch = x86_64
+	license = Apache-2.0
+	depends = fuse
+	optdepends = google-cloud-sdk: authentication helper
+	provides = gcsfuse
+	conflicts = gcsfuse
+	noextract = gcsfuse-3.0.1-aarch64.deb
+	noextract = gcsfuse-3.0.1-x86_64.deb
+	source = gcsfuse-3.0.1-README.md::https://github.com/GoogleCloudPlatform/gcsfuse/raw/refs/tags/v3.0.1/README.md
+	source = gcsfuse-3.0.1-LICENSE::https://github.com/GoogleCloudPlatform/gcsfuse/raw/refs/tags/v3.0.1/LICENSE
+	sha256sums = b869f4bab7ee866cd6477101f4cc0bb355cecc1c196f452fcff542b505e5693d
+	sha256sums = cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+	source_aarch64 = gcsfuse-3.0.1-aarch64.deb::https://github.com/GoogleCloudPlatform/gcsfuse/releases/download/v3.0.1/gcsfuse_3.0.1_arm64.deb
+	sha256sums_aarch64 = e9e1d3bd29458e2318044ce92a19445f85d6b9bed7d7e4f6c295f7a3d993d83c
+	source_x86_64 = gcsfuse-3.0.1-x86_64.deb::https://github.com/GoogleCloudPlatform/gcsfuse/releases/download/v3.0.1/gcsfuse_3.0.1_amd64.deb
+	sha256sums_x86_64 = 6ef5e3eb7493a5149be565695f4c99365be39a0745f933e1163f3786e65003bb
+
+pkgname = gcsfuse-bin

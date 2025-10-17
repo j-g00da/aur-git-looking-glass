@@ -1,0 +1,27 @@
+pkgbase = grapevine-git
+	pkgdesc = A matrix homeserver originally forked from Conduit
+	pkgver = r2814.d1370f9
+	pkgrel = 1
+	epoch = 1
+	url = https://gitlab.computer.surgery/matrix/grapevine
+	arch = x86_64
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = Apache-2.0
+	makedepends = rust
+	makedepends = cargo
+	makedepends = git
+	makedepends = clang
+	depends = gcc-libs
+	provides = grapevine=r2814.d1370f9
+	options = !lto
+	backup = etc/grapevine/grapevine.toml
+	source = grapevine::git+https://gitlab.computer.surgery/matrix/grapevine.git
+	source = grapevine.service
+	source = grapevine-example.toml
+	sha256sums = SKIP
+	sha256sums = 07bcf3b52875c2fad1dcbe58dd77d95cf5a5ce98274afe293bb1fadc182157db
+	sha256sums = 5077a130242acd8328e1f61f7da0260a14dfdbfc964e6472248f9b6f8f28741c
+
+pkgname = grapevine-git

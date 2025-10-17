@@ -1,0 +1,14 @@
+pkgbase = bin2cpp-git
+	pkgdesc = CLI tool to embed binary files into C++ headers
+	pkgver = 1.0.5
+	pkgrel = 1
+	url = https://github.com/rickisgone/bin2cpp
+	arch = any
+	license = MIT
+	makedepends = cmake
+	makedepends = git
+	conflicts = bin2cpp
+	source = bin2cpp::git+https://github.com/rickisgone/bin2cpp.git
+	sha256sums = SKIP
+
+pkgname = bin2cpp-git

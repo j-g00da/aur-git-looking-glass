@@ -1,0 +1,12 @@
+pkgbase = fluxbox-style-zukitwo
+	pkgdesc = Zukitwo style for Fluxbox
+	pkgver = 20160816
+	pkgrel = 1
+	url = https://github.com/corebob/fluxbox-styles-corebob
+	arch = any
+	license = GPL3
+	source = https://github.com/corebob/fluxbox-styles-corebob/releases/download/v1.1/zukitwo.zip
+	md5sums = d064116d3fb7f4897b4d65403364b4f7
+
+pkgname = fluxbox-style-zukitwo
+

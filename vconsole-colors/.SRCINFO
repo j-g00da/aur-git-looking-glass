@@ -1,0 +1,21 @@
+pkgbase = vconsole-colors
+	pkgdesc = Simple utilities for setvtrgb from kbd
+	pkgver = 2.0
+	pkgrel = 2
+	url = https://github.com/GaKu999/vconsole-colors
+	arch = any
+	license = Unlicense
+	depends = sh
+	depends = coreutils
+	depends = kbd
+	depends = mkinitcpio
+	depends = systemd
+	source = https://github.com/GaKu999/vconsole-colors/archive/refs/tags/v2.0.tar.gz
+	source = https://github.com/GaKu999/vconsole-colors/releases/download/v2.0/v2.0.tar.gz.sig
+	validpgpkeys = B6F1C3E092DA04BB7371D4F202471E1B7E9034B2
+	sha512sums = 0d73e290dc7dfc3453743866d13178d11c5387b41f236fd750d097d7f0a95dcca10a1a03b23b0a78365d2df7f3aaac1df93be4a1cf3128037c19d415dfaa28a8
+	sha512sums = SKIP
+	b2sums = 907d4eceb2ea25cf5fbe49dc642475c68641132814e16325ac8b7df6d65d1595bf190f2ea315531ee608733541c78bfcf35f2da4df677423e203439b46fda734
+	b2sums = SKIP
+
+pkgname = vconsole-colors

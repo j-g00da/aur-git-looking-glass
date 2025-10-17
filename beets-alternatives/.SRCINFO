@@ -1,0 +1,17 @@
+pkgbase = beets-alternatives
+	pkgdesc = Beets plugin to manage external files
+	pkgver = 0.13.1
+	pkgrel = 2
+	url = https://github.com/geigerzaehler/beets-alternatives
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-poetry-core
+	depends = python
+	depends = beets>=1.6.0
+	source = https://github.com/geigerzaehler/beets-alternatives/archive/v0.13.1.tar.gz
+	b2sums = 7100bdee256f6036486ff29c6d82cbf496a096714d07390bce490a5c45aceb1df341e8f8a3fcc40bc89c9a985f59c0784961ced76400b150c7c19b08fc0bcfb6
+
+pkgname = beets-alternatives

@@ -1,0 +1,16 @@
+pkgbase = hyprworm
+	pkgdesc = A fast and lightweight window switcher for Hyprland built in C
+	pkgver = 1.1.1
+	pkgrel = 1
+	url = https://github.com/liammmcauliffe/hyprworm
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = git
+	makedepends = make
+	makedepends = gcc
+	depends = cjson
+	source = hyprworm-1.1.1.tar.gz::https://github.com/liammmcauliffe/hyprworm/archive/v1.1.1.tar.gz
+	sha256sums = 88f00654568080b6c4e0bed3b557996f6929238b3f23a66f3e695b07c292a4d6
+
+pkgname = hyprworm

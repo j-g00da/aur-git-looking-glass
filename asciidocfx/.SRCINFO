@@ -1,0 +1,15 @@
+pkgbase = asciidocfx
+	pkgdesc = Asciidoc FX is a book / document editor to build PDF, Epub, Mobi and HTML books, documents and slides
+	pkgver = 1.8.10
+	pkgrel = 3
+	url = http://asciidocfx.com/
+	arch = any
+	license = Apache-2.0
+	makedepends = gendesk
+	depends = bash
+	source = https://github.com/asciidocfx/AsciidocFX/releases/download/v1.8.10/AsciidocFX_Linux.tar.gz
+	source = asciidocfx
+	sha256sums = 527de8696678650ccd98e4aed604cf4e64ef2c54c3e1c0c4010c034141d00a75
+	sha256sums = e773f39bdc3fec42e37c1086752ac7d25f09b31c8e221053554ba791534b19c6
+
+pkgname = asciidocfx

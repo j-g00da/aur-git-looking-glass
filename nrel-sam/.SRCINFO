@@ -1,0 +1,30 @@
+pkgbase = nrel-sam
+	pkgdesc = A free desktop application for techno-economic analysis of energy technologies
+	pkgver = 2025.4.16.r1.ssc.303
+	pkgrel = 1
+	url = https://sam.nrel.gov/
+	arch = x86_64
+	license = BSD-3-Clause
+	makedepends = gendesk
+	makedepends = git
+	makedepends = gcc
+	makedepends = libcurl-gnutls
+	makedepends = gtk2
+	makedepends = mesa
+	makedepends = freeglut
+	makedepends = icoutils
+	conflicts = nrel-sam-bin
+	source = git+https://github.com/NREL/SAM.git#tag=2025.4.16.r1.ssc.303
+	source = git+https://github.com/NREL/lk.git#tag=2025.4.16.r1.ssc.303
+	source = git+https://github.com/NREL/wex.git#tag=2025.4.16.r1.ssc.303
+	source = git+https://github.com/NREL/ssc.git#tag=2025.4.16.r1.ssc.303
+	source = git+https://github.com/google/googletest.git#tag=v1.16.0
+	source = https://github.com/wxWidgets/wxWidgets/releases/download/v3.2.6/wxWidgets-3.2.6.tar.bz2
+	sha256sums = 0996a71cb64573225265443d4ae54826528b9baf5ac5ad42d2f486da297dffa6
+	sha256sums = 11e86eea6bd3cdff34bca6fcfbbe8576d83ea406aeec233eab054898491d0470
+	sha256sums = b8b26b0c133b7558915d92acc8ac478ca7a5863ae98dc489df9c61fa39635207
+	sha256sums = 1e6846bd11f18b5a379ca3cb12a35038f756381426bb23d43122d4a9860bc94c
+	sha256sums = f67edbfc438441f368fc69a83dc142b100228aac2726d9ed8f955c98216e1e81
+	sha256sums = 939e5b77ddc5b6092d1d7d29491fe67010a2433cf9b9c0d841ee4d04acb9dce7
+
+pkgname = nrel-sam

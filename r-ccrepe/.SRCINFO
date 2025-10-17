@@ -1,0 +1,18 @@
+pkgbase = r-ccrepe
+	pkgdesc = ccrepe_and_nc.score
+	pkgver = 1.44.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/ccrepe
+	arch = any
+	license = MIT
+	depends = r-infotheo
+	optdepends = r-biocgenerics
+	optdepends = r-biocstyle
+	optdepends = r-knitr
+	optdepends = r-runit
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/ccrepe_1.44.0.tar.gz
+	md5sums = 68e83167d675a1d63ce555c5823fd530
+	b2sums = 484e2a6f363fb014ace300562598a0bbed5830c735b193ec714f7f50b5ad99200f3dab20bb6f84fc4334e5ca62be1a63cd96fe373c3f8638f23d57cd07f7bbc9
+
+pkgname = r-ccrepe

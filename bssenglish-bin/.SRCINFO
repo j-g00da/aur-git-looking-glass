@@ -1,0 +1,15 @@
+pkgbase = bssenglish-bin
+	pkgdesc = bssenglish back word training software.(Prebuilt version)白杉树背单词训练软件.
+	pkgver = 2.2.4_78
+	pkgrel = 2
+	url = https://bailplus.github.io/bssenglish.pages/
+	arch = x86_64
+	license = GPL-3.0-only
+	depends = python-requests
+	depends = python-tqdm
+	provides = bssenglish=2.2.4_78
+	conflicts = bssenglish
+	source = bssenglish-2.2.4_78.deb::https://github.com/BailPlus/bssenglish/releases/download/v2.2.4_78/bssenglish_v2.2.4_linux.deb
+	sha256sums = 78df6582d8763a3fff55daafc49ec6e45747a07f8d5bdb411eec7277cdce0eac
+
+pkgname = bssenglish-bin

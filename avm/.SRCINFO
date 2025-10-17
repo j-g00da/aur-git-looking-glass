@@ -1,0 +1,20 @@
+pkgbase = avm
+	pkgdesc = AOM Video Model - the reference software for next codec from Alliance for Open Media
+	pkgver = 11.0.0
+	pkgrel = 1
+	url = https://gitlab.com/AOMediaCodec/avm/
+	arch = x86_64
+	license = BSD-3-Clause
+	makedepends = cmake
+	makedepends = git
+	makedepends = perl
+	makedepends = yasm
+	depends = glibc
+	provides = libaom.so
+	conflicts = aom
+	source = git+https://gitlab.com/AOMediaCodec/avm.git#tag=research-v11.0.0
+	source = git+https://github.com/abseil/abseil-cpp.git
+	sha256sums = 7d93802484ca961917134080ccfdc682b01991d22d842d19d618b0d57acd59ef
+	sha256sums = SKIP
+
+pkgname = avm

@@ -1,0 +1,24 @@
+pkgbase = yuki-iptv
+	pkgdesc = IPTV player with EPG support
+	pkgver = 0.0.19
+	pkgrel = 1
+	url = https://codeberg.org/liya/yuki-iptv
+	arch = any
+	license = GPL3
+	makedepends = make
+	depends = python
+	depends = qt6-base
+	depends = mpv
+	depends = python-pyqt6
+	depends = python-pillow
+	depends = ffmpeg
+	depends = python-gobject
+	depends = python-unidecode
+	depends = python-requests
+	depends = python-chardet
+	depends = python-setproctitle
+	optdepends = yt-dlp: YouTube channel support
+	source = yuki-iptv-0.0.19.tar.gz::https://codeberg.org/liya/yuki-iptv/archive/0.0.19.tar.gz
+	sha256sums = 1bc6be13b6ba1ff6b88e2abeb1b340d70cc89061218e882daf1061719a84b40f
+
+pkgname = yuki-iptv

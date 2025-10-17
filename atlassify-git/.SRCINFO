@@ -1,0 +1,23 @@
+pkgbase = atlassify-git
+	pkgdesc = Atlassian notifications on your menu bar.(Use system-wide electron)
+	pkgver = 2.6.0.r2.g4bd5eb8
+	pkgrel = 1
+	url = https://atlassify.io/
+	arch = any
+	license = MIT
+	makedepends = npm
+	makedepends = curl
+	makedepends = git
+	makedepends = nvm
+	makedepends = gendesk
+	makedepends = pnpm
+	makedepends = icoutils
+	depends = electron38
+	provides = atlassify=2.6.0
+	conflicts = atlassify
+	source = atlassify.git::git+https://github.com/setchy/atlassify.git
+	source = atlassify.sh
+	sha256sums = SKIP
+	sha256sums = 31ad33b633744f5361abd964be306cea53ae1050e760c787115f7eca60045ae6
+
+pkgname = atlassify-git

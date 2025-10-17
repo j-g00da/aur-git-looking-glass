@@ -1,0 +1,20 @@
+pkgbase = myapp-scrapthatpage-bin
+	pkgdesc = A desktop app that automates web scraper with easy to use script actions.(Prebuilt version.Use system-wide electron)
+	pkgver = 1.0.0
+	pkgrel = 11
+	url = https://github.com/kaushalmeena/myapp-scrapthatpage
+	arch = aarch64
+	arch = x86_64
+	license = MIT
+	depends = electron23
+	provides = myapp-scrapthatpage=1.0.0
+	conflicts = myapp-scrapthatpage
+	options = !emptydirs
+	source = myapp-scrapthatpage.sh
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+	source_aarch64 = myapp-scrapthatpage-1.0.0-aarch64.rpm::https://github.com/kaushalmeena/myapp-scrapthatpage/releases/download/v1.0.0/myapp-scrapthatpage-1.0.0_arm64.rpm
+	sha256sums_aarch64 = 653414b224c179e150de20e033511e0e19cb0267cc14b44ba648943f126e9aca
+	source_x86_64 = myapp-scrapthatpage-1.0.0-x86_64.rpm::https://github.com/kaushalmeena/myapp-scrapthatpage/releases/download/v1.0.0/myapp-scrapthatpage-1.0.0_x86_64.rpm
+	sha256sums_x86_64 = f83868950cf67370be4e77f6dcbd8ff55f43f6c76b2343c9637f8b2a60cab836
+
+pkgname = myapp-scrapthatpage-bin

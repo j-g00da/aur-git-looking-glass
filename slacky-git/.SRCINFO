@@ -1,0 +1,21 @@
+pkgbase = slacky-git
+	pkgdesc = Slack wrapper for Linux.(Use system-wide electron)
+	pkgver = 0.0.6.r0.g720100e
+	pkgrel = 1
+	url = https://github.com/andirsun/Slacky
+	arch = any
+	license = MIT
+	makedepends = npm
+	makedepends = git
+	makedepends = nvm
+	makedepends = gendesk
+	makedepends = curl
+	depends = electron35
+	provides = slacky=0.0.6
+	conflicts = slacky
+	source = slacky.git::git+https://github.com/andirsun/Slacky.git
+	source = slacky.sh
+	sha256sums = SKIP
+	sha256sums = f2fe8c189974ffb9d445e9a42bd4f1d5b60185607c3fcafae79ab44be224e013
+
+pkgname = slacky-git

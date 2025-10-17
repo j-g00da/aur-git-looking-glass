@@ -1,0 +1,21 @@
+pkgbase = r-gwas.bayes
+	pkgdesc = GWAS for Selfing Species
+	pkgver = 1.18.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/GWAS.BAYES
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-caret
+	depends = r-ga
+	depends = r-limma
+	depends = r-memoise
+	optdepends = r-biocstyle
+	optdepends = r-formatr
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-rrblup
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/GWAS.BAYES_1.18.0.tar.gz
+	sha256sums = 2c35ab28df232f7011845db1e1dbac0104a4d7ee1976d8cafd884985b60106d6
+
+pkgname = r-gwas.bayes

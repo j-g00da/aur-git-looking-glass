@@ -1,0 +1,21 @@
+pkgbase = typstyle-git
+	pkgdesc = Beautiful and reliable typst code formatter
+	pkgver = 0.13.14.r3.5223f9e
+	pkgrel = 1
+	url = https://github.com/typstyle-rs/typstyle
+	arch = aarch64
+	arch = armv7h
+	arch = x86_64
+	license = Apache-2.0
+	makedepends = git
+	makedepends = cargo
+	makedepends = libgit2
+	depends = gcc-libs
+	depends = glibc
+	optdepends = typst: For typst compilation
+	provides = typstyle
+	conflicts = typstyle
+	source = typstyle::git+https://github.com/typstyle-rs/typstyle.git
+	sha256sums = SKIP
+
+pkgname = typstyle-git

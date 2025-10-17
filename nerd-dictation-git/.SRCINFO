@@ -1,0 +1,18 @@
+pkgbase = nerd-dictation-git
+	pkgdesc = Simple, hackable offline speech to text - using the VOSK-API.
+	pkgver = 0.0.r156.aceb2bf
+	pkgrel = 1
+	url = https://github.com/ideasman42/nerd-dictation
+	arch = any
+	license = GPL3
+	makedepends = git
+	depends = libpulse
+	depends = python-vosk
+	depends = python-srt
+	optdepends = xdotool
+	optdepends = ydotool
+	provides = nerd-dictation
+	source = nerd-dictation::git+https://github.com/ideasman42/nerd-dictation
+	sha512sums = SKIP
+
+pkgname = nerd-dictation-git

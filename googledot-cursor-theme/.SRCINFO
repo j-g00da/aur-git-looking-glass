@@ -1,0 +1,13 @@
+pkgbase = googledot-cursor-theme
+	pkgdesc = Cursor theme inspired on Google
+	pkgver = 2.0.0
+	pkgrel = 1
+	url = https://github.com/ful1e5/Google_Cursor
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = python-clickgen>2.0.0
+	options = !strip
+	source = googledot-cursor-theme-2.0.0.tar.gz::https://github.com/ful1e5/Google_Cursor/archive/v2.0.0.tar.gz
+	sha256sums = 4e681d9c42e7ec1322953f4c4e1874f9d289c32e07893321dd44a0aa8c3be1f0
+
+pkgname = googledot-cursor-theme

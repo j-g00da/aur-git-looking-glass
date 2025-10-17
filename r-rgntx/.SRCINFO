@@ -1,0 +1,25 @@
+pkgbase = r-rgntx
+	pkgdesc = Colocalization analysis of transcriptome elements in the presence of isoform heterogeneity and ambiguity
+	pkgver = 1.10.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/RgnTX
+	arch = any
+	license = Artistic-2.0
+	checkdepends = r-testthat
+	depends = r-genomeinfodb
+	depends = r-genomicfeatures
+	depends = r-genomicranges
+	depends = r-ggplot2
+	depends = r-iranges
+	depends = r-regioner
+	depends = r-s4vectors
+	depends = r-txdb.hsapiens.ucsc.hg19.knowngene
+	optdepends = r-biocstyle
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/RgnTX_1.10.0.tar.gz
+	md5sums = a0756edc1d8d2146aab082da7341e131
+	b2sums = 79f6c83f77f2422cf1e06457329332a54e0a104ee89b193fb51e79fb2dc95e66bc51efe9e5c1eb563178a1fa1eb43e13b1bed920662535ae3b6008f77c23c5a7
+
+pkgname = r-rgntx

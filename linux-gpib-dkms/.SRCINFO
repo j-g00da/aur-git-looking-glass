@@ -1,0 +1,25 @@
+pkgbase = linux-gpib-dkms
+	pkgdesc = A support package for GPIB (IEEE 488) hardware (DKMS version).
+	pkgver = 4.3.7
+	pkgrel = 1
+	url = http://linux-gpib.sourceforge.net/
+	install = linux-gpib.install
+	arch = i686
+	arch = x86_64
+	arch = aarch64
+	license = GPL-2.0-only
+	depends = bash
+	depends = dkms
+	depends = bison
+	depends = perl
+	depends = which
+	optdepends = fxload: firmware upload support for NI USB-B, Keithley KUSB-488 and Agilent 82357
+	provides = linux-gpib
+	conflicts = linux-gpib
+	backup = etc/gpib.conf
+	source = http://downloads.sourceforge.net/project/linux-gpib/linux-gpib%20for%203.x.x%20and%202.6.x%20kernels/4.3.7/linux-gpib-4.3.7.tar.gz
+	source = dkms.conf.in
+	md5sums = c5cfe0254102c72812a341cdbcfc8836
+	md5sums = f328fca1caba84d26fdec8559ec5b116
+
+pkgname = linux-gpib-dkms

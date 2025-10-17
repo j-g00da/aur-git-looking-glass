@@ -1,0 +1,22 @@
+pkgbase = xfce4-systemload-plugin-git
+	pkgdesc = System load plugin for the Xfce panel
+	pkgver = 1.4.0.r70.g13247aa
+	pkgrel = 1
+	url = http://goodies.xfce.org/projects/panel-plugins/xfce4-systemload-plugin
+	install = xfce4-systemload-plugin.install
+	arch = i686
+	arch = x86_64
+	groups = xfce4-goodies
+	license = GPL
+	makedepends = xfce4-dev-tools
+	makedepends = meson
+	makedepends = git
+	depends = xfce4-panel
+	depends = upower
+	provides = xfce4-systemload-plugin
+	conflicts = xfce4-systemload-plugin
+	options = !libtool
+	source = git+https://gitlab.xfce.org/panel-plugins/xfce4-systemload-plugin.git
+	sha256sums = SKIP
+
+pkgname = xfce4-systemload-plugin-git

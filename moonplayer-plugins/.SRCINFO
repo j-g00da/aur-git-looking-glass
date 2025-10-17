@@ -1,0 +1,11 @@
+pkgbase = moonplayer-plugins
+	pkgdesc = Plugins for Moon Player
+	pkgver = 2022.01.30
+	pkgrel = 1
+	url = https://github.com/coslyk/moonplayer-plugins
+	arch = any
+	license = custom
+	source = https://github.com/coslyk/moonplayer-plugins/releases/download/continuous-2022-01-30/plugins.zip
+	sha256sums = a1cf900758734188f3e25e41ccdc0cd44c88f47d4577a2f834fd8b9a4b61fbf1
+
+pkgname = moonplayer-plugins

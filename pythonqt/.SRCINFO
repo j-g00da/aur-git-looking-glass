@@ -1,0 +1,25 @@
+pkgbase = pythonqt
+	pkgdesc = A dynamic Python binding for Qt applications
+	pkgver = 3.6.0
+	pkgrel = 1
+	url = https://github.com/MeVisLab/pythonqt
+	arch = i686
+	arch = x86_64
+	license = LGPL-2.1-only
+	makedepends = git
+	makedepends = qt5-tools
+	depends = python
+	depends = qt5-multimedia
+	depends = qt5-svg
+	depends = qt5-webkit
+	depends = qt5-declarative
+	depends = qt5-xmlpatterns
+	depends = qt5-webengine
+	conflicts = pythonqt-svn
+	conflicts = pythonqt-for-screencloud
+	conflicts = qt5-python27-git
+	replaces = pythonqt-qt5
+	source = pythonqt-3.6.0.tar.gz::https://github.com/MeVisLab/pythonqt/archive/refs/tags/v3.6.0.tar.gz
+	sha512sums = 7ac879b506279a182e2f96bc04306836a6f73dd4ac273a56be6d6fd1cc22d36b0b5f8c40e8bf0a77b840c26e1f542c0c986c57e526c0f8cfe93c2556275607f8
+
+pkgname = pythonqt

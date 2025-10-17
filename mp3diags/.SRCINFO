@@ -1,0 +1,16 @@
+pkgbase = mp3diags
+	pkgdesc = Find and fix problems in MP3 files. Includes a tagger
+	pkgver = 1.5.03
+	pkgrel = 1
+	url = https://mp3diags.sourceforge.net
+	arch = x86_64
+	license = GPL2
+	makedepends = boost
+	makedepends = qt5-tools
+	depends = boost-libs
+	depends = qt5-base
+	optdepends = mp3gain: MP3 normalization support
+	source = mp3diags-1.5.03.tar.gz::https://github.com/mciobanu/mp3diags/archive/refs/tags/1.5.03.tar.gz
+	sha256sums = 60fe732cb7b1c0a8f941650baf47613ea03fc5b90ff4d681cb9befd3aad16e68
+
+pkgname = mp3diags

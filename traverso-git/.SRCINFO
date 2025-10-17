@@ -1,0 +1,21 @@
+pkgbase = traverso-git
+	pkgdesc = Digital Audio Workstation with an innovative User Interface
+	pkgver = r3909.f347176
+	pkgrel = 1
+	url = https://savannah.gnu.org/projects/traverso/
+	arch = x86_64
+	license = GPL
+	makedepends = cmake
+	depends = qt6-base
+	depends = fftw
+	depends = wavpack
+	depends = lame
+	depends = libmad
+	depends = lilv
+	depends = hicolor-icon-theme
+	depends = desktop-file-utils
+	optdepends = qt5-base: Can be used with qt5 (should be changed in PKGBUILD if you which to use it)
+	source = git+https://https.git.savannah.gnu.org/git/traverso.git
+	sha256sums = SKIP
+
+pkgname = traverso-git

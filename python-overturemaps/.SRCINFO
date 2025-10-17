@@ -1,0 +1,19 @@
+pkgbase = python-overturemaps
+	pkgdesc = Python tools for interacting with Overture Maps (overturemaps.org) data.
+	pkgver = 0.12.0
+	pkgrel = 1
+	url = https://pypi.org/project/overturemaps/
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python
+	depends = python-click
+	depends = python-geopandas
+	depends = python-pyarrow
+	depends = python-shapely
+	source = https://files.pythonhosted.org/packages/source/o/overturemaps/overturemaps-0.12.0.tar.gz
+	sha256sums = 36bf1907903c78f248ebd20be0cce39b3db614bcec4c675f3fe793480a827287
+
+pkgname = python-overturemaps

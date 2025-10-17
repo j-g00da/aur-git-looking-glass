@@ -1,0 +1,24 @@
+pkgbase = python-clickhouse-connect
+	pkgdesc = A high performance core database driver for connecting ClickHouse to Python, Pandas, and Superset
+	pkgver = 0.8.18
+	pkgrel = 1
+	url = https://github.com/ClickHouse/clickhouse-connect
+	arch = any
+	license = Apache-2.0
+	checkdepends = python-pytest-asyncio
+	checkdepends = python-sqlalchemy
+	checkdepends = python-pandas
+	makedepends = python-setuptools
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = cython
+	depends = python-requests
+	depends = python-pytz
+	depends = python-lz4
+	depends = python-zstandard
+	depends = python-certifi
+	source = python-clickhouse-connect-0.8.18.tar.gz::https://github.com/ClickHouse/clickhouse-connect/archive/v0.8.18.tar.gz
+	sha256sums = 6f98224b9123cb131e514dc429cc1067802074e45f6184fb6c1aa2caaeb27255
+
+pkgname = python-clickhouse-connect

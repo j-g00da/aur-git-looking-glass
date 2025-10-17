@@ -1,0 +1,21 @@
+pkgbase = selinux-gui
+	pkgdesc = SELinux GUI tools
+	pkgver = 3.9
+	pkgrel = 1
+	url = https://github.com/SELinuxProject/selinux/wiki
+	arch = any
+	groups = selinux
+	license = GPL2
+	depends = python-gobject
+	depends = hicolor-icon-theme
+	depends = selinux-python
+	depends = gtk3
+	conflicts = policycoreutils<2.7
+	source = https://github.com/SELinuxProject/selinux/releases/download/3.9/selinux-gui-3.9.tar.gz
+	source = https://github.com/SELinuxProject/selinux/releases/download/3.9/selinux-gui-3.9.tar.gz.asc
+	validpgpkeys = 63191CE94183098689CAB8DB7EF137EC935B0EAF
+	validpgpkeys = 68D21823342A13683AEB3E4EFB4C685B5DC1C13E
+	sha256sums = 2a2af398aef51d7d392c0f4b4cca0780d5ac575466927c1b09c306888a8a2c65
+	sha256sums = SKIP
+
+pkgname = selinux-gui

@@ -1,0 +1,33 @@
+pkgbase = ocrodjvu-python3-git
+	pkgdesc = OCR for DjVu (Python 3 port)
+	pkgver = 0.14
+	pkgrel = 2
+	url = https://github.com/FriedrichFroebel/ocrodjvu
+	arch = i686
+	arch = x86_64
+	license = GPL-2.0-only
+	makedepends = python
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = git
+	makedepends = coreutils
+	makedepends = make
+	makedepends = libxslt
+	makedepends = docbook-xsl
+	depends = python
+	depends = python-lxml
+	depends = python-djvulibre-python
+	optdepends = python-html5lib: HTML parser; required for the ``--html5`` option
+	optdepends = python-pyicu: required for the ``--word-segmentation=uax29`` option
+	optdepends = cuneiform: OCR system
+	optdepends = tesseract: OCR system
+	optdepends = ocrad: OCR system
+	optdepends = gocr: OCR system
+	optdepends = ocropy: OCR system
+	provides = ocrodjvu
+	conflicts = ocrodjvu
+	source = git+https://github.com/FriedrichFroebel/ocrodjvu
+	sha512sums = SKIP
+
+pkgname = ocrodjvu-python3-git

@@ -1,0 +1,27 @@
+pkgbase = r-quartet
+	pkgdesc = Comparison of Phylogenetic Trees Using Quartet and Split Measures
+	pkgver = 1.2.7
+	pkgrel = 1
+	url = https://cran.r-project.org/package=Quartet
+	arch = x86_64
+	license = GPL-2.0-or-later
+	makedepends = r-rcpp
+	depends = r-ape
+	depends = r-rdpack
+	depends = r-ternary
+	depends = r-treetools
+	depends = r-viridislite
+	depends = r-plottools
+	optdepends = r-bookdown
+	optdepends = r-knitr
+	optdepends = r-phangorn
+	optdepends = r-rcpp
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	optdepends = r-usethis
+	optdepends = r-vdiffr
+	source = https://cran.r-project.org/src/contrib/Quartet_1.2.7.tar.gz
+	md5sums = 23c2afb6d467ee691058c84c964be386
+	b2sums = 6dbd68e5cdbf4df38e8410e813c906c0d376c2e910a0b744dc92303491758140fb4308ca27bcc5be932bf5395a38fcefdab465156a6c9549668a54ed96e9086e
+
+pkgname = r-quartet

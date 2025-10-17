@@ -1,0 +1,27 @@
+pkgbase = website-stalker-bin
+	pkgdesc = Track changes on websites via git
+	pkgver = 0.27.0
+	pkgrel = 1
+	url = https://github.com/EdJoPaTo/website-stalker
+	arch = x86_64
+	arch = aarch64
+	arch = armv6h
+	arch = armv7h
+	arch = riscv64
+	license = LGPL-2.1-or-later
+	depends = gcc-libs
+	optdepends = git: git commit support
+	provides = website-stalker
+	conflicts = website-stalker
+	source_x86_64 = https://github.com/EdJoPaTo/website-stalker/releases/download/v0.27.0/website-stalker-v0.27.0-x86_64-unknown-linux-gnu.tar.gz
+	sha256sums_x86_64 = e112b3103654d29c661df261fec619596511980eaae9c90f21e86a322c48c652
+	source_aarch64 = https://github.com/EdJoPaTo/website-stalker/releases/download/v0.27.0/website-stalker-v0.27.0-aarch64-unknown-linux-gnu.tar.gz
+	sha256sums_aarch64 = ea97a71fa888a455d732e1cef7836c858b67f8434bb7ad80c49f5d9230a76b88
+	source_armv6h = https://github.com/EdJoPaTo/website-stalker/releases/download/v0.27.0/website-stalker-v0.27.0-arm-unknown-linux-gnueabihf.tar.gz
+	sha256sums_armv6h = f21a0c15646dcb4f88e9da51a1d67905bb88e24e3b56acbf4091b727f4a8c23c
+	source_armv7h = https://github.com/EdJoPaTo/website-stalker/releases/download/v0.27.0/website-stalker-v0.27.0-armv7-unknown-linux-gnueabihf.tar.gz
+	sha256sums_armv7h = cf5a307c7520bc09443261015f8c23260183e6e8a38f533f7e5c72545e1beecc
+	source_riscv64 = https://github.com/EdJoPaTo/website-stalker/releases/download/v0.27.0/website-stalker-v0.27.0-riscv64gc-unknown-linux-gnu.tar.gz
+	sha256sums_riscv64 = 134dde67b63698f680404e4ae8c8d36bc778d6effc34656bc0fc74dff0df7b68
+
+pkgname = website-stalker-bin

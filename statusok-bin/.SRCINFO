@@ -1,0 +1,18 @@
+pkgbase = statusok-bin
+	pkgdesc = Monitor your Website and APIs from your Computer. Get Notified through Slack, E-mail when your server is down or response time is more than expected
+	pkgver = 0.1.1
+	pkgrel = 1
+	url = https://github.com/kislenko-artem/statusok
+	arch = x86_64
+	license = Apache-2.0
+	depends = glibc
+	provides = statusok
+	conflicts = statusok
+	source_x86_64 = statusok-x86_64-0.1.1::https://github.com/kislenko-artem/statusok/releases/download/v0.1.1/statusok
+	source_x86_64 = README-0.1.1.md::https://raw.githubusercontent.com/kislenko-artem/statusok/v0.1.1/README.md
+	source_x86_64 = LICENSE-0.1.1::https://raw.githubusercontent.com/kislenko-artem/statusok/v0.1.1/License
+	sha256sums_x86_64 = 41c596cf01148a2e722203f223eaf6e5ae8ee0c217a345ecc9737f7fb988e2c5
+	sha256sums_x86_64 = 89647a71118f38cb4545549d178f87df706b6115cde0715c8ca27970e1846b6e
+	sha256sums_x86_64 = e764a6f8f5fc2a639fb0c93e8a3b6665fdfac80731a73ba4b26cbbb170869a57
+
+pkgname = statusok-bin

@@ -1,0 +1,16 @@
+pkgbase = osticket
+	pkgdesc = A widely-used open source support ticket system.
+	pkgver = 1.18.2
+	pkgrel = 1
+	url = http://www.osticket.com/
+	install = osticket.install
+	arch = any
+	license = GPL
+	makedepends = unzip
+	depends = php
+	depends = php-apache
+	depends = mariadb
+	source = https://github.com/osTicket/osTicket/releases/download/v1.18.2/osTicket-v1.18.2.zip
+	sha256sums = 9e523ca5bec6324166bdb60fe2bce26c37fc6eefb256e281ad95f70138486bc6
+
+pkgname = osticket

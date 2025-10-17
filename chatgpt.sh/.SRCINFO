@@ -1,0 +1,27 @@
+pkgbase = chatgpt.sh
+	pkgdesc = Wrapper for ChatGPT, STT, and TTS. Features Ollama, Gemini, Anthropic, and more
+	pkgver = 0.116.2
+	pkgrel = 1
+	url = https://gitlab.com/fenixdragao/shellchatgpt
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = git
+	depends = bash
+	depends = curl
+	depends = jq
+	optdepends = imagemagick: edit input images (fbida)
+	optdepends = xdg-utils: open images (xdg-open, open)
+	optdepends = sox: audio recorder (arecod, ffmpeg)
+	optdepends = mpv: audio player (sox, vlc, ffplay, afplay)
+	optdepends = xsel: copy output to clipboard (xclip)
+	optdepends = python: modules (tiktoken, markdown, bs4)
+	optdepends = bat: render markdown (pygmentize, glow, mdcat, mdless)
+	optdepends = w3m: dump URL text (lynx, elinks, links)
+	optdepends = poppler: dump PDF as text (gs, abiword, ebook-convert)
+	optdepends = libreoffice: dump doc files as text
+	optdepends = dialog: file picker (kdialog, zenity, vifm, ranger, nnn)
+	optdepends = yt-dlp: dump YouTube captions
+	source = chatgpt.sh-0.116.2::git+https://gitlab.com/fenixdragao/shellchatgpt.git#commit=ff5888323a8e0181257b673f8cfce778b0b3f021
+	sha256sums = SKIP
+
+pkgname = chatgpt.sh

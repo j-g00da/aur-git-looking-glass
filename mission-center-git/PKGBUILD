@@ -1,0 +1,48 @@
+# Maintainer: Mark Wagie <mark dot wagie at proton dot me>
+
+pkgname=mission-center-git
+_pkgname=${pkgname%-git}
+pkgver=0.6.2.r133.g6275b53
+pkgrel=1
+pkgdesc="Monitor your CPU, Memory, Disk, Network and GPU usage"
+arch=('x86_64' 'aarch64')
+url="https://gitlab.com/${_pkgname}-devs/${_pkgname}"
+license=('GPL-3.0-or-later')
+depends=('dmidecode' 'libadwaita' 'nvtop' 'protobuf')
+makedepends=('git' 'blueprint-compiler' 'cargo' 'meson' 'cmake')
+checkdepends=('appstream-glib')
+conflicts=("${_pkgname}")
+provides=("${_pkgname}")
+source=("git+${url}.git"
+	"git+https://gitlab.com/${_pkgname}-devs/gng.git")
+sha256sums=('SKIP'
+            'SKIP')
+options=('!lto')
+
+pkgver() {
+	cd "${_pkgname}/"
+	git describe --long --tags --abbrev=7 | sed 's/\([^-]*-g\)/r\1/;s/-/./g;s/v//'
+}
+
+prepare() {
+	cd "${_pkgname}/"
+
+	git submodule init
+	git config submodule.subprojects/magpie.url "${srcdir}/gng"
+	git -c protocol.file.allow=always submodule update
+
+	cargo fetch --target "$CARCH-unknown-linux-gnu"
+}
+
+build() {
+	arch-meson "${_pkgname}/" build
+	meson compile -C build
+}
+
+check() {
+	meson test -C build --print-errorlogs || :
+}
+
+package() {
+	meson install -C build --no-rebuild --destdir "${pkgdir}"
+}

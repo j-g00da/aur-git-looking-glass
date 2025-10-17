@@ -1,0 +1,19 @@
+pkgbase = kitty-album-git
+	pkgdesc = Minimal kitten to sift through images intuitively in kitty
+	pkgver = r2.c0f485b
+	pkgrel = 1
+	url = https://github.com/mrf345/kitty-album/
+	arch = any
+	license = GPL3
+	makedepends = git
+	depends = kitty
+	depends = python
+	depends = imagemagick
+	provides = kitty-album
+	provides = kitty_album.py
+	source = git+https://github.com/mrf345/kitty-album/
+	source = kitty-album.desktop
+	sha256sums = SKIP
+	sha256sums = 67ce76f8fb3b711db62c8aff3f5592baab70852095351db0c93b4eda18b11746
+
+pkgname = kitty-album-git

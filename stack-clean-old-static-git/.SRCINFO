@@ -1,0 +1,18 @@
+pkgbase = stack-clean-old-static-git
+	pkgdesc = Manage Haskell stack snapshot builds and ghc versions (static build)
+	pkgver = 0.5.1.r1.g899235a
+	pkgrel = 4
+	url = https://github.com/juhp/stack-clean-old
+	arch = i686
+	arch = x86_64
+	license = BSD-3-Clause
+	makedepends = git
+	makedepends = stack
+	depends = gmp
+	depends = ncurses
+	provides = stack-clean-old=0.5.1
+	conflicts = stack-clean-old
+	source = stack-clean-old-static-git::git+https://github.com/juhp/stack-clean-old.git
+	sha256sums = SKIP
+
+pkgname = stack-clean-old-static-git

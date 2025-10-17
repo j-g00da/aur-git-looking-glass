@@ -1,0 +1,16 @@
+pkgbase = blink-emulator
+	pkgdesc = tiniest x86-64-linux emulator
+	pkgver = 1.1.0
+	pkgrel = 1
+	url = https://github.com/jart/blink
+	changelog = CHANGELOG
+	arch = x86_64
+	arch = aarch64
+	license = ISC
+	options = !lto
+	source = https://github.com/jart/blink/archive/refs/tags/1.1.0.tar.gz
+	source = LICENSE
+	b2sums = 33a092224e488a086ff380b97f8364f4e050254aa18ce63997061584d9574e652d851dcafba181e12c35fde175add403a044aab8efb18e2fe4e391921bc7b2bd
+	b2sums = 5ec87efa72e92e791e7ccdb0aab16008076c05f458c4b7b11afb59c76ede2bb3e493cd7d68efe6b3412b08d1a9fa3b4489bce488b1d37ea056a22f062fe586db
+
+pkgname = blink-emulator

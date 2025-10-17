@@ -1,0 +1,14 @@
+pkgbase = stardust-xr-magnetar
+	pkgdesc = Cylindrical workspaces for Stardust XR
+	pkgver = 0.1.0
+	pkgrel = 2
+	url = https://github.com/StardustXR/magnetar
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = cargo
+	makedepends = git
+	source = git+https://github.com/StardustXR/magnetar.git
+	sha256sums = SKIP
+
+pkgname = stardust-xr-magnetar

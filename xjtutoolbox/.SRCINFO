@@ -1,0 +1,19 @@
+pkgbase = xjtutoolbox
+	pkgdesc = XJTUToolBox with bundled Python library for Arch Linux
+	pkgver = 1.2.1
+	pkgrel = 1
+	url = https://github.com/yan-xiaoo/XJTUToolBox
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = python
+	makedepends = python-virtualenv
+	makedepends = python-pillow
+	depends = python
+	depends = gtk3
+	depends = webkit2gtk
+	depends = libnotify
+	source = xjtutoolbox-1.2.1.tar.gz::https://github.com/yan-xiaoo/XJTUToolBox/archive/refs/tags/v1.2.1.tar.gz
+	sha256sums = e13d1ba8efc77ad0777cc0239ae78f9ff8b910baed77f758cfab98bc50697428
+
+pkgname = xjtutoolbox

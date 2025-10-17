@@ -1,0 +1,16 @@
+pkgbase = r-eudysbiome
+	pkgdesc = Cartesian plot and contingency test on 16S Microbial data
+	pkgver = 1.38.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/eudysbiome
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-biostrings
+	depends = r-plyr
+	depends = r-r.utils
+	depends = r-rsamtools
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/eudysbiome_1.38.0.tar.gz
+	sha256sums = 48c237eb426699261e70bb9b3c2fcbbaca986540047b0d3f5846ceddc66e570b
+
+pkgname = r-eudysbiome

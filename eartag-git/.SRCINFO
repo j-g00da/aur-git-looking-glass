@@ -1,0 +1,23 @@
+pkgbase = eartag-git
+	pkgdesc = Simple music tag editor
+	pkgver = 0.6.3.r7.g886aaed
+	pkgrel = 1
+	url = https://gitlab.gnome.org/World/eartag
+	arch = any
+	license = MIT
+	checkdepends = appstream-glib
+	checkdepends = python-pytest
+	makedepends = git
+	makedepends = meson
+	depends = libadwaita
+	depends = python-gobject
+	depends = python-pillow
+	depends = python-mutagen
+	depends = python-magic
+	depends = python-pyacoustid
+	provides = eartag
+	conflicts = eartag
+	source = git+https://gitlab.gnome.org/World/eartag.git
+	b2sums = SKIP
+
+pkgname = eartag-git

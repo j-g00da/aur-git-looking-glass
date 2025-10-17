@@ -1,0 +1,21 @@
+pkgbase = zerochess-git
+	pkgdesc = Chess game precision analysis app.(Use system-wide electron)
+	pkgver = 1.0.4.r0.g2bd68fb
+	pkgrel = 1
+	url = https://github.com/OscarDavilaSampedro/zerochess
+	arch = any
+	license = MIT
+	makedepends = npm
+	makedepends = git
+	makedepends = nvm
+	makedepends = gendesk
+	makedepends = curl
+	depends = electron27
+	provides = zerochess=1.0.4
+	conflicts = zerochess
+	source = zerochess.git::git+https://github.com/OscarDavilaSampedro/zerochess.git
+	source = zerochess.sh
+	sha256sums = SKIP
+	sha256sums = 31ad33b633744f5361abd964be306cea53ae1050e760c787115f7eca60045ae6
+
+pkgname = zerochess-git

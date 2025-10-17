@@ -1,0 +1,22 @@
+pkgbase = python-binary-memcached
+	pkgdesc = A pure python module (thread safe) to access memcached via its binary protocol with SASL auth support
+	pkgver = 0.31.4
+	pkgrel = 1
+	url = https://github.com/jaysonsantos/python-binary-memcached
+	arch = any
+	license = MIT
+	checkdepends = memcached
+	checkdepends = python-pytest
+	checkdepends = python-trustme
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	makedepends = tar
+	depends = python-six
+	depends = python-uhashring
+	noextract = python-binary-memcached-0.31.4.tar.gz
+	source = python-binary-memcached-0.31.4.tar.gz::https://api.github.com/repos/jaysonsantos/python-binary-memcached/tarball/refs/tags/v0.31.4
+	b2sums = 702993ec7985cc43b333b497df8d8049441fc4ea91b8b922278268aa3fa0f7ffbef21f42026588da3577940b1389caac3eee54b1dfcdd62aa64a67035da34189
+
+pkgname = python-binary-memcached

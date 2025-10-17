@@ -1,0 +1,19 @@
+pkgbase = libcorecrypto
+	pkgdesc = Library implementing Apple low-level cryptographic primitives
+	pkgver = 2023
+	pkgrel = 1
+	url = https://developer.apple.com/security/
+	arch = x86_64
+	arch = armv7h
+	arch = aarch64
+	license = custom
+	makedepends = clang
+	makedepends = cmake
+	makedepends = curl
+	makedepends = python
+	provides = libcorecrypto
+	conflicts = libcorecrypto-git
+	source = LICENSE
+	b2sums = 571233903371c819e99b2e39f4b32013b37e3c8a618d54ee27d98b0c61bfb50f702780f597e096df9d8e8e4d0ad0a4e3fcaf6949b7035796ecb5be274c1894d0
+
+pkgname = libcorecrypto

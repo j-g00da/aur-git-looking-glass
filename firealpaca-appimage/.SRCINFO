@@ -1,0 +1,14 @@
+pkgbase = firealpaca-appimage
+	pkgdesc = Simple and easy digital painting software - AppImage
+	pkgver = 2.13.19
+	pkgrel = 1
+	url = https://firealpaca.com/download/linux
+	arch = x86_64
+	license = custom
+	depends = fuse2
+	conflicts = firealpaca
+	options = !strip
+	source = FireAlpaca-2.13.19-x86_64.AppImage::https://firealpaca.com/download/linux
+	sha256sums = 3c183c14caf745b2c3c20734a8ff65d08471cf5e1bf1974d4a9c7b595b6e0ba5
+
+pkgname = firealpaca-appimage

@@ -1,0 +1,26 @@
+pkgbase = r-jasplearnstats
+	pkgdesc = Learn Classical statistics with simple examples and supporting text
+	pkgver = 0.95.3
+	pkgrel = 1
+	url = https://github.com/jasp-stats/jaspLearnStats
+	arch = any
+	groups = r-jasp
+	groups = r-jaspextra
+	license = GPL-2.0-or-later
+	depends = r
+	depends = r-extradistr
+	depends = r-ggplot2
+	depends = r-jaspbase
+	depends = r-jaspgraphs
+	depends = r-jaspdistributions
+	depends = r-jaspdescriptives
+	depends = r-jaspttests
+	depends = r-ggforce
+	depends = r-tidyr
+	depends = r-igraph
+	depends = r-hdinterval
+	depends = r-metafor
+	source = jaspLearnStats_0.95.3.tar.gz::https://github.com/jasp-stats/jaspLearnStats/archive/refs/tags/v0.95.3.tar.gz
+	sha256sums = 1d319b4fc15f7f647f916e5da2f2aac158edcde71b1eb19ecd531405452f8138
+
+pkgname = r-jasplearnstats

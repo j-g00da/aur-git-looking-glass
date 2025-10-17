@@ -1,0 +1,13 @@
+pkgbase = tym
+	pkgdesc = Lua-configurable terminal emulator
+	pkgver = 3.5.2
+	pkgrel = 2
+	url = https://github.com/endaaman/tym
+	arch = x86_64
+	license = MIT
+	depends = vte3
+	depends = lua
+	source = https://github.com/endaaman/tym/releases/download/3.5.2/tym-3.5.2.tar.gz
+	sha256sums = 3d167d40fe108f4408cefd9346d074ae3028b94d06b99b2324f646ba1f3f3b0a
+
+pkgname = tym

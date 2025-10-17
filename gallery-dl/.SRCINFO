@@ -1,0 +1,34 @@
+pkgbase = gallery-dl
+	pkgdesc = Command-line program to download image-galleries and collections from several image hosting sites
+	pkgver = 1.30.10
+	pkgrel = 1
+	url = https://github.com/mikf/gallery-dl
+	arch = any
+	license = GPL-2.0-or-later
+	checkdepends = yt-dlp
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	makedepends = git
+	depends = python
+	depends = python-requests
+	optdepends = yt-dlp: HLS/DASH video downloads, ytdl integration
+	optdepends = youtube-dl: HLS/DASH video downloads, ytdl integration
+	optdepends = ffmpeg: Pixiv Ugoira conversion
+	optdepends = mkvtoolnix-cli: Accurate Ugoira frame timecodes
+	optdepends = python-pysocks: SOCKS proxy support
+	optdepends = python-brotli: Brotli compression support
+	optdepends = python-brotlicffi: Brotli compression support
+	optdepends = python-zstandard: Zstandard compression support
+	optdepends = python-yaml: YAML configuration file support
+	optdepends = python-toml: TOML configuration file support for Python<3.11
+	optdepends = python-secretstorage: GNOME keyring passwords for --cookies-from-browser
+	optdepends = python-psycopg: PostgreSQL support
+	optdepends = python-truststore: Support using system certificates
+	optdepends = python-jinja: Jinja template support
+	source = git+https://github.com/mikf/gallery-dl.git#tag=v1.30.10?signed
+	validpgpkeys = 3E09F5908333DD83DBDCE7375680CA389D365A88
+	sha512sums = 00ef5878a1845e3176c4074dc75fd039cea270f911f9e49265bab3dab9693527603c177f9190163c9f67b2374b2280a9e8b6d55486a48d52064de96c941c3aeb
+
+pkgname = gallery-dl

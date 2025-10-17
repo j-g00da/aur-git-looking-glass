@@ -1,0 +1,19 @@
+pkgbase = dmos
+	pkgdesc = Djot HTML renderer with advanced features
+	pkgver = 0.6.1
+	pkgrel = 1
+	url = https://sr.ht/~bitfehler/dmos
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = rust
+	makedepends = make
+	makedepends = pkgconf
+	makedepends = scdoc
+	depends = gcc-libs
+	depends = glibc
+	depends = oniguruma
+	options = !buildflags
+	source = dmos-0.6.1.tar.gz::https://git.sr.ht/~bitfehler/dmos/archive/0.6.1.tar.gz
+	sha512sums = 6ffcf24e4d5e05e6fa87a0e454fa2a9e3722ac9c1a2952a28953052085a5d370005eb1fad6f57bf48e1c8fbb75d99fa061ca86a65875367e8baf5198eee5bf9f
+
+pkgname = dmos

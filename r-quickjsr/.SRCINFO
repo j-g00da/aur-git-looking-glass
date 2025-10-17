@@ -1,0 +1,17 @@
+pkgbase = r-quickjsr
+	pkgdesc = Interface for the 'QuickJS-NG' Lightweight 'JavaScript' Engine
+	pkgver = 1.8.1
+	pkgrel = 1
+	url = https://cran.r-project.org/package=QuickJSR
+	arch = x86_64
+	license = MIT
+	checkdepends = r-tinytest
+	depends = r
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-tinytest
+	source = https://cran.r-project.org/src/contrib/QuickJSR_1.8.1.tar.gz
+	md5sums = 945a38be4a1fcde8dff5e41bd9e24918
+	b2sums = 67b144b00ad8da4bb2576816dbec4eb84b09767839c6c5622ef7070525696a8ad1f681e993008375310622728954974e01e39c13b36c07466b2b5a560219c851
+
+pkgname = r-quickjsr

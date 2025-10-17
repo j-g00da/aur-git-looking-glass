@@ -1,0 +1,23 @@
+pkgbase = opentelemetry-cpp
+	pkgdesc = The C++ OpenTelemetry client.
+	pkgver = 1.22.0
+	pkgrel = 4
+	url = https://github.com/open-telemetry/opentelemetry-cpp
+	arch = x86_64
+	arch = armv7h
+	license = Apache-2.0
+	makedepends = doxygen
+	makedepends = cmake
+	depends = grpc
+	depends = nlohmann-json
+	depends = benchmark
+	depends = abseil-cpp
+	depends = protobuf
+	depends = curl
+	depends = prometheus-cpp
+	source = https://github.com/open-telemetry/opentelemetry-cpp/archive/refs/tags/v1.22.0.tar.gz
+	source = https://github.com/open-telemetry/opentelemetry-proto/archive/refs/tags/v1.7.0.tar.gz
+	sha256sums = 3428f433f4b435ed1fad64cbdbe75b7288c06f6297786a7036d65d5b9a1d215b
+	sha256sums = 11330d850f5e24d34c4246bc8cb21fcd311e7565d219195713455a576bb11bed
+
+pkgname = opentelemetry-cpp

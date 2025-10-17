@@ -1,0 +1,22 @@
+pkgbase = r-ruvcorr
+	pkgdesc = Removal of unwanted variation for gene-gene correlations and related analysis
+	pkgver = 1.40.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/RUVcorr
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-biocparallel
+	depends = r-bladderbatch
+	depends = r-corrplot
+	depends = r-gridextra
+	depends = r-psych
+	depends = r-reshape2
+	depends = r-snowfall
+	optdepends = r-hgu133a2.db
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/RUVcorr_1.40.0.tar.gz
+	sha256sums = cc08883b7f565c4c677337e18db195becd0f9f953bc6c2f58a6f239f57164c96
+
+pkgname = r-ruvcorr

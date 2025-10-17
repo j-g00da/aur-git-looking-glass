@@ -1,0 +1,22 @@
+pkgbase = ffmpegthumbs-git
+	pkgdesc = KDE Thumbnailer based on FFmpeg (git build)
+	pkgver = 24.01.90.r4.g5cdd8fa
+	pkgrel = 1
+	url = https://invent.kde.org/multimedia/ffmpegthumbs
+	arch = x86_64
+	license = GPL-2.0-or-later
+	makedepends = extra-cmake-modules-git
+	makedepends = git
+	depends = ffmpeg
+	depends = gcc-libs
+	depends = glibc
+	depends = kconfig
+	depends = kcoreaddons
+	depends = kio
+	depends = qt6-base
+	provides = ffmpegthumbs=24.01.90
+	conflicts = ffmpegthumbs
+	source = git+https://invent.kde.org/multimedia/ffmpegthumbs.git
+	b2sums = SKIP
+
+pkgname = ffmpegthumbs-git

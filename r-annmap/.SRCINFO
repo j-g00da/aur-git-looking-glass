@@ -1,0 +1,24 @@
+pkgbase = r-annmap
+	pkgdesc = Genome annotation and visualisation package pertaining to Affymetrix arrays and NGS analysis.
+	pkgver = 1.50.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/annmap
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-biobase
+	depends = r-biocgenerics
+	depends = r-dbi
+	depends = r-digest
+	depends = r-genefilter
+	depends = r-genomicranges
+	depends = r-iranges
+	depends = r-rmysql
+	depends = r-rsamtools
+	optdepends = r-gviz
+	optdepends = r-rjson
+	optdepends = r-runit
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/annmap_1.50.0.tar.gz
+	sha256sums = 60f4faad5c043031f4b68ed3df434c857fef84b40cf7ec08fdf6d0f7412f8777
+
+pkgname = r-annmap

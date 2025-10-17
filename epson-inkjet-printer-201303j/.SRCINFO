@@ -1,0 +1,14 @@
+pkgbase = epson-inkjet-printer-201303j
+	pkgdesc = Epson inkjet printer driver (PX-436A)
+	pkgver = 1.0.1
+	pkgrel = 1
+	url = https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+	arch = x86_64
+	license = custom:Epson End User Software License Agreement
+	depends = epson-inkjet-printer-filter
+	depends = gcc-libs
+	depends = glibc
+	source = https://download3.ebz.epson.net/dsc/f/03/00/15/64/71/1ab61a51bed60db03615afb1c273e0a4e1603bc1/epson-inkjet-printer-201303j-1.0.1-1.src.rpm
+	sha256sums = d46270768e21f4c40bc2049d6e9971e3d45cea54cefe9730dcf153aa8b7d2b0a
+
+pkgname = epson-inkjet-printer-201303j

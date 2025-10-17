@@ -1,0 +1,23 @@
+pkgbase = vlang
+	pkgdesc = Simple, fast, safe, compiled language for developing maintainable software
+	pkgver = 0.4.11
+	pkgrel = 1
+	url = https://vlang.io
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = git
+	makedepends = libx11
+	depends = glibc
+	optdepends = glfw: Needed for graphics support
+	optdepends = freetype2: Needed for graphics support
+	optdepends = openssl: Needed for http support
+	conflicts = v
+	source = v-0.4.11.zip::https://github.com/vlang/v/archive/b9e5757236a948c71cdac5ba913a9d42f1349963.zip
+	source = vc-0.4.11.zip::https://github.com/vlang/vc/archive/30f2d6ee52d8e1e7f5653454262bf32f297607da.zip
+	sha256sums = 5a496eafa7879f77d19dd133ca4c16350e7be347a67ee580637a4e9df1bba824
+	sha256sums = ab88148f24e9e5330e2f486d2396a72506693510b66a29e032b5aa798511e24f
+	sha512sums = 7622cc8a5dda3ca904458b5b2e8538011557d74cfc6f1d0ee7c28732969ad86c97763578fa310e0487f37973879acaa5b160106683c3320c0a79d7f775c48fc4
+	sha512sums = 191bd970747e2fe31656476ab9ee6157a1f0afc8e9f35f4b0b36db7d8938bf7f31ea65ee3b193d24889dd9998d3b802865ce3ce08968b08a755e8933647bd4aa
+
+pkgname = vlang

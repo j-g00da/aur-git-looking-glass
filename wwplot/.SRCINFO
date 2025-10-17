@@ -1,0 +1,21 @@
+pkgbase = wwplot
+	pkgdesc = Plotting Tool for Experimental Physics Classes
+	pkgver = 1.0.1
+	pkgrel = 1
+	url = https://github.com/wwmm/wwplot
+	arch = any
+	license = GPL3
+	makedepends = meson
+	depends = python
+	depends = pyside6
+	depends = python-numpy
+	depends = python-scipy
+	depends = python-matplotlib
+	depends = qt6-base
+	depends = qt6-declarative
+	depends = qt6-tools
+	options = !emptydirs
+	source = wwplot-1.0.1::https://github.com/wwmm/wwplot/archive/v1.0.1.tar.gz
+	sha256sums = 913d264798bd5b807bcb5e385d0a1a91b78e26a476bcd089164045ca4f2cba2e
+
+pkgname = wwplot

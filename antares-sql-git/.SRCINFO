@@ -1,0 +1,20 @@
+pkgbase = antares-sql-git
+	pkgdesc = A modern, fast and productivity driven SQL client with a focus in UX.(Use system-wide electron)
+	pkgver = 0.7.35.r0.g6a0f1b1
+	pkgrel = 1
+	url = https://antares-sql.app/
+	arch = any
+	license = MIT
+	makedepends = npm
+	makedepends = nvm
+	makedepends = curl
+	makedepends = git
+	depends = electron30
+	provides = antares-sql=0.7.35
+	conflicts = antares-sql
+	source = antares-sql.git::git+https://github.com/antares-sql/antares.git
+	source = antares-sql.sh
+	sha256sums = SKIP
+	sha256sums = f2fe8c189974ffb9d445e9a42bd4f1d5b60185607c3fcafae79ab44be224e013
+
+pkgname = antares-sql-git

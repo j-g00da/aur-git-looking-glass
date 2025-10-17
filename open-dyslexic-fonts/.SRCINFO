@@ -1,0 +1,13 @@
+pkgbase = open-dyslexic-fonts
+	pkgdesc = Typeface that uses typeface shapes & features to help offset some visual symptoms of Dyslexia
+	pkgver = 0.91.12
+	pkgrel = 2
+	url = https://forge.hackers.town/antijingoist/opendyslexic
+	arch = any
+	license = OFL-1.1-RFN
+	replaces = ttf-opendyslexic
+	replaces = otf-opendyslexic-git
+	source = open-dyslexic-fonts-v0.91.12.tar.gz::https://forge.hackers.town/antijingoist/opendyslexic/archive/v0.91.12.tar.gz
+	sha256sums = c5e2e43220dd0c376203297e8d124534318827aa6ea27f9d24c82f401071841d
+
+pkgname = open-dyslexic-fonts

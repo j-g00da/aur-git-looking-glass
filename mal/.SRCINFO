@@ -1,0 +1,16 @@
+pkgbase = mal
+	pkgdesc = A terminal client for MyAnimeList (integrated with ani-cli) written in rust
+	pkgver = 0.2.0
+	pkgrel = 1
+	url = https://github.com/swstl/mal-cli
+	arch = x86_64
+	license = MIT
+	makedepends = rust
+	makedepends = cargo
+	depends = glibc
+	options = !lto
+	options = !debug
+	source = mal-0.2.0.tar.gz::https://github.com/swstl/mal-cli/archive/refs/tags/v0.2.0.tar.gz
+	sha256sums = edc8bc0311830ae54eb07ac00c2cf4c5ce943a733799590a214035b1f127e246
+
+pkgname = mal

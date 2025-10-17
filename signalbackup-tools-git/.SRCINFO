@@ -1,0 +1,18 @@
+pkgbase = signalbackup-tools-git
+	pkgdesc = Tool to work with Signal Backup files
+	pkgver = 20241106.1.r0.g242c983
+	pkgrel = 1
+	url = https://github.com/bepaald/signalbackup-tools
+	arch = x86_64
+	license = GPL3
+	makedepends = git
+	makedepends = pkgconfig
+	makedepends = cmake
+	depends = openssl
+	depends = sqlite
+	depends = dbus
+	provides = signalbackup-tools
+	source = git+https://github.com/bepaald/signalbackup-tools.git
+	md5sums = SKIP
+
+pkgname = signalbackup-tools-git

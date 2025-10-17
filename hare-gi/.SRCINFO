@@ -1,0 +1,17 @@
+pkgbase = hare-gi
+	pkgdesc = GObject Introspection code generator for Hare
+	pkgver = 0.1.0
+	pkgrel = 2
+	url = https://git.sr.ht/~yerinalexey/hare-gi
+	arch = x86_64
+	arch = aarch64
+	license = MPL2
+	makedepends = git
+	depends = hare
+	depends = gtk3
+	depends = gtk4
+	depends = gobject-introspection
+	source = hare-gi-0.1.0.tar.gz::https://git.sr.ht/~yerinalexey/hare-gi/archive/0.1.0.tar.gz
+	sha256sums = 3d70fde77c07be396d5e7cfc1344e72a3fb4b1ce8a58eeb938bd792c6a1a452e
+
+pkgname = hare-gi

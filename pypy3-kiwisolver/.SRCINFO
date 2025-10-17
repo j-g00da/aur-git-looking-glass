@@ -1,0 +1,16 @@
+pkgbase = pypy3-kiwisolver
+	pkgdesc = A fast implementation of the Cassowary constraint solver
+	pkgver = 1.4.9
+	pkgrel = 1
+	url = https://github.com/nucleic/kiwi
+	arch = any
+	license = Artistic-1.0-Perl
+	makedepends = pypy3-build
+	makedepends = pypy3-installer
+	makedepends = pypy3-setuptools-scm
+	makedepends = pypy3-cppy
+	depends = pypy3
+	source = kiwi-1.4.9.tar.gz::https://github.com/nucleic/kiwi/archive/1.4.9.tar.gz
+	sha512sums = a59db8f06632317cc315dcacfc8884934aa5986b5f75d44631d8de4ed6b264c004fb46f26ffcab2a5f5a9daeb700b727922aa9a28b46657d52863acab5ab2d83
+
+pkgname = pypy3-kiwisolver

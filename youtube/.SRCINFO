@@ -1,0 +1,18 @@
+pkgbase = youtube
+	pkgdesc = Unnofficial Youtube desktop application
+	pkgver = 1.1.6
+	pkgrel = 1
+	url = https://gitlab.com/linuxbombay/youtube-desktop
+	arch = x86_64
+	arch = aarch64
+	license = GPL
+	makedepends = unzip
+	depends = libelectron>=2025.1
+	depends = nss
+	depends = gtk3
+	depends = libxss
+	depends = git
+	source = https://gitlab.com/linuxbombay/youtube-desktop/application/-/archive/1.1.6/application-1.1.6.tar.bz2
+	sha256sums = bbda1965f6d1088a3125334a7cdf174868f6afcbc02fa6b3d0a9a86638d8406d
+
+pkgname = youtube

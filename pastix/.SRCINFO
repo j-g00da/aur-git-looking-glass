@@ -1,0 +1,27 @@
+pkgbase = pastix
+	pkgdesc = High performance parallel solver for very large sparse linear systems based on direct methods
+	pkgver = 6.4.0
+	pkgrel = 2
+	url = https://gitlab.inria.fr/solverstack/pastix
+	arch = x86_64
+	license = LGPL-3.0-only
+	makedepends = gcc-fortran
+	makedepends = cmake
+	makedepends = ninja
+	makedepends = doxygen
+	makedepends = git
+	depends = cblas
+	depends = hwloc
+	depends = lapacke
+	depends = metis
+	depends = openmpi
+	depends = python
+	depends = scotch
+	provides = libpastix.so
+	provides = libpastix_kernels.so
+	provides = libspm.so
+	provides = libspmf.so
+	source = https://files.inria.fr/pastix/releases/v6/pastix-6.4.0.tar.gz
+	b2sums = a3b8bf29cd4db82a8a6622486024d01f72210157068b4fd82a7e68d3e2ddcd8a66849bd25f7a730ce82365e779f25cc2b6ea8334dbba6f742ad88e776e2cb994
+
+pkgname = pastix

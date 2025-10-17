@@ -1,0 +1,16 @@
+pkgbase = r-hyperdraw
+	pkgdesc = Visualizing Hypergaphs
+	pkgver = 1.60.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/hyperdraw
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-graph
+	depends = r-hypergraph
+	depends = r-rgraphviz
+	depends = graphviz
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/hyperdraw_1.60.0.tar.gz
+	sha256sums = 63403a69099e9f3dec1c2f71ba3922098f9e0b1c3e673be09b0dbbc8682b03b7
+
+pkgname = r-hyperdraw

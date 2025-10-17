@@ -1,0 +1,15 @@
+pkgbase = perl-text-textile
+	pkgdesc = A humane web text generator.
+	pkgver = 2.13
+	pkgrel = 1
+	url = https://metacpan.org/release/Text-Textile
+	arch = any
+	license = PerlArtistic
+	license = GPL
+	depends = perl>=0
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/B/BC/BCHOATE/Text-Textile-2.13.tar.gz
+	md5sums = b502b1cca00ff9a26295a05e48710c2b
+	sha512sums = 3803a51f21165964f4860e008124dc00e7b57279dc0be24ac90b98456776879c5269e6d25ca65980d03ca62a57c059caa1b725d48a22d628f72af390f341d605
+
+pkgname = perl-text-textile

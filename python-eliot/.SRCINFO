@@ -1,0 +1,24 @@
+pkgbase = python-eliot
+	pkgdesc = The logging system that tells you *why* it happened
+	pkgver = 1.17.5
+	pkgrel = 1
+	url = https://github.com/itamarst/eliot
+	arch = any
+	license = Apache-2.0
+	checkdepends = python-pytest
+	checkdepends = python-hypothesis
+	checkdepends = python-testtools
+	checkdepends = python-orjson
+	makedepends = python-setuptools
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-sphinx
+	depends = python
+	depends = python-zope-interface
+	depends = python-pyrsistent
+	depends = python-boltons
+	source = python-eliot-1.17.5.tar.gz::https://github.com/itamarst/eliot/archive/refs/tags/1.17.5.tar.gz
+	sha256sums = b37cd1d88c216c23beb5de59ac8ad49533cfd835d2652b3bad9c3debf1d93730
+
+pkgname = python-eliot

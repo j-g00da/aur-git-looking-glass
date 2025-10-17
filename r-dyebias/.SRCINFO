@@ -1,0 +1,19 @@
+pkgbase = r-dyebias
+	pkgdesc = The GASSCO method for correcting for slide-dependent gene-specific dye bias
+	pkgver = 1.68.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/dyebias
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-biobase
+	depends = r-marray
+	optdepends = r-convert
+	optdepends = r-dyebiasexamples
+	optdepends = r-geoquery
+	optdepends = r-limma
+	optdepends = r-methods
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/dyebias_1.68.0.tar.gz
+	sha256sums = a6e27f1d967e66a31831967411450cf48ac0061a41fdc3d4be29c5a872d48264
+
+pkgname = r-dyebias

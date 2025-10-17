@@ -1,0 +1,20 @@
+pkgbase = sk-holoiso-config
+	pkgdesc = A custom configs tool for sk-holoiso
+	pkgver = r318.9f9488e
+	pkgrel = 1
+	url = https://github.com/honjow/sk-holoiso-config
+	install = sk-holoiso-config.install
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = python-gobject
+	depends = gtk3
+	depends = openssl
+	optdepends = holo-gs-auto-update: auto update gamescope-session
+	provides = sk-holoiso-config
+	conflicts = sk-holoiso-config
+	options = !strip
+	source = git+https://github.com/honjow/sk-holoiso-config
+	sha256sums = SKIP
+
+pkgname = sk-holoiso-config

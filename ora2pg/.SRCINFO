@@ -1,0 +1,17 @@
+pkgbase = ora2pg
+	pkgdesc = Oracle to PostgreSQL database schema converter
+	pkgver = 25.0
+	pkgrel = 1
+	url = http://ora2pg.darold.net
+	arch = any
+	license = GPL-3.0-or-later
+	depends = perl
+	depends = perl-dbd-oracle
+	optdepends = perl-dbd-pg: connect to a PostgreSQL db
+	optdepends = perl-dbd-mysql: connect to a MySQL db
+	optdepends = perl-term-readkey: read input from terminal
+	options = !emptydirs
+	source = ora2pg-25.0.tar.gz::https://github.com/darold/ora2pg/archive/refs/tags/v25.0.tar.gz
+	sha256sums = 4f437f8240e5f0b46baf234d86bcf731be30fd6ae2b39ea2c2a8942a25c72a6e
+
+pkgname = ora2pg

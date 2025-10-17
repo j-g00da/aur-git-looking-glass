@@ -1,0 +1,23 @@
+pkgbase = smartswap
+	pkgdesc = Dynamic global swappiness auto-adjuster for Arch servers with flexible system configuration
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/Kernel-Dirichlet/smartswap
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	depends = python
+	source = git+https://github.com/Kernel-Dirichlet/smartswap.git
+	source = https://github.com/Kernel-Dirichlet/smartswap/raw/main/swap_manager/smartswap_daemon.sh
+	source = https://github.com/Kernel-Dirichlet/smartswap/raw/main/swap_manager/setup.sh
+	source = https://github.com/Kernel-Dirichlet/smartswap/raw/main/README.md
+	source = https://github.com/Kernel-Dirichlet/smartswap/raw/main/LICENSE.txt
+	source = https://github.com/Kernel-Dirichlet/smartswap/raw/main/smartswap.service
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = smartswap

@@ -1,0 +1,24 @@
+pkgbase = clyp-bin
+	pkgdesc = Clipboard manager for Linux
+	pkgver = 0.9.6
+	pkgrel = 1
+	url = https://github.com/murat-cileli/clyp
+	arch = x86_64
+	license = GPL-3.0-only
+	depends = glibc
+	depends = glib2
+	depends = gtk4
+	depends = libgirepository
+	depends = cairo
+	depends = vulkan-icd-loader
+	depends = graphene
+	depends = gdk-pixbuf2
+	depends = harfbuzz
+	depends = pango
+	depends = hicolor-icon-theme
+	provides = clyp
+	conflicts = clyp
+	source_x86_64 = https://github.com/murat-cileli/clyp/releases/download/0.9.6/clyp-0.9.6-1-x86_64.pkg.tar.zst
+	sha256sums_x86_64 = b3c7d7463f628f1d0772706e7f96cd5e675f91727a06160e3199b406398111de
+
+pkgname = clyp-bin

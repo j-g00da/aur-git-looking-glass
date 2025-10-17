@@ -1,0 +1,12 @@
+pkgbase = termshot
+	pkgdesc = Generate beautiful screenshots of your terminal, from your terminal.
+	pkgver = 0.6.0
+	pkgrel = 1
+	url = https://github.com/homeport/termshot
+	arch = x86_64
+	makedepends = go
+	depends = glibc
+	source = https://github.com/homeport/termshot/archive/v0.6.0/termshot-0.6.0.tar.gz
+	sha256sums = 61acbacbed1d761965a46f379dbaf81c459e4c310d5b85972737b891b0a5aa09
+
+pkgname = termshot

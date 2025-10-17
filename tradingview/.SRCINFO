@@ -1,0 +1,20 @@
+pkgbase = tradingview
+	pkgdesc = A charting platform for traders and investors
+	pkgver = 2.13.0
+	pkgrel = 1
+	url = https://www.tradingview.com/desktop/
+	arch = x86_64
+	license = LicenseRef-TradingView
+	makedepends = links
+	source = tradingview-2.13.0.deb::https://tvd-packages.tradingview.com/ubuntu/stable/pool/multiverse/t/tradingview/jammy/tradingview-2.13.0-1_amd64.deb
+	source = tradingview.sh
+	b2sums = a8ef5566c491bfa806584d7e38c5bf8912ac09bd5d84bdc93f5af1aba9b6483dce9aec9b2098e168a57b9159bd512c2203c753d6d7cd15e42d916dfcac0c1917
+	b2sums = 1c7aaed8c8a4dad5030dc2f5506915e29d3b5ce19a61455db8be6821bc156ce6b779f7f4c63fd3929a141232443a4f5979e49c8ba3a18424d2854ec684e2f037
+
+pkgname = tradingview
+	depends = electron30-bin
+	depends = gcc-libs
+	depends = glib2
+	depends = glibc
+	depends = libsecret
+	optdepends = libappindicator-gtk3: Systray indicator support

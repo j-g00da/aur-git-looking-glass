@@ -1,0 +1,15 @@
+pkgbase = cargo-dfu
+	pkgdesc = cargo extension for flashing embedded rust programs via dfu based on jacobrosenthals cargo-hf2
+	pkgver = 0.1.0
+	pkgrel = 15
+	url = https://github.com/dfu-rs/cargo-dfu
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = rust
+	depends = cargo
+	conflicts = cargo-dfu-git
+	source = cargo-dfu-0.1.0.tar.gz::https://github.com/dfu-rs/cargo-dfu/archive/refs/tags/v0.1.0.tar.gz
+	sha256sums = 6760a77f43721b2b516e5046a56c23e66a5e8f3bc187ccd69531494af445c188
+
+pkgname = cargo-dfu

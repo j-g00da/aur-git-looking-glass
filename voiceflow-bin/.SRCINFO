@@ -1,0 +1,22 @@
+pkgbase = voiceflow-bin
+	pkgdesc = The CLI for your Voiceflow projects
+	pkgver = 1.23.0
+	pkgrel = 1
+	url = https://voiceflow.xavidop.me
+	license = Apache-2.0
+	conflicts = voiceflow-cli
+	provides = voiceflow-cli
+	arch = aarch64
+	source_aarch64 = https://github.com/xavidop/voiceflow-cli/releases/download/v1.23.0/voiceflow_Linux_arm64.tar.gz
+	sha256sums_aarch64 = ba4b9bed81b336a872921710911a04392544eb893ccc822bef49510ee1b7c43c
+	arch = armv7h
+	source_armv7h = https://github.com/xavidop/voiceflow-cli/releases/download/v1.23.0/voiceflow_Linux_armv7.tar.gz
+	sha256sums_armv7h = 5d945bac3723135c53f8ca0ed5eb63dcc1e7acba31731090528d62db5c31de05
+	arch = i686
+	source_i686 = https://github.com/xavidop/voiceflow-cli/releases/download/v1.23.0/voiceflow_Linux_i386.tar.gz
+	sha256sums_i686 = b6bb4582bc314f03d055cfa0a6ac6d0e278049672364fc170a5f769951a4bec2
+	arch = x86_64
+	source_x86_64 = https://github.com/xavidop/voiceflow-cli/releases/download/v1.23.0/voiceflow_Linux_x86_64.tar.gz
+	sha256sums_x86_64 = 9e92cbdc89743c5dbc4fb9e9f6c29a1c96eb6907d1ecd1cf055c41b6788b3b9c
+	
+pkgname = voiceflow-bin

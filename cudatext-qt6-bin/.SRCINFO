@@ -1,0 +1,17 @@
+pkgbase = cudatext-qt6-bin
+	pkgdesc = Cross-platform text editor, written in Lazarus. Qt6 edition.
+	pkgver = 1.229.0.0
+	pkgrel = 0
+	url = https://cudatext.github.io
+	arch = x86_64
+	license = MPL2
+	makedepends = gendesk
+	depends = qt6pas
+	depends = python
+	provides = cudatext
+	conflicts = cudatext
+	options = !strip
+	source = https://sourceforge.net/projects/cudatext/files/release/1.229.0.0/cudatext-linux-qt6-amd64-1.229.0.0.tar.xz
+	sha256sums = b0e38957017b6aadcf656067c1bf08b970a63aa50dbe714abc5dbed93647e054
+
+pkgname = cudatext-qt6-bin

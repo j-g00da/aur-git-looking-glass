@@ -1,0 +1,17 @@
+pkgbase = sheikah-witnet-wallet-bin
+	pkgdesc = A Witnet compatible desktop wallet and smart contracts development environment
+	pkgver = 2.0.0
+	pkgrel = 1
+	url = https://witnet.io/
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = fuse2
+	depends = electron33
+	provides = sheikah-witnet-wallet=2.0.0
+	conflicts = sheikah-witnet-wallet
+	source = sheikah-witnet-wallet-2.0.0.AppImage::https://github.com/witnet/sheikah/releases/download/v2.0.0/Sheikah-Witnet-wallet-2.0.0.AppImage
+	source = sheikah-witnet-wallet.sh
+	sha256sums = 25d0a8e28fca55e607de81e826b316afff39d00febde124f4f42609921d7183a
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = sheikah-witnet-wallet-bin

@@ -1,0 +1,37 @@
+pkgbase = intel-compute-runtime-bin
+	pkgdesc = Intel Graphics Compute Runtime for oneAPI Level Zero and OpenCL Driver (pre-compiled binaries)
+	pkgver = 25.35.35096.9
+	pkgrel = 1
+	url = https://github.com/intel/compute-runtime/
+	arch = x86_64
+	license = MIT
+	depends = gcc-libs
+	depends = glibc
+	depends = intel-graphics-compiler-bin=1:2.18.5
+	optdepends = libdrm: for cl_intel_va_api_media_sharing
+	optdepends = libva: for cl_intel_va_api_media_sharing
+	provides = intel-compute-runtime
+	provides = intel-gmmlib
+	provides = level-zero-driver
+	provides = opencl-driver
+	conflicts = intel-compute-runtime
+	conflicts = intel-gmmlib
+	noextract = intel-ocloc_25.35.35096.9-0_amd64.deb
+	noextract = intel-opencl-icd_25.35.35096.9-0_amd64.deb
+	noextract = intel-compute-runtime-bin-25.35.35096.9-level-zero-22.8.1_amd64.deb
+	noextract = intel-compute-runtime-bin-25.35.35096.9-gmmlib-22.8.1_amd64.deb
+	options = !debug
+	options = !emptydirs
+	options = !strip
+	source = https://github.com/intel/compute-runtime/releases/download/25.35.35096.9/intel-ocloc_25.35.35096.9-0_amd64.deb
+	source = https://github.com/intel/compute-runtime/releases/download/25.35.35096.9/intel-opencl-icd_25.35.35096.9-0_amd64.deb
+	source = intel-compute-runtime-bin-25.35.35096.9-level-zero-22.8.1_amd64.deb::https://github.com/intel/compute-runtime/releases/download/25.35.35096.9/libze-intel-gpu1_25.35.35096.9-0_amd64.deb
+	source = intel-compute-runtime-bin-25.35.35096.9-gmmlib-22.8.1_amd64.deb::https://github.com/intel/compute-runtime/releases/download/25.35.35096.9/libigdgmm12_22.8.1_amd64.deb
+	source = LICENSE
+	sha256sums = 023ccf8fd8912958bb3f00977056c2fa8ddbcef8ecb4bbc72bddf9ecb0eec6fb
+	sha256sums = 89f252553c937b2456ee9919858ff2ab65dc6b0dcbd219c73953548465adf325
+	sha256sums = a617d4ab0351a8f2717438be4325ca0110758450e10eb6fa02d614aed125207a
+	sha256sums = 810114ef05f4d44c5c86fbc2f0b34688102f41596a40772a1ff7a48f5df69ecd
+	sha256sums = 987a002c6c9eb75290d9937735641ef4f4b670591ee79e1ac8edebe16a81872e
+
+pkgname = intel-compute-runtime-bin

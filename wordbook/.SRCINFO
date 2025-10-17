@@ -1,0 +1,21 @@
+pkgbase = wordbook
+	pkgdesc = A dictionary application built for GNOME.
+	pkgver = 0.6.0
+	pkgrel = 1
+	url = https://apps.gnome.org/Wordbook
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = blueprint-compiler
+	makedepends = meson
+	depends = espeak-ng
+	depends = gtk4
+	depends = libadwaita
+	depends = python
+	depends = python-gobject
+	depends = python-pydantic
+	depends = python-rapidfuzz
+	depends = python-wn
+	source = Wordbook-0.6.0.tar.gz::https://github.com/mufeedali/Wordbook/archive/refs/tags/0.6.0.tar.gz
+	sha256sums = 2dbd51785476bcf933a3dbcecbb97f60a2dfc987f4b5b00108deb4be2e0052a2
+
+pkgname = wordbook

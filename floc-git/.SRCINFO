@@ -1,0 +1,18 @@
+pkgbase = floc-git
+	pkgdesc = Flo Compiler
+	pkgver = 0.2.0.r0.543c798
+	pkgrel = 1
+	url = https://github.com/romch007/floc
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = rust
+	makedepends = llvm
+	makedepends = clang
+	depends = llvm-libs
+	depends = gcc-libs
+	provides = floc
+	source = git+https://github.com/romch007/floc.git
+	sha256sums = SKIP
+
+pkgname = floc-git

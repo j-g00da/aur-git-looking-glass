@@ -1,0 +1,17 @@
+pkgbase = stor
+	pkgdesc = An alternative to GNU Stow written in rust.
+	pkgver = 0.1.1
+	pkgrel = 2
+	url = https://github.com/levinion/stor
+	arch = any
+	license = GPLv3
+	makedepends = cargo
+	makedepends = git
+	depends = gcc-libs
+	depends = glibc
+	provides = stor
+	conflicts = stor-bin
+	source = stor::git+https://github.com/levinion/stor.git
+	sha256sums = SKIP
+
+pkgname = stor

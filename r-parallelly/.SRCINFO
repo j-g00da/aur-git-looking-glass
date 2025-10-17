@@ -1,0 +1,15 @@
+pkgbase = r-parallelly
+	pkgdesc = Enhancing the 'parallel' Package
+	pkgver = 1.45.1
+	pkgrel = 1
+	url = https://cran.r-project.org/package=parallelly
+	arch = x86_64
+	license = LGPL-2.1-or-later
+	depends = r
+	optdepends = r-base64enc
+	optdepends = r-commonmark
+	source = https://cran.r-project.org/src/contrib/parallelly_1.45.1.tar.gz
+	md5sums = cbcc6d61a320c8871c01f7ad6d942bc8
+	b2sums = 7964e21fc6a32ae38570cd5f13ca2175fcea229a65fcaa57f2b07c04b89510496e0766d6a5c356dad3ddf8f7746d9814a01aa47e4e734d4a21a990e4040a837e
+
+pkgname = r-parallelly

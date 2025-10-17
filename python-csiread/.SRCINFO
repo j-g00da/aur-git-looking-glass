@@ -1,0 +1,15 @@
+pkgbase = python-csiread
+	pkgdesc = A **fast** channel state information parser for Intel, Atheros, Nexmon, ESP32 and PicoScenes in Python.
+	pkgver = 1.4.1
+	pkgrel = 1
+	url = https://github.com/citysu/csiread
+	arch = any
+	license = custom:MIT License
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python
+	source = https://files.pythonhosted.org/packages/08/4c/94f9d0d788548e6fffbed0491ea7dbc1e83864491e37101c1a2d7cdc9ef4/csiread-1.4.1.tar.gz
+	sha256sums = 5159c81d160c4fa581acc58944bf29d34d712f40721469125a8573bd0f5bbcb7
+
+pkgname = python-csiread

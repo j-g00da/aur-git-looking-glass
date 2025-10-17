@@ -1,0 +1,21 @@
+pkgbase = ipset-git
+	pkgdesc = Administration tool for IP sets
+	pkgver = 7.23.r2.g210e449
+	pkgrel = 1
+	url = https://ipset.netfilter.org/
+	arch = i686
+	arch = x86_64
+	license = GPL-2.0-or-later
+	makedepends = git
+	depends = glibc
+	depends = libmnl
+	provides = ipset=7.23.r2.g210e449
+	conflicts = ipset
+	options = staticlibs
+	backup = etc/ipset.conf
+	source = git+https://git.netfilter.org/ipset
+	source = ipset.service::https://gitlab.archlinux.org/archlinux/packaging/packages/ipset/-/raw/main/ipset.service
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = ipset-git

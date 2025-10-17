@@ -1,0 +1,19 @@
+pkgbase = ptags
+	pkgdesc = A parallel universal-ctags wrapper for git repository.
+	pkgver = 0.3.5
+	pkgrel = 1
+	url = https://github.com/dalance/ptags
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = cargo
+	depends = git
+	depends = ctags
+	optdepends = git-lfs: git-lfs indexing
+	provides = ptags
+	conflicts = ptags-git
+	source = ptags-0.3.5.zip::https://github.com/dalance/ptags/archive/v0.3.5.zip
+	sha256sums = 724ededc33fd3f39ef81325668089bd64cf5c0721f52768ced98eb6a14805bf2
+
+pkgname = ptags

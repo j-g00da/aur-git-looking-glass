@@ -1,0 +1,20 @@
+pkgbase = mingw-w64-symengine
+	pkgdesc = Fast symbolic manipulation library, written in C++ (mingw-w64)
+	pkgver = 0.14.0
+	pkgrel = 1
+	url = http://sympy.org/
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-cmake
+	makedepends = mingw-w64-boost
+	depends = mingw-w64-libmpc
+	depends = mingw-w64-primesieve
+	depends = mingw-w64-llvm
+	depends = mingw-w64-flint
+	options = !strip
+	options = !buildflags
+	options = staticlibs
+	source = https://github.com/symengine/symengine/releases/download/v0.14.0/symengine-0.14.0.tar.gz
+	sha256sums = 11c5f64e9eec998152437f288b8429ec001168277d55f3f5f1df78e3cf129707
+
+pkgname = mingw-w64-symengine

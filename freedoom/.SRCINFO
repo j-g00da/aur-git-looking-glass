@@ -1,0 +1,24 @@
+pkgbase = freedoom
+	pkgdesc = Free game based on the Doom engine
+	pkgver = 0.13.0
+	pkgrel = 1
+	url = https://freedoom.github.io/
+	arch = any
+	license = BSD
+	makedepends = asciidoc
+	makedepends = dblatex
+	makedepends = deutex
+	makedepends = python
+	makedepends = python-pillow
+	source = https://github.com/freedoom/freedoom/archive/refs/tags/v0.13.0.tar.gz
+	b2sums = c3ad97bab73b3275ae604f4fef7459b5688f1c5fc63336475c34b6c22a56118c3558ad9859ac80d7abc97426a48e5f2b92ac9e02def11f9f0f7f1a2ef76629a5
+
+pkgname = freedoom
+	provides = freedoom1
+	provides = freedoom2
+	conflicts = freedoom1
+	conflicts = freedoom2
+	replaces = freedoom1
+	replaces = freedoom2
+
+pkgname = freedm

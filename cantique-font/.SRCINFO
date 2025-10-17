@@ -1,0 +1,13 @@
+pkgbase = cantique-font
+	pkgdesc = A typeface mixing human calligraphy and geometric shapes, from Velvetyne Type Foundry
+	pkgver = 1.000
+	pkgrel = 3
+	url = https://velvetyne.fr/fonts/cantique
+	arch = any
+	license = OFL
+	source = https://gitlab.com/velvetyne/cantique/-/archive/ff74dccdf7af6c3c4d1af70f44732ef87d75ce61/cantique-1.000.tar.bz2
+	sha256sums = f314095234f7ce4d93145ae2a42bacc095954c578bb666b0b655a9553e2e07b4
+
+pkgname = otf-cantique
+	provides = cantique-font
+

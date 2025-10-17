@@ -1,0 +1,18 @@
+pkgbase = python-pycoingecko
+	pkgdesc = Python3 wrapper around the CoinGecko API (V3)
+	pkgver = 3.2.0
+	pkgrel = 1
+	url = https://github.com/man-c/pycoingecko
+	arch = x86_64
+	license = MIT
+	checkdepends = python-pytest
+	checkdepends = python-responses
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	depends = python
+	depends = python-requests
+	source = https://github.com/man-c/pycoingecko/archive/refs/tags/3.2.0.zip
+	sha256sums = 9860260c16db4097ca5f72704d8102cd617639e82e7e1d7d9312ed8838ef1017
+
+pkgname = python-pycoingecko

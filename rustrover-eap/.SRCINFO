@@ -1,0 +1,30 @@
+pkgbase = rustrover-eap
+	pkgdesc = JetBrains IDE for Rust Developers (EAP)
+	pkgver = 2025.3pre+253.25908.32
+	pkgrel = 1
+	url = https://www.jetbrains.com/rust/nextversion/
+	arch = x86_64
+	arch = aarch64
+	license = custom:jetbrains
+	options = !strip
+	source = jetbrains-rustrover-eap.desktop
+	source = LICENSE
+	sha256sums = cd4f42c4d3f9c0fb967a96da2c0c71884df55fe21409a97d12690e8a4c878a06
+	sha256sums = db26ca1fd026fbacfeb87f4bad42d78b3512bb733ce1c566bdd5b751e77d7bb3
+	source_x86_64 = RustRover-253.25908.32-x86_64.tar.gz::https://download-cdn.jetbrains.com/rustrover/RustRover-253.25908.32.tar.gz
+	sha256sums_x86_64 = 35a83aa90393065f7511e9e674ea91185814c99ea5da326cf95d67c1de314f2f
+	source_aarch64 = RustRover-253.25908.32-aarch64.tar.gz::https://download-cdn.jetbrains.com/rustrover/RustRover-253.25908.32-aarch64.tar.gz
+	sha256sums_aarch64 = 255284cb219a1e1d36b4c1ad29ec08b2a8a780fe24bb1c67b4dff776830ade71
+
+pkgname = rustrover-eap
+	depends = libdbusmenu-glib
+	optdepends = rustrover-eap-jre: JetBrains custom Java Runtime (Recommended)
+	optdepends = java-runtime=17: JRE - Required if rustrover-eap-jre is not installed
+	optdepends = rust-src: Rust toolchain
+	backup = opt/rustrover-eap/bin/rustrover64.vmoptions
+	backup = opt/rustrover-eap/bin/idea.properties
+
+pkgname = rustrover-eap-jre
+	pkgdesc = JBR (JetBrains Runtime) for RustRover (EAP) - a patched JRE
+	url = https://github.com/JetBrains/JetBrainsRuntime
+	license = GPL2

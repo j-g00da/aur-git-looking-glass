@@ -1,0 +1,19 @@
+pkgbase = toughcookies-bin
+	pkgdesc = A modern flash cards study and management app.(Prebuilt version.Use system-wide electron)
+	pkgver = 0.45.0
+	pkgrel = 13
+	url = https://www.toughcookies.net/
+	arch = x86_64
+	license = LicenseRef-custom
+	makedepends = fuse2
+	depends = electron10
+	provides = toughcookies=0.45.0
+	conflicts = toughcookies
+	source = toughcookies-0.45.0.AppImage::https://downloads.toughcookies.net/v0.45.0/Tough-Cookies-0.45.0.AppImage
+	source = LICENSE
+	source = toughcookies.sh
+	sha256sums = 767dcd1fafa142e9178c7fe55f77a6d7f3f995d167bf4a2e0df978af377b59cf
+	sha256sums = eae0e67aeeb7c2d5b136f3b5d4aa1fcc1354d2b72a95fd6f8b609ccba5d2d822
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = toughcookies-bin

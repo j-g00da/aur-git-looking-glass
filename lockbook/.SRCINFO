@@ -1,0 +1,18 @@
+
+pkgbase = lockbook
+	pkgdesc = The private, polished note-taking platform.
+	pkgver = 25.10.13
+	pkgrel = 1
+	url = https://github.com/lockbook/lockbook
+	arch = any
+	groups = lockbook
+	license = BSD-3-Clause
+	makedepends = cargo
+	makedepends = git
+	provides = lockbook
+	conflicts = lockbook
+	source = git+https://github.com/lockbook/lockbook.git#tag=v25.10.13
+	sha256sums = SKIP
+
+pkgname = lockbook
+        

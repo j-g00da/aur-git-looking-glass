@@ -1,0 +1,33 @@
+pkgbase = qt-installer-framework
+	pkgdesc = The Qt Installer Framework used for the Qt SDK installer
+	pkgver = 4.10.0
+	pkgrel = 1
+	url = http://qt-project.org/wiki/Qt-Installer-Framework
+	arch = x86_64
+	license = GFDL-1.3-only
+	license = LicenseRef-GPL3-EXCEPT
+	makedepends = qt6-tools
+	makedepends = qt6-declarative
+	makedepends = qt6-5compat
+	makedepends = clang
+	makedepends = libarchive
+	options = !lto
+	source = qt-installer-framework-4.10.0.tar.gz::https://github.com/qtproject/installer-framework/archive/4.10.0.tar.gz
+	source = core5compat.patch
+	source = commandlineparser.patch
+	sha256sums = b6f6f17e9038f29d3443aca9f739148c966cf38989ea62e02267c15e10682283
+	sha256sums = e6013877697814051f1e1483d106da05b612ac24d9b43c868764f77d91b91b20
+	sha256sums = ebe83ebbb786ce0409182d81a39e1de4eb6592d1c66b6c0967fabd21b5480499
+
+pkgname = qt-installer-framework
+	pkgdesc = The Qt Installer Framework used for the Qt SDK installer
+	depends = qt6-tools
+	depends = qt6-declarative
+	depends = qt6-5compat
+	depends = libarchive
+	optdepends = python: needed to run some sample tests
+	optdepends = qt-installer-framework-docs: examples and documentation files
+
+pkgname = qt-installer-framework-docs
+	pkgdesc = The Qt Installer Framework used for the Qt SDK installer (examples and documentation)
+	arch = any

@@ -1,0 +1,15 @@
+pkgbase = python-xisf-fits-utils
+	pkgdesc = Simple command line utilities for conversion and keyword manipulation of FITS and XISF files
+	pkgver = 0.2.0
+	pkgrel = 1
+	url = https://github.com/GuLinux/xifs-fits-python-utils
+	arch = any
+	license = GPL3
+	depends = python
+	depends = python-xisf
+	depends = python-yaml
+	depends = python-astropy
+	source = xisf-fits-utils-0.2.0.tar.gz::https://github.com/GuLinux/xifs-fits-python-utils/archive/refs/tags/v0.2.0.tar.gz
+	sha256sums = 3e09d18e0e4b8b4aceda8dcddbb6c447e66d30a912b01b5a54c151555ee33bae
+
+pkgname = python-xisf-fits-utils

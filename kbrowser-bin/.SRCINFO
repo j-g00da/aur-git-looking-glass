@@ -1,0 +1,17 @@
+pkgbase = kbrowser-bin
+	pkgdesc = Keyboard Browser for Linux built with Electron
+	pkgver = 2.0.1
+	pkgrel = 1
+	url = https://gitlab.com/ricardoca/kbrowser
+	arch = x86_64
+	license = GPL
+	makedepends = git
+	depends = npm
+	depends = gst-plugins-good
+	depends = gst-plugins-bad
+	depends = gst-plugins-ugly
+	depends = gst-libav
+	source = git+https://gitlab.com/ricardoca/kbrowser-electron.git
+	sha256sums = SKIP
+
+pkgname = kbrowser-bin

@@ -1,0 +1,20 @@
+pkgbase = ruby-dry-inflector
+	pkgdesc = String inflections for dry-rb
+	pkgver = 1.2.0
+	pkgrel = 1
+	url = https://github.com/dry-rb/dry-inflector
+	arch = any
+	license = MIT
+	checkdepends = ruby-bundler
+	checkdepends = ruby-rake
+	checkdepends = ruby-rexml
+	checkdepends = ruby-rspec
+	checkdepends = ruby-warning
+	makedepends = ruby-rdoc
+	depends = ruby
+	options = !emptydirs
+	source = https://github.com/dry-rb/dry-inflector/archive/v1.2.0/ruby-dry-inflector-1.2.0.tar.gz
+	sha512sums = 3345a66caf6b6dc62e6ce6ebc1704b4dc8377cbf203a54b34c4a47e7cdc40551fdcb68cbfb616dd9ed0ce635e52826f73fea83dc86b53e55618c772eafcebe0d
+	b2sums = aa34171c2e059097da1f3e66b43a177e8a66abde488a8a1024991665ebb4fef1687382fdfd367ba71ba9fe1a44183aa58f82806a80d6fb8650008f84bac6c248
+
+pkgname = ruby-dry-inflector

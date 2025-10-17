@@ -1,0 +1,22 @@
+pkgbase = r-onesense
+	pkgdesc = One-Dimensional Soli-Expression by Nonlinear Stochastic Embedding (OneSENSE)
+	pkgver = 1.20.0
+	pkgrel = 3
+	url = https://bioconductor.org/packages/oneSENSE
+	arch = any
+	license = GPL-3.0-or-later
+	depends = r-flowcore
+	depends = r-gplots
+	depends = r-plotly
+	depends = r-rtsne
+	depends = r-scatterplot3d
+	depends = r-shiny
+	depends = r-shinyfiles
+	depends = r-webshot
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	source = https://bioconductor.org/packages/3.16/bioc/src/contrib/oneSENSE_1.20.0.tar.gz
+	md5sums = c89540d29c09f4cb0e00a650ca5a7f20
+	b2sums = 7e94e918dc4b35a74e435bf2530840b3398e3cfd5fb3a705c608f04d71b425f3735b3536e2a654b4296250a84671ba3702ea3967ca68462be3ddcd973e88c4d5
+
+pkgname = r-onesense

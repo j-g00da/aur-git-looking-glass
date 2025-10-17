@@ -1,0 +1,16 @@
+pkgbase = nueclipse
+	pkgdesc = Ecipse base C/C++ IDE for Nuvoton Microcontroller
+	pkgver = 1.02.029
+	pkgrel = 3
+	url = https://www.nuvoton.com/tool-and-software/ide-and-compiler/
+	arch = x86_64
+	license = custom
+	depends = gtk2
+	depends = arm-none-eabi-gcc
+	depends = arm-none-eabi-newlib
+	depends = arm-none-eabi-gdb
+	options = !strip
+	source = https://www.nuvoton.com/export/resource-files/en-us--NuEclipse_V1.02.029_Linux_Setup.tar.gz
+	sha256sums = 3bde45cd34a3b3a204fe60019291d417c676db86d0bb01b7ff509d53e649f5b3
+
+pkgname = nueclipse

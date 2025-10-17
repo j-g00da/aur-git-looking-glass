@@ -1,0 +1,11 @@
+pkgbase = power-buttons
+	pkgdesc = Adds poweroff and reboot buttons to the applications folder
+	pkgver = 1.0.1
+	pkgrel = 4
+	url = https://alois.hackrland.dev
+	arch = any
+	license = MIT
+	depends = systemd
+	sha256sums = SKIP
+
+pkgname = power-buttons

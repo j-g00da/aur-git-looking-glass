@@ -1,0 +1,23 @@
+pkgbase = r-scbfa
+	pkgdesc = A dimensionality reduction tool using gene detection pattern to mitigate noisy expression profile of scRNA-seq
+	pkgver = 1.22.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/scBFA
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-copula
+	depends = r-deseq2
+	depends = r-ggplot2
+	depends = r-seurat
+	depends = r-singlecellexperiment
+	depends = r-summarizedexperiment
+	depends = r-zinbwave
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-rtsne
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/scBFA_1.22.0.tar.gz
+	sha256sums = d4e105b16d283f0a613d510e89d8f8cb49b71ecc88cf7205492ebe766d06fe21
+
+pkgname = r-scbfa

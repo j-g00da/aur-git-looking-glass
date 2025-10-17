@@ -1,0 +1,25 @@
+pkgbase = python-langgraph-prebuilt
+	pkgdesc = Library with high-level APIs for creating and executing LangGraph agents and tools.
+	pkgver = 0.6.4
+	pkgrel = 2
+	url = https://github.com/langchain-ai/langgraph/tree/main/libs/prebuilt
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	checkdepends = python-pytest-asyncio
+	checkdepends = python-pytest-mock
+	checkdepends = python-langgraph
+	checkdepends = python-langgraph-checkpoint-sqlite
+	checkdepends = python-langgraph-checkpoint-postgres
+	checkdepends = python-syrupy
+	makedepends = python-hatchling
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python
+	depends = python-langgraph-checkpoint
+	depends = python-langchain-core
+	source = https://files.pythonhosted.org/packages/source/l/langgraph-prebuilt/langgraph_prebuilt-0.6.4.tar.gz
+	sha256sums = e9e53b906ee5df46541d1dc5303239e815d3ec551e52bb03dd6463acc79ec28f
+
+pkgname = python-langgraph-prebuilt

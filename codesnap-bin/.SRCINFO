@@ -1,0 +1,23 @@
+pkgbase = codesnap-bin
+	pkgdesc = Pure Rust tool for generating beautiful code snapshots
+	pkgver = 0.10.8
+	pkgrel = 1
+	url = https://github.com/mistricky/codesnap
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	depends = gcc-libs
+	depends = glibc
+	depends = oniguruma
+	provides = codesnap
+	conflicts = codesnap
+	source = LICENSE-0.10.8::https://raw.githubusercontent.com/mistricky/codesnap/refs/tags/v0.10.8/LICENSE
+	source = README-0.10.8.md::https://raw.githubusercontent.com/mistricky/codesnap/refs/tags/v0.10.8/README.md
+	sha256sums = c9bf5e8137b0570bbb5e737b2a6a7f5eee373007891fe4a4f88d03f0b46fbacd
+	sha256sums = c4940fc04d71ff278ef56b24b05a9b7312785ccbd41fd8dd5285bfb66ec86bb6
+	source_x86_64 = codesnap-0.10.8-x86_64.tar.gz::https://github.com/mistricky/codesnap/releases/download/v0.10.8/codesnap-cli_v0.10.8_x86_64-unknown-linux-gnu.tar.gz
+	sha256sums_x86_64 = 492d28683efb18748206458e8766634488e86ff0cd918324c58ec1db6b4e1adc
+	source_aarch64 = codesnap-0.10.8-aarch64.tar.gz::https://github.com/mistricky/codesnap/releases/download/v0.10.8/codesnap-cli_v0.10.8_aarch64-unknown-linux-gnu.tar.gz
+	sha256sums_aarch64 = 41d7a61ad00f77fb7f7551f8d02374676ede396fcd1042ba1c24efb4fd68e07f
+
+pkgname = codesnap-bin

@@ -1,0 +1,22 @@
+pkgbase = stalld-git
+	pkgdesc = A daemon to prevent the starvation of operating system threads
+	pkgver = 1.19.8.r0.g6785dd2
+	pkgrel = 1
+	url = https://gitlab.com/rt-linux-tools/stalld
+	arch = i686
+	arch = x86_64
+	license = GPL-2.0-or-later
+	makedepends = git
+	makedepends = bpf
+	makedepends = clang
+	makedepends = llvm
+	depends = glibc
+	depends = libbpf
+	optdepends = bash: for throttlectl
+	provides = stalld=1.19.8.r0.g6785dd2
+	conflicts = stalld
+	backup = etc/sysconfig/stalld
+	source = git+https://gitlab.com/rt-linux-tools/stalld.git
+	sha256sums = SKIP
+
+pkgname = stalld-git

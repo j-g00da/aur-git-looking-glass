@@ -1,0 +1,23 @@
+pkgbase = r-orthosdata
+	pkgdesc = Data for the orthos package
+	pkgver = 1.6.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/orthosData
+	arch = any
+	license = MIT
+	depends = r-annotationhub
+	depends = r-biocfilecache
+	depends = r-experimenthub
+	depends = r-hdf5array
+	depends = r-stringr
+	depends = r-summarizedexperiment
+	optdepends = r-biocstyle
+	optdepends = r-ggplot2
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/data/experiment/src/contrib/orthosData_1.6.0.tar.gz
+	md5sums = 74b90649470abd993229cc80b9e71ea1
+	b2sums = 2ce95cfd4686360e9c69e7fd439b91d7ed1b04e30ab83e6f0890d557a1a16d844b45f4fd90e2840641a72843c55145610ed9c331a5e7e224306b2c71726edb1d
+
+pkgname = r-orthosdata

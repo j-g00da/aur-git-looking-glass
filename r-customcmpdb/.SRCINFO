@@ -1,0 +1,22 @@
+pkgbase = r-customcmpdb
+	pkgdesc = Customize and Query Compound Annotation Database
+	pkgver = 1.18.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/customCMPdb
+	arch = any
+	license = Artistic2.0
+	depends = r
+	depends = r-annotationhub
+	depends = r-biocfilecache
+	depends = r-chemminer
+	depends = r-rappdirs
+	depends = r-rsqlite
+	depends = r-xml
+	optdepends = r-biocstyle
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/customCMPdb_1.18.0.tar.gz
+	sha256sums = 2c1d1015a1d4cfba26ece6c6b66d781b2f7142716f993f349ed8d20f7c3b5b5e
+
+pkgname = r-customcmpdb

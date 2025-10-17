@@ -1,0 +1,15 @@
+pkgbase = python-octodns-bind
+	pkgdesc = RFC compliant (Bind9) provider for octoDNS
+	pkgver = 1.0.1
+	pkgrel = 1
+	url = https://github.com/octodns/octodns-bind
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	depends = python-octodns
+	depends = python-dnspython
+	source = https://github.com/octodns/octodns-bind/archive/refs/tags/v1.0.1.tar.gz
+	sha256sums = 16b632e14dec8b37f87220b1740814580d555ab030a7ec05ae519ff2e80ae6aa
+
+pkgname = python-octodns-bind

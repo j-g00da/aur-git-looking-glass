@@ -1,0 +1,17 @@
+pkgbase = anubias-bin
+	pkgdesc = Develope mobile apps so easy and native with GUI.(Prebuilt version.Use system-wide electron)
+	pkgver = 1.0.0_beta1
+	pkgrel = 11
+	url = https://anubias.app
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = fuse2
+	depends = electron13
+	provides = anubias=1.0.0_beta1
+	conflicts = anubias
+	source = anubias-1.0.0_beta1.AppImage::https://anubias.app/dl/Anubias-1.0.0-beta1.AppImage
+	source = anubias.sh
+	sha256sums = ce38818ef998e4b8b04f2b55afbc8d4aa7510b1a720f795579a7a856a3894307
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = anubias-bin

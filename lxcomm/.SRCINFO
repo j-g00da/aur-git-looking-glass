@@ -1,0 +1,17 @@
+pkgbase = lxcomm
+	pkgdesc = Mod browser, downloader and manager made for XCOM2(WOTC) on Linux
+	pkgver = 0.4.0
+	pkgrel = 1
+	url = https://github.com/PhantomShift/lxcomm
+	arch = x86_64
+	arch = aarch64
+	license = MIT OR Apache-2.0
+	makedepends = git
+	makedepends = cargo-nightly
+	makedepends = just
+	depends = steamcmd
+	provides = lxcomm
+	source = lxcomm-0.4.0.tar.gz::https://github.com/PhantomShift/lxcomm/archive/v0.4.0.tar.gz
+	sha256sums = 30f080f99664435711183505d759b65f0077a30b30d49b183761fd36791ccdd5
+
+pkgname = lxcomm

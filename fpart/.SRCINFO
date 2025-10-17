@@ -1,0 +1,14 @@
+pkgbase = fpart
+	pkgdesc = A tool that helps you sort file trees and pack them into bags, like dirsplit
+	pkgver = 1.7.0
+	pkgrel = 1
+	url = https://github.com/martymac/fpart
+	arch = x86_64
+	license = BSD-2-Clause
+	source = https://contribs.martymac.org/fpart/fpart-1.7.0.tar.gz
+	source = https://contribs.martymac.org/fpart/fpart-1.7.0.tar.gz.asc
+	validpgpkeys = 66F1D457E513A87460020C89F942ADECEDA0D50A
+	sha256sums = 61ce1603edba028495ab25d11007950bd932c9b01c11a8940d2b88cd3eac69e8
+	sha256sums = SKIP
+
+pkgname = fpart

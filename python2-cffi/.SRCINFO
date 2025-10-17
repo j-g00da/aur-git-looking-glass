@@ -1,0 +1,21 @@
+pkgbase = python2-cffi
+	pkgdesc = Foreign Function Interface for Python calling C code
+	pkgver = 1.15.1
+	pkgrel = 3
+	url = https://cffi.readthedocs.org/
+	arch = aarch64
+	arch = arm
+	arch = armv6l
+	arch = armv7h
+	arch = i686
+	arch = mips
+	arch = pentium4
+	arch = powerpc
+	arch = x86_64
+	license = MIT
+	makedepends = python2-setuptools
+	depends = python2-pycparser
+	source = https://pypi.io/packages/source/c/cffi/cffi-1.15.1.tar.gz
+	sha256sums = d400bfb9a37b1351253cb402671cea7e89bdecc294e8016a707f6d1d8ac934f9
+
+pkgname = python2-cffi

@@ -1,0 +1,19 @@
+pkgbase = nodejs-ungit
+	pkgdesc = Git made easy
+	pkgver = 1.5.28
+	pkgrel = 1
+	url = https://www.npmjs.com/package/ungit
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = npm
+	depends = nodejs
+	provides = nodejs-ungit
+	provides = ungit
+	conflicts = ungit
+	options = !emptydirs
+	options = !strip
+	source = nodejs-ungit-1.5.28.tgz::https://registry.npmjs.org/ungit/-/ungit-1.5.28.tgz
+	sha512sums = a0edb3249a4ac120339f439842f7270f9e5552fb4f954b7f1c125e0773dfce7640e907cec62292dccf5fbd044c2b9b485dbbcae73b421563b9216b51090cf258
+
+pkgname = nodejs-ungit

@@ -1,0 +1,14 @@
+pkgbase = liberation-circuit
+	pkgdesc = A real-time strategy/programming game
+	pkgver = 1.3+r19e33635477
+	pkgrel = 2
+	url = https://github.com/linleyh/liberation-circuit
+	arch = x86_64
+	arch = i686
+	license = GPL3
+	depends = allegro
+	depends = git
+	source = git+https://github.com/linleyh/liberation-circuit.git#tag=19e3363547793e931fd9419b61ebc2cd8e257714
+	sha256sums = b54f52e10dcc30d551dc7c4ee98b776c3acb4f6eca5275c60b2b9942a78c80e9
+
+pkgname = liberation-circuit

@@ -1,0 +1,21 @@
+pkgbase = r-dirichletmultinomial
+	pkgdesc = Dirichlet-Multinomial Mixture Model Machine Learning for Microbiome Data
+	pkgver = 1.50.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/DirichletMultinomial
+	arch = x86_64
+	license = LGPL
+	depends = r
+	depends = r-biocgenerics
+	depends = r-iranges
+	depends = r-s4vectors
+	depends = gsl
+	optdepends = r-lattice
+	optdepends = r-mass
+	optdepends = r-parallel
+	optdepends = r-rcolorbrewer
+	optdepends = r-xtable
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/DirichletMultinomial_1.50.0.tar.gz
+	sha256sums = e8a749e75afc7cd09bbb65409cfca7f455aa9a4c1c25d699366e9a9f6d818c6c
+
+pkgname = r-dirichletmultinomial

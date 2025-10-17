@@ -1,0 +1,54 @@
+pkgbase = linux-hardened-versioned-bin
+	pkgdesc = The Security-Hardened Linux kernel and modules | repackaged with a unique package name for each version
+	pkgver = 6.15.11.hardened1
+	pkgrel = 1
+	url = https://github.com/anthraxx/linux-hardened
+	arch = x86_64
+	license = GPL2
+	noextract = linux-hardened-6.15.11.hardened1-1-x86_64.pkg.tar.zst
+	noextract = linux-hardened-headers-6.15.11.hardened1-1-x86_64.pkg.tar.zst
+	noextract = linux-hardened-docs-6.15.11.hardened1-1-x86_64.pkg.tar.zst
+	options = !strip
+	source = https://archive.archlinux.org/packages/.all/linux-hardened-6.15.11.hardened1-1-x86_64.pkg.tar.zst
+	source = https://archive.archlinux.org/packages/.all/linux-hardened-headers-6.15.11.hardened1-1-x86_64.pkg.tar.zst
+	source = https://archive.archlinux.org/packages/.all/linux-hardened-docs-6.15.11.hardened1-1-x86_64.pkg.tar.zst
+	sha256sums = 3eafc2ff2ad0f72a52eccda5869f7f7b552b56092d47d7a89e2475c1abd90695
+	sha256sums = ebfefb4e1fa697e8202490b6443d828f7433ea490eea90bbc9fc0db8699f7345
+	sha256sums = 31d21b31a1a1d7cf33fe103393d36af5af0cb016eddd6a7458ff830941138ba3
+
+pkgname = linux-hardened-versioned-bin
+	pkgdesc = Metapackage depending on linux6.15.11.hardened1-1-hardened-bin
+	depends = linux6.15.11.hardened1-1-hardened-bin
+	optdepends = grub-hook: to run grub-mkconfig when kernels are added/removed
+
+pkgname = linux-hardened-versioned-headers-bin
+	pkgdesc = Metapackage depending on linux6.15.11.hardened1-1-hardened-headers-bin
+	depends = linux6.15.11.hardened1-1-hardened-headers-bin
+
+pkgname = linux-hardened-versioned-docs-bin
+	pkgdesc = Metapackage depending on linux6.15.11.hardened1-1-hardened-docs-bin
+	depends = linux6.15.11.hardened1-1-hardened-docs-bin
+
+pkgname = linux6.15.11.hardened1-1-hardened-bin
+	pkgdesc = The Security-Hardened Linux kernel and modules, version 6.15.11-hardened1-1-hardened
+	depends = coreutils
+	depends = initramfs
+	depends = kmod
+	optdepends = linux-firmware: firmware images needed for some devices
+	optdepends = scx-scheds: to use sched-ext schedulers
+	optdepends = usbctl: deny_new_usb control
+	optdepends = wireless-regdb: to set the correct wireless channels of your country
+	provides = KSMBD-MODULE
+	provides = NTSYNC-MODULE
+	provides = VIRTUALBOX-GUEST-MODULES
+	provides = WIREGUARD-MODULE
+	conflicts = linux-hardened
+
+pkgname = linux6.15.11.hardened1-1-hardened-headers-bin
+	pkgdesc = Headers and scripts for building modules for the Security-Hardened Linux kernel 6.15.11-hardened1-1-hardened
+	depends = pahole
+	conflicts = linux-hardened-headers
+
+pkgname = linux6.15.11.hardened1-1-hardened-docs-bin
+	pkgdesc = Documentation for the Security-Hardened Linux kernel 6.15.11-hardened1-1-hardened
+	conflicts = linux-hardened-docs

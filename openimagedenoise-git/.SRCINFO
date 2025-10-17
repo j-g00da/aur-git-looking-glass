@@ -1,0 +1,28 @@
+pkgbase = openimagedenoise-git
+	pkgdesc = Intel(R) Open Image Denoise library
+	pkgver = 2.2.1.r0.g5960a13
+	pkgrel = 1
+	url = https://www.openimagedenoise.org/
+	arch = x86_64
+	license = Apache
+	makedepends = git
+	makedepends = makepkg-git-lfs-proto
+	makedepends = cmake
+	makedepends = ispc>=1.14
+	makedepends = ninja
+	depends = intel-tbb
+	depends = python
+	provides = openimagedenoise=2.2.1
+	conflicts = openimagedenoise
+	source = openimagedenoise::git+https://github.com/OpenImageDenoise/oidn.git
+	source = mkl-dnn::git+https://github.com/OpenImageDenoise/mkl-dnn.git
+	source = oidn-weights::git-lfs+https://github.com/OpenImageDenoise/oidn-weights.git
+	source = cutlass::git+https://github.com/NVIDIA/cutlass
+	source = composable_kernel::git+https://github.com/ROCmSoftwarePlatform/composable_kernel
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = openimagedenoise-git

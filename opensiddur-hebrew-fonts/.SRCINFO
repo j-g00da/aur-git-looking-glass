@@ -1,0 +1,21 @@
+pkgbase = opensiddur-hebrew-fonts
+	pkgdesc = The Open Siddur Project's Unicode Hebrew font pack. A large collection of open source Hebrew fonts, as well as a few for Latin, Greek, Cyrillic, Arabic, and Amharic
+	pkgver = 20240803
+	pkgrel = 1
+	epoch = 1
+	url = https://github.com/aharonium/fonts
+	arch = any
+	license = GPL3
+	license = GPL-FE
+	license = custom:OFL
+	license = APACHE
+	license = UBL
+	license = LPPL
+	license = GPL2
+	conflicts = culmus
+	conflicts = ttf-sil-ezra
+	conflicts = ttf-symbola
+	source = opensiddur-hebrew-fonts-20240803.zip::https://github.com/aharonium/fonts/archive/bbde28cbfdb434807d480e3eac5b1ba796c79f47.zip
+	sha256sums = 293d59fe29f04ec57fd543afc6105736f41bf4ad1f9668ab6658307673b325cf
+
+pkgname = opensiddur-hebrew-fonts

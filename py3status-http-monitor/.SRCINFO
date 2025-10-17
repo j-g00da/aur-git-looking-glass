@@ -1,0 +1,17 @@
+pkgbase = py3status-http-monitor
+	pkgdesc = Python module for py3status to monitor http services
+	pkgver = 0.1.8
+	pkgrel = 1
+	url = https://github.com/mcgillij/py3status-http-monitor
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	makedepends = python-poetry
+	makedepends = python-build
+	makedepends = python-installer
+	depends = python
+	depends = py3status
+	source = https://github.com/mcgillij/py3status-http-monitor/releases/download/0.1.8/py3status_http_monitor-0.1.8.tar.gz
+	md5sums = c423e3df8cf78e379455ffcf20ae1f5c
+
+pkgname = py3status-http-monitor

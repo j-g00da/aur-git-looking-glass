@@ -1,0 +1,26 @@
+pkgbase = libnotify-git
+	pkgdesc = Library for sending desktop notifications
+	pkgver = 0.8.4.r0.570982f
+	pkgrel = 1
+	url = https://gitlab.gnome.org/GNOME/libnotify
+	arch = i686
+	arch = x86_64
+	license = LGPL-2.1-or-later
+	makedepends = docbook-xsl
+	makedepends = gi-docgen
+	makedepends = git
+	makedepends = glib2-devel
+	makedepends = gobject-introspection
+	makedepends = gtk3
+	makedepends = meson
+	makedepends = xmlto
+	depends = gcc-libs
+	depends = gdk-pixbuf2
+	depends = glib2
+	depends = glibc
+	provides = libnotify
+	conflicts = libnotify
+	source = git+https://gitlab.gnome.org/GNOME/libnotify.git
+	sha256sums = SKIP
+
+pkgname = libnotify-git

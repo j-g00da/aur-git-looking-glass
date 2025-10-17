@@ -1,0 +1,36 @@
+pkgbase = sdrconnect-nrsp
+	pkgdesc = SDR receiver for SDRplay nRSP-ST
+	pkgver = 1.0.5
+	pkgrel = 1
+	url = https://www.sdrplay.com/nRSPstart/
+	arch = aarch64
+	arch = x86_64
+	license = custom:EULA
+	depends = libusb>=1.0
+	depends = glibc
+	depends = gcc-libs
+	depends = fontconfig
+	depends = freetype2
+	depends = brotli
+	depends = expat
+	depends = bzip2
+	depends = libpng
+	depends = harfbuzz
+	depends = graphite
+	depends = pcre2
+	depends = alsa-lib
+	depends = util-linux-libs
+	source = sdrconnect-nrsp.desktop
+	source = nrspadministrator.desktop
+	source = nrspupdater.desktop
+	source = 66-sdrplay.rules
+	sha256sums = eba89d720a1153a9cf4d061b624dbafe26044ee7bb2e58955a1035778e49e21e
+	sha256sums = 0943ad905989b77283832fdd804f553671f1b42094d93c3103acef27468934a7
+	sha256sums = d65f2ef4c25465924dfb73e27c13d701da50c287c35197d6d44bba726313d6f5
+	sha256sums = b39086ca99ef4b2242ff9edef93258c99d478fd37a8ba64319843928e316c61b
+	source_aarch64 = https://www.sdrplay.com/software/SDRconnect_linux-arm64_e077f2ebe_nrsp.run
+	sha256sums_aarch64 = a95c8b4b3bd3a7d19878e639ec3b06bc81efc73db3ff36083b965f089b3c4e69
+	source_x86_64 = https://www.sdrplay.com/software/SDRconnect_linux-x64_e077f2ebe_nrsp.run
+	sha256sums_x86_64 = 2e289b2f9e365f25a6adc3c10ebf39578dc806ed3839829204a292cfa8852066
+
+pkgname = sdrconnect-nrsp

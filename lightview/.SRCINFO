@@ -1,0 +1,21 @@
+pkgbase = lightview
+	pkgdesc = A minimal, borderless image viewer for Wayland
+	pkgver = 0.2.1
+	pkgrel = 1
+	url = https://github.com/ltdt-apex/lightview
+	arch = x86_64
+	license = MIT
+	makedepends = rust
+	makedepends = cargo
+	depends = gtk4
+	depends = gdk-pixbuf2
+	depends = gstreamer
+	depends = gst-plugins-base
+	depends = gst-plugins-good
+	depends = gst-plugins-bad
+	depends = gst-plugins-ugly
+	depends = gst-libav
+	source = lightview-0.2.1.tar.gz::https://github.com/ltdt-apex/lightview/archive/v0.2.1.tar.gz
+	sha256sums = def0fcc0b628c5cc662d88b9ef82c3b24e92b2fc0c1d6d17f66ade3521c345e6
+
+pkgname = lightview

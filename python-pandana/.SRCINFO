@@ -1,0 +1,24 @@
+pkgbase = python-pandana
+	pkgdesc = A Python library for network analysis
+	pkgver = 0.7
+	pkgrel = 1
+	url = http://udst.github.io/pandana/
+	arch = x86_64
+	license = AGPL-3.0-only
+	makedepends = cython
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-oldest-supported-numpy
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	depends = python-numpy
+	depends = python-pandas
+	depends = python-pytables
+	depends = python-requests
+	depends = python-scikit-learn
+	optdepends = python-osmnet
+	source = https://files.pythonhosted.org/packages/source/p/pandana/pandana-0.7.tar.gz
+	b2sums = 2635470bd610b419d5a518a341379c4faab9c89fcbbd22184d4e484aa52ba14d4f676004e27eff078b5d9e4f2986f0e824cdcc60400e70436f699680bf360458
+
+pkgname = python-pandana

@@ -1,0 +1,16 @@
+pkgbase = file-share-bin
+	pkgdesc = Rust powered HTTP file-server with beautiful web-based GUI.
+	pkgver = 1.5.4
+	pkgrel = 1
+	url = https://github.com/Maneren/file-share-rs
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	optdepends = xdg-desktop-portal: for GUI picker support
+	provides = file-share-bin
+	source_x86_64 = file-share-bin-1.5.4.x86_64.tar.gz::https://github.com/Maneren/file-share-rs/releases/download/v1.5.4/file-share_x86_64-unknown-linux-gnu.tar.gz
+	sha256sums_x86_64 = 8eec627ee480d5f46d37df13dd814ae74af76c760bc379ca0dcca1210cc35789
+	source_aarch64 = file-share-bin-1.5.4.aarch64.tar.gz::https://github.com/Maneren/file-share-rs/releases/download/v1.5.4/file-share_aarch64-unknown-linux-gnu.tar.gz
+	sha256sums_aarch64 = a9fcf844e8b7856d899558e23b5b1bd4cf3ccf7c98af9f139210514df5d37fd2
+
+pkgname = file-share-bin

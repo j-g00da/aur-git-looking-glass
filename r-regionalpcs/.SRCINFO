@@ -1,0 +1,27 @@
+pkgbase = r-regionalpcs
+	pkgdesc = Summarizing Regional Methylation with Regional Principal Components Analysis
+	pkgver = 1.6.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/regionalpcs
+	arch = any
+	license = MIT
+	checkdepends = r-rmtstat
+	checkdepends = r-testthat
+	depends = r-dplyr
+	depends = r-genomicranges
+	depends = r-pcatools
+	depends = r-tibble
+	optdepends = r-biocstyle
+	optdepends = r-iranges
+	optdepends = r-knitr
+	optdepends = r-minfidata
+	optdepends = r-rmarkdown
+	optdepends = r-rmtstat
+	optdepends = r-testthat
+	optdepends = r-tidyr
+	optdepends = r-txdb.hsapiens.ucsc.hg19.knowngene
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/regionalpcs_1.6.0.tar.gz
+	md5sums = f3bba8b76b5cdbcce8882b0452c1d294
+	b2sums = 4586290f6356b1d3212d1bfac06f9eb09bbf2517022c3831421e6a62885abfd6e4f8325f0447e635c464ffd22b23b1a35dffdb12658ff7bd07a9efbbbd291e3e
+
+pkgname = r-regionalpcs

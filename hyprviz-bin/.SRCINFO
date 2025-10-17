@@ -1,0 +1,17 @@
+pkgbase = hyprviz-bin
+	pkgdesc = GUI for configuring Hyprland!
+	pkgver = 0.7.1
+	pkgrel = 1
+	url = https://github.com/timasoft/hyprviz
+	arch = x86_64
+	license = GPL-2.0
+	depends = gtk4
+	depends = glib2
+	depends = desktop-file-utils
+	depends = hyprland
+	provides = hyprviz
+	conflicts = hyprviz
+	source = https://github.com/timasoft/hyprviz/releases/download/v0.7.1/hyprviz-0.7.1-x86_64.tar.gz
+	sha256sums = dcca5730096b3b5e29a72e04151815f71786360605190bbcfe895cb3a4c9006e
+
+pkgname = hyprviz-bin

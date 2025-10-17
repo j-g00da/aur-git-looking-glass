@@ -1,0 +1,15 @@
+pkgbase = r-rlassocox
+	pkgdesc = A reweighted Lasso-Cox by integrating gene interaction information
+	pkgver = 1.16.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/RLassoCox
+	arch = any
+	license = Artistic2.0
+	depends = r
+	depends = r-glmnet
+	depends = r-igraph
+	optdepends = r-knitr
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/RLassoCox_1.16.0.tar.gz
+	sha256sums = 4e5f022560a9ccf56270f92db4e938619cdfe600fd37f86f6bca16fcaf45a155
+
+pkgname = r-rlassocox

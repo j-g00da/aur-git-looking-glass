@@ -1,0 +1,19 @@
+pkgbase = lcode-bin
+	pkgdesc = An application of terminal write leetcode.
+	pkgver = v0.10.0
+	pkgrel = 1
+	url = https://github.com/saying121/lcode
+	arch = x86_64
+	arch = aarch64
+	license = Apache-2.0
+	depends = dbus
+	depends = sqlite
+	depends = mdcat
+	optdepends = gnome-keyring
+	provides = lcode
+	source_x86_64 = https://github.com/saying121/lcode/releases/download/v0.10.0/lcode-v0.10.0-x86_64-unknown-linux-gnu.tar.gz
+	sha256sums_x86_64 = 90511898130e92f0854ef85ab6cc47bddb24f4757e573533185409ee2157bda7
+	source_aarch64 = https://github.com/saying121/lcode/releases/download/v0.10.0/lcode-v0.10.0-aarch64-unknown-linux-gnu.tar.gz
+	sha256sums_aarch64 = c0fcf1df29904b96fb631d194660f6b0cb03837142adf63f0ae7fb223e51d0f5
+
+pkgname = lcode-bin

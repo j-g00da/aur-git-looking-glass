@@ -1,0 +1,23 @@
+pkgbase = mingw-w64-qt5-scxml-static
+	pkgdesc = Static and runtime integration of SCXML models into Qt code (mingw-w64)
+	pkgver = 5.15.17+kde+r0
+	pkgrel = 1
+	url = https://www.qt.io/
+	arch = any
+	groups = mingw-w64-qt5
+	license = GPL3
+	license = LGPL3
+	license = FDL
+	license = custom
+	makedepends = mingw-w64-gcc
+	makedepends = mingw-w64-pkg-config
+	makedepends = git
+	depends = mingw-w64-qt5-declarative-static
+	depends = mingw-w64-qt5-scxml
+	options = !strip
+	options = !buildflags
+	options = staticlibs
+	source = git+https://invent.kde.org/qt/qt/qtscxml#commit=2b7b19239671784fbf79d6dbc0e985da044ff9dd
+	sha256sums = 952958561a43b4904295a38112f3fad05793900fc3aefd96a6bef2f125f48de9
+
+pkgname = mingw-w64-qt5-scxml-static

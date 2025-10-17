@@ -1,0 +1,36 @@
+pkgbase = r-workflows
+	pkgdesc = Modeling Workflows
+	pkgver = 1.2.0
+	pkgrel = 1
+	url = https://cran.r-project.org/package=workflows
+	arch = any
+	license = MIT
+	depends = r-cli
+	depends = r-generics
+	depends = r-glue
+	depends = r-hardhat
+	depends = r-lifecycle
+	depends = r-modelenv
+	depends = r-parsnip
+	depends = r-rlang
+	depends = r-tidyselect
+	depends = r-vctrs
+	depends = r-withr
+	depends = r-sparsevctrs
+	depends = r-recipes
+	optdepends = r-butcher
+	optdepends = r-covr
+	optdepends = r-dials
+	optdepends = r-knitr
+	optdepends = r-magrittr
+	optdepends = r-modeldata
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	optdepends = r-glmnet
+	optdepends = r-probably
+	optdepends = r-rsample
+	source = https://cran.r-project.org/src/contrib/workflows_1.2.0.tar.gz
+	md5sums = c41e3bd73dde289ba7aae98fdf95aac8
+	b2sums = eccb8bf321de5238ceff258af37d056dfa32e0f3264d3ecddd66019a2dfd28631b0c8216db15bea5ca4df613ae1b41df6a8f7bd5389095c21de81b0fd2023784
+
+pkgname = r-workflows

@@ -1,0 +1,26 @@
+pkgbase = gregorio-git
+	pkgdesc = Command-line tool to typeset Gregorian chant
+	pkgver = r4777.f2cd811
+	pkgrel = 1
+	url = http://gregorio-project.github.io
+	arch = i686
+	arch = x86_64
+	license = GPL-3.0-only
+	license = OFL-1.1
+	license = GPL-3.0-with-font-exception
+	makedepends = git
+	makedepends = python
+	makedepends = fontforge
+	depends = texlive-core
+	depends = texlive-fontsextra
+	depends = texlive-bin
+	depends = texlive-formatsextra
+	depends = texlive-latexextra
+	provides = gregorio
+	conflicts = gregorio-svn
+	conflicts = gregorio
+	conflicts = gregoriotex
+	source = gregorio::git+https://github.com/gregorio-project/gregorio.git#branch=develop
+	b2sums = SKIP
+
+pkgname = gregorio-git

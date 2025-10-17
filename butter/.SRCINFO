@@ -1,0 +1,15 @@
+pkgbase = butter
+	pkgdesc = butter is a btrfs snapshot manager
+	pkgver = 12
+	pkgrel = 1
+	url = https://github.com/moviuro/butter
+	arch = any
+	license = custom:WTFPL
+	depends = bash
+	depends = btrfs-progs
+	optdepends = systemd: human-friendly escaped names
+	backup = etc/butterrc
+	source = https://github.com/moviuro/butter/archive/12.tar.gz
+	sha256sums = 5a61f673751adf3f829adb5c8d8491c2d7e5da28dc522df9aa7ffce85609f1e2
+
+pkgname = butter

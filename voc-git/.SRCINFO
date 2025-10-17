@@ -1,0 +1,18 @@
+pkgbase = voc-git
+	pkgdesc = A free and open source implementation of the Oberon-2 language and libraries.
+	pkgver = v2.1.2.r9.ge376e59f
+	pkgrel = 1
+	url = http://oberon.vishap.am
+	install = voc-git.install
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = git
+	depends = gcc
+	depends = make
+	depends = diffutils
+	optdepends = clang
+	source = voc-git::git+https://github.com/vishaps/voc
+	md5sums = SKIP
+
+pkgname = voc-git

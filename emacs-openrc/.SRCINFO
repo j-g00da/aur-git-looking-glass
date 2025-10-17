@@ -1,0 +1,17 @@
+pkgbase = emacs-openrc
+	pkgdesc = OpenRC emacs-daemon init script
+	pkgver = 1.2
+	pkgrel = 5
+	install = emacs-openrc.install
+	changelog = CHANGELOG
+	arch = any
+	license = GPL3
+	depends = emacs
+	depends = openrc
+	provides = openrc-emacs
+	conflicts = openrc-emacs
+	replaces = openrc-emacs
+	source = emacs-daemon.rc
+	md5sums = 970591aef623dee2f89cbc581f4c3126
+
+pkgname = emacs-openrc

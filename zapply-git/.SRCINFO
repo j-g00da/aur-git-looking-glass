@@ -1,0 +1,16 @@
+pkgbase = zapply-git
+	pkgdesc = Batch-run commands with zsh globbing and pattern matching
+	pkgver = r6.d66e67d
+	pkgrel = 1
+	url = https://github.com/sseemayer/Zapply
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = zsh
+	optdepends = parallel: parallel apply support
+	provides = zapply
+	conflicts = zapply
+	source = git+https://github.com/sseemayer/zapply.git
+	sha256sums = SKIP
+
+pkgname = zapply-git

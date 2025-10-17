@@ -1,0 +1,17 @@
+pkgbase = decky-loader-prerelease-bin
+	pkgdesc = Unofficial Arch build of Decky Loader (pre-release), a homebrew plugin launcher for the Steam Deck.
+	pkgver = 3.1.3_pre2
+	pkgrel = 1
+	url = https://github.com/SteamDeckHomebrew/decky-loader
+	arch = x86_64
+	license = MIT
+	provides = decky-loader
+	conflicts = decky-loader
+	source = PluginLoader::https://github.com/SteamDeckHomebrew/decky-loader/releases/download/v3.1.3-pre2/PluginLoader
+	source = decky-loader@.service::https://github.com/SteamDeckHomebrew/decky-loader/raw/v3.1.3-pre2/dist/plugin_loader-release.service
+	source = decky-loader-helper
+	sha256sums = 46b6aa1c63cc86b49eb5a8d576e68c876f224e66f09d3ff2ad027a609b95c16d
+	sha256sums = 64d6aa626aa45e1659e3137aa3afd72edd840094199d62bb6ff2e73c5ce738b1
+	sha256sums = SKIP
+
+pkgname = decky-loader-prerelease-bin

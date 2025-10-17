@@ -1,0 +1,16 @@
+pkgbase = r-manor
+	pkgdesc = CGH Micro-Array NORmalization
+	pkgver = 1.80.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/MANOR
+	arch = x86_64
+	license = GPL-2.0-only
+	depends = r-glad
+	optdepends = r-bookdown
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/MANOR_1.80.0.tar.gz
+	md5sums = 81c11270ee4dc859c21b63ed99d378f3
+	b2sums = 7e017b70ff6b905225c0474c5a7b5fb3b493249d2a171f3d2c5af9097f16fe018a4c27926f7b415f181dd1bbc420d24a131a08d9dd38d1b7e6ac9b0d61ed6a77
+
+pkgname = r-manor

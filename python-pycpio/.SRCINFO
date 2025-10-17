@@ -1,0 +1,17 @@
+pkgbase = python-pycpio
+	pkgdesc = Python library for CPIO manipulation
+	pkgver = 1.5.5
+	pkgrel = 2
+	url = https://github.com/desultory/pycpio
+	arch = any
+	license = GPL-2.0-only
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	depends = python-zenlib
+	source = python-pycpio-1.5.5::https://github.com/desultory/pycpio/archive/refs/tags/1.5.5.tar.gz
+	b2sums = 8771c4c154d3a93c1ca37441ec39ea1d141828d3c5652dcec3801bed44fa053bac9f77e98b8edafc4d0693d502d944ef8d7966e44d9c9693c3141cca48024d50
+
+pkgname = python-pycpio

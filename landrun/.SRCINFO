@@ -1,0 +1,16 @@
+pkgbase = landrun
+	pkgdesc = Run any Linux process in a secure, unprivileged sandbox using Landlock LSM
+	pkgver = 0.1.15
+	pkgrel = 1
+	url = https://github.com/Zouuup/landrun
+	arch = x86_64
+	license = MIT
+	checkdepends = curl
+	makedepends = go
+	provides = landrun=0.1.15
+	conflicts = landrun-bin
+	conflicts = landrun-git
+	source = landrun-0.1.15.tar.gz::https://github.com/Zouuup/landrun/archive/refs/tags/v0.1.15.tar.gz
+	sha512sums = 387b8f37318b295baa781ede946fdbf2a2e3564f66673c8cccd6ed4f04393a5422cc493e484c0ff20b8fcb861a5aef96276f8b6fe9ca31f8b418464b104ed266
+
+pkgname = landrun

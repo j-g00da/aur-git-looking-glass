@@ -1,0 +1,18 @@
+pkgbase = bili-liveluckdraw-bin
+	pkgdesc = A Bilibili live streaming lottery tool that conducts lotteries by obtaining keywords from danmaku, built using Electron + React + Vite.(Prebuilt version.Use system-wide electron)一个B站直播抽奖工具，通过获取弹幕关键词进行抽奖
+	pkgver = 1.0.5
+	pkgrel = 1
+	url = https://github.com/grtsinry43/Bili-LiveLuckDraw
+	arch = x86_64
+	license = MIT
+	depends = electron35
+	provides = bili-liveluckdraw=1.0.5
+	conflicts = bili-liveluckdraw
+	source = bili-liveluckdraw-1.0.5.deb::https://github.com/grtsinry43/Bili-LiveLuckDraw/releases/download/v1.0.5/Bili-LiveLuckDraw-Linux-v1.0.5.deb
+	source = LICENSE-1.0.5::https://raw.githubusercontent.com/grtsinry43/Bili-LiveLuckDraw/v1.0.5/LICENSE
+	source = bili-liveluckdraw.sh
+	sha256sums = 949d1a151f949307eafabe70694f6edd6d131d7cd2ec2d35d3e366f9dc461883
+	sha256sums = 3526e8db0cbaceb54450ee1c34745daa88e43e82a33d959da40465288f3ea4fb
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = bili-liveluckdraw-bin

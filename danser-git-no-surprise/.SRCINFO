@@ -1,0 +1,25 @@
+pkgbase = danser-git-no-surprise
+	pkgdesc = Dancing visualizer of osu! maps and custom osu! client written in Go (git version), now with the unfunny rick roll removed
+	pkgver = 0.11.0.r0.g8331b0ff
+	pkgrel = 2
+	url = https://github.com/Wieku/danser-go
+	arch = x86_64
+	license = GPL3
+	makedepends = xorg-server-devel
+	makedepends = libxi
+	makedepends = libxinerama
+	makedepends = libxrandr
+	makedepends = go>=1.17
+	makedepends = git
+	makedepends = gcc
+	depends = libyuv
+	depends = ffmpeg
+	depends = gtk3
+	conflicts = danser
+	conflicts = danser-git
+	source = git+https://github.com/Wieku/danser-go.git
+	source = remove_surprise.patch
+	sha256sums = SKIP
+	sha256sums = 19cd3cc4ae7779370ef620b1e8ddb8d6169bb8104ffdac3ae3fb55605ccf7106
+
+pkgname = danser-git-no-surprise

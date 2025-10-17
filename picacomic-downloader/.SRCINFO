@@ -1,0 +1,30 @@
+pkgbase = picacomic-downloader
+	pkgdesc = 哔咔漫画 picacomic pica漫画 bika漫画 PicACG 多线程下载器，带图形界面，已打包exe，带收藏夹，下载速度飞快
+	pkgver = 0.6.1
+	pkgrel = 1
+	url = https://github.com/lanyeeee/picacomic-downloader
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	makedepends = cargo-tauri
+	makedepends = git
+	makedepends = pnpm
+	depends = cairo
+	depends = gcc-libs
+	depends = gdk-pixbuf2
+	depends = glib2
+	depends = glibc
+	depends = gtk3
+	depends = hicolor-icon-theme
+	depends = libsoup3
+	depends = openssl
+	depends = webkit2gtk-4.1
+	provides = picacomic-downloader
+	conflicts = picacomic-downloader
+	options = !debug
+	options = !strip
+	options = !lto
+	source = picacomic-downloader::git+https://github.com/lanyeeee/picacomic-downloader.git#tag=v0.6.1
+	sha256sums = 2f78fed7bf1413a15eec734acab0f4702b68a912c0690e7914251eeacb6048f7
+
+pkgname = picacomic-downloader

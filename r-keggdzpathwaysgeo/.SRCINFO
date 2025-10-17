@@ -1,0 +1,14 @@
+pkgbase = r-keggdzpathwaysgeo
+	pkgdesc = KEGG Disease Datasets from GEO
+	pkgver = 1.46.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/KEGGdzPathwaysGEO
+	arch = any
+	license = GPL-2.0-only
+	depends = r-biobase
+	depends = r-biocgenerics
+	source = https://bioconductor.org/packages/release/data/experiment/src/contrib/KEGGdzPathwaysGEO_1.46.0.tar.gz
+	md5sums = fcc71c5b1d8b76427c4e52967c6b4aa7
+	b2sums = 5376264599b23bce05d83a57ae689f8ff7ec1ad1587c825e0495aec1cdd8cd4f9b266274c04ad8decae50fee26bf6a1246b5d1a8be974efccc9c4bc72f8a4d0b
+
+pkgname = r-keggdzpathwaysgeo

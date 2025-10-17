@@ -1,0 +1,20 @@
+pkgbase = wireguard-go
+	pkgdesc = Go userspace implementation of WireGuard
+	pkgver = 0.0.20250522
+	pkgrel = 3
+	url = https://git.zx2c4.com/wireguard-go/
+	arch = i686
+	arch = pentium4
+	arch = x86_64
+	arch = armv7h
+	arch = armv6h
+	arch = aarch64
+	license = MIT
+	makedepends = go
+	depends = glibc
+	source = https://git.zx2c4.com/wireguard-go/snapshot/wireguard-go-0.0.20250522.tar.xz
+	source = 0001-go-guidelines.patch
+	sha1sums = 01256e3a4539d7bef00638568b4089ce14880c15
+	sha1sums = e44d694a0db30f5873d4179ac8f80247a16f91b7
+
+pkgname = wireguard-go

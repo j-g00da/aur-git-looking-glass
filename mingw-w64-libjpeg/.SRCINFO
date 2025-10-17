@@ -1,0 +1,18 @@
+pkgbase = mingw-w64-libjpeg
+	pkgdesc = JPEG image compression (mingw-w64)
+	pkgver = 9f
+	pkgrel = 1
+	url = https://ijg.org/
+	arch = any
+	license = LicenseRef-custom
+	makedepends = mingw-w64-configure
+	depends = mingw-w64-crt
+	provides = mingw-w64-libjpeg-turbo
+	conflicts = mingw-w64-libjpeg-turbo
+	options = !libtool
+	options = !strip
+	options = !buildflags
+	source = https://ijg.org/files/jpegsrc.v9f.tar.gz
+	sha256sums = 04705c110cb2469caa79fb71fba3d7bf834914706e9641a4589485c1f832565b
+
+pkgname = mingw-w64-libjpeg

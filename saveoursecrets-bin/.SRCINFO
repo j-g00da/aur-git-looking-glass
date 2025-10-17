@@ -1,0 +1,15 @@
+pkgbase = saveoursecrets-bin
+	pkgdesc = Secure password manager and wallet
+	pkgver = 2.0.0+124
+	pkgrel = 1
+	url = https://saveoursecrets.com
+	arch = x86_64
+	license = custom
+	depends = glibc
+	depends = libsecret
+	depends = jsoncpp
+	depends = dbus
+	source = https://releases.saveoursecrets.com/beta/gui/2.0.0+124/arch/x86_64/saveoursecrets.tgz
+	sha256sums = SKIP
+
+pkgname = saveoursecrets-bin

@@ -1,0 +1,18 @@
+pkgbase = yearsfx
+	pkgdesc = Appends years in range to input
+	pkgver = 0.1.0
+	pkgrel = 6
+	url = https://github.com/mztikk/yearsfx
+	arch = i686
+	arch = x86_64
+	arch = armv6h
+	arch = armv7h
+	license = MIT
+	makedepends = rust
+	makedepends = cargo
+	makedepends = git
+	provides = yearsfx
+	conflicts = yearsfx
+	source = yearsfx::git+https://github.com/mztikk/yearsfx.git#branch=master
+
+pkgname = yearsfx-git

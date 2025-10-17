@@ -1,0 +1,15 @@
+pkgbase = py-fetch
+	pkgdesc = An independent python-system-information-tool written in Python with customizable ASCII art
+	pkgver = 1.2.0
+	pkgrel = 1
+	url = https://github.com/binarylinuxx/pyfetch
+	arch = any
+	license = GPL3
+	makedepends = git
+	depends = python
+	depends = python-psutil
+	depends = python-colorama
+	source = git+https://github.com/binarylinuxx/pyfetch.git
+	sha256sums = SKIP
+
+pkgname = py-fetch

@@ -1,0 +1,19 @@
+pkgbase = fdroidcl-bin
+	pkgdesc = F-Droid desktop client
+	pkgver = 0.8.1
+	pkgrel = 1
+	url = https://github.com/mvdan/fdroidcl
+	arch = x86_64
+	arch = aarch64
+	license = BSD
+	depends = android-tools
+	provides = fdroidcl
+	conflicts = fdroidcl
+	source = https://raw.githubusercontent.com/mvdan/fdroidcl/v0.8.1/LICENSE
+	sha256sums = 6b44db2e2b57c1f8a3b44f105650813bbef494e0472cb76620d4dfbffd96f988
+	source_x86_64 = fdroidcl-bin-0.8.1-x86_64::https://github.com/mvdan/fdroidcl/releases/download/v0.8.1/fdroidcl_v0.8.1_linux_amd64
+	sha256sums_x86_64 = 7d1feba37d2663e3e28d8b1be8ace874ca2a8c3a03ff4c0df5b8aed842d0b5d5
+	source_aarch64 = fdroidcl-bin-0.8.1-aarch64::https://github.com/mvdan/fdroidcl/releases/download/v0.8.1/fdroidcl_v0.8.1_linux_arm64
+	sha256sums_aarch64 = 6e7a35d57b326c077790dcb3dffad6f89ded44886eb101ee7200b9f1dc1ca749
+
+pkgname = fdroidcl-bin

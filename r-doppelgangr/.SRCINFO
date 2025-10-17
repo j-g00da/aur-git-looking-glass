@@ -1,0 +1,24 @@
+pkgbase = r-doppelgangr
+	pkgdesc = Identify likely duplicate samples from genomic or meta-data
+	pkgver = 1.36.1
+	pkgrel = 1
+	url = https://bioconductor.org/packages/doppelgangR
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-biobase
+	depends = r-biocparallel
+	depends = r-digest
+	depends = r-impute
+	depends = r-mnormt
+	depends = r-summarizedexperiment
+	depends = r-sva
+	optdepends = r-biocstyle
+	optdepends = r-curatedovariandata
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/doppelgangR_1.36.1.tar.gz
+	sha256sums = 4cc6e190283b3369e234c8ced6413c730b712a127e97c5bfb6b7405d6eb1a431
+
+pkgname = r-doppelgangr

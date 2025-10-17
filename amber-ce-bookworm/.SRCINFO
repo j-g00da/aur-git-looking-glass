@@ -1,0 +1,23 @@
+pkgbase = amber-ce-bookworm
+	pkgdesc = a container app packaging and distributing solution.
+	pkgver = 12.7.5
+	pkgrel = 1
+	url = https://gitee.com/amber-ce/amber-ce-bookworm
+	install = amber-ce-bookworm.install
+	arch = aarch64
+	arch = x86_64
+	arch = loong64
+	license = unknown
+	makedepends = dpkg
+	depends = bubblewrap
+	depends = xdg-desktop-portal
+	depends = flatpak
+	depends = zenity
+	depends = gcc
+	depends = debootstrap
+	depends = procps-ng
+	depends = rsync
+	source = amber-ce-bookworm-12.7.5.tar.gz::https://gitee.com/amber-ce/amber-ce-bookworm/repository/archive/12.7.5.tar.gz
+	sha256sums = 7eeb558f6c8d5a2129a83721a2fc9a5b297c3a08e626b53617c8bbfd3db8b00f
+
+pkgname = amber-ce-bookworm

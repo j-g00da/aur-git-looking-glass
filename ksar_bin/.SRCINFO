@@ -1,0 +1,18 @@
+pkgbase = ksar_bin
+	pkgdesc = a sar grapher written in java (actively maintained fork)
+	pkgver = 6.0.0
+	pkgrel = 1
+	url = https://github.com/vlsi/ksar
+	arch = i686
+	arch = x86_64
+	license = BSD
+	depends = java-runtime
+	noextract = ksar-6.0.0.jar
+	source = https://github.com/vlsi/ksar/releases/download/v6.0.0/ksar-6.0.0.jar
+	source = ksar.desktop
+	source = ksar
+	md5sums = e377a83fd88f87574b1d1aa658a1b816
+	md5sums = 496abd1a51926a52192125ef12b4091b
+	md5sums = 03ec800bb984188d192bb24bf8e947f8
+
+pkgname = ksar_bin

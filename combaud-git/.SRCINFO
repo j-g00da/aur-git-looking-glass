@@ -1,0 +1,19 @@
+pkgbase = combaud-git
+	pkgdesc = Broadcasting audio output from applications to a virtual microphone
+	pkgver = 1.0.r0
+	pkgrel = 2
+	url = https://github.com/VHSgunzo/combaud
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = pulse-native-provider
+	depends = grep
+	depends = sed
+	depends = coreutils
+	depends = gawk
+	provides = combaud
+	conflicts = combaud
+	source = git+https://github.com/VHSgunzo/combaud.git
+	sha256sums = SKIP
+
+pkgname = combaud-git

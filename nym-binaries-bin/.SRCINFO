@@ -1,0 +1,22 @@
+pkgbase = nym-binaries-bin
+	pkgdesc = The Nym Privacy Platform binaries
+	pkgver = 2025.16
+	pkgrel = 1
+	url = https://github.com/nymtech/nym
+	arch = x86_64
+	license = Apache-2.0
+	options = !debug
+	source_x86_64 = https://github.com/nymtech/nym/releases/download/nym-binaries-v2025.16-halloumi/nym-api
+	source_x86_64 = https://github.com/nymtech/nym/releases/download/nym-binaries-v2025.16-halloumi/nym-cli
+	source_x86_64 = https://github.com/nymtech/nym/releases/download/nym-binaries-v2025.16-halloumi/nym-client
+	source_x86_64 = https://github.com/nymtech/nym/releases/download/nym-binaries-v2025.16-halloumi/nym-network-requester
+	source_x86_64 = https://github.com/nymtech/nym/releases/download/nym-binaries-v2025.16-halloumi/nym-socks5-client
+	source_x86_64 = https://github.com/nymtech/nym/releases/download/nym-binaries-v2025.16-halloumi/nymvisor
+	sha256sums_x86_64 = 60ee14fc3249bc4d3433666ccb53408c9bd687188809992690c9036b18b8daa8
+	sha256sums_x86_64 = 19580755a5874be648178437ea102ccbee29d455717d1513ef4bb0a49b359e55
+	sha256sums_x86_64 = d49d6d6a9040c58c952e04fd67f7e984fd18f788e62b5f2c5cb7e3c10ed336a4
+	sha256sums_x86_64 = e4f058291814cf5bdb437f406be6c9560347059f97e6bda4d5b7fc3c3a0b7429
+	sha256sums_x86_64 = 8ffb1034ad2637065c26758abdf306123afe3944b34e46dba45e62f2ab5259b9
+	sha256sums_x86_64 = 334a55dc4523d15a46eaabbf5230925cb124c0f3d989516c490d68417739c005
+
+pkgname = nym-binaries-bin

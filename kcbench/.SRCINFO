@@ -1,0 +1,23 @@
+pkgbase = kcbench
+	pkgdesc = Linux kernel compile benchmark
+	pkgver = 0.9.12
+	pkgrel = 1
+	url = https://gitlab.com/knurd42/kcbench
+	arch = any
+	license = MIT
+	depends = bc
+	depends = binutils
+	depends = bison
+	depends = curl
+	depends = flex
+	depends = gcc
+	depends = libelf
+	depends = make
+	depends = openssl
+	depends = perl
+	depends = pkg-config
+	depends = time
+	source = https://gitlab.com/knurd42/kcbench/-/archive/v0.9.12/kcbench-v0.9.12.tar.gz
+	sha256sums = 2aebcb12ff8ee4837aeaa4eda43f3ba0987f376c326ca099cbcbfa69bd38fc00
+
+pkgname = kcbench

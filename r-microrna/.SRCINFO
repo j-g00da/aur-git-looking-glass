@@ -1,0 +1,13 @@
+pkgbase = r-microrna
+	pkgdesc = Data and functions for dealing with microRNAs
+	pkgver = 1.66.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/microRNA
+	arch = x86_64
+	license = Artistic2.0
+	depends = r
+	depends = r-biostrings
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/microRNA_1.66.0.tar.gz
+	sha256sums = eec1ae6860045c185d25e5edbcfc33ebcffd60693f2ad76fd89dde46770f0c93
+
+pkgname = r-microrna

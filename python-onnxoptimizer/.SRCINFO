@@ -1,0 +1,24 @@
+pkgbase = python-onnxoptimizer
+	pkgdesc = ONNX model optimizer
+	pkgver = 0.3.18
+	pkgrel = 1
+	url = https://github.com/onnx/optimizer
+	arch = x86_64
+	license = MIT
+	checkdepends = python-pytest
+	checkdepends = python-nbval
+	checkdepends = python-onnxruntime
+	checkdepends = python-torchvision
+	makedepends = python-setuptools
+	makedepends = cmake
+	makedepends = pybind11
+	makedepends = git
+	depends = python
+	depends = python-onnx
+	options = debug
+	source = onnx-optimizer::git+https://github.com/onnx/optimizer.git#tag=v0.3.18
+	source = onnx-daquexian::git+https://github.com/daquexian/onnx.git
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = python-onnxoptimizer

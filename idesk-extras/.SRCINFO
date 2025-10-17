@@ -1,0 +1,14 @@
+pkgbase = idesk-extras
+	pkgdesc = graphical configuration for idesktop plus icons
+	pkgver = 1.37
+	pkgrel = 6
+	url = https://web.archive.org/web/20070921005027/http://users.netwit.net.au/~pursang/idesk-extras.html
+	arch = i686
+	arch = x86_64
+	license = GPL
+	depends = idesk
+	depends = xdialog
+	source = https://github.com/neagix/idesk-extras/archive/refs/tags/v1.37.zip
+	sha256sums = f9fe75b471523abc81584b6606a738d157fa632ad6d7aa0ef831ed92c55117a5
+
+pkgname = idesk-extras

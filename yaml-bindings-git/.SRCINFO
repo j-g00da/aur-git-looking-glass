@@ -1,0 +1,21 @@
+pkgbase = yaml-bindings-git
+	pkgdesc = Tooling for devicetree validation using YAML and jsonschema
+	pkgver = r873.4548397
+	pkgrel = 1
+	url = https://github.com/devicetree-org/dt-schema
+	arch = any
+	license = BSD
+	makedepends = python-setuptools
+	makedepends = python-setuptools-scm
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python
+	depends = python-ruamel-yaml
+	depends = python-jsonschema
+	depends = python-rfc3987
+	depends = dtc
+	source = yaml-bindings::git+https://github.com/devicetree-org/dt-schema.git
+	sha1sums = SKIP
+
+pkgname = yaml-bindings-git

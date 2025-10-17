@@ -1,0 +1,16 @@
+pkgbase = qtwebsockettester-git
+	pkgdesc = A simple graphical tool to test websocket connections
+	pkgver = 1.0.1
+	pkgrel = 2
+	url = https://github.com/0xFEEDC0DE64/qtwebsockettester
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = git
+	makedepends = qt6-base
+	makedepends = qt6-websockets
+	depends = qt6-base
+	depends = qt6-websockets
+	source = git+https://github.com/0xFEEDC0DE64/qtwebsockettester.git
+	sha256sums = SKIP
+
+pkgname = qtwebsockettester-git

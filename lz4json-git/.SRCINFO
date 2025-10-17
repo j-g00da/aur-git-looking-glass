@@ -1,0 +1,14 @@
+pkgbase = lz4json-git
+	pkgdesc = C decompress tool for mozilla lz4json format (development version)
+	pkgver = r5.gc44c510
+	pkgrel = 1
+	url = https://github.com/andikleen/lz4json
+	arch = i686
+	arch = x86_64
+	makedepends = git
+	depends = lz4
+	provides = lz4json
+	source = git+https://github.com/andikleen/lz4json.git
+	md5sums = SKIP
+
+pkgname = lz4json-git

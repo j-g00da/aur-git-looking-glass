@@ -1,0 +1,15 @@
+pkgbase = wmmixer
+	pkgdesc = A mixer application written for the WindowMaker dock.
+	pkgver = 1.9
+	pkgrel = 1
+	epoch = 1
+	url = http://www.dockapps.net/wmmixer
+	arch = i686
+	arch = x86_64
+	license = GPL
+	depends = libxpm
+	options = !debug
+	source = http://www.dockapps.net/download/wmmixer-1.9.tar.gz
+	md5sums = 7de0299a12fea1c25dda222acbc9a624
+
+pkgname = wmmixer

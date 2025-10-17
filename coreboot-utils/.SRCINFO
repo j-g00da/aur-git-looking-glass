@@ -1,0 +1,97 @@
+pkgbase = coreboot-utils
+	pkgdesc = Tools and utilities to work with coreboot firmware
+	pkgver = 25.09
+	pkgrel = 1
+	url = https://www.coreboot.org
+	arch = x86_64
+	license = GPL-2.0-only
+	makedepends = go
+	depends = acpica
+	depends = dmidecode
+	depends = glibc
+	depends = pciutils
+	depends = python
+	depends = zlib
+	source = https://coreboot.org/releases/coreboot-25.09.tar.xz
+	source = https://coreboot.org/releases/coreboot-25.09.tar.xz.sig
+	validpgpkeys = C75AAA4E5C9DB017C1DC6EDBDB1B0EC29202D874
+	sha256sums = 7bdc8f177bc3705e11099fef1d0028a39fc9ae659c9b1e5055781a9a762f6da4
+	sha256sums = SKIP
+
+pkgname = acpidump-all
+	pkgdesc = Walk through all ACPI tables with their addresses
+	depends = acpica
+	depends = bash
+
+pkgname = amdfwtool
+	pkgdesc = Create AMD firmware combination
+	depends = glibc
+
+pkgname = autoport
+	pkgdesc = Automated porting coreboot to Sandy Bridge/Ivy Bridge platforms
+	depends = acpica
+	depends = dmidecode
+	depends = ectool
+	depends = glibc
+	depends = inteltool
+	depends = pciutils
+	depends = superiotool
+
+pkgname = cbfstool
+	pkgdesc = Management utility for CBFS formatted ROM images
+	depends = glibc
+	optdepends = qemu-system-x86
+
+pkgname = cbmem
+	pkgdesc = coreboot console log reader
+	depends = glibc
+
+pkgname = ectool
+	pkgdesc = Dump the RAM of a laptop's Embedded/Environmental Controller (EC)
+	depends = glibc
+
+pkgname = ifdtool
+	pkgdesc = Extract and dump Intel Firmware Descriptor information
+	depends = glibc
+	depends = pciutils
+	depends = zlib
+
+pkgname = intelmetool
+	pkgdesc = Dump interesting things about Management Engine
+	depends = glibc
+	depends = pciutils
+	depends = zlib
+
+pkgname = inteltool
+	pkgdesc = Provides information about Intel CPU/chipset hardware configuration
+	depends = glibc
+	depends = pciutils
+	depends = zlib
+
+pkgname = intelvbttool
+	pkgdesc = Parse VBT from VGA BIOS
+	depends = glibc
+
+pkgname = me_cleaner
+	pkgdesc = Tool for partial deblobbing of Intel ME/TXE firmware images
+	depends = python
+
+pkgname = msrtool
+	pkgdesc = Dump chipset-specific MSR registers
+	depends = glibc
+	depends = pciutils
+	depends = zlib
+
+pkgname = nvramtool
+	pkgdesc = Read and write coreboot parameters and display information from the coreboot table in CMOS/NVRAM
+	depends = glibc
+
+pkgname = pmh7tool
+	pkgdesc = Dumps, reads and writes PMH7 registers on Lenovo ThinkPads
+	depends = glibc
+
+pkgname = superiotool
+	pkgdesc = User-space utility to detect Super I/O of a mainboard and provide detailed information about the register contents of the Super I/O
+	depends = glibc
+	depends = pciutils
+	depends = zlib

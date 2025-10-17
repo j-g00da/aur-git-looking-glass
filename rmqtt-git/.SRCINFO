@@ -1,0 +1,24 @@
+pkgbase = rmqtt-git
+	pkgdesc = MQTT Server/MQTT Broker - Scalable Distributed MQTT Message Broker for IoT in the 5G Era
+	pkgver = 0.11.0.r2.g38ae1fb
+	pkgrel = 1
+	url = https://github.com/rmqtt/rmqtt
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = rust
+	makedepends = cmake
+	depends = gcc-libs
+	depends = glibc
+	depends = openssl
+	depends = protobuf-c
+	provides = rmqtt
+	provides = librmqtt_macros.so
+	conflicts = rmqtt
+	conflicts = librmqtt_macros.so
+	options = !strip
+	options = !lto
+	source = rmqtt-git::git+https://github.com/rmqtt/rmqtt.git
+	sha256sums = SKIP
+
+pkgname = rmqtt-git

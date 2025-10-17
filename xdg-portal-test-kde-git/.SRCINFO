@@ -1,0 +1,27 @@
+pkgbase = xdg-portal-test-kde-git
+	pkgdesc = Test application for Flatpak portals and Qt Flatpak platform plugin
+	pkgver = r139.975b0dc
+	pkgrel = 1
+	url = https://invent.kde.org/libraries/xdg-portal-test-kde
+	arch = x86_64
+	license = LGPL-2.1-only
+	makedepends = extra-cmake-modules
+	makedepends = git
+	makedepends = wayland-protocols
+	depends = gcc-libs
+	depends = glibc
+	depends = gstreamer
+	depends = kcoreaddons
+	depends = ki18n
+	depends = kio
+	depends = knotifications
+	depends = kwindowsystem
+	depends = qt6-base
+	depends = qt6-wayland
+	depends = xdg-desktop-portal-impl
+	provides = xdg-portal-test-kde
+	conflicts = xdg-portal-test-kde
+	source = xdg-portal-test-kde::git+https://invent.kde.org/libraries/xdg-portal-test-kde.git
+	sha256sums = SKIP
+
+pkgname = xdg-portal-test-kde-git

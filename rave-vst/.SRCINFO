@@ -1,0 +1,21 @@
+pkgbase = rave-vst
+	pkgdesc = VST audio effect and synthesizer based on RAVE, a variational autoencoder for fast and high-quality neural audio synthesis
+	pkgver = 0.0.2
+	pkgrel = 1
+	url = https://forum.ircam.fr/projects/detail/rave-vst/
+	arch = x86_64
+	groups = vst3-plugins
+	groups = pro-audio
+	license = custom
+	depends = alsa-lib
+	depends = freetype2
+	depends = ttf-font
+	depends = libx11
+	provides = rave-vst
+	conflicts = rave-vst
+	source = local://rave-vst_0.0.2_amd64.deb
+	source = RAVE.desktop
+	sha256sums = d936f023467acd639b39e6faad9433adbdcee12a5fd184411907cab6b2b2998f
+	sha256sums = 12009284d625b3cb3a995a00cf835f55a9cdf0d14bb24f3a99cef527f141e081
+
+pkgname = rave-vst

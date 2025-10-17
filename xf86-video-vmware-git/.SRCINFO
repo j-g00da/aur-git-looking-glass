@@ -1,0 +1,27 @@
+pkgbase = xf86-video-vmware-git
+	pkgdesc = VMware guest video driver for the Xorg X server
+	pkgver = 13.4.0.r6.g92cc453
+	pkgrel = 2
+	url = https://gitlab.freedesktop.org/xorg/driver/xf86-video-vmware
+	arch = i686
+	arch = x86_64
+	groups = xorg-drivers
+	license = LicenseRef-xf86-video-vmware
+	makedepends = git
+	makedepends = xorg-server-devel
+	makedepends = X-ABI-VIDEODRV_VERSION=25.2
+	depends = glibc
+	depends = libdrm
+	depends = libxext
+	depends = libx11
+	depends = mesa
+	depends = systemd-libs
+	provides = xf86-video-vmware=13.4.0.r6.g92cc453
+	conflicts = xf86-video-vmware
+	conflicts = xorg-server<21.1.1
+	conflicts = X-ABI-VIDEODRV_VERSION<25
+	conflicts = X-ABI-VIDEODRV_VERSION>=26
+	source = git+https://gitlab.freedesktop.org/xorg/driver/xf86-video-vmware.git
+	sha256sums = SKIP
+
+pkgname = xf86-video-vmware-git

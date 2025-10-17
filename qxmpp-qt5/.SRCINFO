@@ -1,0 +1,28 @@
+pkgbase = qxmpp-qt5
+	pkgdesc = Cross-platform C++ XMPP client and server library
+	pkgver = 1.10.3
+	pkgrel = 1
+	url = https://invent.kde.org/libraries/qxmpp
+	arch = i686
+	arch = x86_64
+	license = LGPL2.1
+	makedepends = cmake
+	makedepends = doxygen
+	depends = gstreamer
+	depends = glibc
+	depends = gcc-libs
+	depends = glib2
+	source = git+https://invent.kde.org/libraries/qxmpp#tag=v1.10.3
+	sha256sums = a6b057048d119714172cd5a7fe1a4ae2724c476b6bc85486edbe3c6866465419
+
+pkgname = qxmpp-qt5
+	depends = gstreamer
+	depends = glibc
+	depends = gcc-libs
+	depends = glib2
+	depends = qt5-base
+	depends = qca-qt5
+
+pkgname = qxmpp-doc
+	pkgdesc = Cross-platform C++ XMPP client and server library (documentation)
+	arch = any

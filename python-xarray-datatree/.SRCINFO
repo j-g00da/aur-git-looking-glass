@@ -1,0 +1,28 @@
+pkgbase = python-xarray-datatree
+	pkgdesc = Hierarchical tree-like data structures for xarray
+	pkgver = 0.0.15
+	pkgrel = 1
+	url = https://xarray-datatree.readthedocs.io
+	arch = any
+	license = Apache-2.0
+	checkdepends = python-pytest
+	checkdepends = python-netcdf4
+	checkdepends = python-h5netcdf
+	checkdepends = python-xarray
+	checkdepends = python-zarr
+	makedepends = python-setuptools-scm
+	makedepends = python-wheel
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = check-manifest
+	source = https://files.pythonhosted.org/packages/source/x/xarray_datatree/xarray_datatree-0.0.15.tar.gz
+	md5sums = 651a8935c8c9b94a3b8b5b1742e6012d
+
+pkgname = python-xarray-datatree
+	depends = python>=3.9
+	depends = python-xarray>=2023.12.0
+	depends = python-packaging
+	optdepends = python-netcdf4: allow file I/O
+	optdepends = python-h5netcdf: allow file I/O
+	optdepends = python-zarr: allow file I/O
+	optdepends = python-xarray-datatree-doc: Documentation for xarray datatree

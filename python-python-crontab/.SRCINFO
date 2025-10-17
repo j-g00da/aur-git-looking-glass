@@ -1,0 +1,21 @@
+pkgbase = python-python-crontab
+	pkgdesc = Crontab module for reading and writing crontab files and accessing the system cron automatically and simply using a direct API.
+	pkgver = 3.3.0
+	pkgrel = 1
+	url = https://gitlab.com/doctormo/python-crontab
+	arch = any
+	license = GPL-3.0-or-later
+	checkdepends = python-pytest
+	checkdepends = python-tests
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	optdepends = cronie
+	optdepends = python-cron-descriptor: Ask for a translated string
+	optdepends = python-croniter: Run a cron tab as a daemon
+	source = https://gitlab.com/doctormo/python-crontab/-/archive/v3.3.0/python-crontab-v3.3.0.tar.gz
+	sha256sums = d4ab42b0d09d0741d643ac0c9142719d544dc1f2faa4a521ba57db89872d7e5c
+
+pkgname = python-python-crontab

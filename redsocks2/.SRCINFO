@@ -1,0 +1,24 @@
+pkgbase = redsocks2
+	pkgdesc = Transparent redirector of any TCP/UDP connection to proxy.
+	pkgver = 0.71
+	pkgrel = 1
+	url = https://github.com/semigodking/redsocks
+	arch = i686
+	arch = x86_64
+	license = Apache-2.0
+	makedepends = git
+	depends = libevent>=2
+	depends = openssl
+	conflicts = redsocks
+	backup = etc/conf.d/redsocks2
+	backup = etc/redsocks2.conf
+	source = git+https://github.com/semigodking/redsocks.git#tag=release-0.71
+	source = 0001-fix-default-config.patch
+	source = sysusers.conf
+	source = tmpfiles.conf
+	sha256sums = 3f3033b2ec8552738651c3ae335840994be18eb0ffeb9b4fa683ca7165c23983
+	sha256sums = 239191674e58ed4f75b49a1154dc3cf0f8c6781654b09ae6cd367817f2491e26
+	sha256sums = 0cd97898c7f6aa5463ac5861f414a2008f72df7683f6c5752251e52b5def1868
+	sha256sums = d718986950ba72babd8c23ca19b5b1e0a63d0416b363c18c7f55d4f3d42db983
+
+pkgname = redsocks2

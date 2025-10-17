@@ -1,0 +1,20 @@
+pkgbase = fopnu
+	pkgdesc = A new and powerful P2P File Sharing System
+	pkgver = 1.68+1
+	pkgrel = 1
+	url = https://www.fopnu.com
+	arch = x86_64
+	arch = i686
+	license = LicenseRef-custom
+	depends = gtk3
+	depends = hicolor-icon-theme
+	depends = dbus-glib
+	optdepends = gconf: for shell integration
+	source = LICENSE
+	sha256sums = 0bc342f6415aa54c3d313af6a45152cb005024c7167d4fd0c71bfa004a2f8e4f
+	source_x86_64 = https://download2.fopnu.com/download/fopnu-1.68-1.x86_64.manualinstall.tar.gz
+	sha256sums_x86_64 = abe9c8d2ce33bbaf8bafca5d13247cff33a4ab950bc9d62dd9b9edbf3c9a959a
+	source_i686 = https://download2.fopnu.com/download/fopnu-1.68-1.i686.manualinstall.tar.gz
+	sha256sums_i686 = e7f06d2363671c9a513684e0c9e7139bafcc1c15924a5c62dbce8ec85aebe3ec
+
+pkgname = fopnu

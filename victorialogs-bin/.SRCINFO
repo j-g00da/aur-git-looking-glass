@@ -1,0 +1,27 @@
+pkgbase = victorialogs-bin
+	pkgdesc = Scalable logging solution designed to be fast and highly efficient
+	pkgver = 1.32.0
+	pkgrel = 1
+	url = https://docs.victoriametrics.com/victorialogs/
+	arch = x86_64
+	arch = aarch64
+	license = Apache-2.0
+	backup = etc/default/victorialogs
+	source = service
+	source = sysusers
+	source = tmpfiles
+	source = default
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	source_x86_64 = https://github.com/VictoriaMetrics/VictoriaLogs/releases/download/v1.32.0/victoria-logs-linux-amd64-v1.32.0.tar.gz
+	source_x86_64 = https://github.com/VictoriaMetrics/VictoriaLogs/releases/download/v1.32.0/vlutils-linux-amd64-v1.32.0.tar.gz
+	sha256sums_x86_64 = ecff041c4e2e0041dcdbf7eda99a508ddcc939b782876102815c51fb6d6d057d
+	sha256sums_x86_64 = 173f70cc2356bbf71ccabb6be697f363a88e43daf929b5191dafd2585e763415
+	source_aarch64 = https://github.com/VictoriaMetrics/VictoriaLogs/releases/download/v1.32.0/victoria-logs-linux-arm64-v1.32.0.tar.gz
+	source_aarch64 = https://github.com/VictoriaMetrics/VictoriaLogs/releases/download/v1.32.0/vlutils-linux-arm64-v1.32.0.tar.gz
+	sha256sums_aarch64 = d5b4cb01536c24c80aef2092a44e6c2fad32d51f29a038321318d7b91002dc42
+	sha256sums_aarch64 = 27ac7d6fb43510f020dee3b47bc918e777e7056faf4c8c5b4f22a7a98d4c822e
+
+pkgname = victorialogs-bin

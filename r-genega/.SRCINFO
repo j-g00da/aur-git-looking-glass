@@ -1,0 +1,14 @@
+pkgbase = r-genega
+	pkgdesc = Design gene based on both mRNA secondary structure and codon usage bias using Genetic algorithm
+	pkgver = 1.58.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/GeneGA
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-hash
+	depends = r-seqinr
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/GeneGA_1.58.0.tar.gz
+	sha256sums = e00c74818989c36444713dcd35b3260ccb204a31a57665d8aa31d273fb7ed232
+
+pkgname = r-genega

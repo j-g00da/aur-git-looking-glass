@@ -1,0 +1,23 @@
+pkgbase = python-pypinfo
+	pkgdesc = View PyPI download statistics with ease
+	pkgver = 23.0.0
+	pkgrel = 1
+	url = https://github.com/ofek/pypinfo
+	changelog = CHANGELOG.rst
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-hatchling
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python-binary
+	depends = python-click
+	depends = python-google-cloud-bigquery
+	depends = python-packaging
+	depends = python-platformdirs
+	depends = python-tinydb
+	depends = python-tinyrecord
+	source = python-pypinfo-23.0.0.tar.gz::https://github.com/ofek/pypinfo/archive/refs/tags/23.0.0.tar.gz
+	sha256sums = 88dc82228e39b0510841537cec5ab074fc3a0e9f7cb2c7e7685fa03ce1487091
+
+pkgname = python-pypinfo

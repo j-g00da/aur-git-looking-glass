@@ -1,0 +1,21 @@
+pkgbase = saberfy
+	pkgdesc = Application for match and import your Spotify favorite songs to BeatSaber.(Use system-wide electron)
+	pkgver = 2.1.0
+	pkgrel = 10
+	url = https://github.com/LoliE1ON/Saberfy
+	arch = any
+	license = MIT
+	makedepends = gendesk
+	makedepends = npm
+	makedepends = nvm
+	makedepends = curl
+	makedepends = git
+	depends = electron16
+	provides = saberfy
+	conflicts = saberfy
+	source = saberfy-2.1.0::git+https://github.com/LoliE1ON/Saberfy#tag=v2.1.0
+	source = saberfy.sh
+	sha256sums = 77fc637e2f73738b3be9104adc38c0ff27ef2e46cd424f2f638fb012318cb525
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = saberfy

@@ -1,0 +1,19 @@
+pkgbase = r-basic4cseq
+	pkgdesc = Basic4Cseq: an R/Bioconductor package for analyzing 4C-seq data
+	pkgver = 1.44.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/Basic4Cseq
+	arch = any
+	license = LGPL
+	depends = r
+	depends = r-biostrings
+	depends = r-bsgenome.ecoli.ncbi.20080805
+	depends = r-catools
+	depends = r-genomicalignments
+	depends = r-genomicranges
+	depends = r-rcircos
+	optdepends = r-bsgenome.hsapiens.ucsc.hg19
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/Basic4Cseq_1.44.0.tar.gz
+	sha256sums = 24bc06f34132701b3980276a23512dc393163933281b1d1b930ada1f830147ac
+
+pkgname = r-basic4cseq

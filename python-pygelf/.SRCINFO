@@ -1,0 +1,13 @@
+pkgbase = python-pygelf
+	pkgdesc = Python logging handlers with GELF (Graylog Extended Log Format) support
+	pkgver = 0.4.3
+	pkgrel = 1
+	url = https://github.com/keeprocking/pygelf
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	source = python-pygelf-0.4.3.tar.gz::https://github.com/keeprocking/pygelf/archive/986e6cf34969379a947853b12d9dd49c53fb7eae.tar.gz
+	b2sums = 9aa47e2c15fbad0523a7af933b791ecbc68a5069b69c4e3b8257f28ac7c973c4dd2c7e0ed172290ece9de2ea75630a8e2a90c5cc4664fb28217df8ca250dc937
+
+pkgname = python-pygelf

@@ -1,0 +1,16 @@
+pkgbase = axmldec
+	pkgdesc = Stand-alone binary AndroidManifest.xml decoder
+	pkgver = 1.2.1
+	pkgrel = 2
+	url = https://github.com/SelfRef/axmldec
+	arch = x86_64
+	license = ISC
+	makedepends = cmake
+	makedepends = doxygen
+	depends = boost
+	depends = zlib
+	depends = minizip-ng
+	source = git+https://github.com/SelfRef/axmldec
+	sha256sums = SKIP
+
+pkgname = axmldec

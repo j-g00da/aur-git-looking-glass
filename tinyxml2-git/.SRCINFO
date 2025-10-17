@@ -1,0 +1,17 @@
+pkgbase = tinyxml2-git
+	pkgdesc = Simple, small, efficient, C++ XML parser
+	pkgver = 11.0.0.r8.ge6caeae
+	pkgrel = 1
+	url = https://leethomason.github.io/tinyxml2/
+	arch = i686
+	arch = x86_64
+	license = Zlib
+	makedepends = git
+	makedepends = cmake
+	depends = gcc-libs
+	provides = tinyxml2=11.0.0.r8.ge6caeae
+	conflicts = tinyxml2
+	source = git+https://github.com/leethomason/tinyxml2.git
+	sha256sums = SKIP
+
+pkgname = tinyxml2-git

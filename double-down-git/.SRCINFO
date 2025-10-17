@@ -1,0 +1,26 @@
+pkgbase = double-down-git
+	pkgdesc = double-down: A double precision interface to Embree
+	pkgver = list.r8.g9b07377
+	pkgrel = 1
+	url = https://github.com/pshriwise/double-down
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = python
+	makedepends = cmake
+	makedepends = binutils
+	makedepends = make
+	makedepends = gcc-fortran
+	makedepends = eigen
+	makedepends = doxygen
+	depends = moab-git
+	depends = embree
+	provides = double-down-git
+	source = double-down-git::git+https://github.com/pshriwise/double-down.git
+	source = cmake_version_bump.patch
+	source = fix_hdf5_lib_name.patch
+	md5sums = SKIP
+	md5sums = af216e7b598b147a2ed60f832e7e8a2a
+	md5sums = 0a8c98df5636683e71b45ead6566adbc
+
+pkgname = double-down-git

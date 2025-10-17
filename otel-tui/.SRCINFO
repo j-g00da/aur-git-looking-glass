@@ -1,0 +1,14 @@
+pkgbase = otel-tui
+	pkgdesc = A terminal OpenTelemetry viewer inspired by otel-desktop-viewer
+	pkgver = 0.5.3
+	pkgrel = 1
+	url = https://github.com/ymtdzzz/otel-tui
+	arch = x86_64
+	license = Apache-2.0
+	makedepends = go
+	depends = glibc
+	depends = libx11
+	source = https://github.com/ymtdzzz/otel-tui/archive/v0.5.3/otel-tui-0.5.3.tar.gz
+	sha256sums = 7a82ccb467c1f2ae127b8699637c69f5cc87e05dba8cef82c1078493c29d6154
+
+pkgname = otel-tui

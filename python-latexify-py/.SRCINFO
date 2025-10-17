@@ -1,0 +1,17 @@
+pkgbase = python-latexify-py
+	pkgdesc = Generates LaTeX math description from Python functions
+	pkgver = 0.4.4
+	pkgrel = 1
+	url = https://github.com/google/latexify_py
+	arch = any
+	license = Apache-2.0
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-hatchling
+	makedepends = python-wheel
+	depends = python-dill
+	source = latexify_py-0.4.4.tar.gz::https://github.com/google/latexify_py/archive/v0.4.4.tar.gz
+	sha512sums = b46bbd8a3e3a5b85246b3500430ee5ba119ed8e7ffa7577b9dc2a55f8c205b003505a564b7e88c08cb301838af8e25cf6fc861b1df09ca4ae9b1191bf897ed9f
+
+pkgname = python-latexify-py

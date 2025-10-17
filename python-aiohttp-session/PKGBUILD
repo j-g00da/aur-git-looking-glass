@@ -1,0 +1,35 @@
+# Maintainer: Blair Bonnett <blair dot bonnett at gmail dot com>
+
+pkgname=python-aiohttp-session
+pkgdesc='Web sessions for aiohttp.web'
+pkgver=2.12.1
+pkgrel=1
+url='http://aiohttp-session.readthedocs.io/'
+license=('Apache-2.0')
+arch=('any')
+depends=('python-aiohttp')
+optdepends=(
+  'python-aiomcache: Memcached session storage'
+  'python-cryptography: store sessions in encrypted cookies'
+  'python-pynacl: NaCL encrypted JSON session storage'
+  'python-redis: Redis session storage'
+)
+makedepends=('python-build' 'python-installer' 'python-setuptools' 'python-wheel')
+
+_pypi=aiohttp-session
+source=(
+  "https://files.pythonhosted.org/packages/source/${_pypi::1}/$_pypi/${_pypi/-/_}-$pkgver.tar.gz"
+)
+sha256sums=(
+  '15e6e0288e9bcccd4b1d0c28aae9c20e19a252b12d0cb682223ca9c83180e899'
+)
+
+build() {
+  cd "aiohttp_session-$pkgver"
+  python -m build --wheel --no-isolation
+}
+
+package() {
+  cd "aiohttp_session-$pkgver"
+  python -m installer --destdir="$pkgdir" dist/*.whl
+}

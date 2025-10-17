@@ -1,0 +1,18 @@
+pkgbase = lcm
+	pkgdesc = Lightweight Communications and Marshalling
+	pkgver = 1.5.1
+	pkgrel = 1
+	url = https://github.com/lcm-proj/lcm
+	arch = i686
+	arch = x86_64
+	arch = armv7h
+	license = LGPL
+	makedepends = cmake
+	makedepends = java-environment
+	depends = glib2
+	optdepends = java-environment: support for lcm-spy and other GUI tools
+	optdepends = ttf-dejavu: support for lcm-spy and other GUI tools
+	source = https://github.com/lcm-proj/lcm/archive/refs/tags/v1.5.1.tar.gz
+	sha512sums = c3772d8fae308755af86197e491014e61c947d6befef0641b34735728e478be946b7e2f0012c548caad3570f4a49821a6033e22e2a39c3219b3b7fd1746ab77b
+
+pkgname = lcm

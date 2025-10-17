@@ -1,0 +1,24 @@
+pkgbase = ran-git
+	pkgdesc = record audio notes: a front end for sox written in bash
+	pkgver = 6.f67d3cc
+	pkgrel = 4
+	url = https://github.com/burt1iband/ran
+	install = ran.install
+	arch = any
+	license = GPL
+	makedepends = git
+	depends = bash
+	depends = bc
+	depends = sox
+	optdepends = bash-completion
+	optdepends = notification-daemon
+	optdepends = fluxable-newmenu
+	optdepends = orca
+	optdepends = speakup
+	provides = ran
+	conflicts = ran
+	source = git+https://github.com/burt1iband/ran.git
+	md5sums = SKIP
+
+pkgname = ran-git
+

@@ -1,0 +1,26 @@
+pkgbase = fotokilof
+	pkgdesc = GUI for ImageMagick
+	pkgver = 5.2.1
+	pkgrel = 1
+	url = https://github.com/TeaM-TL/FotoKilof
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = imagemagick
+	depends = tk
+	depends = python-pillow
+	depends = python-wand
+	depends = python-ttkbootstrap
+	depends = python-requests
+	depends = python-findsystemfontsfilename
+	depends = python-pyperclipimg
+	depends = python-darkdetect
+	source = https://github.com/TeaM-TL/FotoKilof/archive/refs/tags/5.2.1.tar.gz
+	source = fotokilof.desktop
+	sha256sums = 8cb37af44bd18951d496cdb31c6b746c102c1f38d106356a6b697e62b0cf9560
+	sha256sums = 8f6610e5b14c7ecc3d099b6c03ee2ea638b6080d625d4d7ed2e6baa95daaf1c2
+
+pkgname = fotokilof

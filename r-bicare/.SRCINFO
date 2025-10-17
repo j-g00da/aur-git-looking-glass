@@ -1,0 +1,17 @@
+pkgbase = r-bicare
+	pkgdesc = Biclustering Analysis and Results Exploration
+	pkgver = 1.66.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/BicARE
+	arch = x86_64
+	license = GPL
+	depends = r
+	depends = r-biobase
+	depends = r-go.db
+	depends = r-gseabase
+	depends = r-multtest
+	optdepends = r-hgu95av2
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/BicARE_1.66.0.tar.gz
+	sha256sums = 409e4949f90178e535a333c10bc66131396dd4fefa9242bf2cd862eb02e7cb9e
+
+pkgname = r-bicare

@@ -1,0 +1,15 @@
+pkgbase = cwtch-autobindings
+	pkgdesc = Automatically-generated C bindings for the Cwtch library
+	pkgver = 0.1.5
+	pkgrel = 1
+	url = https://cwtch.im
+	arch = x86_64
+	license = MIT
+	makedepends = go
+	makedepends = git
+	depends = tor
+	provides = libcwtch-go
+	source = autobindings-v0.1.5.tar.gz::https://git.openprivacy.ca/api/v1/repos/cwtch.im/autobindings/archive/v0.1.5.tar.gz
+	sha256sums = 8ddb3a3fb0a8d58ac051e2c986b9cb96d3fdc3e9a5248e28f665453e1351622b
+
+pkgname = cwtch-autobindings

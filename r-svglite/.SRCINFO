@@ -1,0 +1,31 @@
+pkgbase = r-svglite
+	pkgdesc = An 'SVG' Graphics Device
+	pkgver = 2.2.1
+	pkgrel = 1
+	url = https://cran.r-project.org/package=svglite
+	arch = x86_64
+	license = GPL-2.0-or-later
+	checkdepends = r-fontquiver
+	checkdepends = r-testthat
+	checkdepends = r-xml2
+	checkdepends = ttf-liberation
+	makedepends = r-cpp11
+	depends = libpng
+	depends = r-systemfonts
+	depends = r-base64enc
+	depends = r-lifecycle
+	depends = r-rlang
+	depends = r-textshaping
+	depends = r-cli
+	optdepends = r-covr
+	optdepends = r-fontquiver
+	optdepends = r-htmltools
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	optdepends = r-xml2
+	source = https://cran.r-project.org/src/contrib/svglite_2.2.1.tar.gz
+	md5sums = 9b56f603ee9f4b8ad7381ef7d4100a6a
+	b2sums = 1d08c1ae1bac89ab80fd603effc6ce7d629676fd6a656e88d4936a178171f7b293726fc1f5bf4c129a3f99b4c722197963867239e1c990d500a7286ce59a164a
+
+pkgname = r-svglite

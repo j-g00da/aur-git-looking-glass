@@ -1,0 +1,13 @@
+pkgbase = razzshell
+	pkgdesc = A custom Unix shell with unique features
+	pkgver = 1.0.2
+	pkgrel = 1
+	url = https://github.com/rajacharya987/razzshell
+	arch = x86_64
+	license = MIT
+	depends = readline
+	depends = ncurses
+	source = https://github.com/rajacharya987/razzshell/releases/download/v1.0.2/razzshell-1.0.2.tar.gz
+	sha256sums = 71fa426faa8332f190539f37aaf403fa68098f6492c254e703a74d61d0783f1b
+
+pkgname = razzshell

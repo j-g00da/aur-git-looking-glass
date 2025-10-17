@@ -1,0 +1,18 @@
+pkgbase = ten-hands-bin
+	pkgdesc = Simplest way to organize and run tasks.(Prebuilt version.Use system-wide electron)
+	pkgver = 2.10.3
+	pkgrel = 12
+	url = https://tenhands.app
+	arch = x86_64
+	license = MIT
+	depends = electron11
+	provides = ten-hands=2.10.3
+	conflicts = ten-hands
+	source = ten-hands-2.10.3.deb::https://github.com/saisandeepvaddi/ten-hands/releases/download/v2.10.3/ten-hands-app_2.10.3_amd64.deb
+	source = LICENSE-2.10.3::https://raw.githubusercontent.com/saisandeepvaddi/ten-hands/v2.10.3/LICENSE
+	source = ten-hands.sh
+	sha256sums = 5a1a4d3970a46d1fde2ccb506653f637a8b0edac5a77a64d12a45e723b555daa
+	sha256sums = 4844817e0496e77b4ff7dbf8084f475a9dbcb4ffe533b06960feac9fbe7cef2b
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = ten-hands-bin

@@ -1,0 +1,62 @@
+pkgbase = maplemono
+	pkgdesc = Open source monospace font with round corner, ligatures and Nerd-Font for IDE and command line
+	pkgver = 7.7
+	pkgrel = 1
+	url = https://github.com/subframe7536/maple-font
+	arch = any
+	license = OFL-1.1
+	noextract = MapleMono-CN-unhinted-7.7.zip
+	noextract = MapleMono-CN-7.7.zip
+	noextract = MapleMono-NF-CN-unhinted-7.7.zip
+	noextract = MapleMono-NF-CN-7.7.zip
+	noextract = MapleMono-NF-unhinted-7.7.zip
+	noextract = MapleMono-NF-7.7.zip
+	noextract = MapleMono-OTF-7.7.zip
+	noextract = MapleMono-TTF-AutoHint-7.7.zip
+	noextract = MapleMono-TTF-7.7.zip
+	noextract = MapleMono-Variable-7.7.zip
+	noextract = MapleMono-Woff2-7.7.zip
+	source = MapleMono-CN-unhinted-7.7.zip::https://github.com/subframe7536/maple-font/releases/download/v7.7/MapleMono-CN-unhinted.zip
+	source = MapleMono-CN-7.7.zip::https://github.com/subframe7536/maple-font/releases/download/v7.7/MapleMono-CN.zip
+	source = MapleMono-NF-CN-unhinted-7.7.zip::https://github.com/subframe7536/maple-font/releases/download/v7.7/MapleMono-NF-CN-unhinted.zip
+	source = MapleMono-NF-CN-7.7.zip::https://github.com/subframe7536/maple-font/releases/download/v7.7/MapleMono-NF-CN.zip
+	source = MapleMono-NF-unhinted-7.7.zip::https://github.com/subframe7536/maple-font/releases/download/v7.7/MapleMono-NF-unhinted.zip
+	source = MapleMono-NF-7.7.zip::https://github.com/subframe7536/maple-font/releases/download/v7.7/MapleMono-NF.zip
+	source = MapleMono-OTF-7.7.zip::https://github.com/subframe7536/maple-font/releases/download/v7.7/MapleMono-OTF.zip
+	source = MapleMono-TTF-AutoHint-7.7.zip::https://github.com/subframe7536/maple-font/releases/download/v7.7/MapleMono-TTF-AutoHint.zip
+	source = MapleMono-TTF-7.7.zip::https://github.com/subframe7536/maple-font/releases/download/v7.7/MapleMono-TTF.zip
+	source = MapleMono-Variable-7.7.zip::https://github.com/subframe7536/maple-font/releases/download/v7.7/MapleMono-Variable.zip
+	source = MapleMono-Woff2-7.7.zip::https://github.com/subframe7536/maple-font/releases/download/v7.7/MapleMono-Woff2.zip
+	sha256sums = b39143c70724a1b7c8deb67b64c12464f86de23770cdd9c87811fd1b9383d6ee
+	sha256sums = a1ca4ee74ce1c101cdf59a85ee2cc1aac82626e0a083a3f8095dca483b664cd9
+	sha256sums = b8cb09527237cf1cfff6db395d8dee861e522b50932bb31f6559c54b78619202
+	sha256sums = bc101015e32c8c1d3df1b1ab1021813b5909e76fd34516de96eeee02f1614b88
+	sha256sums = 6e237b3c671d9dce2f6e32c027c80ff7e8e6b94f19989010190f653e2d3bbe8b
+	sha256sums = 71deecb6c648e52bf9ba8eec1e98773e8d0d8da250899620e6c291f703285250
+	sha256sums = 8dcac8fe45a1255e183a420b16f8f61de9d1eea2b79acd03d25b1dba55525bed
+	sha256sums = fb8868156ffb354e34a7e85a6105c46d3aa923f379b7eb5f2ed0f90a1ebc8e0e
+	sha256sums = 60793a95a5032b40d5fd734fdbc06a7aba1e9f80a328a1ed8a8fb2f0372650e4
+	sha256sums = 5a8736d2eca43d0aece94aca28aa0540d644c2d416582ba8e433b6f991cce4a4
+	sha256sums = bc700c7bc97eadf8f72c43f1eda2859f393ca8e9134c28e8ef4eb5deaf59bb59
+
+pkgname = maplemono-cn-unhinted
+
+pkgname = maplemono-cn
+
+pkgname = maplemono-nf-cn-unhinted
+
+pkgname = maplemono-nf-cn
+
+pkgname = maplemono-nf-unhinted
+
+pkgname = maplemono-nf
+
+pkgname = maplemono-otf
+
+pkgname = maplemono-ttf-autohint
+
+pkgname = maplemono-ttf
+
+pkgname = maplemono-variable
+
+pkgname = maplemono-woff2

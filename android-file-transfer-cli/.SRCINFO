@@ -1,0 +1,17 @@
+pkgbase = android-file-transfer-cli
+	pkgdesc = An interactive MTP client - CLI only, no QT/fuse dependencies
+	pkgver = 4.5
+	pkgrel = 2
+	url = https://github.com/whoozle/android-file-transfer-linux
+	arch = x86_64
+	arch = aarch64
+	license = LGPL-2.1-or-later
+	makedepends = cmake
+	depends = file
+	depends = android-udev
+	conflicts = android-file-transfer
+	conflicts = android-file-transfer-git
+	source = android-file-transfer-cli-4.5.tar.gz::https://github.com/whoozle/android-file-transfer-linux/archive/refs/tags/v4.5.tar.gz
+	sha256sums = 0f366a8d659926d3859a8628d4f7592692389b060f67da9a936d19b252b42d96
+
+pkgname = android-file-transfer-cli

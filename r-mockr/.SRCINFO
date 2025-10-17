@@ -1,0 +1,22 @@
+pkgbase = r-mockr
+	pkgdesc = Mocking in R
+	pkgver = 0.2.2
+	pkgrel = 1
+	url = https://cran.r-project.org/package=mockr
+	arch = any
+	license = MIT
+	checkdepends = r-testthat
+	depends = r-rlang
+	depends = r-withr
+	optdepends = r-covr
+	optdepends = r-fs
+	optdepends = r-knitr
+	optdepends = r-pkgload
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	optdepends = r-usethis
+	source = https://cran.r-project.org/src/contrib/mockr_0.2.2.tar.gz
+	md5sums = e868940b792e0be140658c522c4d2bf9
+	b2sums = e08b7967c4721026646ac8fb875c99016793d4968d1c3a85710e56e69e3b08ef1ee829363429f25d915a842dc750e01a8d726dff239d7ac43d4d0a0af7d7164a
+
+pkgname = r-mockr

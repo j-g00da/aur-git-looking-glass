@@ -1,0 +1,19 @@
+pkgbase = adbenq-git
+	pkgdesc = General utility to manage your ANDROID TV. Tailored for BENQ TVs
+	pkgver = v0.2.4.r0.gc68a390
+	pkgrel = 1
+	url = https://github.com/Zarox28/ADBenQ
+	arch = any
+	license = AGPLv3
+	makedepends = git
+	depends = python
+	depends = python-pip
+	depends = pyside6
+	depends = scrcpy
+	depends = android-tools
+	depends = python-platformdirs
+	provides = adbenq
+	source = adbenq::git+https://github.com/Zarox28/ADBenQ
+	sha256sums = SKIP
+
+pkgname = adbenq-git

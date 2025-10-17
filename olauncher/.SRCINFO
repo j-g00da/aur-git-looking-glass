@@ -1,0 +1,24 @@
+pkgbase = olauncher
+	pkgdesc = A modified version of the old Minecraft Launcher supporting Microsoft authentication and more
+	pkgver = v1.7.3_03
+	pkgrel = 1
+	url = https://github.com/olauncher/olauncher
+	arch = any
+	license = custom
+	depends = glibc
+	depends = libx11
+	depends = freetype2
+	depends = glib2
+	depends = java-runtime
+	depends = opengl-driver
+	optdepends = flite: narrator support
+	source = https://github.com/olauncher/olauncher/releases/download/v1.7.3_03/olauncher-1.7.3_03-redist.jar
+	source = olauncher.desktop
+	source = https://launcher.mojang.com/download/minecraft-launcher.svg
+	source = olauncher
+	sha256sums = 6de83fc11450a5fbfe189774063c82a97d946456cf5cfcff46d52352aedce5fc
+	sha256sums = b6207c4b02733a3d8d2f7efbd3c59afab3292703b06e460eb93258c2d1d95240
+	sha256sums = 35c2bcaeb09fa4b8864e9422fd66bf60847706f8b4400ec4a66ba6436b101f71
+	sha256sums = 682d69dd417f3492de392d259f6a968bd9bdd0f5fa8bea64d69eeed6f25d8733
+
+pkgname = olauncher

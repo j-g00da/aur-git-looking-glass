@@ -1,0 +1,19 @@
+pkgbase = ttf-go-git
+	pkgver = r309.972c09e
+	pkgrel = 1
+	url = https://go.googlesource.com/image
+	install = ttf-go.install
+	arch = any
+	license = BSD
+	makedepends = git
+	depends = fontconfig
+	depends = xorg-mkfontscale
+	source = repo::git+https://go.googlesource.com/image
+	md5sums = SKIP
+
+pkgname = ttf-go-mono-git
+	pkgdesc = Monospace fonts from the Go font family
+
+pkgname = ttf-go-sans-git
+	pkgdesc = Sans-serif fonts from the Go font family
+

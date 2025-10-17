@@ -1,0 +1,19 @@
+pkgbase = python-mtable
+	pkgdesc = Format data to reStructedText and Markup Table
+	pkgver = 0.2.22
+	pkgrel = 1
+	url = https://github.com/liuyug/mtable
+	arch = any
+	license = BSD
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python
+	depends = python-wcwidth
+	depends = python-beautifulsoup4
+	depends = python-pandas
+	source = mtable-3aae491c5ffd93d3c9e23da53733cf15026a50cb.tar.gz::https://github.com/liuyug/mtable/archive/3aae491c5ffd93d3c9e23da53733cf15026a50cb.tar.gz
+	sha256sums = c0709196bde5f2503523d3fa9b937cb33cc07e11ba5d23397823375f05a455b8
+
+pkgname = python-mtable

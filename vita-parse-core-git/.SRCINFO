@@ -1,0 +1,21 @@
+pkgbase = vita-parse-core-git
+	pkgdesc = Sony PS Vita core dump parser
+	pkgver = 28.644b5f0
+	pkgrel = 1
+	url = https://github.com/xyzz/vita-parse-core
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = python
+	depends = python-pyelftools
+	depends = vitasdk
+	provides = vita-parse-core
+	conflicts = vita-parse-core
+	source = git+https://github.com/xyzz/vita-parse-core.git
+	source = 0001-Fixed-util.py.patch
+	source = main
+	sha256sums = SKIP
+	sha256sums = c36bc9d72c39ea271cc14f0c53907625ff26214f1b65783369f8d64e64f83541
+	sha256sums = 1c4a20233aeb0743dad1d8d3e2ee790fe60603baa1588df0625b5def2d2d0dd9
+
+pkgname = vita-parse-core-git

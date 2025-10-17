@@ -1,0 +1,27 @@
+pkgbase = bcu-git
+	pkgdesc = bcu (Board Control Utilities)
+	pkgver = 1.1.100.r5.ga3efbea
+	pkgrel = 1
+	url = https://github.com/nxp-imx/bcu
+	arch = x86_64
+	license = Custom
+	makedepends = cmake
+	makedepends = git
+	makedepends = ninja
+	depends = bzip2
+	depends = zlib
+	depends = confuse
+	depends = curl
+	depends = libftdi
+	depends = libyaml
+	depends = libusb
+	depends = libzip
+	depends = openssl
+	optdepends = mfgtools-git: uuu (Universal Update Utility), mfgtools 3.0. Freescale/NXP I.MX Chip image deploy tools.
+	provides = bcu
+	conflicts = bcu
+	options = !strip
+	source = bcu::git+https://github.com/nxp-imx/bcu.git
+	sha256sums = SKIP
+
+pkgname = bcu-git

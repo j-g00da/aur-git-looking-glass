@@ -1,0 +1,23 @@
+pkgbase = kanri-bin
+	pkgdesc = Modern offline Kanban board app using tauri
+	pkgver = 0.8.2
+	pkgrel = 1
+	url = https://github.com/kanriapp/kanri
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = binutils
+	depends = cairo
+	depends = desktop-file-utils
+	depends = gdk-pixbuf2
+	depends = glib2
+	depends = gtk3
+	depends = hicolor-icon-theme
+	depends = libsoup
+	depends = pango
+	depends = webkit2gtk-4.1
+	source = kanri_0.8.2.deb::https://github.com/kanriapp/kanri/releases/download/app-v0.8.2/kanri_0.8.2_amd64.deb
+	source = kanri-wrapper.sh
+	sha256sums = f3de8628500e57275d34644b7994b4ec3a5dfa956b8468fe676fb6e6d0ba6f15
+	sha256sums = 02d85b8954fe86c43b1d3b5567ee7683238a5c766d0b3d59b7ba0d5812f37906
+
+pkgname = kanri-bin

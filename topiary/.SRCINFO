@@ -1,0 +1,16 @@
+pkgbase = topiary
+	pkgdesc = The universal code formatter
+	pkgver = 0.6.1
+	pkgrel = 2
+	url = https://topiary.tweag.io/
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = glibc
+	depends = gcc-libs
+	options = !debug
+	options = !lto
+	source = topiary-0.6.1.tar.gz::https://github.com/tweag/topiary/archive/refs/tags/v0.6.1.tar.gz
+	sha256sums = e2bbac9cb46a3743cc41ca55245026580308722242c9df84bc0ef3cbb989aa81
+
+pkgname = topiary

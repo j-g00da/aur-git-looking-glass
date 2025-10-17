@@ -1,0 +1,22 @@
+pkgbase = python-orange-canvas-core
+	pkgdesc = Orange Canvas core workflow editor.
+	pkgver = 0.2.5
+	pkgrel = 2
+	url = https://orangedatamining.com
+	arch = x86_64
+	license = GPL3
+	makedepends = python-setuptools
+	depends = python-docutils
+	depends = python-anyqt
+	depends = python-pip
+	depends = python-requests
+	depends = python-cachecontrol
+	depends = python-dictdiffer
+	depends = python-commonmark
+	depends = python-lockfile
+	depends = python-qasync
+	depends = python-trubar
+	source = python-orange-canvas-core-0.2.5.tar.gz::https://github.com/biolab/orange-canvas-core/archive/0.2.5.tar.gz
+	sha256sums = 302768229eab2497bc900d7dcbedd913b6d6fa6c1d336593dbe3e19abc49cf53
+
+pkgname = python-orange-canvas-core

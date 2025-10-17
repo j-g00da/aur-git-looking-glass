@@ -1,0 +1,16 @@
+pkgbase = python-coqpit
+	pkgdesc = Simple (maybe too simple), light-weight config management through python data-classes.
+	pkgver = 0.0.17
+	pkgrel = 2
+	url = https://github.com/erogol/coqpit
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-pytest
+	depends = python
+	source = https://files.pythonhosted.org/packages/source/c/coqpit/coqpit-0.0.17.tar.gz
+	md5sums = eaee0592fe431142c8548ef868762274
+
+pkgname = python-coqpit

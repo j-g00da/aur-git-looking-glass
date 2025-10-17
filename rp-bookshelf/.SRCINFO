@@ -1,0 +1,26 @@
+pkgbase = rp-bookshelf
+	pkgdesc = Browser for Raspberry Pi Press publications in PDF format
+	pkgver = r137.53102fb
+	pkgrel = 1
+	url = https://github.com/raspberrypi-ui/bookshelf
+	arch = x86_64
+	arch = i686
+	arch = aarch64
+	license = BSD-3-Clause
+	makedepends = git
+	makedepends = sed
+	makedepends = coreutils
+	makedepends = meson
+	depends = glib2
+	depends = gtk3>=3.24
+	depends = libx11
+	depends = curl
+	depends = gdk-pixbuf2
+	depends = hicolor-icon-theme
+	depends = glibc
+	provides = rp-bookshelf
+	conflicts = rp-bookshelf-git
+	source = git+https://github.com/raspberrypi-ui/bookshelf.git#commit=53102fb6f4b0324cc89635f0ef58966c6b847a74
+	sha256sums = SKIP
+
+pkgname = rp-bookshelf

@@ -1,0 +1,22 @@
+pkgbase = lua-luaproc
+	pkgdesc = Concurrency programming library for Lua
+	pkgver = 1.0
+	pkgrel = 4
+	url = https://github.com/askyrme/luaproc
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = lua51
+	makedepends = lua52
+	makedepends = lua53
+	makedepends = luarocks
+	source = luaproc-1.0.tar.gz::https://github.com/askyrme/luaproc/archive/1.0-4.tar.gz
+	source = https://luarocks.org/manifests/askyrme/luaproc-1.0-4.rockspec
+	md5sums = c80b27a812b2b73faa07411fa8155a5f
+	md5sums = 140945b4b7d8ae8ff2151de84fe94c90
+
+pkgname = lua51-luaproc
+
+pkgname = lua52-luaproc
+
+pkgname = lua53-luaproc

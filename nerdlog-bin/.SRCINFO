@@ -1,0 +1,13 @@
+pkgbase = nerdlog-bin
+	pkgdesc = Nerdlog: fast, remote-first, multi-host TUI log viewer with timeline histogram and no central server
+	pkgver = 1.10.0
+	pkgrel = 1
+	url = https://github.com/dimonomid/nerdlog
+	arch = x86_64
+	license = BSD-2-Clause
+	depends = glibc
+	optdepends = libx11: clipboard support
+	source = https://github.com/dimonomid/nerdlog/releases/download/v1.10.0/nerdlog_1.10.0_linux_amd64.tar.gz
+	b2sums = 80f3a06719d231f1773b16d210f052f87eca3ac2560748a2f8ec00b208756e556b2c9be0963bbabd6fffc5071948499f07d47076e6232d7eb3413b955fb62297
+
+pkgname = nerdlog-bin

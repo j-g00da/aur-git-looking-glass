@@ -1,0 +1,14 @@
+pkgbase = xprobe2
+	pkgdesc = Active OS fingerprinting tool
+	pkgver = 0.3
+	pkgrel = 5
+	url = https://github.com/binarytrails/xprobe2/tree/master
+	arch = i686
+	arch = x86_64
+	license = GPL-2.0-only
+	depends = libpcap
+	backup = etc/xprobe2/xprobe2.conf
+	source = git+https://github.com/binarytrails/xprobe2.git#commit=f14af2e4f757d86b2a2acfec75c0f1768f44cecb
+	sha512sums = d058e1bb1ec1ece4cd56dc4d37b0b0e85b7e4af7c28a91f11b2b0feb81fc486c713d1b6b60831806def40aafb4b267555ea15cca32284f9af28603e5d66ccdaa
+
+pkgname = xprobe2

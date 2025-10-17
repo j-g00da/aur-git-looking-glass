@@ -1,0 +1,13 @@
+pkgbase = pcstat
+	pkgdesc = Utility to get page cache stats for files
+	pkgver = 0.0.2
+	pkgrel = 1
+	epoch = 1
+	url = https://github.com/tobert/pcstat
+	arch = x86_64
+	license = Apache-2.0
+	makedepends = go
+	source = https://github.com/tobert/pcstat/archive/refs/tags/v0.0.2.tar.gz
+	b2sums = 935f120668c1f208aaad01bfd808edfcd1113c22d7a3473e7ea531a6d793860ea5923098ce01a8d766e9545dda90aef1c197a4590fd2cb24f3c00e62a3678733
+
+pkgname = pcstat

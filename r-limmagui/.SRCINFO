@@ -1,0 +1,16 @@
+pkgbase = r-limmagui
+	pkgdesc = GUI for limma Package With Two Color Microarrays
+	pkgver = 1.84.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/limmaGUI
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-limma
+	depends = r-r2html
+	depends = r-tkrplot
+	depends = r-xtable
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/limmaGUI_1.84.0.tar.gz
+	sha256sums = 42f48ce58fff3db21e784bcdd19b3c24c564825adfb8feb352853c4ee3f93dca
+
+pkgname = r-limmagui

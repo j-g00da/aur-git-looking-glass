@@ -1,0 +1,19 @@
+pkgbase = hyprwat-bin
+	pkgdesc = Hyprwat - A Wayland menu tool
+	pkgver = 0.7.0
+	pkgrel = 1
+	url = https://github.com/zackb/hyprwat
+	arch = x86_64
+	license = MIT
+	depends = wayland
+	depends = mesa
+	depends = fontconfig
+	depends = libxkbcommon
+	depends = sdbus-cpp
+	depends = pipewire
+	provides = hyprwat
+	conflicts = hyprwat
+	source = https://github.com/zackb/hyprwat/releases/download/0.7.0/hyprwat-0.7.0.tar.gz
+	sha256sums = b0366eb1c754597ebdc9b898eb9bc56d9c263397084c7a35200c7f388c311857
+
+pkgname = hyprwat-bin

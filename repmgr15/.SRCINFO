@@ -1,0 +1,17 @@
+pkgbase = repmgr15
+	pkgdesc = repmgr is an open-source tool suite for managing replication and failover in a cluster of PostgreSQL 15 servers.
+	pkgver = 5.5.0
+	pkgrel = 1
+	url = https://repmgr.org/
+	install = repmgr15.install
+	arch = any
+	license = GPL
+	makedepends = autoconf
+	makedepends = postgresql15
+	makedepends = clang
+	makedepends = llvm
+	depends = postgresql15-libs
+	source = https://github.com/EnterpriseDB/repmgr/releases/download/v5.5.0/repmgr-5.5.0.tar.gz
+	sha1sums = c5633c351f3a0627a53ac1828ac7581ee74c7e0c
+
+pkgname = repmgr15

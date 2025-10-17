@@ -1,0 +1,16 @@
+pkgbase = python-django-stubs-ext
+	pkgdesc = Extensions and monkey-patching for django-stubs.
+	pkgver = 5.1.3
+	pkgrel = 1
+	url = https://github.com/typeddjango/django-stubs
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python-django
+	source = https://github.com/typeddjango/django-stubs/archive/refs/tags/5.1.3.tar.gz
+	sha256sums = 973155c0930c385a15a54d06df15188e1c787b21f99f18fa7c4a7d08c44a265a
+
+pkgname = python-django-stubs-ext

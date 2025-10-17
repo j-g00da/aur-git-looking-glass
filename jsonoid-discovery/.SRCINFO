@@ -1,0 +1,20 @@
+pkgbase = jsonoid-discovery
+	pkgdesc = Distributed JSON schema discovery
+	pkgver = 0.40.1
+	pkgrel = 1
+	url = https://github.com/dataunitylab/jsonoid-discovery
+	arch = any
+	license = MIT
+	makedepends = jdk11-openjdk
+	makedepends = pandoc
+	makedepends = sbt
+	depends = java-runtime
+	depends = sh
+	options = !debug
+	options = !strip
+	source = jsonoid-discovery-0.40.1.tar.gz::https://github.com/dataunitylab/jsonoid-discovery/archive/v0.40.1.tar.gz
+	source = jsonoid.sh
+	sha512sums = c5f788542e60b4e730d0cabf4f7c11349626f6fd3b175e61cf237b1db28b2962f1de72dc74dd14f14cb915e27422342700dfff224648d517f05880cc9d32cf7b
+	sha512sums = d496e686783c20addf51206e7c8ce5725fceff2816d8f3d5cf54b8bd322bb01d357e07d4103a4f09be1bd7e1ec77d8d6abf3d74cdfd74fc70d7610541e8e1b63
+
+pkgname = jsonoid-discovery

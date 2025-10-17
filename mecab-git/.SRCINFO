@@ -1,0 +1,18 @@
+pkgbase = mecab-git
+	pkgdesc = Yet another part-of-speech and morphological analyzer.
+	pkgver = r157.61b90ba
+	pkgrel = 1
+	url = https://taku910.github.io/mecab
+	arch = x86_64
+	license = BSD-3-Clause AND GPL-2.0-or-later AND LGPL-2.1-or-later
+	makedepends = git
+	makedepends = wget
+	depends = gcc-libs
+	depends = glibc
+	depends = sh
+	provides = mecab
+	conflicts = mecab
+	source = mecab-git::git+https://github.com/taku910/mecab.git
+	sha512sums = SKIP
+
+pkgname = mecab-git

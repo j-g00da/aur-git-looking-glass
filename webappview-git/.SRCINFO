@@ -1,0 +1,22 @@
+pkgbase = webappview-git
+	pkgdesc = Web application runner and source inspector for javascript and html files
+	pkgver = 0.0.1
+	pkgrel = 0
+	url = https://gitverse.ru/naierchou/webappview
+	arch = x86_64
+	license = GPL-3.0
+	makedepends = git
+	makedepends = go
+	makedepends = gtk3
+	makedepends = webkit2gtk
+	depends = go
+	depends = gtk3
+	depends = webkit2gtk
+	depends = bash
+	depends = lua
+	provides = webappview
+	conflicts = webappview
+	source = git+https://gitverse.ru/naierchou/webappview.git
+	sha256sums = SKIP
+
+pkgname = webappview-git

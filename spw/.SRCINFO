@@ -1,0 +1,14 @@
+pkgbase = spw
+	pkgdesc = spw - secure password generator
+	pkgver = 2.1
+	pkgrel = 1
+	url = https://gitlab.com/Plague_Doctor/spw
+	arch = any
+	license = GPL
+	makedepends = git
+	depends = python
+	source = spw::git+https://gitlab.com/Plague_Doctor/spw
+	validpgpkeys = A8F7858263C1E39480B731DCEAD4F103068DF8E5
+	sha256sums = SKIP
+
+pkgname = spw

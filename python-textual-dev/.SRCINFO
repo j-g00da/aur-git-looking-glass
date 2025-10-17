@@ -1,0 +1,24 @@
+pkgbase = python-textual-dev
+	pkgdesc = Development tools for working with Textual
+	pkgver = 1.7.0
+	pkgrel = 1
+	url = https://github.com/Textualize/textual-dev
+	arch = any
+	license = MIT
+	checkdepends = python-pytest-aiohttp
+	checkdepends = python-pytest-asyncio
+	checkdepends = python-time-machine
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-poetry-core
+	makedepends = python-wheel
+	depends = python-textual
+	depends = python-textual-serve
+	depends = python-aiohttp
+	depends = python-click
+	depends = python-msgpack
+	depends = python-typing_extensions
+	source = textual-dev-1.7.0.tar.gz::https://github.com/Textualize/textual-dev/archive/v1.7.0.tar.gz
+	sha512sums = a3c2e14a3305620bfedc5a3d5f39844b107881ac2cbd39657f9e60f442e4dafbb8da5cb9d605e7033c1ad5e1766ae5a0c8de5c95127cc90ae4ded19dcc5cc2a3
+
+pkgname = python-textual-dev

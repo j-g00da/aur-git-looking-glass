@@ -1,0 +1,16 @@
+pkgbase = r-rgmqllib
+	pkgdesc = java libraries to run GMQL scala API
+	pkgver = 1.28.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/RGMQLlib
+	arch = any
+	license = Artistic-2.0
+	depends = r
+	optdepends = r-biocstyle
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	source = https://bioconductor.org/packages/release/data/experiment/src/contrib/RGMQLlib_1.28.0.tar.gz
+	md5sums = 4239e78c53f27d0b1e336ddce84a5b24
+	b2sums = 1e63bb97bdd5c5e3722f151d4542a10154cdbd26b13a6d7e65381b3ae296065f2c615869819ad8dc2f8effaa948c72b27f42484a42e11093faa24cedbd032742
+
+pkgname = r-rgmqllib

@@ -1,0 +1,35 @@
+pkgbase = ratarmount
+	pkgdesc = Mount tar files via fusepy. Supports Recursive Mounting, Compressed Files, Read-Only Bind Mounting, Union Mounting and Write Overlays. A fast random access alternative to archivemount.
+	pkgver = 1.2.0
+	pkgrel = 1
+	url = https://github.com/mxmlnkn/ratarmount
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python>=3.9
+	depends = python-mfusepy
+	depends = python-rapidgzip
+	depends = python-indexed-gzip
+	depends = python-xz
+	depends = python-indexed-zstd
+	depends = python-rich
+	depends = python-rich-argparse
+	depends = fuse2>=2.9
+	depends = python-rarfile
+	depends = python-libarchive-c
+	optdepends = python-py7zr: Support for password-protected 7z archives.
+	optdepends = python-ext4: Support for EXT4 images.
+	optdepends = python-fsspec: Support for remote files.
+	optdepends = python-aiohttp: Support for http:// via fsspec.
+	optdepends = python-requests: Support for various web backends such as github:// via fsspec.
+	optdepends = python-s3fs: Support for s3:// via fsspec.
+	optdepends = python-smbprotocol: Support for smb:// via fsspec.
+	optdepends = python-webdav4: Support for webdav:// via fsspec.
+	conflicts = ratarmount-git
+	source = ratarmount-1.2.0.tar.gz::https://github.com/mxmlnkn/ratarmount/archive/refs/tags/v1.2.0.tar.gz
+	b2sums = 6b7bb6344a6a044048f457ee66d29364e31e9d42b86985fe74e00b8a6b54280c34cf375ca254563ea7d4cf553662f24e0524645c2feebb7759f6fb2358323d2b
+
+pkgname = ratarmount

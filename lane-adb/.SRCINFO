@@ -1,0 +1,16 @@
+pkgbase = lane-adb
+	pkgdesc = Launcher for Lane via adb and usb
+	pkgver = 1.1
+	pkgrel = 1
+	url = https://github.com/musdev13/lane-adb
+	arch = any
+	license = unknown
+	makedepends = git
+	depends = android-tools
+	depends = gnirehtet-bin
+	depends = scrcpy
+	depends = wget
+	source = lane-adb::git+https://github.com/musdev13/lane-adb.git
+	md5sums = SKIP
+
+pkgname = lane-adb

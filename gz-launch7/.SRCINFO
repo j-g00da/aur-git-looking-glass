@@ -1,0 +1,30 @@
+pkgbase = gz-launch7
+	pkgdesc = Run and manage programs and plugins.
+	pkgver = 7.1.1
+	pkgrel = 3
+	url = https://github.com/gazebosim/gz-launch
+	arch = any
+	license = Apache-2.0
+	makedepends = cmake
+	makedepends = doxygen
+	makedepends = gz-cmake=3
+	makedepends = libwebsockets
+	depends = gz-common=5
+	depends = gz-gui=8
+	depends = gz-math=7
+	depends = gz-msgs=10
+	depends = gz-plugin=2
+	depends = gz-sim=8
+	depends = gz-transport=13
+	depends = gz-utils=2
+	depends = qt5-base
+	depends = qt5-quickcontrols2
+	depends = tinyxml2
+	optdepends = libwebsockets: a websocket server for simulation
+	provides = gz-launch=7
+	source = https://github.com/gazebosim/gz-launch/archive/gz-launch7_7.1.1.tar.gz
+	source = https://github.com/gazebosim/gz-launch/pull/295.patch
+	sha256sums = dba949260bf399514aaaff12e98806edeb18f89e11643e12b221caa06a7dc1e0
+	sha256sums = 37069d666f130bc75339bb3568ae9668debac3997bd6857773087b888f049d7a
+
+pkgname = gz-launch7

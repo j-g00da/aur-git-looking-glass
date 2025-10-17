@@ -1,0 +1,23 @@
+pkgbase = libdbusmenu-qtilities-git
+	pkgdesc = Qt implementation of the DBusMenu protocol
+	pkgver = r367.bd5c6a3
+	pkgrel = 1
+	url = https://github.com/qtilities/libdbusmenu-qtilities
+	arch = i686
+	arch = x86_64
+	license = LGPL
+	makedepends = cmake
+	makedepends = doxygen
+	makedepends = git
+	source = git+https://github.com/qtilities/libdbusmenu-qtilities.git
+	sha512sums = SKIP
+
+pkgname = libdbusmenu-qtilities5-git
+	depends = qt5-base
+	provides = libdbusmenu-qtilities5
+	conflicts = libdbusmenu-qtilities5
+
+pkgname = libdbusmenu-qtilities6-git
+	depends = qt6-base
+	provides = libdbusmenu-qtilities6
+	conflicts = libdbusmenu-qtilities6

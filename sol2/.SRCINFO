@@ -1,0 +1,23 @@
+pkgbase = sol2
+	pkgdesc = C++ <-> Lua API wrapper with advanced features and top notch performance
+	pkgver = 3.5.0
+	pkgrel = 1
+	url = https://sol2.rtfd.io
+	arch = any
+	license = MIT
+	makedepends = python
+	makedepends = cmake
+	makedepends = git
+	optdepends = lua
+	optdepends = lua51
+	optdepends = lua53
+	optdepends = lua52
+	optdepends = luajit
+	provides = sol2
+	conflicts = sol2
+	source = sol2-3.5.0::https://github.com/ThePhD/sol2/archive/v3.5.0.tar.gz
+	sha512sums = 5a6ec7e16dae05ad6abea02842f62db8f64935eda438d67b2c264cbee80cee6d82200bd060387c6df837fe9f212dbe22b2772af34df1ce8bd43296dd9429558d
+
+pkgname = sol2
+
+pkgname = sol2-single

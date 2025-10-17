@@ -1,0 +1,38 @@
+#Maintainer: sukanka <su975853527 AT gmail.com>
+_pkgname=jaspDescriptives
+_pkgver=1.0
+pkgname=r-${_pkgname,,}
+pkgver=1.0
+pkgrel=1
+pkgdesc="Descriptives Module for JASP"
+arch=('any')
+url="https://github.com/jasp-stats/${_pkgname}"
+license=('GPL')
+depends=(r
+'r-dplyr'
+'r-forecast'
+'r-flexplot'
+'r-ggpp'
+'r-ggplot2'
+'r-ggrain'
+'r-ggrepel'
+'r-ggtext'
+'r-stringr'
+'r-jaspbase'
+'r-jaspgraphs'
+'r-jaspttests'
+)
+groups=(r-jasp r-jaspcommon)
+source=("${_pkgname}_${_pkgver}.tar.gz::${url}/archive/refs/tags/v${_pkgver}.tar.gz")
+sha256sums=('e82328f81c3e920308f72bec93555432cf45f93619cc991763babb565941e2dd')
+
+
+build() {
+
+  R CMD INSTALL ${_pkgname}_${_pkgver}.tar.gz -l "${srcdir}"
+}
+
+package() {
+  install -dm0755 "${pkgdir}/usr/lib/R/library"
+  cp -a --no-preserve=ownership "${_pkgname}" "${pkgdir}/usr/lib/R/library"
+}

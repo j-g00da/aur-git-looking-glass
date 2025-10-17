@@ -1,0 +1,32 @@
+pkgbase = perl-math-prime-util
+	pkgdesc = Math::Prime::Util - utilities related to prime numbers, including fast sieves and factoring (ntheory)
+	pkgver = 0.73.git
+	pkgrel = 10
+	url = https://metacpan.org/release/Math-Prime-Util
+	arch = i686
+	arch = x86_64
+	license = PerlArtistic
+	license = GPL
+	depends = glibc>=2.25
+	depends = perl>=5.6.2
+	depends = perl-math-prime-util-gmp>=0.52
+	optdepends = perl-math-bigint-gmp: for faster BigInt operations.
+	provides = perl-math-prime-util
+	provides = perl-math-prime-util-chacha
+	provides = perl-math-prime-util-ecaffinepoint
+	provides = perl-math-prime-util-ecprojectivepoint
+	provides = perl-math-prime-util-entropy
+	provides = perl-math-prime-util-memfree
+	provides = perl-math-prime-util-pp
+	provides = perl-math-prime-util-ppfe
+	provides = perl-math-prime-util-primalityproving
+	provides = perl-math-prime-util-primearray
+	provides = perl-math-prime-util-primeiterator
+	provides = perl-math-prime-util-randomprimes
+	provides = perl-math-prime-util-zetabigfloat
+	provides = perl-ntheory
+	options = !emptydirs
+	source = https://github.com/danaj/Math-Prime-Util/archive/a2306646f7ffdb2461b530624bb6ecc62073bc30.zip
+	b2sums = b893c6943ff7f5109ae3fb41fa93c0045ed09d3baaafeba2df82fdb97763792c15914ab8c64da467d1fba5b69f705795b76eca3c7daed556200ffd04da87fe10
+
+pkgname = perl-math-prime-util

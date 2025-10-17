@@ -1,0 +1,22 @@
+pkgbase = android-aarch64-libsoup3
+	pkgdesc = HTTP client/server library for GNOME (Android aarch64)
+	pkgver = 3.6.5
+	pkgrel = 1
+	url = https://wiki.gnome.org/Projects/libsoup
+	arch = any
+	groups = android-libsoup3
+	license = LGPL
+	makedepends = android-meson
+	makedepends = gobject-introspection
+	depends = android-aarch64-brotli
+	depends = android-aarch64-libnghttp2
+	depends = android-aarch64-libpsl
+	depends = android-aarch64-sqlite
+	options = !strip
+	options = !buildflags
+	options = staticlibs
+	options = !emptydirs
+	source = https://gitlab.gnome.org/GNOME/libsoup/-/archive/3.6.5/libsoup-3.6.5.tar.bz2
+	md5sums = 343595b48c2227b9ecd557b6c46bbb6d
+
+pkgname = android-aarch64-libsoup3

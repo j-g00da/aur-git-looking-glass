@@ -1,0 +1,16 @@
+pkgbase = h3
+	pkgdesc = Hexagonal hierarchical geospatial indexing system
+	pkgver = 4.3.0
+	pkgrel = 2
+	url = https://github.com/uber/h3
+	arch = x86_64
+	arch = x86_64_v3
+	license = Apache-2.0
+	makedepends = cmake
+	makedepends = make
+	makedepends = gcc
+	makedepends = libtool
+	source = h3-4.3.0.tar.gz::https://github.com/uber/h3/archive/refs/tags/v4.3.0.tar.gz
+	b2sums = b86905541bd5d94ad896ae3ee6e301556d2e54417045d37f0549b4c1c462d32869f55985f2986f3b99aa768731abfc3bc13b83ec506d73bcdcb57ada663d7714
+
+pkgname = h3

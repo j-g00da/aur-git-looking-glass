@@ -1,0 +1,18 @@
+pkgbase = ocaml-textutils_kernel
+	pkgdesc = The subset of ocaml-textutils using only core_kernel and working in javascript
+	pkgver = 0.16.0
+	pkgrel = 1
+	url = https://github.com/janestreet/textutils_kernel
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = dune>=2.0.0
+	depends = ocaml>=4.14.0
+	depends = ocaml-core>=0.16.0
+	depends = ocaml-ppx_jane>=0.16.0
+	depends = ocaml-uutf>=1.0.2
+	options = !strip
+	source = ocaml-textutils_kernel-0.16.0.tar.gz::https://github.com/janestreet/textutils_kernel/archive/v0.16.0.tar.gz
+	sha512sums = ea3323c3070ab531484c9ad7ca579fd25a3f9c96ef2a7aebdd824f4de027759d29d52039018a98fdc250159ec566b9c38638d3da7c44df490540076a0c11352f
+
+pkgname = ocaml-textutils_kernel

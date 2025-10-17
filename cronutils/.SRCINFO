@@ -1,0 +1,12 @@
+pkgbase = cronutils
+	pkgdesc = utilities to assist running batch processing jobs
+	pkgver = 1.10
+	pkgrel = 1
+	url = https://github.com/google/cronutils
+	arch = i686
+	arch = x86_64
+	license = Apache
+	source = https://github.com/google/cronutils/archive/version/1.10.tar.gz
+	md5sums = 0396401998d16b7130b38cce30c0cb55
+
+pkgname = cronutils

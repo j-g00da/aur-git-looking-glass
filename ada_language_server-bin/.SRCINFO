@@ -1,0 +1,18 @@
+pkgbase = ada_language_server-bin
+	pkgdesc = High performance syntactic and semantic engine for the Ada programming language
+	pkgver = 26.0.202507020
+	pkgrel = 1
+	url = https://github.com/AdaCore/ada_language_server
+	arch = x86_64
+	license = GPL3
+	makedepends = patchelf
+	depends = gmp
+	depends = glibc
+	depends = gcc-libs
+	provides = ada_language_server
+	conflicts = ada_language_server
+	conflicts = ada_language_server-git
+	source = https://github.com/AdaCore/ada_language_server/releases/download/26.0.202507020/als-26.0.202507020-linux-x64.tar.gz
+	b2sums = 32621cb8e92ada2e74369899663ca5e53215c2fd5839a576a582aeb9be0207b8c7625c1c49a749db0ecdeb066f2f03701462ef0d480cc6149033a24617b5ae31
+
+pkgname = ada_language_server-bin

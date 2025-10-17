@@ -1,0 +1,21 @@
+pkgbase = r-biobtreer
+	pkgdesc = Using biobtree tool from R
+	pkgver = 1.20.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/biobtreeR
+	arch = any
+	license = MIT
+	depends = r
+	depends = r-httpuv
+	depends = r-httr
+	depends = r-jsonlite
+	depends = r-stringi
+	optdepends = r-biocstyle
+	optdepends = r-knitr
+	optdepends = r-markdown
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/biobtreeR_1.20.0.tar.gz
+	sha256sums = 2ad4d6ff9805feea1849f488b19d261c29d8e2c98b11b75607c7150d26a9b139
+
+pkgname = r-biobtreer

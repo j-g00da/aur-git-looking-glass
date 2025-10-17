@@ -1,0 +1,151 @@
+pkgbase = elephant-bin
+	pkgdesc = general purpose datasource and executor
+	pkgver = 2.2.0
+	pkgrel = 1
+	url = https://github.com/abenz1267/elephant
+	arch = x86_64
+	license = GPL-3.0
+	depends = glibc
+	optdepends = elephant-providerlist: providerlist provider
+	optdepends = elephant-desktopapplications: desktopapplications provider
+	optdepends = elephant-archlinuxpkgs: archlinuxpkgs provider
+	optdepends = elephant-calc: calc provider
+	optdepends = elephant-clipboard: clipboard provider
+	optdepends = elephant-files: files provider
+	optdepends = elephant-menus: menus provider
+	optdepends = elephant-runner: runner provider
+	optdepends = elephant-symbols: symbols provider
+	optdepends = elephant-todo: todo provider
+	optdepends = elephant-unicode: unicode provider
+	optdepends = elephant-websearch: websearch provider
+	optdepends = elephant-bluetooth: bluetooth provider
+	provides = elephant
+	conflicts = elephant
+	source = LICENSE-2.2.0::https://raw.githubusercontent.com/abenz1267/elephant/v2.2.0/LICENSE
+	source = README-2.2.0.md::https://raw.githubusercontent.com/abenz1267/elephant/v2.2.0/README.md
+	sha256sums = 3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986
+	sha256sums = 0a8e339b754aa6874408fe0c9af777271c8be086d7ccfc2732c1cac84f7b4311
+	source_x86_64 = elephant-x86_64-2.2.0.tgz::https://github.com/abenz1267/elephant/releases/download/v2.2.0/elephant-linux-amd64.tar.gz
+	source_x86_64 = websearch-x86_64-2.2.0.tgz::https://github.com/abenz1267/elephant/releases/download/v2.2.0/websearch-linux-amd64.tar.gz
+	source_x86_64 = unicode-x86_64-2.2.0.tgz::https://github.com/abenz1267/elephant/releases/download/v2.2.0/unicode-linux-amd64.tar.gz
+	source_x86_64 = todo-x86_64-2.2.0.tgz::https://github.com/abenz1267/elephant/releases/download/v2.2.0/todo-linux-amd64.tar.gz
+	source_x86_64 = symbols-x86_64-2.2.0.tgz::https://github.com/abenz1267/elephant/releases/download/v2.2.0/symbols-linux-amd64.tar.gz
+	source_x86_64 = runner-x86_64-2.2.0.tgz::https://github.com/abenz1267/elephant/releases/download/v2.2.0/runner-linux-amd64.tar.gz
+	source_x86_64 = providerlist-x86_64-2.2.0.tgz::https://github.com/abenz1267/elephant/releases/download/v2.2.0/providerlist-linux-amd64.tar.gz
+	source_x86_64 = menus-x86_64-2.2.0.tgz::https://github.com/abenz1267/elephant/releases/download/v2.2.0/menus-linux-amd64.tar.gz
+	source_x86_64 = files-x86_64-2.2.0.tgz::https://github.com/abenz1267/elephant/releases/download/v2.2.0/files-linux-amd64.tar.gz
+	source_x86_64 = desktopapplications-x86_64-2.2.0.tgz::https://github.com/abenz1267/elephant/releases/download/v2.2.0/desktopapplications-linux-amd64.tar.gz
+	source_x86_64 = clipboard-x86_64-2.2.0.tgz::https://github.com/abenz1267/elephant/releases/download/v2.2.0/clipboard-linux-amd64.tar.gz
+	source_x86_64 = calc-x86_64-2.2.0.tgz::https://github.com/abenz1267/elephant/releases/download/v2.2.0/calc-linux-amd64.tar.gz
+	source_x86_64 = archlinuxpkgs-x86_64-2.2.0.tgz::https://github.com/abenz1267/elephant/releases/download/v2.2.0/archlinuxpkgs-linux-amd64.tar.gz
+	source_x86_64 = bluetooth-x86_64-2.2.0.tgz::https://github.com/abenz1267/elephant/releases/download/v2.2.0/bluetooth-linux-amd64.tar.gz
+	sha256sums_x86_64 = d45032e17eb5248b01e1df9e9a9065e67c632e56679c16b1b478128e5caadd8a
+	sha256sums_x86_64 = 7cfcfb8ac0e7d3bea58c0fcb82da2196a93610be2009dedfe02349c4026c0f10
+	sha256sums_x86_64 = c40b719b9d2abb7289b989d6bb73bfa816fd0aec26ba4c390b9f1ae94e18067a
+	sha256sums_x86_64 = 6a711912f9ffd720b6f0dac6659f8adf49be5042f749bddeabcc4dc560f66092
+	sha256sums_x86_64 = 35eac070dd5d2bf803490e93e00cfa1da01175c01091d8b3ef07a9e33c068240
+	sha256sums_x86_64 = 16b6addf17a85c3e65c9fbe71720095a617151f08cafba7c6f06d9a7e6298e4e
+	sha256sums_x86_64 = 81b77c5d8d2e78f164e5466711e6617e0393ff6324775f77f8fb88a039611674
+	sha256sums_x86_64 = ead9f0076dad07018689c8b24f889f9c558949a5a6b7463df0e45d0b0971c50a
+	sha256sums_x86_64 = efc18ac8ff424a82254fb654654a837ccb3cb4ea15e02c2f338c72a7e4f47ba2
+	sha256sums_x86_64 = a8cdda5a47128ed48fc1b4e4c6e88904c59bd61e53de6ea4d101c34bb46be8a0
+	sha256sums_x86_64 = 01c28b12f2edc334125e93067540ba2cdf72116b5734ed321a27e27d5573c2c9
+	sha256sums_x86_64 = e7031c1954360af0c3829cd4c9fdf443710ec629682771e6f619d96dc5c6c207
+	sha256sums_x86_64 = 3a70ef5c4c3d344fe5ff44bee43f60cad7d74d026741d058455d405988d6d707
+	sha256sums_x86_64 = 25dc33d81ebf6e3b86adefb5e241ee329d238bd96db481e70e89393d8cbf4f5a
+
+pkgname = elephant-bin
+
+pkgname = elephant-websearch-bin
+	pkgdesc = websearch provider for elephant
+	depends = glibc
+	depends = elephant
+	provides = elephant-websearch
+	conflicts = elephant-websearch
+
+pkgname = elephant-unicode-bin
+	pkgdesc = unicode provider for elephant
+	depends = glibc
+	depends = elephant
+	provides = elephant-unicode
+	conflicts = elephant-unicode
+
+pkgname = elephant-todo-bin
+	pkgdesc = todo provider for elephant
+	depends = glibc
+	depends = elephant
+	provides = elephant-todo
+	conflicts = elephant-todo
+
+pkgname = elephant-symbols-bin
+	pkgdesc = symbols provider for elephant
+	depends = glibc
+	depends = elephant
+	provides = elephant-symbols
+	conflicts = elephant-symbols
+
+pkgname = elephant-runner-bin
+	pkgdesc = runner provider for elephant
+	depends = glibc
+	depends = elephant
+	provides = elephant-runner
+	conflicts = elephant-runner
+
+pkgname = elephant-providerlist-bin
+	pkgdesc = providerlist provider for elephant
+	depends = glibc
+	depends = elephant
+	provides = elephant-providerlist
+	conflicts = elephant-providerlist
+
+pkgname = elephant-menus-bin
+	pkgdesc = menus provider for elephant
+	depends = glibc
+	depends = elephant
+	provides = elephant-menus
+	conflicts = elephant-menus
+
+pkgname = elephant-files-bin
+	pkgdesc = files provider for elephant
+	depends = glibc
+	depends = elephant
+	depends = fd
+	provides = elephant-files
+	conflicts = elephant-files
+
+pkgname = elephant-desktopapplications-bin
+	pkgdesc = desktopapplications provider for elephant
+	depends = glibc
+	depends = elephant
+	provides = elephant-desktopapplications
+	conflicts = elephant-desktopapplications
+
+pkgname = elephant-clipboard-bin
+	pkgdesc = clipboard provider for elephant
+	depends = glibc
+	depends = elephant
+	depends = wl-clipboard
+	provides = elephant-clipboard
+	conflicts = elephant-clipboard
+
+pkgname = elephant-calc-bin
+	pkgdesc = calc provider for elephant
+	depends = glibc
+	depends = elephant
+	depends = libqalculate
+	provides = elephant-calc
+	conflicts = elephant-calc
+
+pkgname = elephant-archlinuxpkgs-bin
+	pkgdesc = archlinuxpkgs provider for elephant
+	depends = glibc
+	depends = elephant
+	provides = elephant-archlinuxpkgs
+	conflicts = elephant-archlinuxpkgs
+
+pkgname = elephant-bluetooth-bin
+	pkgdesc = bluetooth provider for elephant
+	depends = glibc
+	depends = elephant
+	provides = elephant-bluetooth
+	conflicts = elephant-bluetooth

@@ -1,0 +1,12 @@
+pkgbase = xurls
+	pkgdesc = Extract urls from plain text
+	pkgver = 2.6.0
+	pkgrel = 1
+	url = https://github.com/mvdan/xurls
+	arch = x86_64
+	license = BSD-3-Clause
+	makedepends = go
+	source = xurls-2.6.0.tar.gz::https://github.com/mvdan/xurls/archive/refs/tags/v2.6.0.tar.gz
+	sha256sums = 476d92a0416fee965f928180a950691b85dbb8d11efc3dc7f795ecc106c76075
+
+pkgname = xurls

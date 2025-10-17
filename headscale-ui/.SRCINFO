@@ -1,0 +1,15 @@
+pkgbase = headscale-ui
+	pkgdesc = A ReactJS-based progressive web application for Shlink
+	pkgver = 2025.08.23
+	pkgrel = 1
+	url = https://github.com/gurucomputing/headscale-ui
+	install = headscale-ui.install
+	arch = any
+	license = MIT
+	makedepends = nodejs
+	makedepends = npm
+	optdepends = nginx: reverse-proxy
+	source = headscale-ui-2025.08.23.tar.gz::https://github.com/gurucomputing/headscale-ui/archive/refs/tags/2025.08.23.tar.gz
+	sha512sums = a2e2963be7c24274e40ff60e380cb50d519bb16f1e97232f5aafa18b0ea55886817792e722fdbda3f3aabe4f92e624e69df1745fd698e04f280cd95b42adeca1
+
+pkgname = headscale-ui

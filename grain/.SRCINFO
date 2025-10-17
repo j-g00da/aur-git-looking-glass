@@ -1,0 +1,15 @@
+pkgbase = grain
+	pkgdesc = A modern web staple. A new language that puts academic language features to work
+	pkgver = 0.7.0
+	pkgrel = 1
+	url = https://github.com/grain-lang/grain
+	arch = x86_64
+	license = LGPL3
+	makedepends = nodejs>=22.0.0
+	makedepends = npm
+	depends = gcc-libs
+	options = !strip
+	source = https://github.com/grain-lang/grain/archive/refs/tags/grain-v0.7.0.tar.gz
+	sha256sums = SKIP
+
+pkgname = grain

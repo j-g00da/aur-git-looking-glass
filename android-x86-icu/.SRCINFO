@@ -1,0 +1,20 @@
+pkgbase = android-x86-icu
+	pkgdesc = International Components for Unicode library (Android x86)
+	pkgver = 77.1
+	pkgrel = 3
+	url = https://icu.unicode.org/
+	arch = any
+	groups = android-icu
+	license = custom
+	makedepends = android-environment
+	makedepends = autoconf-archive
+	makedepends = patchelf
+	depends = android-ndk
+	options = !strip
+	options = !buildflags
+	options = staticlibs
+	options = !emptydirs
+	source = https://github.com/unicode-org/icu/releases/download/release-77-1/icu4c-77_1-src.tgz
+	md5sums = bc0132b4c43db8455d2446c3bae58898
+
+pkgname = android-x86-icu

@@ -1,0 +1,19 @@
+pkgbase = serina-bin
+	pkgdesc = GUI for create translation files for i18next.(Prebuilt version.Use system-wide electron)
+	pkgver = 0.4.0
+	pkgrel = 6
+	url = https://orn-fox.github.io/serina-1/
+	arch = x86_64
+	license = MIT
+	makedepends = gendesk
+	depends = electron24
+	depends = nodejs
+	provides = serina=0.4.0
+	conflicts = serina
+	options = !strip
+	source = serina-0.4.0.zip::https://github.com/ORN-Fox/serina-1/releases/download/R0.4.0/serina-0-4-0-linux-x64.zip
+	source = serina.sh
+	sha256sums = 69d3988f02868299b31f974d1d3774431998a14a18e6469be0675211d290b524
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = serina-bin

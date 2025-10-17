@@ -1,0 +1,14 @@
+pkgbase = creality-print
+	pkgdesc = 3D slicer for Creality printers
+	pkgver = 5.1.7.10514
+	pkgrel = 1
+	url = https://github.com/CrealityOfficial/CrealityPrint
+	arch = x86_64
+	license = unknown
+	depends = fuse2
+	provides = creality-print
+	options = !strip
+	source_x86_64 = Creality-Print-v5.1.7.10514-x86_64.AppImage::https://github.com/CrealityOfficial/CrealityPrint/releases/download/v5.1.7/Creality_Print-v5.1.7.10514-x86_64-Release.AppImage
+	sha512sums_x86_64 = 35e9bdaa2b39de036f73b0135e8286ae0eef8e6fc4b147a59449587959def27396eb00afa328d40c5578d9f658169067028a92c563e27d0d4991572091b71e0a
+
+pkgname = creality-print

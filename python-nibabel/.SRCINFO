@@ -1,0 +1,22 @@
+pkgbase = python-nibabel
+	pkgdesc = Package to access a cacophony of neuro-imaging file formats
+	pkgver = 5.3.2
+	pkgrel = 3
+	url = http://nipy.org/nibabel
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-hatch-vcs
+	makedepends = python-hatchling
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python-numpy
+	depends = python-pillow
+	depends = python-pydicom
+	depends = python-scipy
+	depends = python-six
+	source = nibabel-5.3.2.tar.gz::https://github.com/nipy/nibabel/archive/refs/tags/5.3.2.tar.gz
+	sha512sums = b06db6273947d1024380049b3353eabf086271ce7990dad937aac39057795cdf294bab5bc6b4fb2b23406278ff0287c8cfc10ea77d209c4292f34acbba08cd3e
+
+pkgname = python-nibabel

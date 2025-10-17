@@ -1,0 +1,21 @@
+pkgbase = godu-bin
+	pkgdesc = Simple golang utility helping to discover large files/folders.
+	pkgver = 1.5.2
+	pkgrel = 1
+	url = https://github.com/viktomas/godu
+	arch = x86_64
+	arch = i686
+	arch = aarch64
+	license = MIT
+	provides = godu
+	conflicts = godu
+	source = https://raw.githubusercontent.com/viktomas/godu/v1.5.2/LICENSE.md
+	sha256sums = fbbf1cc302e3112da5f11cafa5b0cb3894c41678fffe5129443fd0da52cd30d2
+	source_x86_64 = https://github.com/viktomas/godu/releases/download/v1.5.2/godu_1.5.2_linux_amd64.tar.gz
+	sha256sums_x86_64 = 17017e52f2b36aa41697ecf556c4f41a53e8fa34da49494aa2129d7384e8fec4
+	source_i686 = https://github.com/viktomas/godu/releases/download/v1.5.2/godu_1.5.2_linux_386.tar.gz
+	sha256sums_i686 = 7daf9d79dd7b4e60b4fe22bcf857af538f79d3049d3e100076e297dcaa1ddeea
+	source_aarch64 = https://github.com/viktomas/godu/releases/download/v1.5.2/godu_1.5.2_linux_arm64.tar.gz
+	sha256sums_aarch64 = 2a16dbea0e5ec66bfc5bbed55679ede5ce2b4c33ef782827f7d27b1d597f0e38
+
+pkgname = godu-bin

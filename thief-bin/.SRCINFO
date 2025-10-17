@@ -1,0 +1,17 @@
+pkgbase = thief-bin
+	pkgdesc = An innovative cross-platform fishing artifact that supports novels, stocks, web pages, videos, live broadcasts, PDFs, games, and other fishing modes.(Prebuilt version.Use system-wide electron)
+	pkgver = 4.0.0
+	pkgrel = 8
+	url = https://thief.im/
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = fuse2
+	depends = electron8
+	provides = thief=4.0.0
+	conflicts = thief
+	source = thief-4.0.0.AppImage::https://github.com/cteamx/Thief/releases/download/4.0.0/thief-4.0.0-linux64.AppImage
+	source = thief.sh
+	sha256sums = 500583196bd45cc23e611abaf113f9733edc3da0361b641171385ba7aaeed4fc
+	sha256sums = 291f50480f5a61bc9c68db7d44cd0412071128706baa868a9cb854f8779a1980
+
+pkgname = thief-bin

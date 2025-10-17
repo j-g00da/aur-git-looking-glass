@@ -1,0 +1,16 @@
+pkgbase = mlinpxplugin
+	pkgdesc = MyLibrary plugin for .inpx collections import
+	pkgver = 1.0.2
+	pkgrel = 2
+	url = https://github.com/ProfessorNavigator/mlinpxplugin
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = cmake
+	makedepends = pkgconf
+	makedepends = gcc
+	depends = mylibrary
+	provides = mlinpxplugin
+	source = https://github.com/ProfessorNavigator/mlinpxplugin/archive/refs/tags/v1.0.2.tar.gz
+	sha256sums = 212b08efdb0f986c48d74b38eceb41ccc7cdb577b819f47e647f5c7957b503d4
+
+pkgname = mlinpxplugin

@@ -1,0 +1,17 @@
+pkgbase = wmcpuload
+	pkgdesc = A WindowMaker dockapp to monitor CPU usage
+	pkgver = 1.1.1
+	pkgrel = 1
+	url = https://www.dockapps.net/wmcpuload
+	arch = i686
+	arch = x86_64
+	license = GPL-2.0-only
+	depends = glibc
+	depends = libx11
+	depends = libxext
+	depends = libxpm
+	options = !debug
+	source = https://www.dockapps.net/download/wmcpuload-1.1.1.tar.gz
+	md5sums = d8ab044256c7a1ee86fd31b566aa36b9
+
+pkgname = wmcpuload

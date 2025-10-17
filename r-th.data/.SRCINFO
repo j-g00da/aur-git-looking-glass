@@ -1,0 +1,26 @@
+pkgbase = r-th.data
+	pkgdesc = TH's Data Archive
+	pkgver = 1.1.4
+	pkgrel = 1
+	url = https://cran.r-project.org/package=TH.data
+	arch = any
+	license = GPL-3.0-only
+	depends = r
+	optdepends = r-atr
+	optdepends = r-coin
+	optdepends = r-colorspace
+	optdepends = r-dplyr
+	optdepends = r-gridextra
+	optdepends = r-knitr
+	optdepends = r-multcomp
+	optdepends = r-openxlsx
+	optdepends = r-plyr
+	optdepends = r-rms
+	optdepends = r-tram
+	optdepends = r-trtf
+	optdepends = r-vcd
+	source = https://cran.r-project.org/src/contrib/TH.data_1.1-4.tar.gz
+	md5sums = 14c93d658fe275e437416cff476bfa55
+	b2sums = 895772447c7594443e72754401dc4158b13e4313ff5865db618f30282c25b0a01b8fa80449fc0870ba8b7b70ea57e707d276338e39934d9a5a294c429d990c5f
+
+pkgname = r-th.data

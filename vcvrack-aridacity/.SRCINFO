@@ -1,0 +1,18 @@
+pkgbase = vcvrack-aridacity
+	pkgdesc = Aridacity VCV Rack modules
+	pkgver = 2.1.0
+	pkgrel = 1
+	url = https://github.com/cubeleco/aridacityVCV
+	arch = x86_64
+	arch = aarch64
+	groups = pro-audio
+	groups = vcvrack-plugins
+	license = BSD
+	makedepends = simde
+	makedepends = zstd
+	depends = gcc-libs
+	depends = vcvrack
+	source = vcvrack-aridacity-2.1.0.tar.gz::https://github.com/cubeleco/aridacityVCV/archive/refs/tags/2.1.0.tar.gz
+	sha256sums = 5c605c1e8f7a3e28c7d792c49c993ccc4c7fdc8616a9c525017c100afa1f319a
+
+pkgname = vcvrack-aridacity

@@ -1,0 +1,16 @@
+pkgbase = python-chibi-git
+	pkgdesc = wrapper to use git in python
+	pkgver = 0.2.0
+	pkgrel = 1
+	url = https://pypi.org/project/chibi-git/
+	arch = any
+	license = WTFPL
+	makedepends = python-setuptools
+	depends = python-chibi
+	depends = python-chibi-atlas
+	depends = python-chibi-command
+	depends = python
+	source = https://files.pythonhosted.org/packages/source/c/chibi_git/chibi_git-0.2.0.tar.gz
+	sha256sums = 443ceafd19dacb5dfef47af7ec2f64d89da702cbc9558bbb2ce2708f9ec57c62
+
+pkgname = python-chibi-git

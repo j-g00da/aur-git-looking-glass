@@ -1,0 +1,15 @@
+pkgbase = python-skyfield-data
+	pkgdesc = Minimal data files to work with python-skyfield
+	pkgver = 7.0.0
+	pkgrel = 1
+	url = https://github.com/brunobord/skyfield-data
+	arch = any
+	license = MIT
+	makedepends = python-pip
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	source = python-skyfield-data-v7.0.0.tar.gz::https://codeload.github.com/brunobord/skyfield-data/tar.gz/refs/tags/7.0.0
+	sha256sums = 509c46a99e409cd1049e5c598d4971398ae8280b2a79b68296f699f92684e994
+
+pkgname = python-skyfield-data

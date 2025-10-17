@@ -1,0 +1,16 @@
+pkgbase = snoot-game-bin
+	pkgdesc = Renpy visual novel parody of Goodbye Volcano High
+	pkgver = Patch13
+	pkgrel = 1
+	url = https://snootgame.xyz
+	arch = x86_64
+	license = AGPL,
+	license = custom:CC-BY-SA 4.0
+	options = !strip
+	options = !debug
+	source = snoot_game.desktop
+	source = https://snootgame.xyz/bin/SnootGame-Patch13-ChbabMaeMeung-linux.tar.bz2
+	b2sums = aee213241c80bf784935c802202898338065ff41b83f27e1bcea10b2cd314ce86d91a5c2c75a33c1c2e7e10f8dabfbc2ffe48b6f7bf2cf84bbcecd0726a2eda2
+	b2sums = 45755e4d4611c2e50082712fa4d4faf042a761a82f6ef14e8cfc68308f312eb8dd3fab287491e6cac68619e15ccfb9302c0fed82d8d959a5e8603f3910915dcb
+
+pkgname = snoot-game-bin

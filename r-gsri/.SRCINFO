@@ -1,0 +1,20 @@
+pkgbase = r-gsri
+	pkgdesc = Gene Set Regulation Index
+	pkgver = 2.56.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/GSRI
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-biobase
+	depends = r-fdrtool
+	depends = r-genefilter
+	depends = r-gseabase
+	depends = r-les
+	optdepends = r-hgu95av2.db
+	optdepends = r-limma
+	optdepends = r-parallel
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/GSRI_2.56.0.tar.gz
+	sha256sums = 395d0133d2fa8aa281b0f8b97af83e82a06d842502f65ce4a7e8a319d6ec3788
+
+pkgname = r-gsri

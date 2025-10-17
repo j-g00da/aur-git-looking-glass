@@ -1,0 +1,16 @@
+pkgbase = podcheck
+	pkgdesc = CLI tool to automate podman image updates. Selective, notifications, autoprune, no pre-pulling.
+	pkgver = 0.6.0
+	pkgrel = 1
+	url = https://github.com/sudo-kraken/podcheck
+	arch = any
+	license = GPL-3.0-only
+	depends = bash
+	depends = podman
+	depends = podman-compose
+	depends = jq
+	depends = regclient-regctl
+	source = podcheck-0.6.0.tar.gz::https://github.com/sudo-kraken/podcheck/archive/refs/tags/v0.6.0.tar.gz
+	sha256sums = 420b4eda119080d3287c1d3172c33e78fc01ebf24e0cd463b3a761d450c48b02
+
+pkgname = podcheck

@@ -1,0 +1,14 @@
+pkgbase = vhd2vl-git
+	pkgdesc = Translate synthesizable VHDL into Verilog 2001
+	pkgver = r138.79dfc88
+	pkgrel = 1
+	epoch = 1
+	url = http://doolittle.icarus.com/~larry/vhd2vl/
+	arch = x86_64
+	license = GPL-2.0-or-later
+	makedepends = git
+	depends = glibc
+	source = git+https://github.com/ldoolitt/vhd2vl.git
+	sha256sums = SKIP
+
+pkgname = vhd2vl-git

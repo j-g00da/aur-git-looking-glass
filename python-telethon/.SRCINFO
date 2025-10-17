@@ -1,0 +1,21 @@
+pkgbase = python-telethon
+	pkgdesc = Full-featured Telegram client library for Python 3
+	pkgver = 1.41.2
+	pkgrel = 1
+	url = https://github.com/LonamiWebs/Telethon
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	makedepends = python-build
+	makedepends = python-installer
+	depends = python-pyaes
+	depends = python-rsa
+	optdepends = python-cryptg: alternative crypto library
+	optdepends = python-pysocks: socks proxy support
+	optdepends = python-python-socks: socks proxy support
+	optdepends = python-hachoir: parse media metadata for uploading
+	optdepends = python-pillow: resize photos for uploading
+	source = https://files.pythonhosted.org/packages/source/T/Telethon/telethon-1.41.2.tar.gz
+	sha256sums = 300a3441df62668378626b46cafda346573e9ac296367182510756334d2bdc5e
+
+pkgname = python-telethon

@@ -1,0 +1,25 @@
+pkgbase = dolphin-megasync-git
+	pkgdesc = Upload your files to your Mega account from Dolphin file manager. (GIT Version)
+	pkgver = 5.11.1.0.g94fa31202
+	pkgrel = 1
+	url = https://mega.co.nz/sync
+	arch = x86_64
+	license = custom:MEGA
+	makedepends = extra-cmake-modules
+	makedepends = qt6-tools
+	makedepends = git
+	depends = gcc-libs
+	depends = glibc
+	depends = qt6-base
+	depends = kcoreaddons
+	depends = kio
+	depends = kwidgetsaddons
+	depends = megasync
+	depends = hicolor-icon-theme
+	provides = dolphin-megasync
+	conflicts = dolphin-megasync
+	options = !lto
+	source = git+https://github.com/meganz/MEGAsync.git
+	sha256sums = SKIP
+
+pkgname = dolphin-megasync-git

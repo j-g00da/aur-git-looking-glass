@@ -1,0 +1,24 @@
+pkgbase = thunar-volman-git
+	pkgdesc = Automatic management of removable drives and media for Thunar (git checkout)
+	pkgver = 4.20.0+11+gc6c47d7
+	pkgrel = 1
+	epoch = 1
+	url = https://docs.xfce.org/xfce/thunar/thunar-volman
+	arch = x86_64
+	arch = i686
+	arch = armv7h
+	arch = aarch64
+	groups = xfce4-goodies-git
+	license = GPL-2.0-or-later
+	makedepends = git
+	makedepends = meson
+	makedepends = xfce4-dev-tools
+	depends = thunar
+	depends = libxfce4ui>=4.21.0
+	depends = hicolor-icon-theme
+	provides = thunar-volman=4.20.0
+	conflicts = thunar-volman
+	source = thunar-volman::git+https://gitlab.xfce.org/xfce/thunar-volman
+	sha256sums = SKIP
+
+pkgname = thunar-volman-git

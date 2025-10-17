@@ -1,0 +1,20 @@
+pkgbase = python-bbpb-git
+        pkgdesc = A set of tools for working with encoded Protocol Buffers.
+        pkgver = r175.0eabe49
+        pkgrel = 1
+        url = https://github.com/nccgroup/blackboxprotobuf
+        arch = x86_64
+        license = MIT
+        makedepends = python-build
+        makedepends = python-installer
+        makedepends = python-setuptools
+        makedepends = python-wheel
+        makedepends = git
+        depends = python
+        depends = python-six
+        provides = python-bbpb
+        conflicts = python-bbpb
+        source = git+https://github.com/nccgroup/blackboxprotobuf.git
+        md5sums = SKIP
+
+pkgname = python-bbpb-git

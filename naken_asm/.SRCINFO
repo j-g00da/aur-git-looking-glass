@@ -1,0 +1,17 @@
+pkgbase = naken_asm
+	pkgdesc = Assembler for MSP430, dsPIC, ARM, MIPS, 65xx, 68000, 8051/8052, Atmel AVR8, and others
+	pkgver = 2024.11.03
+	pkgrel = 1
+	url = https://www.mikekohn.net/micro/naken_asm.php
+	arch = i686
+	arch = x86_64
+	license = GPL-3.0-or-later
+	depends = readline
+	depends = glibc
+	depends = gcc-libs
+	optdepends = python: used by some of the included scripts
+	conflicts = naken_asm-git
+	source = https://www.mikekohn.net/downloads/naken_asm/naken_asm-2024-11-03.tar.gz
+	b2sums = a25f146e2b85cee67f2bb065395df0b088a0414ffdaf87ea84913ca178d0e36120cefc2e021708eabe3699b30338ca6a36f33b42e1e8cc4a03fab7dbeb398a31
+
+pkgname = naken_asm

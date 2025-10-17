@@ -1,0 +1,25 @@
+pkgbase = monophony
+	pkgdesc = Linux app for streaming music from YouTube.
+	pkgver = 4.0.2
+	pkgrel = 1
+	url = https://gitlab.com/zehkira/monophony
+	arch = any
+	license = 0BSD
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = libadwaita
+	depends = python-brotli
+	depends = python-gobject
+	depends = python-mprisify
+	depends = python-mutagen
+	depends = python-pycryptodomex
+	depends = python-requests
+	depends = python-websockets
+	depends = python-ytmusicapi
+	depends = yt-dlp
+	source = https://gitlab.com/zehkira/monophony/-/archive/v4.0.2/monophony-v4.0.2.tar.gz
+	sha256sums = 2251184e3028d3add6332957eeac46789a8f0fde623e3b5d7d4765ddde0ed6f5
+
+pkgname = monophony

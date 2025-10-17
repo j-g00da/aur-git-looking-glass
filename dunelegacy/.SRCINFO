@@ -1,0 +1,21 @@
+pkgbase = dunelegacy
+	pkgdesc = Updated clone of Westood Studios' Dune2
+	pkgver = 0.98.5
+	pkgrel = 1
+	url = http://dunelegacy.sourceforge.net
+	changelog = dunelegacy.changelog
+	arch = i686
+	arch = x86_64
+	license = GPL-2.0-or-later
+	makedepends = git
+	makedepends = cmake
+	depends = sdl2_mixer
+	depends = sdl2_ttf
+	depends = xdg-utils
+	depends = hicolor-icon-theme
+	source = dunelegacy::git+https://git.code.sf.net/p/dunelegacy/code#commit=df3075e348413a3e7888125a86830517a966fd91
+	source = discord.patch
+	md5sums = SKIP
+	md5sums = fb0e143ffae552f5f8864b078e50ba64
+
+pkgname = dunelegacy

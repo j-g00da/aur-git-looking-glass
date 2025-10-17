@@ -1,0 +1,20 @@
+pkgbase = kopia-bin
+	pkgdesc = A cross-platform backup-tool with encryption, deduplication, compression and cloud support.
+	pkgver = 0.21.1
+	pkgrel = 1
+	url = https://github.com/kopia/kopia/
+	arch = x86_64
+	arch = aarch64
+	arch = armv7h
+	license = APACHE
+	optdepends = fuse3: Needed to mount Kopia snapshots on local filesystem
+	provides = kopia
+	conflicts = kopia
+	source_x86_64 = https://github.com/kopia/kopia/releases/download/v0.21.1/kopia_0.21.1_linux_amd64.deb
+	sha256sums_x86_64 = 48a8a8fc0f566071a0b85b19d5db644cd6f47dbbcf876fddb69d702ec5663ddf
+	source_aarch64 = https://github.com/kopia/kopia/releases/download/v0.21.1/kopia_0.21.1_linux_arm64.deb
+	sha256sums_aarch64 = 9ff9c68ae7645f5ceec286d6274b31935b1dbbc3accd6e6740feb88e9980ec8f
+	source_armv7h = https://github.com/kopia/kopia/releases/download/v0.21.1/kopia_0.21.1_linux_armhf.deb
+	sha256sums_armv7h = afb50c61f64f4e0eebb6df1417337b25639a9dcdd87c8c2a8cac8246056e2acc
+
+pkgname = kopia-bin

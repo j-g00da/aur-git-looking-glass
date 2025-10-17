@@ -1,0 +1,16 @@
+pkgbase = tragediy-git
+	pkgdesc = Generate printable tracks for Anki (Over)Drive vehicles
+	pkgver = 0.1.0.r34.20241209
+	pkgrel = 1
+	url = https://github.com/OpenHelios/tragediy
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = cmake
+	makedepends = gcc
+	makedepends = boost
+	depends = boost-libs
+	source = tragediy-git::git+https://github.com/OpenHelios/tragediy.git
+	md5sums = SKIP
+
+pkgname = tragediy-git

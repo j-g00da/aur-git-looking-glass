@@ -1,0 +1,15 @@
+pkgbase = btspk
+	pkgdesc = Commandline utility to easily connect bluetooth audio devices.
+	pkgver = 1.2.9
+	pkgrel = 1
+	url = https://github.com/teegre/btspk
+	arch = any
+	license = GPL
+	depends = bash
+	depends = bluez-tools
+	depends = bluez-utils
+	depends = coreutils
+	source = https://github.com/teegre/btspk/archive/refs/tags/1.2.9.tar.gz
+	sha256sums = 811a2be0ab15f0c22205241c7ae226dba279e845547ceaae71479278743dda9a
+
+pkgname = btspk

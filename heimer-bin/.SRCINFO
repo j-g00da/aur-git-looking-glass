@@ -1,0 +1,15 @@
+pkgbase = heimer-bin
+	pkgdesc = A simple cross-platform mind map, diagram, and note-taking tool written in Qt.(Prebuilt version)
+	pkgver = 4.5.0
+	pkgrel = 2
+	url = https://github.com/juzzlin/Heimer
+	arch = x86_64
+	license = GPL-3.0-only
+	depends = qt6-base
+	depends = qt6-svg
+	provides = heimer=4.5.0
+	conflicts = heimer
+	source = heimer-4.5.0.deb::https://github.com/juzzlin/Heimer/releases/download/4.5.0/heimer-4.5.0-ubuntu-24.04_amd64.deb
+	sha256sums = 549b6a9bb3bd3a61ed5ff50c39b33e273611b8b88e8e776ff1fcda098754ede5
+
+pkgname = heimer-bin

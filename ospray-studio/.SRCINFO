@@ -1,0 +1,20 @@
+pkgbase = ospray-studio
+	pkgdesc = A visualization application that leverages Intel OSPRay as its core rendering engine
+	pkgver = 1.1.0
+	pkgrel = 0
+	url = https://www.ospray.org/ospray_studio
+	arch = x86_64
+	license = Apache
+	makedepends = cmake
+	depends = glfw
+	depends = ospray
+	depends = openimagedenoise
+	depends = openimageio
+	depends = python
+	depends = intel-oneapi-tbb
+	depends = draco
+	provides = ospray-studio=1.1.0
+	source = https://github.com/ospray/ospray_studio/archive/v1.1.0.tar.gz
+	sha256sums = 68309ae22cbc7341b2fafd899ae2e882b7a3732df939e8fd10c5e97232a2fa92
+
+pkgname = ospray-studio

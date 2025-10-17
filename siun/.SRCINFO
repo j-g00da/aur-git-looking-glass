@@ -1,0 +1,15 @@
+pkgbase = siun
+	pkgdesc = siun stands for, and tries to answer, the question Should I upgrade now?
+	pkgver = 1.5.1
+	pkgrel = 1
+	url = https://github.com/t4k1t/siun
+	arch = any
+	license = MIT
+	makedepends = uv
+	depends = python-click
+	depends = python-pydantic
+	provides = siun
+	source = https://github.com/t4k1t/siun/archive/refs/tags/v1.5.1.tar.gz
+	b2sums = 16442225e86f897003cc34ebe864fdd44858e88736a2d0c8ee10b3a249f6eac74ffb08f6103577b2326c7ed8ba649714c21d11de45cd29050bdc2af58efaabb2
+
+pkgname = siun

@@ -1,0 +1,12 @@
+pkgbase = mongodb-atlas-cli-bin
+	pkgdesc = MongoDB Atlas CLI
+	pkgver = 1.49.0
+	pkgrel = 1
+	url = https://www.mongodb.com/products/tools/atlas-cli
+	arch = x86_64
+	license = Apache-2.0
+	options = !debug
+	source = https://fastdl.mongodb.org/mongocli/mongodb-atlas-cli_1.49.0_linux_x86_64.tar.gz
+	b2sums = 0e3bf9b199b6c7304c47956787d66b88e40d1f29fc10fdf640ea878faeebb48da05fd162cfcaac0fb861e2bfaba53c8d2a49dd1ec5fe698bcad0031c1260a5ef
+
+pkgname = mongodb-atlas-cli-bin

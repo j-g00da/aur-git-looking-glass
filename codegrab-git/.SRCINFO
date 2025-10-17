@@ -1,0 +1,15 @@
+pkgbase = codegrab-git
+	pkgdesc = CLI and TUI for selecting and bundling code into a single, LLM-ready output file
+	pkgver = r68.39cea2c
+	pkgrel = 1
+	url = https://github.com/epilande/codegrab
+	arch = x86_64
+	license = MIT
+	makedepends = go
+	makedepends = git
+	provides = codegrab
+	conflicts = codegrab
+	source = git+https://github.com/epilande/codegrab.git
+	sha256sums = SKIP
+
+pkgname = codegrab-git

@@ -1,0 +1,19 @@
+pkgbase = ckan-git
+	pkgdesc = A metadata repository and associated tools for searching, installing, and managing mods for Kerbal Space Program (KSP)
+	pkgver = 1.36.0.r247.g99ebf468
+	pkgrel = 1
+	url = https://github.com/KSP-CKAN/CKAN
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = mono-msbuild
+	makedepends = dotnet-sdk-8.0
+	depends = mono
+	provides = ckan
+	conflicts = ckan
+	source = git+https://github.com/KSP-CKAN/CKAN
+	source = ckan
+	sha256sums = SKIP
+	sha256sums = 80d9c6d68d6bd226954d4fa8081d0adb0c58acd1047cea5bbbaf601ad30a129e
+
+pkgname = ckan-git

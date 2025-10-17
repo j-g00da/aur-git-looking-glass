@@ -1,0 +1,14 @@
+pkgbase = epson-inkjet-printer-201210j
+	pkgdesc = Epson inkjet printer driver (EP-775A, EP-775AW)
+	pkgver = 1.0.1
+	pkgrel = 1
+	url = https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+	arch = x86_64
+	license = custom:Epson End User Software License Agreement
+	depends = epson-inkjet-printer-filter
+	depends = gcc-libs
+	depends = glibc
+	source = https://download3.ebz.epson.net/dsc/f/03/00/15/68/63/f8ac1111d1a1ab2643cb2bda8d71342fed084023/epson-inkjet-printer-201210j-1.0.1-1.src.rpm
+	sha256sums = 3200e89b33007a71c63d87ce6a744a12af90aff9a1bdbff18dd14ad0bea05786
+
+pkgname = epson-inkjet-printer-201210j

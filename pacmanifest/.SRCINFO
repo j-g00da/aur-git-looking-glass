@@ -1,0 +1,12 @@
+pkgbase = pacmanifest
+	pkgdesc = A declarative alternative frontend for libalpm
+	pkgver = 1.4.1
+	pkgrel = 1
+	url = https://codeberg.org/GrantMoyer/pacmanifest
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = cargo
+	source = git+https://codeberg.org/GrantMoyer/pacmanifest.git#tag=v1.4.1
+	sha256sums = 81a612a8ba0f4943705e230f01b1a0bd524ab9d4066008e79153c85bba885d6e
+
+pkgname = pacmanifest

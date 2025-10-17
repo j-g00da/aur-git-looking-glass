@@ -1,0 +1,11 @@
+pkgbase = aur-pyzdl-git
+	pkgdesc = Doom launcher in Python
+	pkgver = 1.0.0
+	pkgrel = 1
+	arch = x86_64
+	license = MIT
+	depends = python-wxpython
+	source = git+https://github.com/drproteus/pyzdl.git
+	sha512sums = SKIP
+
+pkgname = pyzdl

@@ -1,0 +1,22 @@
+pkgbase = android-aarch64-pocl
+	pkgdesc = Portable OpenCL is an open-source implementation of OpenCL which can be easily adapted for new targets (Android aarch64)
+	pkgver = 7.0
+	pkgrel = 1
+	url = http://portablecl.org/
+	arch = any
+	groups = android-pocl
+	license = GPL
+	makedepends = android-cmake
+	makedepends = android-aarch64-opencl-headers
+	makedepends = android-aarch64-ocl-icd
+	makedepends = python
+	depends = android-aarch64-hwloc
+	depends = android-aarch64-opencl-icd-loader
+	options = !strip
+	options = !buildflags
+	options = staticlibs
+	options = !emptydirs
+	source = https://github.com/pocl/pocl/archive/v7.0.tar.gz
+	md5sums = befc20fc6bbf42c892dbc3a075155480
+
+pkgname = android-aarch64-pocl

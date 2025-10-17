@@ -1,0 +1,18 @@
+pkgbase = python-uritools
+	pkgdesc = URI parsing, classification and composition
+	pkgver = 5.0.0
+	pkgrel = 2
+	url = https://github.com/tkem/uritools
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	makedepends = python-sphinx
+	depends = python
+	source = python-uritools-5.0.0.tar.gz::https://github.com/tkem/uritools/archive/v5.0.0.tar.gz
+	sha512sums = 6d73a5b0e4fadad62797b7644ace613add5e8957d715ddb3c64062b7b981177daefd6f3693588679b4f575b96b3f42c3bd8cccbc01f8573b823dd2d8d349547b
+
+pkgname = python-uritools

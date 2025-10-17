@@ -1,0 +1,22 @@
+pkgbase = vapoursynth-tools-getnative-git
+	pkgdesc = Tool for Vapoursynth: getnative (GIT version)
+	pkgver = 3.2.1.2.g720c395
+	pkgrel = 1
+	url = https://github.com/Infiziert90/getnative
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = python-build
+	makedepends = python-wheel
+	makedepends = python-installer
+	makedepends = python-setuptools
+	depends = python-matplotlib
+	depends = vapoursynth-plugin-descale
+	depends = vapoursynth-plugin-ffms2
+	depends = vapoursynth-plugin-lsmashsource
+	provides = vapoursynth-tools-getnative
+	conflicts = vapoursynth-tools-getnative
+	source = getnative::git+https://github.com/Infiziert90/getnative.git
+	sha256sums = SKIP
+
+pkgname = vapoursynth-tools-getnative-git

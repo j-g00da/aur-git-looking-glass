@@ -1,0 +1,19 @@
+pkgbase = ochami-bin
+	pkgdesc = Command line interface for OpenCHAMI services
+	pkgver = 0.5.5
+	pkgrel = 1
+	url = https://github.com/OpenCHAMI/ochami
+	license = MIT
+	optdepends = bash-completion: for bash completion support
+	optdepends = jq: for pretty-printing JSON
+	optdepends = zsh-completions: for zsh completion support
+	conflicts = ochami-git
+	provides = ochami
+	arch = aarch64
+	source_aarch64 = https://github.com/OpenCHAMI/ochami/releases/download/v0.5.5/ochami_Linux_arm64.tar.gz
+	sha256sums_aarch64 = 0b5253f73bf1f1c7bdc05c0f1ead474fb6015b44dfca8cef74f48f4023ac5e5f
+	arch = x86_64
+	source_x86_64 = https://github.com/OpenCHAMI/ochami/releases/download/v0.5.5/ochami_Linux_x86_64.tar.gz
+	sha256sums_x86_64 = 99afe111ca141d8a45956728c8ee08716539bebe35e3a28af9316d822c7f112e
+	
+pkgname = ochami-bin

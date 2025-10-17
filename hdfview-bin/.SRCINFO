@@ -1,0 +1,15 @@
+pkgbase = hdfview-bin
+	pkgdesc = a GUI browser for reading hdf5 files - prebuilt binaries from the HDF group
+	pkgver = 3.3.2
+	pkgrel = 2
+	url = https://github.com/HDFGroup/hdfview/
+	arch = x86_64
+	license = custom
+	provides = hdfview
+	conflicts = hdfview-beta
+	conflicts = hdfview
+	replaces = hdfview-beta
+	source = https://github.com/HDFGroup/hdfview/releases/download/v3.3.2/HDFView-3.3.2-Linux-x86_64.tar.gz
+	sha512sums = 444101f4cb77a1b94477852dab52163c08fc3f6be23cbfd46efdf0f2572a5df3067b9db91b4afdd90d95eb42526c6491d23d9c1859a088c17132834965ba2924
+
+pkgname = hdfview-bin

@@ -1,0 +1,25 @@
+pkgbase = aaaaxy
+	pkgdesc = A nonlinear puzzle platformer taking place in impossible spaces
+	pkgver = 1.6.301
+	pkgrel = 1
+	url = https://github.com/divVerent/aaaaxy
+	arch = x86_64
+	license = Apache
+	makedepends = go
+	makedepends = libxcursor
+	makedepends = libxinerama
+	makedepends = libxi
+	makedepends = libxrandr
+	makedepends = make
+	makedepends = strip-nondeterminism
+	makedepends = zip
+	depends = alsa-lib
+	depends = hicolor-icon-theme
+	depends = libglvnd
+	depends = libx11
+	source = aaaaxy-1.6.301.tar.gz::https://github.com/divVerent/aaaaxy/archive/refs/tags/v1.6.301.tar.gz
+	source = https://github.com/divVerent/aaaaxy/releases/download/v1.6.301/sdl-gamecontrollerdb-for-aaaaxy-v1.6.301.zip
+	sha256sums = 2079ffd4c3432668923297c740a316216d115cf0b66114cd79e3482191ad8f3e
+	sha256sums = cc25b661226aff9604323df34322b9d5b0770821b2d2a2e74d8def0dcc9e2fab
+
+pkgname = aaaaxy

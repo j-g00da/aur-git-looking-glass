@@ -1,0 +1,40 @@
+pkgbase = gnome-software-plugin-snap
+	pkgdesc = Snap support for GNOME Software
+	pkgver = 49.1
+	pkgrel = 2
+	url = https://apps.gnome.org/Software
+	arch = x86_64
+	groups = gnome
+	license = GPL-2.0-or-later
+	makedepends = appstream
+	makedepends = docbook-xsl
+	makedepends = flatpak
+	makedepends = fwupd
+	makedepends = gdk-pixbuf2
+	makedepends = git
+	makedepends = glib2-devel
+	makedepends = gobject-introspection
+	makedepends = gsettings-desktop-schemas
+	makedepends = gtk-doc
+	makedepends = gtk4
+	makedepends = itstool
+	makedepends = json-glib
+	makedepends = libadwaita
+	makedepends = libglib-testing
+	makedepends = libgudev
+	makedepends = libsoup3
+	makedepends = libsysprof-capture
+	makedepends = libxmlb
+	makedepends = malcontent
+	makedepends = meson
+	depends = snapd
+	depends = snapd-glib
+	source = git+https://gitlab.gnome.org/GNOME/gnome-software.git#tag=49.1
+	source = git+https://gitlab.gnome.org/mwleeds/gnome-pwa-list.git
+	source = install_only_snap_plugin.patch
+	b2sums = 594b4459c23ac67dfe89a06ab626d182751b9b9fd9fa4859cabc9439521ef095b24d242f6f4e3a229b58e5ef856f0a6f84e610be5b978036b6abf84e00bc5743
+	b2sums = SKIP
+	b2sums = 07639c42c37508bed90f1979e5a875c654fd8b2aa0abd974bd22adc83f0a5b8c79b09245fbba73c35bc2c161c638758e6ae0aa46c570cba03979913d9817c7a2
+
+pkgname = gnome-software-plugin-snap
+	depends = gnome-software=49.1

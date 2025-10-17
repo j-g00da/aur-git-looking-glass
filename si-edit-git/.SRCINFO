@@ -1,0 +1,20 @@
+pkgbase = si-edit-git
+        pkgdesc = Tools for working with SI files from LEGO Island.
+        pkgver = continuous.r5.g6da93b2
+        pkgrel = 1
+        url = https://github.com/isledecomp/SIEdit
+        arch = i686
+        arch = x86_64
+        license = GPLv3
+        makedepends = git
+        makedepends = make
+        makedepends = cmake
+        depends = qt6-base
+        depends = qt6-tools
+        depends = qt6-multimedia
+        depends = ffmpeg
+        depends = gcc
+        source = git+https://github.com/isledecomp/SIEdit.git
+        md5sums = SKIP
+
+pkgname = si-edit-git

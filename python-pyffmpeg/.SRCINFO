@@ -1,0 +1,17 @@
+pkgbase = python-pyffmpeg
+	pkgdesc = FFmpeg wrapper for Python
+	pkgver = 2.5.2.1
+	pkgrel = 1
+	url = https://github.com/deuteronomy-works/pyffmpeg
+	arch = any
+	license = Apache-2.0
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = ffmpeg
+	depends = python
+	source = https://github.com/deuteronomy-works/pyffmpeg/archive/v2.5.2.1/pyffmpeg-2.5.2.1.tar.gz
+	sha256sums = 66b9e96cbaab3a9e46b0bcbb3c409049a468adffaf7c0ec8981c71728b090b84
+
+pkgname = python-pyffmpeg

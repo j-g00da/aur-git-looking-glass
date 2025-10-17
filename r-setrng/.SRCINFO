@@ -1,0 +1,13 @@
+pkgbase = r-setrng
+	pkgdesc = Set (Normal) Random Number Generator and Seed
+	pkgver = 2024.2.1
+	pkgrel = 1
+	url = https://cran.r-project.org/package=setRNG
+	arch = any
+	license = GPL-2.0-only OR LicenseRef-setRNG
+	depends = r
+	source = https://cran.r-project.org/src/contrib/setRNG_2024.2-1.tar.gz
+	md5sums = 0360795dcce8779f150ed6eefacf04b7
+	b2sums = 08b3d0ac7b6eb0241dc4c8da806e08d12012589cecbfe523a7f412ff0b90bf3962a613ad8b4f757e9699d42b21ba43c65c8e0044d123895fce0de97812d1170d
+
+pkgname = r-setrng

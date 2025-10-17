@@ -1,0 +1,18 @@
+pkgbase = tree-sitter-swift-git
+	pkgdesc = Swift grammar for tree-sitter
+	pkgver = 1.r0.g7427230
+	pkgrel = 1
+	url = https://github.com/alex-pinkus/tree-sitter-swift
+	arch = x86_64
+	groups = tree-sitter-grammars
+	license = MIT
+	makedepends = git
+	makedepends = npm
+	makedepends = tree-sitter-cli
+	depends = tree-sitter
+	provides = tree-sitter-swift
+	conflicts = tree-sitter-swift
+	source = git+https://github.com/alex-pinkus/tree-sitter-swift.git
+	sha256sums = SKIP
+
+pkgname = tree-sitter-swift-git

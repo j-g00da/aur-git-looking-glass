@@ -1,0 +1,34 @@
+pkgbase = python-transformers
+	pkgdesc = State-of-the-art Natural Language Processing for Jax, PyTorch and TensorFlow
+	pkgver = 4.56.2
+	pkgrel = 1
+	url = https://github.com/huggingface/transformers
+	arch = any
+	license = Apache-2.0
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python-filelock
+	depends = python-huggingface-hub>=1:0.30.0
+	depends = python-numpy
+	depends = python-packaging
+	depends = python-regex
+	depends = python-requests
+	depends = python-safetensors
+	depends = python-tokenizers>=0.22.0
+	depends = python-tqdm
+	depends = python-yaml
+	optdepends = python-bitsandbytes: 8-bit support for PyTorch
+	optdepends = python-flax: JAX support
+	optdepends = python-keras: Support for models in Keras 3
+	optdepends = python-onnxconverter-common: TensorFlow support
+	optdepends = python-pytorch: PyTorch support
+	optdepends = python-tensorflow: TensorFlow support
+	optdepends = python-tf-keras: Support for models in Keras 2 (e.g. BART)
+	optdepends = python-tf2onnx: TensorFlow support
+	optdepends = python-hf-xet: xethub support
+	source = python-transformers-4.56.2.tar.gz::https://github.com/huggingface/transformers/archive/refs/tags/v4.56.2.tar.gz
+	sha256sums = 28ecaa54619a297f71087cb2ef0c1e5a2bbbd48b4866d11422a9d0a209da462c
+
+pkgname = python-transformers

@@ -1,0 +1,30 @@
+#Maintainer: sukanka <su975853527 AT gmail.com>
+_pkgname=jaspTimeSeries
+_pkgver=0.95.3
+pkgname=r-${_pkgname,,}
+pkgver=0.95.3
+pkgrel=1
+pkgdesc="A Time Series module for JASP"
+arch=('any')
+url="https://github.com/jasp-stats/${_pkgname}"
+license=('GPL')
+depends=(
+  r
+  r-forecast
+  r-jaspbase
+  r-jaspdescriptives
+  r-jaspgraphs
+)
+groups=(r-jasp r-jaspextra)
+source=("${_pkgname}_${_pkgver}.tar.gz::${url}/archive/refs/tags/v${_pkgver}.tar.gz")
+sha256sums=('8ecbb7ca661ce3cc9ceb1b45cc37b40cf6004202e0ea4bd2f882579e655d616d')
+
+
+build() {
+  R CMD INSTALL ${_pkgname}_${_pkgver}.tar.gz -l "${srcdir}"
+}
+
+package() {
+  install -dm0755 "${pkgdir}/usr/lib/R/library"
+  cp -a --no-preserve=ownership "${_pkgname}" "${pkgdir}/usr/lib/R/library"
+}

@@ -1,0 +1,24 @@
+pkgbase = leaderf-git
+	pkgdesc = An efficient fuzzy finder that helps to locate files, buffers, mrus, gtags, etc. on the fly for both vim and neovim.
+	pkgver = 1.22.r48.g312a13b
+	pkgrel = 1
+	url = https://github.com/Yggdroot/LeaderF
+	arch = any
+	license = Apache
+	makedepends = git
+	makedepends = python
+	source = leaderf::git+https://github.com/Yggdroot/LeaderF.git
+	sha256sums = SKIP
+
+pkgname = vim-leaderf-git
+	depends = vim
+	depends = python
+	provides = vim-leaderf
+	conflicts = vim-leaderf
+
+pkgname = neovim-leaderf-git
+	depends = neovim
+	depends = python-pynvim
+	provides = neovim-leaderf
+	conflicts = neovim-leaderf
+

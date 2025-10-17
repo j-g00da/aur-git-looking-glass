@@ -1,0 +1,15 @@
+pkgbase = hell-git
+	pkgdesc = The Hell build system
+	pkgver = r106.bac1099
+	pkgrel = 1
+	url = https://github.com/gilzoide/hell
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = git
+	depends = lua
+	source = hell-git::git://github.com/gilzoide/hell.git
+	md5sums = SKIP
+
+pkgname = hell-git
+

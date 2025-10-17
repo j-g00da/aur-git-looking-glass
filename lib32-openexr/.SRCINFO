@@ -1,0 +1,24 @@
+pkgbase = lib32-openexr
+	pkgdesc = A high dynamic-range image file format library (32-bit)
+	pkgver = 3.3.3
+	pkgrel = 1
+	url = https://www.openexr.com
+	arch = x86_64
+	license = BSD-3-Clause
+	makedepends = cmake>=3.14
+	depends = openexr>=3.3.3
+	depends = lib32-gcc-libs
+	depends = lib32-glibc
+	depends = lib32-imath
+	depends = lib32-libdeflate
+	provides = libOpenEXR-3_3.so
+	provides = libOpenEXRCore-3_3.so
+	provides = libOpenEXRUtil-3_3.so
+	provides = libIex-3_3.so
+	provides = libIlmThread-3_3.so
+	source = openexr-3.3.3.tar.gz::https://github.com/AcademySoftwareFoundation/openexr/archive/refs/tags/v3.3.3.tar.gz
+	source = openexr_atomic_pointer_size.patch::https://github.com/AcademySoftwareFoundation/openexr/pull/2013.patch?full_index=1
+	sha256sums = 0ffbd842a7ee2128d44affdea30f42294b4061293cde3aa75b61a53573413d1e
+	sha256sums = d9a12153da19ea50314272a4d5b71768c629552d1f64cae70dacc0ba55424129
+
+pkgname = lib32-openexr

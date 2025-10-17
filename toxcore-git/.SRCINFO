@@ -1,0 +1,30 @@
+pkgbase = toxcore-git
+	pkgdesc = Peer to peer (serverless) instant messenger core
+	pkgver = 0.2.21.r3.g679444751
+	pkgrel = 1
+	url = https://tox.chat/
+	arch = i686
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = git
+	makedepends = cmake
+	depends = glibc
+	depends = libconfig
+	depends = libsodium
+	depends = libvpx
+	depends = msgpack-c
+	depends = opus
+	provides = toxcore=0.2.21.r3.g679444751
+	provides = tox
+	conflicts = toxcore
+	conflicts = tox
+	options = staticlibs
+	backup = etc/tox-bootstrapd.conf
+	source = git+https://github.com/TokTok/c-toxcore.git
+	source = toxcore.conf::https://gitlab.archlinux.org/archlinux/packaging/packages/toxcore/-/raw/main/toxcore.conf
+	source = toxcore.tmpfiles::https://gitlab.archlinux.org/archlinux/packaging/packages/toxcore/-/raw/main/toxcore.tmpfiles
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = toxcore-git

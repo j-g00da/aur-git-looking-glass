@@ -1,0 +1,21 @@
+pkgbase = brew-git
+	pkgdesc = The missing package manager for macOS (or Linux)
+	pkgver = 2.7.4.r20233.g23c491e5bc
+	pkgrel = 1
+	url = https://github.com/Homebrew/brew
+	arch = x86_64
+	license = BSD
+	license = CCPL
+	makedepends = git
+	depends = ruby-irb
+	depends = java-runtime
+	provides = brew
+	conflicts = linuxbrew-git
+	conflicts = linuxbrew
+	conflicts = brew
+	source = brew::git+https://github.com/Homebrew/brew.git#branch=master
+	source = brew4archlinux.patch::https://github.com/Homebrew/brew/pull/5926.patch
+	sha512sums = SKIP
+	sha512sums = 5500cd6b43022a2fd90ac24f2189df4b02e96acfe6383d356a0dd4d74e161b53f3b65709624b243dec00c270ab812f84c6e276e6692106d5a50c360055a03c35
+
+pkgname = brew-git

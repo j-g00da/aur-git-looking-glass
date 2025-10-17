@@ -1,0 +1,16 @@
+pkgbase = perl-data-validate-struct
+	pkgdesc = Validate recursive Hash Structures
+	pkgver = 0.12
+	pkgrel = 1
+	url = https://metacpan.org/release/Data-Validate-Struct
+	arch = any
+	license = PerlArtistic
+	license = GPL
+	depends = perl-data-validate>=0.06
+	depends = perl-data-validate-ip>=0.18
+	depends = perl-regexp-common>=0
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/T/TL/TLINDEN/Data-Validate-Struct-0.12.tar.gz
+	sha512sums = 4e0e4f7f6e3292f2ad8ea296a7821417f875d3a1985f93028554c06b82b2507b2835f0a2a7f42dbd81c40d2a58088aa165088b25ccbb91c148d62fb292b39850
+
+pkgname = perl-data-validate-struct

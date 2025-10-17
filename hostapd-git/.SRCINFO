@@ -1,0 +1,33 @@
+pkgbase = hostapd-git
+	pkgdesc = User space daemon for access point and authentication servers
+	pkgver = 2.11.r957.g4bc754d9c
+	pkgrel = 1
+	url = https://w1.fi/hostapd/
+	arch = i686
+	arch = x86_64
+	license = BSD-3-Clause
+	makedepends = git
+	depends = glibc
+	depends = libnl
+	depends = openssl
+	depends = sqlite
+	provides = hostapd=2.11.r957.g4bc754d9c
+	conflicts = hostapd
+	options = !lto
+	backup = etc/hostapd/hostapd.accept
+	backup = etc/hostapd/hostapd.conf
+	backup = etc/hostapd/hostapd.deny
+	backup = etc/hostapd/hostapd.eap_user
+	backup = etc/hostapd/hostapd.radius_clients
+	backup = etc/hostapd/hostapd.vlan
+	backup = etc/hostapd/hostapd.wpa_psk
+	source = git+https://w1.fi/hostap.git
+	source = config::https://gitlab.archlinux.org/archlinux/packaging/packages/hostapd/-/raw/main/config?ref_type=heads
+	source = hostapd.service::https://gitlab.archlinux.org/archlinux/packaging/packages/hostapd/-/raw/main/hostapd.service?ref_type=heads
+	source = hostapd@.service::https://gitlab.archlinux.org/archlinux/packaging/packages/hostapd/-/raw/main/hostapd@.service?ref_type=heads
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = hostapd-git

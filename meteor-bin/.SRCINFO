@@ -1,0 +1,19 @@
+pkgbase = meteor-bin
+	pkgdesc = A highly configurable CLI tool for writing conventional commits
+	pkgver = 0.30.0
+	pkgrel = 1
+	url = https://github.com/stefanlogue/meteor
+	arch = x86_64
+	arch = i686
+	arch = aarch64
+	license = MIT
+	provides = meteor
+	conflicts = meteor
+	source_x86_64 = meteor-x86_64-0.30.0.tar.gz::https://github.com/stefanlogue/meteor/releases/download/v0.30.0/meteor-linux-amd64.zip
+	sha256sums_x86_64 = 29a06f76c23942ddcb8b6295a942781b8563d8902cd2a0d749a2fa8cdd62b031
+	source_i686 = meteor-i686-0.30.0.tar.gz::https://github.com/stefanlogue/meteor/releases/download/v0.30.0/meteor-linux-386.zip
+	sha256sums_i686 = 9ea17352e62cd47f0ef3c6410bfd02d9f0a450b02d1128dc05803df165e54e2d
+	source_aarch64 = meteor-aarch64-0.30.0.tar.gz::https://github.com/stefanlogue/meteor/releases/download/v0.30.0/meteor-linux-arm64.zip
+	sha256sums_aarch64 = 5665f81470f696644ee5c9ca43365621c2a21bc11b590e4af07496c7403b6618
+
+pkgname = meteor-bin

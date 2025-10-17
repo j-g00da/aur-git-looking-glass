@@ -1,0 +1,25 @@
+pkgbase = tuc-bin
+	pkgdesc = A more powerful alternative to cut, when cut doesn't cut it (pre-compiled)
+	pkgver = 1.3.0
+	pkgrel = 1
+	url = https://github.com/riquito/tuc
+	arch = x86_64
+	license = GPL-3.0-or-later
+	depends = gcc-libs
+	depends = glibc
+	provides = tuc
+	conflicts = tuc
+	source = tuc-1.3.0::https://github.com/riquito/tuc/releases/download/v1.3.0/tuc-ubuntu-amd64
+	source = CHANGELOG-1.3.0.md::https://github.com/riquito/tuc/raw/master/CHANGELOG.md
+	source = README-1.3.0.md::https://github.com/riquito/tuc/raw/master/README.md
+	source = tuc-1.3.0.1::https://github.com/riquito/tuc/raw/master/doc/tuc.1
+	sha256sums = 229d6e9ae90a190010ad4a5dc1038e82daca38bfab9d3d7e324d9d68b4e4449e
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	b2sums = d4a61ac19a3f92096272c990fabffd65e34082f64b602a428c939483f207570d85c59280c1f461728c38615c360e96cded83f795cb605e3405b7e3968bb27f1a
+	b2sums = SKIP
+	b2sums = SKIP
+	b2sums = SKIP
+
+pkgname = tuc-bin

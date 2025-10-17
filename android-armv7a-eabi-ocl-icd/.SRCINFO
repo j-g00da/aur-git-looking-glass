@@ -1,0 +1,25 @@
+pkgbase = android-armv7a-eabi-ocl-icd
+	pkgdesc = OpenCL ICD Bindings (Android armv7a-eabi)
+	pkgver = 2.3.3
+	pkgrel = 1
+	url = https://github.com/OCL-dev/ocl-icd
+	arch = any
+	groups = android-ocl-icd
+	license = BSD
+	makedepends = android-configure
+	makedepends = android-armv7a-eabi-opencl-headers>=2.1
+	makedepends = ruby
+	makedepends = xmlto
+	depends = android-ndk
+	optdepends = android-armv7a-eabi-opencl-driver: packaged opencl driver
+	provides = android-armv7a-eabi-opencl-icd-loader
+	conflicts = android-armv7a-eabi-libcl
+	replaces = android-armv7a-eabi-libcl
+	options = !strip
+	options = !buildflags
+	options = staticlibs
+	options = !emptydirs
+	source = https://github.com/OCL-dev/ocl-icd/archive/v2.3.3.tar.gz
+	md5sums = 8f00257866d84b8b9631c4df6c47ec95
+
+pkgname = android-armv7a-eabi-ocl-icd

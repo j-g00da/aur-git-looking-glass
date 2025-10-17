@@ -1,0 +1,25 @@
+pkgbase = alacarte-git
+	pkgdesc = Menu editor for gnome. Git version.
+	pkgver = 3.56.0+0+gb0c7ca0
+	pkgrel = 1
+	url = https://gitlab.gnome.org/GNOME/alacarte
+	arch = any
+	license = LGPL-2.0-or-later
+	makedepends = docbook-xsl
+	makedepends = git
+	makedepends = libxslt
+	depends = gdk-pixbuf2
+	depends = glib2
+	depends = gnome-menus
+	depends = gtk3
+	depends = hicolor-icon-theme
+	depends = python
+	depends = python-cairo
+	depends = python-gobject
+	provides = alacarte=3.56.0+0+gb0c7ca0
+	conflicts = alacarte
+	replaces = alacarte
+	source = git+https://gitlab.gnome.org/GNOME/alacarte.git
+	sha256sums = SKIP
+
+pkgname = alacarte-git

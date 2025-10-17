@@ -1,0 +1,16 @@
+pkgbase = asus-stylus-driver-git
+	pkgdesc = Supplement driver for Asus Pen stylus
+	pkgver = r81.ca0f0ff
+	pkgrel = 2
+	url = https://github.com/asus-linux-drivers/asus-stylus-driver
+	install = layout.install
+	arch = any
+	license = GPL-2.0
+	makedepends = git
+	depends = python
+	depends = python-libevdev
+	depends = libevdev
+	source = asus-stylus-driver::git+https://github.com/asus-linux-drivers/asus-stylus-driver.git
+	sha256sums = SKIP
+
+pkgname = asus-stylus-driver-git

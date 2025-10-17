@@ -1,0 +1,20 @@
+pkgbase = geekbench-ai
+	pkgdesc = Geekbench AI is a cross-platform AI benchmark that uses real-world machine learning tasks to evaluate AI workload performance
+	pkgver = 1.5.0
+	pkgrel = 1
+	url = https://www.geekbench.com/ai/
+	install = geekbench-ai.install
+	arch = x86_64
+	license = LicenseRef-Geekbench-AI-v1
+	makedepends = patchelf
+	depends = gcc-libs
+	depends = bash
+	depends = ocl-icd
+	depends = onetbb
+	depends = glibc
+	source = https://cdn.geekbench.com/GeekbenchAI-1.5.0-Linux.tar.gz
+	source = eula-ai-v1.txt
+	sha256sums = 06436fdb41aa203141e5469572dac01faca020e9145a4fa7d8ed4030bddb3fda
+	sha256sums = 825511a88bcb55bf7554e00378c416d4df2de28d70f912a9dfc262f2bbc49050
+
+pkgname = geekbench-ai

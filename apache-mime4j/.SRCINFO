@@ -1,0 +1,13 @@
+pkgbase = apache-mime4j
+	pkgdesc = Apache JAMES Mime4j
+	pkgver = 0.8.12
+	pkgrel = 1
+	url = http://james.apache.org/
+	arch = i686
+	arch = x86_64
+	license = Apache
+	depends = java-runtime
+	source = https://www.apache.org/dyn/closer.lua/james/mime4j/0.8.12/apache-mime4j-core-0.8.12.jar
+	sha256sums = f907a117b3237d92077b97a98da0fc232661eb38376ce23f73a09d7fae1953f5
+
+pkgname = apache-mime4j

@@ -1,0 +1,22 @@
+pkgbase = mingw-w64-qt5-networkauth-static
+	pkgdesc = Network authentication module (mingw-w64)
+	pkgver = 5.15.17+kde+r0
+	pkgrel = 1
+	url = https://www.qt.io/
+	arch = any
+	groups = mingw-w64-qt5
+	license = GPL3
+	license = LGPL3
+	license = FDL
+	license = custom
+	makedepends = mingw-w64-gcc
+	makedepends = git
+	depends = mingw-w64-qt5-base-static
+	depends = mingw-w64-qt5-networkauth
+	options = !strip
+	options = !buildflags
+	options = staticlibs
+	source = git+https://invent.kde.org/qt/qt/qtnetworkauth#commit=2653044915b3fb1941aa0f8b25af50343efcbff7
+	sha256sums = 050e10590c10908728271bae8dd8d8a35720dd0dca696960fda2fdcf9d1c9815
+
+pkgname = mingw-w64-qt5-networkauth-static

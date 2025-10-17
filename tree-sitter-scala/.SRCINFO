@@ -1,0 +1,18 @@
+pkgbase = tree-sitter-scala
+	pkgdesc = Scala grammar for tree-sitter
+	pkgver = 0.24.0
+	pkgrel = 1
+	url = https://github.com/tree-sitter/tree-sitter-scala
+	arch = i686
+	arch = x86_64
+	groups = tree-sitter-grammars
+	license = MIT
+	makedepends = nodejs
+	makedepends = tree-sitter-cli
+	depends = glibc
+	provides = libtree-sitter-scala.so
+	options = staticlibs
+	source = tree-sitter-scala-0.24.0-src.tar.gz::https://github.com/tree-sitter/tree-sitter-scala/archive/refs/tags/v0.24.0.tar.gz
+	sha256sums = 6ba17e09ba035a4a1b19db7906b87ec2c56cf400073e8e7272e8bdc9413921f8
+
+pkgname = tree-sitter-scala

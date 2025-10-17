@@ -1,0 +1,15 @@
+pkgbase = uair
+	pkgdesc = An extensible pomodoro timer
+	pkgver = 0.6.3
+	pkgrel = 1
+	url = https://github.com/metent/uair
+	arch = x86_64
+	license = MIT
+	makedepends = rust
+	makedepends = scdoc
+	depends = glibc
+	depends = gcc-libs
+	source = uair-0.6.3.tar.gz::https://github.com/metent/uair/archive/v0.6.3.tar.gz
+	b2sums = 1e08bb37219b597893e10ca99cc81690ea238e79ae94d1d4a187443f8e10eb9e58606e43a0857d2b97cfab270b364daf68e21574126d9c5215fbcd487fe5341e
+
+pkgname = uair

@@ -1,0 +1,18 @@
+pkgbase = cpm-git
+	pkgdesc = A useful tool for managing C and C++ Projects
+	pkgver = 1.3.2
+	pkgrel = 1
+	url = https://github.com/vkeshav300/cpm
+	arch = any
+	license = CC0-1.0
+	makedepends = git
+	depends = gcc
+	depends = cmake
+	depends = make
+	depends = rapidjson
+	provides = cpm
+	conflicts = cpm
+	source = cpm-1.3.2.tar.gz::https://github.com/vkeshav300/cpm/archive/refs/tags/v1.3.2.tar.gz
+	md5sums = SKIP
+
+pkgname = cpm-git

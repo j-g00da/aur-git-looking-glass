@@ -1,0 +1,30 @@
+pkgbase = pcem-git
+	pkgdesc = Emulator for various IBM PC computers and clones - development version
+	pkgver = 17.r224.gb2ecd8f3
+	pkgrel = 1
+	url = http://pcem-emulator.co.uk/
+	arch = x86_64
+	arch = i686
+	license = GPL-2.0-or-later
+	makedepends = git
+	makedepends = ninja
+	makedepends = meson
+	makedepends = cmake
+	makedepends = clang
+	depends = wxwidgets-gtk3
+	depends = openal
+	depends = sdl2-compat
+	depends = alsa-lib
+	depends = libpcap
+	provides = pcem=17.r224.gb2ecd8f3
+	conflicts = pcem
+	source = git+https://github.com/sarah-walker-pcem/pcem.git
+	source = pcem.desktop
+	source = pcem.svg
+	source = COPYING
+	sha256sums = SKIP
+	sha256sums = 95d1594ee1b2807a25deeb63e67c43b4d4828a917ad5cf508a0a07e837aaf510
+	sha256sums = 31d9959d8e8b98204f396522fcc773767d0d7f6dd4bfdc28f5dc22928459e008
+	sha256sums = 61b65d8be67f0acb3a370ce0826c073b7c54a5c08b502ed6f7ffec94a300477f
+
+pkgname = pcem-git

@@ -1,0 +1,29 @@
+pkgbase = mingw-w64-enca
+	pkgdesc = Charset analyser and converter (mingw-w64)
+	pkgver = 1.20
+	pkgrel = 1
+	url = https://cihar.com/software/enca/
+	arch = any
+	license = GPL
+	makedepends = git
+	makedepends = mingw-w64-gcc
+	makedepends = mingw-w64-wine
+	depends = mingw-w64-crt
+	depends = mingw-w64-recode
+	options = !strip
+	options = !buildflags
+	options = staticlibs
+	options = !makeflags
+	options = !debug
+	source = git+https://github.com/nijel/enca#tag=1.20
+	source = enca-bad-file-descriptor.patch
+	source = configure.patch
+	source = tools.patch
+	source = autogen.patch
+	sha256sums = 97972fd80faaec6ca9e037745151d8f234756889f515975fe0f908e2eb850790
+	sha256sums = 270c7c0abaea5f3d10173b58849200d4106675d3127a0b9b8ce1fc3dcf775acb
+	sha256sums = 0be6a38cd3920a69c3d6248f79bd3955944b2a3386ac5b4fd3b8b28b6f80ec7d
+	sha256sums = a06364e8a4c6985353b91e025bf482ff0b9ec57833c3aa0f05316052b7656061
+	sha256sums = 346c7421e8e8f3e7d20264c2d5ce483d79fef12851914cd49ea3d81a611e1a62
+
+pkgname = mingw-w64-enca

@@ -1,0 +1,17 @@
+pkgbase = gnome-app-grid-manager
+	pkgdesc = Organize your Gnome overview applications by category
+	pkgver = 1.1.2
+	pkgrel = 1
+	url = https://github.com/prurigro/gnome-app-grid-manager
+	arch = i686
+	arch = x86_64
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = MIT
+	makedepends = go
+	depends = dconf
+	source = https://github.com/prurigro/gnome-app-grid-manager/archive/refs/tags/v1.1.2.tar.gz
+	sha512sums = bddf37e8d460ea627785e7142d86d82338c3420c3c54c504187e74e971cb29d1b053536f726266dd8d8e1fb67172d963416640975f904cd2c7bdc8999959b5cf
+
+pkgname = gnome-app-grid-manager

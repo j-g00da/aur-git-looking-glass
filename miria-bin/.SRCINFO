@@ -1,0 +1,14 @@
+pkgbase = miria-bin
+	pkgdesc = Miria is Misskey Client App for iOS, Android and many targets which made by Flutter.
+	pkgver = 3.0.1+123
+	pkgrel = 1
+	url = https://github.com/shiosyakeyakini-info/miria
+	arch = x86_64
+	license = AGPL3
+	depends = gtk3
+	depends = mpv
+	depends = libsecret
+	source = https://github.com/shiosyakeyakini-info/miria/releases/download/v3.0.1+123/miria_3.0.1+123_amd64.deb
+	sha256sums = bba254909088bdcabdf1787c5984fe1a763e5eca5aa7f25a48d9a9df0697f882
+
+pkgname = miria-bin

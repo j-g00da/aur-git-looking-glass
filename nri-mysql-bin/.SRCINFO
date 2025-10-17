@@ -1,0 +1,21 @@
+pkgbase = nri-mysql-bin
+	pkgdesc = MySQL integration for New Relic
+	pkgver = 1.11.1
+	pkgrel = 1
+	url = https://github.com/newrelic/nri-mysql
+	arch = aarch64
+	arch = armv7h
+	arch = x86_64
+	groups = newrelic
+	license = Apache
+	depends = newrelic-infra
+	provides = nri-mysql
+	conflicts = nri-mysql
+	source_aarch64 = https://github.com/newrelic/nri-mysql/releases/download/v1.11.1/nri-mysql_linux_1.11.1_arm64.tar.gz
+	sha256sums_aarch64 = f34ed4d933df6a364831df0b5b4e84e16c764558eda6ed060cf412b49401882c
+	source_armv7h = https://github.com/newrelic/nri-mysql/releases/download/v1.11.1/nri-mysql_linux_1.11.1_arm.tar.gz
+	sha256sums_armv7h = 19ae2cde2822f5ec4f690fd8dc2ccfa242c35ac708cc61b5029097af699c4ed5
+	source_x86_64 = https://github.com/newrelic/nri-mysql/releases/download/v1.11.1/nri-mysql_linux_1.11.1_amd64.tar.gz
+	sha256sums_x86_64 = b8280c8ca7e51b5e5ff7ca6d0db43d0f89bdaad3c755166f94975f10d1002736
+
+pkgname = nri-mysql-bin

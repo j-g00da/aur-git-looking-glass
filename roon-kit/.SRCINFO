@@ -1,0 +1,15 @@
+pkgbase = roon-kit
+	pkgdesc = Roon API Kit
+	pkgver = 0.0.0
+	pkgrel = 1
+	url = https://github.com/Minterl/roon-kit
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = npm
+	makedepends = typescript
+	depends = nodejs
+	source = git+https://github.com/Minterl/roon-kit.git
+	sha256sums = SKIP
+
+pkgname = roon-kit

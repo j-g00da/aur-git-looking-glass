@@ -1,0 +1,16 @@
+pkgbase = r-alabaster.schemas
+	pkgdesc = Schemas for the Alabaster Framework
+	pkgver = 1.8.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/alabaster.schemas
+	arch = any
+	license = MIT
+	depends = r
+	optdepends = r-biocstyle
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/alabaster.schemas_1.8.0.tar.gz
+	md5sums = 52cf3e0088341853865549764f48251f
+	b2sums = 48ccab867cb2cb8cce29bafd202c472f36b6c4b00f7b3ca1547ee39ae926bbf12f8766b97ff75c282f7fd516a0997d261c114a29e0854f04bf0fe2a1b5784df5
+
+pkgname = r-alabaster.schemas

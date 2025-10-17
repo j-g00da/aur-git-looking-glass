@@ -1,0 +1,22 @@
+pkgbase = sameboy-git
+	pkgdesc = An accuracy-focused Game Boy/Game Boy Color emulator
+	pkgver = 1.0.1.r4.1cf84a5
+	pkgrel = 1
+	url = https://github.com/LIJI32/SameBoy
+	arch = x86_64
+	license = MIT
+	makedepends = rgbds
+	makedepends = make
+	makedepends = git
+	makedepends = coreutils
+	depends = sdl2
+	depends = hicolor-icon-theme
+	depends = openal
+	depends = gdk-pixbuf2
+	depends = libglvnd
+	provides = sameboy
+	conflicts = sameboy
+	source = git+https://github.com/LIJI32/SameBoy
+	sha1sums = SKIP
+
+pkgname = sameboy-git

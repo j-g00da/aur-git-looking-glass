@@ -1,0 +1,16 @@
+pkgbase = imediff
+	pkgdesc = ncurses-based 2/3 file merge tool
+	pkgver = 3.4.0
+	pkgrel = 1
+	url = https://github.com/osamuaoki/imediff
+	arch = any
+	license = GPL2
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	source = https://files.pythonhosted.org/packages/source/i/imediff/imediff-3.4.0.tar.gz
+	sha256sums = 543aff2bd192d1d8dadc86631ae5056048d7099e032a85f1736a0c9ceea4fcc5
+
+pkgname = imediff

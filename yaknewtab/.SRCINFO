@@ -1,0 +1,20 @@
+pkgbase = yaknewtab
+	pkgdesc = A shell script for opening new Yakuake tabs/sessions
+	pkgver = 1.0
+	pkgrel = 1
+	epoch = 1
+	url = https://aur.archlinux.org/cgit/aur.git/tree/yaknewtab.sh?h=yaknewtab
+	arch = any
+	license = GPL-3.0
+	makedepends = coreutils
+	depends = bash
+	depends = qt6-tools
+	depends = yakuake
+	provides = yaknewtab
+	conflicts = yaknewtab
+	source = yaknewtab.sh
+	source = yaknewtab-run.desktop
+	sha256sums = cb040bb3b1882494bd20f31981c3e0965fd7deb3ec6486ff548d1275be12238c
+	sha256sums = 2703fbc0fc55acc5a4055823f829e8eeddab629597ae6d12c46cd76aaffbf4f4
+
+pkgname = yaknewtab

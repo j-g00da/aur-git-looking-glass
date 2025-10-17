@@ -1,0 +1,16 @@
+pkgbase = mingw-w64-onetbb
+	pkgdesc = High level abstract threading library (mingw-w64)
+	pkgver = 2022.2.0
+	pkgrel = 1
+	url = https://oneapi-src.github.io/oneTBB/
+	arch = any
+	license = Apache
+	makedepends = mingw-w64-cmake
+	depends = mingw-w64-crt
+	options = !buildflags
+	options = !strip
+	options = staticlibs
+	source = https://github.com/oneapi-src/oneTBB/archive/v2022.2.0.tar.gz
+	sha256sums = f0f78001c8c8edb4bddc3d4c5ee7428d56ae313254158ad1eec49eced57f6a5b
+
+pkgname = mingw-w64-onetbb

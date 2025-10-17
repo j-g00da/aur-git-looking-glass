@@ -1,0 +1,19 @@
+pkgbase = python-gitchangelog
+	pkgdesc = Creates a changelog from git log history.
+	pkgver = 3.2.2
+	pkgrel = 1
+	url = https://github.com/sarnold/gitchangelog
+	arch = x86_64
+	license = BSD
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-setuptools-scm
+	makedepends = python-wheel
+	depends = python
+	optdepends = python-pystache
+	optdepends = python-mako
+	source = https://github.com/sarnold/gitchangelog/releases/download/3.2.2/gitchangelog-3.2.2.tar.gz
+	sha256sums = 08c863fd91447ab58e64e50e787ee7f0f3d2f2184369fe4f7ae3d8fda8ce1632
+
+pkgname = python-gitchangelog

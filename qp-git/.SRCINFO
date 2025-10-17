@@ -1,0 +1,22 @@
+pkgbase = qp-git
+	pkgdesc = qp - query packages. A CLI utility for querying installed packages across multiple package ecosystems.
+	pkgver = 5.108.0.r0.gbf2bf11
+	pkgrel = 1
+	url = https://github.com/Zweih/qp
+	arch = any
+	license = GPL3
+	makedepends = go>=1.24.1
+	makedepends = git
+	optdepends = sqlite: RPM support
+	provides = qp
+	conflicts = qp
+	conflicts = qp-bin
+	replaces = yaylog
+	replaces = yaylog-bin
+	replaces = yaylog-git
+	source = qp::git+https://github.com/Zweih/qp.git
+	source = packaging::git+https://github.com/Zweih/qp.git#branch=packaging
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = qp-git

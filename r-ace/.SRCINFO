@@ -1,0 +1,19 @@
+pkgbase = r-ace
+	pkgdesc = Absolute Copy Number Estimation from Low-coverage Whole Genome Sequencing
+	pkgver = 1.26.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/ACE
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-biobase
+	depends = r-genomicranges
+	depends = r-ggplot2
+	depends = r-qdnaseq
+	optdepends = r-biocstyle
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/ACE_1.26.0.tar.gz
+	sha256sums = a31f16f6876ffbcc3a5d7141acf77f027ddf612c75e82ef51b45ac81b86ce86c
+
+pkgname = r-ace

@@ -1,0 +1,24 @@
+pkgbase = actiona
+	pkgdesc = A task automation tool that allows you to create and execute action lists
+	pkgver = 3.11.1
+	pkgrel = 1
+	url = https://wiki.actiona.tools
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = qt5-tools
+	makedepends = boost
+	makedepends = cpp-mini
+	makedepends = cmake
+	depends = qt6-declarative
+	depends = libxtst
+	depends = qt6-tools
+	depends = qt6-speech
+	depends = qt6-5compat
+	depends = qt6-multimedia
+	depends = libnotify
+	depends = opencv
+	options = !buildflags
+	source = actiona-3.11.1.tar.gz::https://github.com/Jmgr/actiona/releases/download/v3.11.1/actiona-3.11.1-source-linux.tar.gz
+	sha256sums = a643ccae90f353b6558e9f61c00a8aedb5ca73c52f08bb0ccca69fc5e2a8444d
+
+pkgname = actiona

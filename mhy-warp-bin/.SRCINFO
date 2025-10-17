@@ -1,0 +1,25 @@
+pkgbase = mhy-warp-bin
+	pkgdesc = 米游抽卡记录查询软件
+	pkgver = 2.0.6
+	pkgrel = 1
+	url = https://github.com/busyoGG/MHYWarp
+	arch = x86_64
+	license = MIT
+	depends = zlib
+	depends = fuse2
+	depends = wl-clipboard
+	provides = mhy-warp
+	conflicts = mhy-warp
+	noextract = MHYWarp-2.0.6.AppImage
+	options = !strip
+	options = !debug
+	source = MHYWarp-2.0.6.AppImage::https://github.com/busyoGG/MHYWarp/releases/download/2.0.6/MHYWarp-2.0.6.AppImage
+	source = mhy-warp.desktop
+	source = icon.png
+	source = LICENSE
+	sha256sums = add8452f4d596f7d52410c39a4809adc8cff50a9d6ad35ec16233b4d5db11a82
+	sha256sums = 144b04954b03aa475d6f770c05fc0f56ec239e27b10b386765f8a2211c40984c
+	sha256sums = cc4ed7c1e32113dacafb016d60041359c41b87268d0736312915257a6021e59a
+	sha256sums = 9d23d1b4c7debed98693f4747b64b5cf374b0cba656d0ab831c946e3bd5aee80
+
+pkgname = mhy-warp-bin

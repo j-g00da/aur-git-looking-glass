@@ -1,0 +1,14 @@
+pkgbase = gog-x4_kingdom_end
+	pkgdesc = DLC for the x4 foundations game.
+	pkgver = 7.10_hotfix_3
+	pkgrel = 1
+	url = https://www.gog.com/en/game/x4_kingdom_end
+	arch = x86_64
+	license = custom
+	depends = gog-x4_foundations
+	noextract = x4_kingdom_end_7_10_hotfix_3_76760.sh
+	options = !strip
+	source = x4_kingdom_end_7_10_hotfix_3_76760.sh::gog://x4_kingdom_end_7_10_hotfix_3_76760.sh
+	sha256sums = 8db8af9dd4e36987e7dd5cbafbdae801016365099d403b49eefa7b38a335a0eb
+
+pkgname = gog-x4_kingdom_end

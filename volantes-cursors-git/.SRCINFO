@@ -1,0 +1,18 @@
+pkgbase = volantes-cursors-git
+	pkgdesc = Classic cursor with a flying style.
+	pkgver = r7.b13a4bb
+	pkgrel = 1
+	url = https://github.com/varlesh/volantes-cursors
+	arch = any
+	license = GPL-2.0-or-later
+	makedepends = git
+	makedepends = inkscape
+	makedepends = libcanberra
+	makedepends = xorg-xcursorgen
+	provides = volantes-cursors
+	conflicts = volantes-cursors
+	options = !strip
+	source = git+https://github.com/varlesh/volantes-cursors.git
+	sha256sums = SKIP
+
+pkgname = volantes-cursors-git

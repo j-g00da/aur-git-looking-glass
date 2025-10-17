@@ -1,0 +1,17 @@
+pkgbase = r-interaccircos
+	pkgdesc = The Generation of Interactive Circos Plot
+	pkgver = 1.18.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/interacCircos
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-htmlwidgets
+	depends = r-plyr
+	depends = r-rcolorbrewer
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/interacCircos_1.18.0.tar.gz
+	sha256sums = b47dca7bd3d43631fe1cb770e5c37e9c3af0f6225d0a3e1dc7224ba20e15ed48
+
+pkgname = r-interaccircos

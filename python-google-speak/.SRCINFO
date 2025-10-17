@@ -1,0 +1,17 @@
+pkgbase = python-google-speak
+	pkgdesc = Simple class to create speech files using Google Translate URL
+	pkgver = 0.2.2
+	pkgrel = 1
+	url = https://github.com/marcus67/python_google_speak
+	arch = any
+	license = GPL3
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python-requests
+	depends = python-playsound
+	source = https://pypi.org/packages/source/p/python-google-speak/python_google_speak-0.2.2.tar.gz
+	sha512sums = 21224e2b225bd7310bc84fa137bcf96b470680ca1af09aeb5b5fd546998f5c3764764081277d2a0c456e6b88e540752b167503cc91d4aa76df8fff48ebbe29b1
+
+pkgname = python-google-speak

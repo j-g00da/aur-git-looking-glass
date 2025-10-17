@@ -1,0 +1,23 @@
+pkgbase = thefrisbee
+	pkgdesc = Disk Management
+	pkgver = 3.0
+	pkgrel = 1
+	url = https://github.com/theCheeseboard/thefrisbee
+	arch = x86_64
+	arch = aarch64
+	license = GPL3
+	makedepends = git
+	makedepends = qt6-tools
+	makedepends = cmake
+	makedepends = clang
+	makedepends = libcontemporary
+	source = thefrisbee-3.0::https://github.com/theCheeseboard/theFrisbee/archive/refs/tags/v3.0.tar.gz
+	sha256sums = 8ac9b804b513e61ba80b0cc48f8d0c39cd65f97c7da4faf0bb2a70695363a78d
+
+pkgname = thefrisbee
+	depends = xdg-utils
+	depends = libcontemporary
+	depends = libthefrisbee
+
+pkgname = libthefrisbee
+	depends = libcontemporary

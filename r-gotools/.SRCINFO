@@ -1,0 +1,15 @@
+pkgbase = r-gotools
+	pkgdesc = Functions for Gene Ontology database
+	pkgver = 1.82.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/goTools
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-annotationdbi
+	depends = r-go.db
+	optdepends = r-hgu133a.db
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/goTools_1.82.0.tar.gz
+	sha256sums = 109fd6dc31412531d744f7a71acd2665fb3e1291727ee54765aa2728b56d9e49
+
+pkgname = r-gotools

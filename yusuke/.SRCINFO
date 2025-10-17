@@ -1,0 +1,18 @@
+pkgbase = yusuke
+	pkgdesc = pacman update notifier
+	pkgver = 1.7.8
+	pkgrel = 1
+	url = https://github.com/graypawn/yusuke
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = python-setuptools
+	depends = pacman
+	depends = libnotify
+	depends = python-gobject
+	conflicts = yusuke
+	source = https://github.com/graypawn/yusuke/archive/v1.7.8.zip
+	md5sums = 38caecff3825c35962971aeae1335e6c
+
+pkgname = yusuke
+

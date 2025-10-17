@@ -1,0 +1,20 @@
+pkgbase = python-iniparse-git
+	pkgdesc = Better INI parser library for Python
+	pkgver = 0.5.1.r0.g0f3da0a
+	pkgrel = 1
+	url = https://github.com/candlepin/python-iniparse
+	arch = any
+	license = MIT
+	checkdepends = python-tests
+	makedepends = git
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	provides = python-iniparse=0.5.1
+	conflicts = python-iniparse
+	source = candlepin.python-iniparse::git+https://github.com/candlepin/python-iniparse.git
+	sha256sums = SKIP
+
+pkgname = python-iniparse-git

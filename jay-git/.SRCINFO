@@ -1,0 +1,28 @@
+pkgbase = jay-git
+	pkgdesc = A Wayland Compositor
+	pkgver = r1251.c6ca7c22
+	pkgrel = 1
+	url = https://github.com/mahkoh/jay
+	install = jay.install
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = cargo
+	makedepends = cmake
+	makedepends = git
+	makedepends = shaderc
+	depends = cairo
+	depends = libinput
+	depends = libudev.so
+	depends = libvulkan.so
+	depends = mesa
+	depends = pango
+	optdepends = xorg-xwayland: X11 support
+	optdepends = xdg-desktop-portal: portal support
+	provides = jay
+	provides = wayland-compositor
+	conflicts = jay
+	options = !lto
+	source = jay::git+https://github.com/mahkoh/jay.git#branch=master
+	sha512sums = SKIP
+
+pkgname = jay-git

@@ -1,0 +1,20 @@
+pkgbase = breeze-gtk-git
+	pkgdesc = Breeze widget theme for GTK 2 and 3. (GIT version)
+	pkgver = 6.2.80.r541.5b65eb2
+	pkgrel = 1
+	url = https://invent.kde.org/plasma/breeze-gtk
+	arch = any
+	license = LGPL
+	makedepends = git
+	makedepends = extra-cmake-modules
+	makedepends = sassc
+	makedepends = breeze
+	makedepends = python-cairo
+	makedepends = qt6-tools
+	depends = qt6-base
+	provides = breeze-gtk
+	conflicts = breeze-gtk
+	source = git+https://invent.kde.org/plasma/breeze-gtk.git
+	sha256sums = SKIP
+
+pkgname = breeze-gtk-git

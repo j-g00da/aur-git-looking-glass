@@ -1,0 +1,14 @@
+pkgbase = basilk
+	pkgdesc = A TUI to manage your tasks with minimal kanban logic
+	pkgver = 0.2.1
+	pkgrel = 1
+	url = https://github.com/GabAlpha/basilk
+	arch = x86_64
+	license = MIT
+	license = Apache-2.0
+	makedepends = cargo
+	depends = gcc-libs
+	source = basilk-0.2.1.tar.gz::https://github.com/GabAlpha/basilk/archive/0.2.1.tar.gz
+	sha512sums = 5170986a1548dc3315ca38ea2286bd256797b9e25c6e408b75c6d19801c87553fe623e36394ae52a63ffb1dc53dce36ad85b8055a43c632628f380c20b6f8228
+
+pkgname = basilk

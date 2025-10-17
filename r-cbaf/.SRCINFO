@@ -1,0 +1,21 @@
+pkgbase = r-cbaf
+	pkgdesc = Automated functions for comparing various omic data from cbioportal.org
+	pkgver = 1.30.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/cbaf
+	arch = any
+	license = Artistic2.0
+	depends = r
+	depends = r-biocfilecache
+	depends = r-cbioportaldata
+	depends = r-genefilter
+	depends = r-gplots
+	depends = r-openxlsx
+	depends = r-rcolorbrewer
+	optdepends = r-biocstyle
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/cbaf_1.30.0.tar.gz
+	sha256sums = 08dd9ee4e848c87bd2f07fa99b750274b88ddaaf1d0c467170d1214d2fdab4e1
+
+pkgname = r-cbaf

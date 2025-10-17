@@ -1,0 +1,13 @@
+pkgbase = alwo
+	pkgdesc = An application launcher and workspace organizer
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/kaushik-kalesh/alwo-linux
+	arch = any
+	license = MIT
+	depends = python
+	depends = wmctrl
+	source = alwo-1.0.0.tar.xz
+	sha256sums = 9c6fb29632ff76a0f992b0994144198c4e4382b233b16815ed2b169d0c2c84d6
+
+pkgname = alwo

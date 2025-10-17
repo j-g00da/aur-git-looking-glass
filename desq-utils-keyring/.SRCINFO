@@ -1,0 +1,21 @@
+pkgbase = desq-utils-keyring
+	pkgdesc = SSH Ask Pass and Polkit Daemon for DesQ
+	pkgver = 0.0.9
+	pkgrel = 1
+	url = https://gitlab.com/DesQ/DesQUtils/Keyring
+	arch = x86_64
+	arch = aarch64
+	license = GPL-3.0-or-later
+	makedepends = meson
+	makedepends = ninja
+	depends = qt6-base
+	depends = libdesqui
+	depends = polkit-qt6
+	depends = dfl-wayqt
+	depends = dfl-settings
+	depends = dfl-keyring
+	depends = dfl-applications
+	source = https://gitlab.com/DesQ/DesQUtils/Keyring/-/archive/v0.0.9/Keyring-v0.0.9.tar.gz
+	sha256sums = 214b952d8ddacc460e259df701a45f950e66ba0232a128baec61319af5afe6cd
+
+pkgname = desq-utils-keyring

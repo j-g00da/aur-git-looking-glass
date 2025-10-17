@@ -1,0 +1,21 @@
+pkgbase = jdk8-graalvm-ee-bin
+	pkgdesc = Universal virtual machine for running applications written in a variety of languages (JVM-based, LLVM-based, or other), Java 8 version
+	pkgver = 21.3.11
+	pkgrel = 1
+	url = https://www.graalvm.org/
+	install = jdk8-graalvm-ee-bin.install
+	arch = x86_64
+	license = custom:OTN
+	depends = java-runtime-common
+	depends = java-environment-common
+	depends = ca-certificates-utils
+	optdepends = graal-nodejs-jdk8-bin: Node.js component (used to be bundled with this package before the 21.1.0 release)
+	provides = java-runtime=8
+	provides = java-runtime-headless=8
+	provides = java-environment=8
+	source = local://graalvm-ee-java8-linux-amd64-21.3.11.tar.gz
+	source = graalvm-ee-rebuild-libpolyglot.hook
+	sha256sums = d6543e19616752ffe8338e8531d7bada8da249fa944f8a16e94f03636e717b8b
+	sha256sums = SKIP
+
+pkgname = jdk8-graalvm-ee-bin

@@ -1,0 +1,14 @@
+pkgbase = python-bjoern
+	pkgdesc = A screamingly fast, ultra-lightweight WSGI server for Python, written in C.
+	pkgver = 3.2.2
+	pkgrel = 1
+	url = https://github.com/jonashaag/bjoern
+	arch = x86_64
+	license = BSD
+	makedepends = python-setuptools
+	depends = libev
+	depends = python
+	source = https://files.pythonhosted.org/packages/source/b/bjoern/bjoern-3.2.2.tar.gz
+	md5sums = e9f136a57344c1c89dfd6f152ffdb59c
+
+pkgname = python-bjoern

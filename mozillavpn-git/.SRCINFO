@@ -1,0 +1,34 @@
+pkgbase = mozillavpn-git
+	pkgdesc = Fast, secure, and easy to use VPN from the makers of Firefox
+	pkgver = 2.31.1.r28.g7214aaf
+	pkgrel = 1
+	url = https://github.com/mozilla-mobile/mozilla-vpn-client
+	arch = x86_64
+	license = MPL-2.0
+	makedepends = cargo
+	makedepends = clang
+	makedepends = cmake
+	makedepends = git
+	makedepends = go
+	makedepends = ninja
+	makedepends = python-glean-parser
+	makedepends = python-lxml
+	makedepends = python-yaml
+	makedepends = qt6-tools
+	makedepends = yamllint
+	depends = hicolor-icon-theme
+	depends = libsecret
+	depends = qt6-5compat
+	depends = qt6-declarative
+	depends = qt6-networkauth
+	depends = qt6-svg
+	depends = qt6-websockets
+	depends = wireguard-tools
+	optdepends = qt6-wayland: for Wayland support
+	provides = mozillavpn=2.31.1.r28
+	conflicts = mozillavpn
+	options = !lto
+	source = mozillavpn::git+https://github.com/mozilla-mobile/mozilla-vpn-client.git
+	sha256sums = SKIP
+
+pkgname = mozillavpn-git

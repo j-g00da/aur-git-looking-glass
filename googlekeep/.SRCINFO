@@ -1,0 +1,20 @@
+pkgbase = googlekeep
+	pkgdesc = Unnofficial Google Keep desktop application
+	pkgver = 1.1.0
+	pkgrel = 1
+	url = https://gitlab.com/linuxbombay/googlekeep-desktop
+	arch = x86_64
+	arch = aarch64
+	license = GPL
+	makedepends = unzip
+	depends = libelectron-electron-meta
+	depends = libelectron>=2025.1
+	depends = nss
+	depends = gtk3
+	depends = gtk4
+	depends = libxss
+	depends = git
+	source = https://gitlab.com/linuxbombay/googlekeep-desktop/application/-/archive/1.1.0/application-1.1.0.tar.bz2
+	sha256sums = 11af62861819e0f3caa7a92dffb3b2c0ead5f0944188093757529d6dd767320f
+
+pkgname = googlekeep

@@ -1,0 +1,21 @@
+pkgbase = loongarch64-linux-gnu-gcc-libc
+	pkgdesc = Build tools for Loongson (Binary).
+	pkgver = 14.2.0
+	pkgrel = 2
+	url = https://github.com/loongson/build-tools
+	arch = x86_64
+	license = GPL
+	license = LGPL
+	license = FDL
+	makedepends = coreutils
+	makedepends = pacman
+	makedepends = tar
+	makedepends = xz
+	conflicts = loongarch64-linux-gnu-gcc
+	options = !debug
+	options = !strip
+	options = staticlibs
+	source = https://github.com/loongson/build-tools/releases/download/2025.06.06/x86_64-cross-tools-loongarch64-binutils_2.44-gcc_15.1.0-glibc_2.41.tar.xz
+	sha256sums = e2e329dceb8376ebb23b051ff0404c4bf5d4b21709b36397ff3a9305689fb9ac
+
+pkgname = loongarch64-linux-gnu-gcc-libc

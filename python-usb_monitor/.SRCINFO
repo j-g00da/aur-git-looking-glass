@@ -1,0 +1,18 @@
+pkgbase = python-usb_monitor
+	pkgdesc = USBMonitor is an easy-to-use cross-platform library for USB device monitoring.
+	pkgver = 1.23
+	pkgrel = 1
+	url = https://github.com/Eric-Canas/USBMonitor
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = python-pip
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	makedepends = python-build
+	makedepends = python-installer
+	depends = python-pyudev
+	source = https://files.pythonhosted.org/packages/04/0d/c800cd6eb3a62996780334472bcfffe478dde28e4feeb6be8d15937c3e61/usb_monitor-1.23.tar.gz
+	b2sums = 16f81f93ec8e3e21d5cfb05b3d98553c640a61176ab2e7777004606234c62cdf8a52cf7dafcc7a26e74b4019464ffe9097acedac1231870be86929fe05b235bf
+
+pkgname = python-usb_monitor

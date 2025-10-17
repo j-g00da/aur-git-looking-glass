@@ -1,0 +1,16 @@
+pkgbase = punktf
+	pkgdesc = A cross-platform multi-target dotfiles manager
+	pkgver = 3.1.1
+	pkgrel = 1
+	url = https://github.com/Shemnei/punktf
+	arch = x86_64
+	license = MIT
+	license = Apache
+	makedepends = cargo
+	depends = gcc-libs
+	provides = punktf
+	conflicts = punktf
+	source = punktf-3.1.1.tar.gz::https://github.com/Shemnei/punktf/archive/v3.1.1.tar.gz
+	sha512sums = f7c3be759a24983f20dd7b61c8ab016fb4667b77b664b868ce952f69d7130d116b5a783dd3009a687aa69fb4b84cfb4fc9e33a69f7b0e2260269235f583133ab
+
+pkgname = punktf

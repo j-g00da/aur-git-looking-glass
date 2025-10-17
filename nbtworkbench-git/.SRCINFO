@@ -1,0 +1,17 @@
+pkgbase = nbtworkbench-git
+	pkgdesc = A modern NBT (Minecraft's Named Binary Tags) Editor written in Rust.
+	pkgver = 1.6.2.r27.g6660f94
+	pkgrel = 1
+	url = https://github.com/RealRTTV/nbtworkbench
+	arch = x86_64
+	license = MPL-2.0
+	makedepends = cargo
+	makedepends = git
+	depends = gcc-libs
+	provides = nbtworkbench
+	conflicts = nbtworkbench
+	options = !lto
+	source = nbtworkbench::git+https://github.com/RealRTTV/nbtworkbench.git
+	sha256sums = SKIP
+
+pkgname = nbtworkbench-git

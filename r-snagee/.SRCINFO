@@ -1,0 +1,15 @@
+pkgbase = r-snagee
+	pkgdesc = Signal-to-Noise applied to Gene Expression Experiments
+	pkgver = 1.48.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/SNAGEE
+	arch = any
+	license = Artistic-2.0
+	depends = r-snageedata
+	optdepends = r-all
+	optdepends = r-hgu95av2.db
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/SNAGEE_1.48.0.tar.gz
+	md5sums = cbe4d8f47e3e360a7fad46dc4608f181
+	b2sums = bfaaa92dbd66f15a92728f5daaf80cc5446ca276ce1744d74ed97b036da628af954a5bef4f447e6059442b914a5701b6497325d7d18c43d13ba58a91356e6032
+
+pkgname = r-snagee

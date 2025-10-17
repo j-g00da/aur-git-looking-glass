@@ -1,0 +1,59 @@
+# Submitter: Dknight
+# Contributor: Maksim Sipos <msipos@mailc.net>
+# Maintainer: Clemens Buchacher <drizzd@aon.at>
+#
+# You can use the newpkg script from
+# https://github.com/drizzd/octave-forge-archlinux to automatically generate
+# new octave-forge PKGBUILDs or update existing ones. Patches welcome.
+#
+
+_pack=statistics
+pkgname=octave-$_pack
+pkgver=1.7.5
+pkgrel=1
+pkgdesc="Additional statistics functions for Octave."
+arch=('x86_64')
+url="https://gnu-octave.github.io/packages/$_pack/"
+license=('GPL-3.0-or-later')
+groups=('octave-forge')
+depends=('octave>=8.1.0')
+makedepends=()
+optdepends=()
+backup=()
+options=()
+install=$pkgname.install
+_archive=$_pack-$pkgver.tar.gz
+source=("$_pack-$pkgver.tar.gz::https://github.com/gnu-octave/$_pack/archive/refs/tags/release-$pkgver.tar.gz")
+noextract=("$_archive")
+b2sums=('f18b9d018a1d2138301fb012d32883b39596e7fabc146b0a6fb6e5935622e5e43516bb20c5011017aa5faa4d0f8c2d419f73fadfd64d1e8f946721a537b0bc6d')
+
+_octave_run() {
+	octave --no-history --no-init-file --no-window-system -q -f --eval "$*"
+}
+
+_install_dir() {
+	src=$1
+	dst=$2
+	mkdir -p "$(dirname "$dst")"
+	cp -rT "$src" "$dst"
+}
+
+build() {
+	_prefix="$srcdir"/install_prefix
+	_archprefix="$srcdir"/install_archprefix
+	mkdir -p "$_prefix" "$_archprefix"
+	cd "$srcdir"
+	_octave_run "$(cat <<-EOF
+		pkg local_list octave_packages;
+		pkg prefix $_prefix $_archprefix;
+		pkg install -verbose -nodeps $_archive;
+		EOF
+		)"
+}
+
+package() {
+	prefix=$pkgdir/usr/share/octave/packages
+	archprefix=$pkgdir/usr/lib/octave/packages
+	_install_dir "$srcdir"/install_prefix "$prefix"
+	_install_dir "$srcdir"/install_archprefix "$archprefix"
+}

@@ -1,0 +1,17 @@
+pkgbase = certbot-dns-duckdns
+	pkgdesc = Plugin for certbot for a DNS-01 challenge with a DuckDNS domain
+	pkgver = 1.7.0
+	pkgrel = 1
+	url = https://github.com/infinityofspace/certbot_dns_duckdns
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = certbot
+	depends = python-dnspython
+	depends = python-requests
+	source = https://github.com/infinityofspace/certbot_dns_duckdns/archive/refs/tags/v1.7.0.tar.gz
+	sha384sums = df71e7014252716790a058d375729926fd18db1b9d2066dc611ff3e869f5a49d626f03ca24af641f12614127da687602
+
+pkgname = certbot-dns-duckdns

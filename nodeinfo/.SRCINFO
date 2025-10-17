@@ -1,0 +1,19 @@
+pkgbase = nodeinfo
+	pkgdesc = return nodeinfo as json based on a given domain
+	pkgver = 1.0.0
+	pkgrel = 0
+	url = https://codeberg.org/thefederationinfo/nodeinfo-go
+	arch = x86_64
+	arch = i686
+	arch = aarch64
+	arch = armv7h
+	arch = armv6h
+	arch = riscv64
+	license = MIT
+	makedepends = git
+	makedepends = go
+	depends = glibc
+	source = https://codeberg.org/thefederationinfo/nodeinfo-go/archive/v1.0.0.tar.gz
+	sha512sums = 9906cdfd5e91deaa62e776e5a1b2ba9154ec35b82f20330122042c4acd3ae23a01b09bdf6da8441af0876f38559e58a31304dba8939f23c9e8829dd454c55ff2
+
+pkgname = nodeinfo

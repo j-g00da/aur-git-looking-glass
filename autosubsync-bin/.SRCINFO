@@ -1,0 +1,14 @@
+pkgbase = autosubsync-bin
+	pkgdesc = AutoSubSync is a user-friendly Python tool that helps you easily synchronize subtitle files.
+	pkgver = 6.1
+	pkgrel = 1
+	url = https://github.com/denizsafak/AutoSubSync
+	arch = x86_64
+	license = GPL-3.0-or-later
+	provides = autosubsync
+	source = https://github.com/denizsafak/AutoSubSync/releases/download/v6.0/AutoSubSync-v6.1-linux-amd64.tar.gz
+	source = autosubsync.desktop
+	sha256sums = 6204986ff8610333c46ac7b796e17652e24768ed23e72c6f53c7206c358acc92
+	sha256sums = f123dc193f6c2a4362cfd84dde2f58a10311b0947b9550355b78e7deac1cdf03
+
+pkgname = autosubsync-bin

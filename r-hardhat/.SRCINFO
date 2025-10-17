@@ -1,0 +1,29 @@
+pkgbase = r-hardhat
+	pkgdesc = Construct Modeling Packages
+	pkgver = 1.4.2
+	pkgrel = 1
+	url = https://cran.r-project.org/package=hardhat
+	arch = any
+	license = MIT
+	depends = r-cli
+	depends = r-glue
+	depends = r-rlang
+	depends = r-tibble
+	depends = r-vctrs
+	depends = r-sparsevctrs
+	optdepends = r-covr
+	optdepends = r-crayon
+	optdepends = r-devtools
+	optdepends = r-knitr
+	optdepends = r-modeldata
+	optdepends = r-recipes
+	optdepends = r-rmarkdown
+	optdepends = r-roxygen2
+	optdepends = r-testthat
+	optdepends = r-usethis
+	optdepends = r-withr
+	source = https://cran.r-project.org/src/contrib/hardhat_1.4.2.tar.gz
+	md5sums = b14889116413fdf702b95c488cb52f66
+	b2sums = 1052efd7e45c6c6cc8aff92217111f1c89c3a0ddd5e9bf81794788414ccb8e62238b5da770a2559df24b037e8d1e637ad77be6524bfa9dc174056f6a5aceddf6
+
+pkgname = r-hardhat

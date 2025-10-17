@@ -1,0 +1,24 @@
+pkgbase = e-modules-extra-git
+	pkgdesc = Enlightenment modules: Extra unsupported modules in Git not already packaged elsewhere
+	pkgver = 20241111
+	pkgrel = 2
+	url = https://git.enlightenment.org/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	license = MIT
+	makedepends = git
+	depends = enlightenment
+	provides = e-modules-extra
+	source = git+https://git.enlightenment.org/enlightenment/enlightenment-module-cpu.git
+	source = git+https://git.enlightenment.org/enlightenment/enlightenment-module-desksanity.git
+	source = git+https://git.enlightenment.org/enlightenment/enlightenment-module-eenvader.fractal.git
+	source = git+https://git.enlightenment.org/enlightenment/enlightenment-module-mem.git
+	source = git+https://git.enlightenment.org/enlightenment/enlightenment-module-net.git
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = e-modules-extra-git

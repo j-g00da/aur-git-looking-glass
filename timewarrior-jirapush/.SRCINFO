@@ -1,0 +1,16 @@
+pkgbase = timewarrior-jirapush
+	pkgdesc = TimeWarrior Extension that uploads timewarrior intervals to Jira as work logs
+	pkgver = 0.6.0
+	pkgrel = 1
+	url = https://gitlab.com/FoxAmes/timewarrior-jirapush
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	makedepends = asciidoctor
+	makedepends = jq
+	depends = timew
+	optdepends = bugwarrior: Pull synchronisation of JIRA issues into taskwarrior
+	source = timewarrior-jirapush-v0.6.0.tar.gz::https://gitlab.com/FoxAmes/timewarrior-jirapush/-/archive/v0.6.0/timewarrior-jirapush-v0.6.0.tar.gz
+	sha512sums = 42ea4864bde80e890d625db5c15d5f7529f77ee0901609615a47fa242befbabf092666f10ae71ec83b822b528b24898565560ab833376b2dd9b16c652ac36740
+
+pkgname = timewarrior-jirapush

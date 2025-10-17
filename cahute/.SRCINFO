@@ -1,0 +1,24 @@
+pkgbase = cahute
+	pkgdesc = A toolkit to handle communication and file formats related to CASIO calculators
+	pkgver = 0.6
+	pkgrel = 2
+	url = https://cahuteproject.org
+	install = cahute.install
+	arch = x86_64
+	license = custom:CeCILL
+	makedepends = cmake
+	makedepends = python
+	makedepends = python-toml
+	depends = libusb
+	depends = sdl2
+	provides = p7
+	provides = libp7
+	provides = p7screen
+	replaces = p7
+	replaces = libp7
+	replaces = p7screen
+	options = !strip
+	source = https://ftp.cahuteproject.org/releases/cahute-0.6.tar.gz
+	b2sums = 686b39fd9857afe5758a4cb95e8b889516d80dc7f02507eedc83bb08f4649ba44f816c8d4e756dce044e3c265316e9f884b069ba78efec182c91b3ce4e4d49fc
+
+pkgname = cahute

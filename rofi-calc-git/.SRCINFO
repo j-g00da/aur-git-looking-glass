@@ -1,0 +1,19 @@
+pkgbase = rofi-calc-git
+	pkgdesc = Do calculations in rofi
+	pkgver = r220.a613682
+	pkgrel = 2
+	url = https://github.com/svenstaro/rofi-calc
+	arch = x86_64
+	license = MIT
+	checkdepends = check
+	makedepends = git
+	makedepends = meson
+	depends = rofi
+	depends = libqalculate
+	provides = rofi-calc
+	conflicts = rofi-calc
+	options = !debug
+	source = git+https://github.com/svenstaro/rofi-calc
+	b2sums = SKIP
+
+pkgname = rofi-calc-git

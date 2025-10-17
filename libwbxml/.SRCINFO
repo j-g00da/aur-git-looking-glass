@@ -1,0 +1,14 @@
+pkgbase = libwbxml
+	pkgdesc = Library and Tools to parse, encode and handle WBXML documents
+	pkgver = 0.11.10
+	pkgrel = 1
+	url = https://github.com/libwbxml/libwbxml
+	arch = x86_64
+	license = LGPL
+	makedepends = cmake
+	makedepends = check
+	depends = expat
+	source = https://github.com/libwbxml/libwbxml/archive/refs/tags/libwbxml-0.11.10.tar.gz
+	sha256sums = 027b77ab7c06458b73cbcf1f06f9cf73b65acdbb2ac170b234c1d736069acae4
+
+pkgname = libwbxml

@@ -1,0 +1,26 @@
+pkgbase = mongars
+	pkgdesc = Count inbox emails using Gnome Online Accounts or Google GMAIL API
+	pkgver = 1.4.5
+	pkgrel = 1
+	url = https://github.com/chmouel/mongars
+	arch = any
+	license = Apache
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-hatchling
+	depends = python-google-api-core
+	depends = python-google-api-python-client
+	depends = python-google-auth
+	depends = python-google-auth-httplib2
+	depends = python-google-auth-oauthlib
+	depends = python-googleapis-common-protos
+	depends = pass
+	depends = libnotify
+	optdepends = gum
+	optdepends = python-gobject
+	optdepends = evolution-data-server
+	source = https://github.com/chmouel/mongars/releases/download/1.4.5/mongars-1.4.5.tar.gz
+	sha256sums = 7607318ed870cd4efd017ebf0f9800f43af35f9e1c21a08df61595d76d0df6cf
+
+pkgname = mongars

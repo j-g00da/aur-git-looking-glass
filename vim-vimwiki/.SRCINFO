@@ -1,0 +1,13 @@
+pkgbase = vim-vimwiki
+	pkgdesc = A personal wiki for Vim
+	pkgver = 2024.01.24
+	pkgrel = 1
+	url = https://github.com/vimwiki/vimwiki
+	arch = any
+	groups = vim-plugins
+	license = MIT
+	depends = vim
+	source = vim-vimwiki-2024.01.24.tar.gz::https://github.com/vimwiki/vimwiki/archive/v2024.01.24.tar.gz
+	sha256sums = 587083ee6afbae027b69fb2dd074e87244a963b218ced7e16d4cb1390c6a5833
+
+pkgname = vim-vimwiki

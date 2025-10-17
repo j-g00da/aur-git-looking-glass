@@ -1,0 +1,16 @@
+pkgbase = kops-beta-bin
+	pkgdesc = Kubernetes Operations Prerelease builds - Production Grade K8s Installation, Upgrades, and Management
+	pkgver = v1.34.0_beta.1
+	pkgrel = 1
+	url = https://github.com/kubernetes/kops
+	arch = x86_64
+	arch = aarch64
+	license = apache
+	conflicts = kops-bin
+	conflicts = kops
+	source_x86_64 = https://github.com/kubernetes/kops/releases/download/v1.34.0-beta.1/kops-linux-amd64
+	sha256sums_x86_64 = 9d57a35d61e91e46cc2555892814f4b125dd43e438028d7d319be522f4bb3bcb
+	source_aarch64 = https://github.com/kubernetes/kops/releases/download/v1.34.0-beta.1/kops-linux-arm64
+	sha256sums_aarch64 = f8ebe977ef0853a54cd8345d615fcb7ec98948ede1dd138ea95fa22671815ae8
+
+pkgname = kops-beta-bin

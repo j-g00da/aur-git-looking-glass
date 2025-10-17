@@ -1,0 +1,26 @@
+pkgbase = toggle-git
+	pkgdesc = Toggle extra GNOME settings
+	pkgver = 0.99.0.a.r18.ga7bd078
+	pkgrel = 1
+	url = https://gitlab.gnome.org/World/toggle
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = blueprint-compiler
+	makedepends = git
+	makedepends = meson
+	makedepends = setconf
+	makedepends = typescript
+	depends = gjs
+	depends = gtk4
+	depends = libadwaita
+	optdepends = gnome-shell-extensions: enable Light Theme
+	provides = toggle
+	conflicts = toggle
+	source = git+https://gitlab.gnome.org/World/toggle.git
+	source = git+https://gitlab.gnome.org/BrainBlasted/gi-typescript-definitions.git
+	source = fix-build.patch
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = f4724cfe8cc80133af9fbe118682bf8b2259cce1acfdd9caa5533b0f2a9dd52b
+
+pkgname = toggle-git

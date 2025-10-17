@@ -1,0 +1,17 @@
+pkgbase = r-flowchic
+	pkgdesc = Analyze flow cytometric data using histogram information
+	pkgver = 1.42.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/flowCHIC
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-ebimage
+	depends = r-flowcore
+	depends = r-ggplot2
+	depends = r-hexbin
+	depends = r-vegan
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/flowCHIC_1.42.0.tar.gz
+	sha256sums = de412c793c335fd921f76a82f5da25ec7c605a19f36c85b24f66c7edb3c8cb24
+
+pkgname = r-flowchic

@@ -1,0 +1,15 @@
+pkgbase = r-hypergraph
+	pkgdesc = A package providing hypergraph data structures
+	pkgver = 1.80.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/hypergraph
+	arch = any
+	license = Artistic-2.0
+	depends = r-graph
+	optdepends = r-biocgenerics
+	optdepends = r-runit
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/hypergraph_1.80.0.tar.gz
+	md5sums = 47ffae10238d88157056acaed678195c
+	b2sums = d200965d4b11404ba0f2367acdb8d7881b052100c0aa7709dcf236fd370f664830f317d11ee7dd1259cce75292993175153d9acbfcbe3c635d164cb42abb79e7
+
+pkgname = r-hypergraph

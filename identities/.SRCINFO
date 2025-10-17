@@ -1,0 +1,21 @@
+pkgbase = identities
+	pkgdesc = Modern password-store client made for GNOME
+	pkgver = 0.2.1
+	pkgrel = 1
+	url = https://github.com/k8ieone/identities
+	arch = any
+	license = GPL-3.0-only
+	checkdepends = appstream-glib
+	checkdepends = desktop-file-utils
+	makedepends = git
+	makedepends = meson
+	makedepends = blueprint-compiler
+	depends = python3
+	depends = python-gnupg
+	depends = python-pyotp
+	provides = identities
+	conflicts = identities
+	source = identities::git+https://github.com/k8ieone/identities#tag=0.2.1
+	sha512sums = 15fd273185a3a137045b24271ec10a1e103cfc3ac19d9b60c39c8fa1e199c0c8460e036ffac419b06388278f1861c7d7dfa296d4a5e989cc37d555e556fe43e2
+
+pkgname = identities

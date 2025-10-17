@@ -1,0 +1,15 @@
+pkgbase = ruby-unicode
+	pkgdesc = Unicode normalization library.
+	pkgver = 0.4.4.5
+	pkgrel = 2
+	url = https://github.com/blackwinter/unicode
+	arch = i686
+	arch = x86_64
+	license = custom:none
+	depends = ruby
+	noextract = unicode-0.4.4.5.gem
+	options = !emptydirs
+	source = https://rubygems.org/downloads/unicode-0.4.4.5.gem
+	sha1sums = 89dd3d0e8511e41e56f798fb18c3d84d52ad69aa
+
+pkgname = ruby-unicode

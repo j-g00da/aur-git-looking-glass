@@ -1,0 +1,15 @@
+pkgbase = aurutils-extra-git
+	pkgdesc = carlsmedstad’s custom aurutils scripts
+	pkgver = r86.c175268
+	pkgrel = 1
+	url = https://github.com/carlsmedstad/aurutils-extra
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = bash
+	provides = aurutils-extra
+	conflicts = aurutils-extra
+	source = git+https://github.com/carlsmedstad/aurutils-extra
+	sha256sums = SKIP
+
+pkgname = aurutils-extra-git

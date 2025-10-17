@@ -1,0 +1,17 @@
+pkgbase = dinit-user-spawn-dev-git
+	pkgdesc = Launches a user process dinit for you on login
+	pkgver = r24.a97bb3b
+	pkgrel = 1
+	url = https://github.com/initMayday/dinit-user-spawn.git
+	install = dinit-user-spawn.install
+	arch = any
+	license = AGPL-3.0-or-later
+	makedepends = meson
+	makedepends = git
+	depends = tomlplusplus
+	provides = dinit-user-spawn
+	conflicts = dinit-user-spawn
+	source = dinit-user-spawn::git+https://github.com/initMayday/dinit-user-spawn.git#branch=dev
+	sha256sums = SKIP
+
+pkgname = dinit-user-spawn-dev-git

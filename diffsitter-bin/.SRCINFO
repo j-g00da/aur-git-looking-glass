@@ -1,0 +1,23 @@
+pkgbase = diffsitter-bin
+	pkgdesc = A tree-sitter based AST difftool to get meaningful semantic diffs
+	pkgver = 0.9.0
+	pkgrel = 1
+	url = https://github.com/afnanenayet/diffsitter
+	arch = x86_64
+	arch = i686
+	arch = arm
+	arch = aarch64
+	license = MIT
+	provides = diffsitter
+	source = https://github.com/afnanenayet/diffsitter/archive/v0.9.0.tar.gz
+	sha256sums = 4cd13befb36d4035fade5ce44edb41ae601fd068e8088f7f0538128142ca65c6
+	source_x86_64 = https://github.com/afnanenayet/diffsitter/releases/download/v0.9.0/diffsitter-x86_64-unknown-linux-gnu.tar.gz
+	sha256sums_x86_64 = 3496d7ae8dfdd3eba92edd1ccd68f79442ff86a48f30d54b4fd522e772e699b9
+	source_i686 = https://github.com/afnanenayet/diffsitter/releases/download/v0.9.0/diffsitter-i686-unknown-linux-gnu.tar.gz
+	sha256sums_i686 = 01dcc1c22571efa0139088d261990d6bccb329399d0943bc6a0e968f3d9203a0
+	source_arm = https://github.com/afnanenayet/diffsitter/releases/download/v0.9.0/diffsitter-arm-unknown-linux-gnueabi.tar.gz
+	sha256sums_arm = 224d18258f2796ce94d24da818578923cdb0f9917288a1d47865676644be6e61
+	source_aarch64 = https://github.com/afnanenayet/diffsitter/releases/download/v0.9.0/diffsitter-aarch64-unknown-linux-gnu.tar.gz
+	sha256sums_aarch64 = 8f651d1db49c8ffb8974faaff442cc9dd8153b07271261da61380968e2db6957
+
+pkgname = diffsitter-bin

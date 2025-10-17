@@ -1,0 +1,25 @@
+pkgbase = epodpisfs
+	pkgdesc = Electronic signing of tax and other forms for the Financial Administration of the Czech Republic
+	pkgver = 19.9
+	pkgrel = 2
+	url = https://podpora.mojedane.gov.cz/cs/seznam-okruhu/app/UXVlc3Rpb25zfGRpZ2VzdC5hc3B4P3NpZD00NTY4
+	arch = x86_64
+	license = custom
+	depends = ca-certificates
+	depends = ttf-dejavu
+	depends = freetype2
+	depends = glibc>=2.27
+	depends = libxext
+	depends = libxrender
+	depends = libxtst
+	depends = libx11
+	depends = opensc
+	depends = xdg-utils
+	depends = zlib
+	options = !strip
+	options = !emptydirs
+	options = !debug
+	source = epodpisfs-19.9_x86_64.deb::https://adisspr.mfcr.cz/dpr/adis/idpr_pub/epodpis_info/epodpisfs-ubuntu-19.0.deb
+	sha256sums = dbe27a01277d8401ac6d21364db62d1dedc29f26a32c6cd364923094ca51429e
+
+pkgname = epodpisfs

@@ -1,0 +1,21 @@
+pkgbase = uarm-git
+	pkgdesc = arm7tdmi based computer emulator with debugging tools
+	pkgver = v0.5.3.r52.8b10fc0
+	pkgrel = 7
+	url = http://mellotanica.github.io/uARM/
+	arch = any
+	license = GPL
+	makedepends = git
+	depends = qt5-declarative
+	depends = gcc
+	depends = make
+	depends = boost
+	optdepends = python2: for uarm-readuarm header reader
+	optdepends = arm-none-eabi-gcc: cross compiler for target architecture
+	conflicts = uarm
+	backup = etc/default/uarm
+	source = git+https://github.com/mellotanica/uARM.git#branch=master
+	md5sums = SKIP
+
+pkgname = uarm-git
+

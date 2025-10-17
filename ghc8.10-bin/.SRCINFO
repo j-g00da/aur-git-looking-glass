@@ -1,0 +1,21 @@
+pkgbase = ghc8.10-bin
+	pkgdesc = Binary GHC 8.10 installed on /usr/bin/ghc-8.10
+	pkgver = 8.10.7
+	pkgrel = 2
+	url = http://www.haskell.org/ghc/
+	install = ghc.install
+	arch = x86_64
+	license = BSD-3-Clause
+	makedepends = ghc
+	makedepends = libxslt
+	makedepends = docbook-xsl
+	depends = gcc
+	depends = gmp
+	depends = libffi
+	depends = perl
+	provides = ghc8.10
+	conflicts = ghc8.10
+	source = https://www.haskell.org/ghc/dist/8.10.7/ghc-8.10.7-x86_64-deb10-linux.tar.xz
+	sha256sums = a13719bca87a0d3ac0c7d4157a4e60887009a7f1a8dbe95c4759ec413e086d30
+
+pkgname = ghc8.10-bin

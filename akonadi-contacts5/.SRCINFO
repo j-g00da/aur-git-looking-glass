@@ -1,0 +1,23 @@
+pkgbase = akonadi-contacts5
+	pkgdesc = Libraries and daemons to implement Contact Management in Akonadi
+	pkgver = 23.08.5
+	pkgrel = 3
+	url = https://kontact.kde.org
+	arch = x86_64
+	license = LGPL
+	makedepends = extra-cmake-modules
+	depends = libakonadi5
+	depends = kcontacts5
+	depends = kmime5
+	depends = prison5
+	depends = grantleetheme5
+	conflicts = akonadi-contacts<24
+	source = https://download.kde.org/stable/release-service/23.08.5/src/akonadi-contacts-23.08.5.tar.xz
+	source = https://download.kde.org/stable/release-service/23.08.5/src/akonadi-contacts-23.08.5.tar.xz.sig
+	validpgpkeys = CA262C6C83DE4D2FB28A332A3A6A4DB839EAA6D7
+	validpgpkeys = F23275E4BF10AFC1DF6914A6DBD2CE893E2D1C87
+	validpgpkeys = D81C0CB38EB725EF6691C385BB463350D6EF31EF
+	sha256sums = e7a4b37c6bb4dbdb074398a48050b3ea63b1ffd8b576f3efa9cef56759cf4251
+	sha256sums = SKIP
+
+pkgname = akonadi-contacts5

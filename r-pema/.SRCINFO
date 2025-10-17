@@ -1,0 +1,34 @@
+pkgbase = r-pema
+	pkgdesc = Penalized Meta-Analysis
+	pkgver = 0.1.5
+	pkgrel = 1
+	url = https://cran.r-project.org/package=pema
+	arch = x86_64
+	license = GPL-3.0-or-later
+	checkdepends = r-mice
+	checkdepends = r-testthat
+	makedepends = r-bh
+	makedepends = r-rcppeigen
+	makedepends = r-stanheaders
+	depends = onetbb
+	depends = r-ggplot2
+	depends = r-rcpp
+	depends = r-rcppparallel
+	depends = r-rstan
+	depends = r-rstantools
+	depends = r-shiny
+	depends = r-sn
+	depends = r-cli
+	optdepends = r-knitr
+	optdepends = r-mice
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	optdepends = r-webexercises
+	optdepends = r-bain
+	optdepends = r-metaforest
+	optdepends = r-metafor
+	source = https://cran.r-project.org/src/contrib/pema_0.1.5.tar.gz
+	md5sums = 0b7996f1151f4239e5cca9d093d051a7
+	b2sums = a2f821a7376c35cb299be7aef68b7354a4ba65371747457642a0edcb564209ca55c2968ff897451a402a81bf418c8851ea36effb239436b72f4ae4a2faa193ce
+
+pkgname = r-pema

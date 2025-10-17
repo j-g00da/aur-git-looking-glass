@@ -1,0 +1,14 @@
+pkgbase = gmap
+	pkgdesc = Git repository analysis tool for churn and heatmap visualization
+	pkgver = 0.3.3
+	pkgrel = 1
+	url = https://github.com/seeyebe/gmap
+	arch = x86_64
+	license = MIT
+	makedepends = rust
+	makedepends = cargo
+	makedepends = git
+	source = gmap-0.3.3.tar.gz::https://github.com/seeyebe/gmap/archive/refs/tags/0.3.3.tar.gz
+	sha256sums = a53ef4474409df65bbe600b2c239776e498a06a956143c7d7f2fcef03dd32f2e
+
+pkgname = gmap

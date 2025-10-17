@@ -1,0 +1,22 @@
+pkgbase = opendeck
+	pkgdesc = A cross-platform desktop application that provides functionality for stream controller devices.
+	pkgver = v2.6.1
+	pkgrel = 1
+	url = https://github.com/nekename/OpenDeck
+	arch = x86_64
+	license = GPL-3.0
+	makedepends = git
+	makedepends = deno
+	makedepends = cargo
+	makedepends = dpkg
+	makedepends = hidapi
+	depends = libappindicator-gtk3
+	depends = webkit2gtk-4.1
+	optdepends = wine: For most Windows only Plugins support needed
+	provides = opendeck
+	conflicts = opendeck
+	options = !lto
+	source = opendeck::git+https://github.com/nekename/OpenDeck#tag=v2.6.1
+	sha256sums = c63c1e26900bc6e1bcfdcef96bb7867b3b43c0ae5342f04d9130b05b20c59ac4
+
+pkgname = opendeck

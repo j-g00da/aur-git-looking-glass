@@ -1,0 +1,13 @@
+pkgbase = matlab-documentation
+	pkgdesc = A high-level language for numerical computation and visualization (documentation)
+	pkgver = R2025a+25.1.0.2934551
+	pkgrel = 1
+	epoch = 1
+	url = https://www.mathworks.com/help/install/ug/install-documentation-on-offline-machines.html
+	arch = any
+	license = custom:MATLAB EULA
+	depends = matlab-release=R2025a
+	source = matlab-documentation-R2025a.iso::https://www.mathworks.com/doc-iso-r2025a-linux
+	sha256sums = SKIP
+
+pkgname = matlab-documentation

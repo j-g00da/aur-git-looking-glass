@@ -1,0 +1,11 @@
+pkgbase = ttc-genwan
+	pkgdesc = Open source Chinese/Japanese fonts based on Adobe Source Han.
+	pkgver = 2.100
+	pkgrel = 1
+	url = https://github.com/ButTaiwan/genwan-font
+	arch = any
+	license = OFL
+	source = https://github.com/ButTaiwan/genwan-font/releases/download/v2.100/GenWanMin2-ttc.zip
+	b2sums = 9c6f2e6be1aee63a2c79edb59d4d6137f5ea1f81356a1d2166aea967eb696a5099f2f35553b32c287abb4f1929a08aacf5863c73a9ea1198f30f441a496019d6
+
+pkgname = ttc-genwan

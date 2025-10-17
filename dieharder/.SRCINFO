@@ -1,0 +1,14 @@
+pkgbase = dieharder
+	pkgdesc = A testing and benchmarking tool for random number generators
+	pkgver = 3.31.1.4
+	pkgrel = 1
+	url = https://github.com/eddelbuettel/dieharder
+	arch = x86_64
+	license = GPL-2.0-or-later
+	depends = gsl
+	provides = dieharder=3.31.1.4
+	provides = libdieharder=3.31.1.4
+	source = dieharder-3.31.1.4.tar.gz::https://github.com/eddelbuettel/dieharder/archive/refs/tags/3.31.1.4.tar.gz
+	sha256sums = 0fdd8a66a077e86652a47641589aa4667ae13d322a7214bb555ab37f082002dd
+
+pkgname = dieharder

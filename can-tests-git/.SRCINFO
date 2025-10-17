@@ -1,0 +1,19 @@
+pkgbase = can-tests-git
+	pkgdesc = Linux-CAN / SocketCAN testing applications
+	pkgver = 2023.05.0.r5.g3258274
+	pkgrel = 25
+	url = https://github.com/linux-can/can-tests
+	arch = x86_64
+	license = GPL-2.0-only
+	license = BSD-3-Clause
+	makedepends = git
+	depends = glibc
+	depends = bash
+	optdepends = can-utils: Linux-CAN / SocketCAN user space applications
+	optdepends = can-doc: Linux-CAN / SocketCAN documentation
+	provides = can-tests
+	conflicts = can-tests
+	source = can-tests-git::git+https://github.com/linux-can/can-tests.git
+	sha256sums = SKIP
+
+pkgname = can-tests-git

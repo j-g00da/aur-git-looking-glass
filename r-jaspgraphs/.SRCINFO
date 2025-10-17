@@ -1,0 +1,23 @@
+pkgbase = r-jaspgraphs
+	pkgdesc = Custom Graphs for JASP
+	pkgver = 0.95.3
+	pkgrel = 1
+	url = https://github.com/jasp-stats/jaspGraphs
+	arch = any
+	groups = r-jasp
+	groups = r-jaspbase
+	license = GPL
+	depends = r
+	depends = r-jsonlite
+	depends = r-lifecycle
+	depends = r-ggplot2
+	depends = r-gridextra
+	depends = r-rlang
+	depends = r-scales
+	depends = r-viridislite
+	depends = r-rcolorbrewer
+	optdepends = r-testthat
+	source = jaspGraphs_0.95.3.tar.gz::https://github.com/jasp-stats/jaspGraphs/archive/refs/tags/v0.95.3.tar.gz
+	sha256sums = 9b796e82d32f719585a59618d02da819c6e1c1c4c270af37a8776ab92203377a
+
+pkgname = r-jaspgraphs

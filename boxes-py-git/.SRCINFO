@@ -1,0 +1,22 @@
+pkgbase = boxes-py-git
+	pkgdesc = Boxes.py - laser cutting boxes and more
+	pkgver = r1953.745db81
+	pkgrel = 1
+	url = https://github.com/florianfesti/boxes
+	arch = x86_64
+	license = GPL3
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	depends = python
+	depends = python-affine
+	depends = python-numpy
+	depends = python-shapely
+	depends = python-markdown
+	depends = python-qrcode
+	optdepends = pstoedit: to export to DXG, gcode or PLT.
+	optdepends = python-inkex: for the inkscape extension.
+	source = git+https://github.com/florianfesti/boxes
+	b2sums = SKIP
+
+pkgname = boxes-py-git

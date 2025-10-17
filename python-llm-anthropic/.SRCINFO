@@ -1,0 +1,23 @@
+pkgbase = python-llm-anthropic
+	pkgdesc = LLM plugin for models hosted by Anthropic, including the Claude series
+	pkgver = 0.20
+	pkgrel = 1
+	url = https://github.com/simonw/llm-anthropic
+	arch = any
+	license = Apache-2.0
+	checkdepends = python-inline-snapshot
+	checkdepends = python-pytest
+	checkdepends = python-pytest-asyncio
+	checkdepends = python-pytest-recording
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	depends = python
+	depends = python-anthropic>=0.70
+	depends = python-docstring-parser
+	depends = python-llm
+	depends = python-pydantic
+	source = llm-anthropic-0.20.tar.gz::https://github.com/simonw/llm-anthropic/archive/0.20.tar.gz
+	sha512sums = edbd2d340cecf22322ccde73f9c68cbdb517714c719dbf61dc1cfea5b6e5064bf8ffd1bf8cf6b3923608019093ed7855757a9b5fe43f5b56cf55f112f05a515b
+
+pkgname = python-llm-anthropic

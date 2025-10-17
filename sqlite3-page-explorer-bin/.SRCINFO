@@ -1,0 +1,20 @@
+pkgbase = sqlite3-page-explorer-bin
+	pkgdesc = Cross Platform app to explore internal organisation of tables and indices
+	pkgver = 1.0
+	pkgrel = 6
+	url = https://github.com/siara-cc/sqlite3_page_explorer
+	arch = x86_64
+	license = Apache-2.0
+	makedepends = gendesk
+	depends = nss
+	depends = alsa-lib
+	depends = gtk3
+	depends = libxss
+	provides = sqlite3-page-explorer=1.0
+	conflicts = sqlite3-page-explorer
+	source = sqlite3-page-explorer-1.0.zip::https://github.com/siara-cc/sqlite3_page_explorer/releases/download/v1.0-linux/sqlite3-page-explorer-linux-x64.zip
+	source = sqlite3-page-explorer-1.0.png::https://raw.githubusercontent.com/siara-cc/sqlite3_page_explorer/v1.0-linux/res/img/siara_cc_3d.png
+	sha256sums = 92b07fa1b44f7d07e5fb275b0dba8cf7ed84817dc7b98f5a20e52529d1ee1f9a
+	sha256sums = 7ef8dd87b2d77fe2c4acbb9c2573b29b2ced763614f46ff6176e399130bb12dd
+
+pkgname = sqlite3-page-explorer-bin

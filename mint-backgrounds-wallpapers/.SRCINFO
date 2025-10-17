@@ -1,0 +1,13 @@
+pkgbase = mint-backgrounds-wallpapers
+	pkgdesc = The backgrounds included in Linux Mint 22.1 wallpapers
+	pkgver = 1.0
+	pkgrel = 1
+	url = http://packages.linuxmint.com/pool/main/m/mint-backgrounds-wallpapers
+	arch = any
+	license = Various
+	conflicts = mint-backgrounds-xia
+	replaces = mint-backgrounds-xia
+	source = http://packages.linuxmint.com/pool/main/m/mint-backgrounds-wallpapers/mint-backgrounds-wallpapers_1.0.tar.gz
+	sha256sums = 6059e3a28671a7d7ef385191efb056750362e3e2c45a731f130075d1adf4e302
+
+pkgname = mint-backgrounds-wallpapers

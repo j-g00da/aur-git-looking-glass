@@ -1,0 +1,12 @@
+pkgbase = plymouth-theme-bgrt-no-watermark
+	pkgdesc = Modified BGRT theme without watermark that retains OEM logo on LUKS prompt
+	pkgver = 1.0.1
+	pkgrel = 1
+	install = plymouth-theme-bgrt-no-watermark.install
+	arch = any
+	license = GPL
+	depends = plymouth
+	source = bgrt-no-watermark.plymouth
+	sha256sums = 42a250c8c2979d7be94485394ad24cc71981c5bb90dafb9bf87dab0e7649d2bd
+
+pkgname = plymouth-theme-bgrt-no-watermark

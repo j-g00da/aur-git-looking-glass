@@ -1,0 +1,169 @@
+# Maintainer: Evgenii Alekseev
+# Contributor: Felix Yan <felixonmars@archlinux.org>
+# Contributor: Manuel Schneider  <manuelschneid3r at googles mail>
+
+pkgname=albert-git
+_pkgname=${pkgname%-git}
+pkgver=0.32.1.r0.gf5681d3
+pkgrel=3
+pkgdesc="A sophisticated standalone keyboard launcher"
+arch=('x86_64')
+url="https://github.com/${_pkgname}launcher"
+license=('LicenseRef-Albert')
+depends=(
+	'libqalculate'
+	'python'
+	'python-pip'
+	'qt6-base'
+	'qt6-declarative'
+	'qt6-5compat'
+	'qt6-scxml'
+	'qt6-shadertools'
+	'qt6-svg'
+	'qtkeychain-qt6'
+)
+makedepends=('git' 'cmake' 'qt6-tools')
+conflicts=("${_pkgname}")
+provides=("${_pkgname}")
+source=("git+${url}/${_pkgname}.git"
+	"git+${url}/i18n.git"
+	"git+https://github.com/QtCommunity/QHotkey.git"
+	"git+https://github.com/QtCommunity/QNotification.git"
+	"git+${url}/${_pkgname}-plugin-application.git"
+	"git+${url}/${_pkgname}-plugin-applications.git"
+	"git+${url}/${_pkgname}-plugin-bluetooth.git"
+	"git+${url}/${_pkgname}-plugin-caffeine.git"
+	"git+${url}/${_pkgname}-plugin-calculator-qalculate.git"
+	"git+${url}/${_pkgname}-plugin-chromium.git"
+	"git+${url}/${_pkgname}-plugin-clipboard.git"
+	"git+${url}/${_pkgname}-plugin-contacts.git"
+	"git+${url}/${_pkgname}-plugin-datetime.git"
+	"git+${url}/${_pkgname}-plugin-debug.git"
+	"git+${url}/${_pkgname}-plugin-dictionary.git"
+	"git+${url}/${_pkgname}-plugin-docs.git"
+	"git+${url}/${_pkgname}-plugin-files.git"
+	"git+${url}/${_pkgname}-plugin-hash.git"
+	"git+${url}/${_pkgname}-plugin-mediaremote.git"
+	"git+${url}/${_pkgname}-plugin-menubar.git"
+	"git+${url}/${_pkgname}-plugin-obsidian.git"
+	"git+${url}/${_pkgname}-plugin-path.git"
+	"git+${url}/${_pkgname}-plugin-python.git"
+	"git+${url}/${_pkgname}-plugin-snippets.git"
+	"git+${url}/${_pkgname}-plugin-spotify.git"
+	"git+${url}/${_pkgname}-plugin-ssh.git"
+	"git+${url}/${_pkgname}-plugin-system.git"
+	"git+${url}/${_pkgname}-plugin-timer.git"
+	"git+${url}/${_pkgname}-plugin-timezones.git"
+	"git+${url}/${_pkgname}-plugin-urlhandler.git"
+	"git+${url}/${_pkgname}-plugin-vpn.git"
+	"git+${url}/${_pkgname}-plugin-websearch.git"
+	"git+${url}/${_pkgname}-plugin-widgetsboxmodel-qss.git"
+	"git+${url}/${_pkgname}-plugin-widgetsboxmodel.git"
+	"git+${url}/python.git"
+	"git+https://github.com/pybind/pybind11.git"
+)
+sha512sums=('SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP')
+
+pkgver() {
+	cd "${_pkgname}/"
+	git describe --long --tags --abbrev=7 | sed 's/\([^-]*-g\)/r\1/;s/-/./g;s/v//'
+}
+
+prepare() {
+	cd "${_pkgname}/"
+
+	git submodule init
+	git config submodule.plugins.url "${srcdir}/plugins/"
+	git config submodule.i18n.url "${srcdir}/i18n/"
+	git config submodule.lib/QHotkey.url "${srcdir}/QHotkey/"
+	git config submodule.lib/QNotification.url "${srcdir}/QNotification/"
+	git config submodule.plugins/application.url "${srcdir}/${_pkgname}-plugin-application/"
+	git config submodule.plugins/applications.url "${srcdir}/${_pkgname}-plugin-applications/"
+	git config submodule.plugins/bluetooth.url "${srcdir}/${_pkgname}-plugin-bluetooth/"
+	git config submodule.plugins/caffeine.url "${srcdir}/${_pkgname}-plugin-caffeine/"
+	git config submodule.plugins/calculator-qalculate.url "${srcdir}/${_pkgname}-plugin-calculator-qalculate/"
+	git config submodule.plugins/chromium.url "${srcdir}/${_pkgname}-plugin-chromium/"
+	git config submodule.plugins/clipboard.url "${srcdir}/${_pkgname}-plugin-clipboard/"
+	git config submodule.plugins/contacts.url "${srcdir}/${_pkgname}-plugin-contacts/"
+	git config submodule.plugins/datetime.url "${srcdir}/${_pkgname}-plugin-datetime/"
+	git config submodule.plugins/debug.url "${srcdir}/${_pkgname}-plugin-debug/"
+	git config submodule.plugins/dictionary.url "${srcdir}/${_pkgname}-plugin-dictionary/"
+	git config submodule.plugins/docs.url "${srcdir}/${_pkgname}-plugin-docs/"
+	git config submodule.plugins/files.url "${srcdir}/${_pkgname}-plugin-files/"
+	git config submodule.plugins/hash.url "${srcdir}/${_pkgname}-plugin-hash/"
+	git config submodule.plugins/mediaremote.url "${srcdir}/${_pkgname}-plugin-mediaremote/"
+	git config submodule.plugins/menubar.url "${srcdir}/${_pkgname}-plugin-menubar/"
+	git config submodule.plugins/obsidian.url "${srcdir}/${_pkgname}-plugin-obsidian/"
+	git config submodule.plugins/path.url "${srcdir}/${_pkgname}-plugin-path/"
+	git config submodule.plugins/python.url "${srcdir}/${_pkgname}-plugin-python/"
+	git config submodule.plugins/snippets.url "${srcdir}/${_pkgname}-plugin-snippets/"
+	git config submodule.plugins/spotify.url "${srcdir}/${_pkgname}-plugin-spotify/"
+	git config submodule.plugins/ssh.url "${srcdir}/${_pkgname}-plugin-ssh/"
+	git config submodule.plugins/system.url "${srcdir}/${_pkgname}-plugin-system/"
+	git config submodule.plugins/timer.url "${srcdir}/${_pkgname}-plugin-timer/"
+	git config submodule.plugins/timezones.url "${srcdir}/${_pkgname}-plugin-timezones/"
+	git config submodule.plugins/urlhandler.url "${srcdir}/${_pkgname}-plugin-urlhandler/"
+	git config submodule.plugins/vpn.url "${srcdir}/${_pkgname}-plugin-vpn/"
+	git config submodule.plugins/websearch.url "${srcdir}/${_pkgname}-plugin-websearch/"
+	git config submodule.plugins/widgetsboxmodel-qss.url "${srcdir}/${_pkgname}-plugin-widgetsboxmodel-qss/"
+	git config submodule.plugins/widgetsboxmodel.url "${srcdir}/${_pkgname}-plugin-widgetsboxmodel/"
+	git -c protocol.file.allow=always submodule update
+
+	cd plugins/python
+	git submodule init
+	git config submodule.pybind11.url "${srcdir}/pybind11/"
+	git config submodule.plugins.url "${srcdir}/python/"
+	git -c protocol.file.allow=always submodule update
+}
+
+build() {
+	cmake -B build \
+		-S "${_pkgname}" \
+		-DCMAKE_BUILD_TYPE=None \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DCMAKE_FIND_PACKAGE_RESOLVE_SYMLINKS=ON \
+		-DQHOTKEY_INSTALL=OFF
+
+	cmake --build build
+}
+
+package() {
+	DESTDIR="${pkgdir}" cmake --install build
+	install -Dm644 "${_pkgname}/LICENSE.md" -t "${pkgdir}/usr/share/licenses/${pkgname}/"
+}

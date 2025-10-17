@@ -1,0 +1,18 @@
+pkgbase = jdpermissionstoreedit
+	pkgdesc = Edit the Flatpak Permission Store
+	pkgver = 1.2
+	pkgrel = 1
+	url = https://codeberg.org/JakobDev/jdPermissionStoreEdit
+	arch = x86_64
+	license = GPL3
+	makedepends = cmake
+	makedepends = ninja
+	makedepends = qt6-tools
+	depends = qt6-base
+	depends = flatpak
+	depends = xdg-desktop-portal
+	depends = hicolor-icon-theme
+	source = jdpermissionstoreedit-1.2.tar.gz::https://codeberg.org/JakobDev/jdPermissionStoreEdit/archive/1.2.tar.gz
+	sha256sums = fb29daa96d7f3cb57e658ae9715e793aba3b19f972b182dbf76281c385889399
+
+pkgname = jdpermissionstoreedit

@@ -1,0 +1,23 @@
+pkgbase = letmein
+	pkgdesc = Authenticating port knocker
+	pkgver = 11.0.0
+	pkgrel = 1
+	url = https://github.com/mbuesch/letmein
+	install = letmein.install
+	arch = i686
+	arch = x86_64
+	arch = armv7h
+	arch = aarch64
+	license = Apache-2.0
+	license = MIT
+	makedepends = cargo
+	makedepends = mold
+	depends = glibc
+	depends = gcc-libs
+	depends = nftables
+	backup = etc/letmein.conf
+	backup = etc/letmeind.conf
+	source = letmein-11.0.0.tar.gz::https://github.com/mbuesch/letmein/archive/letmein-11.0.0.tar.gz
+	sha256sums = a23b92df3a223385a344227c0d3287f166eb05398a721976300898281fef0370
+
+pkgname = letmein

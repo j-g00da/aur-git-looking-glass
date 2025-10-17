@@ -1,0 +1,20 @@
+pkgbase = na-bin
+	pkgdesc = CLI tool to effortlessly manage context aware nested shortcuts for shell commands.
+	pkgver = 0.0.9
+	pkgrel = 1
+	url = https://github.com/moyiz/na
+	license = BSD-3-Clause
+	depends = glibc
+	conflicts = na
+	provides = na
+	arch = aarch64
+	source_aarch64 = https://github.com/moyiz/na/releases/download/v0.0.9/na_linux_arm64.tar.gz
+	sha256sums_aarch64 = a8d9b01a861b8871fe2a7713c7e6a76b122ab757b9d28e53815526b8644e0d16
+	arch = i686
+	source_i686 = https://github.com/moyiz/na/releases/download/v0.0.9/na_linux_i386.tar.gz
+	sha256sums_i686 = 4ec1328f73244cafa705bc8ecd6dc2651e78a80672e4a61a9fdb03fe3f7c0113
+	arch = x86_64
+	source_x86_64 = https://github.com/moyiz/na/releases/download/v0.0.9/na_linux_x86_64.tar.gz
+	sha256sums_x86_64 = 72ba0b9299432969c6efa788c024c4af8121b1c0c4563d0bcdc794cd2d1b1b46
+	
+pkgname = na-bin

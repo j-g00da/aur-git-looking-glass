@@ -1,0 +1,14 @@
+pkgbase = mplcolors
+	pkgdesc = CLI to display matplotlib colors, colorbars, and other useful functions.
+	pkgver = 1.1.1
+	pkgrel = 1
+	url = https://github.com/AstroBarker/mplcolors
+	arch = any
+	license = GPL
+	makedepends = git
+	depends = bash
+	depends = python
+	source = mplcolors::git+https://github.com/astrobarker/mplcolors.git
+	sha256sums = SKIP
+
+pkgname = mplcolors

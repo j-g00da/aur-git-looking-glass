@@ -1,0 +1,15 @@
+pkgbase = wings3d
+	pkgdesc = 3D modeler using the winged edge data structure
+	pkgver = 2.4.1
+	pkgrel = 3
+	url = https://www.wings3d.com/
+	arch = x86_64
+	license = GPL-2.0-or-later
+	makedepends = git
+	depends = erlang
+	depends = erlang-cl
+	optdepends = povray: render scenes with POV-Ray
+	source = wings3d-2.4.1.tar.gz::https://github.com/dgud/wings/archive/refs/tags/v2.4.1.tar.gz
+	sha256sums = 2a1c0dd340a994e81710b739a12db272b6aac2585127a5cc5f9eba2ed225774f
+
+pkgname = wings3d

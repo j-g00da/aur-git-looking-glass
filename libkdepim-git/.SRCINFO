@@ -1,0 +1,25 @@
+pkgbase = libkdepim-git
+	pkgdesc = Libraries for KDE PIM applications
+	pkgver = 6.0.40_r1159.g4d4f812
+	pkgrel = 1
+	url = https://kontact.kde.org
+	arch = x86_64
+	groups = kdepim-git
+	license = LGPL-2.0-or-later
+	makedepends = git
+	makedepends = doxygen
+	makedepends = extra-cmake-modules-git
+	makedepends = kcompletion-git
+	makedepends = qt6-doc
+	makedepends = qt6-tools
+	depends = gcc-libs
+	depends = glibc
+	depends = ki18n-git
+	depends = kwidgetsaddons-git
+	depends = qt6-base
+	provides = libkdepim
+	conflicts = libkdepim
+	source = git+https://github.com/KDE/libkdepim.git
+	sha256sums = SKIP
+
+pkgname = libkdepim-git

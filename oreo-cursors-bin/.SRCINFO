@@ -1,0 +1,12 @@
+pkgbase = oreo-cursors-bin
+	pkgdesc = Oreo cursors (binary)
+	pkgver = 2025.2.10
+	pkgrel = 1
+	url = https://github.com/varlesh/oreo-cursors
+	arch = x86_64
+	license = MIT
+	conflicts = oreo-cursors-git
+	source_x86_64 = https://github.com/bonecountysheriff/oreo-cursors/releases/download/2025.2.10/build.tar.gz
+	sha512sums_x86_64 = 75f932c3aebd203cf7d037ab1bf8cbb6dd3f0181636ee1902e10634f1e690c32354488b88a17944b8c0fc2798a318a166e43f7ecd8db64cf0ddeb81cddc898bf
+
+pkgname = oreo-cursors-bin

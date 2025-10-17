@@ -1,0 +1,16 @@
+pkgbase = python-confection
+	pkgdesc = The sweetest config system for Python
+	pkgver = 0.1.5
+	pkgrel = 2
+	url = https://github.com/explosion/confection
+	arch = x86_64
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	depends = python-pydantic
+	depends = python-typing_extensions
+	depends = python-srsly
+	source = python-confection-0.1.5.tar.gz::https://github.com/explosion/confection/archive/v0.1.5.tar.gz
+	md5sums = 0c942590cf3e48c353d7d1da23c99ce7
+
+pkgname = python-confection

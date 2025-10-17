@@ -1,0 +1,22 @@
+pkgbase = python-datashader
+	pkgdesc = Quickly and accurately render even the largest data
+	pkgver = 0.18.2
+	pkgrel = 1
+	url = https://datashader.org
+	arch = any
+	license = BSD-3-Clause
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-hatch-vcs
+	makedepends = python-wheel
+	depends = python-colorcet
+	depends = python-multipledispatch
+	depends = python-numba
+	depends = python-pandas
+	depends = python-param
+	depends = python-scipy
+	depends = python-xarray
+	source = datashader-0.18.2.tar.gz::https://github.com/holoviz/datashader/archive/v0.18.2.tar.gz
+	sha512sums = a5e7834e52493feb5a8515d7c91c332f45dd7a890c318d3b847d6df59b3ee8bed664c4b747afd17a598f0f844bebb7a2d6638d995abaa5341aeb659651d47156
+
+pkgname = python-datashader

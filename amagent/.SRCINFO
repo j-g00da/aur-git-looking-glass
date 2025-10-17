@@ -1,0 +1,16 @@
+pkgbase = amagent
+	pkgdesc = Automox agent
+	pkgver = 2.3.34
+	pkgrel = 1
+	url = https://www.automox.com
+	install = amagent.install
+	arch = x86_64
+	license = custom
+	depends = curl
+	depends = dmidecode
+	depends = lsb-release
+	depends = lshw
+	source = file://amagent_2.3.34_amd64.deb
+	sha256sums = f6cf9018127e5bfa1a7c278dbc04a92d64dfee2e85e4776d1bb6a06dd835c976
+
+pkgname = amagent

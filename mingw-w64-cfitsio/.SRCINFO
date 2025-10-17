@@ -1,0 +1,16 @@
+pkgbase = mingw-w64-cfitsio
+	pkgdesc = A library of C and Fortran subroutines for reading and writing data files in FITS (Flexible Image Transport System) data format (mingw-w64)
+	pkgver = 4.6.2
+	pkgrel = 1
+	url = https://heasarc.gsfc.nasa.gov/fitsio/
+	arch = any
+	license = custom
+	makedepends = mingw-w64-cmake
+	depends = mingw-w64-zlib
+	options = !strip
+	options = !buildflags
+	options = staticlibs
+	source = https://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/cfitsio-4.6.2.tar.gz
+	sha256sums = 66fd078cc0bea896b0d44b120d46d6805421a5361d3a5ad84d9f397b1b5de2cb
+
+pkgname = mingw-w64-cfitsio

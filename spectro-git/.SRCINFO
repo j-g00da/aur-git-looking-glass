@@ -1,0 +1,18 @@
+pkgbase = spectro-git
+	pkgdesc = Provides BBCode formatted text with the spectrograms of audio files.
+	pkgver = r48.1714c5a
+	pkgrel = 2
+	url = https://github.com/welpo/spectro
+	arch = any
+	license = GPL3
+	makedepends = git
+	depends = sox
+	depends = curl
+	optdepends = ffmpeg: to process ape, WMA, MP4 and AAC files
+	optdepends = imagemagick: to use the --compare feature
+	optdepends = optipng: to optimise the spectrograms
+	optdepends = perl: to include the file SHA on the output (shasum)
+	source = git+https://github.com/welpo/spectro.git
+	sha256sums = SKIP
+
+pkgname = spectro-git

@@ -1,0 +1,17 @@
+pkgbase = nodejs-broccoli-cli
+	pkgdesc = Global CLI for broccoli.js
+	pkgver = 1.0.0
+	pkgrel = 2
+	url = http://broccolijs.com/
+	arch = any
+	license = MIT
+	makedepends = npm
+	depends = nodejs
+	noextract = broccoli-cli-1.0.0.tgz
+	source = https://registry.npmjs.org/broccoli-cli/-/broccoli-cli-1.0.0.tgz
+	source = LICENSE
+	md5sums = 173465398acd8664a30da24439ae6f08
+	md5sums = 4741c206fc73f1a664bdadd0e4cef754
+
+pkgname = nodejs-broccoli-cli
+

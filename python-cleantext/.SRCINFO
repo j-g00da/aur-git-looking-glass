@@ -1,0 +1,16 @@
+pkgbase = python-cleantext
+	pkgdesc = An open-source python package to clean raw text data
+	pkgver = 1.1.4
+	pkgrel = 3
+	url = https://pypi.org/project/cleantext
+	arch = any
+	license = MIT
+	checkdepends = nltk-data
+	checkdepends = python-pytest
+	makedepends = python-setuptools
+	depends = python
+	depends = python-nltk
+	source = https://github.com/prasanthg3/cleantext/archive/refs/tags/1.1.4.tar.gz
+	sha256sums = 2922ccef610ff42fa927a13c4f322fb9a0fc5a2d34a6c7ebf67f726e654f3a2a
+
+pkgname = python-cleantext

@@ -1,0 +1,14 @@
+pkgbase = r-cghbase
+	pkgdesc = CGHbase: Base functions and classes for arrayCGH data analysis.
+	pkgver = 1.68.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/CGHbase
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-biobase
+	depends = r-marray
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/CGHbase_1.68.0.tar.gz
+	sha256sums = b22d7d67340e4b3345265d26be5008597f9225ee4b82ae3d07dff443b08ee2ce
+
+pkgname = r-cghbase

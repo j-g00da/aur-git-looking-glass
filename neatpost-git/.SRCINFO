@@ -1,0 +1,16 @@
+pkgbase = neatpost-git
+	pkgdesc = Neatroff's postscript postprocessor
+	pkgver = r131.4a371a4
+	pkgrel = 1
+	url = http://litcave.rudi.ir/
+	arch = i686
+	arch = x86_64
+	license = ISC
+	makedepends = git
+	depends = neatroff-git
+	provides = neatpost
+	conflicts = neatpost
+	source = neatpost-git::git+https://github.com/aligrudi/neatpost
+	md5sums = SKIP
+
+pkgname = neatpost-git

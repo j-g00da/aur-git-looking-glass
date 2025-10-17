@@ -1,0 +1,11 @@
+pkgbase = ttf-iansui-git
+	pkgdesc = An open source Chinese font derived from Klee One (Fontworks).
+	pkgver = v1.003.g41190e8
+	pkgrel = 1
+	url = https://github.com/ButTaiwan/iansui
+	arch = any
+	license = OFL
+	source = git+https://github.com/ButTaiwan/iansui.git
+	sha256sums = SKIP
+
+pkgname = ttf-iansui-git

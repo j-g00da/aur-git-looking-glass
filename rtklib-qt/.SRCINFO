@@ -1,0 +1,23 @@
+pkgbase = rtklib-qt
+	pkgdesc = An Open Source Program Package for GNSS Positioning. QT port.
+	pkgver = 2.5.0
+	pkgrel = 1
+	url = https://github.com/rtklibexplorer/RTKLIB
+	arch = x86_64
+	groups = GNSS
+	license = BSD
+	depends = glibc
+	depends = gcc-libs
+	depends = libglvnd
+	depends = qt6-base
+	optdepends = qt6-serialport
+	optdepends = qt6-webchannel
+	optdepends = qt6-webengine
+	optdepends = qt6-location
+	optdepends = qt6-declarative
+	provides = rtklib-qt
+	conflicts = rtklib-qt-git
+	source = https://github.com/rtklibexplorer/RTKLIB/archive/refs/tags/v2.5.0.tar.gz
+	sha256sums = 2229dadd2e71c7ef3a2cc97c11903a900a661e56c39fd0be7450d932685ce249
+
+pkgname = rtklib-qt

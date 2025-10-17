@@ -1,0 +1,18 @@
+pkgbase = wishlist
+	pkgdesc = The SSH directory
+	pkgver = 0.14.1
+	pkgrel = 1
+	url = https://github.com/charmbracelet/wishlist
+	arch = x86_64
+	arch = i686
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = MIT
+	makedepends = git
+	makedepends = go
+	depends = glibc
+	source = https://github.com/charmbracelet/wishlist/archive/v0.14.1/wishlist-0.14.1.tar.gz
+	sha256sums = c83cefe6e94059ea5cb9db7698797aa8effbaacef35f165fe077f15afad1261e
+
+pkgname = wishlist

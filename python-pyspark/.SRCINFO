@@ -1,0 +1,22 @@
+pkgbase = python-pyspark
+	pkgdesc = Apache Spark Python API
+	pkgver = 4.0.1
+	pkgrel = 1
+	url = https://pypi.org/project/pyspark
+	arch = any
+	license = Apache-2.0
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python-py4j
+	optdepends = python-pandas
+	optdepends = python-pyarrow
+	optdepends = python-numpy
+	optdepends = python-grpcio
+	optdepends = python-grpcio-status
+	optdepends = python-googleapis-common-protos
+	source = https://pypi.org/packages/source/p/pyspark/pyspark-4.0.1.tar.gz
+	sha256sums = 9d1f22d994f60369228397e3479003ffe2dd736ba79165003246ff7bd48e2c73
+
+pkgname = python-pyspark

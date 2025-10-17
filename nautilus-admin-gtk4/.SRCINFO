@@ -1,0 +1,18 @@
+pkgbase = nautilus-admin-gtk4
+	pkgdesc = Extension for Nautilus to do administrative operations
+	pkgver = 1.2.0
+	pkgrel = 2
+	epoch = 1
+	url = https://github.com/MacTavishAO/nautilus-admin-gtk4
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = cmake
+	makedepends = git
+	depends = nautilus-python
+	depends = polkit
+	provides = nautilus-admin
+	conflicts = nautilus-admin
+	source = git+https://github.com/MacTavishAO/nautilus-admin-gtk4.git#tag=1.2.0
+	sha256sums = 74d6af5bcef95db0d99a90b8453444400b8754895ae9194af3854d9b6771df97
+
+pkgname = nautilus-admin-gtk4

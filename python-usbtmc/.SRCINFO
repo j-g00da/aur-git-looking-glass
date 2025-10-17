@@ -1,0 +1,20 @@
+pkgbase = python-usbtmc
+	pkgdesc = A Python USBTMC driver for controlling instruments over USB.
+	pkgver = 0.8
+	pkgrel = 4
+	url = https://github.com/python-ivi/python-usbtmc
+	install = python-usbtmc.install
+	arch = x86_64
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = git
+	makedepends = python-setuptools
+	depends = python-pyusb
+	source = git+https://github.com/python-ivi/python-usbtmc#tag=v0.8
+	source = python-usbtmc.sysusers
+	sha256sums = SKIP
+	sha256sums = 3813bed7349a402231d291fe747cbe4b535081b8d39c33427701983a6bf08074
+
+pkgname = python-usbtmc

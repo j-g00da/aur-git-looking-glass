@@ -1,0 +1,32 @@
+# Maintainer: Serene-Arc <https://aur.archlinux.org/account/serene-arc>
+
+_cranname=expm
+_cranver=1.0-0
+pkgname=r-${_cranname,,}
+pkgver=${_cranver//[:-]/.}
+pkgrel=1
+pkgdesc="Computation of the matrix exponential, logarithm, sqrt, and related quantities, using traditional and modern methods."
+arch=('any')
+url="https://cran.r-project.org/package=${_cranname}"
+license=('GPL-3')
+depends=(
+    r
+)
+makedepends=(gcc)
+optdepends=(
+    r-rcolorbrewer
+    r-sfsmisc
+    r-rmpfr
+    )
+source=("https://cran.r-project.org/src/contrib/${_cranname}_${_cranver}.tar.gz")
+sha256sums=('02c536f8f6af55b132210a50b1e9694a3549806bf97c49e0fe03595945aab254')
+
+build() {
+  R CMD INSTALL ${_cranname}_${_cranver}.tar.gz -l "${srcdir}"
+}
+
+package() {
+  install -dm0755 "${pkgdir}/usr/lib/R/library"
+
+  cp -a --no-preserve=ownership "${_cranname}" "${pkgdir}/usr/lib/R/library"
+}

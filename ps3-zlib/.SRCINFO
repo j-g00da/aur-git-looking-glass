@@ -1,0 +1,21 @@
+pkgbase = ps3-zlib
+	pkgdesc = Compression library implementing the deflate compression method found in gzip and PKZIP
+	pkgver = 1.3.1
+	pkgrel = 2
+	url = https://www.zlib.net/
+	arch = x86_64
+	arch = aarch64
+	arch = powerpc64le
+	arch = powerpc64
+	arch = powerpc
+	arch = riscv64
+	license = custom
+	depends = ps3-env
+	depends = ps3-ppu-gcc
+	options = !emptydirs
+	options = !strip
+	options = staticlibs
+	source = https://zlib.net/fossils/zlib-1.3.1.tar.gz
+	sha256sums = 9a93b2b7dfdac77ceba5a558a580e74667dd6fede4585b91eefb60f03b72df23
+
+pkgname = ps3-zlib

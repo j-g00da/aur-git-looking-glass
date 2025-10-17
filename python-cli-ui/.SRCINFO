@@ -1,0 +1,18 @@
+pkgbase = python-cli-ui
+	pkgdesc = Build nice user interfaces in the terminal
+	pkgver = 0.18.0
+	pkgrel = 1
+	url = https://github.com/your-tools/python-cli-ui
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	makedepends = python-poetry
+	makedepends = python-installer
+	depends = python
+	depends = python-colorama
+	depends = python-unidecode
+	depends = python-tabulate
+	source = python-cli-ui-0.18.0.tar.gz::https://github.com/your-tools/python-cli-ui/archive/v0.18.0.tar.gz
+	md5sums = 27b1f57c66bd631f9c32ca4e2045ff5f
+
+pkgname = python-cli-ui

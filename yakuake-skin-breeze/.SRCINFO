@@ -1,0 +1,12 @@
+pkgbase = yakuake-skin-breeze
+	pkgdesc = Modified Breeze Skin by Andreas Kainz for matching Plasma 6.4 color schemes
+	pkgver = 2025.06.22
+	pkgrel = 1
+	url = https://store.kde.org/p/2297897
+	arch = any
+	license = GPLv2-or-later
+	depends = yakuake
+	source = yakuake-skin-breeze.tar.gz
+	sha256sums = ebb187a85d71a2d21f040e0cbae1eb0e77d2f6243d2664cfde9d833be3e1c0e5
+
+pkgname = yakuake-skin-breeze

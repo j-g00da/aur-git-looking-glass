@@ -1,0 +1,20 @@
+pkgbase = vcvrack-voxglitch
+	pkgdesc = Voxglitch VCV Rack modules
+	pkgver = 2.35.0
+	pkgrel = 1
+	url = https://github.com/clone45/voxglitch
+	arch = aarch64
+	arch = x86_64
+	groups = pro-audio
+	groups = vcvrack-plugins
+	license = GPL-3.0-or-later
+	makedepends = git
+	makedepends = jq
+	makedepends = simde
+	makedepends = zstd
+	depends = gcc-libs
+	depends = vcvrack
+	source = git+https://github.com/clone45/voxglitch#commit=4faf70a2ae05cdb64fd11b4ad6c2747325d4f031
+	sha256sums = 2452b0a00590548b20f6e4c00205610b89a80d8f901227ea307e4525a77d53d6
+
+pkgname = vcvrack-voxglitch

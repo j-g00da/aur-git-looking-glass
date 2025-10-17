@@ -1,0 +1,18 @@
+pkgbase = perl-html-packer
+	pkgdesc = Perl HTML::Packer CPAN module
+	pkgver = 2.11
+	pkgrel = 1
+	url = http://search.cpan.org/dist/HTML-Packer/
+	arch = any
+	license = unknown
+	depends = perl
+	depends = perl-test-simple
+	depends = perl-regexp-reggrp
+	depends = perl-css-packer
+	depends = perl-javascript-packer
+	depends = perl-safe-isa
+	options = !emptydirs
+	source = http://www.cpan.org/authors/id/L/LE/LEEJO/HTML-Packer-2.11.tar.gz
+	sha256sums = c9eb975b98977044ee1e1854eb25ed8060b6d75a06b8149d78d0000cc3692892
+
+pkgname = perl-html-packer

@@ -1,0 +1,33 @@
+pkgbase = subliminal
+	pkgdesc = Python library and CLI tool for searching and downloading subtitles.
+	pkgver = 2.4.0
+	pkgrel = 1
+	url = https://github.com/Diaoul/subliminal
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = python-build
+	makedepends = python-hatch-vcs
+	makedepends = python-hatchling
+	makedepends = python-installer
+	depends = python-guessit>=3.0.0
+	depends = python-babelfish>=0.6.1
+	depends = python-knowit>=0.5.5
+	depends = python-platformdirs>=3
+	depends = python-beautifulsoup4>=4.4.0
+	depends = python-pysubs2>=1.7
+	depends = python-requests>=2.0
+	depends = python-click>=8.0
+	depends = python-click-option-group>=0.5.6
+	depends = python-dogpile.cache>=1.0
+	depends = python-stevedore>=3.0
+	depends = python-chardet>=5.0
+	depends = python-srt>=3.5
+	depends = python-tomlkit>=0.13.2
+	depends = python-rarfile>=2.7
+	source = https://github.com/Diaoul/subliminal/releases/download/2.4.0/subliminal-2.4.0.tar.gz
+	sha256sums = 73df6d1940166ef0e2cdeb4f8d655a4afe1082d481ec090ad2a9e66b1a1621fc
+	sha512sums = c5bc714fb9674651739b7bb423a35af9a24ced3db0347cf214872d8169997b51a5897018954ccba0210c10853951606a87dd15c8ccaf28830de1d27d81e912b9
+	b2sums = 9ba9f4069c021d00af8305ca832480eda8d4ceba4e626e5791c49b4bc54090b7c1430930c57fefc862af3ae5e694b76d5cd926fd7bce2e53d3aef3a46a80cff3
+
+pkgname = subliminal

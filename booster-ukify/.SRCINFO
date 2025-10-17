@@ -1,0 +1,27 @@
+pkgbase = booster-ukify
+	pkgdesc = Integration layer for booster and systemd's ukify tool for Arch Linux
+	pkgver = 3
+	pkgrel = 1
+	url = https://aur.archlinux.org/packages/booster-ukify
+	arch = any
+	license = MIT
+	depends = booster
+	depends = systemd-ukify
+	depends = python
+	depends = util-linux
+	optdepends = sbsigntools: secureboot support
+	backup = etc/booster-ukify.conf
+	source = 10-booster-ukify-pre-install.hook
+	source = 60-booster-ukify-remove.hook
+	source = 90-booster-ukify-dkms-remove.hook
+	source = 90-booster-ukify-install.hook
+	source = booster-ukify
+	source = booster-ukify.conf
+	sha256sums = 6815b3ef4b969318d40251a655a52aec73a037c3db3fcdf33e921f230c23330a
+	sha256sums = f142f5d1f4075a7ebaeb4d97d77843d7d547c627884847ee4df07d9a2a076356
+	sha256sums = 2e2596c9d5296a4df20f68ee9d2a7c96f4f51308c714d238309a3fbce0964fc2
+	sha256sums = 337a81f0429e50fe29d30077c14f413af80f31c8914c1e29076820eb5b5a6185
+	sha256sums = ba3e3b8c57c0604149d2a9d1eccf3ecda1542023d897f7492f7c21c9d2953656
+	sha256sums = 7cd9c9107682fc06cab79d29f98ffc9a9544decb47cd46dc7467818f54189e41
+
+pkgname = booster-ukify

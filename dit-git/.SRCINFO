@@ -1,0 +1,13 @@
+pkgbase = dit-git
+	pkgdesc = console text editor for Unix systems that you already know how to use
+	pkgver = 0.9.r8.g9a42f7d
+	pkgrel = 1
+	url = http://hisham.hm/dit
+	arch = i686
+	arch = x86_64
+	license = GPL
+	depends = lua53
+	source = git+https://github.com/hishamhm/dit
+	sha1sums = SKIP
+
+pkgname = dit-git

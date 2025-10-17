@@ -1,0 +1,20 @@
+pkgbase = interstellar-bin
+	pkgdesc = An app for Mbin/Lemmy/PieFed, connecting you to the fediverse.
+	pkgver = 0.10.1
+	pkgrel = 1
+	url = https://github.com/jwr1/interstellar
+	arch = x86_64
+	arch = aarch64
+	license = AGPL-3.0-only
+	depends = gtk3
+	depends = xdg-user-dirs
+	depends = mpv
+	provides = interstellar
+	conflicts = interstellar
+	options = !debug
+	source_x86_64 = interstellar-bin-0.10.1-x86_64.tar.gz::https://github.com/jwr1/interstellar/releases/download/v0.10.1/interstellar-linux-x86_64.tar.gz
+	sha256sums_x86_64 = 1aaa1ae290a75db1d8d9c5d5f6e2378873f19272e1263166845f07e7601153d7
+	source_aarch64 = interstellar-bin-0.10.1-aarch64.tar.gz::https://github.com/jwr1/interstellar/releases/download/v0.10.1/interstellar-linux-aarch64.tar.gz
+	sha256sums_aarch64 = e4c9b9224f0aa88f0fe25a201cecb7f31a2a6cac29eb65f363053d53292b509a
+
+pkgname = interstellar-bin

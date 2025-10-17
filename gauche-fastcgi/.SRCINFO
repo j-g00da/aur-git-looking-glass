@@ -1,0 +1,16 @@
+pkgbase = gauche-fastcgi
+	pkgdesc = Gauche module for fastcgi
+	pkgver = 0.2.0
+	pkgrel = 1
+	url = https://github.com/fbrosda/Gauche-fastcgi
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = make
+	makedepends = autoconf
+	depends = gauche
+	depends = fcgi
+	source = https://github.com/fbrosda/Gauche-fastcgi/archive/refs/tags/0.2.0.tar.gz
+	sha1sums = bc71c82751cc143364096ec9661e91b79491050a
+
+pkgname = gauche-fastcgi

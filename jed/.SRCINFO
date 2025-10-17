@@ -1,0 +1,19 @@
+pkgbase = jed
+	pkgdesc = A freely available text editor
+	pkgver = 0.99.19
+	pkgrel = 7
+	url = https://www.jedsoft.org/jed
+	install = jed.install
+	arch = i686
+	arch = x86_64
+	arch = armv7h
+	license = GPL-2.0-or-later
+	makedepends = libxt
+	depends = glibc
+	depends = slang
+	depends = libx11
+	options = !makeflags
+	source = jed-0.99.19.tar.gz::https://www.jedsoft.org/releases/jed/jed-0.99-19.tar.gz
+	md5sums = fc35490b46303f9b88a4b1d4f3c1ba57
+
+pkgname = jed

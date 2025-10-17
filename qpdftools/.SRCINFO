@@ -1,0 +1,20 @@
+pkgbase = qpdftools
+	pkgdesc = An easy-to-use Qt interface for Ghostscript and QPDF
+	pkgver = 3.1.2
+	pkgrel = 1
+	url = https://github.com/silash35/qpdftools
+	arch = x86_64
+	license = Unlicense
+	makedepends = cmake
+	makedepends = extra-cmake-modules
+	makedepends = ninja
+	makedepends = qt6-tools
+	depends = ghostscript
+	depends = hicolor-icon-theme
+	depends = qpdf
+	depends = qt6-base
+	depends = qt6-svg
+	source = qpdftools-3.1.2.tar.gz::https://github.com/silash35/qpdftools/archive/v3.1.2.tar.gz
+	sha256sums = a728ad4fc0e9919f157a8d67d36cd109b7a14e2f9087bbaf7cd32ade5aaea589
+
+pkgname = qpdftools

@@ -1,0 +1,19 @@
+pkgbase = postgresql-uint-git
+	pkgdesc = Unsigned integer types extension for PostgreSQL
+	pkgver = r89.2341277
+	pkgrel = 1
+	url = https://github.com/petere/pguint
+	arch = x86_64
+	license = PostgreSQL
+	makedepends = clang
+	makedepends = git
+	makedepends = llvm
+	makedepends = python
+	depends = glibc
+	depends = postgresql
+	provides = postgresql-uint
+	conflicts = postgresql-uint
+	source = postgresql-uint-git::git+https://github.com/petere/pguint
+	sha256sums = SKIP
+
+pkgname = postgresql-uint-git

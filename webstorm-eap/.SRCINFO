@@ -1,0 +1,22 @@
+pkgbase = webstorm-eap
+	pkgdesc = JavaScript IDE and HTML editor. Early Access Program.
+	pkgver = 253.20558.45
+	pkgrel = 1
+	url = http://www.jetbrains.com/webstorm
+	arch = x86_64
+	license = custom
+	options = !strip
+	source = https://download.jetbrains.com/webstorm/WebStorm-253.20558.45.tar.gz
+	source = jetbrains-webstorm-eap.desktop
+	source = WebStorm_license.txt
+	sha256sums = d0433474f85825979b38c5d75044b44e5d99a46b0d88c2149b8de255d14f7f69
+	sha256sums = d66b0401d6132ff24bd422a824436dd8f33b47619149659f8567980d71c6e34f
+	sha256sums = 8464fc766dbb4f6a0de4acd84007fc2916b50ca48ce7d22654144f549c8c6f4c
+
+pkgname = webstorm-eap
+	optdepends = webstorm-eap-jre: JetBrains custom Java Runtime (Recommended)
+	optdepends = java-runtime: JRE - Required if webstorm-eap-jre is not installed
+
+pkgname = webstorm-eap-jre
+	pkgdesc = JBR (JetBrains Runtime) for WebStorm EAP - a patched JRE
+	url = https://github.com/JetBrains/JetBrainsRuntime

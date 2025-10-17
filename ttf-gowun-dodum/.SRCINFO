@@ -1,0 +1,13 @@
+pkgbase = ttf-gowun-dodum
+	pkgdesc = A humanist sans-serif typeface with a touch of hand movement.
+	pkgver = 2.0
+	pkgrel = 4
+	url = https://github.com/yangheeryu/Gowun-Dodum
+	arch = any
+	license = OFL
+	source = https://github.com/yangheeryu/Gowun-Dodum/raw/refs/heads/master/fonts/ttf/GowunDodum-Regular.ttf
+	source = https://raw.githubusercontent.com/yangheeryu/Gowun-Dodum/refs/heads/master/OFL.txt
+	sha256sums = a6e457933227483a11758fd0947bc74422a106d46f0bf057fdaa5af94a30067d
+	sha256sums = a7c73f9521cd646bbdfb6684c99a62311bbd7bce11898dc11ef0b3c69eda1aca
+
+pkgname = ttf-gowun-dodum

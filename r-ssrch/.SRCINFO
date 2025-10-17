@@ -1,0 +1,18 @@
+pkgbase = r-ssrch
+	pkgdesc = a simple search engine
+	pkgver = 1.24.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/ssrch
+	arch = any
+	license = Artistic2.0
+	depends = r
+	depends = r-dt
+	depends = r-shiny
+	optdepends = r-biocstyle
+	optdepends = r-knitr
+	optdepends = r-rmarkdown
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/ssrch_1.24.0.tar.gz
+	sha256sums = 5c1a6a26e1ab82fd9c44e3315858ab3d66ce5d9e2bca9d79def36351bd9a1ae0
+
+pkgname = r-ssrch

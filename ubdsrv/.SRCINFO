@@ -1,0 +1,20 @@
+pkgbase = ubdsrv
+	pkgdesc = The userspace part of the ublk framework.
+	pkgver = 1.1
+	pkgrel = 1
+	url = https://github.com/ming1/ubdsrv
+	arch = x86_64
+	arch = i686
+	arch = i486
+	arch = pentium4
+	arch = aarch64
+	arch = armv7h
+	license = MIT
+	license = GPL2
+	license = LGPL2.1
+	makedepends = git
+	depends = liburing
+	source = ubdsrv::git+https://github.com/ming1/ubdsrv.git#commit=f8304e53f78b0414cba9a5f224c33f63103abb47
+	b2sums = SKIP
+
+pkgname = ubdsrv

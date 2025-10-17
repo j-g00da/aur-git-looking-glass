@@ -1,0 +1,15 @@
+pkgbase = perl-io-zlib
+	pkgdesc = IO:: style interface to Compress::Zlib
+	pkgver = 1.14
+	pkgrel = 1
+	url = https://metacpan.org/release/IO-Zlib
+	arch = any
+	license = PerlArtistic
+	license = GPL
+	depends = perl>=0
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/T/TO/TOMHUGHES/IO-Zlib-1.14.tar.gz
+	md5sums = e628c00af8459d931b47a734b082e2aa
+	sha512sums = b638be7f4be266035a029ea6553b782f8bb6e3876e371cebeab60c975b3faca722d20c90e58167dcdae77fb0329271fbf45aa225e79ad45934735b3017e33237
+
+pkgname = perl-io-zlib

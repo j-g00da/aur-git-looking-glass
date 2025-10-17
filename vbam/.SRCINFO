@@ -1,0 +1,47 @@
+pkgbase = vbam
+	pkgdesc = Nintendo GameBoy Advance emulator
+	pkgver = 2.2.2
+	pkgrel = 1
+	url = https://visualboyadvance-m.org
+	arch = x86_64
+	license = GPL-2.0-only
+	makedepends = cmake
+	makedepends = ffmpeg
+	makedepends = git
+	makedepends = libglvnd
+	makedepends = ninja
+	makedepends = wxwidgets-gtk3
+	makedepends = zip
+	depends = glu
+	depends = libgl
+	depends = libpng
+	depends = sdl2
+	depends = zlib
+	depends = openal
+	source = git+https://github.com/visualboyadvance-m/visualboyadvance-m.git?signed#tag=v2.2.2
+	validpgpkeys = A0C0E526E36FD2138C149D4D08AB596679D86240
+	validpgpkeys = A4E3697D524B238DECCF3A17EB0E0FF1C62782D8
+	b2sums = b5f6cfc77af3c8b4c4c50d10c2ad26adf06d8cddba31ee1f0061cafdcd72fa6a79cdef8338ab019d8dd28bb540055f1391592ab288ddc829dbe74cc5a8ccb3ad
+
+pkgname = vbam-sdl
+	conflicts = vbam-wx
+	backup = etc/vbam.cfg
+
+pkgname = vbam-wx
+	depends = glu
+	depends = libgl
+	depends = libpng
+	depends = sdl2
+	depends = zlib
+	depends = openal
+	depends = glib2
+	depends = gtk3
+	depends = libavcodec.so
+	depends = libavformat.so
+	depends = libavutil.so
+	depends = libswscale.so
+	depends = openal
+	depends = wxwidgets-gtk3
+	depends = zip
+	depends = libxss
+	conflicts = vbam-sdl

@@ -1,0 +1,27 @@
+pkgbase = lr2oraja
+	pkgdesc = The latest build of beatoraja, but compiled using LR2 judges and gauges.
+	pkgver = build11611350155
+	pkgrel = 5
+	arch = x86_64
+	license = GPL3
+	license = GPL3
+	license = MIT
+	license = unknown
+	license = unknown
+	makedepends = unzip
+	depends = liberica-jdk-17-full-bin
+	depends = portaudio
+	source = https://github.com/wcko87/lr2oraja/releases/download/build11611350155/LR2oraja.zip
+	source = https://github.com/pfych/lr2oraja-pkgbuild/releases/download/skin/skin.zip
+	source = https://github.com/zkrising/tachi-beatoraja-ir/releases/download/v3.1.0/bokutachiIR-3.1.0.jar
+	source = libjportaudio.so
+	source = beatoraja.sh
+	source = lr2oraja-icon.png
+	sha256sums = 3cdbe4ecabd7937003fc721cd2eb53af88e52881fc4920480526df6d70b9932b
+	sha256sums = ef23b516537b4f52c306fd61ab9c4197192c06b7202b3b27b63481fec1042a26
+	sha256sums = 11d0069581c81026aa016cf5452c7fd3c1812d220b827b0674ebfa1bbbaaeb83
+	sha256sums = a65d1290d3ee7710f9327c040e6369bf7587eb3609835ed782caaf0ac02d84ed
+	sha256sums = 2d8dffe53a24fd5df6198ee30a4473129cfbeb3e7a6c8f1e70535a19a871b3e8
+	sha256sums = 0ec1382690cd847055d1b8e6da36ad6846598b45b25acca5eb5e301a5048da03
+
+pkgname = lr2oraja

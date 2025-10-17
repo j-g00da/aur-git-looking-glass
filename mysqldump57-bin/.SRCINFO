@@ -1,0 +1,13 @@
+pkgbase = mysqldump57-bin
+	pkgdesc = mysqldump from MySQL 5.7 for compatibility with older servers
+	pkgver = 5.7.44
+	pkgrel = 1
+	url = https://dev.mysql.com/
+	arch = x86_64
+	license = GPL
+	depends = glibc
+	depends = gcc-libs
+	source = https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.44-linux-glibc2.12-x86_64.tar.gz
+	sha256sums = 798ff0a14cdc1ab259f8a3b6a7f683403e9bbaa85957d82e5370f82b27ba6805
+
+pkgname = mysqldump57-bin

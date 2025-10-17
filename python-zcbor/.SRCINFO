@@ -1,0 +1,22 @@
+pkgbase = python-zcbor
+	pkgdesc = zcbor is a low footprint CBOR library in the C language (C++ compatible), tailored for use in microcontrollers.
+	pkgver = 0.9.1
+	pkgrel = 1
+	url = https://github.com/NordicSemiconductor/zcbor
+	arch = any
+	license = Apache 2.0
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	makedepends = python-setuptools-scm
+	depends = python
+	depends = python-cbor2
+	depends = python-yaml
+	depends = python-regex
+	optdepends = python-pyelftools
+	optdepends = python-pyserial
+	source = zcbor-0.9.1.tar.gz::https://github.com/NordicSemiconductor/zcbor/releases/download/0.9.1/zcbor-0.9.1.tar.gz
+	sha256sums = c04918392e2dbb14c6f038d776e2ea6b09c34ba1028b045aadd7c3a95616bc38
+
+pkgname = python-zcbor

@@ -1,0 +1,23 @@
+pkgbase = czmq-git
+	pkgdesc = High-level C binding for ZeroMQ
+	pkgver = 4.2.1.r150.g5b5c6402
+	pkgrel = 2
+	epoch = 1
+	url = https://github.com/zeromq/czmq
+	arch = i686
+	arch = x86_64
+	arch = aarch64
+	license = MPL-2.0
+	makedepends = git
+	depends = zeromq
+	depends = curl
+	depends = lz4
+	depends = systemd-libs
+	depends = util-linux-libs
+	provides = czmq=4.2.1
+	provides = libczmq.so
+	conflicts = czmq
+	source = git+https://github.com/zeromq/czmq
+	sha256sums = SKIP
+
+pkgname = czmq-git

@@ -1,0 +1,23 @@
+pkgbase = crl-browser
+	pkgdesc = CRL Browser - PyQt6 based CRL-Browser minimalist browsing
+	pkgver = 1.3
+	pkgrel = 1
+	url = https://gitlab.com/Azccriminalus/crlnxlion
+	arch = any
+	license = MIT
+	makedepends = python
+	makedepends = python-pyqt6
+	makedepends = python-requests
+	makedepends = pyinstaller
+	depends = python
+	depends = python-pyqt6
+	depends = python-requests
+	depends = pyinstaller
+	source = https://gitlab.com/Azccriminalus/crlnxlion/-/raw/main/src/crl-browser.py
+	source = https://gitlab.com/Azccriminalus/crlnxlion/-/raw/main/src/logo.png
+	source = https://gitlab.com/Azccriminalus/crlnxlion/-/raw/main/src/crl-browser.desktop
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = crl-browser

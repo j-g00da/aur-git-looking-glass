@@ -1,0 +1,17 @@
+pkgbase = ft-crypt-bin
+	pkgdesc = Multi-cipher file/text encryption tool with robust keystream generation
+	pkgver = 3.01
+	pkgrel = 1
+	url = https://ft-crypt.sourceforge.net
+	arch = x86_64
+	license = GPL-3.0-or-later
+	depends = fontconfig
+	depends = glibc
+	depends = libx11
+	depends = libxft
+	provides = ft-crypt
+	conflicts = ft-crypt
+	source_x86_64 = ft-crypt-3.01-x86_64.zip::https://downloads.sourceforge.net/project/ft-crypt/3.xx/ftc_v3.01.zip
+	b2sums_x86_64 = eaedf9b05210fdce37c8afbb98636dd47c81cd6df38597cbbc55db103b8bfb9256630ae10e24e17411af41c66bb34e28b51fa5871c826963fce205366684cca7
+
+pkgname = ft-crypt-bin

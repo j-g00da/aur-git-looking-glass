@@ -1,0 +1,21 @@
+pkgbase = wipefreespace
+	pkgdesc = Securely wipe the free space on an ext2/3/4,NTFS, XFS, ReiserFSv3, ReiserFSv4, FAT12/16/32, Minix, JFS and HFS+ partition or drive
+	pkgver = 3.0
+	pkgrel = 1
+	url = https://sourceforge.net/projects/wipefreespace
+	arch = i686
+	arch = x86_64
+	license = GPL-2.0-only
+	depends = glibc
+	depends = libcap
+	optdepends = e2fsprogs: ext2 ext3 ext4 support
+	optdepends = ntfs3g: NTFS support
+	optdepends = xfsprogs: xfs support
+	source = https://downloads.sourceforge.net/project/wipefreespace/wipefreespace/3.0/wipefreespace-3.0.tar.gz
+	source = 0000-sysmacros.patch
+	md5sums = 573f959d35a06fb5624e9116a862db9b
+	md5sums = 776e57109f3c2e9559e052982c1b048c
+	sha256sums = 6ff55ce6fca0613f730eb6cc6d9f3dd10e5de341005546167455aec1d91af4dc
+	sha256sums = b1c8b390417d1305d0b8aa5033a3a65628c1a1db4081762c4714db9b47901eae
+
+pkgname = wipefreespace

@@ -1,0 +1,14 @@
+pkgbase = r-dnacopy
+	pkgdesc = DNA Copy Number Data Analysis
+	pkgver = 1.82.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/DNAcopy
+	arch = x86_64
+	license = GPL-2.0-or-later
+	makedepends = gcc-fortran
+	depends = r
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/DNAcopy_1.82.0.tar.gz
+	md5sums = 4be736f6606ec4e8f6ac6762c181adaf
+	b2sums = a80edcd72ae389bb08126d6060e9ad445b09ccbd6b13d8217b4013db1ddd597d6dfec5936c555ee2f4d1a69a9c3a1f17008468bc9e7ee28c41015e514ea6c9f7
+
+pkgname = r-dnacopy

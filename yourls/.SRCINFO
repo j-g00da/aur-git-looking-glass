@@ -1,0 +1,16 @@
+pkgbase = yourls
+	pkgdesc = your own URL shortener
+	pkgver = 1.10.0
+	pkgrel = 1
+	url = https://github.com/YOURLS/YOURLS
+	install = yourls.install
+	arch = any
+	license = GPL3
+	depends = php>=7.4
+	optdepends = mysql>=5.0
+	conflicts = yourls-svn
+	backup = etc/webapps/yourls/config.php
+	source = yourls-1.10.0.tar.gz::https://github.com/YOURLS/YOURLS/archive/1.10.0.tar.gz
+	sha512sums = 43833037f069991e9df96d6b97d6a3ab731a7f7ee48b0ac90bad1cc921dc558d20463e397d021d448ada90fce006d791c244758da1448c2208ea60de82de1a40
+
+pkgname = yourls

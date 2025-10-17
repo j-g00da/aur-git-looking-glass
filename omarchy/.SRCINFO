@@ -1,0 +1,10 @@
+pkgbase = omarchy
+	pkgdesc = Opinionated Arch/Hyprland Setup By DHH — Placeholder until official release
+	pkgver = 0.0.0
+	pkgrel = 2
+	url = https://omarchy.org
+	arch = any
+	license = MIT
+	b2sums = SKIP
+
+pkgname = omarchy

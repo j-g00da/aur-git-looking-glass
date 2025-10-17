@@ -1,0 +1,12 @@
+pkgbase = pacman-hook-list-systemd-units
+	pkgdesc = Prints new systemd units on package installation or upgrade.
+	pkgver = 1.4
+	pkgrel = 1
+	arch = any
+	license = Unlicense
+	makedepends = pacutils
+	depends = systemd
+	source = list-systemd-units.sh
+	sha512sums = 76a2421cbbfb8af20148b7f838736768015370a3366e5a7a73e40d658b07635078b94f2e092db6dc4141e4f87b0774b456978ffcf6cf3392a2c45a1fa8151557
+
+pkgname = pacman-hook-list-systemd-units

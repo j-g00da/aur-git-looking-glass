@@ -1,0 +1,14 @@
+pkgbase = absolutely-proprietary
+	pkgdesc = Proprietary package detector for arch-based distros that uses Parabola's package blacklist
+	pkgver = 20220518
+	pkgrel = 4
+	url = https://github.com/vmavromatis/absolutely-proprietary
+	arch = any
+	license = GPL-3.0-only
+	depends = python
+	depends = python-importlib-metadata
+	depends = python-setuptools
+	source = absolutely-proprietary-20220518.tar.gz::https://github.com/vmavromatis/absolutely-proprietary/archive/632ebf75bff68959e48ad7db06a9350fede806d0.tar.gz
+	b2sums = d7309fd18b934f9f02d70f0fe085670be0a041d83da0c12cac0429100f64023f235498135872658c26d86f77a704097515ebf93b1173a143fc2d37b6113e8d1c
+
+pkgname = absolutely-proprietary

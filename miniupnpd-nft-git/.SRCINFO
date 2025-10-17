@@ -1,0 +1,26 @@
+pkgbase = miniupnpd-nft-git
+	pkgdesc = Lightweight UPnP IGD daemon with nftables support
+	pkgver = 2.3.9.r64.g51ba388
+	pkgrel = 1
+	url = https://miniupnp.tuxfamily.org
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = git
+	makedepends = lsb-release
+	makedepends = procps-ng
+	makedepends = util-linux
+	makedepends = sed
+	depends = glibc
+	depends = iptables
+	depends = net-tools
+	depends = util-linux
+	depends = sh
+	depends = libnftnl
+	provides = miniupnpd
+	conflicts = miniupnpd
+	backup = etc/miniupnpd/miniupnpd.conf
+	source = git+https://github.com/miniupnp/miniupnp.git
+	sha256sums = SKIP
+
+pkgname = miniupnpd-nft-git

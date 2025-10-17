@@ -1,0 +1,17 @@
+pkgbase = python-remi
+	pkgdesc = Cross-platform GUI library which renders in a web browser
+	pkgver = 2022.7.27
+	pkgrel = 3
+	url = https://github.com/dddomodossola/remi
+	arch = any
+	license = Apache-2.0
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python
+	optdepends = python-pywebview: for standalone app
+	source = python-remi-2022.7.27.tar.gz::https://github.com/dddomodossola/remi/archive/refs/tags/2022.7.27.tar.gz
+	sha256sums = 362375d60e4e460a88c9f2198a83ae7a6476a32987d2fc97154211be829331f5
+
+pkgname = python-remi

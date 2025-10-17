@@ -1,0 +1,16 @@
+pkgbase = sh-manpager
+	pkgdesc = Colorize
+	pkgver = 0.0.3
+	pkgrel = 1
+	url = https://github.com/Freed-Wu/manpager
+	arch = any
+	license = GPL3
+	makedepends = cmake
+	depends = bat
+	depends = ansifilter
+	provides = manpager
+	conflicts = manpager
+	source = https://github.com/Freed-Wu/manpager/archive/0.0.3.tar.gz
+	sha256sums = 8af281200894b910d398475cd00dfb7e96f275b02f7fab395447efc754cf9c7b
+
+pkgname = sh-manpager

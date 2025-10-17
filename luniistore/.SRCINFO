@@ -1,0 +1,14 @@
+pkgbase = luniistore
+	pkgdesc = Manage your Lunii's My Fabulous Storyteller content or buy new ones
+	pkgver = 4.1.312
+	pkgrel = 2
+	url = https://www.lunii.fr
+	arch = x86_64
+	license = unknown
+	depends = java-runtime>=8
+	options = !strip
+	options = !emptydirs
+	source_x86_64 = https://storage.googleapis.com/storage.lunii.fr/public/deploy/installers/linux/64bits/lunii-4.1.312-amd64.deb
+	sha512sums_x86_64 = fb8cc1fe2a068157f9c62bde73e2e2d5ee391f5826b2cd6ab87201fe956155b81456d4bea4e8b9b208e4991107184623f018a50c82e7f3133dda1a435dd59ea0
+
+pkgname = luniistore

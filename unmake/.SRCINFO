@@ -1,0 +1,14 @@
+pkgbase = unmake
+	pkgdesc = a makefile linter
+	pkgver = 0.0.22
+	pkgrel = 3
+	url = https://github.com/mcandre/unmake
+	changelog = CHANGELOG.md
+	arch = x86_64
+	arch = aarch64
+	license = BSD
+	makedepends = cargo
+	source = unmake-0.0.22.tar.gz::https://github.com/mcandre/unmake/archive/refs/tags/v0.0.22.tar.gz
+	sha256sums = 15a508fa6b4197bace054dc6ae47ee6014d9195e0b3f75cc031b071a2bb77b39
+
+pkgname = unmake

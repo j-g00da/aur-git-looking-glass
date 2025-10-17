@@ -1,0 +1,35 @@
+pkgbase = python-poppy
+	pkgdesc = Physical Optics Propagation in Python
+	pkgver = 1.1.2
+	pkgrel = 1
+	url = https://poppy-optics.readthedocs.io
+	arch = any
+	license = BSD-3-Clause
+	makedepends = python-setuptools-scm>=7.1
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-sphinx-astropy
+	makedepends = python-sphinx-issues
+	makedepends = python-stsci_rtd_theme
+	makedepends = python-nbsphinx
+	makedepends = python-numpydoc
+	makedepends = python-matplotlib
+	makedepends = python-astropy
+	makedepends = python-scipy
+	makedepends = pandoc
+	source = https://files.pythonhosted.org/packages/source/p/poppy/poppy-1.1.2.tar.gz
+	md5sums = 0cd54ad5f8d72d071c682971f068d6a5
+
+pkgname = python-poppy
+	depends = python>=3.10
+	depends = python-astropy>=5.1.0
+	depends = python-matplotlib>=3.2.0
+	depends = python-numexpr>=2.9.0
+	depends = python-scipy>=1.5.0
+	optdepends = python-psutil: enables slightly better automatic selection of numbers of processes for multiprocess calculations
+	optdepends = python-pyfftw: speed up the FFTs used in multi-plane optical simulations
+	optdepends = python-synphot: enables the simulation of PSFs
+	optdepends = python-poppy-doc: Documentation for poppy
+
+pkgname = python-poppy-doc
+	pkgdesc = Documentation for Python poppy

@@ -1,0 +1,21 @@
+pkgbase = libowfat-cvs
+	pkgdesc = Reimplementation of libdjb
+	pkgver = 0.34+20250122
+	pkgrel = 1
+	url = https://www.fefe.de/libowfat/
+	arch = aarch64
+	arch = armv7h
+	arch = i486
+	arch = i686
+	arch = pentium4
+	arch = x86_64
+	license = GPL-2.0-only
+	makedepends = cvs
+	depends = glibc
+	provides = libowfat=0.34+20250122
+	provides = libowfat.so
+	conflicts = libowfat
+	source = fix-and-build-shared.diff
+	b2sums = c5ad84186d8ed5ac5f0724ad7b538513289bd14ef2c019ce193e926c10d9c93df518803bd27279aa9a14080012bcf0f248d6d1d14e9dc020813d08dc9442d21c
+
+pkgname = libowfat-cvs

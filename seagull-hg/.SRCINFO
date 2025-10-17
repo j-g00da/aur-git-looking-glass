@@ -1,0 +1,26 @@
+pkgbase = seagull-hg
+	pkgdesc = GObject based SQLite helper library.
+	pkgver = 46.c5102bd9161a
+	pkgrel = 1
+	url = https://keep.imfreedom.org/seagull/seagull/
+	arch = i686
+	arch = x86_64
+	arch = armv7h
+	license = GPL-2.0-or-later
+	makedepends = mercurial
+	makedepends = meson
+	makedepends = help2man
+	makedepends = vala
+	makedepends = gi-docgen
+	makedepends = gobject-introspection
+	makedepends = sqlite
+	depends = glib2
+	source = hg+https://keep.imfreedom.org/seagull/seagull#branch=default
+	sha256sums = SKIP
+
+pkgname = seagull-hg
+	depends = glib2
+
+pkgname = seagull-docs-hg
+	pkgdesc = GObject based SQLite helper library. (documentation)
+	depends = 

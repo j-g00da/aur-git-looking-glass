@@ -1,0 +1,21 @@
+pkgbase = oxidizebot-bin
+	pkgdesc = High performance Twitch bot in Rust.(Prebuilt version)
+	pkgver = 1.3.5
+	pkgrel = 2
+	url = https://setbac.tv/
+	arch = x86_64
+	license = Apache-2.0
+	license = MIT
+	depends = openssl
+	depends = gcc-libs
+	depends = zlib
+	provides = oxidizebot=1.3.5
+	conflicts = oxidizebot
+	source = oxidizebot-1.3.5.deb::https://github.com/udoprog/OxidizeBot/releases/download/1.3.5/oxidize-1.3.5-amd64.deb
+	source = LICENSE-APACHE-1.3.5::https://raw.githubusercontent.com/udoprog/OxidizeBot/1.3.5/LICENSE-APACHE
+	source = LICENSE-MIT-1.3.5::https://raw.githubusercontent.com/udoprog/OxidizeBot/1.3.5/LICENSE-MIT
+	sha256sums = 7cb3a6d1ee56c90d035c381f5ff8b013f89552dc0072e16fb76f28930eb4d860
+	sha256sums = cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+	sha256sums = a3b5190576facfdaa65b9e7be47b5713612a2fa8180d83a666a2572993d36542
+
+pkgname = oxidizebot-bin

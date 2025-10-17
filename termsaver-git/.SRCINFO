@@ -1,0 +1,17 @@
+pkgbase = termsaver-git
+	pkgdesc = Simple text-based Terminal Screensaver
+	pkgver = r181.12f9989
+	pkgrel = 1
+	url = http://termsaver.brunobraga.net/
+	arch = x86_64
+	license = GPL
+	makedepends = git
+	depends = python
+	depends = python-pip
+	depends = python-pillow
+	provides = termsaver
+	conflicts = termsaver
+	source = termsaver::git+https://github.com/brunobraga/termsaver.git
+	md5sums = SKIP
+
+pkgname = termsaver-git

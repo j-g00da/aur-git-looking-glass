@@ -1,0 +1,22 @@
+pkgbase = intellectual-git
+	pkgdesc = An alternative frontend for Genius focused on privacy and simplicity.
+	pkgver = r376.aa4ffb2
+	pkgrel = 1
+	url = https://github.com/Insprill/intellectual
+	arch = x86_64
+	arch = aarch64
+	license = AGPL-3.0-only
+	makedepends = git
+	makedepends = rust
+	provides = intellectual
+	conflicts = intellectual
+	options = !buildflags
+	backup = etc/intellectual.conf
+	source = intellectual::git+https://github.com/Insprill/intellectual
+	source = intellectual.conf
+	source = intellectual.service
+	sha256sums = SKIP
+	sha256sums = 90f3dbe07e6284ff4f5d90c0edb2a653fb16b19c63daf0401837016497e48c60
+	sha256sums = 299f94def28836caf5abf4afcb794f0a78d503aa2460e5fbf196595f69239876
+
+pkgname = intellectual-git

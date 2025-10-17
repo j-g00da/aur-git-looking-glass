@@ -1,0 +1,15 @@
+pkgbase = sierra-breeze-enhanced
+	pkgdesc = A kwin decoration with support for transparency, rounded corners, multiple titlebar button presets and more
+	pkgver = 2.1.1
+	pkgrel = 1
+	url = https://github.com/kupiqu/sierrabreezeenhanced
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = cmake
+	makedepends = extra-cmake-modules
+	depends = kwin>=6.3
+	depends = qt6-base>=6.9
+	source = https://github.com/kupiqu/sierrabreezeenhanced/archive/V.2.1.1/sierra-breeze-enhanced-V.2.1.1.tar.gz
+	sha512sums = 5ebe3dcb0e9ab56eee914aefa249a2664e62d1c68e1d623bf0e2ef7e1c1c735e3a63f841db8a5c910b21935ee13ba35eef4443ef2f1bc23fc9eda2e36d81ad7b
+
+pkgname = sierra-breeze-enhanced

@@ -1,0 +1,15 @@
+pkgbase = pokego-bin
+	pkgdesc = command-line tool that lets you display Pokémon sprites in color directly in your terminal
+	pkgver = 0.5.2
+	pkgrel = 2
+	url = https://github.com/rubiin/pokego
+	arch = x86_64
+	arch = aarch64
+	license = GPL-3.0
+	provides = pokego
+	conflicts = pokego
+	conflicts = pokego-git
+	source = https://github.com/rubiin/pokego/releases/download/v0.5.2/pokego_Linux_x86_64.tar.gz
+	sha256sums = SKIP
+
+pkgname = pokego-bin

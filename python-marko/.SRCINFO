@@ -1,0 +1,15 @@
+pkgbase = python-marko
+	pkgdesc = A markdown parser with high extensibility
+	pkgver = 2.1.4
+	pkgrel = 1
+	url = https://pypi.org/project/marko
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-pdm-backend
+	depends = python
+	provides = python-marko
+	source = https://files.pythonhosted.org/packages/source/m/marko/marko-2.1.4.tar.gz
+	sha256sums = dd7d66f3706732bf8f994790e674649a4fd0a6c67f16b80246f30de8e16a1eac
+
+pkgname = python-marko

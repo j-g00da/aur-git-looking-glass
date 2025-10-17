@@ -1,0 +1,14 @@
+pkgbase = ggshield
+	pkgdesc = Protect your secrets with GitGuardian.
+	pkgver = 1.42.0
+	pkgrel = 1
+	url = https://github.com/GitGuardian/ggshield
+	arch = any
+	license = MIT
+	depends = python
+	depends = git
+	options = !debug
+	source = https://github.com/GitGuardian/ggshield/releases/download/v1.42.0/ggshield_1.42.0-1_amd64.deb
+	sha256sums = d4bca0d2d5e45d61fd171cbc7b4767003e39ecebc71e66fc405213e3d9187d3e
+
+pkgname = ggshield

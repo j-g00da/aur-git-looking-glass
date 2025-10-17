@@ -1,0 +1,18 @@
+pkgbase = git-grc
+	pkgdesc = Semantic git commits tool. use rust to rewrite the main features of git-cz.
+	pkgver = 1.2.1
+	pkgrel = 1
+	url = https://github.com/sdttttt/gcr
+	install = git-grc.install
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	depends = git
+	conflicts = grc
+	source = gcr-1.2.1.tar.gz::https://github.com/sdttttt/gcr/archive/v1.2.1.tar.gz
+	b2sums = 8855456eb2126337c660692f976f3e30d247749dfc8af6d1bea7e3be52de28d8d97a7b3d9a03cb89bf9501ace5676d653888b53cb8b82686e532371ec2d4b526
+
+pkgname = git-grc
+

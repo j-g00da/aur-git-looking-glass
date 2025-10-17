@@ -1,0 +1,23 @@
+pkgbase = breathing
+	pkgdesc = Relax and meditate
+	pkgver = 0.1.4
+	pkgrel = 1
+	url = https://github.com/SeaDve/Breathing
+	arch = x86_64
+	license = GPL-3.0-or-later
+	checkdepends = appstream-glib
+	makedepends = meson
+	depends = python
+	depends = gtk4
+	depends = glib2
+	depends = hicolor-icon-theme
+	depends = libadwaita
+	depends = python-gobject
+	depends = gtk4
+	depends = dconf
+	depends = gstreamer
+	depends = python-gobject
+	source = breathing-0.1.4.tar.gz::https://github.com/SeaDve/Breathing/archive/v0.1.4.tar.gz
+	sha512sums = 9497af224aef659cb81734ed3405b8f520cff08b52567aece2cacc62bf363ed06a2fcfbb0c5e3953d39ff8ec84fe8aea742d4906973db691984e964ab1caacc5
+
+pkgname = breathing

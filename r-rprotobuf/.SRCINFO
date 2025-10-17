@@ -1,0 +1,17 @@
+pkgbase = r-rprotobuf
+	pkgdesc = R Interface to the 'Protocol Buffers' 'API' (Version 2 or 3)
+	pkgver = 0.4.24
+	pkgrel = 1
+	url = https://cran.r-project.org/package=RProtoBuf
+	arch = x86_64
+	license = GPL-2.0-or-later
+	checkdepends = r-tinytest
+	depends = abseil-cpp
+	depends = protobuf
+	depends = r-rcpp
+	optdepends = r-tinytest
+	source = https://cran.r-project.org/src/contrib/RProtoBuf_0.4.24.tar.gz
+	md5sums = 4e353071689363226c7cdf16c82387a1
+	b2sums = 1be0a8b6e4413fc18fccb31a12a9d813f73c5b7de2f399be6489d65a166dc29474272f7dbf1d3a62a426657fb83d6b29b99e18ae31ffc07762a154b9df262ecf
+
+pkgname = r-rprotobuf

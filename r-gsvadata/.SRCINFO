@@ -1,0 +1,16 @@
+pkgbase = r-gsvadata
+	pkgdesc = Data employed in the vignette of the GSVA package
+	pkgver = 1.44.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/GSVAdata
+	arch = any
+	license = Artistic2.0
+	depends = r
+	depends = r-biobase
+	depends = r-gseabase
+	depends = r-hgu95a.db
+	depends = r-summarizedexperiment
+	source = https://bioconductor.org/packages/release/data/experiment/src/contrib/GSVAdata_1.44.0.tar.gz
+	sha256sums = 1de2bb4a6b07699972cb3b7c0d66bf5abacbbdc95937f279d46a045e74187d95
+
+pkgname = r-gsvadata

@@ -1,0 +1,27 @@
+pkgbase = gtk-theme-bubble-git
+	pkgdesc = A GTK theme based on Arc-Theme
+	pkgver = r140.60cd4f9
+	pkgrel = 1
+	url = https://github.com/i-mint/Bubble
+	arch = any
+	license = GPL3
+	makedepends = git
+	depends = gtk3>=3.22
+	source = gtk-theme-bubble-git::git+https://github.com/i-mint/Bubble
+	sha256sums = SKIP
+
+pkgname = gtk-theme-bubble-dark-git
+	provides = gtk-theme-bubble-dark
+	provides = gtk-theme-bubble
+	conflicts = gtk-theme-bubble-dark
+
+pkgname = gtk-theme-bubble-darker-git
+	provides = gtk-theme-bubble-darker
+	provides = gtk-theme-bubble
+	conflicts = gtk-theme-bubble-darker
+
+pkgname = gtk-theme-bubble-lighter-git
+	provides = gtk-theme-bubble-lighter
+	provides = gtk-theme-bubble
+	conflicts = gtk-theme-bubble-lighter
+

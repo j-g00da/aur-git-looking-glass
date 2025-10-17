@@ -1,0 +1,12 @@
+pkgbase = charge-threshold
+	pkgdesc = A simple script to set the battery charge threshold on Linux systems.
+	pkgver = 1.0.1
+	pkgrel = 1
+	url = https://github.com/noah-witt/charge-threshold
+	arch = any
+	license = MIT
+	depends = bash
+	source = charge-threshold
+	sha256sums = SKIP
+
+pkgname = charge-threshold

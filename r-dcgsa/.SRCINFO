@@ -1,0 +1,14 @@
+pkgbase = r-dcgsa
+	pkgdesc = Distance-correlation based Gene Set Analysis for longitudinal gene expression profiles
+	pkgver = 1.36.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/dcGSA
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-biocparallel
+	optdepends = r-knitr
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/dcGSA_1.36.0.tar.gz
+	sha256sums = fdb0bf8c6b54216e84e67d092265c8888038ba3e630f6a0ce267e58ccc3fea3e
+
+pkgname = r-dcgsa

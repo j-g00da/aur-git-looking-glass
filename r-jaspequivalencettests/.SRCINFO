@@ -1,0 +1,21 @@
+pkgbase = r-jaspequivalencettests
+	pkgdesc = Equivalence T-Tests Module for JASP
+	pkgver = 0.95.3
+	pkgrel = 1
+	url = https://github.com/jasp-stats/jaspEquivalenceTTests
+	arch = any
+	groups = r-jasp
+	groups = r-jaspextra
+	license = GPL
+	depends = r
+	depends = r-bayesfactor
+	depends = r-ggplot2
+	depends = r-jaspbase
+	depends = r-jaspgraphs
+	depends = r-metabma
+	depends = r-toster
+	depends = r-jaspttests
+	source = jaspEquivalenceTTests_0.95.3.tar.gz::https://github.com/jasp-stats/jaspEquivalenceTTests/archive/refs/tags/v0.95.3.tar.gz
+	sha256sums = 9b6c37c6e7360d9f90e1befd683e9bc28a042f960063e2ee7af748dcd191d8b1
+
+pkgname = r-jaspequivalencettests

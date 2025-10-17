@@ -1,0 +1,25 @@
+pkgbase = sshmultitool
+	pkgdesc = A multi tool for SSH, SCP and SFTP, supporting port knocking and openvpn (German version)
+	pkgver = 2016.03.10
+	pkgrel = 1
+	url = https://github.com/emkay443/sshmultitool
+	arch = any
+	license = GPL v3
+	makedepends = git
+	makedepends = make
+	depends = bash
+	depends = openssh
+	depends = sshfs
+	depends = knockd
+	depends = dialog
+	depends = wget
+	optdepends = openvpn: OpenVPN support
+	optdepends = unison: Unison synchronisation support
+	optdepends = vim: text editor
+	optdepends = nano: text editor
+	optdepends = emacs-nox: text editor
+	source = git+https://github.com/emkay443/sshmultitool.git
+	md5sums = SKIP
+
+pkgname = sshmultitool
+

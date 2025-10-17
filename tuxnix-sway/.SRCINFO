@@ -1,0 +1,22 @@
+pkgbase = tuxnix-sway
+	pkgdesc = Sway configuration of tuxnix
+	pkgver = 0.1
+	pkgrel = 10
+	url = https://codeberg.org/tuxnix/tuxnix-sway
+	arch = any
+	license = GLPv2-only
+	makedepends = git
+	depends = alacritty
+	depends = bemenu
+	depends = foot
+	depends = htop
+	depends = kdialog
+	depends = sway
+	depends = otf-font-awesome
+	depends = qt6ct
+	depends = waybar
+	optdepends = falkon: key list (mod+k)
+	source = git+https://codeberg.org/tuxnix/tuxnix-sway
+	sha512sums = SKIP
+
+pkgname = tuxnix-sway

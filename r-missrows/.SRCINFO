@@ -1,0 +1,20 @@
+pkgbase = r-missrows
+	pkgdesc = Handling Missing Individuals in Multi-Omics Data Integration
+	pkgver = 1.28.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/missRows
+	arch = any
+	license = Artistic2.0
+	depends = r
+	depends = r-ggplot2
+	depends = r-gtools
+	depends = r-multiassayexperiment
+	depends = r-plyr
+	depends = r-s4vectors
+	optdepends = r-biocstyle
+	optdepends = r-knitr
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/missRows_1.28.0.tar.gz
+	sha256sums = b23d0f7172047053bfb3d12b8d860f9204a5f387c4c32e2fb1fc67debb4d275d
+
+pkgname = r-missrows

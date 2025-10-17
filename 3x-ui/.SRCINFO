@@ -1,0 +1,26 @@
+pkgbase = 3x-ui
+	pkgdesc = Xray panel supporting multi-protocol multi-user expire day & traffic & IP limit
+	pkgver = 2.8.5
+	pkgrel = 1
+	url = https://github.com/MHSanaei/3x-ui
+	install = 3x-ui.install
+	arch = aarch64
+	arch = armv7h
+	arch = i686
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = go
+	depends = glibc
+	depends = sh
+	depends = x-ui-xray-core
+	optdepends = acme.sh: Certificate Management
+	optdepends = fail2ban: IP Limit Management
+	optdepends = openldap: LDAP integration
+	optdepends = openssh: SSH Port Forwarding Management
+	optdepends = speedtest-cli: Speedtest by Ookla
+	optdepends = ufw: Firewall Management
+	options = !debug
+	source = https://github.com/MHSanaei/3x-ui/archive/v2.8.5/3x-ui-2.8.5.tar.gz
+	b2sums = 9408a4cead4d56c8c70217aba031c61accea4ece6de540f590f86c3e3a7889e39636f680588180d2c1d9b535edfea6c9bf99df34d3ecd29a33a5a554ce8c3233
+
+pkgname = 3x-ui

@@ -1,0 +1,90 @@
+pkgbase = mythplugins
+	pkgver = 34.0.r16.g95fb10412c
+	pkgrel = 1
+	epoch = 0
+	url = http://www.mythtv.org
+	arch = any
+	license = GPL
+	makedepends = dvdauthor
+	makedepends = dvd+rw-tools
+	makedepends = mesa-libgl
+	makedepends = mythtv-git>=34.0.r16.g95fb10412c
+	makedepends = perl-datetime-format-iso8601
+	makedepends = perl-date-manip
+	makedepends = perl-image-size
+	makedepends = perl-cgi
+	makedepends = perl-json
+	makedepends = perl-libwww
+	makedepends = perl-soap-lite
+	makedepends = perl-xml-simple
+	makedepends = perl-xml-xpath
+	makedepends = libhdhomerun
+	makedepends = python-pillow
+	makedepends = python-pycurl
+	makedepends = gdb
+	makedepends = mariadb-libs
+	makedepends = minizip
+	makedepends = python-lxml
+	makedepends = perl-xml-xpath
+	makedepends = python-urllib3
+	makedepends = libcdio-paranoia
+	source = git+https://github.com/MythTV/mythweb#branch=fixes/34
+	source = git+https://github.com/MythTV/mythtv#branch=fixes/34
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = mythplugins-mytharchive
+	pkgdesc = Create DVDs or archive recorded shows in MythTV
+	depends = dvdauthor
+	depends = dvd+rw-tools
+	depends = mythtv
+	depends = python-pillow
+
+pkgname = mythplugins-mythbrowser
+	pkgdesc = Mini web browser for MythTV
+	depends = mythtv
+
+pkgname = mythplugins-mythgame
+	pkgdesc = Game emulator plugin for MythTV
+	depends = mythtv
+	depends = minizip
+
+pkgname = mythplugins-mythmusic
+	pkgdesc = Music playing plugin for MythTV
+	depends = mythtv
+	depends = libcdio-paranoia
+
+pkgname = mythplugins-mythnetvision
+	pkgdesc = MythNetvision plugin for MythTV
+	depends = mythtv
+	depends = python-urllib3
+
+pkgname = mythplugins-mythnews
+	pkgdesc = News checking plugin for MythTV
+	depends = mythtv
+
+pkgname = mythplugins-mythweather
+	pkgdesc = Weather checking plugin for MythTV
+	depends = mythtv
+	depends = perl-date-manip
+	depends = perl-json
+	depends = perl-soap-lite
+	depends = perl-xml-simple
+	depends = perl-xml-xpath
+	depends = perl-image-size
+	depends = perl-datetime-format-iso8601
+
+pkgname = mythplugins-mythweb
+	pkgdesc = Web interface for the MythTV scheduler
+	depends = mythtv
+	depends = perl-cgi
+	optdepends = lighttpd
+	optdepends = php-apache
+	optdepends = php-fpm
+	optdepends = nginx
+
+pkgname = mythplugins-mythzoneminder
+	pkgdesc = View CCTV footage from zoneminder in MythTV
+	depends = mythtv
+	depends = mariadb-libs
+	depends = zoneminder

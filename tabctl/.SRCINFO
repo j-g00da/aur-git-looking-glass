@@ -1,0 +1,15 @@
+pkgbase = tabctl
+	pkgdesc = Command-line browser tab controller with rofi integration for multiple window managers
+	pkgver = 1.1.4
+	pkgrel = 2
+	url = https://github.com/slastra/tabctl
+	install = tabctl.install
+	arch = x86_64
+	license = MIT
+	makedepends = go
+	makedepends = git
+	depends = dbus
+	source = tabctl-1.1.4.tar.gz::https://github.com/slastra/tabctl/archive/v1.1.4.tar.gz
+	sha256sums = 77faa09283adb13ecd3630062edd7e0574397b28ac297d99211991856df9a8a0
+
+pkgname = tabctl

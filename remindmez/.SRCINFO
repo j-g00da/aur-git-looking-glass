@@ -1,0 +1,18 @@
+pkgbase = remindmez
+	pkgdesc = A fun CLI reminder tool with ASCII penguins and notifications
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/Penguin-Dev93/remindmez
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = git
+	depends = python
+	depends = python-plyer
+	depends = python-pyfiglet
+	source = https://github.com/Penguin-Dev93/remindmez/archive/refs/tags/v1.0.0.tar.gz
+	sha256sums = 9e92b3219528049a097f33f390d2f82d50a8e75cd3c29cdecff2ad13509e5c60
+
+pkgname = remindmez

@@ -1,0 +1,16 @@
+pkgbase = perl-data-validate-ip
+	pkgdesc = IPv4 and IPv6 validation methods
+	pkgver = 0.31
+	pkgrel = 1
+	url = https://metacpan.org/release/Data-Validate-IP
+	arch = any
+	license = GPL
+	license = PerlArtistic
+	depends = perl
+	depends = perl-netaddr-ip
+	options = !emptydirs
+	options = purge
+	source = https://search.cpan.org/CPAN/authors/id/D/DR/DROLSKY/Data-Validate-IP-0.31.tar.gz
+	sha256sums = 734aff86b6f9cad40e1c4da81f28faf18e0802c76a566d95e5613d4318182fc1
+
+pkgname = perl-data-validate-ip

@@ -1,0 +1,25 @@
+pkgbase = implosion
+	pkgdesc = A Fast and Powerful FOSS Game Engine
+	pkgver = 0.1.2.1
+	pkgrel = 1
+	url = https://tkpmonke.github.io/Ignition
+	arch = x86_64
+	license = custom:ignition
+	makedepends = binutils
+	makedepends = premake
+	depends = glfw
+	depends = glew
+	depends = glm
+	depends = assimp
+	depends = p7zip
+	depends = python
+	provides = ignition
+	provides = ig-imgui
+	provides = preglsl
+	provides = implosion-hub
+	provides = implosion
+	provides = ignition-runtime
+	source = https://github.com/tkpmonke/Ignition/archive/refs/tags/v0.1.2.1-alpha.tar.gz
+	sha256sums = cdef4b90e19720fef2267f461196446b4e636477d35018fcec232c9a57a55481
+
+pkgname = implosion

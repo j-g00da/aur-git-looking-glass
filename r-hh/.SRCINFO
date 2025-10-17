@@ -1,0 +1,30 @@
+pkgbase = r-hh
+	pkgdesc = Statistical Analysis and Data Display: Heiberger and Holland
+	pkgver = 3.1.53
+	pkgrel = 1
+	url = https://cran.r-project.org/package=HH
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-abind
+	depends = r-colorspace
+	depends = r-gridextra
+	depends = r-hmisc
+	depends = r-latticeextra
+	depends = r-leaps
+	depends = r-multcomp
+	depends = r-rcolorbrewer
+	depends = r-reshape2
+	depends = r-rmpfr
+	depends = r-shiny
+	depends = r-vcd
+	optdepends = r-car
+	optdepends = r-microplot
+	optdepends = r-mvtnorm
+	optdepends = r-rcmdr
+	optdepends = r-rcmdrplugin.hh
+	optdepends = r-teachingdemos
+	source = https://cran.r-project.org/src/contrib/HH_3.1-53.tar.gz
+	sha256sums = b276ade4f46e4e39e01259ebbfe2d578e38271cb3f7b4074d1b1997e6df79892
+
+pkgname = r-hh

@@ -1,0 +1,16 @@
+pkgbase = eve-git
+	pkgdesc = Expressive Velocity Engine - SIMD in C++ Goes Brrrr
+	pkgver = 2023.02.15.r112.gcf4ab5a8da
+	pkgrel = 1
+	url = https://github.com/jfalcou/eve
+	arch = any
+	license = Boost
+	makedepends = git
+	makedepends = cmake
+	makedepends = make
+	provides = eve
+	conflicts = eve
+	source = eve-git::git+https://github.com/jfalcou/eve.git#branch=main
+	sha256sums = SKIP
+
+pkgname = eve-git

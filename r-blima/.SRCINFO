@@ -1,0 +1,22 @@
+pkgbase = r-blima
+	pkgdesc = Tools for the preprocessing and analysis of the Illumina microarrays on the detector (bead) level
+	pkgver = 1.42.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/blima
+	arch = x86_64
+	license = GPL
+	depends = r
+	depends = r-beadarray
+	depends = r-biobase
+	depends = r-biocgenerics
+	depends = r-rcpp
+	optdepends = r-biocstyle
+	optdepends = r-blimatestingdata
+	optdepends = r-illuminahumanv4.db
+	optdepends = r-knitr
+	optdepends = r-lumi
+	optdepends = r-xtable
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/blima_1.42.0.tar.gz
+	sha256sums = 347d33b71d5a0599d34545a7755f754e8d7a29a7bd1d6642225bc4417f684f43
+
+pkgname = r-blima

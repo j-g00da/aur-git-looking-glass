@@ -1,0 +1,25 @@
+pkgbase = java-openjfx-bin
+	pkgdesc = Java OpenJFX 24.0.2 client application platform (Gluon build).
+	pkgver = 24.0.2
+	pkgrel = 1
+	url = https://openjfx.io/
+	arch = x86_64
+	license = GPL2
+	depends = ffmpeg
+	depends = gstreamer
+	depends = java-environment>=11
+	depends = libxtst
+	depends = qt5-base
+	depends = webkit2gtk
+	provides = java-openjfx=24.0.2
+	conflicts = java24.0.2-openjfx
+	conflicts = java-openjfx=24.0.2
+	options = !strip
+	source = https://download2.gluonhq.com/openjfx/24.0.2/openjfx-24.0.2_linux-x64_bin-sdk.zip
+	source = https://download2.gluonhq.com/openjfx/24.0.2/openjfx-24.0.2_linux-x64_bin-jmods.zip
+	source = https://download2.gluonhq.com/openjfx/24.0.2/openjfx-24.0.2-javadoc.zip
+	sha256sums = d419c2b6e0053ee184530e39448e6abb5962a5c18143201db4adbf40db817420
+	sha256sums = 20f3d03022f28039e6da2f8dce3fe42fb81e3984bbc63cc732663074fc2ecb1d
+	sha256sums = 52b714a1f67f4dc04d0e481cb4c4c0d2b61e893bfcd8b1c8ea43b9a706823c0b
+
+pkgname = java-openjfx-bin

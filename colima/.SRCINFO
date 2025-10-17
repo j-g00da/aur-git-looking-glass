@@ -1,0 +1,18 @@
+pkgbase = colima
+	pkgdesc = Container runtimes on macOS (and Linux) with minimal setup.
+	pkgver = 0.9.1
+	pkgrel = 1
+	url = https://github.com/abiosoft/colima
+	arch = x86_64
+	license = MIT
+	makedepends = go>=1.20
+	makedepends = git
+	makedepends = gzip
+	makedepends = tar
+	makedepends = gcc
+	provides = colima
+	conflicts = colima-bin
+	source = https://github.com/abiosoft/colima/archive/v0.9.1.tar.gz
+	sha256sums = 1fe95da6dbe584783e2ae521759aaacd3ba52bd6c44632f95b5adc0d97345460
+
+pkgname = colima

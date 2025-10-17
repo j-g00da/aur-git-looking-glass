@@ -1,0 +1,22 @@
+pkgbase = dccprint-bin
+	pkgdesc = Una herramienta TUI para imprimir archivos en el DCC.
+	pkgver = 1.1.1
+	pkgrel = 1
+	url = https://github.com/fgonzalezurriola/dccprint
+	license = GPL-3.0-or-later
+	depends = glibc
+	depends = ghostscript
+	depends = openssh-client
+	conflicts = dccprint
+	provides = dccprint
+	arch = aarch64
+	source_aarch64 = https://github.com/fgonzalezurriola/dccprint/releases/download/v1.1.1/dccprint_Linux_arm64.tar.gz
+	sha256sums_aarch64 = ff8ebb7f3b230dba77f3d70fd4f94a10847f5a98bb205cbaa66b944282678485
+	arch = i686
+	source_i686 = https://github.com/fgonzalezurriola/dccprint/releases/download/v1.1.1/dccprint_Linux_i386.tar.gz
+	sha256sums_i686 = ed704f9791111cb65ca33dc73e4e8d9886921b87d66ece544c963fa960314032
+	arch = x86_64
+	source_x86_64 = https://github.com/fgonzalezurriola/dccprint/releases/download/v1.1.1/dccprint_Linux_x86_64.tar.gz
+	sha256sums_x86_64 = d0193d4c63fa617557c5d718933f1b30ee72a99408b1a25db432f7a0c36a76c2
+	
+pkgname = dccprint-bin

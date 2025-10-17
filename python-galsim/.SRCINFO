@@ -1,0 +1,27 @@
+pkgbase = python-galsim
+	pkgdesc = Modular galaxy image simulation toolkit
+	pkgver = 2.7.1
+	pkgrel = 1
+	url = https://github.com/GalSim-developers/GalSim
+	arch = x86_64
+	license = LicenseRef-GalSim
+	checkdepends = python-pytest
+	checkdepends = python-scipy
+	checkdepends = python-yaml
+	checkdepends = python-pytest-timeout
+	checkdepends = python-pytest-xdist
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	makedepends = pybind11
+	makedepends = python-numpy
+	depends = python-astropy
+	depends = boost-libs
+	depends = eigen
+	depends = fftw
+	depends = python-coord
+	source = GalSim-2.7.1.tar.gz::https://github.com/GalSim-developers/GalSim/archive/v2.7.1.tar.gz
+	sha256sums = 48810642b820fd5497dca917292b462b22372af48df64031ffa1eb10b3728a4c
+
+pkgname = python-galsim

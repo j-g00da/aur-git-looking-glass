@@ -1,0 +1,27 @@
+pkgbase = requestly-git
+	pkgdesc = Debug your network request across all platforms and browsers using a single app.(Use syetem-wide electron)
+	pkgver = 25.6.25.r0.ge977580
+	pkgrel = 1
+	url = https://requestly.io/
+	arch = x86_64
+	license = AGPL-3.0-only
+	makedepends = npm
+	makedepends = nvm
+	makedepends = gendesk
+	makedepends = git
+	makedepends = asar
+	makedepends = python-setuptools
+	makedepends = curl
+	depends = electron27
+	depends = java-runtime
+	depends = python
+	provides = requestly
+	conflicts = requestly
+	source = requestly.git::git+https://github.com/requestly/requestly-desktop-app.git
+	source = requestly-proxy::git+https://github.com/requestly/requestly-proxy.git
+	source = requestly.sh
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = f2fe8c189974ffb9d445e9a42bd4f1d5b60185607c3fcafae79ab44be224e013
+
+pkgname = requestly-git

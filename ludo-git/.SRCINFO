@@ -1,0 +1,30 @@
+pkgbase = ludo-git
+	pkgdesc = Ludo is a minimalist frontend for emulators
+	pkgver = 0.19.0.r1.g210e252
+	pkgrel = 1
+	url = https://github.com/libretro/ludo
+	arch = x86_64
+	arch = armv7h
+	license = GPL3
+	makedepends = make
+	makedepends = git
+	makedepends = go
+	depends = glfw
+	depends = openal
+	depends = mesa
+	optdepends = libretro-beetle-psx
+	optdepends = libretro-mgba
+	optdepends = libretro-genesis-plus-gx
+	optdepends = libretro-snes9x
+	optdepends = libretro-gambatte
+	optdepends = libretro-picodrive
+	optdepends = libretro-yabause
+	optdepends = libretro-nestopia
+	source = git+https://github.com/libretro/ludo.git#branch=master
+	source = ludo.toml
+	source = ludo.desktop
+	md5sums = SKIP
+	md5sums = 58ece4450bd0fbd0d59387b6f08688ee
+	md5sums = 457c7b690c6411a4df963305c233fb42
+
+pkgname = ludo-git

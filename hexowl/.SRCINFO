@@ -1,0 +1,15 @@
+pkgbase = hexowl
+	pkgdesc = hexowl is a Lightweight and flexible programmer's calculator with user variables and functions support written in Go.
+	pkgver = 1.5.1
+	pkgrel = 1
+	url = https://github.com/DECE2183/hexowl
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = go
+	provides = hexowl
+	conflicts = hexowl
+	source = hexowl-1.5.1.tar.gz::https://github.com/DECE2183/hexowl/archive/refs/tags/v1.5.1.tar.gz
+	sha256sums = c80e419d8936b610d414f374f909d3dc5dc6b53a95ebf3589ecae6618814fed8
+
+pkgname = hexowl

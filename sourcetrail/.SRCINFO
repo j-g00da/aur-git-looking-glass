@@ -1,0 +1,33 @@
+pkgbase = sourcetrail
+	pkgdesc = Interactive source explorer for C/C++ and Java
+	pkgver = 2025.10.13
+	pkgrel = 1
+	url = https://github.com/petermost/Sourcetrail
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = java-environment=21
+	makedepends = lld
+	makedepends = llvm
+	makedepends = boost
+	makedepends = cmake
+	makedepends = git
+	makedepends = maven
+	makedepends = ninja
+	makedepends = imagemagick
+	makedepends = patchelf
+	depends = clang
+	depends = llvm-libs
+	depends = libboost_chrono.so
+	depends = libboost_filesystem.so
+	depends = libboost_program_options.so
+	depends = libboost_thread.so
+	depends = qt6-5compat
+	depends = qt6-base
+	depends = qt6-svg
+	depends = sqlite
+	depends = tinyxml
+	optdepends = java-runtime
+	source = petermost.sourcetrail::git+https://github.com/petermost/Sourcetrail.git#commit=00ff0ccbb2208566ae81274dbf4edc0c4c822041
+	sha256sums = SKIP
+
+pkgname = sourcetrail

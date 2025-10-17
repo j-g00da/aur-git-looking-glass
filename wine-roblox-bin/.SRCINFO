@@ -1,0 +1,29 @@
+pkgbase = wine-roblox-bin
+	pkgdesc = Wine staging builds with patches specialized for running Roblox.
+	pkgver = 9.2
+	pkgrel = 1
+	url = https://github.com/vinegarhq/wine-builds
+	arch = x86_64
+	license = LGPL-2.1-or-later
+	depends = attr
+	depends = fontconfig
+	depends = libxcursor
+	depends = libxrandr
+	depends = libxi
+	depends = gettext
+	depends = freetype2
+	depends = gcc-libs
+	depends = libpcap
+	depends = desktop-file-utils
+	optdepends = libpulse
+	optdepends = alsa-plugins
+	optdepends = alsa-lib
+	optdepends = opencl-icd-loader
+	optdepends = vulkan-icd-loader
+	provides = wine-roblox=9.2
+	conflicts = wine-roblox
+	options = !strip
+	source = https://github.com/vinegarhq/wine-builds/releases/download/9.2/wine-vinegarhq-build-9.2.tar.xz
+	sha256sums = 8f3831b3d6497c2f20bf76610d19573227c06398c92a519a6daf348bb1e5c51e
+
+pkgname = wine-roblox-bin

@@ -1,0 +1,16 @@
+pkgbase = mount-gtk
+	pkgdesc = A simple graphical front end for udisks and mount in GTK3
+	pkgver = 1.4.5.1
+	pkgrel = 1
+	url = https://mount-gtk.sourceforge.net
+	arch = x86_64
+	license = GPL-2.0-only
+	depends = c++-gtk-utils>=2.1.0
+	depends = gtk3>=2.99.0
+	depends = udisks2>=1.94.0
+	optdepends = libnotify: error notifications
+	options = !buildflags
+	source = https://downloads.sourceforge.net/mount-gtk/mount-gtk-1.4.5.1.tar.gz
+	sha256sums = a98eb27b9cf5168272c4e086b89ef2ce399f409b7f961e6140978b33d95bf848
+
+pkgname = mount-gtk

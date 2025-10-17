@@ -1,0 +1,21 @@
+pkgbase = python-pkg-about
+	pkgdesc = Shares Python package metadata at runtime.
+	pkgver = 1.2.2
+	pkgrel = 1
+	url = https://github.com/karpierz/pkg_about
+	arch = x86_64
+	license = ZLIB
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-tox
+	makedepends = python-setuptools
+	depends = python-docutils
+	depends = python-tomli
+	depends = python-setuptools
+	depends = python-packaging
+	depends = python-importlib-metadata
+	source = python-pkg-about-1.2.2.tar.gz::https://github.com/karpierz/pkg_about/archive/refs/tags/1.2.2.tar.gz
+	sha256sums = 89ef63e7d58538a1dd2d42c977f3df9285a8deed1cfa784f049619d499fc6efe
+
+pkgname = python-pkg-about

@@ -1,0 +1,14 @@
+pkgbase = freetype2-macos-browsers-binary-patcher
+	pkgdesc = Script that patches freetype2 library in Chrome and Vivaldi to use a similar filter as the one in freetype2-macos. It will also install a hook to run the scripts when you install or upgrade Chrome and Vivaldi.
+	pkgver = 3
+	pkgrel = 1
+	url = https://www.freetype.org/
+	arch = any
+	license = GPL
+	depends = ripgrep
+	source = 99-binary-patch-freetype-in-broswers.hook
+	source = binary-patch-freetype-in-broswers
+	md5sums = 238ed0626e35d3dc036d4fa024bb7b61
+	md5sums = b51f4e236689b55f9c4779730e7053ca
+
+pkgname = freetype2-macos-browsers-binary-patcher

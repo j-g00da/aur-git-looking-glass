@@ -1,0 +1,36 @@
+pkgbase = libheif-highmem
+	pkgdesc = An HEIF and AVIF file format decoder and encoder with 1GB memory and 2000 max items support
+	pkgver = 1.19.8
+	pkgrel = 1
+	url = https://github.com/strukturag/libheif
+	arch = x86_64
+	license = GPL3
+	makedepends = cmake
+	makedepends = dav1d
+	makedepends = ffmpeg
+	makedepends = gdk-pixbuf2
+	makedepends = git
+	makedepends = libjpeg-turbo
+	makedepends = libpng
+	makedepends = rav1e
+	makedepends = svt-av1
+	depends = aom
+	depends = gcc-libs
+	depends = glibc
+	depends = libde265
+	depends = libwebp
+	depends = x265
+	optdepends = libjpeg-turbo: for heif-convert and heif-enc
+	optdepends = libpng: for heif-convert and heif-enc
+	optdepends = dav1d: dav1d encoder
+	optdepends = ffmpeg: hardware decode
+	optdepends = rav1e: rav1e encoder
+	optdepends = svt-av1: svt-av1 encoder
+	provides = libheif
+	provides = libheif.so
+	conflicts = libheif
+	replaces = libheif
+	source = git+https://github.com/strukturag/libheif#tag=v1.19.8
+	sha256sums = b77dfccd82588bcce71615d55d731aca5452d36b70c4127102ac0798cf022970
+
+pkgname = libheif-highmem

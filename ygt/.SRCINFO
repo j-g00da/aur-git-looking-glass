@@ -1,0 +1,27 @@
+pkgbase = ygt
+	pkgdesc = A graphical hint editor for TrueType fonts
+	pkgver = 0.2.7
+	pkgrel = 1
+	url = https://github.com/psb1558/ygt
+	arch = any
+	license = Apache-2.0
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python
+	depends = python-defcon
+	depends = python-fonttools
+	depends = python-freetype-py
+	depends = python-fs
+	depends = python-numpy
+	depends = python-pyqt6
+	depends = python-pyyaml
+	depends = python-schema
+	depends = python-ufo2ft
+	depends = python-uharfbuzz
+	depends = python-xgridfit
+	source = https://github.com/psb1558/ygt/archive/v0.2.7/ygt-0.2.7.tar.gz
+	sha256sums = e2f813089c9380ce466f40816e6583dea2c5a0952ec600178f3d514cd193f258
+
+pkgname = ygt

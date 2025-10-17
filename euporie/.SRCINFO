@@ -1,0 +1,54 @@
+pkgbase = euporie
+	pkgdesc = Jupyter notebooks in the terminal
+	pkgver = 2.8.11
+	pkgrel = 3
+	url = https://euporie.readthedocs.io
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	checkdepends = python-pytest-asyncio
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-hatchling
+	depends = python>=3.8
+	depends = python-prompt_toolkit
+	depends = python-pygments
+	depends = jupyter-nbformat
+	depends = python-jupyter-client>=7.1
+	depends = python-aenum
+	depends = python-typing_extensions
+	depends = python-fastjsonschema
+	depends = python-platformdirs
+	depends = python-pyperclip
+	depends = python-imagesize
+	depends = python-markdown-it-py
+	depends = python-linkify-it-py
+	depends = python-mdit_py_plugins
+	depends = python-flatlatex
+	depends = timg
+	depends = python-pillow>=9.0
+	depends = python-sixelcrop
+	depends = python-universal_pathlib
+	depends = python-fsspec
+	depends = python-jupytext>=1.14.0
+	depends = python-jupyter-core
+	depends = python-ipykernel
+	depends = python-rich
+	depends = python-mtable
+	depends = python-sympy
+	depends = python-numpy
+	depends = python-html2text
+	depends = python-magic
+	depends = python-matplotlib
+	depends = python-cairosvg
+	depends = python-aiohttp
+	depends = python-ziamath
+	depends = python-chafapy
+	depends = python-teimpy
+	depends = python-pylatexenc
+	optdepends = python-asyncssh: for Euporie hub support
+	source = euporie-2.8.11.tar.gz::https://github.com/joouha/euporie/archive/v2.8.11.tar.gz
+	sha256sums = a0def66b9e0d064dbe2bfb4ec1af9876e19631943ed7f50742249da195f773c7
+
+pkgname = euporie

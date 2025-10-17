@@ -1,0 +1,15 @@
+pkgbase = python-mdstat
+	pkgdesc = Convert your /proc/mdstat file into an object usable in Python
+	pkgver = 1.0.4
+	pkgrel = 1
+	url = https://github.com/truveris/py-mdstat
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = python-setuptools
+	depends = python
+	depends = mdadm
+	source = https://files.pythonhosted.org/packages/source/m/mdstat/mdstat-1.0.4.tar.gz
+	sha512sums = a2894fd20e70f78aa1310792f4322524321d7151085e6caef8e089f05c40334bfff06162b2854b50f33111d0073c4a9378781c79127ff6345eda50d8f9ad3e69
+
+pkgname = python-mdstat

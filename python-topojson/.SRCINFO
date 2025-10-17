@@ -1,0 +1,27 @@
+pkgbase = python-topojson
+	pkgdesc = Encode spatial data as topology in Python
+	pkgver = 1.10
+	pkgrel = 1
+	url = https://mattijn.github.io/topojson/
+	arch = any
+	license = BSD-3-Clause
+	checkdepends = python-altair
+	checkdepends = python-fiona
+	checkdepends = python-geojson
+	checkdepends = python-geopandas
+	checkdepends = python-ipywidgets
+	checkdepends = python-pyshp
+	checkdepends = python-pytest
+	checkdepends = python-simplification
+	makedepends = python-build
+	makedepends = python-flit
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python
+	depends = python-numpy
+	depends = python-packaging
+	depends = python-shapely
+	source = python-topojson-1.10.tar.gz::https://github.com/mattijn/topojson/archive/refs/tags/v1.10.tar.gz
+	b2sums = 594f420eafcdb2dc9632f362c39e75d3a126868858896db856d9aa7cfc056682ff56a4e54d808dd32dfa712e88c47315049de45ab71ab51cc55f8b9e3f59f287
+
+pkgname = python-topojson

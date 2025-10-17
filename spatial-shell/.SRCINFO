@@ -1,0 +1,19 @@
+pkgbase = spatial-shell
+	pkgdesc = Implementing a spatial model inspired by Material Shell, for i3 and sway.
+	pkgver = 7
+	pkgrel = 1
+	url = https://github.com/lthms/spatial-shell
+	arch = x86_64
+	license = MPL2
+	makedepends = opam
+	makedepends = scdoc
+	makedepends = ocaml-ezjsonm-encoding
+	makedepends = ocaml-poll
+	makedepends = ocaml-cmdliner
+	optdepends = sway
+	optdepends = i3-wm
+	optdepends = waybar
+	source = spatial-shell-7.tbz::https://github.com/lthms/spatial-shell/releases/download/7/spatial-shell-7.tbz
+	sha512sums = 4e433ee1c1d8a7ec6bb548e356452d04e5add32a8ecad0f15c221f48337d0136adebdd983266260a5626542220cb7ef1c5f1991199a79c7ada03a44f15f39199
+
+pkgname = spatial-shell

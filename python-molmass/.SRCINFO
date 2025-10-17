@@ -1,0 +1,16 @@
+pkgbase = python-molmass
+	pkgdesc = Molecular mass calculations
+	pkgver = 2025.4.14
+	pkgrel = 1
+	url = http://pypi.python.org/pypi/molmass
+	arch = any
+	license = BSD-3-Clause
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	depends = python>=3.8
+	source = https://files.pythonhosted.org/packages/source/m/molmass/molmass-2025.4.14.tar.gz
+	sha256sums = cb9c15f482b09ed8ad484315ccdf14b4eb3059d57538cdab2d1e1962f5f80e50
+
+pkgname = python-molmass

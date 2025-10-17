@@ -1,0 +1,16 @@
+pkgbase = opm-upscaling
+	pkgdesc = Single-phase and steady-state upscaling methods
+	pkgver = 2025.04
+	pkgrel = 1
+	url = https://github.com/OPM/opm-upscaling
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = gcc-fortran
+	makedepends = suitesparse
+	makedepends = superlu
+	depends = opm-grid>=2025.04
+	options = !emptydirs
+	source = opm-upscaling-release-2025.04-final.tar.gz::https://github.com/OPM/opm-upscaling/archive/release/2025.04/final.tar.gz
+	sha512sums = 51b285c40ad2e5526c65691a3b253f213f48dd63711b328e72545d31471681c0ee8b09518f05b623c212b4d3eb419897cce49dc0d9d2e54b1665772709d039c1
+
+pkgname = opm-upscaling

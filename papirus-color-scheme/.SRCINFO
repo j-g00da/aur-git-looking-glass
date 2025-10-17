@@ -1,0 +1,17 @@
+pkgbase = papirus-color-scheme
+	pkgdesc = Papirus color scheme for KDE
+	pkgver = 20161203
+	pkgrel = 1
+	url = https://github.com/icaroperseo/papirus-color-scheme
+	arch = any
+	license = GPL
+	makedepends = git
+	makedepends = make
+	depends = plasma-desktop
+	conflicts = papirus-color-scheme-git
+	options = !strip
+	source = papirus-color-scheme::git+https://github.com/icaroperseo/papirus-color-scheme.git#commit=3574833
+	sha256sums = SKIP
+
+pkgname = papirus-color-scheme
+

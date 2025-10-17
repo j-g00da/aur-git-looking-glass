@@ -1,0 +1,16 @@
+pkgbase = pgcat
+	pkgdesc = PostgreSQL pooler with sharding, load balancing and failover support.
+	pkgver = 1.2.0
+	pkgrel = 2
+	url = https://github.com/postgresml/pgcat
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	options = !lto
+	backup = etc/pgcat.toml
+	backup = usr/lib/systemd/system/pgcat.service
+	source = pgcat-1.2.0.tar.gz::https://github.com/postgresml/pgcat/archive/refs/tags/v1.2.0.tar.gz
+	sha512sums = c8aeeaa0cb9125e8e5cd541421e2478560b740353337d13e5f4b5896ba044b683006272f72a5fb65649f1ef286d1c837103f503b9e1826c35f3dbeeeffa886cd
+
+pkgname = pgcat

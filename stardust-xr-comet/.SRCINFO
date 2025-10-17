@@ -1,0 +1,14 @@
+pkgbase = stardust-xr-comet
+	pkgdesc = Virtual annotation pen for Stardust XR
+	pkgver = 0.1.0
+	pkgrel = 2
+	url = https://github.com/StardustXR/comet
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = cargo
+	makedepends = git
+	source = git+https://github.com/StardustXR/comet.git
+	sha256sums = SKIP
+
+pkgname = stardust-xr-comet

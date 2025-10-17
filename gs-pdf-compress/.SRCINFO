@@ -1,0 +1,17 @@
+pkgbase = gs-pdf-compress
+	pkgdesc = Compress PDF files with Ghostscript
+	pkgver = 0.2.1
+	pkgrel = 1
+	url = https://github.com/clorteau/pdfcompress
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-hatchling
+	makedepends = python-installer
+	depends = ghostscript
+	depends = python-pyqt6
+	depends = qt6-svg
+	source = https://files.pythonhosted.org/packages/6b/1a/f3df04e8481943129d181ce8049725657ee572444e9b248757037700d697/gs_pdf_compress-0.2.1.tar.gz
+	sha256sums = 3ec2c6f9d9d4d0e57bf773f6f567476f95320c56244a808c60f6eb39177154e1
+
+pkgname = gs-pdf-compress

@@ -1,0 +1,20 @@
+pkgbase = python-optking
+	pkgdesc = A molecular geometry optimization program
+	pkgver = 0.3.0
+	pkgrel = 1
+	url = https://github.com/psi-rking/optking
+	arch = any
+	license = BSD-3-Clause
+	makedepends = python-setuptools
+	makedepends = cython
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python-numpy
+	depends = python-qcelemental
+	depends = python-qcengine
+	depends = python-msgpack
+	source = python-optking-0.3.0.tar.gz::https://github.com/psi-rking/optking/archive/0.3.0.tar.gz
+	sha256sums = 05aa6079f4cebef9fbe8cc36c7315123afeb53fb3feed959f98d963060e1085c
+
+pkgname = python-optking

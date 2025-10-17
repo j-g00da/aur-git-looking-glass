@@ -1,0 +1,21 @@
+pkgbase = monocoque-git
+	pkgdesc = Device Manager for Racing Sims
+	pkgver = 0.2.0
+	pkgrel = 4
+	url = https://github.com/spacefreak18/monocoque
+	arch = x86_64
+	license = GPL3
+	makedepends = git
+	makedepends = cmake
+	depends = hidapi
+	depends = libserialport
+	depends = libxml2
+	depends = argtable
+	depends = libconfig
+	depends = libpulse
+	depends = libxdg-basedir
+	depends = libuv
+	source = git+https://github.com/spacefreak18/monocoque
+	sha256sums = SKIP
+
+pkgname = monocoque-git

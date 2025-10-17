@@ -1,0 +1,15 @@
+pkgbase = wctx
+	pkgdesc = Real-time window context info for Wayland and X11
+	pkgver = 1.0.2
+	pkgrel = 1
+	url = https://github.com/slightlyfaulty/wctx
+	arch = x86_64
+	license = MIT
+	makedepends = rust
+	makedepends = cargo
+	options = !strip
+	options = !debug
+	source = wctx-1.0.2.tar.gz::https://github.com/slightlyfaulty/wctx/archive/v1.0.2.tar.gz
+	sha256sums = 580df72ef0ae0f06b98622a4d5cffbc629ce64205432cc561417b45b2357b2eb
+
+pkgname = wctx

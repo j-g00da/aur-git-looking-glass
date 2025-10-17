@@ -1,0 +1,18 @@
+pkgbase = kyanos-git
+	pkgdesc = Visualize the time packets spend in the kernel, watch & analyze in command line.
+	pkgver = 1.5.0.r16.g921f701
+	pkgrel = 1
+	url = https://kyanos.io/
+	arch = i686
+	arch = x86_64
+	license = Apache
+	makedepends = go
+	makedepends = make
+	makedepends = clang
+	makedepends = llvm
+	depends = glibc
+	provides = kyanos
+	source = git+https://github.com/hengyoush/kyanos.git
+	sha256sums = SKIP
+
+pkgname = kyanos-git

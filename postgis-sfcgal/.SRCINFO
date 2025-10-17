@@ -1,0 +1,31 @@
+pkgbase = postgis-sfcgal
+	pkgdesc = A spatial database extender for PostgreSQL, with SFCGAL support
+	pkgver = 3.4.2
+	pkgrel = 1
+	url = https://postgis.net/
+	arch = i686
+	arch = x86_64
+	license = GPL-3.0-or-later
+	license = LicenseRef-PostGIS
+	makedepends = clang
+	makedepends = llvm
+	makedepends = postgresql
+	depends = gcc-libs
+	depends = gdal
+	depends = geos
+	depends = glibc
+	depends = json-c
+	depends = libxml2
+	depends = pcre2
+	depends = postgresql-libs
+	depends = proj
+	depends = protobuf-c
+	depends = sfcgal
+	depends = sh
+	optdepends = perl: for contrib script postgis_restore.pl
+	provides = postgis=3.4.2
+	conflicts = postgis
+	source = https://download.osgeo.org/postgis/source/postgis-3.4.2.tar.gz
+	b2sums = 30951950ae24ae0e0432658ef09ec95ffcf0ef377f79e45fb302f20b40d773c9d551d4ac2a07eab4f743ebeff2aae4730c8b7c2516c36a17f44a1410fbdc3069
+
+pkgname = postgis-sfcgal

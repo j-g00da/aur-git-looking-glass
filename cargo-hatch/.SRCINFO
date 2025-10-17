@@ -1,0 +1,20 @@
+pkgbase = cargo-hatch
+	pkgdesc = Hatch new projects like a chick coming out of its egg
+	pkgver = 0.4.3
+	pkgrel = 1
+	url = https://github.com/dnaka91/cargo-hatch
+	arch = aarch64
+	arch = i686
+	arch = x86_64
+	license = AGPL-3.0-only
+	makedepends = cargo
+	makedepends = git
+	makedepends = libgit2
+	makedepends = libssh2
+	depends = gcc-libs
+	depends = openssl
+	depends = zlib
+	source = cargo-hatch-0.4.3.tar.gz::https://github.com/dnaka91/cargo-hatch/archive/v0.4.3.tar.gz
+	b2sums = e06ae3be6fd36042c069c8ebf5b36346b19487b2a0a34a3f293c0819b78f0c30361409a04621065a0afc7ae77fa9f2eddc04fd4891a6325e05e1190f00e05a6f
+
+pkgname = cargo-hatch

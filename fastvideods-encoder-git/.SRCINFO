@@ -1,0 +1,18 @@
+pkgbase = fastvideods-encoder-git
+	pkgdesc = Encoder for the FastVideoDS format (git version)
+	pkgver = r2.1a25c4f
+	pkgrel = 5
+	epoch = 1
+	url = https://github.com/Gericom/FastVideoDSEncoder
+	arch = i686
+	arch = x86_64
+	makedepends = git
+	makedepends = dotnet-sdk
+	depends = dotnet-runtime-6.0
+	depends = ffmpeg5.1
+	provides = fastvideods-encoder=r2.1a25c4f
+	conflicts = fastvideods-encoder
+	source = git+https://github.com/Gericom/FastVideoDSEncoder.git
+	md5sums = SKIP
+
+pkgname = fastvideods-encoder-git

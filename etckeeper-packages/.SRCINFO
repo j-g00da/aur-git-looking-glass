@@ -1,0 +1,13 @@
+pkgbase = etckeeper-packages
+	pkgdesc = Track installed packages in etckeeper (alternative to pug and pacmanity)
+	pkgver = 0.1.1
+	pkgrel = 1
+	url = https://github.com/alerque/etckeeper-packages
+	arch = any
+	license = GPL-3.0-only
+	depends = etckeeper
+	depends = pacman
+	source = https://github.com/alerque/etckeeper-packages/archive/v0.1.1/etckeeper-packages-0.1.1.tar.gz
+	sha256sums = fff62c3dddf0f8a4f542d92577ca49d9d0f57cfbc329e55d0a51caf694c8850d
+
+pkgname = etckeeper-packages

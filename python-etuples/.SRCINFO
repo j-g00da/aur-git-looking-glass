@@ -1,0 +1,14 @@
+pkgbase = python-etuples
+	pkgdesc = Python S-expression emulation using tuple-like objects.
+	pkgver = 0.3.9
+	pkgrel = 1
+	url = https://github.com/pythological/etuples/
+	arch = any
+	license = APACHE
+	makedepends = python-setuptools
+	depends = python-cons
+	depends = python-multipledispatch
+	source = https://github.com/pythological/etuples//archive/refs/tags/v0.3.9.tar.gz
+	sha256sums = 5295b9a6089e3dd25b1773a8f9e1220873dbc9eb9b7232ac7a96511d6c44a128
+
+pkgname = python-etuples

@@ -1,0 +1,21 @@
+pkgbase = bongo-cat
+	pkgdesc = BongoCat 是一个可爱地互动桌面宠物应用，让你的桌面充满乐趣！
+	pkgver = 0.7.1
+	pkgrel = 1
+	url = https://github.com/ayangweb/BongoCat
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	depends = webkit2gtk-4.1
+	provides = bongo-cat
+	provides = bongocat
+	provides = BongoCat
+	conflicts = bongo-cat
+	source = LICENSE::https://raw.githubusercontent.com/ayangweb/BongoCat/refs/heads/master/LICENSE
+	sha256sums = 1a164304cda4e01afc74bed12c93ef7d366958bf596d66477e63d315e42a23ce
+	source_x86_64 = bongo-cat-0.7.1_amd64.deb::https://github.com/ayangweb/BongoCat/releases/download/v0.7.1/BongoCat_0.7.1_amd64.deb
+	sha256sums_x86_64 = bad686d5c1735cf69b057bfe246803a476eb9d839ade9e51edf851da6c4a2890
+	source_aarch64 = bongo-cat-0.7.1_arm64.deb::https://github.com/ayangweb/BongoCat/releases/download/v0.7.1/BongoCat_0.7.1_arm64.deb
+	sha256sums_aarch64 = 95a8f8de4345fa5c19c0e88d5e6fc8c19062e034dba250ccceb2cddbb2a0dae6
+
+pkgname = bongo-cat

@@ -1,0 +1,19 @@
+pkgbase = keyboard-visualizer-git
+	pkgdesc = Turn your OpenRGB-supported RGB setup into a spectacular light show for your music
+	pkgver = 4.00.r26.gb50cc50
+	pkgrel = 1
+	url = https://gitlab.com/CalcProgrammer1/KeyboardVisualizer
+	arch = x86_64
+	license = GPL2
+	makedepends = git
+	makedepends = make
+	makedepends = binutils
+	makedepends = pkgconf
+	depends = openal
+	depends = openrgb
+	provides = keyboard-visualizer
+	conflicts = keyboard-visualizer
+	source = git+https://gitlab.com/CalcProgrammer1/KeyboardVisualizer.git
+	sha256sums = SKIP
+
+pkgname = keyboard-visualizer-git

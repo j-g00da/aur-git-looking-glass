@@ -1,0 +1,15 @@
+pkgbase = whdd
+	pkgdesc = Diagnostic and recovery tool for block devices (near to replace MHDD for Linux)
+	pkgver = 3.1
+	pkgrel = 1
+	url = https://github.com/whdd/whdd
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	depends = ncurses
+	depends = dialog
+	optdepends = smartmontools: for reading SMART attributes
+	source = whdd-3.1.tar.gz::https://github.com/whdd/whdd/archive/3.1.tar.gz
+	sha512sums = 8960b482d7c3a75b0b9e540092a0c074dbb66561f455fdf454e8cd89cc5dc4dc028e60b44ce74ecbf568af5e7e34a5b3b5deaee9480112f4161d98b773442bed
+
+pkgname = whdd

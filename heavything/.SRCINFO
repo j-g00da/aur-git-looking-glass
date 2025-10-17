@@ -1,0 +1,35 @@
+pkgbase = heavything
+	pkgdesc = A General purpose x64 Asm library for 2ton products
+	pkgver = 1.24
+	pkgrel = 1
+	url = https://2ton.com.au/HeavyThing
+	arch = x86_64
+	license = GPL3
+	makedepends = fasm
+	source = https://2ton.com.au/HeavyThing-1.24.tar.gz
+	sha256sums = 77bb53d7717d825515f159a3794808e1edf46ca6b515a1686df3dd6b8a94432d
+
+pkgname = rwasa
+	pkgdesc = a full featured web server that eclipses nginx
+	url = https://2ton.com.au/rwasa/
+
+pkgname = webslap
+	pkgdesc = a website quality assurance reporting tool
+	url = https://2ton.com.au/webslap/
+
+pkgname = hnwatch
+	pkgdesc = a HackerNews API realtime terminal watch/reader
+	url = https://2ton.com.au/hnwatch/
+
+pkgname = dhtool
+	pkgdesc = a Diffie-Hellman parameter generator/verifier/converter
+	url = https://2ton.com.au/dhtool/
+
+pkgname = sshtalk
+	pkgdesc = an ephemeral multi-person SSH chat
+	url = https://2ton.com.au/sshtalk/
+
+pkgname = toplip
+	pkgdesc = a command line very strong encryption utility
+	url = https://2ton.com.au/toplip/
+

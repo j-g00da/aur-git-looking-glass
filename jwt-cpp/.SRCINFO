@@ -1,0 +1,15 @@
+pkgbase = jwt-cpp
+	pkgdesc = A header only library for creating and validating JSON Web Tokens in C++
+	pkgver = 0.7.1
+	pkgrel = 1
+	url = https://github.com/Thalhammer/jwt-cpp/
+	arch = any
+	license = MIT
+	makedepends = cmake
+	makedepends = gtest
+	makedepends = nlohmann-json
+	options = !debug
+	source = jwt-cpp-0.7.1.tar.gz::https://github.com/Thalhammer/jwt-cpp/archive/refs/tags/v0.7.1.tar.gz
+	sha256sums = e52f247d5e62fac5da6191170998271a70ce27f747f2ce8fde9b09f96a5375a4
+
+pkgname = jwt-cpp

@@ -1,0 +1,13 @@
+pkgbase = lightdm-webkit-theme-contemporary
+	pkgdesc = Simple LightDM WebKit theme
+	pkgver = 1.0
+	pkgrel = 2
+	arch = x86_64
+	license = GPL
+	makedepends = git
+	depends = lightdm-webkit2-greeter
+	source = lightdm-webkit-theme-contemporary-1.0::git+https://github.com/vicr123/contemporary-lightdm-webkit-theme.git
+	md5sums = SKIP
+
+pkgname = lightdm-webkit-theme-contemporary
+

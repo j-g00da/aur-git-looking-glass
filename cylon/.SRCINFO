@@ -1,0 +1,23 @@
+pkgbase = cylon
+	pkgdesc = Updates, Maintenance, backup and system checks in a menu driven TUI written in Bash
+	pkgver = 6.4
+	pkgrel = 5
+	url = https://github.com/gavinlyonsrepo/cylon
+	arch = any
+	license = GPL-3.0-or-later
+	depends = dialog
+	depends = expac
+	depends = pacman-contrib
+	optdepends = auracle-git: AUR helper
+	optdepends = trizen: AUR helper
+	optdepends = lostfiles: For finding lost files
+	optdepends = arch-audit: collect CVE data
+	optdepends = rmlint: Finds lint and other unwanted
+	optdepends = bleachbit: used for system clean
+	optdepends = gnu-netcat: used for checking network
+	optdepends = openbsd-netcat: used for checking network
+	optdepends = libnotify: desktop notifications
+	source = https://github.com/gavinlyonsrepo/cylon/archive/6.4.tar.gz
+	sha256sums = 2b254aa41d5610d47df002aaa81ab1cdc30d7a51e1db171bab8235f4a84fc7d8
+
+pkgname = cylon

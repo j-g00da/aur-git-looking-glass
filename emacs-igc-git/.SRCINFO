@@ -1,0 +1,36 @@
+pkgbase = emacs-igc-git
+	pkgdesc = GNU Emacs. Development branch, with PGTK and IGC enabled.
+	pkgver = 31.0.50.175856
+	pkgrel = 4
+	url = http://www.gnu.org/software/emacs/
+	install = emacs-git.install
+	arch = x86_64
+	license = GPL3
+	makedepends = git
+	makedepends = mold
+	makedepends = sccache
+	makedepends = mold
+	depends = gnutls
+	depends = libxml2
+	depends = jansson
+	depends = harfbuzz
+	depends = mps
+	depends = libgccjit
+	depends = tree-sitter
+	depends = libjpeg-turbo
+	depends = libpng
+	depends = giflib
+	depends = libwebp
+	depends = libtiff
+	depends = libxpm
+	depends = alsa-lib
+	depends = cairo
+	depends = gpm
+	provides = emacs
+	conflicts = emacs
+	replaces = emacs
+	options = !strip
+	source = emacs-git::git+https://github.com/emacs-mirror/emacs.git#branch=feature/igc
+	b2sums = SKIP
+
+pkgname = emacs-igc-git

@@ -1,0 +1,22 @@
+pkgbase = r-affy
+	pkgdesc = Methods for Affymetrix Oligonucleotide Arrays
+	pkgver = 1.86.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/affy
+	arch = x86_64
+	license = LGPL
+	depends = r
+	depends = r-affyio
+	depends = r-biobase
+	depends = r-biocgenerics
+	depends = r-biocmanager
+	depends = r-preprocesscore
+	depends = r-zlibbioc
+	optdepends = r-affydata
+	optdepends = r-hgu95av2cdf
+	optdepends = r-tkwidgets
+	optdepends = r-widgettools
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/affy_1.86.0.tar.gz
+	sha256sums = 8fe869ef608fe605e5ee768148b3a5fc7ac5878c77e9e329b7f4f732f1e6675e
+
+pkgname = r-affy

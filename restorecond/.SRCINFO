@@ -1,0 +1,22 @@
+pkgbase = restorecond
+	pkgdesc = SELinux restorecon daemon
+	pkgver = 3.9
+	pkgrel = 1
+	url = https://github.com/SELinuxProject/selinux/wiki
+	arch = i686
+	arch = x86_64
+	arch = aarch64
+	groups = selinux
+	license = GPL2
+	makedepends = pkgconf
+	depends = dbus-glib
+	depends = libselinux>=2.7
+	conflicts = policycoreutils<2.7
+	source = https://github.com/SELinuxProject/selinux/releases/download/3.9/restorecond-3.9.tar.gz
+	source = https://github.com/SELinuxProject/selinux/releases/download/3.9/restorecond-3.9.tar.gz.asc
+	validpgpkeys = 63191CE94183098689CAB8DB7EF137EC935B0EAF
+	validpgpkeys = 68D21823342A13683AEB3E4EFB4C685B5DC1C13E
+	sha256sums = d57b6ffe7eafd01af58e5efa50f8522eca73c0b3cb2955ca3f33397ba074a1a7
+	sha256sums = SKIP
+
+pkgname = restorecond

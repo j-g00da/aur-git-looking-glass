@@ -1,0 +1,20 @@
+pkgbase = zdhpctl
+	pkgdesc = hyprctl extension
+	pkgver = 1.12
+	pkgrel = 1
+	url = https://github.com/0zd0/zdhpctl
+	arch = x86_64
+	license = GPL3
+	makedepends = git
+	makedepends = cmake
+	makedepends = make
+	makedepends = gcc
+	depends = libxkbcommon
+	depends = jsoncpp
+	depends = fmt
+	optdepends = hyprland: For stable Hyprland users
+	optdepends = hyprland-git: For users of the development version
+	source = https://github.com/0zd0/zdhpctl/archive/refs/tags/v1.12.tar.gz
+	sha256sums = eb3a122a32064ec1e38e79a7da62868989a73ba24b0e17654039ae81f417f394
+
+pkgname = zdhpctl

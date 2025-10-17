@@ -1,0 +1,15 @@
+pkgbase = abx
+	pkgdesc = A simple ABX tester to compare audio files with GUI
+	pkgver = 0.2
+	pkgrel = 1
+	url = http://phintsan.kapsi.fi/abx.html
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	depends = portaudio
+	depends = gtk3
+	depends = libsndfile
+	source = http://phintsan.kapsi.fi/abx-0.2.tar.gz
+	md5sums = 8fd2417e1e8bbd54264db8819e7dad16
+
+pkgname = abx

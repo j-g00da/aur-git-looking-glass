@@ -1,0 +1,21 @@
+pkgbase = sofi
+	pkgdesc = A unified app and file launcher for Wayland
+	pkgver = 1.0.3
+	pkgrel = 1
+	url = https://github.com/adsorce/sofi
+	arch = x86_64
+	license = MIT
+	makedepends = meson
+	makedepends = scdoc
+	makedepends = wayland-protocols
+	depends = cairo
+	depends = freetype2
+	depends = glib2
+	depends = harfbuzz
+	depends = libxkbcommon
+	depends = pango
+	depends = wayland
+	source = sofi-1.0.3.tar.gz::https://github.com/adsorce/sofi/archive/v1.0.3.tar.gz
+	sha256sums = SKIP
+
+pkgname = sofi

@@ -1,0 +1,25 @@
+pkgbase = waywall-working-git
+	pkgdesc = Wayland compositor for Minecraft speedrunning
+	pkgver = wall.r193.g90fafbe
+	pkgrel = 1
+	url = https://github.com/tesselslate/waywall
+	arch = x86_64
+	license = GPL-3.0-only
+	makedepends = meson
+	makedepends = ninja
+	makedepends = git
+	makedepends = wayland-protocols
+	depends = libglvnd
+	depends = luajit
+	depends = libspng
+	depends = wayland
+	depends = libxcb
+	depends = xcb-util-cursor
+	depends = xorg-xwayland
+	depends = libxkbcommon
+	provides = waywall
+	conflicts = waywall
+	source = waywall-working-git::git+https://github.com/tesselslate/waywall.git
+	sha256sums = SKIP
+
+pkgname = waywall-working-git

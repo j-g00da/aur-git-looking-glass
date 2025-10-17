@@ -1,0 +1,12 @@
+pkgbase = psiphonlinuxgui
+	pkgdesc = PsiphonLinuxGUI is an unofficial Linux app for managing the Psiphon VPN and browser settings.
+	pkgver = 1.1.0
+	pkgrel = 1
+	url = https://github.com/Alessandros-Hube/PsiphonLinuxGUI
+	arch = x86_64
+	license = MIT
+	depends = nodejs
+	source = https://github.com/Alessandros-Hube/PsiphonLinuxGUI/releases/download/v1.1.0/psiphonlinuxgui_1.1.0_amd64.deb
+	sha256sums = b7d9b6d56245da2d0482e9d868e97400879a1b7bf9a9364cb728ba62eba1e39e
+
+pkgname = psiphonlinuxgui

@@ -1,0 +1,26 @@
+pkgbase = yutto
+	pkgdesc = 一个可爱且任性的 B 站视频下载器
+	pkgver = 2.1.0
+	pkgrel = 1
+	url = https://github.com/yutto-dev/yutto
+	arch = any
+	license = GPL-3.0-only
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-uv-build
+	depends = python-aiofiles
+	depends = python-biliass
+	depends = python-typing_extensions
+	depends = python-dict2xml
+	depends = python-httpx
+	depends = python-h2
+	depends = python-socksio
+	depends = python-pydantic
+	depends = python-returns
+	depends = ffmpeg
+	optdepends = python-fastmcp: Model Context Protocol support
+	source = https://pypi.io/packages/source/y/yutto/yutto-2.1.0.tar.gz
+	sha256sums = b7bf0f5aedb2a12079d6dc454bf30558c741719c029eea56c7ffbd25f076de56
+
+pkgname = yutto

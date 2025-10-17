@@ -1,0 +1,34 @@
+pkgbase = transgui
+	pkgdesc = Transmission BitTorrent client
+	pkgver = 5.18.8.f
+	pkgrel = 1
+	url = https://github.com/lighterowl/transgui
+	arch = x86_64
+	arch = aarch64
+	license = GPL
+	makedepends = git
+	makedepends = lazarus
+	makedepends = qt6pas
+	makedepends = gtk2
+	source = https://github.com/lighterowl/transgui/archive/refs/tags/v5.18.8.f.tar.gz
+	source = transgui.desktop
+	sha256sums = 86107eca8982402ff6292f93e361957b4017e48d32d23516d7ec97b2dae6c7d6
+	sha256sums = 6ee61ee4b01445ef67cc76abaee051c17043b57a743a977a2528a4c78a9a638b
+
+pkgname = transgui-qt
+	depends = qt6pas
+	conflicts = transgui-gtk2-git
+	conflicts = transgui-qt4-git
+	conflicts = transmission-remote-gui-qt4
+	conflicts = transmission-remote-gui-gtk2
+	conflicts = transmission-remote-gui-bin
+	conflicts = transgui-gtk
+
+pkgname = transgui-gtk
+	depends = gtk2
+	conflicts = transgui-gtk2-git
+	conflicts = transgui-qt4-git
+	conflicts = transmission-remote-gui-qt4
+	conflicts = transmission-remote-gui-gtk2
+	conflicts = transmission-remote-gui-bin
+	conflicts = transgui-qt

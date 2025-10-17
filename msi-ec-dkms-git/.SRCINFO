@@ -1,0 +1,14 @@
+pkgbase = msi-ec-dkms-git
+	pkgdesc = Driver for MSI laptop EC (DKMS)
+	pkgver = r508.9721905
+	pkgrel = 1
+	url = https://github.com/BeardOverflow/msi-ec
+	arch = x86_64
+	license = GPL2
+	makedepends = git
+	depends = dkms
+	conflicts = msi-ec
+	source = git+https://github.com/BeardOverflow/msi-ec.git
+	sha256sums = SKIP
+
+pkgname = msi-ec-dkms-git

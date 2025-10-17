@@ -1,0 +1,15 @@
+pkgbase = dpt-rp1-cups
+	pkgdesc = CUPS driver for DPT-RP1 and similar devices
+	pkgver = 0.2.5
+	pkgrel = 1
+	url = https://github.com/cristobaltapia/dpt-rp1-cups
+	arch = any
+	license = MIT
+	makedepends = make
+	depends = cups
+	depends = dpt-rp1-py
+	depends = notify-send.sh
+	source = https://github.com/cristobaltapia/dpt-rp1-cups/archive/refs/tags/v0.2.5.tar.gz
+	sha256sums = ebc233f446dd42573199b8c9c148ff6d37d26899f3dd3ce19deb2b2d4284284b
+
+pkgname = dpt-rp1-cups

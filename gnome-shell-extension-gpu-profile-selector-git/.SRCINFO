@@ -1,0 +1,20 @@
+pkgbase = gnome-shell-extension-gpu-profile-selector-git
+	pkgdesc = Provides a simple way to switch between GPU profiles on NVIDIA Optimus systems
+	pkgver = 48.r1.g6d93636
+	pkgrel = 1
+	epoch = 1
+	url = https://github.com/LorenzoMorelli/GPU_profile_selector
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = git
+	makedepends = jq
+	depends = bash
+	depends = envycontrol
+	depends = gnome-shell
+	depends = polkit
+	provides = gnome-shell-extension-gpu-profile-selector
+	conflicts = gnome-shell-extension-gpu-profile-selector
+	source = git+https://github.com/LorenzoMorelli/GPU_profile_selector.git
+	sha256sums = SKIP
+
+pkgname = gnome-shell-extension-gpu-profile-selector-git

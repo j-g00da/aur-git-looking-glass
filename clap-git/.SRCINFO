@@ -1,0 +1,40 @@
+pkgbase = clap-git
+	pkgdesc = Modern performant generic finder and dispatcher for Vim and NeoVim
+	pkgver = 0.23.r2.gb6d82bc
+	pkgrel = 1
+	url = https://github.com/liuchengxu/vim-clap
+	arch = x86_64
+	groups = vim-plugins
+	license = MIT
+	makedepends = git
+	makedepends = rust
+	makedepends = python
+	source = clap::git+https://github.com/liuchengxu/vim-clap.git
+	sha256sums = SKIP
+
+pkgname = vim-clap-git
+	depends = vim
+	depends = gcc-libs
+	optdepends = python: for the Python dynamic module
+	optdepends = git: for the bcommits, commits, files, gfiles or git_files, and git_diff_files providers
+	optdepends = ctags: for the proj_tags provider
+	optdepends = ripgrep: for the files and grep providers
+	optdepends = fzf: for the fzf external filter
+	optdepends = fzy: for the fzy external filter
+	optdepends = skim: for the sk external filter
+	provides = vim-clap
+	conflicts = vim-clap
+
+pkgname = neovim-clap-git
+	depends = neovim
+	depends = gcc-libs
+	optdepends = python-pynvim: for the Python dynamic module
+	optdepends = git: for the bcommits, commits, files, gfiles or git_files, and git_diff_files providers
+	optdepends = ctags: for the proj_tags provider
+	optdepends = ripgrep: for the files and grep providers
+	optdepends = fzf: for the fzf external filter
+	optdepends = fzy: for the fzy external filter
+	optdepends = skim: for the sk external filter
+	provides = neovim-clap
+	conflicts = neovim-clap
+

@@ -1,0 +1,23 @@
+pkgbase = mpdris-git
+	pkgdesc = A MPD client implementing the dbus MPRIS standard written in rust -- git version
+	pkgver = 1.2.0.r49.g2e32af1
+	pkgrel = 1
+	url = https://github.com/jasger9000/mpdris
+	arch = any
+	license = MIT
+	makedepends = cargo
+	makedepends = git
+	depends = glibc
+	depends = gcc-libs
+	optdepends = libsystemd: run mpdris as a service
+	provides = mpdris=1.2.0.r49.g2e32af1
+	conflicts = mpdris
+	options = !lto
+	source = mpdris::git+https://github.com/jasger9000/mpdris.git
+	sha256sums = SKIP
+
+pkgname = mpdris-git
+	depends = glibc
+	depends = gcc-libs
+	depends = dbus
+	depends = mpd

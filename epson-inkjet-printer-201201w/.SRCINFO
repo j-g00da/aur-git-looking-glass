@@ -1,0 +1,14 @@
+pkgbase = epson-inkjet-printer-201201w
+	pkgdesc = Epson inkjet printer driver (XP-302, XP-303, XP-305, XP-306, XP-402, XP-403, XP-405, XP-406)
+	pkgver = 1.0.1
+	pkgrel = 1
+	url = https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+	arch = x86_64
+	license = custom:Epson End User Software License Agreement
+	depends = epson-inkjet-printer-filter
+	depends = gcc-libs
+	depends = glibc
+	source = https://download3.ebz.epson.net/dsc/f/03/00/15/64/84/09281429ff8acd002c590a9d208ba42b9890bf20/epson-inkjet-printer-201201w-1.0.1-1.src.rpm
+	sha256sums = a7d263b85f92610f79396b47a6179aa749b780e0c337d561a8b70be6ce4570cf
+
+pkgname = epson-inkjet-printer-201201w

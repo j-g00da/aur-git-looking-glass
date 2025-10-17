@@ -1,0 +1,18 @@
+pkgbase = openpnp
+	pkgdesc = Open Source SMT Pick and Place Hardware and Software
+	pkgver = 2025_02_02_20_41_38.e468422
+	pkgrel = 1
+	url = https://openpnp.org/
+	arch = arm64
+	arch = x86_64
+	license = GPL3
+	depends = java-runtime>=11
+	depends = java-runtime<=19
+	source = OpenPnP-2025-02-02_20-41-38.e468422.tar.gz::https://openpnp.s3-us-west-2.amazonaws.com/main/2025-02-02_20-41-38.e468422/OpenPnP-unix-main.tar.gz
+	source = OpenPnP.desktop
+	source = OpenPnP.png
+	sha256sums = 4320e923565a07c01dc02c828bccaca01713bbe03c0eebdc149df89e3b8763ca
+	sha256sums = 7658037d685d39b77383e5fa9aef9946a6fffa8c95c7d2b3b0732065ddc15bb4
+	sha256sums = 077cb8d431a443ee67636ed8454f4637042d462a6934c78f739a66abeb288176
+
+pkgname = openpnp

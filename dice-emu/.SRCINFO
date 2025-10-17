@@ -1,0 +1,13 @@
+pkgbase = dice-emu
+	pkgdesc = Discrete Integrated Circuit Emulator (DICE) for TTL-based arcade games like Pong.
+	pkgver = 0.9a
+	pkgrel = 2
+	url = https://github.com/DirtBagXon/DICE
+	arch = x86_64
+	license = GPL-3.0-or-later
+	depends = qt5-base
+	depends = sdl2
+	source = dice-emu-0.9a.tar.gz::https://github.com/DirtBagXon/DICE/archive/refs/tags/0.9a.tar.gz
+	sha256sums = f1f6d742dc713dff7e89b4f6b0c61404a278dd12e0243bfe2255f4531a18d719
+
+pkgname = dice-emu

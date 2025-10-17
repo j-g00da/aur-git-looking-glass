@@ -1,0 +1,18 @@
+pkgbase = nrip
+	pkgdesc = Safe rm with a graveyard (rm, list, prune, resurrect, fzf integration)
+	pkgver = 0.8.9
+	pkgrel = 1
+	url = https://github.com/Samtroulcode/NRip
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	license = Apache-2.0
+	makedepends = cargo
+	depends = glibc
+	depends = gcc-libs
+	depends = fzf
+	provides = nrip=0.8.9
+	source = NRip-0.8.9.tar.gz::https://forgejo.dirty-flix-servarr.fr/Samda/NRip/archive/refs/tags/v0.8.9.tar.gz
+	sha256sums = e2ca4902c9a6886f4d5e5c6167124a5288381c0f7e44fd41f84c18ac7742a843
+
+pkgname = nrip

@@ -1,0 +1,24 @@
+pkgbase = python-tensorly
+	pkgdesc = Simple and Fast Tensor Learning in Python
+	pkgver = 0.9.0
+	pkgrel = 1
+	url = https://tensorly.org/stable/home.html
+	changelog = python-tensorly.changelog
+	arch = any
+	license = BSD
+	checkdepends = python-pytest
+	checkdepends = python-pytorch
+	checkdepends = python-tensorflow
+	makedepends = python-setuptools
+	depends = python
+	depends = python-numpy
+	depends = python-scipy
+	optdepends = python-pytorch
+	optdepends = python-tensorflow
+	optdepends = mxnet
+	optdepends = python-cupy
+	optdepends = python-jax
+	source = tensorly-0.9.0.tar.gz::https://github.com/tensorly/tensorly/archive/0.9.0.tar.gz
+	sha256sums = 4550a294c167355b633c859d987b77bc3d7898e733625c95591f6a56eabfb136
+
+pkgname = python-tensorly

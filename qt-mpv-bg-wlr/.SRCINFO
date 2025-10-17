@@ -1,0 +1,20 @@
+pkgbase = qt-mpv-bg-wlr
+	pkgdesc = A mpv based video wallpaper program for wlroots based wayland compositors. (Video Dynamic Wallpaper for Linux).
+	pkgver = 0.0.3
+	pkgrel = 3
+	url = https://github.com/lisuke/qt-mpv-bg-wlr
+	arch = x86_64
+	license = GPL3
+	makedepends = meson
+	makedepends = ninja
+	makedepends = wayland-protocols
+	depends = mpv
+	depends = wayland
+	depends = qt6-base
+	depends = qt6-wayland
+	depends = layer-shell-qt
+	optdepends = socat: control via sockets
+	source = qt-mpv-bg-wlr-0.0.3.tar.gz::https://github.com/lisuke/qt-mpv-bg-wlr/archive/0.0.3.tar.gz
+	md5sums = 0227aa1d9122c73a4b18a1ca1364d7dd
+
+pkgname = qt-mpv-bg-wlr

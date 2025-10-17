@@ -1,0 +1,18 @@
+pkgbase = tree-sitter-commonlisp
+	pkgdesc = Common Lisp grammar for tree-sitter
+	pkgver = 0.4.1
+	pkgrel = 1
+	url = https://github.com/tree-sitter-grammars/tree-sitter-commonlisp
+	arch = i686
+	arch = x86_64
+	groups = tree-sitter-grammars
+	license = MIT
+	makedepends = nodejs
+	makedepends = tree-sitter-cli
+	depends = glibc
+	provides = libtree-sitter-commonlisp.so
+	options = staticlibs
+	source = tree-sitter-commonlisp-0.4.1-src.tar.gz::https://github.com/tree-sitter-grammars/tree-sitter-commonlisp/archive/refs/tags/v0.4.1.tar.gz
+	sha256sums = f9767782bf94e82b847094f632f2db95b342e0ab54b1b8c8234cc1d6ac6c69a5
+
+pkgname = tree-sitter-commonlisp

@@ -1,0 +1,14 @@
+pkgbase = epson-inkjet-printer-201214j
+	pkgdesc = Epson inkjet printer driver (PX-K150)
+	pkgver = 1.0.1
+	pkgrel = 1
+	url = https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+	arch = x86_64
+	license = custom:Epson End User Software License Agreement
+	depends = epson-inkjet-printer-filter
+	depends = gcc-libs
+	depends = glibc
+	source = https://download3.ebz.epson.net/dsc/f/03/00/15/65/25/6fa676f3e0c4b785b1af1a0580bc860b628abec7/epson-inkjet-printer-201214j-1.0.1-1.src.rpm
+	sha256sums = 2b35d03fff6c89002f20d4ed8d4b7544eac65e3dd09a9d5a3d32382f5cfc8041
+
+pkgname = epson-inkjet-printer-201214j

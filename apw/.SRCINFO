@@ -1,0 +1,18 @@
+pkgbase = apw
+	pkgdesc = A Package Wrapper - package wrapper for pacman (and more)
+	pkgver = 1.9.1
+	pkgrel = 1
+	url = http://proyecto.jkanetwork.com
+	arch = any
+	groups = jka-toolkit
+	license = GPL3
+	options = !emptydirs
+	source = https://gitlab.com/JKANetwork/jka-toolkit/raw/master/jka-toolkit/apw
+	source = https://gitlab.com/JKANetwork/jka-toolkit/raw/master/jka-toolkit/i18n/apw/es.mo
+	source = https://gitlab.com/JKANetwork/jka-toolkit/raw/master/manpages/apw.1
+	md5sums = 747e3f6b4e8b685ce55dc1b93c678838
+	md5sums = f624a305facbe30b96720f13784ddc26
+	md5sums = edbb53af2fb22cb5ba90bb57291a6995
+
+pkgname = apw
+

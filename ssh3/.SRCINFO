@@ -1,0 +1,19 @@
+pkgbase = ssh3
+	pkgdesc = faster and rich secure shell using HTTP/3
+	pkgver = 0.1.7
+	pkgrel = 1
+	url = https://github.com/francoismichel/ssh3
+	arch = x86_64
+	license = Apache-2.0
+	makedepends = go
+	makedepends = libxcrypt
+	depends = glibc
+	source = ssh3-0.1.7.tar.gz::https://github.com/francoismichel/ssh3/archive/refs/tags/v0.1.7.tar.gz
+	sha256sums = 23a88d0d7f54f80d752c22ee5f879fa1daf8c320ece364287209c58b3e98b6b5
+	b2sums = daf2d916bc40a63e5ff089ef97c70bae3f2c7e0f74d043c40c2d9b8505d64985240c5679952d171833531b7746421304e5610075d2fca5f78593fa8b7e4890d3
+
+pkgname = ssh3
+
+pkgname = ssh3-server
+	depends = glibc
+	depends = libxcrypt

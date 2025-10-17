@@ -1,0 +1,25 @@
+pkgbase = waylock-git
+	pkgdesc = A simple screenlocker for Wayland compositors
+	pkgver = 0.6.0.r13.g7957561
+	pkgrel = 1
+	url = https://codeberg.org/ifreund/waylock
+	arch = x86_64
+	license = ISC
+	makedepends = git
+	makedepends = zig
+	makedepends = scdoc
+	depends = wayland
+	depends = wayland-protocols
+	depends = libxkbcommon
+	depends = pam
+	depends = pkgconf
+	provides = waylock
+	conflicts = waylock
+	source = git+https://codeberg.org/ifreund/waylock.git
+	source = git+https://codeberg.org/ifreund/zig-wayland.git
+	source = git+https://codeberg.org/ifreund/zig-xkbcommon.git
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = waylock-git

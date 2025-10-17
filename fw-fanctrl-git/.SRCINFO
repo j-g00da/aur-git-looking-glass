@@ -1,0 +1,23 @@
+pkgbase = fw-fanctrl-git
+	pkgdesc = A simple systemd service to better control Framework Laptop's fan(s)
+	pkgver = 1.0.3.r4.6e2182d
+	pkgrel = 2
+	url = https://github.com/TamtamHero/fw-fanctrl
+	arch = any
+	license = BSD-3
+	makedepends = git
+	makedepends = python-setuptools>=75.2.0
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python>=3.12
+	depends = python-watchdog
+	depends = fw-ectool-git
+	depends = python-jsonschema
+	provides = fw-fanctrl
+	conflicts = fw-fanctrl
+	backup = etc/fw-fanctrl/config.json
+	source = fw-fanctrl::git+https://github.com/TamtamHero/fw-fanctrl.git
+	sha256sums = SKIP
+
+pkgname = fw-fanctrl-git

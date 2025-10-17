@@ -1,0 +1,17 @@
+pkgbase = deadbeef-plugin-statusnotifier
+	pkgdesc = plugin for DeaDBeeF that replaces its default tray icon with one that supports the StatusNotifierIitem protocol
+	pkgver = 1.6
+	pkgrel = 2
+	url = https://github.com/vovochka404/deadbeef-statusnotifier-plugin
+	arch = i686
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = cmake
+	makedepends = ninja
+	depends = deadbeef
+	depends = gtk3
+	depends = libdbusmenu-glib
+	source = https://github.com/vovochka404/deadbeef-statusnotifier-plugin/archive/v1.6.tar.gz
+	b2sums = 2789b6dae5b6028a8185e615c9da7cb17888ee836c0786e9a602c85261fe5c08be56192e366b784291aab9b9300bd150494e585b6c56bb6ef54bdac33a82e57d
+
+pkgname = deadbeef-plugin-statusnotifier

@@ -1,0 +1,12 @@
+pkgbase = cmdr
+	pkgdesc = An easily configurable command-line tool for accessing Source RCON servers.
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/1dylan1/cmdr
+	arch = x86_64
+	license = MIT
+	makedepends = go
+	source = https://github.com/1dylan1/cmdr/archive/refs/tags/v1.0.0.tar.gz
+	sha256sums = 07ad2a8584a51fb5afe3f8b9eda07249f43d7c5606d0834f55c7fa3f28ce0813
+
+pkgname = cmdr

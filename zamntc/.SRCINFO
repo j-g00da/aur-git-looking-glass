@@ -1,0 +1,18 @@
+pkgbase = zamntc
+	pkgdesc = Zombies Ate My Neighbors TC recreated and powered by the GZDoom (Demo)
+	pkgver = h2022.hotfix1
+	pkgrel = 2
+	url = https://gitlab.com/linuxbombay/zamn-tc
+	arch = x86_64
+	arch = aarch64
+	license = GPL
+	makedepends = unzip
+	depends = gzdoom-bin
+	depends = unzip
+	depends = yad
+	source = https://gitlab.com/linuxbombay/zamn-tc/zamn-tc/-/archive/1.0.1/zamntc-1.0.1.tar.bz2
+	source = https://gitlab.com/linuxbombay/zamn-tc/archive/h2022.hotfix1/-/raw/main/zamntc-h2022.hotfix1.rar
+	sha256sums = 1b665ae2df4336e3dec32e3164842b28cea351e24eb9f3396b2fd6769ca0939d
+	sha256sums = af296cf8e97706d0361ef18eb6e43084e3b1004358fab8016d6097df22619f93
+
+pkgname = zamntc

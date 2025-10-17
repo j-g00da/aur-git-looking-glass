@@ -1,0 +1,15 @@
+pkgbase = perl-any-moose
+	pkgdesc = (DEPRECATED) use Moo instead!
+	pkgver = 0.27
+	pkgrel = 2
+	url = https://metacpan.org/release/Any-Moose
+	arch = any
+	license = Artistic-1.0
+	depends = perl-moose>=0
+	depends = perl>=5.6.2
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/E/ET/ETHER/Any-Moose-0.27.tar.gz
+	md5sums = 8c5d318ee105c3a556019da537df542f
+	sha512sums = 5c97caf2e64462bae95fc4d5dd41868c01f856bd8f74872985254b7cc6ce0e13b4accad7955047ff5c4013399f7aea2ad6d48ae3592883a3b6cd20c0e4478b7b
+
+pkgname = perl-any-moose

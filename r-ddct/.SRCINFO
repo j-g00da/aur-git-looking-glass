@@ -1,0 +1,18 @@
+pkgbase = r-ddct
+	pkgdesc = The ddCt Algorithm for the Analysis of Quantitative Real-Time PCR (qRT-PCR)
+	pkgver = 1.64.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/ddCt
+	arch = any
+	license = LGPL-3.0-only
+	depends = r-biobase
+	depends = r-biocgenerics
+	depends = r-rcolorbrewer
+	depends = r-xtable
+	optdepends = r-runit
+	optdepends = r-testthat
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/ddCt_1.64.0.tar.gz
+	md5sums = eecb3a34a3df5abc4f1fabf7fef3b1e0
+	b2sums = 9cbb393698322593e02af6544cd0537d65aa9f2d43078e27619ac90f6e86c90cbb4788c7e069b9fbd8ae5c8e315c3e0fd93a69123183cec367fc95f2b6a4d4e4
+
+pkgname = r-ddct

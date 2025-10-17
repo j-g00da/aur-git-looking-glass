@@ -1,0 +1,23 @@
+pkgbase = r-affylmgui
+	pkgdesc = GUI for limma Package with Affymetrix Microarrays
+	pkgver = 1.82.0
+	pkgrel = 1
+	url = https://bioconductor.org/packages/affylmGUI
+	arch = any
+	license = GPL
+	depends = r
+	depends = r-affy
+	depends = r-affyio
+	depends = r-affyplm
+	depends = r-annotationdbi
+	depends = r-biocgenerics
+	depends = r-biocmanager
+	depends = r-gcrma
+	depends = r-limma
+	depends = r-r2html
+	depends = r-tkrplot
+	depends = r-xtable
+	source = https://bioconductor.org/packages/release/bioc/src/contrib/affylmGUI_1.82.0.tar.gz
+	sha256sums = 72d476c950dd3206b2e5859f005cf79d1ef86596c42d2da2a4fbb7d65538ee52
+
+pkgname = r-affylmgui

@@ -1,0 +1,21 @@
+pkgbase = libsearpc
+	pkgdesc = A simple C language RPC framework (including both server side & client side)
+	pkgver = 3.3.0
+	pkgrel = 5
+	epoch = 2
+	url = https://github.com/haiwen/libsearpc
+	arch = i686
+	arch = x86_64
+	arch = armv7h
+	arch = armv6h
+	arch = aarch64
+	license = Apache
+	makedepends = git
+	depends = glib2
+	depends = jansson
+	depends = python-gobject
+	depends = python-simplejson
+	source = libsearpc::git+https://github.com/haiwen/libsearpc#commit=d00c062d76d86b76c8c179bfb4babc9e2200b3f1
+	sha256sums = SKIP
+
+pkgname = libsearpc

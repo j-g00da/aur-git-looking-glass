@@ -1,0 +1,29 @@
+pkgbase = xlibre-input-libinput
+	pkgdesc = Generic input driver for the XLibre server based on libinput
+	pkgver = 1.5.1.0
+	pkgrel = 1
+	url = https://github.com/X11Libre/xf86-input-libinput/
+	arch = aarch64
+	arch = x86_64
+	groups = xlibre-drivers
+	license = MIT
+	makedepends = libx11
+	makedepends = libxi
+	makedepends = meson>=0.50
+	makedepends = xlibre-xserver-devel
+	makedepends = xorgproto
+	makedepends = X-ABI-XINPUT_VERSION=26.0
+	depends = glibc
+	depends = libinput>=1.11
+	provides = xf86-input-libinput-xlibre
+	provides = xf86-input-libinput
+	conflicts = xf86-input-libinput
+	conflicts = xf86-input-libinput-xlibre
+	conflicts = xorg-server<1.19.0
+	conflicts = X-ABI-XINPUT_VERSION<26
+	conflicts = X-ABI-XINPUT_VERSION>=27
+	replaces = xf86-input-libinput-xlibre
+	source = xf86-input-libinput-xlibre-xf86-input-libinput-1.5.1.0.tar.gz::https://github.com/X11Libre/xf86-input-libinput//archive/refs/tags/xlibre-xf86-input-libinput-1.5.1.0.tar.gz
+	b2sums = b4a6061dd310c3e900606a128dc28c83b6e0dce6e6aa92e30c1d5788c5f0b6683b41e0e3e24ae8f4cf5014ba217a720240427c9f835038fe1b2794b58a330059
+
+pkgname = xlibre-input-libinput

@@ -1,0 +1,17 @@
+pkgbase = python-browserstack-local
+	pkgdesc = Python bindings for BrowserStack Local
+	pkgver = 1.2.12
+	pkgrel = 1
+	url = http://github.com/browserstack/browserstack-local-python
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python
+	depends = python-psutil
+	source = https://files.pythonhosted.org/packages/source/b/browserstack-local/browserstack-local-1.2.12.tar.gz
+	sha256sums = 7f890ec69d93a54336395d71f9b426d6cf46764bd013ddb9c6650e0b63883011
+
+pkgname = python-browserstack-local

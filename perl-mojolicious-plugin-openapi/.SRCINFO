@@ -1,0 +1,16 @@
+pkgbase = perl-mojolicious-plugin-openapi
+	pkgdesc = OpenAPI / Swagger plugin for Mojolicious
+	pkgver = 5.11
+	pkgrel = 1
+	url = https://metacpan.org/release/Mojolicious-Plugin-OpenAPI
+	arch = any
+	license = Artistic2.0
+	depends = perl-json-validator>=5.13
+	depends = perl-mojolicious>=9.00
+	depends = perl>=5.016
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/J/JH/JHTHORSEN/Mojolicious-Plugin-OpenAPI-5.11.tar.gz
+	md5sums = 40259aeeb7c720441324169460e59a04
+	sha512sums = 20a0fcc2fb6a4e79fafd12d9f8a5bc3d43c6df402b0815f6da8192e03a656b9d228a71b5531c74d71e6202cb5169ffadbf6f005e015f289558bfba14b1d418f4
+
+pkgname = perl-mojolicious-plugin-openapi

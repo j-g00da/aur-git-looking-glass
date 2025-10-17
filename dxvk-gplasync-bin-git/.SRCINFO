@@ -1,0 +1,29 @@
+pkgbase = dxvk-gplasync-bin-git
+	pkgdesc = A Vulkan-based compatibility layer for Direct3D 9/10/11 (with gplasync patch) (CI BUILD)
+	pkgver = 9849414907
+	pkgrel = 1
+	url = https://gitlab.com/Ph42oN/dxvk-gplasync
+	arch = x86_64
+	license = zlib-acknowledgement
+	depends = vulkan-icd-loader
+	depends = lib32-vulkan-icd-loader
+	depends = bash
+	optdepends = wine
+	optdepends = proton
+	provides = dxvk=9849414907
+	provides = d8vk
+	provides = d9vk
+	conflicts = dxvk
+	conflicts = d8vk
+	conflicts = d9vk
+	options = !strip
+	source = dxvk-gplasync.zip::https://gitlab.com/Ph42oN/dxvk-gplasync/-/jobs/artifacts/test/download?job=build
+	source = dxvk-gplasync-env.conf
+	source = setup_dxvk_proton.sh
+	source = setup_dxvk.sh::https://aur.archlinux.org/cgit/aur.git/plain/setup_dxvk.sh?h=dxvk-mingw&id=15fc8ab6b1bb285df589359c50540b9c14c1f063
+	sha256sums = SKIP
+	sha256sums = 2bce3bf5dc5a3c7312bbaae96daf82e0fe6c370e96017ce5a0c49f40901866e3
+	sha256sums = ce5712e2287b1ab52a9160dd7bacf0694ee3e7a5888bd71a06f27ca67af051d6
+	sha256sums = b562e8dc9539ef3cd1554c6679eef10aacf21103403d7390a141a41ae146b7a6
+
+pkgname = dxvk-gplasync-bin-git
