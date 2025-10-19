@@ -1,7 +1,7 @@
 pkgbase = grafana-alloy
 	pkgdesc = OpenTelemetry Collector distribution with programmable pipelines
 	pkgver = 1.11.2
-	pkgrel = 1
+	pkgrel = 3
 	url = https://grafana.com/oss/alloy-opentelemetry-collector/
 	arch = x86_64
 	arch = aarch64
@@ -10,6 +10,7 @@ pkgbase = grafana-alloy
 	makedepends = git
 	makedepends = go
 	makedepends = systemd
+	makedepends = yarn
 	depends = glibc
 	options = !lto
 	backup = etc/default/grafana-alloy

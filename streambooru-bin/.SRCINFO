@@ -1,0 +1,25 @@
+pkgbase = streambooru-bin
+	pkgdesc = StreamBooru — cross‑platform Electron app to browse multiple booru sites
+	pkgver = 0.4.1
+	pkgrel = 1
+	url = https://github.com/Amateur-God/StreamBooru
+	arch = x86_64
+	license = GPL3
+	depends = alsa-lib
+	depends = nss
+	depends = gtk3
+	depends = libxss
+	depends = libxtst
+	optdepends = libappindicator-gtk3: tray icon support
+	optdepends = libnotify: desktop notifications
+	optdepends = xdg-utils: open links with xdg-open
+	provides = streambooru
+	conflicts = streambooru
+	source = streambooru-0.4.1.tar.gz::https://github.com/Amateur-God/StreamBooru/releases/download/v0.4.1/streambooru-0.4.1.tar.gz
+	source = streambooru.sh
+	source = streambooru.desktop
+	sha256sums = 39debff01c38b289acb8449ffafcf01818e8ba8a91196c5b2b8b87f929d8a374
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = streambooru-bin

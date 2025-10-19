@@ -1,6 +1,6 @@
 pkgbase = sysc-greet
 	pkgdesc = Graphical console greeter for greetd with ASCII art and themes
-	pkgver = 1.0.2
+	pkgver = 1.0.4
 	pkgrel = 1
 	url = https://github.com/Nomadcxx/sysc-greet
 	install = sysc-greet.install
@@ -15,7 +15,7 @@ pkgbase = sysc-greet
 	optdepends = gslapper: Video wallpaper support
 	backup = etc/greetd/config.toml
 	backup = etc/greetd/niri-greeter-config.kdl
-	source = sysc-greet-1.0.2.tar.gz::https://github.com/Nomadcxx/sysc-greet/archive/v1.0.2.tar.gz
-	sha256sums = c54bd57eaf3596115caeede586ed6a512e7961cafff034f23dc6f417e71ca7a6
+	source = sysc-greet-1.0.4.tar.gz::https://github.com/Nomadcxx/sysc-greet/archive/v1.0.4.tar.gz
+	sha256sums = 1aa07f2d3437888ce27f0efdea400c627ebb32d52bc015cfe0b9eba601a5872d
 
 pkgname = sysc-greet

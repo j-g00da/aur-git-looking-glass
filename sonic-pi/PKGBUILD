@@ -1,4 +1,10 @@
 # Maintainer: Nathan Pilkington <npil>
+# Contributor: Christian Heusel <gromit@archlinux.org>
+# Contributor: Evangelos Foutras <foutrelis@archlinux.org>
+# Contributor: Antonio Rojas <arojas@archlinux.org>
+# Contributor: Andreas Schleifer <segaja@archlinux.org>
+# Contributor: Felix Yan <felixonmars@archlinux.org>
+# Contributor: Balló György <bgyorgy@archlinux.org>
 # Contributor: David Runge <dvzrv@archlinux.org>
 
 pkgname=sonic-pi
@@ -20,7 +26,11 @@ makedepends=(
   ruby-prime ruby-erb ruby-rexml
 )
 checkdepends=(ruby-rake)
-optdepends=('sox: for further effects')
+optdepends=(
+  'jack2: JACK audio server for low-latency audio routing'
+  'sc3-plugins: additional synthesis UGens for SuperCollider'
+  'sox: audio processing and sample manipulation'
+)
 source=(
   $pkgname-$pkgver.tar.gz::https://github.com/sonic-pi-net/${pkgname}/archive/refs/tags/v${pkgver}.tar.gz
   $pkgname-$pkgver-gui_paths.patch
@@ -88,11 +98,13 @@ build() {
   patch -Np1 -i "../$pkgname-$pkgver-ruby_paths.patch"
 }
 
-## tests fail: https://github.com/samaaron/sonic-pi/issues/1865
+# Tests fail because they require the package to be fully installed first
+# The test suite tries to load files from /usr/share/sonic-pi/ which don't exist during build
+# See: https://github.com/samaaron/sonic-pi/issues/1865
 #check() {
-#  cd "$pkgname-$pkgver"
-#  cd app/server/ruby/test
-#  rake test
+# cd "$pkgname-$pkgver"
+# cd app/server/ruby/test
+# rake test
 #}
 
 package() {

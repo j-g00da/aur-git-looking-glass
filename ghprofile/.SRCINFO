@@ -1,0 +1,10 @@
+pkgbase = ghprofile
+pkgdesc = ghprofile (temporarily disabled in AUR by maintainer)
+pkgver = 1.0.0
+pkgrel = 1
+url = https://github.com/dayvster/ghrepo
+arch =
+license = MIT
+md5sums = SKIP
+
+pkgname = ghprofile
