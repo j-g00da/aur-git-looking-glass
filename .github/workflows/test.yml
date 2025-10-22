@@ -16,7 +16,7 @@ jobs:
       - name: Checkout Looking Glass
         uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
         with:
-          path: /home/runner/.cache/alpm/testing/aur
+          path: testing/aur
       - name: Checkout ALPM mirror
         uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
         with:
@@ -30,5 +30,5 @@ jobs:
       - name: Test
         run: |
           cd alpm
-          cargo run -p dev-scripts -- test-files test src-info
+          cargo run -p dev-scripts -- test-files test -t ../testing src-info
           
