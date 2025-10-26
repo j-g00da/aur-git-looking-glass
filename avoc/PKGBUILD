@@ -1,12 +1,12 @@
 # Maintainer: develOseven <devel.oseven@gmail.com>
 pkgname=avoc
-pkgver=0.0.3
+pkgver=0.0.5
 pkgrel=1
 epoch=
 _python_version=3.12.3
 _pkghashes="
-	--hash=sha256:4d93b23b9686a20a419b32a07103b4ce9676e5eedf8e3024f5625dcd5671dd0a
-	--hash=sha256:fbe9d01d9ac6644ecc46316d292954ad4ace056477555a20c6eeab0d16236032
+	--hash=sha256:ef9be64e5f4d3894856c2602680521a191ac5b2c43834c18a14cccc9eeb1dbe3
+	--hash=sha256:309e5388d459c143f594265def7383c96214d1d6460cf4f9340316a555e54282
 "
 pkgdesc="Local Realtime Voice Changer for Desktop"
 arch=('x86_64')
@@ -44,8 +44,7 @@ options=()
 install=
 changelog=
 source=(
-	"https://raw.githubusercontent.com/develOseven/avoc/24403df3778b7b9346b0fc90894a20e9dfb5325e/requirements-$_python_version.hashes.txt"
-	"https://raw.githubusercontent.com/develOseven/avoc/24403df3778b7b9346b0fc90894a20e9dfb5325e/requirements-licenses-$_python_version.hashes.txt"
+	"git+https://github.com/develOseven/$pkgname.git#tag=$pkgver"
 )
 noextract=()
 validpgpkeys=()
@@ -58,6 +57,7 @@ _pyenv_shell() {
 
 prepare() {
 	_pyenv_shell
+	rm -rf "$pkgname-$pkgver"
 	mkdir -p "$pkgname-$pkgver"
 	cd "$pkgname-$pkgver"
 	pyenv install --skip-existing $_python_version
@@ -72,7 +72,7 @@ build() {
 	# Workaround for onnxsim that uses onnx/optimizer pre 31194ccb971bbbcc8218e103c7b0a8049ddddc3e.
 	CMAKE_ARGS="-DCMAKE_POLICY_VERSION_MINIMUM=3.5" \
 		pip install --require-virtualenv --require-hashes \
-		--requirement ../requirements-$_python_version.hashes.txt \
+		--requirement ../$pkgname/requirements-$_python_version.hashes.txt \
 		--requirement <(echo $pkgname==$pkgver $_pkghashes)
 }
 
@@ -110,7 +110,7 @@ package() {
 	# Generate the license file.
 	_package_python_deps="$(echo $pkgname; pip list --format=json 2>/dev/null | jq -r '.[].name')"
 	pip install --require-virtualenv --require-hashes \
-		--requirement ../requirements-licenses-$_python_version.hashes.txt
+		--requirement ../$pkgname/requirements-licenses-$_python_version.hashes.txt
 	mkdir -p "$pkgdir/usr/share/licenses/$pkgname"
 	pip-licenses --with-license-file --format=json --packages $_package_python_deps | \
 		awk -v t="$_o_venv" -v r="$_d_venv" "$_sub" > "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
@@ -125,5 +125,4 @@ package() {
 		"$pkgdir/usr/share/applications/AVoc.desktop"
 	echo "Path=/opt/$pkgname" >> "$pkgdir/usr/share/applications/AVoc.desktop"
 }
-sha256sums=('7e3b8d8056fbfc8d3e2856735e100b08d942de9a969ca30533a5458856588725'
-            '7e255a21e207f1ff5b41132ee08830850e71da51778611b8653b2b686dc1e39e')
+sha256sums=('3c74c20d06dba02f4d16845b1778127d4854e0c0bba09f0746c47c3c9b122027')

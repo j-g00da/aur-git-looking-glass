@@ -1,0 +1,12 @@
+pkgbase = ghostty-rpc
+	pkgdesc = Discord Rich Presence integration for Ghostty terminal
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/vinayydv3695/ghostty-rpc
+	arch = x86_64
+	license = MIT
+	makedepends = rust
+	makedepends = cargo
+	depends = gcc-libs
+
+pkgname = ghostty-rpc

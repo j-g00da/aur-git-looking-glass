@@ -1,0 +1,10 @@
+pkgbase = hyprmarker-debug
+	pkgdesc = Legacy debugging symbols package (obsolete)
+	pkgver = 0.4.0
+	pkgrel = 4
+	url = https://devmobasa.com/hyprmarker
+	arch = any
+	license = MIT
+	provides = hyprmarker-debug
+
+pkgname = hyprmarker-debug

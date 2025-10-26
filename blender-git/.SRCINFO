@@ -1,6 +1,6 @@
 pkgbase = blender-git
 	pkgdesc = A fully integrated 3D graphics creation suite (development)
-	pkgver = 5.0.r154311.gacde9be6fd2
+	pkgver = 5.1.r155450.ga2bc046fec4
 	pkgrel = 1
 	url = https://blender.org/
 	arch = i686
@@ -13,6 +13,8 @@ pkgbase = blender-git
 	makedepends = llvm
 	makedepends = clang
 	makedepends = subversion
+	makedepends = ninja
+	makedepends = mold
 	makedepends = wayland-protocols
 	makedepends = cython
 	makedepends = vulkan-headers
@@ -52,12 +54,13 @@ pkgbase = blender-git
 	optdepends = materialx: MaterialX materials
 	optdepends = level-zero-headers: Intel OpenCL FPGA kernels (all four needed)
 	optdepends = intel-compute-runtime: Intel OpenCL FPGA kernels (all four needed)
-	optdepends = intel-graphics-compiler: Intel OpenCL FPGA kernels (all four needed)
-	optdepends = intel-oneapi-basekit: Intel OpenCL FPGA kernels (all four needed)
+	optdepends = intel-oneapi-compiler-shared-runtime: Intel OpenCL FPGA kernels (all four needed)
+	optdepends = intel-oneapi-dpcpp-cpp: Intel OpenCL FPGA kernels (all four needed)
 	optdepends = makepkg-cg: Control resources during compilation
 	provides = blender
 	conflicts = blender
 	conflicts = blender-4.1-bin
+	options = !lto
 	source = blender::git-lfs+https://projects.blender.org/blender/blender#branch=main
 	sha256sums = SKIP
 

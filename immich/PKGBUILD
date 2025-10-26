@@ -2,9 +2,10 @@
 # Contributor: wabi <aschrafl@jetnet.ch>
 # Contributor: pikl <me@pikl.uk>
 # Contributor: caoticofanegas
+# Contributor: Terrence
 pkgbase=immich
 pkgname=('immich-server' 'immich-cli')
-pkgrel=1
+pkgrel=2
 pkgver=2.1.0
 pkgdesc='Self-hosted photos and videos backup tool'
 url='https://github.com/immich-app/immich'
@@ -24,7 +25,7 @@ makedepends=('git' 'pnpm' 'jq' 'ts-node')
 # https://github.com/immich-app/base-images/blob/main/server/Dockerfile
 # 1.101.0-2: liborc dep found to be not required
 depends=('valkey' 'postgresql>=14' 'nodejs>=20'
-    'vectorchord>=0.3' 'vectorchord<0.5'  # server/src/constants.ts
+    'vectorchord>=0.3' 'vectorchord<0.6'  # server/src/constants.ts
     'zlib'
     'glib2'
     'expat'
@@ -128,6 +129,7 @@ build() {
     # build CLI
     pnpm install --filter @immich/cli --frozen-lockfile
     rm cli/LICENSE  # deploy would've picked this up, duplicating standard /usr/share/licenses/spdx/AGPL-3.0-only
+    pnpm --filter @immich/cli build
     pnpm --filter @immich/cli --prod --no-optional deploy output/cli-pruned
 }
 

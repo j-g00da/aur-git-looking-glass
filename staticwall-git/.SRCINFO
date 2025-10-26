@@ -1,0 +1,23 @@
+pkgbase = staticwall-git
+	pkgdesc = Dynamic Wayland wallpaper manager with live shader support
+	pkgver = 0.2.0.r0.gcf99dac
+	pkgrel = 1
+	url = https://github.com/1ay1/staticwall
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = git
+	makedepends = make
+	makedepends = gcc
+	makedepends = wayland-protocols
+	makedepends = pkgconf
+	depends = wayland
+	depends = mesa
+	depends = libpng
+	depends = libjpeg-turbo
+	provides = staticwall
+	conflicts = staticwall
+	source = git+https://github.com/1ay1/staticwall.git
+	sha256sums = SKIP
+
+pkgname = staticwall-git

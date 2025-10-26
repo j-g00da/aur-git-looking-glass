@@ -15,7 +15,7 @@
 # Contributor: Ben <ben@benmazer.net>
 
 pkgname=mpd-git
-pkgver=0.24.3.r54.g287033c36
+pkgver=0.24.6.r94.ga874566f9
 pkgrel=1
 pkgdesc="Flexible, powerful, server-side application for playing music"
 url="https://www.musicpd.org/"
@@ -86,6 +86,7 @@ build() {
         -D shine=disabled \
         -D tremor=disabled \
         -D openmpt=disabled \
+        -D vgmstream=disabled \
         build
 
   ninja -C build

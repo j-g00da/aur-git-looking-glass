@@ -1,0 +1,14 @@
+pkgbase = mkinitcpio-sd-zfs
+	pkgdesc = Compatibility between systemd and ZFS roots
+	pkgver = 1.0.3
+	pkgrel = 1
+	url = https://github.com/jkolo/sd-zfs
+	arch = any
+	license = MIT
+	depends = mkinitcpio
+	depends = systemd
+	conflicts = mkinitcpio-sd-zfs-git
+	source = https://github.com/jkolo/sd-zfs/archive/v1.0.3.tar.gz
+	sha512sums = 831bb0351085ae55dcbd36265dd1b5d3272cf108e491ec7f3e3872e6341ab056a255094a0ad2ed0012d6f5c26b75d89157aaa334357aea6649fdf84147358807
+
+pkgname = mkinitcpio-sd-zfs

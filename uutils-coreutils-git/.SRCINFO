@@ -1,6 +1,6 @@
 pkgbase = uutils-coreutils-git
 	pkgdesc = Rust rewrite of coreutils
-	pkgver = 0.2.2.r254.g137b2ce
+	pkgver = 0.2.2.r458.g909da50
 	pkgrel = 1
 	url = https://github.com/uutils/coreutils
 	arch = x86_64
@@ -10,6 +10,7 @@ pkgbase = uutils-coreutils-git
 	depends = gcc-libs
 	depends = glibc
 	depends = oniguruma
+	optdepends = rust-src: optimize with RUSTC_BOOTSTRAP=1
 	provides = uutils-coreutils
 	conflicts = uutils-coreutils
 	options = zipman
@@ -21,3 +22,12 @@ pkgbase = uutils-coreutils-git
 	sha256sums = 31742bef74cad04c8bd8c9a7301323e3df35847f5b776024221cbd2060cd5ed7
 
 pkgname = uutils-coreutils-git
+
+pkgname = coreutils-uutils
+	pkgdesc = Use uutils as system coreutils
+	depends = uutils-coreutils
+	provides = coreutils
+	provides = b3sum
+	conflicts = coreutils
+	conflicts = b3sum
+	conflicts = sha3sum

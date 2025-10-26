@@ -3,7 +3,7 @@
 _pkgname=python-replicate
 pkgname="${_pkgname}-git"
 pkgver=1.0.7+2.r288.20250826.d2956ff
-pkgrel=1
+pkgrel=2
 pkgdesc="A library to run machine learning models in the cloud from your own code, without having to set up any servers."
 arch=(
   'any'
@@ -28,6 +28,9 @@ makedepends=(
 checkdepends=(
   'python-packaging>=21.3'
   'python-pytest>=7.1.2'
+  'python-pytest-asyncio'
+  'python-pytest-recording'
+  'python-respx'
   'python-responses>=0.21.0'
 )
 provides=(
@@ -43,6 +46,8 @@ source=(
 sha256sums=(
   'SKIP'
 )
+
+unset REPLICATE_API_KEY # As notified in https://aur.archlinux.org/packages/python-replicate-git#comment-1040279
 
 pkgver() {
   cd "${srcdir}/${_pkgname}"

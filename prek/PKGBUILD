@@ -2,17 +2,17 @@
 # Contributor:
 
 pkgname=prek
-pkgver=0.2.9
+pkgver=0.2.11
 pkgrel=1
-pkgdesc='⚡ Better `pre-commit`, re-engineered in Rust'
+pkgdesc="⚡ Better 'pre-commit', re-engineered in Rust"
 arch=('x86_64')
 url='https://github.com/j178/prek'
 license=('MIT')
 depends=('gcc-libs')
-makedepends=('git' 'rust')
+makedepends=('git' 'rust' 'libxml2')
 checkdepends=('cargo-nextest')
 options=('!lto')
-_commit='565c5e26e4273486660b8431fd7f5af659ffa341'
+_commit='c2f0468b625ac6475536ac86b9f96b1c81933fdd'
 source=("$pkgname::git+$url.git#commit=$_commit")
 md5sums=('SKIP')
 

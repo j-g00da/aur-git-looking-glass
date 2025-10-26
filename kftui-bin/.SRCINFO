@@ -1,6 +1,6 @@
 pkgbase = kftui-bin
 	pkgdesc = 🦀 ⚡ kubectl port forward manager, with support for UDP and proxy connections through k8s clusters
-	pkgver = 0.26.8
+	pkgver = 0.27.2
 	pkgrel = 1
 	url = https://github.com/hcavarsan/kftray
 	arch = x86_64
@@ -9,9 +9,9 @@ pkgbase = kftui-bin
 	provides = kftui
 	conflicts = kftui
 	conflicts = kftui-git
-	source_x86_64 = kftui-0.26.8-x86_64::https://github.com/hcavarsan/kftray/releases/download/v0.26.8/kftui_linux_amd64
-	sha512sums_x86_64 = 3366ef13dbef791a05eeaf3441a8cfdd91379c22af04df92b013b61be94b92106aa9545354b3357b926467168ea7c671402669a925c9e6f9334c5b30108ff487
-	source_aarch64 = kftui-0.26.8-aarch64::https://github.com/hcavarsan/kftray/releases/download/v0.26.8/kftui_linux_arm64
-	sha512sums_aarch64 = 673d47cb265f5c3cd18bf0085a0eebd2e41f26791cb7728fb212b10c557f2eb9e35d95ef024ed848db4717359bbffe30327b4e22e3d212ceca3c5becd59364f8
+	source_x86_64 = kftui-0.27.2-x86_64::https://github.com/hcavarsan/kftray/releases/download/v0.27.2/kftui_linux_amd64
+	sha512sums_x86_64 = 3079fac7eec74f1cd0a33307b98f25e181d8bfa631adb4d2d9f361d3487bcc6d6642c9a6dd01ff8d765e5df9d5bb20b5b6806a25fa0361d0ecca509d16218245
+	source_aarch64 = kftui-0.27.2-aarch64::https://github.com/hcavarsan/kftray/releases/download/v0.27.2/kftui_linux_arm64
+	sha512sums_aarch64 = ef56ce3c34522367be95d3c83039a2818bc7acfc9c585fcf70a6beebd232e028e2cf327e43f7e51c99775080541b13340efd6e28a60eea5f67406ac3f470a805
 
 pkgname = kftui-bin

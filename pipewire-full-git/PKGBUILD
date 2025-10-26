@@ -24,7 +24,7 @@ pkgname=(
   pipewire-full-vulkan-git
   pipewire-full-ffmpeg-git
 )
-pkgver=1.4.0.r606.ged7398a6
+pkgver=1.4.0.r922.gbd608101
 _so_ver=0.3
 _short_pkgver=${pkgver%%.r*}
 pkgrel=1
@@ -42,6 +42,8 @@ makedepends=(
   glib2-devel
   graphviz
   gst-plugins-base
+  gst-plugins-base-libs
+  gstreamer
   jack # jack2 or pipewire-jack
   libcamera
   libcanberra
@@ -58,6 +60,8 @@ makedepends=(
   libx11
   libxfixes
   lilv
+  spandsp
+  onnxruntime
   meson
   ncurses
   opus
@@ -68,7 +72,6 @@ makedepends=(
   rtkit
   sbc
   sdl2
-  spandsp
   systemd
   valgrind
   webrtc-audio-processing-1
@@ -76,7 +79,6 @@ makedepends=(
   vulkan-headers vulkan-icd-loader
   ffmpeg
   modemmanager
-  onnxruntime
 )
 checkdepends=(
   openal

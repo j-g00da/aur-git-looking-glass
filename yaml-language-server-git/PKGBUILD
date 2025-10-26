@@ -5,7 +5,7 @@
 _branch=main
 _pkgname=yaml-language-server
 pkgname=${_pkgname}-git
-pkgver=r1371.b8750279
+pkgver=r1389.afb9b966
 pkgrel=1
 pkgdesc='YAML Language Server, git main build'
 url="https://github.com/redhat-developer/${_pkgname}"
@@ -27,7 +27,7 @@ pkgver() {
 check() {
   cd $pkgname
   # see: https://github.com/redhat-developer/yaml-language-server/issues/1018
-  #yarn test
+  yarn test
 }
 
 build() {
@@ -47,7 +47,7 @@ package() {
 
   install -d "$pkgdir"/usr/{bin,lib/node_modules/$_pkgname}
   ln -s ../lib/node_modules/$_pkgname/bin/$_pkgname "$pkgdir"/usr/bin/$_pkgname
-  cp -r bin node_modules out package.json "$pkgdir"/usr/lib/node_modules/$_pkgname
+  cp -r bin l10n node_modules out package.json "$pkgdir"/usr/lib/node_modules/$_pkgname
   install -Dm644 -t "$pkgdir"/usr/share/doc/$pkgname {CHANGELOG,README}.md
   install -Dm644 -t "$pkgdir"/usr/share/licenses/$pkgname LICENSE
 }

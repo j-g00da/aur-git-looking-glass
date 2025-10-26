@@ -4,7 +4,7 @@
 pkgname=adol-c
 _pkgname=ADOL-C
 pkgver=2.7.2
-pkgrel=2
+pkgrel=3
 pkgdesc='Automatic Differentiation of Algorithms written in C/C++'
 arch=('x86_64')
 url="https://github.com/coin-or/${_pkgname}"
@@ -22,7 +22,7 @@ prepare() {
 build() {
   cd "${_pkgname}-releases-${pkgver}"
 
-  ./configure --prefix=/usr --libdir=/usr/lib
+  ./configure --prefix=/usr --libdir=/usr/lib --without-boost-system
   make
 }
 

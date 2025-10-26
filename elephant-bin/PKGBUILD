@@ -3,8 +3,8 @@
 _pkgauthor=abenz1267
 _pkgname=elephant
 pkgbase=${_pkgname}-bin
-pkgname=(${_pkgname}-bin ${_pkgname}-websearch-bin ${_pkgname}-unicode-bin ${_pkgname}-todo-bin ${_pkgname}-symbols-bin ${_pkgname}-runner-bin ${_pkgname}-providerlist-bin ${_pkgname}-menus-bin ${_pkgname}-files-bin ${_pkgname}-desktopapplications-bin ${_pkgname}-clipboard-bin ${_pkgname}-calc-bin ${_pkgname}-archlinuxpkgs-bin ${_pkgname}-bluetooth-bin)
-pkgver=2.2.3
+pkgname=(${_pkgname}-bin ${_pkgname}-websearch-bin ${_pkgname}-unicode-bin ${_pkgname}-todo-bin ${_pkgname}-symbols-bin ${_pkgname}-runner-bin ${_pkgname}-providerlist-bin ${_pkgname}-menus-bin ${_pkgname}-files-bin ${_pkgname}-desktopapplications-bin ${_pkgname}-clipboard-bin ${_pkgname}-calc-bin ${_pkgname}-archlinuxpkgs-bin ${_pkgname}-bluetooth-bin ${_pkgname}-windows-bin ${_pkgname}-snippets-bin ${_pkgname}-nirisessions-bin)
+pkgver=2.7.1
 pkgrel=1
 _pkgvername=v${pkgver}
 pkgdesc="general purpose datasource and executor"
@@ -32,7 +32,10 @@ optdepends=("${_pkgname}-providerlist: providerlist provider"
             "${_pkgname}-todo: todo provider"
             "${_pkgname}-unicode: unicode provider"
             "${_pkgname}-websearch: websearch provider"
-            "${_pkgname}-bluetooth: bluetooth provider")
+            "${_pkgname}-bluetooth: bluetooth provider"
+            "${_pkgname}-windows: windows provider"
+            "${_pkgname}-snippets: snippets provider"
+            "${_pkgname}-nirisessions: nirisessions provider")
 
 source=("LICENSE-${pkgver}::${_urlraw}/LICENSE"
         "README-${pkgver}.md::${_urlraw}/README.md")
@@ -49,23 +52,29 @@ source_x86_64=("${_pkgname}-${arch[0]}-${pkgver}.tgz::${url}/releases/download/v
                "clipboard-${arch[0]}-${pkgver}.tgz::${url}/releases/download/v${pkgver}/clipboard-linux-${_barch[0]}.tar.gz"
                "calc-${arch[0]}-${pkgver}.tgz::${url}/releases/download/v${pkgver}/calc-linux-${_barch[0]}.tar.gz"
                "archlinuxpkgs-${arch[0]}-${pkgver}.tgz::${url}/releases/download/v${pkgver}/archlinuxpkgs-linux-${_barch[0]}.tar.gz"
-               "bluetooth-${arch[0]}-${pkgver}.tgz::${url}/releases/download/v${pkgver}/bluetooth-linux-${_barch[0]}.tar.gz")
+               "bluetooth-${arch[0]}-${pkgver}.tgz::${url}/releases/download/v${pkgver}/bluetooth-linux-${_barch[0]}.tar.gz"
+               "windows-${arch[0]}-${pkgver}.tgz::${url}/releases/download/v${pkgver}/windows-linux-${_barch[0]}.tar.gz"
+               "snippets-${arch[0]}-${pkgver}.tgz::${url}/releases/download/v${pkgver}/snippets-linux-${_barch[0]}.tar.gz"
+               "nirisessions-${arch[0]}-${pkgver}.tgz::${url}/releases/download/v${pkgver}/nirisessions-linux-${_barch[0]}.tar.gz")
 sha256sums=('3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986'
-            '9a5a71f66ec986c9b1786ca848fc21b381c8859db62abaf4a518ec641a14a58c')
-sha256sums_x86_64=('aba29b7ca5447b806134c350484b7a12c1760af7a09d1d05a7197490d35d49fa'
-                   'a311f529c67157d522e7140447ded7bc428ead2215db221e647f86a471f51729'
-                   'f8c5cf14ba3be899b0f53e68f163e85d9774ddcde58c1146e0214a70954c5b9d'
-                   '79b64aaad30b5022dceee317a69be144a551b6b082c53263915c1876293f4627'
-                   'ca20cc7028272b0f1e0f21b0140f4d44ed09b48d9364733c987c8ea0863163ec'
-                   '0c2392e35ccbc0e43de7cea919fe090f2161d00d1be6f9c677f0c5415fa39d32'
-                   '443fb141e404f832ddd7e437dea64d582c68cb60827ea530868d37fc65ee146c'
-                   '05334142a43bb877fd609e60cdda2bc4193460eca6b0746032e3902f3c9b34be'
-                   '47183a24e111e89914dfb3b830419e89f8d11b575f1f08a604c392e6930731e1'
-                   '602d1d3a5b31a6d50ba3d866f29b6f9c96a679607c1ce9ea6c9351cfc1790509'
-                   '26e30825f6294c83c10a14790ffa01090760406f4d7cecf5438a751e5368cb4b'
-                   '8eadbb23e15874145bb2089b84ef3b58b645b6a7cda0fec1c5c948db1ab89111'
-                   '12945aa878e6aa07e3d53a735b9339c42473ddbbadc9fd534d9e8e178dd88610'
-                   '93fa15f65ed22e303f664c6f4ec8f975a322f03f37792848cac8baa388492072')
+            '22c48fb3478f4344ce76dbc061716d8ced770645e9009167a4ae2f1126aaf424')
+sha256sums_x86_64=('050ab57150ac509644fc2370d6f2e90a5a7abb867f617a1fbd3b69bd736f8fd9'
+                   '7bb817630749d672ae5d70dad01b563e1fdc0075c563f2c5eeee69b5618c4f32'
+                   '5dbd55588e2f9d6964c893918d82073c2ced56a4ac1ed170ad970f2907fcf8b8'
+                   '3a946aff8236b968e8e7bea24ea8ca55547ef89dd880fcfce01d8c13f15c3c3d'
+                   '2f1331972a3cfe83a21f538abfad1b400fcfb0e35b17fda75e6dd8055ef59696'
+                   'd0efa7d666a53f9832047a7a38d2b040069c016ba6be7999e84b53a95671e663'
+                   '41c230510610f4d61082f52aed32cc6c6e77492513eae0b03810e4efe6fefc9b'
+                   '276c11feb85fda1092d8464ad3dee58ddfc1ddd1fac2faa42bf4f7e408434d30'
+                   '5e57e06a0364fc08d6a7255a31181f380d8a06a866850e8f65f7cbc0feb6b88c'
+                   'b369c594bdc7bb44cf8728a0e254e1771bc5a2bc286ce04fddff4cd0e2ac33e9'
+                   '2d097b5547ce27ae48a13afb8ca37d835392cf3fa01d3fd3cc5c5092fc382d87'
+                   '16f0dcafa9e9a8eb4c51b588123215f33f058126b5d517c641345505f62177d9'
+                   'cef836f82c60e9af341cee1a8ef3cd2b355b5f3b982023f445abe472ceb83f00'
+                   '705ae5c5cedfb1714b5cea8cc135154daf00990d7b31e5b9d1c172c1af2823b3'
+                   '4be40c1628f3b52f63b9f8c66ccab0903a0467227592a1f3a7b1c7405ea59bd7'
+                   '25f1b0ae647ff0e84699e4e3a738295160de71e1a2a7e76f160ce1b9ca9b064b'
+                   'd07a828e1505c07a4f60413c989f272f481b82ca42c4b015c53872aafc0a92f9')
 
 case $CARCH in
     ${arch[0]})
@@ -261,6 +270,48 @@ package_elephant-bluetooth-bin() {
     cd "${srcdir}/" || exit
 
     install -Dm755 "bluetooth-linux-${_CARCH}.so" "${pkgdir}/etc/xdg/${_pkgname}/providers/bluetooth.so"
+
+    install -Dm644 "LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+}
+
+package_elephant-windows-bin() {
+    pkgdesc="windows provider for ${_pkgname}"
+
+    conflicts=("${_pkgname}-windows")
+    provides=("${_pkgname}-windows")
+    depends+=("${_pkgname}")
+
+    cd "${srcdir}/" || exit
+
+    install -Dm755 "windows-linux-${_CARCH}.so" "${pkgdir}/etc/xdg/${_pkgname}/providers/windows.so"
+
+    install -Dm644 "LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+}
+
+package_elephant-snippets-bin() {
+    pkgdesc="snippets provider for ${_pkgname}"
+
+    conflicts=("${_pkgname}-snippets")
+    provides=("${_pkgname}-snippets")
+    depends+=("${_pkgname}")
+
+    cd "${srcdir}/" || exit
+
+    install -Dm755 "snippets-linux-${_CARCH}.so" "${pkgdir}/etc/xdg/${_pkgname}/providers/snippets.so"
+
+    install -Dm644 "LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+}
+
+package_elephant-nirisessions-bin() {
+    pkgdesc="nirisessions provider for ${_pkgname}"
+
+    conflicts=("${_pkgname}-nirisessions")
+    provides=("${_pkgname}-nirisessions")
+    depends+=("${_pkgname}")
+
+    cd "${srcdir}/" || exit
+
+    install -Dm755 "nirisessions-linux-${_CARCH}.so" "${pkgdir}/etc/xdg/${_pkgname}/providers/nirisessions.so"
 
     install -Dm644 "LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }

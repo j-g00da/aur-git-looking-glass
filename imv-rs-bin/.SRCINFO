@@ -1,0 +1,17 @@
+pkgbase = imv-rs-bin
+	pkgdesc = Simple Image Viewer built with Rust and egui
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/ioalexander/imv-rs
+	arch = x86_64
+	license = MIT
+	depends = glibc
+	depends = xdg-utils
+	depends = shared-mime-info
+	provides = imv-rs
+	conflicts = imv-rs
+	conflicts = imv-rs-git
+	source = imv-rs-bin-1.0.0::https://github.com/ioalexander/imv-rs/releases/download/latest/imv-rs
+	sha256sums = SKIP
+
+pkgname = imv-rs-bin

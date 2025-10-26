@@ -9,8 +9,8 @@ pkgname=(
     'virtualbox-bin'
     'virtualbox-bin-guest-iso'
     'virtualbox-bin-sdk')
-pkgver=7.2.2
-_build=170484
+pkgver=7.2.4
+_build=170995
 _rev=110274
 pkgrel=1
 pkgdesc='Powerful x86 virtualization for enterprise as well as home use (Oracle branded non-OSE)'
@@ -18,6 +18,12 @@ arch=('x86_64')
 url='https://www.virtualbox.org/'
 license=('GPL-3.0-only')
 makedepends=(
+    'at-spi2-core' # to satisfy pkgcheck
+    'cairo' # to satisfy pkgcheck
+    'gdk-pixbuf2' # to satisfy pkgcheck
+    'gtk2' # to satisfy pkgcheck
+    'gtk3' # to satisfy pkgcheck
+    'pango' # to satisfy pkgcheck
     'python'
     'python-build'
     'python-installer'
@@ -37,8 +43,8 @@ source=("http://download.virtualbox.org/virtualbox/${pkgver}/VirtualBox-${pkgver
         'LICENSE.sdk'
         '013-Makefile.patch')
 noextract=("VirtualBoxSDK-${pkgver}-${_build}.zip")
-sha256sums=('56b8e9a87743dce6d3b6b59be09b2db00eea67c79566e04cb8b11811102d730e'
-            'de0d809f86620b7d6a015b01af8da6d0d35d6a7fb0a050e200e15e3da6aadee0'
+sha256sums=('df756c7b8a90015182f85772eb655abdd8af52aa1f973379a505beefcc7f4499'
+            'da755498b14d9a9c5e5885ea6f3e8ca581af2a1bcb18b91895637eefa17f71b4'
             'c344b7196963a1d51f730b52836e7fcc91ace4c137995b91dc00c12205f097cd'
             'be189d96a70820aadcea24453c696275c7c7b9453ac7157b176d93a95796bdc8'
             '7ac1fff6f00a106fbc3fdb7e388f6072e8afb61f4352dfc530d8825222d202cd'
@@ -76,7 +82,7 @@ build() {
 package_virtualbox-bin() {
     depends=(
         'bash'
-        'device-mapper'
+        'dbus'
         'dkms'
         'fontconfig'
         'freetype2'
@@ -85,17 +91,25 @@ package_virtualbox-bin() {
         'glibc'
         'hicolor-icon-theme'
         'libgl'
-        'libidl2'
         'libx11'
         'libxcb'
-        'libxcursor'
-        'libxinerama'
-        'libxmu'
+        'libxkbcommon'
+        'libxkbcommon-x11'
         'libxt'
-        'python'
-        'sdl'
+        'wayland'
+        'xcb-util-cursor'
+        'xcb-util-image'
+        'xcb-util-keysyms'
+        'xcb-util-renderutil'
+        'xcb-util-wm'
         'zlib')
     optdepends=(
+        'at-spi2-core: for GTK2/GTK3 platformthemes plugins and GTK2 styles plugin'
+        'cairo: for GTK3 platformthemes plugin'
+        'gdk-pixbuf2: for GTK2/GTK3 platformthemes plugins and GTK2 styles plugin'
+        'gtk2: for GTK2 platformthemes and styles plugins'
+        'gtk3: for GTK3 platformthemes plugin'
+        'pango: for GTK2/GTK3 platformthemes plugins and GTK2 styles plugin'
         'virtualbox-bin-guest-iso: for guest additions CD image'
         'virtualbox-bin-sdk: for the software developer kit'
         'virtualbox-ext-oracle: for Oracle extensions pack')
@@ -103,7 +117,7 @@ package_virtualbox-bin() {
     conflicts=('virtualbox' 'virtualbox-host-dkms' 'virtualbox-host-modules-arch')
     replaces=('virtualbox_bin' 'virtualbox-sun')
     backup=('etc/vbox/vbox.cfg')
-    options=('!strip' '!emptydirs')
+    options=('!debug' '!emptydirs' '!strip')
     
     local _installdir='opt/VirtualBox'
     

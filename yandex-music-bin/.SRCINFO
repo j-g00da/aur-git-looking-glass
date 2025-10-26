@@ -1,7 +1,7 @@
 pkgbase = yandex-music-bin
 	pkgdesc = Yandex Music desktop (repacked from .deb)
-	pkgver = 5.73.1
-	pkgrel = 1
+	pkgver = 5.74.1
+	pkgrel = 2
 	url = https://music.yandex.ru/
 	install = yandex-music-bin.install
 	arch = x86_64
@@ -19,10 +19,10 @@ pkgbase = yandex-music-bin
 	optdepends = libappindicator-gtk3: системный индикатор в трее
 	provides = yandex-music
 	conflicts = yandex-music
-	noextract = Yandex_Music_amd64_5.73.1.deb
+	noextract = Yandex_Music_amd64_5.74.1.deb
 	options = !strip
 	options = !debug
-	source = https://music-desktop-application.s3.yandex.net/stable/Yandex_Music_amd64_5.73.1.deb
+	source = https://music-desktop-application.s3.yandex.net/stable/Yandex_Music_amd64_5.74.1.deb
 	sha256sums = SKIP
 
 pkgname = yandex-music-bin

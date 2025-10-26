@@ -1,6 +1,6 @@
 pkgbase = postman-bin
 	pkgdesc = Build, test, and document your APIs faster
-	pkgver = 11.67.0
+	pkgver = 11.68.5
 	pkgrel = 1
 	url = https://www.getpostman.com
 	arch = x86_64
@@ -38,9 +38,9 @@ pkgbase = postman-bin
 	options = !strip
 	source = postman.desktop
 	sha256sums = d87542ac18455ff341da7c5efd01db96a01f659b1bf546840aa4ac8bd085802d
-	source_x86_64 = postman-11.67.0-linux-x64.tar.gz::https://dl.pstmn.io/download/version/11.67.0/linux64
-	sha256sums_x86_64 = c60f5dd44dd2eb247704e30b6f939798c7d98f97be1a65bda751453018ffe662
-	source_aarch64 = postman-11.67.0-linux-arm64.tar.gz::https://dl.pstmn.io/download/version/11.67.0/linux_arm64
-	sha256sums_aarch64 = eebb4a071e5ac5fb571179a9b359943c828fca9154570852180ff226cb555362
+	source_x86_64 = postman-11.68.5-linux-x64.tar.gz::https://dl.pstmn.io/download/version/11.68.5/linux64
+	sha256sums_x86_64 = 2861e3fa55047ed04377df4a4eab854d2eda5b9d0013927eb64bf37882dfaae0
+	source_aarch64 = postman-11.68.5-linux-arm64.tar.gz::https://dl.pstmn.io/download/version/11.68.5/linux_arm64
+	sha256sums_aarch64 = d62ee0b35541d0e2a8179b7a13a4631bb4a44349bf73483c709a49352bbc6a6e
 
 pkgname = postman-bin

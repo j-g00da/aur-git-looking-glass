@@ -1,7 +1,7 @@
 pkgbase = wlroots0.15
 	pkgdesc = Modular Wayland compositor library
 	pkgver = 0.15.1
-	pkgrel = 6
+	pkgrel = 8
 	url = https://gitlab.freedesktop.org/wlroots/wlroots
 	arch = x86_64
 	license = MIT
@@ -12,6 +12,8 @@ pkgbase = wlroots0.15
 	makedepends = vulkan-headers
 	makedepends = wayland-protocols
 	makedepends = xorg-xwayland
+	depends = glibc
+	depends = libdrm
 	depends = libglvnd
 	depends = libinput
 	depends = libpixman-1.so

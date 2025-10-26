@@ -1,8 +1,8 @@
 
-# Maintainer: Your Name <you@example.com>
+# Maintainer: Avenge Media LLC <avengemediallc at gmail dot com>
 pkgname=dms-shell-bin
-pkgver=0.1.15
-pkgrel=2
+pkgver=0.2.4
+pkgrel=1
 pkgdesc='Desktop shell for wayland compositors built with Quickshell & GO'
 arch=('x86_64' 'aarch64')
 url='https://github.com/AvengeMedia/DankMaterialShell'
@@ -10,12 +10,10 @@ license=('GPL-3.0-only')
 depends=(
     'quickshell'
     'dgop'
-    'ttf-material-symbols-variable-git'
-    'inter-font'
-    'ttf-fira-code'
+    'accountsservice'
 )
 optdepends=(
-    'networkmanager: Required for network management'
+    'networkmanager: For network management'
     'matugen-bin: Dynamic wallpaper-based theming'
     'brightnessctl: Laptop display brightness control'
     'wl-clipboard: Copy functionality for PIDs and other elements'
@@ -44,18 +42,18 @@ source_aarch64=(
 )
 
 sha256sums_x86_64=(
-    '59627d47f6beefdf82794f6cfa95ada774c96d5320ca5961452ddcc56bd612d9'
+    'a48eef5ef70379a7af061b3aefe160efd78a1a86cc93654e8d71fd6c70d0f8aa'
 )
 
 sha256sums_aarch64=(
-    'dc14879431094e198e5c611bd5e50d27e7543430ad800f714cc302c4a721c42e'
+    'a1a59a123658d7100dedcc45bb338fa2f1515163aed8f60209d70676b3757577'
 )
 
 package() {
     install -Dm755 "${srcdir}/bin/dms-distropkg" "$pkgdir/usr/bin/dms"
 
-    install -dm755 "$pkgdir/etc/xdg/quickshell"
-    cp -r "${srcdir}/dms" "$pkgdir/etc/xdg/quickshell/"
+    install -dm755 "$pkgdir/usr/share/quickshell"
+    cp -r "${srcdir}/dms" "$pkgdir/usr/share/quickshell/"
 
     # Install documentation from dms folders
     if [ -f "${srcdir}/dms/README.md" ]; then

@@ -13,7 +13,7 @@ _fragment=${FRAGMENT:-#branch=main}
 _name=colmap
 #fragment="#commit=5bea89263bf5f3ed623b8e6e6a5f022a0ed9c1de"
 pkgname=${_name}-git
-pkgver=3.12.0.r32.g02deb827
+pkgver=3.12.0.r123.gcf1b26667
 pkgrel=1
 pkgdesc="General-purpose Structure-from-Motion (SfM) and Multi-View Stereo (MVS) pipeline with a graphical and command-line interface."
 arch=('i686' 'x86_64')
@@ -43,7 +43,7 @@ pkgver() {
 }
 
 prepare() {
-: #  git -C "$pkgname" apply -v "$srcdir"/*.patch
+  sed -e '1 i\#include <cassert>' -i "${srcdir}"/${pkgname}/src/colmap/sfm/observation_manager.cc
 }
 
 build() {

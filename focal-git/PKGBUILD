@@ -24,13 +24,13 @@ pkgver() {
 build() {
   # fix ELF file ('usr/bin/focal') lacks GNU_PROPERTY_X86_FEATURE_1_SHSTK.
   export RUSTFLAGS='-C link-args=-Wl,-z,shstk'
-  RUSTUP_TOOLCHAIN=stable cargo build --release --locked --manifest-path=$_pkgname/Cargo.toml --target-dir=$_pkgname/target --no-default-features --features="hyprland,ocr,video,waybar"
+  RUSTUP_TOOLCHAIN=stable cargo build --release --locked --manifest-path=$_pkgname/Cargo.toml --target-dir=$_pkgname/target --no-default-features --features="ocr,video,waybar"
 }
 
 build_focal-sway-git() {
   # fix ELF file ('usr/bin/focal') lacks GNU_PROPERTY_X86_FEATURE_1_SHSTK.
   export RUSTFLAGS='-C link-args=-Wl,-z,shstk'
-  RUSTUP_TOOLCHAIN=stable cargo build --release --locked --manifest-path=$_pkgname/Cargo.toml --target-dir=$_pkgname/target --no-default-features --features="sway,ocr,video,waybar"
+  RUSTUP_TOOLCHAIN=stable cargo build --release --locked --manifest-path=$_pkgname/Cargo.toml --target-dir=$_pkgname/target --no-default-features --features="ocr,video,waybar"
 }
 
 _package() {
@@ -70,4 +70,3 @@ package_focal-sway-git() {
   _package
   install -Dm644 "$_pkgname/LICENSE" "${pkgdir}/usr/share/licenses/focal-sway-git/LICENSE"
 }
-

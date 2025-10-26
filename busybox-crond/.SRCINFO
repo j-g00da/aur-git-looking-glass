@@ -1,12 +1,13 @@
 pkgbase = busybox-crond
 	pkgdesc = Busybox crond implementation
 	pkgver = 1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.busybox.net
 	arch = x86_64
 	license = GPL
 	makedepends = gcc
 	depends = busybox
+	depends = glibc
 	provides = cron
 	conflicts = cron
 	source = https://gitlab.alpinelinux.org/alpine/aports/-/raw/master/main/busybox/bbsuid.c

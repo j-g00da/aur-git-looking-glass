@@ -6,17 +6,15 @@ _pkgbase=${pkgbase%-git}
 _pkg1=DankMaterialShell
 _pkg2=danklinux
 pkgname=($_pkgbase-git $_pkgbase-hyprland-git $_pkgbase-niri-git)
-pkgver=0.1.15.r1.g16360dd
-pkgrel=1
+pkgver=0.2.2.r3.g0ac3db6
+pkgrel=4
 pkgdesc='Desktop shell for wayland compositors built with Quickshell & GO'
 arch=(x86_64 aarch64)
 url="https://github.com/AvengeMedia/$_pkg1"
 license=(GPL-3.0-only)
 depends=(dgop
-         inter-font
          quickshell
-         ttf-fira-code
-         ttf-material-symbols-variable-git)
+         accountsservice)
 optdepends=('brightnessctl: Laptop display brightness control'
             'cava: Audio visualizer'
             'cliphist: Clipboard history functionality'
@@ -43,24 +41,34 @@ pkgver() {
 
 build() {
 	cd "$_pkg2"
+
+	local VERSION BUILD_TIME COMMIT LDFLAGS_GO
+	VERSION="$(git describe --tags --always 2>/dev/null || echo dev)"
+	BUILD_TIME="$(date -u '+%Y-%m-%d_%H:%M:%S')"
+	COMMIT="$(git rev-parse --short HEAD 2>/dev/null || echo unknown)"
+
 	export CGO_CPPFLAGS="$CPPFLAGS"
 	export CGO_CFLAGS="$CFLAGS"
 	export CGO_CXXFLAGS="$CXXFLAGS"
 	export CGO_LDFLAGS="$LDFLAGS"
-	export GOFLAGS="-buildmode=pie -trimpath -ldflags=-linkmode=external -mod=readonly -modcacherw"
-	go build -tags distro_binary -o dms ./cmd/dms
+
+	LDFLAGS_GO="-s -w -X main.Version=${VERSION} -X main.buildTime=${BUILD_TIME} -X main.commit=${COMMIT} -linkmode=external"
+
+	GOFLAGS="-buildmode=pie -trimpath -mod=readonly -modcacherw"
+	go build -tags distro_binary -ldflags "${LDFLAGS_GO}" ${GOFLAGS} -o dms ./cmd/dms
 }
 
 package_dms-shell-git() {
 	optdepends+=('dms-shell-hyprland: Hyprland specific dependencies')
 	optdepends+=('dms-shell-niri: Niri specific dependencies')
         optdepends+=('greetd-dms-greeter: DMS Greeter')
+	install="$pkgname.install"
 	install -Dm0755 -t "$pkgdir/usr/bin/" "$_pkg2/dms"
-	install -dm0755 "$pkgdir/etc/xdg/quickshell/dms"
-	cp -r "$_pkg1"/* "$pkgdir/etc/xdg/quickshell/dms/"
+	install -dm0755 "$pkgdir/usr/share/quickshell/dms"
+	cp -r "$_pkg1"/* "$pkgdir/usr/share/quickshell/dms/"
 	install -Dm0644 -t "$pkgdir/usr/share/doc/$pkgname/" "$_pkg1/README.md"
 	cp -r "$_pkg1/docs/"* "$pkgdir/usr/share/doc/$pkgname/"
-	rm -rf "$pkgdir/etc/xdg/quickshell/dms/.git"*
+	rm -rf "$pkgdir/usr/share/quickshell/dms/.git"*
 }
 
 package_dms-shell-hyprland-git() {

@@ -1,7 +1,6 @@
 pkgname=yandex-music-bin
-pkgver=5.73.1     # текущая версия приложения
-https://music-desktop-application.s3.yandex.net/stable/Yandex_Music_amd64_5.73.1.deb
-pkgrel=1
+pkgver=5.74.1     # текущая версия приложения
+pkgrel=2
 pkgdesc="Yandex Music desktop (repacked from .deb)"
 arch=('x86_64')
 url="https://music.yandex.ru/"
@@ -70,7 +69,7 @@ package() {
   if [[ -f "usr/share/applications/yandexmusic.desktop" ]]; then
     # нормализуем Exec, Icon и StartupWMClass
     sed -E \
-      -e 's|^Exec=.*|Exec=yandexmusic %U|' \
+      -e 's|^Exec=.*|Exec=/opt/yandex-music/yandexmusic --gtk-version=3 %U|' \
       -e 's|^Icon=.*|Icon=yandex-music|' \
       -e 's|^StartupWMClass=.*|StartupWMClass=Yandex Music|' \
       "usr/share/applications/yandexmusic.desktop" \
@@ -81,7 +80,7 @@ package() {
 [Desktop Entry]
 Name=Яндекс Музыка
 Comment=Персональные рекомендации, подборки на любой случай и музыкальные новинки
-Exec="/opt/yandex-music/yandexmusic" %U
+Exec=/opt/yandex-music/yandexmusic --gtk-version=3 %U
 Terminal=false
 Type=Application
 Icon=yandex-music
@@ -103,13 +102,13 @@ EOF
     done < <(find usr/share/icons/hicolor -type f -path "*/apps/*" -print0)
   fi
 
-  # лицензия, если была
+  # лицензия
   if [[ -f "usr/share/doc/yandexmusic/copyright" ]]; then
     install -Dm644 "usr/share/doc/yandexmusic/copyright" \
       "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
   fi
 
-  # права на chrome-sandbox: по умолчанию без SUID (Arch с userns обычно ок)
+  # права на chrome-sandbox: по умолчанию без SUID
   if [[ -f "${pkgdir}/opt/yandex-music/chrome-sandbox" ]]; then
     chmod 0755 "${pkgdir}/opt/yandex-music/chrome-sandbox"
   fi

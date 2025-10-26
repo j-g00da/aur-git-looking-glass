@@ -3,15 +3,15 @@
 pkgname=nipaplay-reload-bin
 _pkgname=NipaPlay
 _desktop_name=io.github.MCDFsteve.NipaPlay-Reload
-pkgver=1.7.2
+pkgver=1.7.3
 pkgrel=1
 pkgdesc="一个现代化的跨平台视频播放器"
 arch=('x86_64')
 url="https://github.com/MCDFsteve/NipaPlay-Reload"
 license=('MIT')
 depends=('mpv' 'gtk3' 'ffmpeg' 'libass' 'libkeybinder3')
-provides=("${pkgname%-reload-bin}=${pkgver}")
-conflicts=("${pkgname%-reload-bin}")
+provides=("${pkgname%-reload-bin}" "${pkgname%-bin}")
+conflicts=("${pkgname%-reload-bin}" "${pkgname%-bin}")
 options=('!debug')
 source=(
     "${pkgname%-reload-bin}-${pkgver}-${CARCH}.tar.gz::${url}/releases/download/v${pkgver}/${_pkgname}-${pkgver}-Linux-amd64.tar.gz"
@@ -19,7 +19,7 @@ source=(
     "${_desktop_name}.desktop::${url}/raw/main/assets/linux/${_desktop_name}.desktop"
     "${url}/raw/main/LICENSE"
 )
-sha256sums=('1c4295b4aa1ee07480364a97949551c1eecb74e98ed7b06ebbc12ad88e182dc3'
+sha256sums=('2a7ee5be9def6b2a7521937ae0404cbb2c8f088a7f6731a26429d1d2eabc88b7'
             '4934ca32b909327939cdc25f069e88f773c718073bee46db42b79d30e715d5c3'
             'd032abed9d298e87825e842b2181a9379292acefae775e9bd2840f264eaba16f'
             'fd1d762b5ea1f4cd690235a1b8d6b8efe4ada061f5b26c1fefbd74c156f8184b')

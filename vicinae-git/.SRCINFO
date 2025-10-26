@@ -1,7 +1,7 @@
 pkgbase = vicinae-git
 	pkgdesc = A focused launcher for your desktop — native, fast, extensible
-	pkgver = 0.14.5.r3.g6c583ff
-	pkgrel = 1
+	pkgver = 0.15.1.r1.g8cc6e59
+	pkgrel = 3
 	url = https://github.com/vicinaehq/vicinae
 	arch = x86_64
 	license = GPL3

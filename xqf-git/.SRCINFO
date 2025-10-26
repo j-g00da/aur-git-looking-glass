@@ -1,12 +1,12 @@
 pkgbase = xqf-git
 	pkgdesc = A game server browser and launcher for Unix/X11 for many popular games (a qstat frontend)
-	pkgver = 1.0.6.2.r134.ge6b51fd
+	pkgver = 1.0.6.2.r413.g75a8cdb
 	pkgrel = 1
 	url = https://xqf.github.io/
 	install = xqf-git.install
 	arch = i686
 	arch = x86_64
-	license = GPL
+	license = GPL-2.0-only
 	makedepends = cmake
 	makedepends = git
 	makedepends = gettext
@@ -21,7 +21,8 @@ pkgbase = xqf-git
 	replaces = xqf-cvs
 	replaces = xqf-svn
 	source = xqf::git+https://github.com/XQF/xqf.git
+	source = crunch::git+https://github.com/DaemonEngine/crunch.git
+	sha256sums = SKIP
 	sha256sums = SKIP
 
 pkgname = xqf-git
-

@@ -3,7 +3,7 @@
 
 _pkgname='cobib'
 pkgname="${_pkgname}-git"
-pkgver=r1395.32376b3
+pkgver=r1403.cce06d1
 pkgrel=1
 arch=('any')
 depends=(
@@ -17,7 +17,6 @@ depends=(
     'python-natsort'
     'python-pylatexenc'
     'python-requests'
-    'python-requests-oauthlib'
     'python-rich'
     'python-ruamel-yaml'
     'python-text-unidecode'
@@ -33,6 +32,7 @@ makedepends=(
     'python-build'
     'python-installer'
     'python-setuptools'
+    'python-setuptools-scm'
     'python-wheel'
     'ruby-ronn-ng'
 )
@@ -40,8 +40,12 @@ provides=('cobib')
 conflicts=('cobib')
 pkgdesc="Console Bibliography"
 url="https://gitlab.com/cobib/${_pkgname}"
-source=("${_pkgname}::git+${url}.git")
-sha256sums=('SKIP')
+source=(
+    "${_pkgname}::git+${url}.git"
+    "git+https://gitlab.com/cobib/cobib-docs-theme.git"
+    "git+https://gitlab.com/cobib/templates/cobib-plugin-template.git"
+)
+sha256sums=('SKIP' 'SKIP' 'SKIP')
 
 pkgver() {
   cd "${_pkgname}"
@@ -53,9 +57,16 @@ build() {
   python3 -m build --wheel --no-isolation
 }
 
+prepare() {
+  cd $srcdir/${_pkgname}
+  git submodule init
+  git config submodule.theme.url "$srcdir/cobib-docs-theme"
+  git config submodule.plugin.url "$srcdir/cobib-plugin-template"
+  git -c protocol.file.allow=always submodule update
+}
+
 package() {
   cd $srcdir/${_pkgname}
-  git submodule update --init
   make DESTDIR="${pkgdir}" install_extras
   python3 -m installer --destdir="$pkgdir" dist/*.whl
   install -Dm644 LICENSE.txt "$pkgdir/usr/share/licenses/$pkgname/LICENSE"

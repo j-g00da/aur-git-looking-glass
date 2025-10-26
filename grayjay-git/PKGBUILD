@@ -1,9 +1,8 @@
-# Maintainer: Nathan Chere <git@nathanchere.com.au>
-_base_ver=10
+# Maintainer: Nathan Chere <aur@nathanchere.com.au>
 pkgname=grayjay-git
 _appname=Grayjay
-pkgver=10.r17.g04a4c7e
-pkgrel=1
+pkgver=11.r8.g0dc9daa
+pkgrel=3
 pkgdesc="Grayjay Desktop - follow creators, not platforms (privacy- and freedom-respecting client for YouTube, Rumble, Twitch, Spotify etc)"
 arch=('x86_64')
 url="https://grayjay.app/desktop/"
@@ -18,7 +17,7 @@ _futo_github_base="https://github.com/futo-org"
 host="${_futo_gitlab_base}"
 license=('custom:Source-First-License-1.1')
 depends=('ffmpeg' 'libsodium')
-makedepends=('dotnet-sdk>=9' 'git' 'git-lfs' 'npm')
+makedepends=('dotnet-sdk>=9' 'git' 'git-lfs' 'npm' 'libappindicator-gtk3')
 source=("${_appname}::git+${host}/Grayjay.Desktop.git"
         "grayjay.desktop"
         "grayjay.sh"
@@ -34,9 +33,8 @@ export GIT_LFS_SKIP_SMUDGE=1
 
 pkgver() {
     cd "${srcdir}/${_appname}"
-    local commits=$(git rev-list --count $_base_ver..HEAD 2>/dev/null || echo 0)
-    local hash=$(git rev-parse --short HEAD 2>/dev/null || echo 000000)
-    printf "%s.r%s.g%s" "$_base_ver" "$commits" "$hash"
+    git fetch --tags
+    git describe --long --tags | sed 's/^v//;s/\([^-]*-g\)/r\1/;s/-/./g'
 }
 
 prepare() {
@@ -93,9 +91,9 @@ package() {
     # Copy application files
     local _appdir="${pkgdir}/opt/grayjay"
     cp -va "${srcdir}/${_appname}/Grayjay.Desktop.CEF/bin/${_configuration}/net9.0/${_target}/publish/." "${_appdir}"
-    rm -v "${_appdir}/ffmpeg"
-    rm -v "${_appdir}/Portable"
-    rm -v "${_appdir}/libsodium.so"
+    rm -v "${_appdir}/ffmpeg" || true
+    rm -v "${_appdir}/Portable" || true
+    rm -v "${_appdir}/libsodium.so" || true
     find "${_appdir}" -type f -name '*.so' -o -name '*.so.*' -o -name 'dotcefnative' -exec chmod a+x "{}" \;
 
     install -Dm755 "${srcdir}/grayjay.sh" "${pkgdir}/usr/bin/grayjay"

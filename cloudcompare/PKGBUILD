@@ -116,6 +116,7 @@ build() {
         -DEIGEN_ROOT_DIR=/usr/include/eigen3
         -DJsonCpp_INCLUDE_DIR=/usr/include
         -DJsonCpp_LIBRARY=/usr/lib
+        -DCMAKE_POLICY_VERSION_MINIMUM=3.5
   )
   msg2 "Build Cork lib"
   make -C "${srcdir}/${name}-cork" CXXFLAGS="$CXXFLAGS -DSUPPORT_TOPO_STREAM_OPERATORS -fPIC" CXX="g++"

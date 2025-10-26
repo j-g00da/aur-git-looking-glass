@@ -2,34 +2,49 @@
 # Maintainer: Padya1201 <padya1201 at gmail dot com>
 
 pkgname=tachidesk-sorayomi
-__pkgname="$pkgname"
-__PkgName="$(echo "$__pkgname" | sed -e "s/\b./\u\0/g")"
-__binname="$(echo "$__pkgname" | tr - _)"
-pkgver=0.5.23
+_PkgName="$(echo "$pkgname" | sed -e "s/\b./\u\0/g")"
+_binname="$(echo "$pkgname" | tr - _)"
+pkgver=0.6.3
 pkgrel=1
 pkgdesc='A free and open source manga reader to read manga from a Tachidesk-Server instance'
 arch=('x86_64')
-url="https://github.com/Suwayomi/$__PkgName"
+url="https://github.com/Suwayomi/$_PkgName"
 license=('MPL2')
-depends=('zenity' 'xdg-user-dirs')
+depends=('zenity'
+    'xdg-user-dirs'
+    'gtk3'
+    'at-spi2-core')
 optdepends=('tachidesk-server')
-makedepends=('flutter' 'cmake' 'clang' 'ninja' 'gtk3')
+makedepends=('fvm'
+    'cmake'
+    'clang'
+    'ninja'
+    'pkg-config'
+)
 source=("tachidesk-sorayomi-$pkgver.tar.gz::$url/archive/refs/tags/$pkgver.tar.gz")
-sha256sums=('b4bb39c9aa7a82f52ef0d6d71efdd061231da9be41dfb7fb040ba3202d863de8')
+sha256sums=('232c49b26888eca37e7b8cbd3901ffcda2261be0dc65e6426afaea22ab202426')
 
-build() {
-    cd "$__PkgName-$pkgver/"
-    flutter config --enable-linux-desktop
-    flutter pub get
-    flutter build linux --release
+prepare() {
+    cd "${srcdir}/${_PkgName}-${pkgver}"
+    fvm use 3.27.1 --force
+    fvm flutter config --enable-linux-desktop
 }
 
+build() {
+    cd "${srcdir}/${_PkgName}-${pkgver}"
+    fvm flutter pub get
+    fvm flutter gen-l10n
+    fvm dart run build_runner build --delete-conflicting-outputs
+    fvm flutter build linux --release
+}
+
+
 package() {
-    cd "$__PkgName-$pkgver/"
-    install -dm755 "$pkgdir/opt/$__pkgname/"
-    cp -a "build/linux/x64/release/bundle/" -T "$pkgdir/opt/$__pkgname/"
-    install -Dm644 "scripts/$__pkgname.desktop" -t "$pkgdir/usr/share/applications/"
-    install -Dm644 "assets/icons/launcher/sorayomi_icon.png" "$pkgdir/usr/share/pixmaps/$__pkgname.png"
-    install -dm755 "$pkgdir/usr/bin/"
-    ln -sr "$pkgdir/opt/$__pkgname/$__binname" "$pkgdir/usr/bin/$__pkgname"
+    cd ${pkgdir}
+
+    mkdir -p usr/share/applications usr/share/icons/hicolor/1024x1024/apps usr/bin opt/$_PkgName
+    install -Dm644 "${srcdir}/${_PkgName}-${pkgver}/scripts/${pkgname}.desktop" -t "usr/share/applications/"
+    install -Dm644 "${srcdir}/${_PkgName}-${pkgver}/assets/icons/launcher/sorayomi_icon.png" "usr/share/icons/hicolor/1024x1024/apps/${pkgname}.png"
+    cp -a "${srcdir}/${_PkgName}-${pkgver}/build/linux/x64/release/bundle/" -T "opt/$_PkgName/"
+    ln -sr "opt/$_PkgName/$_binname" "$pkgdir/usr/bin/${pkgname}"
 }

@@ -1,0 +1,20 @@
+pkgbase = crab-hole-git
+	pkgdesc = Pi-Hole clone written in rust using hickory-dns/trust-dns
+	pkgver = 0.1.12.r6.g4d631ee
+	pkgrel = 1
+	url = https://crates.io/crates/crab-hole
+	arch = aarch64
+	arch = i686
+	arch = x86_64
+	license = AGPL-3.0-or-later
+	makedepends = cargo
+	makedepends = cargo-auditable
+	depends = gcc-libs
+	provides = crab-hole=0.1.12.r6.g4d631ee
+	conflicts = crab-hole
+	source = crab-hole::git+https://github.com/LuckyTurtleDev/crab-hole.git
+	source = crab-hole.service
+	sha512sums = SKIP
+	sha512sums = 0cb8a1137c3adab1553db7bae431b69fdd653f2025a106b04122100279bac6c7b27f038af436203fa7726ec0e744a46795c7f0baf32a53e03f363eb2e604c327
+
+pkgname = crab-hole-git

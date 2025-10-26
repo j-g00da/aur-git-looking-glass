@@ -1,19 +1,20 @@
 pkgbase = tosu-overlay
-	pkgdesc = Overlay for osu! Powered by tosu, qt6 and qt6 webengine
-	pkgver = v2.0.0
-	pkgrel = 1
+	pkgdesc = Overlay for osu! Powered by tosu, qt6, qt6-webengine and layer-shell-qt
+	pkgver = 2.1.1
+	pkgrel = 2
 	url = https://github.com/K4zoku/tosu-overlay-qt
 	arch = x86_64
 	license = MIT
-	makedepends = cmake
-	makedepends = make
+	makedepends = git
 	makedepends = gcc
+	makedepends = cmake
+	makedepends = meson
 	depends = qt6-base
 	depends = qt6-webengine
 	depends = layer-shell-qt
-	provides = tosu-overlay
-	conflicts = tosu-overlay
-	source = tosu-overlay::git+https://github.com/K4zoku/tosu-overlay-qt.git#tag=v2.0.0
-	sha256sums = SKIP
+	depends = tosu
+	source = tosu-overlay::git+https://github.com/K4zoku/tosu-overlay-qt.git?signed#tag=7b0b7b6edc25beb77aeeb377740bc43037b53773
+	validpgpkeys = C6797F75E4A487395E79B2D1413897C051068F03
+	sha256sums = 7d7784bc0fbeea14882a41a4eee255f7b10bc731fcd2f046266d376c16ea5d2e
 
 pkgname = tosu-overlay

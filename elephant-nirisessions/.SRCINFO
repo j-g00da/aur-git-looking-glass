@@ -1,0 +1,16 @@
+pkgbase = elephant-nirisessions
+	pkgdesc = nirisessions provider for elephant
+	pkgver = 2.7.1
+	pkgrel = 1
+	url = https://github.com/abenz1267/elephant
+	arch = x86_64
+	arch = aarch64
+	license = GPL
+	makedepends = go
+	depends = niri
+	provides = elephant-nirisessions
+	conflicts = elephant-nirisessions
+	source = https://github.com/abenz1267/elephant/archive/refs/tags/v2.7.1.tar.gz
+	sha256sums = 68f83e5a808ad363a5ddf1754e60d5b71a60c8a9ad406b407ccb863104962d78
+
+pkgname = elephant-nirisessions

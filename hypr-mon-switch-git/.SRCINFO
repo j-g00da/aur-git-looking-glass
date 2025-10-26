@@ -1,0 +1,20 @@
+pkgbase = hypr-mon-switch-git
+	pkgdesc = Configuration-based monitor switching system for Hyprland with YAML configuration support
+	pkgver = r31.51b8af3
+	pkgrel = 1
+	url = https://github.com/aujezus/hypr-mon-switch
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = hyprland
+	depends = yq
+	depends = bash
+	depends = systemd
+	depends = procps-ng
+	depends = util-linux
+	optdepends = libnotify: for desktop notifications
+	optdepends = sudo: for user switching
+	source = hypr-mon-switch-git::git+https://github.com/aujezus/hypr-mon-switch.git
+	sha256sums = SKIP
+
+pkgname = hypr-mon-switch-git

@@ -1,0 +1,14 @@
+pkgbase = yoga
+	pkgdesc = Yoga is an embeddable layout engine targeting web standards.
+	pkgver = v3.2.1
+	pkgrel = 1
+	url = https://github.com/facebook/yoga
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = cmake
+	options = !lto
+	source = git+https://github.com/facebook/yoga.git
+	sha256sums = SKIP
+
+pkgname = yoga
