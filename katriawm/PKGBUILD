@@ -2,7 +2,7 @@
 # Contributor: Tmplt <tmplt@dragons.rocks>
 
 pkgname=katriawm
-pkgver=23.08
+pkgver=25.09
 pkgrel=1
 pkgdesc="non-reparenting, dynamic window manager for X11 with decorations"
 arch=("i686" "x86_64")
@@ -11,7 +11,7 @@ license=("MIT")
 makedepends=("git")
 depends=("libx11" "libxft" "libxrandr")
 source=("git+https://www.uninformativ.de/git/katriawm.git#tag=v${pkgver}")
-sha256sums=('SKIP')
+sha256sums=('768e36cd146ff494b828219d43f20fe62ecfb2edddc5df8b11a146561cc708a6')
 
 
 prepare() {

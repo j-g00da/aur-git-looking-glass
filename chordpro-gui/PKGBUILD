@@ -2,7 +2,7 @@
 
 _pkgbase=chordpro
 pkgname=${_pkgbase}-gui
-pkgver=6.080.1
+pkgver=6.090.0
 pkgrel=1
 _pkgdownload=App-Music-ChordPro-${pkgver}
 _wxlastpkgver=6.070
@@ -13,7 +13,7 @@ url="https://chordpro.org/"
 _ghurl="https://github.com/ChordPro/chordpro"
 license=('Artistic-2.0')
 depends=(
-    'perl'                           # Provides JSON::PP, Storable, Pod::Usage, File::Copy, ExtUtils::MakeMaker, Unicode::Collate
+    'perl>=5.26.0'                   # JSON::PP, Storable, Pod::Usage, File::Copy, ExtUtils::MakeMaker, Unicode::Collate, Unicode::Normalize
     'perl-pdf-api2>=2.047'           # PDF::API2
     'perl-json-xs>=4.03'             # JSON::XS
     'perl-lwp-protocol-https>=6.14'  # LWP::Protocol::https
@@ -31,10 +31,15 @@ depends=(
     'perl-file-loadlines>=1.047'            # File::LoadLines (AUR)
     'perl-data-printer>=0.001001'           # Data::Printer (AUR)
     'perl-object-pad>=0.818'                # Object::Pad (AUR)
-
-    # Not found: HarfBuzz::Shaper, JavaScript::QuickJS, Unicode::Normalize
+    'perl-javascript-quickjs>=0.18'         # JavaScript::QuickJS (AUR)
+    #'perl-harfbuzz-shaper>=0.026'          # HarfBuzz::Shaper (not found on AUR)
 )
-makedepends=('perl-local-lib' 'cpanminus')
+makedepends=('cpanminus')
+optdepends=(
+    'perl-template-toolkit>=3.010: Only used by the LaTeX backend'
+    'perl-latex-encode>=0.092.0: Only used by the LaTeX backend'
+    'lilypond: Embed LilyPond music writing format'
+)
 provides=(chordpro)
 conflicts=(chordpro)
 install=chordpro.install
@@ -44,7 +49,7 @@ source=(
     "chordpro.install"
     "chordpro.sh"
 )
-sha256sums=('5379a6713a2932c7514ee9bec8976652ea275f5b97b89d00022b5c4d7f2bc086'
+sha256sums=('57c5e656f523bbb8250faedf3e5a138f2c5ada9daffa518e0bf05587c592140f'
             '3f0d7cdfc4997d485ab941b133c849f5dab17a62fb242bee133ce040fead3898'
             'b7e60a00ea16e5f49702591c9e2f4146763ade0d312cd2ab6422219700fab311'
             '259db24404125459b563f049f746c6844cf8eab46728d0c9935cc36765cb722d')
@@ -52,9 +57,12 @@ sha256sums=('5379a6713a2932c7514ee9bec8976652ea275f5b97b89d00022b5c4d7f2bc086'
 build() {
     cd "${srcdir}/${_pkgdownload}"
     export PERL_MM_USE_DEFAULT=1
+    export PERL5LIB="${srcdir}/lib/perl5"
+    export PERL_LOCAL_LIB_ROOT="${srcdir}"
+    export PERL_MB_OPT="--install_base ${srcdir}"
+    export PERL_MM_OPT="INSTALL_BASE=${srcdir}"
     cpanm --notest --skip-satisfied --local-lib="${srcdir}" --verbose --installdeps .
     cpanm --notest --local-lib="${srcdir}" --verbose "${srcdir}/Wx-${_wxver}.tar.gz"
-    eval "$(perl -I "${srcdir}/lib/perl5" -Mlocal::lib="${srcdir}")"
     perl Makefile.PL INSTALL_BASE="${srcdir}"
     make install
 }
@@ -62,7 +70,10 @@ build() {
 check() {
     cd "${srcdir}/${_pkgdownload}"
     export PERL_MM_USE_DEFAULT=1
-    eval "$(perl -I "${srcdir}" -Mlocal::lib="${srcdir}")"
+    export PERL5LIB="${srcdir}/lib/perl5"
+    export PERL_LOCAL_LIB_ROOT="${srcdir}"
+    export PERL_MB_OPT="--install_base ${srcdir}"
+    export PERL_MM_OPT="INSTALL_BASE=${srcdir}"
     make test
 }
 
@@ -88,8 +99,9 @@ package() {
     install -Dm644 "${srcdir}/${_pkgdownload}/lib/ChordPro/res/linux/org.chordpro.desktop" "${pkgdir}/usr/share/applications/org.chordpro.desktop"
     desktop-file-validate "${pkgdir}/usr/share/applications/org.chordpro.desktop"
 
-    # install icon
-    install -Dm644 "${srcdir}/${_pkgdownload}/lib/ChordPro/res/icons/chordpro.png" "${pkgdir}/usr/share/pixmaps/chordpro.png"
+    # install icons
+    install -Dm644 "${srcdir}/${_pkgdownload}/lib/ChordPro/res/icons/chordpro.png" "${pkgdir}/usr/share/icons/hicolor/256x256/apps/chordpro.png"
+    install -Dm644 "${srcdir}/${_pkgdownload}/lib/ChordPro/res/icons/chordpro.svg" "${pkgdir}/usr/share/icons/hicolor/scalable/apps/chordpro.svg"
 
     # install MIME type XML
     install -Dm644 "${srcdir}/${_pkgdownload}/lib/ChordPro/res/linux/chordpro.xml" "${pkgdir}/usr/share/mime/packages/chordpro.xml"

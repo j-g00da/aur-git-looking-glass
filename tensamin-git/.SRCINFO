@@ -1,6 +1,6 @@
 pkgbase = tensamin-git
 	pkgdesc = True E2EE, decentralized messages. Open source and privacy first.
-	pkgver = 0
+	pkgver = r440.74ebc42
 	pkgrel = 1
 	url = https://github.com/Tensamin/Frontend
 	arch = x86_64
@@ -12,7 +12,7 @@ pkgbase = tensamin-git
 	makedepends = libappindicator-gtk3
 	makedepends = librsvg
 	makedepends = cargo
-	makedepends = pnpm
+	makedepends = npm
 	makedepends = nodejs
 	depends = cairo
 	depends = desktop-file-utils
@@ -23,9 +23,7 @@ pkgbase = tensamin-git
 	depends = libsoup
 	depends = pango
 	depends = webkit2gtk-4.1
-	provides = tensamin
 	conflicts = tensamin-bin
-	conflicts = tensamin
 	source = git+https://github.com/Tensamin/Frontend.git
 	sha256sums = SKIP
 

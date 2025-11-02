@@ -1,24 +1,27 @@
 pkgbase = equibop-bin
 	pkgdesc = A Vesktop fork cross platform electron-based desktop app aiming to give you a snappier Discord experience with Equicord pre-installed
-	pkgver = 3.0.4
+	pkgver = 3.1.0
 	pkgrel = 1
 	url = https://github.com/Equicord/Equibop
 	install = equibop.install
 	arch = aarch64
 	arch = x86_64
 	license = GPL-3.0-only
-	depends = electron38
-	provides = equibop=3.0.4
-	provides = equibop-desktop=3.0.4
+	depends = electron39
+	provides = equibop=3.1.0
+	provides = equibop-desktop=3.1.0
 	conflicts = equibop
 	conflicts = equibop-desktop
+	options = !strip
 	source = equibop.sh
 	source = equibop.install
+	source = icon.png::https://github.com/Equicord/Equibop/raw/v3.1.0/static/icon.png
 	sha256sums = 28e852632bc479a8c9bb84c2d9b629c35a621618448fbc1e0bbea21dfaef19a1
 	sha256sums = e11aa0a6bebe23f473ccb8e7d5577e05e7b9287381de91223f86c79d6729caae
-	source_aarch64 = equibop-3.0.4-aarch64.deb::https://github.com/Equicord/Equibop/releases/download/v3.0.4/equibop_3.0.4_arm64.deb
-	sha256sums_aarch64 = d30cf01e109bd60c6a0c7ceff00d593fbe36d27ed2400e1c375a0ef3c502e255
-	source_x86_64 = equibop-3.0.4-x86_64.deb::https://github.com/Equicord/Equibop/releases/download/v3.0.4/equibop_3.0.4_amd64.deb
-	sha256sums_x86_64 = 7490e9af23e249ed55a162cd2fa456d540872396af0a2d685e256db84f27f652
+	sha256sums = 92ceea804d5a3eaf0c7b696bb3b4026f21962d2c2ef91fbf295eab95855797b2
+	source_aarch64 = equibop-3.1.0-aarch64.tar.gz::https://github.com/Equicord/Equibop/releases/download/v3.1.0/equibop-3.1.0-arm64.tar.gz
+	sha256sums_aarch64 = eb67c99d2bf331c59b7a174b62e0488b019886bec09ea61dfc4202ded7d8ad5d
+	source_x86_64 = equibop-3.1.0-x86_64.tar.gz::https://github.com/Equicord/Equibop/releases/download/v3.1.0/equibop-3.1.0.tar.gz
+	sha256sums_x86_64 = a07d42e29dd7b8a9451f6f3762a9a4578b2afa87c83b24916e903fb8b16a66c2
 
 pkgname = equibop-bin

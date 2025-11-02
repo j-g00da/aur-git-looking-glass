@@ -1,7 +1,7 @@
 pkgbase = cfgprf
 	pkgdesc = tool for exporting and importing dotfiles, packages and AUR packages.
-	pkgver = 1.0.1
-	pkgrel = 2
+	pkgver = 1.0.3
+	pkgrel = 5
 	url = https://git.gay/violet/cfgprf
 	arch = any
 	license = GPL-3.0-or-later
@@ -11,6 +11,6 @@ pkgbase = cfgprf
 	optdepends = yay: working with AUR packages
 	optdepends = paru: working with AUR packages
 	source = cfgprf.sh
-	sha256sums = f1e29b16105541371a375a47a6a743f3b2691a296558f4174d031cd6701aa316
+	sha256sums = 7be9601d459a7273ff5a810c4a33f190717a008721595ecb59c89523effb584c
 
 pkgname = cfgprf

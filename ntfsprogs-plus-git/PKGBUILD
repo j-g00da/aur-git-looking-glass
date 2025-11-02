@@ -3,7 +3,7 @@
 _pkgname=ntfsprogs-plus
 pkgname=${_pkgname}-git
 
-_repo=ntfsprogs-plus/ntfsprogs-plus
+_repo=ntfsprogs-plus/$_pkgname
 url="https://github.com/${_repo}"
 
 pkgver=0.9.15+2+g9cd9891
@@ -15,16 +15,15 @@ license=('GPL-2.0-or-later')
 depends=('util-linux')
 makedepends=(
   'git'
-  'jq'
   'autoconf'
   'automake'
   'libtool'
   'libgcrypt'
   'pkgconf'
 )
-conflicts=('ntfsprogs' 'ntfs-3g' 'ntfsprogs-plus')
-replaces=('ntfsprogs' 'ntfs-3g' 'ntfsprogs-plus')
-provides=('ntfsprogs')
+conflicts=('ntfsprogs' 'ntfs-3g' "$_pkgname")
+replaces=('ntfsprogs' 'ntfs-3g' "$_pkgname")
+provides=('ntfsprogs' "$_pkgname")
 
 source=("${_pkgname}::git+${url}.git")
 sha256sums=('SKIP')

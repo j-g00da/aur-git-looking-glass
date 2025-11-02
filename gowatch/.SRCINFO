@@ -1,6 +1,6 @@
 pkgbase = gowatch
 	pkgdesc = A simple terminal stopwatch, written in Go
-	pkgver = 1.0.0
+	pkgver = 1.1.2
 	pkgrel = 1
 	url = https://github.com/buxxket/gowatch
 	arch = x86_64
@@ -8,7 +8,7 @@ pkgbase = gowatch
 	license = GPL3
 	makedepends = go
 	makedepends = git
-	source = gowatch-1.0.0.tar.gz::https://github.com/buxxket/gowatch/archive/refs/tags/v1.0.0.tar.gz
-	sha256sums = 9b3793cc1ed91a2d98a207a9f24d05e8b64efb4e052e07b7f9ebbc3202c8c7aa
+	source = gowatch-1.1.2.tar.gz::https://github.com/buxxket/gowatch/archive/refs/tags/v1.1.2.tar.gz
+	sha256sums = d870cd9dedfeb35f4471be4112945ffe618f8cdf547d9ea4ab7c3e462f508be9
 
 pkgname = gowatch

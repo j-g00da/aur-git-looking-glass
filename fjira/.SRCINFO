@@ -1,6 +1,6 @@
 pkgbase = fjira
 	pkgdesc = Audit Git repos for secrets and keys
-	pkgver = 1.4.9
+	pkgver = 1.5.1
 	pkgrel = 1
 	url = https://github.com/mk-5/fjira
 	arch = x86_64
@@ -8,7 +8,7 @@ pkgbase = fjira
 	makedepends = git
 	makedepends = go
 	depends = glibc
-	source = git+https://github.com/mk-5/fjira.git#tag=1.4.9
-	b2sums = ebf54b641b597dd83fadd26b399b0bd6df73bc09ec0f7b262620e0a738afcd87188f14fdd2956fb8b62fee783f84b49ca93674cc398b22593bc49afaf8f10b5a
+	source = git+https://github.com/mk-5/fjira.git#tag=1.5.1
+	b2sums = ada247cf8647416255289ebbe64f2e59d4e3791406842ba2528c83ca1d808498ecb0ed7910cc6b57cc1839d7c225757d6683b577b1ac333952eef4224de8658d
 
 pkgname = fjira

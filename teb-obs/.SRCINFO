@@ -1,58 +1,59 @@
 pkgbase = teb-obs
 	pkgdesc = Free, open source software for live streaming and recording. With Browser Source support. Without the need to install ffmpeg-obs, etc.
 	pkgver = 32.0.1
-	pkgrel = 1
+	pkgrel = 3
 	url = https://github.com/amazon-contributing/upstreaming-to-obs-studio/wiki/TEB-Beta-Linux-Installation
 	arch = x86_64
 	license = GPL-2.0-or-later
 	makedepends = asio
 	makedepends = cmake
+	makedepends = extra-cmake-modules
 	makedepends = ffnvcodec-headers
-	makedepends = jack
 	makedepends = git
 	makedepends = uthash
-	makedepends = simde
-	makedepends = libajantv2>=17.5.0
-	makedepends = libdatachannel>=0.22
-	makedepends = libfdk-aac
-	makedepends = luajit
 	makedepends = nlohmann-json
-	makedepends = libvpl
-	makedepends = python>=3.13
-	makedepends = sndio
 	makedepends = swig
-	makedepends = systemd-libs
-	makedepends = v4l-utils
 	makedepends = websocketpp
 	depends = alsa-lib
 	depends = curl
-	depends = extra-cmake-modules
-	depends = ffmpeg>=7.1
+	depends = ffmpeg>=8
 	depends = fontconfig
 	depends = freetype2
 	depends = gcc-libs
 	depends = glib2
 	depends = glibc
+	depends = jack
 	depends = jansson
+	depends = libajantv2>=17.5.0
+	depends = libdatachannel>=0.23
+	depends = libfdk-aac
 	depends = libgl
+	depends = libjuice
 	depends = libpipewire
 	depends = libpulse
 	depends = librist
 	depends = libva
+	depends = libvpl
 	depends = libx11
 	depends = libxcb
 	depends = libxcomposite
 	depends = libxkbcommon
+	depends = luajit
 	depends = mbedtls>=3.6.1
 	depends = pciutils
+	depends = python>=3.13
 	depends = qrcodegencpp-cmake
-	depends = qt6-base>=6.6.2
-	depends = qt6-svg>=6.6.2
-	depends = qt6-wayland>=6.6.2
+	depends = qt6-base>=6.10.0
+	depends = qt6-svg>=6.10.0
+	depends = qt6-wayland>=6.10.0
 	depends = rnnoise
+	depends = simde
+	depends = sndio
 	depends = speexdsp
 	depends = srt
+	depends = systemd-libs
 	depends = util-linux-libs
+	depends = v4l-utils
 	depends = vlc
 	depends = wayland
 	depends = x264
@@ -71,23 +72,14 @@ pkgbase = teb-obs
 	depends = nspr
 	depends = nss
 	depends = pango
-	optdepends = jack: JACK support
-	optdepends = libfdk-aac: FDK AAC codec support
-	optdepends = libvpl: QSV encoder support
 	optdepends = intel-media-sdk: QSV encoder support(<= Rocket Lake & >= Broadwell)
 	optdepends = vpl-gpu-rt: QSV encoder support (>= Alder Lake)
 	optdepends = intel-media-driver: VAAPI encoder support (>= Broadwell)
 	optdepends = libva-intel-driver: VAAPI encoder support (<= Haswell)
 	optdepends = libva-mesa-driver: VAAPI encoder support
-	optdepends = swig: Scripting
-	optdepends = luajit: Lua scripting
-	optdepends = python>=3.13: Python scripting
-	optdepends = sndio: Sndio input client
-	optdepends = v4l-utils: V4L2 support
-	optdepends = systemd-libs: V4L2 support
 	optdepends = v4l2loopback-dkms: V4L2 virtual camera output
-	optdepends = libdatachannel>=0.22: WHIP Support
-	optdepends = libajantv2>=17.5.0: AJA support
+	optdepends = obs-source-profiler-bin: Profile the Usages of your Sources
+	optdepends = obs-vertical-canvas-bin: For Dual Format Beta
 	provides = obs-studio=32.0.1
 	provides = obs-vst
 	provides = obs-websocket
@@ -101,17 +93,12 @@ pkgbase = teb-obs
 	conflicts = obs-studio-amf
 	conflicts = obs-studio-browser
 	conflicts = obs-vst
+	conflicts = obs-studio-liberty
 	source = obs-studio::git+https://github.com/amazon-contributing/upstreaming-to-obs-studio#branch=release/v60
 	source = obs-browser::git+https://github.com/obsproject/obs-browser.git
 	source = obs-websocket::git+https://github.com/obsproject/obs-websocket.git
-	source = ftl-sdk::git+https://github.com/microsoft/ftl-sdk.git
-	source = https://cdn-fastly.obsproject.com/downloads/cef_binary_6533_linux_x86_64.tar.xz
-	source = obs-vertical-canvas::git+https://github.com/Aitum/obs-vertical-canvas.git
-	source = obs-source-profiler::git+https://github.com/exeldro/obs-source-profiler.git
-	source = add_plugins.patch
-	sha256sums = SKIP
-	sha256sums = SKIP
-	sha256sums = SKIP
+	source = https://cdn-fastly.obsproject.com/downloads/cef_binary_6533_linux_x86_64_v6.tar.xz
+	source = qt_fix.patch
 	sha256sums = SKIP
 	sha256sums = SKIP
 	sha256sums = SKIP

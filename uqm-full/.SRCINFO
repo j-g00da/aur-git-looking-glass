@@ -1,0 +1,10 @@
+pkgbase = uqm-full
+	pkgdesc = Voice and 3DO music data pack for The Ur-Quan Masters (manual local install)
+	pkgver = 0.8.0
+	pkgrel = 5
+	url = https://sc2.sourceforge.net/
+	arch = any
+	license = GPL-1.0-or-later
+	depends = uqm
+
+pkgname = uqm-full

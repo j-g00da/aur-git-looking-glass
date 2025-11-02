@@ -1,11 +1,9 @@
 # Maintainer: Filippo Falezza <filippo dot falezza at outlook dot it>
 
 pkgname='azure2'
-#_pkgname='AZURE2-qt5'
-_pkgname='Azure2'
-#_pkgname='brick'
-pkgver=1.0.0
-pkgrel=1
+_pkgname="Azure2"
+pkgver=v1.0.r117.gd7deab6
+pkgrel=2
 pkgdesc='Bayesian R-Matrix Inference Code'
 url='https://azure.nd.edu/'
 provides=('azure2')
@@ -14,14 +12,20 @@ makedepends=(
   'root'
   'qt5-base'
   'qwt'
+  'git'
 )
 source=(
-  #"file://${_pkgname}-patched.zip"
-  "git+ssh://git@github.com/bhamnuclear/Azure2.git"
+# "Azure2::git+https://github.com/rdeboer1/AZURE2#branch=qwt6"
+  "Azure2::git+https://github.com/rdeboer1/AZURE2#branch=api"
   )
 sha256sums=('SKIP')
 
 #The sources are to be provided manually as the package is not public
+
+pkgver() {
+  cd "${srcdir}/${_pkgname}"
+  git describe --long --tags --abbrev=7 | sed 's/\([^-]*-g\)/r\1/;s/-/./g'
+}
 
 build() {
   echo "If this fails, try running cmake by hand, compile with make and then re-run makepkg\n"

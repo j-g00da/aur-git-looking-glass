@@ -2,7 +2,7 @@
 # Based on john-git PKGBUILD
 
 pkgname=john-bj-git
-pkgver=1.9.0.Jumbo.1.1832.gcb0c337e7
+pkgver=r17193.cb0c337e7
 pkgrel=1
 pkgdesc="John the Ripper – bleeding-jumbo branch (all features enabled)"
 arch=('x86_64' 'aarch64' 'i686')
@@ -28,7 +28,7 @@ sha256sums=('SKIP')
 
 pkgver() {
     cd "$srcdir/john"
-    git describe --long --tags | sed 's/^v//;s/-/./g'
+    printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
 }
 
 build() {

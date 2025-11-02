@@ -1,14 +1,15 @@
-# Maintainer: Wilhelm Schuster <aur [aT] rot13 dot io>
+# Contributor: Wilhelm Schuster <aur [at] rot13 [dot] io>
+
 pkgname=mainsail-git
 _pkgname="${pkgname%-git}"
-pkgver=r2110.1a7aca66
-pkgrel=1
+pkgver=r2484.12ade8ba
+pkgrel=2
 pkgdesc="Klipper web frontend"
 arch=(any)
 url="https://docs.mainsail.xyz/"
 license=('GPL3')
 depends=()
-makedepends=('git' 'npm')
+makedepends=('git' 'npm' 'zip')
 optdepends=('nginx: serve via HTTP'
             'ustreamer: webcam streaming support')
 provides=("$_pkgname")

@@ -3,7 +3,7 @@
 # Contributor: Jan Alexander Steffens (heftig) <jan.steffens@gmail.com>
 
 pkgbase=linux-g14
-pkgver=6.17.5.arch1
+pkgver=6.17.6.arch1
 pkgrel=1
 pkgdesc='Linux-g14'
 url="https://gitlab.com/dragonn/linux-g14.git"
@@ -47,6 +47,7 @@ source=(
   0004-ACPI-resource-Skip-IRQ-override-on-ASUS-TUF-Gaming-A.patch
   0005-ACPI-resource-Skip-IRQ-override-on-ASUS-TUF-Gaming-A.patch
   0007-workaround_hardware_decoding_amdgpu.patch
+  0084-enable-steam-deck-hdr.patch
   0009-asus-nb-wmi-Add-tablet_mode_sw-lid-flip.patch
   0010-asus-nb-wmi-fix-tablet_mode_sw_int.patch
   0011-amdgpu-adjust_plane_init_off_by_one.patch
@@ -57,18 +58,19 @@ validpgpkeys=(
   83BC8889351B5DEBBB68416EB8AC08600F108CDF  # Jan Alexander Steffens (heftig)
 )
 
-sha256sums=('c05faf36e9c2164be723cf6ada8533788804d48f9dd2fe1be2ccee3616a92bce'
+sha256sums=('8ecfbc6b693448abb46144a8d04d1e1631639c7661c1088425a2e5406f13c69c'
             'SKIP'
-            '4d32082c82c9bfd85ff2840ad59a7c073450577be272a3235e1523c45f9d6548'
+            '2e3bf9e69ac48051577b68c84ec19848398f30ee756e34eac20bfff61a8c8c0f'
             'SKIP'
             'e8ca1849fc8c1ebea39d81b4307455c0eb4585aaed606da0c87c023f9807ff6e'
             '278118011d7a2eeca9971ac97b31bf0c55ab55e99c662ab9ae4717b55819c9a2'
             '11e570d8a355c2c6ccd413b7ecea9ae1f9b9801eb9a16249f8c4c5e6c80a1ead'
-            '2b9d31f0fb79dee44171a01bbb8aa505487cf3a96c14738ae6bb717f54a35714'
+            '01759c4cb098295a9896fe799f07b8747e99deebd3b629f0cf87ef9e89ab58ac'
             '0a7ea482fe20c403788d290826cec42fe395e5a6eab07b88845f8b9a9829998d'
             '4912b1319e46ddd6670147f5e878b4aca8bcfbd7b5c852fe11e434e424666365'
             'a00b952d53df9d3617d93e8fba4146a4d6169ebe79f029b3a55cca68f738d8ea'
             'e41198b29cee4de7a5132d8df606f48c2d0f9c9076fe4230b00a33c7e0b22c71'
+            'd89bedd7ef4d7bfe5c5d8b1f3c2e12cbb293ce7e11647700cc077e772d5f7fe8'
             '15e912a66e4bbce1cf0450f1dc6610653df29df8dd6d5426f9c1b039490436c8'
             '444f2d86de8c2177655b01596f939f99c2e7abfa8efad8a509e0a334f42dfa85'
             'e90bb17f74c5b232001de5558ff96e09612f35a8552e1fa506c8a3451b0516b7')
@@ -167,6 +169,7 @@ prepare() {
   scripts/config --enable CONFIG_ASUS_WMI_DEPRECATED_ATTRS \
                  --enable CONFIG_ASUS_ARMOURY \
                  --enable CONFIG_ASUS_WMI_BIOS \
+                 --enable CONFIG_DRM_AMD_COLOR_STEAMDECK \
                  --module CONFIG_HID_ASUS_ALLY \
                  --enable CONFIG_CRYPTO_LZ4 \
                  --enable CONFIG_CRYPTO_LZO \

@@ -1,6 +1,6 @@
 pkgbase = shell360-bin
 	pkgdesc = Cross-platform SSH / SFTP client (official binary from .deb)
-	pkgver = 0.1.10
+	pkgver = 0.1.13
 	pkgrel = 1
 	url = https://github.com/nashaofu/shell360
 	arch = x86_64
@@ -14,7 +14,9 @@ pkgbase = shell360-bin
 	depends = glibc
 	depends = gtk3
 	depends = gcc-libs
-	source = shell360-0.1.10-amd64.deb::https://github.com/nashaofu/shell360/releases/download/v0.1.10/Shell360_0.1.10_amd64.deb
-	sha256sums = c759be5206adcb66df033df568f8cefdb1346c126c13801871c672f3d6e38ea0
+	provides = shell360
+	conflicts = shell360
+	source = shell360-0.1.13-amd64.deb::https://github.com/nashaofu/shell360/releases/download/v0.1.13/Shell360_0.1.13_amd64.deb
+	sha256sums = d99780c714f603b24b49bc6dac330065d2f46170095a358a87e777505081f57f
 
 pkgname = shell360-bin

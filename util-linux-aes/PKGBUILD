@@ -8,10 +8,10 @@
 _basename=util-linux
 pkgbase=util-linux-aes
 pkgname=(util-linux-aes util-linux-libs-aes)
-_pkgmajor=2.40
+_pkgmajor=2.41
 _realver=${_pkgmajor}.2
 pkgver=${_realver/-/}
-pkgrel=2
+pkgrel=1
 pkgdesc='Miscellaneous system utilities for Linux, with loop-AES support'
 url='https://github.com/util-linux/util-linux'
 #url="http://sourceforge.net/projects/loop-aes/"
@@ -21,6 +21,7 @@ makedepends=('asciidoctor'
              'gtk-doc'
              'libcap-ng'
              'libxcrypt'
+             'po4a'
              'python'
              'sqlite'
              'systemd')
@@ -42,15 +43,15 @@ validpgpkeys=('B0C64D14301CC6EFAEDF60E4E4B71D5EEC39C284'  # Karel Zak
 source=("https://www.kernel.org/pub/linux/utils/util-linux/v${_pkgmajor}/${_basename}-${_realver}.tar."{xz,sign}
         ${_basename}-BSD-2-Clause.txt::https://raw.githubusercontent.com/Cyan4973/xxHash/f035303b8a86c1db9be70cbb638678ef6ef4cb2d/LICENSE
         "${_basename}-${pkgver}.diff"
-        pam-{login,common,remote,runuser,su}
+        {login,common,remote,runuser,su}.pam
         'util-linux-aes.sysusers'
         '60-rfkill.rules'
         'rfkill-unblock_.service'
         'rfkill-block_.service')
-sha256sums=('d78b37a66f5922d70edf3bdfb01a6b33d34ed3c3cafd6628203b2a2b67c8e8b3'
+sha256sums=('6062a1d89b571a61932e6fc0211f36060c4183568b81ee866cf363bce9f6583e'
             'SKIP'
             '6ffedbc0f7878612d2b23589f1ff2ab15633e1df7963a5d9fc750ec5500c7e7a'
-            '9cab81b664fc66aa0f31ea00c09605e72bdd1a7345e1d4a2beb09e84cd4df7ff'
+            'a3b107b08d005f24e558248f904327dee968b7e066c9074309613eab7067097d'
             'ee917d55042f78b8bb03f5467e5233e3e2ddc2fe01e302bc53b218003fe22275'
             '57e057758944f4557762c6def939410c04ca5803cbdd2bfa2153ce47ffe7a4af'
             '8bfbee453618ba44d60ba7fb00eced6c62edebfc592f2e75dede08e769ed8931'
@@ -73,6 +74,12 @@ prepare() {
   # loop-aes patch
   patch -Np1 -i "../${_basename}-${pkgver}.diff"
   autoreconf -i
+
+  # create fully locked system accout
+  sed -i '/^u /s|u|u!|' misc-utils/uuidd-sysusers.conf.in
+
+  # do not mark dirty
+  sed -i '/dirty=/c dirty=' tools/git-version-gen
 }
 
 build() {
@@ -133,14 +140,14 @@ package_util-linux-aes() {
   chmod 4755 "${pkgdir}"/usr/bin/{newgrp,ch{sh,fn}}
 
   # install PAM files for login-utils
-  install -Dm0644 pam-common "${pkgdir}/etc/pam.d/chfn"
-  install -m0644 pam-common "${pkgdir}/etc/pam.d/chsh"
-  install -m0644 pam-login "${pkgdir}/etc/pam.d/login"
-  install -m0644 pam-remote "${pkgdir}/etc/pam.d/remote"
-  install -m0644 pam-runuser "${pkgdir}/etc/pam.d/runuser"
-  install -m0644 pam-runuser "${pkgdir}/etc/pam.d/runuser-l"
-  install -m0644 pam-su "${pkgdir}/etc/pam.d/su"
-  install -m0644 pam-su "${pkgdir}/etc/pam.d/su-l"
+  install -Dm0644 common.pam "${pkgdir}/etc/pam.d/chfn"
+  install -Dm0644 common.pam "${pkgdir}/etc/pam.d/chsh"
+  install -Dm0644 login.pam "${pkgdir}/etc/pam.d/login"
+  install -Dm0644 remote.pam "${pkgdir}/etc/pam.d/remote"
+  install -Dm0644 runuser.pam "${pkgdir}/etc/pam.d/runuser"
+  install -Dm0644 runuser.pam "${pkgdir}/etc/pam.d/runuser-l"
+  install -Dm0644 su.pam "${pkgdir}/etc/pam.d/su"
+  install -Dm0644 su.pam "${pkgdir}/etc/pam.d/su-l"
 
   # TODO(dreisner): offer this upstream?
   sed -i '/ListenStream/ aRuntimeDirectory=uuidd' "${pkgdir}/usr/lib/systemd/system/uuidd.socket"

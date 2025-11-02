@@ -1,31 +1,59 @@
-# Maintainer: Hadi Chokr <hadichokr@icloud.com>
-pkgname=kontainer-git
-pkgver=1.0.1.8.gf14650b
-pkgrel=3
-pkgdesc="A KDE-style Qt GUI to manage Distrobox containers"
-arch=('any')
-url="https://invent.kde.org/system/kontainer"
-license=('GPL-2.0-or-later')
-depends=('qt6-base' 'qt6-tools' 'qt6-declarative' 'distrobox')
-makedepends=('cmake' 'git' 'extra-cmake-modules')
-provides=('kontainer')
-conflicts=('kontainer')
-source=("git+https://invent.kde.org/system/kontainer.git")
+# Maintainer:
+
+_pkgname="kontainer"
+pkgname="$_pkgname-git"
+pkgver=1.2.1.r0.g94e8b21
+pkgrel=1
+pkgdesc="A simple Kirigami GUI for Distrobox"
+url="https://github.com/DenysMb/Kontainer"
+license=('GPL-3.0-or-later')
+arch=('x86_64')
+
+depends=(
+  'kirigami'
+  'kirigami-addons'
+  'kio'
+  'qqc2-desktop-style'
+)
+makedepends=(
+  'cmake'
+  'extra-cmake-modules'
+  'git'
+  'ninja'
+)
+
+provides=("$_pkgname")
+conflicts=("$_pkgname")
+
+_pkgsrc="denysmb.kontainer"
+source=("$_pkgsrc"::"git+$url.git")
 sha256sums=('SKIP')
 
 pkgver() {
-  cd "$srcdir/kontainer" || return 1
-  git describe --long --tags 2>/dev/null | sed 's/^v//;s/-/./g' || \
-    echo "1.0.r0.g$(git rev-parse --short HEAD)"
+  cd "$_pkgsrc"
+  git describe --long --tags --abbrev=7 --exclude='*[a-zA-Z][a-zA-Z]*' \
+    | sed -E 's/^[^0-9]*//;s/([^-]*-g)/r\1/;s/-/./g'
 }
 
 build() {
-  cmake -B build -S "$srcdir/kontainer" -DCMAKE_BUILD_TYPE=Release
+  local _cmake_options=(
+    -B build
+    -S "$_pkgsrc"
+    -G Ninja
+    -DCMAKE_BUILD_TYPE=None
+    -DCMAKE_INSTALL_PREFIX='/usr'
+    -DBUILD_TESTING=OFF
+    -Wno-dev
+  )
+
+  cmake "${_cmake_options[@]}"
   cmake --build build
 }
 
 package() {
-  install -Dm755 build/kontainer "$pkgdir/usr/bin/kontainer"
-  install -Dm644 "$srcdir/kontainer/org.kde.kontainer.desktop" \
-    "$pkgdir/usr/share/applications/kontainer.desktop"
+  depends+=(
+    'distrobox'
+  )
+
+  DESTDIR="$pkgdir" cmake --install build
 }

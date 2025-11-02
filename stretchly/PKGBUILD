@@ -1,8 +1,8 @@
 # Maintainer: Luke Arms <luke@arms.to>
 
-_electron_version=34
+_electron_version=38
 pkgname=stretchly
-pkgver=1.17.2
+pkgver=1.18.1
 pkgrel=1
 pkgdesc="The break time reminder app"
 arch=('i686' 'x86_64')
@@ -13,7 +13,7 @@ makedepends=('git' 'nvm' 'jq' 'python' 'python-setuptools')
 conflicts=("${pkgname}-bin" "${pkgname}-git")
 source=("https://github.com/hovancik/stretchly/archive/v${pkgver}.tar.gz")
 
-sha256sums=('89f0f4c2ce3bbfdf9a3baa0e725b666b07aad8b0d8d59c3ec22440b09a70615e')
+sha256sums=('379f48ceaaabf7cb97e49134ae92765e4d58cdd92dbd8c78037188a3aca16197')
 
 _ensure_local_nvm() {
     if type nvm &>/dev/null; then

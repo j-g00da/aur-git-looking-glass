@@ -1,17 +1,21 @@
 pkgbase = confy-cli
 	pkgdesc = CLI client for the Confy encrypted communication system
-	pkgver = 0.1.4
+	pkgver = 0.1.10
 	pkgrel = 1
-	url = https://github.com/confy-security/cli
 	arch = any
 	license = custom:GNU General Public License v3 (GPLv3)
 	makedepends = python-poetry
 	makedepends = python-installer
-	makedepends = git
 	depends = python
+	depends = python-confy-addons
+	depends = python-cryptography
+	depends = python-prompt_toolkit
+	depends = python-pydantic-settings
+	depends = python-typer
+	depends = python-websockets
 	provides = confy
 	conflicts = confy
-	source = git+https://github.com/confy-security/cli
-	sha256sums = SKIP
+	source = https://files.pythonhosted.org/packages/47/ef/136323e423a5520fe8cf98794ff45d591da1b511a6b6c4f63309d42bcd36/confy_cli-0.1.10.tar.gz
+	sha256sums = a281665012132a342e38dc86b00b94263a92b590147e238ad51494436dc50c88
 
 pkgname = confy-cli

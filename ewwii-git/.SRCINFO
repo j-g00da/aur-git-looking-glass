@@ -1,6 +1,6 @@
 pkgbase = ewwii-git
 	pkgdesc = Powerful and flexible widget system for Linux
-	pkgver = 0.3.0
+	pkgver = 0.3.1
 	pkgrel = 1
 	url = https://github.com/Ewwii-sh/ewwii
 	arch = x86_64
@@ -9,6 +9,7 @@ pkgbase = ewwii-git
 	makedepends = gtk4
 	makedepends = pkgconf
 	makedepends = gtk-layer-shell
+	makedepends = graphene
 	provides = ewwii
 	conflicts = ewwii-bin
 	conflicts = ewwii
