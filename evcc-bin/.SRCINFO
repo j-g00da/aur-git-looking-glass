@@ -1,6 +1,6 @@
 pkgbase = evcc-bin
 	pkgdesc = evcc is an extensible EV Charge Controller and home energy management system
-	pkgver = 0.209.2
+	pkgver = 0.209.6
 	pkgrel = 1
 	url = https://evcc.io/
 	arch = x86_64
@@ -10,11 +10,11 @@ pkgbase = evcc-bin
 	conflicts = evcc-git
 	source = https://raw.githubusercontent.com/evcc-io/evcc/master/LICENSE
 	sha256sums = ad5866243ee44e5c929d68ed825ccc27af0f8d6f4e50b447d9ad01894761ccc4
-	source_x86_64 = https://github.com/evcc-io/evcc/releases/download/0.209.2/evcc_0.209.2_amd64.deb
-	sha256sums_x86_64 = b262bcfeb157fd477670c7663bb64d04aa7fcd9c3e86552845da619fd6e64e59
-	source_armv7h = https://github.com/evcc-io/evcc/releases/download/0.209.2/evcc_0.209.2_armhf.deb
-	sha256sums_armv7h = 42fc1f388cb2941c0d50e2d8bad23937ed334c717d8a5ac0582b40d3a58c1fdb
-	source_aarch64 = https://github.com/evcc-io/evcc/releases/download/0.209.2/evcc_0.209.2_arm64.deb
-	sha256sums_aarch64 = 39887aad594416ba3b5256bf944b33a270ee1ac3ece8eea32d7d1f92e37e465b
+	source_x86_64 = https://github.com/evcc-io/evcc/releases/download/0.209.6/evcc_0.209.6_amd64.deb
+	sha256sums_x86_64 = 17d234d973fa573cc85897f14c8d796c7856d757ea7238cf3a51149724544aa5
+	source_armv7h = https://github.com/evcc-io/evcc/releases/download/0.209.6/evcc_0.209.6_armhf.deb
+	sha256sums_armv7h = c61de5e1b1fc03b23bc3e48e890904c1fa4f6c48c12a12bb3d2b6934b37be51e
+	source_aarch64 = https://github.com/evcc-io/evcc/releases/download/0.209.6/evcc_0.209.6_arm64.deb
+	sha256sums_aarch64 = 37f6e993c539ca13ce1fa783f643e8a57503a12bfd9e623e91176a61e4ee65f8
 
 pkgname = evcc-bin

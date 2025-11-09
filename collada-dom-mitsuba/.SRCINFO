@@ -1,21 +1,25 @@
 pkgbase = collada-dom-mitsuba
 	pkgdesc = An API that provides a C++ object representation of a COLLADA XML instance document (required for mitsuba renderer).
 	pkgver = 2.4.0
-	pkgrel = 2
+	pkgrel = 3
 	url = http://collada-dom.sourceforge.net/
 	arch = i686
 	arch = x86_64
 	license = MIT
+	makedepends = boost
 	depends = libxml2
-	depends = boost
+	depends = boost-libs
 	depends = pcre
 	depends = minizip
 	source = http://downloads.sourceforge.net/collada-dom/collada-dom-2.4.0.tgz
 	source = 0001-fix-return-type-thanks-to-22.patch
 	source = fix-minizip-include-path.patch
+	source = collada-dom-mitsuba-fix-boost1.85.patch::https://github.com/rdiankov/collada-dom/pull/43.patch
+	source = boost-1.89.patch
 	md5sums = 20399de4206eab850c32e65c04e907cb
 	md5sums = ebfba4cccb6a0862de2df286603a0c80
 	md5sums = a907fc4cdade0b368f7bd2e25f1846c4
+	md5sums = e424390147c45e62ca81e77366ec9cfb
+	md5sums = a7739d0efd3c2bd0e56bdb542053a46a
 
 pkgname = collada-dom-mitsuba
-

@@ -3,7 +3,7 @@
 # Maintainer: Stas Zhuk <stas.zhuk@ddev.com>
 
 pkgname='ddev-bin'
-pkgver=1.24.8
+pkgver=1.24.10
 pkgrel=1
 pkgdesc='DDEV: a local web development environment'
 url='https://github.com/ddev/ddev'
@@ -11,14 +11,14 @@ arch=('aarch64' 'x86_64')
 license=('Apache 2')
 provides=('ddev')
 conflicts=('ddev')
-depends=('docker' 'mkcert')
+depends=('docker' 'docker-buildx' 'mkcert')
 optdepends=('bash-completion: subcommand completion support')
 
-source_aarch64=("${pkgname}_${pkgver}_aarch64.tar.gz::https://github.com/ddev/ddev/releases/download/v1.24.8/ddev_linux-arm64.v1.24.8.tar.gz")
-sha256sums_aarch64=('69b724e5594e1148336e9855d0fb0f31c7319e1a52fc573f46acaec3bc59d809')
+source_aarch64=("${pkgname}_${pkgver}_aarch64.tar.gz::https://github.com/ddev/ddev/releases/download/v1.24.10/ddev_linux-arm64.v1.24.10.tar.gz")
+sha256sums_aarch64=('19742a43e1ae95f6625f16ee3ac18008bc927cf4550914cedc333226afce0bab')
 
-source_x86_64=("${pkgname}_${pkgver}_x86_64.tar.gz::https://github.com/ddev/ddev/releases/download/v1.24.8/ddev_linux-amd64.v1.24.8.tar.gz")
-sha256sums_x86_64=('fd4b025ccb47bc9d81fe1b3416dbe02008ea3271177dd2d55c261e646cf3c49b')
+source_x86_64=("${pkgname}_${pkgver}_x86_64.tar.gz::https://github.com/ddev/ddev/releases/download/v1.24.10/ddev_linux-amd64.v1.24.10.tar.gz")
+sha256sums_x86_64=('c04cb3eb36f4f36b6e18533570a66a60ba65bfde1dfdfc9e465816661da30494')
 
 package() {
   # bin

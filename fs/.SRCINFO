@@ -1,0 +1,12 @@
+pkgbase = fs
+	pkgdesc = a Simple CLI tool to show file and directory sizes
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/Wael0dfg/fs
+	arch = any
+	license = custom
+	depends = python
+	source = fs::git+https://github.com/Wael0dfg/fs.git
+	sha256sums = SKIP
+
+pkgname = fs

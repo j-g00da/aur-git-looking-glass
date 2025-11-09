@@ -1,6 +1,6 @@
 pkgbase = aws-sam-cli-bin
 	pkgdesc = CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM
-	pkgver = 1.145.2
+	pkgver = 1.146.0
 	pkgrel = 1
 	url = https://github.com/aws/aws-sam-cli
 	arch = x86_64
@@ -8,7 +8,7 @@ pkgbase = aws-sam-cli-bin
 	optdepends = docker
 	provides = aws-sam-cli
 	conflicts = aws-sam-cli
-	source = aws-sam-cli-linux-1.145.2-x86_64.zip::https://github.com/aws/aws-sam-cli/releases/download/v1.145.2/aws-sam-cli-linux-x86_64.zip
-	sha256sums = 2402fd319e9fc08225a4037ac6c7123fd08f40aec037aa7560c4f2f2308c0b46
+	source = aws-sam-cli-linux-1.146.0-x86_64.zip::https://github.com/aws/aws-sam-cli/releases/download/v1.146.0/aws-sam-cli-linux-x86_64.zip
+	sha256sums = 4d4229bc72fc74e482f6afb653bb23bbca0d86565ab9f528a6f7bfdd7e5e5821
 
 pkgname = aws-sam-cli-bin

@@ -1,7 +1,7 @@
 # Maintainer: Firstpick firstpick1992@proton.me
 pkgname=pacsea-git
-pkgver=0.4.4.r2.gc06a32db
-pkgrel=1
+pkgver=0.4.5.r6.ga1e1982
+pkgrel=4
 pkgdesc="Fast TUI for searching, inspecting, and queueing pacman/AUR packages written in Rust (git version)"
 arch=('x86_64')
 url="https://github.com/Firstp1ck/Pacsea"
@@ -13,9 +13,10 @@ optdepends=(
     'wl-clipboard: clipboard support on Wayland'
     'xclip: clipboard support on X11'
     'reflector: update Arch mirrors'
-    'pacman-mirror: Manjaro mirrorlist'
+    'pacman-mirrors: Manjaro mirrorlist'
     'alacritty: run external commands in a terminal'
     'kitty: run external commands in a terminal'
+    'ghostty: run external commands in a terminal'
     'xterm: run external commands in a terminal'
     'gnome-terminal: run external commands in a terminal'
     'konsole: run external commands in a terminal'
@@ -26,31 +27,52 @@ optdepends=(
     'vim: external editor'
     'emacs: external editor'
     'helix: external editor'
+    'nano: external editor'
+    'klipper: clipboard manager on X11'
+    'clamav: malware scanning of files'
+    'trivy: vulnerability scanning'
+    'semgrep-bin: static analysis checks'
+    'shellcheck: lint shell scripts'
     'downgrade: Downgrade of Packages'
 )
 makedepends=('cargo' 'git')
 conflicts=('pacsea' 'pacsea-bin')
 provides=('pacsea')
-source=("git+https://github.com/Firstp1ck/Pacsea.git")
-sha256sums=('SKIP')
+# Empty source array - using custom source() function for sparse checkout
+source=()
+sha256sums=()
+
+# Custom source function to clone with sparse checkout, excluding Images/ and Documents/
+source() {
+  cd "$srcdir" || exit 1
+  if [ ! -d Pacsea ]; then
+    git clone --filter=blob:none --sparse https://github.com/Firstp1ck/Pacsea.git Pacsea
+  fi
+  cd Pacsea || exit 1
+  git sparse-checkout init --no-cone
+  git sparse-checkout set '/*' '!/Images' '!/Documents'
+  git checkout 2>/dev/null || true
+}
 
 pkgver() {
-  : "${srcdir:?srcdir is not set}"
+  if [ ! -d "$srcdir/Pacsea" ]; then
+    source >/dev/null 2>&1
+  fi
   cd "$srcdir/Pacsea" || exit 1
   git describe --tags --long --always \
     | sed 's/^v//;s/\([^-]*-g\)/r\1/;s/-/./g'
 }
 
 prepare() {
-  : "${srcdir:?srcdir is not set}"
+  if [ ! -d "$srcdir/Pacsea" ]; then
+    source
+  fi
   cd "$srcdir/Pacsea" || exit 1
-  # Fetch dependencies according to Cargo.lock to ensure reproducible builds
   export RUSTUP_TOOLCHAIN=stable
   cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
-  : "${srcdir:?srcdir is not set}"
   cd "$srcdir/Pacsea" || exit 1
   export RUSTUP_TOOLCHAIN=stable
   export CARGO_TARGET_DIR=target
@@ -58,22 +80,14 @@ build() {
 }
 
 check() {
-  : "${srcdir:?srcdir is not set}"
   cd "$srcdir/Pacsea" || exit 1
   export RUSTUP_TOOLCHAIN=stable
   cargo test --frozen --release --all-features -- --test-threads=1
 }
 
 package() {
-  : "${pkgdir:?pkgdir is not set}"
-  : "${srcdir:?srcdir is not set}"
   cd "$srcdir/Pacsea" || exit 1
-  # The crate builds a binary named 'pacsea'; install it as 'pacsea'
   install -Dm755 "target/release/pacsea" "$pkgdir/usr/bin/pacsea"
-
-  # Install license
   install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
-
-  # Install documentation
   install -Dm644 README.md "$pkgdir/usr/share/doc/$pkgname/README.md"
 }

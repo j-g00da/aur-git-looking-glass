@@ -1,27 +1,25 @@
 # Maintainer : bartus <arch-user-repoᘓbartus.33mail.com>
 pkgname=mve-git
-pkgver=r1316.65f677e
-pkgrel=2
+pkgver=r1353.48a69d0
+pkgrel=1
 pkgdesc="Image-based geometry reconstruction pipeline, structure-from-motion, (shading-aware) multi-view-stereo, surface-reconstruction, texturing,"
 arch=('i686' 'x86_64')
 url="http://www.gcc.tu-darmstadt.de/home/proj/mve/"
 license=('BSD' 'GPL')
 groups=()
-depends=('libjpeg' 'libtiff' 'libpng' 'libgl' 'qt5-base' 'intel-tbb' 'eigen')
-makedepends=('git' 'go-md2man' 'cmake' 'gtest' )
+depends=('libjpeg' 'libtiff' 'libpng' 'libgl' 'qt5-base' 'intel-tbb' 'eigen3')
+makedepends=('git' 'go-md2man' 'cmake' 'gtest' 'gcc13')
 provides=()
 options=()
 source=("${pkgname}::git+https://github.com/simonfuhrmann/mve.git"
         "${pkgname}-wiki::git+https://github.com/simonfuhrmann/mve.wiki.git"
         "git+https://github.com/nmoehrle/mvs-texturing.git"
         "git+https://github.com/flanggut/smvs.git"
-        'gtest.patch'
        )
 sha256sums=('SKIP'
             'SKIP'
             'SKIP'
-            'SKIP'
-            '1077e884f2ed19efefa8b65676ee117d039c66e64b481f7fb5887042b90cb9ae')
+            'SKIP')
 _binar=(apps/sfmrecon/sfmrecon
         apps/meshconvert/meshconvert
         apps/meshalign/meshalign
@@ -38,12 +36,12 @@ _binar=(apps/sfmrecon/sfmrecon
 
 prepare() {
   cd "${srcdir}"/${pkgname}
-  git apply -v "${srcdir}"/gtest.patch
   sed -i '/CXXFLAGS*/s/$/ -msse4.2/' libs/sfm/Makefile
   cd "${srcdir}"/smvs
   sed -i "s:msse4.1:msse4.2:" lib/Makefile tools/Makefile app/Makefile
   sed -i "s:mve:mve-git:" Makefile.inc
-  sed -i "s:util/string.h:util/strings.h:" app/smvsrecon.cc
+  sed -i "s:util/strings.h:strings.h:" app/smvsrecon.cc
+  sed -i "s:util/strings.h:strings.h:" tools/simplify.cc
 }
 
 pkgver() {
@@ -72,7 +70,10 @@ build() {
     Propagation instead of Graph Cut Optimization."
   export CXXFLAGS+=" -std=c++11"
   cmake -S "${srcdir}"/mvs-texturing -B build-mvs-texturing \
+        -DCMAKE_POLICY_VERSION_MINIMUM=3.5 \
         -DCMAKE_CXX_FLAGS=-std=gnu++11 \
+        -DCMAKE_C_COMPILER=gcc-13 \
+        -DCMAKE_CXX_COMPILER=g++-13 \
         -DCMAKE_BUILD_TYPE=Release \
         -DCMAKE_INSTALL_PREFIX=/usr
   make -C build-mvs-texturing

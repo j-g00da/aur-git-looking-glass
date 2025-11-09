@@ -1,6 +1,6 @@
 # Maintainer: sinomor
 pkgname=delta-shell-git
-pkgver=r105.11ce23e
+pkgver=r218.4d623ce
 pkgrel=1
 pkgdesc="A Desktop Shell for Niri and Hyprland"
 arch=('x86_64')
@@ -13,6 +13,7 @@ depends=(
     'dart-sass'
     'wl-clipboard'
     'upower'
+    'libadwaita'
     # aur:
     'aylurs-gtk-shell-git'
     'libastal-meta'

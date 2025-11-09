@@ -1,6 +1,6 @@
 pkgbase = codename-goose-bin
 	pkgdesc = An open-source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
-	pkgver = 1.12.1
+	pkgver = 1.13.1
 	pkgrel = 1
 	url = https://github.com/block/goose
 	arch = x86_64
@@ -21,9 +21,9 @@ pkgbase = codename-goose-bin
 	optdepends = wl-clipboard: computer controller extension on Wayland
 	provides = codename-goose
 	conflicts = codename-goose
-	source_x86_64 = codename-goose-bin-1.12.1-x86_64.tar.bz2::https://github.com/block/goose/releases/download/v1.12.1/goose-x86_64-unknown-linux-gnu.tar.bz2
-	b2sums_x86_64 = c6f6827018b1b19d8aad24880d4cfb07ae16b96016eeca2192495c1ee8b61a42c9d456152e8d280adf0585da5c0369bf7d68dc3f84a1f86a581743ee1afb55b1
-	source_aarch64 = codename-goose-bin-1.12.1-aarch64.tar.bz2::https://github.com/block/goose/releases/download/v1.12.1/goose-aarch64-unknown-linux-gnu.tar.bz2
-	b2sums_aarch64 = f4fd96950337ed7147457063b637c6bb54a0660d81271bcc4e4ebe52c7d41219cefcb4135162aba328e1b7166a96be99cad11c8ea20c7c0b10ad1cd98776e329
+	source_x86_64 = codename-goose-bin-1.13.1-x86_64.tar.bz2::https://github.com/block/goose/releases/download/v1.13.1/goose-x86_64-unknown-linux-gnu.tar.bz2
+	b2sums_x86_64 = 8f2d987a137cfdc94b98c4271e04d0119585710fc60369c7528635359863638fe58d3b656fbd356328abf9eaf371457cda1343bbb023fbf3184657bfb8da05df
+	source_aarch64 = codename-goose-bin-1.13.1-aarch64.tar.bz2::https://github.com/block/goose/releases/download/v1.13.1/goose-aarch64-unknown-linux-gnu.tar.bz2
+	b2sums_aarch64 = 23bf3559f1b71273799e25b0625adcdae9ea145671d29de14275180c5d9c87dc515841dbb0694a096209a41434345268af0e407fc4d231ab5c3b7ea274ab9876
 
 pkgname = codename-goose-bin

@@ -1,13 +1,13 @@
 pkgbase = gelly
 	pkgdesc = A Jellyfin media server client focused on music.
-	pkgver = 0.2.0
+	pkgver = 0.4.0
 	pkgrel = 1
 	url = https://github.com/Fingel/gelly
 	arch = x86_64
 	license = GPL-3.0-or-later
 	makedepends = cargo
 	depends = gnome-keyring
-	source = gelly-0.2.0.tar.gz::https://github.com/Fingel/gelly/archive/refs/tags/v0.2.0.tar.gz
-	sha512sums = e4101a422e748ff9e4715dc9bc71d3bfb85e9e8406ce7a1881d1cabc5f84dbfe587cca3822b541debb06b379f60e433aa5a02d430c56ca37acdfd55ac8d60868
+	source = gelly-0.4.0.tar.gz::https://github.com/Fingel/gelly/archive/refs/tags/v0.4.0.tar.gz
+	sha512sums = 8216788b469d83b0f9f3e695cac739a51d9b4d2361f26e32a22676dd8d1334aa8353294fdf2911a1e03983a1783b0377b9f20775208dcf623178542b0f4b0985
 
 pkgname = gelly

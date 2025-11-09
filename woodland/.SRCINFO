@@ -1,0 +1,27 @@
+pkgbase = woodland
+	pkgdesc = minimal Wayland compositor based on wlroots
+	pkgver = 2.0.4
+	pkgrel = 1
+	url = https://github.com/DiogenesN/woodland
+	arch = x86_64
+	license = GPL-2.0-or-later
+	makedepends = stb
+	depends = cairo
+	depends = dbus
+	depends = gdk-pixbuf2
+	depends = glibc
+	depends = glib2
+	depends = libdrm
+	depends = libinput
+	depends = librsvg
+	depends = libwlroots-0.18.so
+	depends = libxkbcommon
+	depends = libxml2
+	depends = pixman
+	depends = wayland
+	source = woodland-2.0.4.tar.gz::https://github.com/DiogenesN/woodland/archive/refs/tags/v2.0.4.tar.gz
+	source = 0001_adj-makefile.patch
+	b2sums = a555dca150d420105e644bcc5cb727b8c925a81efd09e1bb772e7738d1cda771f056ba15a73dd101e82e856ace046627c80acdb848a8ff0fb91b4661f5e4ea4e
+	b2sums = cf852b0fe89780df03c8dd9e2dc6703566f429494b8ce18e52861cd4012a569577586bbbcafea4a9fa241182e917e4a0ed61e100957efd7596b45d3690b32dd8
+
+pkgname = woodland

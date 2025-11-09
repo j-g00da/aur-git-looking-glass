@@ -1,6 +1,6 @@
 pkgbase = swiftfetch
 	pkgdesc = A fast and efficient fetch utility written in Rust
-	pkgver = 1.1.1
+	pkgver = 1.2.1
 	pkgrel = 1
 	url = https://github.com/Ly-sec/swiftfetch
 	install = swiftfetch.install
@@ -12,6 +12,6 @@ pkgbase = swiftfetch
 	depends = gcc-libs
 	depends = glibc
 	source = git+https://github.com/Ly-sec/swiftfetch.git#tag=${pkgver}
-	sha256sums = SKIP
+	sha256sums = 451a7e293504f6426e97d515ffdbb7f6d3311612c15b672c56375bde6bb3d75d
 
 pkgname = swiftfetch

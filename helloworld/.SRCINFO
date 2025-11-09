@@ -1,0 +1,12 @@
+pkgbase = helloworld
+	pkgdesc = Colorful Tux penguin with configurable colors
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://github.com/Nick-cpp/helloworld
+	arch = x86_64
+	license = GPL
+	depends = gcc-libs
+	source = helloworld.cpp
+	md5sums = SKIP
+
+pkgname = helloworld

@@ -1,7 +1,7 @@
 pkgbase = libbacktrace-git
 	pkgdesc = Library to produce symbolic backtraces
-	pkgver = r87.g11427f3
-	pkgrel = 1
+	pkgver = r123.g2f67a3a
+	pkgrel = 2
 	url = https://github.com/ianlancetaylor/libbacktrace
 	arch = i686
 	arch = x86_64
@@ -10,15 +10,13 @@ pkgbase = libbacktrace-git
 	makedepends = libunwind
 	depends = gcc-libs
 	depends = zlib
-	provides = libbacktrace=r87.g11427f3
+	provides = libbacktrace=r123.g2f67a3a
 	provides = libbacktrace.so
 	conflicts = libbacktrace
 	options = staticlibs
 	source = git+https://github.com/ianlancetaylor/libbacktrace.git
-	source = 0001-Provide-project-information-to-autotools.patch::https://github.com/ianlancetaylor/libbacktrace/commit/e4f3220e535a7bc93730e50d1f10c89ef3996075.patch
-	source = 0002-Add-pkg-config-file.patch::https://github.com/ianlancetaylor/libbacktrace/commit/f75f3eee369686694c379619a134c473982c0951.patch
+	source = add_pkg-config_file.patch::https://patch-diff.githubusercontent.com/raw/ianlancetaylor/libbacktrace/pull/92.patch
 	sha256sums = SKIP
-	sha256sums = SKIP
-	sha256sums = SKIP
+	sha256sums = 680dbbf1db9953d4aeef2205274d2c3672d150a106f782c368d628623173dd1f
 
 pkgname = libbacktrace-git

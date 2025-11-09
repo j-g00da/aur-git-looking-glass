@@ -1,0 +1,16 @@
+pkgbase = go-bin
+	pkgdesc = Go programming language (binary release)
+	pkgver = 1.25.4
+	pkgrel = 1
+	url = https://go.dev/
+	arch = x86_64
+	arch = aarch64
+	arch = armv7h
+	license = BSD
+	makedepends = curl
+	depends = glibc
+	provides = go
+	conflicts = go
+	options = !strip
+
+pkgname = go-bin

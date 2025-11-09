@@ -3,7 +3,7 @@
 pkgbase=rime-wanxiang-dict-nightly
 _pkgbase=${pkgbase%-dict-nightly}
 pkgname=(rime-wanxiang-dict-nightly rime-wanxiang-pro-dict-nightly)
-pkgver=13.2.4+r20251101.232759
+pkgver=13.3.12+r20251108.230401
 _schema_version=${pkgver%%+*}
 pkgrel=1
 pkgdesc="万象词库——每日构建版"
@@ -13,15 +13,16 @@ license=('CC-BY-4.0')
 url="https://github.com/amzxyz/rime_wanxiang"
 source=("${url}/archive/refs/tags/v${_schema_version}.tar.gz"
         build.sh)
-b2sums=('a4924b506b5d9ff8dd790e25e32930545905950444ba241b0bf1eb18903526956c9e062dc93d440aad4d1cb90ec6b85535853964cf915ec06630b364ea25fdcb'
+b2sums=('f99c0eb78fd0a608f6bee6b7e701731b0f3cae9a5e7c16f7e8b4fce09632fe72020004e8d5db0877705ba773da6e3542f823e4a099ce3ee44a3213bbf1775f06'
         'e1c0a4adf4a6175ac1343c9d94d5deb6d3e134b5258111849cc714893bb1fb70d308ffb900969e510087c59489318678a3e4ad88c8a134f03d90722a1202a672'
-        '962cfe690ebe1bf6c741621b0841ec5203fc6d8aff284cebd84daf0ff4579fc71bb63ee8fe5cd737c35f7d7a163f1f4e09a54f2713f2fe11f0f2dfa6b8dff151'
-        'fbf3b2df9688b535010268b29a445e127ace008a1e7ad074adcaabe7f6a3e1658c01248456af5a8544b8c6e4507c30960ae6d2e215f39691c3ee5f617d9c7f9f'
-        '00e900834e56f387b5b3c6f2b30868784a6fe4e947ad8f38d28cf1e59a28f22019e97f741430302cad0d6c47469e70c69f31f7b5e6df652460d76c780a9b5d20'
-        'eab5cfc7b882b1804e657c1d6c2e848fe6311a9c92c3fcc690299a984d8f9c9b47abd764418f7f1ffe992e1807c8cfe78bd3e7c72176b49e01bda8a34acee2a4'
-        '1de6270c294b23d06939f288f5c5bd07695d0df9339dd4b144b4fedaed082bcb50a2ac120a7ef375acd5fdbb8fc25f3041d281323d9cc8728fd3375deec3cc8e'
-        '192adc3a48d84e069bbbb7f6444dbf73129efe2088b042aa02a9b9409e44743ec56dc1d2724e4629a06661e0273a86fdb5eb0e09b43ab42de76883c7c94029aa'
-        '7b302d67f7210b7754474010e88f47813c577579204b9e6225667883dff7f14c95b81228566da9239ea906fe46c91e6105e9b85f220465d148ce7db0d93032d6')
+        'd941cbcff0a8e9bc967080c6875b9f4466671270455dbe82a233e5dcfbbf4de28a62ae4375d2db6decf65da31f2b114d5c2398e1bb4b921cfad26992ced8a992'
+        '646b77e425b53205cf3ae05d96fc93746779f986c9b22c83d69339b0a247c8f7981ed722473d0f8c42b886f9990384488d1f95837c90fe33b2ca18529bee772f'
+        '55e81c68d1760d6bf276e489ec5f96266e7bc1000e62769c626f086ee72016b5276b24df7fd801afb15ca41c6358bd27edf1e0601b9ea11004259dde75f847e2'
+        '30b9841106fac38eae029d2438e10242c9150fec10747f8829ad51cc9785336086bbb992a8d4bb7710af9cf296e1693102fefcc05a8222b09cf31721b0e7b951'
+        '946e6b087f49487cc758d8ec36fc2bbbf9f0f63274f824ec0adbe5d4508fe1a4efd50e4218fc1b8530fff3a6ccce72c875ba2635b65de8b0d957450bf7dad833'
+        'b58d055518a37f64d6a2bbc0b47912ddf979aa59ffeb4120f6d64e5ca4b1b57f4a19bf73ce14f6ddee60e3c1663f17456d791815cafc16119a4780b15f0efede'
+        '5e164d8151a964cafd7d54be9a85113ae564d112e76c90952dbdf18adb3546e7cbdab9d4baac57f8019d288a9a44875be975fb5bf2bccea4447db7dc2b89cdcb'
+        '349943ba8c7e20c1dceb37052131c323fd263cc6360f872d705c6ccfa3d0197d7a9dcf928d3d875f63dafeb7cd35837bf3830e6c6e2e6a8cf8ac013f0f6394f2')
 noextract=()
 makedepends=("librime" "rime-prelude" "rime-essay" "sed" "python" "zip" "rsync")
 
@@ -33,6 +34,7 @@ declare -A _dict_filenames=(
   [tiger]="pro-tiger-fuzhu-dicts.zip"
   [wubi]="pro-wubi-fuzhu-dicts.zip"
   [zrm]="pro-zrm-fuzhu-dicts.zip"
+  [shouyou]="pro-shouyou-fuzhu-dicts.zip"
 )
 
 for _dict in "${!_dict_filenames[@]}"; do
@@ -67,6 +69,7 @@ declare -A _fuzhus=(
   [hanxin]="汉心"
   [wubi]="五笔前2"
   [tiger]="虎码首末"
+  [shouyou]="首右"
 )
 
 build() {
@@ -126,14 +129,14 @@ package_rime-wanxiang-pro-dict-nightly() {
 # - ${_pkgbase}-data
 # - ${_pkgbase}-dict-<schema>
 #   - ${_pkgbase}-dict
-# 
+#
 # ${_pkgbase}-pro-<schema>
 # - ${_pkgbase}-pro-data
 # - [${_pkgbase}-pro-data-fuzhu]
 #   - ${_pkgbase}-pro-data-<fuzhu>-fuzhu
 #     - ${_pkgbase}-pro-dict-<fuzhu>-fuzhu
 #       - ${_pkgbase}-pro-dict
-# 
+#
 for _schema in "${!_schemas[@]}"; do
     _schema_name=${_schemas[$_schema]}
 

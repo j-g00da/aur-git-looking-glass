@@ -1,0 +1,11 @@
+pkgbase = svxlink-sounds-en_us-heather-16k
+	pkgdesc = English language pack for SvxLink Server using voice Heather from Acapela Box
+	pkgver = 25.05
+	pkgrel = 1
+	url = https://github.com/sm0svx/svxlink-sounds-en_US-heather
+	arch = any
+	license = GPL-2.0-only
+	source = https://github.com/sm0svx/svxlink-sounds-en_US-heather/releases/download/25.05/svxlink-sounds-en_us-heather-16k-25.05.tar.bz2
+	sha256sums = e79e61bec17a24fad093edfb21e7f8ca51af33b9590db954b4789271db2957dd
+
+pkgname = svxlink-sounds-en_us-heather-16k

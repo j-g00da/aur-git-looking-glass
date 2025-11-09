@@ -1,6 +1,6 @@
 pkgbase = uzdoom-git
 	pkgdesc = A fork of GZDoom, a feature-centric fork of ZDoom
-	pkgver = 4.15pre+487+gf30fc8d
+	pkgver = 4.15pre+765+g4be5c66
 	pkgrel = 1
 	url = https://github.com/UZDoom/UZDoom
 	arch = x86_64
@@ -36,9 +36,7 @@ pkgbase = uzdoom-git
 	optdepends = zmusic-git: System-level ZMusic instead of static compile (requires cmake option change)
 	options = !lto
 	source = uzdoom::git+https://github.com/UZDoom/UZDoom.git
-	source = 0001-Enforce-file-paths.patch
 	sha256sums = SKIP
-	sha256sums = f9b5de60b4636b7de6a4c5434e4a320e145de9fb18e4d5d41334d575cf375811
 	optdepends_x86_64 = vulkan-driver: Vulkan renderer
 	optdepends_x86_64 = vulkan-icd-loader: Vulkan renderer
 

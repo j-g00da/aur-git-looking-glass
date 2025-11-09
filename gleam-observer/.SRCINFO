@@ -1,0 +1,21 @@
+pkgbase = gleam-observer
+	pkgdesc = Universal Hardware Monitor - TUI with Cyberpunk Aesthetics
+	pkgver = 1.5.2
+	pkgrel = 4
+	url = https://github.com/ind4skylivey/Gleam-Observer
+	install = gleam-observer.install
+	arch = x86_64
+	license = MIT
+	license = Apache
+	makedepends = rust
+	makedepends = cargo
+	makedepends = git
+	depends = gcc-libs
+	optdepends = nvidia-utils: NVIDIA GPU monitoring support
+	optdepends = mesa-utils: AMD GPU monitoring support
+	source = git+https://github.com/ind4skylivey/Gleam-Observer.git#tag=v1.5.2
+	source = gleam-observer.install
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = gleam-observer

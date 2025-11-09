@@ -1,0 +1,18 @@
+pkgbase = tilem-gtk3-git
+	pkgdesc = TI calculator emulator.
+	pkgver = r7.e36102e
+	pkgrel = 1
+	url = https://github.com/kuba160/tilem-gtk3
+	install = tilem.install
+	arch = i686
+	arch = x86_64
+	license = GPL
+	depends = gtk3
+	depends = libticalcs
+	optdepends = sdl: for sound support
+	provides = tilem=2.0
+	conflicts = tilem
+	source = git+https://github.com/kuba160/tilem-gtk3
+	md5sums = SKIP
+
+pkgname = tilem-gtk3-git

@@ -2,9 +2,9 @@
 # Contributor: Cogumelo <cogumelo@tutamail.com>
 
 pkgname=spectacle-no-purpose
-pkgver=6.4.91
+pkgver=6.5.2
 _dirver=$(echo $pkgver | cut -d. -f1-3)
-pkgrel=2
+pkgrel=1
 epoch=1
 pkgdesc='KDE screenshot capture utility, without the dependency on purpose. This disables the share menu'
 arch=(x86_64)
@@ -47,8 +47,8 @@ makedepends=(extra-cmake-modules
              plasma-wayland-protocols
              ninja)
 groups=(plasma)
-source=(https://download.kde.org/unstable/plasma/$_dirver/spectacle-$pkgver.tar.xz)
-sha256sums=('666144a898f4c4edd21a6c405e3f8dc839724c256083b9a1e290504524b42503')
+source=(https://download.kde.org/stable/plasma/$_dirver/spectacle-$pkgver.tar.xz)
+sha256sums=('4641fb164ddb3cfdef77597d8db75218e0c8b7ab63c0bdfc20ca0c7a2420992e')
 
 build() {
   cmake -B build -G Ninja -S spectacle-$pkgver \
