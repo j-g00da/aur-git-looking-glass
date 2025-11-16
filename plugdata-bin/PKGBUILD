@@ -15,22 +15,22 @@ arch=('x86_64')
 url='https://github.com/plugdata-team/plugdata'
 license=('GPL3')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/plugdata-team/plugdata/releases/download/v${pkgver}/plugdata-Debian-x64.tar.xz"
-  "${_name}.desktop"
-  "${_name}.png")
-sha512sums=('SKIP'
-  '1a64e0abbc5e2e9417bf3e2d7f0186b8137a92cebf2123adff550dba53468588c46200f5f40056fad745d583282e1bdd903da14dc064846f91309dc570bc25e3'
-  '6ed1228803ea10d51e793f6c8f008b87465314a1f6484121745e42f84fe7b443a8319fcdba862b17af2a1a8b04b7275c0d69eb7a07d0841676f671d25e0790b4')
+    "${_name}.desktop"
+    "${_name}.png")
+sha256sums=('1088c2439e29ee4d38c474226b4b749d9909c0077cf8bcaf084d3cc086956f99'
+            '22cdffc139b070f9c1ada241068eef8d88c5b25fc16c4a2cd67582660c98e922'
+            '6e583e7cf952a3b5a587ff85567406c9f3cb0d3516494368b89bc7af6871f869')
 
 package() {
-  # Desktop entry & pixmaps
-  install -Dm644 "${_name}.desktop" "${pkgdir}/usr/share/applications/${_name}.desktop"
-  install -Dm644 "${_name}.png" "${pkgdir}/usr/share/pixmaps/${_name}.png"
+    # Desktop entry & pixmaps
+    install -Dm644 "${_name}.desktop" "${pkgdir}/usr/share/applications/${_name}.desktop"
+    install -Dm644 "${_name}.png" "${pkgdir}/usr/share/pixmaps/${_name}.png"
 
-  mkdir -p "${pkgdir}/usr/lib/lv2/"
-  find . -name '*.lv2' -type d -exec cp -ar {} "${pkgdir}/usr/lib/lv2/" \;
-  mkdir -p "${pkgdir}/usr/lib/vst3/"
-  find . -name '*.vst3' -type d -exec cp -ar {} "${pkgdir}/usr/lib/vst3/" \;
-  mkdir -p "${pkgdir}/usr/lib/clap/"
-  find . -name '*.clap' -type f -exec cp -ar {} "${pkgdir}/usr/lib/clap/" \;
-  install -Dm755 -T ./plugdata/Standalone/* "${pkgdir}/usr/bin/${_name}"
+    mkdir -p "${pkgdir}/usr/lib/lv2/"
+    find . -name '*.lv2' -type d -exec cp -ar {} "${pkgdir}/usr/lib/lv2/" \;
+    mkdir -p "${pkgdir}/usr/lib/vst3/"
+    find . -name '*.vst3' -type d -exec cp -ar {} "${pkgdir}/usr/lib/vst3/" \;
+    mkdir -p "${pkgdir}/usr/lib/clap/"
+    find . -name '*.clap' -type f -exec cp -ar {} "${pkgdir}/usr/lib/clap/" \;
+    install -Dm755 -T ./plugdata/Standalone/* "${pkgdir}/usr/bin/${_name}"
 }

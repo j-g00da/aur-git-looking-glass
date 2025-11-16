@@ -1,15 +1,14 @@
 pkgbase = python-extra-platforms
 	pkgdesc = Detect platforms and group them by family
-	pkgver = 3.2.3
+	pkgver = 5.0.0
 	pkgrel = 1
 	url = https://github.com/kdeldycke/extra-platforms
 	arch = any
 	license = GPL2
 	makedepends = uv
 	depends = python
-	depends = python-boltons
 	depends = python-distro
-	source = python-extra-platforms-3.2.3.tar.gz::https://github.com/kdeldycke/extra-platforms/archive/refs/tags/v3.2.3.tar.gz
-	sha512sums = 7931864158d66f2fe7f6f999336c95d1b126972ce27d43454d73e631a9a7da0b805d36188df75952e03912d131339700ce9a631da52c3f295cff0562f2eca09f
+	source = python-extra-platforms-5.0.0.tar.gz::https://github.com/kdeldycke/extra-platforms/archive/refs/tags/v5.0.0.tar.gz
+	sha512sums = 297baea5e84becd727d481d0e7afa197e265fdd9c3d858948eb60bbb5fb55fc54d92541c63bcce6f700fb08a3f78dda74671ee38165ef8234706dbc39d711b19
 
 pkgname = python-extra-platforms

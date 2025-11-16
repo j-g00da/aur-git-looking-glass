@@ -1,0 +1,21 @@
+pkgbase = cosmic-ext-applet-updates-git
+	pkgdesc = Updates Applet for COSMIC Desktop (community extension)
+	pkgver = 1.1.0
+	pkgrel = 2
+	url = https://github.com/VintageTechie/cosmic-ext-applet-updates
+	arch = x86_64
+	license = MIT
+	makedepends = rust
+	makedepends = cargo
+	makedepends = git
+	depends = cosmic-panel
+	depends = pacman-contrib
+	optdepends = paru: For AUR support (preferred)
+	optdepends = yay: For AUR support (alternative)
+	provides = cosmic-ext-applet-updates
+	conflicts = cosmic-ext-applet-updates
+	conflicts = cosmic-ext-applet-updates-bin
+	source = git+https://github.com/VintageTechie/cosmic-ext-applet-updates.git
+	sha256sums = SKIP
+
+pkgname = cosmic-ext-applet-updates-git

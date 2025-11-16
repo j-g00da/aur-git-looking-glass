@@ -1,6 +1,6 @@
 pkgbase = mini-audicle
 	pkgdesc = Integrated Development + Performance Environment for ChucK
-	pkgver = 1.5.4.2
+	pkgver = 1.5.5.5
 	pkgrel = 1
 	url = https://github.com/ccrma/miniAudicle
 	arch = x86_64
@@ -13,9 +13,9 @@ pkgbase = mini-audicle
 	depends = libsndfile
 	depends = jack
 	optdepends = chuck: for documentation and command line interface
-	source = git+https://github.com/ccrma/miniAudicle.git#tag=4e057cba9dcddb6a368f3a625bfb66ee42c11815
+	source = git+https://github.com/ccrma/miniAudicle.git#tag=482a6d1093c40dc76c949c0a0b881eeb941c2fce
 	source = miniAudicle.desktop
-	b2sums = SKIP
-	b2sums = 44219938670cd42953c2e948702adea3a33efd99c858638c0b0f824defede799937cc0c49459c10820b44d9fce56c2a071c893fef4b8b27c7e08b348be5c9d7d
+	sha256sums = 9e4aa933195392ba746d8e836aa797b792cb2130b73a5c179892e3076ffb44d3
+	sha256sums = 3b78ff8420a6ed644a6963591491b2ab20c3f613fb03114a7c9044ded8ebd6f0
 
 pkgname = mini-audicle

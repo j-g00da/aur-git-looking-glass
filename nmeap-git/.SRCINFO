@@ -1,0 +1,29 @@
+pkgbase = nmeap-git
+	pkgdesc = Extensible NMEA-0183 parser written in standard C
+	pkgver = 0.3.r5.20090814.890153d
+	pkgrel = 4
+	url = https://nmeap.sourceforge.net/
+	arch = i686
+	arch = x86_64
+	arch = aarch64
+	arch = armv7h
+	license = BSD-3-Clause
+	makedepends = git
+	makedepends = binutils
+	makedepends = doxygen
+	depends = glibc
+	provides = nmeap=0.3.r5.20090814.890153d
+	provides = libnmeap=0.3.r5.20090814.890153d
+	provides = libnmeap.so
+	provides = libnmeap.a
+	conflicts = nmeap
+	conflicts = libnmeap
+	conflicts = libnmeap.so
+	conflicts = libnmeap.a
+	options = staticlibs
+	source = nmeap::git+git://git.code.sf.net/p/nmeap/code
+	source = buildfiles.2025.patch
+	sha256sums = SKIP
+	sha256sums = 3ca34f79ededb5d2216e062b1cfdb656c75f56b76082e563deafb50532b5d4c1
+
+pkgname = nmeap-git

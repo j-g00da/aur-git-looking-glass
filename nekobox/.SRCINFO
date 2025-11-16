@@ -1,0 +1,36 @@
+pkgbase = nekobox
+	pkgdesc = Cross-platform GUI proxy utility (Empowered by sing-box)
+	pkgver = 5.7.1
+	pkgrel = 1
+	url = https://github.com/qr243vbi/nekobox
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = bash
+	makedepends = gcc-libs
+	makedepends = glibc
+	makedepends = libx11
+	makedepends = qt6-base
+	makedepends = qt6-declarative
+	makedepends = cmake
+	makedepends = gendesk
+	makedepends = go
+	makedepends = protobuf
+	makedepends = qt6-tools
+	makedepends = vulkan-headers
+	makedepends = cpio
+	makedepends = upx
+	source = https://github.com/qr243vbi/nekobox/releases/download/5.7.1/nekobox-unified-source-5.7.1.tar.xz
+	sha256sums = 5d0445082df52ca0bb4bd26d7fba422cf089ac23eb8ab90f7c3d0c61817e7f0e
+
+pkgname = nekobox
+	depends = bash
+	depends = gcc-libs
+	depends = glibc
+	depends = libx11
+	depends = qt6-base
+	depends = qt6-declarative
+	depends = nekobox-core
+
+pkgname = nekobox-core
+	depends = gcc-libs
+	depends = glibc

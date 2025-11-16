@@ -1,7 +1,7 @@
 pkgbase = pgadmin4-web
 	pkgdesc = The web interface for pgAdmin, hosted under Apache HTTPD. pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
-	pkgver = 9.9
-	pkgrel = 2
+	pkgver = 9.10
+	pkgrel = 1
 	url = https://www.pgadmin.org/
 	arch = x86_64
 	license = PostgreSQL
@@ -9,13 +9,14 @@ pkgbase = pgadmin4-web
 	makedepends = patch
 	makedepends = gcc
 	makedepends = make
-	depends = pgadmin4-server>=9.9-1
+	depends = pgadmin4-server>=9.10-1
 	depends = apache
 	depends = mod_wsgi
 	provides = pgadmin4-web
-	source = pgadmin4-9.9.tar.gz::https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.9/source/pgadmin4-9.9.tar.gz
+	backup = etc/httpd/conf/extra/pgadmin4.conf
+	source = pgadmin4-9.10.tar.gz::https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.10/source/pgadmin4-9.10.tar.gz
 	source = web.patch
-	sha256sums = 108e16272f82a87eb6483f401f54e46326da8c48e014ab2dd742640dc6f995f2
+	sha256sums = 479b7b34b25be53b28174d3b688cebf91869204bec75752e06f7de1634c41507
 	sha256sums = c1cf92c06d5e6133212be5aeed06cdab60b22745c43a21136c9905c4f0724014
 
 pkgname = pgadmin4-web

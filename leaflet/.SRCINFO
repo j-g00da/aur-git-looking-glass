@@ -1,12 +1,14 @@
 pkgbase = leaflet
 	pkgdesc = A JavaScript library for mobile-friendly interactive maps.
-	pkgver = 1.4.0
-	pkgrel = 1
-	url = http://leafletjs.com/
+	pkgver = 1.9.4
+	pkgrel = 3
+	url = https://github.com/Leaflet/Leaflet
 	arch = any
 	license = BSD
-	source = leaflet-1.4.0.tar.gz::https://github.com/Leaflet/Leaflet/archive/v1.4.0.tar.gz
-	sha256sums = 24a5d44a8fd99d549ac797cefe7befd8c2f95d110394e35be4afc61eec00ee44
+	makedepends = npm
+	provides = leaflet
+	conflicts = leaflet
+	source = leaflet-1.9.4-LICENSE::https://raw.githubusercontent.com/Leaflet/Leaflet/refs/tags/v1.9.4/LICENSE
+	b2sums = f530831c19a88f78090584302071026351668753fdadd6b8e6420f0792dad3122fa772969ad54ba10b85cc24759477666e88f5437872d9ab95aa23729b2d649d
 
 pkgname = leaflet
-

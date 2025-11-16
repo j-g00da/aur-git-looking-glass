@@ -1,6 +1,6 @@
 pkgbase = kanata-bin
 	pkgdesc = Improve keyboard comfort and usability with advanced customization
-	pkgver = 1.9.0
+	pkgver = 1.10.0
 	pkgrel = 1
 	url = https://github.com/jtroo/kanata/
 	arch = x86_64
@@ -8,11 +8,9 @@ pkgbase = kanata-bin
 	depends = gcc-libs
 	depends = glibc
 	provides = kanata
-	source = kanata-1.9.0::https://github.com/jtroo/kanata/releases/download/v1.9.0/kanata
-	source = kanata_cmd_allowed-1.9.0::https://github.com/jtroo/kanata/releases/download/v1.9.0/kanata_cmd_allowed
+	source = https://github.com/jtroo/kanata/releases/download/v1.10.0/linux-binaries-x64-v1.10.0.zip
 	source = https://github.com/jtroo/kanata/raw/main/LICENSE
-	sha256sums = 440ce0f754adc32b1e9d0f47c0016c59222eaad7c1b2c86ce19f2559e4d54ffa
-	sha256sums = 947563c29394955f033c0d749446f7b7cd60279b7b96cd7eb51011e2cbea1aaf
+	sha256sums = fe6ba3768c1a7a60d94628a613f168f464b7ab88d34077e26896a7d3967e5eb6
 	sha256sums = a5681bf9b05db14d86776930017c647ad9e6e56ff6bbcfdf21e5848288dfaf1b
 
 pkgname = kanata-bin

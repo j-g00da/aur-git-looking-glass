@@ -1,32 +1,20 @@
 # Maintainer: VintageTechie <https://vintagetechie.com>
 pkgname=cosmic-updates-bin
-pkgver=0.3.1
+pkgver=1.1.0
 pkgrel=1
-pkgdesc="Universal package update checker applet for COSMIC Desktop (binary)"
+pkgdesc="DEPRECATED: Renamed to cosmic-ext-applet-updates-bin"
 arch=('x86_64')
-url="https://codeberg.org/VintageTechie/cosmic-updates"
+url="https://github.com/VintageTechie/cosmic-ext-applet-updates"
 license=('MIT')
-depends=('cosmic-panel')
-optdepends=(
-    'pacman: For Arch-based package management'
-    'checkupdates: For checking Pacman updates'
-)
+depends=('cosmic-ext-applet-updates-bin')
 provides=('cosmic-updates')
-conflicts=('cosmic-updates' 'cosmic-updates-git')
-source=("https://codeberg.org/VintageTechie/cosmic-updates/releases/download/v${pkgver}/cosmic-updates-${pkgver}-x86_64.tar.gz")
-sha256sums=('1e99c75c057f6337c8af60bb66925bea43932c41826ac13454e007b240f43dbf')
+conflicts=('cosmic-updates')
 
 package() {
-    cd "$srcdir"
-    
-    install -Dm755 "cosmic-updates" \
-        "$pkgdir/usr/bin/cosmic-updates"
-    
-    install -Dm644 "com.vintagetechie.CosmicUpdates.desktop" \
-        "$pkgdir/usr/share/applications/com.vintagetechie.CosmicUpdates.desktop"
-    
-    install -Dm644 "tux-normal.svg" \
-        "$pkgdir/usr/share/icons/hicolor/scalable/apps/tux-normal.svg"
-    install -Dm644 "tux-alert.svg" \
-        "$pkgdir/usr/share/icons/hicolor/scalable/apps/tux-alert.svg"
+    # This is a transitional package
+    install -dm755 "$pkgdir/usr/share/doc/$pkgname"
+    echo "This package has been renamed to cosmic-ext-applet-updates-bin" > \
+        "$pkgdir/usr/share/doc/$pkgname/README"
+    echo "Please install cosmic-ext-applet-updates-bin instead" >> \
+        "$pkgdir/usr/share/doc/$pkgname/README"
 }

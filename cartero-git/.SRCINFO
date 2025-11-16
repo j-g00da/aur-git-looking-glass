@@ -1,8 +1,8 @@
 pkgbase = cartero-git
 	pkgdesc = Make HTTP requests and test APIs
-	pkgver = v0.1.0.r32.80bef74
+	pkgver = v25.0.r1.9f2ee16
 	pkgrel = 1
-	url = https://github.com/danirod/cartero
+	url = https://cartero.danirod.es
 	arch = x86_64
 	license = GPL-3.0-or-later
 	makedepends = blueprint-compiler

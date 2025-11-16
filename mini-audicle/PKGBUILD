@@ -1,7 +1,7 @@
 # Maintainer: aik2 <aik2mlj@gmail.com>
 # Contributor: spider-mario <spidermario@free.fr>
 pkgname=mini-audicle
-pkgver=1.5.4.2
+pkgver=1.5.5.5
 pkgrel=1
 pkgdesc='Integrated Development + Performance Environment for ChucK'
 arch=('x86_64')
@@ -18,10 +18,10 @@ depends=('qt6-base' 'qscintilla-qt6' 'libsndfile'
 )
 makedepends=('git')
 optdepends=('chuck: for documentation and command line interface')
-source=('git+https://github.com/ccrma/miniAudicle.git#tag=4e057cba9dcddb6a368f3a625bfb66ee42c11815'
+source=('git+https://github.com/ccrma/miniAudicle.git#tag=482a6d1093c40dc76c949c0a0b881eeb941c2fce'
   'miniAudicle.desktop')
-b2sums=('SKIP'
-  '44219938670cd42953c2e948702adea3a33efd99c858638c0b0f824defede799937cc0c49459c10820b44d9fce56c2a071c893fef4b8b27c7e08b348be5c9d7d')
+sha256sums=('9e4aa933195392ba746d8e836aa797b792cb2130b73a5c179892e3076ffb44d3'
+            '3b78ff8420a6ed644a6963591491b2ab20c3f613fb03114a7c9044ded8ebd6f0')
 
 prepare() {
   cd miniAudicle/src

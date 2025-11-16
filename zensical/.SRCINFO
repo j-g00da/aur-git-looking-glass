@@ -1,0 +1,20 @@
+pkgbase = zensical
+	pkgdesc = A modern static site generator designed to simplify building and maintaining project documentation
+	pkgver = 0.0.6
+	pkgrel = 1
+	url = https://github.com/zensical/zensical
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = python-setuptools
+	makedepends = maturin
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = cargo
+	depends = python
+	depends = python-deepmerge
+	options = !strip
+	source = https://files.pythonhosted.org/packages/source/z/zensical/zensical-0.0.6.tar.gz
+	sha256sums = 25145034b94fe8fe0bf8f7438572fc300fb83d186acb32074723837e44015731
+
+pkgname = zensical

@@ -1,17 +1,17 @@
 # Maintainer: Dani Rodríguez <dani@danirod.es>
 pkgname=cartero-git
-pkgver=v0.1.0.r32.80bef74
+pkgver=v25.0.r1.9f2ee16
 pkgrel=1
 pkgdesc="Make HTTP requests and test APIs"
 arch=('x86_64')
-url="https://github.com/danirod/cartero"
+url="https://cartero.danirod.es"
 license=('GPL-3.0-or-later')
 depends=('curl' 'glib2' 'gtk4' 'gtksourceview5' 'libadwaita' 'openssl')
 makedepends=('blueprint-compiler' 'git' 'meson' 'rust')
 provides=("${pkgname%-git}")
 conflicts=("${pkgname%-git}")
 options=('!lto')
-source=("${pkgname%-git}::git+$url.git")
+source=("${pkgname%-git}::git+https://github.com/danirod/cartero.git")
 sha256sums=('SKIP')
 
 pkgver() {
@@ -29,7 +29,7 @@ build() {
 }
 
 check() {
-	meson test -C build --print-errorlogs || :
+	meson test -C build --print-errorlogs
 }
 
 package() {

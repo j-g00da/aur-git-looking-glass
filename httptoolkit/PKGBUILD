@@ -2,7 +2,7 @@
 # Contributor: Jaime Martínez Rincón <jaime(at)jamezrin(dot)name>
 
 pkgname=httptoolkit
-pkgver=1.23.0
+pkgver=1.23.2
 pkgrel=1
 epoch=1
 pkgdesc="Beautiful, cross-platform & open-source HTTP(S) proxy, analyzer and client."
@@ -10,8 +10,8 @@ arch=("x86_64")
 url="https://httptoolkit.com/"
 license=('AGPL-3.0-or-later')
 
-# package.json specifies electron 31 as of version 1.19.3
-_electron_version=31
+# package.json specifies electron 37 as of version 1.23.0
+_electron_version=37
 
 depends=("electron${_electron_version}" python)
 makedepends=(git npm)
@@ -20,7 +20,7 @@ _pkgrepo="https://github.com/httptoolkit/httptoolkit-desktop"
 source=("$pkgname-$pkgver.tar.gz::${_pkgrepo}/archive/refs/tags/v${pkgver}.tar.gz"
         'httptoolkit.desktop')
 
-sha256sums=('dfd5ba99cb626bb0891efb29596034fa2f14add46d4a57332d8da8dfab0083af'
+sha256sums=('df89912400f6716b7ccb333240764eaaac6d8a6b240e3ac098f7b019078332b9'
             'e8a8fd3ce7983753d3c990402c079a7876aad9b08e1822b5494ce4abdfc1a544')
 
 _archive_name="httptoolkit-desktop"

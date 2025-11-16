@@ -1,0 +1,19 @@
+pkgbase = illogical-updots
+	pkgdesc = GTK based updater for end4 dotfiles
+	pkgver = 1.0.8
+	pkgrel = 1
+	url = https://github.com/FoxyIsCoding/illogical-updots
+	arch = any
+	license = custom
+	depends = python
+	depends = git
+	depends = adwaita-icon-theme
+	depends = gdk-pixbuf2
+	depends = librsvg
+	optdepends = fish: required to run installer scripts (uses fish shell)
+	source = git+https://github.com/FoxyIsCoding/illogical-updots.git
+	source = illogical-updots.png::https://github.com/FoxyIsCoding/illogical-updots/blob/main/.github/assets/logo.png?raw=true
+	sha256sums = SKIP
+	sha256sums = f7b466432d66170f48c4c1715741b3abd424888ccd72e0ce2c9fb20c75c47854
+
+pkgname = illogical-updots

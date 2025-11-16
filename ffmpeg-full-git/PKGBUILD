@@ -1,7 +1,7 @@
 # Maintainer: Daniel Bermond <dbermond@archlinux.org>
 
 pkgname=ffmpeg-full-git
-pkgver=8.1.r121700.g36e5576a44
+pkgver=8.1.r121735.gbe99d2c0b2
 pkgrel=1
 _svt_hevc_ver='ed80959ebb5586aa7763c91a397d44be1798587c'
 _obs_studio_ver='32.0.2'
@@ -88,7 +88,7 @@ depends=(
     'openal'
     'openapv'
     'opencore-amr'
-    'opencv2'
+    'opencv'
     'openh264'
     'openjpeg2'
     'openvino'
@@ -175,11 +175,11 @@ sha256sums=('SKIP'
             'SKIP'
             '39e99b9fbdc77e7e87cfd9c7e8709d1d427627bad5b21b791019c887c8598d13'
             'bcee25589bb8052d9e155369f6759a05729a2022d2a8085c1aa4345108523077'
-            'df3758abe6defa46661280d85e82727d6efb40e1db5d24440805602ef4106d0b'
+            'c774053b7279fc79966491dac275cded87eff0483feeb42b52e4f727f746a984'
             'a164ebdc4d281352bf7ad1b179aae4aeb33f1191c444bed96cb8ab333c046f81'
-            'ea3ad0ec6a6aeee6e3bcfd15cd7d28f7b6084fa29ab98e845f76c2a7bbb55655'
+            '4096e3909c9b0141095e8d578b5ab70e48d854e63190ddf3a58ee45aa1c01ef9'
             '1c4f328bfb0dfedf4478f7b3659bcd08c591823a389b9e9e4eb8c35b0b3e0356'
-            'bf0a26b64987bf277ebf6d3a0132858c1caa420cd75e4b77565b220ba8ab40cb'
+            'bde0a8007f793e09a02fd5d70769a1dbdec0da83d3f70f320a6975c6040a6bc0'
             '98b3d28cbd13bb575c602785f6b8cb0b66ea3128ab5a3a82fc1645822320c136'
             '04a7176400907fd7db0d69116b99de49e582a6e176b3bfb36a03e50a4cb26a36')
 

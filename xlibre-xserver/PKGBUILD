@@ -1,9 +1,8 @@
-# Maintainer: artist for XLibre
-# Maintainer: Vitalii Kuzhdin <vitaliikuzhdin@gmail.com>
+# Maintainer: artist for XLibre <artist4xlibre@proton.me>
 
 pkgbase="xlibre-xserver"
 pkgname=("${pkgbase}"{,-bootstrap,-common,-devel,-xephyr,-xnest,-xvfb})
-pkgver=25.0.0.14
+pkgver=25.0.0.15
 pkgrel=1
 arch=('aarch64' 'x86_64')
 url="https://github.com/x11libre/xserver"
@@ -23,7 +22,7 @@ options=('!emptydirs')
 _pkgsrc="xserver-xlibre-xserver-${pkgver}"
 source=("${_pkgsrc}.tar.gz::${url}/archive/refs/tags/xlibre-xserver-${pkgver}.tar.gz"
         "xvfb-run"{,.1}) # with updates from FC master
-b2sums=('c5f2259a3d0d115611c64a5f20c2e0847008fdc8d4488af28d7c14b60fe09c15d4314e787c9994542a334e9a4f910ac796fddfd58fe709add623211f37118e55'
+b2sums=('cca8aa5208566c16089700ca7b103e6e5cd9b95926068631b1fb8040aef712c87057760ce73cbb848266a7189880d23dec244c4e38241b5c76fc1857040b1cac'
         '58c48ed893be841d14d3a09c9e1092a6da7bcb7fb773e1bf634c50a12e51ea3ad4aeba3843164a2834ee9f8ea95a7bca8b3ce8196a5328ce782724c082cb416f'
         '0e3738e099ee2b958df3e5a5adbdfcbd1150ad64645fdae70d74b50123c3f3d43f9f95f5e4bac82bf5c72b3deb978655b8c3177d37de0bd0a2a6e0e343863511')
 
@@ -62,7 +61,7 @@ package_xlibre-xserver() {
   pkgdesc="XLibre X server"
   depends=('dbus' 'glibc' 'libdrm' 'libepoxy' 'libgl' 'libpciaccess' 'libtirpc'
            'libunwind' 'libxau' 'libxcvt' 'libxdmcp' 'libxfont2' 'libbsd'
-           'libxshmfence>=1.1' 'nettle' 'pixman>=0.27.2' 'sh'
+           'libxshmfence>=1.1' 'nettle' 'pixman>=0.27.2' 'sh' 'libbsd'
            'systemd-libs>=209' 'xlibre-xserver-common' 'xlibre-input-libinput'
            "${pkgbase}-common=${pkgver}-${pkgrel}") # FS#52949
   # see xlibre-xserver*/hw/xfree86/common/xf86Module.h for ABI versions - we provide major numbers that drivers can depend on

@@ -2,7 +2,7 @@
 
 pkgname=jellyfin-media-player
 pkgver=1.12.0
-pkgrel=3
+pkgrel=5
 pkgdesc='Jellyfin Desktop Client'
 arch=('i686' 'x86_64')
 license=('GPL')

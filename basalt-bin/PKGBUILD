@@ -2,7 +2,7 @@
 #
 pkgname=basalt-bin
 _name=basalt
-pkgver=0.10.3
+pkgver=0.10.4
 pkgrel=1
 pkgdesc="TUI Application to manage Obsidian vaults and notes directly from the terminal"
 arch=('x86_64')
@@ -11,7 +11,7 @@ license=('MIT')
 provides=($_name)
 conflicts=($_name)
 source=("${url}/releases/download/${_name}%2Fv${pkgver}/${_name}-${pkgver}-x86_64-unknown-linux-gnu.tar.gz")
-sha256sums=('b2170d7b3e89f90709590b8d77d33ee91acded937064ecad26a0ae314d1b936f')
+sha256sums=('64d8fe9c6eb4c2fd353afd4bd909eb3cbbf6eafa4c513c0f861e972ee8f5e7aa')
 
 package() {
     # Install the binary

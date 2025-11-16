@@ -1,8 +1,8 @@
 # Maintainer: katt <magunasu.b97@gmail.com>
 
 pkgname=yt-dlp-git
-pkgver=2025.03.21.r6.g9d5e6de
-pkgrel=1
+pkgver=2025.11.12.r0.g5977782
+pkgrel=2
 pkgdesc='A youtube-dl fork with additional features and fixes (git)'
 arch=(any)
 url=https://github.com/yt-dlp/yt-dlp
@@ -24,6 +24,7 @@ optdepends=('ffmpeg: for video post-processing'
             'python-pyxattr: for writing xattr metadata (alternative option)'
             'phantomjs: for extractors with javascript code'
             'python-secretstorage: For -cookies-from-browser to access the GNOME keyring while decrypting cookies of Chromium-based browsers'
+            'yt-dlp-ejs: non-deprecated YouTube support'
             'python-curl-cffi: for impersonating browsers')
 provides=("${pkgname%-git}")
 conflicts=("${pkgname%-git}")

@@ -3,7 +3,7 @@
 
 _basename="xf86-video-vesa"
 pkgname="${_basename//xf86/xlibre}"
-pkgver=2.6.0.3
+pkgver=2.6.0.4
 pkgrel=1
 pkgdesc="XLibre vesa video driver"
 arch=('aarch64' 'x86_64')
@@ -16,7 +16,7 @@ conflicts=("${_basename}" 'xorg-server<21.1.1' 'X-ABI-VIDEODRV_VERSION<28' 'X-AB
 groups=('xlibre-drivers')
 _pkgsrc="${_basename}-xlibre-${_basename}-${pkgver}"
 source=("${_pkgsrc}.tar.gz::${url}/archive/refs/tags/xlibre-${_basename}-${pkgver}.tar.gz")
-b2sums=('4f8bdfb9c12050e248ebdf3b9647e2ec9a64c466a2f68842bb3617375e714f0d49bcceb2dfb0c499143444831fe571f07051b18f66b6637352aa901ab98aa672')
+b2sums=('ff51b7981be1388f5269efce5ee816804ff820413e677f0ffba70bd45354ada55bcc3decdda00c6ce92e8d31e088bf3c189650b014e2a8af325a7d5fc6defcf9')
 
 build() {
   # Since pacman 5.0.2-2, hardened flags are now enabled in makepkg.conf

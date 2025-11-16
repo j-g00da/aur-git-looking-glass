@@ -1,8 +1,9 @@
 # Maintainer: solsTiCe d'Hiver <solstice.dhiver@gmail.com>
+# Contributor: dreieck (https://aur.archlinux.org/account/dreieck)
 # Contributor: Alexander Paetzelt <techge+arch [ät] posteo [do] net>
 
 pkgname=kismet-git
-pkgver=r12218.4c6bed551
+pkgver=2025_11_R0.r12232
 pkgrel=1
 pkgdesc="a sniffer, WIDS, and wardriving tool for Wi-Fi, Bluetooth, Zigbee, RF"
 url="https://www.kismetwireless.net/"
@@ -53,7 +54,15 @@ sha256sums=('SKIP'
 
 pkgver() {
     cd "$srcdir/kismet"
-    printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+
+    # instead of running tools/mkversion.sh just use the current month and year
+    _ver="$(date '+%Y')_$(date '+%m')_R0"
+    _rev="$(git rev-list --count HEAD)"
+
+    # falling back to revision and HEAD commit
+    #_head="$(git rev-parse --short HEAD)"
+    #printf '%s' "r${_rev}.${_head}"
+    printf '%s' "${_ver}.r${_rev}"
 }
 
 prepare() {

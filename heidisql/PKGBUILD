@@ -2,22 +2,27 @@
 # Contributor: Liviu Cristian Mirea-Ghiban <liviu dot mirea at wecodepixels dot com>
 pkgname=heidisql
 pkgver=12.13.1.1
-pkgrel=2
-pkgdesc="A lightweight GUI for managing MySQL, PostgreSQL, and Microsoft SQL databases."
-arch=(any)
+pkgrel=13
+pkgdesc="Metapackage for HeidiSQL - wrapper script (install heidisql-qt6 or heidisql-gtk2)"
+arch=(x86_64)
 url="http://www.heidisql.com/"
-license=('GPL')
-depends=(gtk2 mariadb-libs postgresql-libs libperconaserverclient sqlite)
-# using the deb because it already conveniently includes related files like icons and a desktop entry (not included in the .tar.xz)
-source=("https://github.com/HeidiSQL/HeidiSQL/releases/download/v${pkgver}/heidisql_${pkgver}_amd64.deb")
-install="$pkgname.install"
-sha256sums=('e871bb5cf92476d026bd8c5887cb2a83e6f13877adb077ef5fbdd2edf2936122')
+license=('GPL-2.0')
+depends=(heidisql-client)
 
 package() {
-  cd "${pkgdir}"
-  # this extracts all into the pkgdir
-  tar xf "${srcdir}/data.tar.gz"
-  # fix directory permissions
-  find . -type d -exec chmod 755 {} +
-  chmod 775 usr/share/doc/heidisql usr/share/heidisql/locale
+  # Create wrapper script that prefers GTK2, falls back to Qt6
+  mkdir -p "${pkgdir}/usr/bin"
+  cat > "${pkgdir}/usr/bin/heidisql" << 'EOF'
+#!/bin/bash
+# Prefer GTK2, fallback to Qt6
+if [ -x /usr/bin/heidisql-gtk2 ]; then
+    exec /usr/bin/heidisql-gtk2 "$@"
+elif [ -x /usr/bin/heidisql-qt6 ]; then
+    exec /usr/bin/heidisql-qt6 "$@"
+else
+    echo "Error: No HeidiSQL variant found. Please install heidisql-gtk2 or heidisql-qt6." >&2
+    exit 1
+fi
+EOF
+  chmod +x "${pkgdir}/usr/bin/heidisql"
 }

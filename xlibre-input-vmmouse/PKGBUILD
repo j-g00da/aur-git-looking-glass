@@ -1,9 +1,8 @@
-# Maintainer:  Vitalii Kuzhdin <vitaliikuzhdin@gmail.com>
-# Maintainer:  artist for XLibre
+# Maintainer: artist for XLibre <artist4xlibre@proton.me>
 
 _basename="xf86-input-vmmouse"
 pkgname="${_basename//xf86/xlibre}"
-pkgver=13.2.0.2
+pkgver=13.2.0.3
 pkgrel=1
 pkgdesc="XLibre VMWare Mouse input driver"
 arch=('aarch64' 'x86_64')
@@ -16,7 +15,7 @@ conflicts=("${_basename}" 'xorg-server<21.1.1' 'X-ABI-XINPUT_VERSION<26' 'X-ABI-
 groups=('xlibre-drivers')
 _pkgsrc="${_basename}-xlibre-${_basename}-${pkgver}"
 source=("${_pkgsrc}.tar.gz::${url}/archive/refs/tags/xlibre-${_basename}-${pkgver}.tar.gz")
-b2sums=('0ed37d5583f566eb72627a369b31336a5d55ffe10e33ef547541223190eb95e29c95dc006c20c3a31d532f98f10056e5958fd82dec50a84d3dd91a4a82283d99')
+b2sums=('bc34c05fc910fe58515a4bf9f113a033a198e45b69d0b1af27b4f0b909e4ffd750e211148790872afe30595391f379fa15cec243b18a0bc701cb09a8c3df2f8c')
 
 build() {
   local configure_options=(

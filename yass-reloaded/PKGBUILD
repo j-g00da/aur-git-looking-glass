@@ -1,7 +1,7 @@
 # Maintainer: Jonas Bögle <aur@iwr.sh>
 
 pkgname=yass-reloaded
-pkgver=2025.8
+pkgver=2025.10
 pkgrel=1
 pkgdesc="Editor for creating, fine-tuning, organizing and printing Ultrastar karaoke songs"
 arch=('i686' 'x86_64')
@@ -14,7 +14,7 @@ source=(
 	"https://github.com/DoubleDee73/Yass/releases/download/${pkgver}/${_filename}"
 	"${pkgname}.desktop"
 	"${pkgname}.sh")
-sha256sums=('999852ec9a1a459b0e83d9314abf902c8f779f9b0b8ff89f3e33ea063e7dcea8'
+sha256sums=('201bad29c02d0484240a441dafd46b2bc995d0095da9578b1141a47baa470404'
             '3302b96b565e374f6de96c7139407bf8ee7b4bc206405f7489ee2cb109a57382'
             'b5111811746c39ccab9b1d65ff4db2456127b38dfeeafcb97d184d2e12ee4ba6')
 options=(!strip)

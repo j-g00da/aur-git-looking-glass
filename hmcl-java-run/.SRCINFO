@@ -1,23 +1,23 @@
 pkgbase = hmcl-java-run
 	pkgdesc = An unofficial build of HMCL that use aur/archlinux-java-run to select java version with javaFX (with aur/hmcl-new changes)
-	pkgver = 3.5.9
+	pkgver = 3.6.20
 	pkgrel = 1
 	url = https://github.com/HMCL-dev/HMCL
 	arch = any
 	license = GPL3
-	makedepends = java-environment>=17
+	makedepends = java-environment>=24
 	makedepends = gradle
-	depends = java-runtime>=17
+	depends = java-runtime>=24
 	depends = hicolor-icon-theme
 	depends = archlinux-java-run
-	optdepends = java-openjfx>=17: Require a Java version that support openjfx
+	optdepends = java-openjfx>=24: Require a Java version that support openjfx
 	provides = hmcl
 	conflicts = hmcl
-	source = HMCL-release-3.5.9.tar.gz::https://github.com/HMCL-dev/HMCL/archive/refs/tags/release-3.5.9.tar.gz
-	source = 0001-Target-Java-17.patch::https://aur.archlinux.org/cgit/aur.git/plain/0001-Target-Java-17.patch?h=hmcl-new&id=2985a23c21591fba55119a03efc9bc8899472190
-	source = 0002-Cleanup.patch::https://aur.archlinux.org/cgit/aur.git/plain/0002-Cleanup.patch?h=hmcl-new&id=2985a23c21591fba55119a03efc9bc8899472190
-	sha256sums = 7db1eb0af29bc978c145b8786a50bf47ef18218fff0985fd594e399b04a21682
-	sha256sums = ff7e7aa8d3fb8bcd74051d09b97a62ae71c06f7a006b63e5b3bacf044679c786
-	sha256sums = 28748583aad6b0eb6254fc0474d1f18a8680d4c6d787f13ce41bd5b0f7621cef
+	source = HMCL-release-3.6.20.tar.gz::https://github.com/HMCL-dev/HMCL/archive/refs/tags/release-3.6.20.tar.gz
+	source = 0001-Target-Java-21.patch::https://aur.archlinux.org/cgit/aur.git/plain/0001-Target-Java-21.patch?h=hmcl-new&id=7360c04f6630aba6699fcc904946722e785f3520
+	source = 0002-Cleanup.patch::https://aur.archlinux.org/cgit/aur.git/plain/0002-Cleanup.patch?h=hmcl-new&id=7360c04f6630aba6699fcc904946722e785f3520
+	sha256sums = 1b1ca436bb027e712eaca15f93468d992535f61d1cc25743dedd4369e573aa1e
+	sha256sums = c41660be2585c6feae10e6edd40d1c9cddffe8dae99b784f54624b5bbdf6208f
+	sha256sums = 1a75f0f5aaa498287c44bc6232a96c2c95f5daccbafb2456a001f8c7dacb9c66
 
 pkgname = hmcl-java-run

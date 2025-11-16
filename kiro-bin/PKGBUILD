@@ -2,7 +2,7 @@
 
 pkgname=kiro-bin
 _name="${pkgname%-bin}"
-pkgver=0.5.9
+pkgver=0.5.35
 pkgrel=1
 epoch=1
 pkgdesc='The AI IDE for prototype to production'
@@ -48,27 +48,27 @@ depends=(
 provides=("$_name")
 conflicts=("$_name")
 options=('!debug' '!strip')
-_timestamp=202511032205
-_baseurl=https://prod.download.desktop.kiro.dev/releases/$_timestamp--distro-linux-x64-tar-gz
+_baseurl=https://prod.download.desktop.kiro.dev/releases/stable/linux-x64/signed/$pkgver/tar
 source=(
-    "$_name-$_timestamp.tar.gz::$_baseurl/$_timestamp-distro-linux-x64.tar.gz"
+    "$_name-$pkgver.tar.gz::$_baseurl/kiro-ide-$pkgver-stable-linux-x64.tar.gz"
     "$_name-certificate.pem::$_baseurl/certificate.pem"
-    "$_name-$_timestamp-signature.bin::$_baseurl/signature.bin"
+    "$_name-$pkgver-signature.bin::$_baseurl/signature.bin"
     "$_name.desktop"
     "$_name-url-handler.desktop"
     "$_name-workspace.xml"
 )
-b2sums=('465c344e4679b07c327d10f8252f63b4b881d3c6d98ae878c721cad4f5f2e7c78a0f4e2da8eab3faf43b16ca6a08179cbbb41ab4a2fea6de6b23d6803fe74305'
+b2sums=('d1379bc916946361f3262fc91c3f353d71f8d38da7688170269ae94e7a0708d5260028374056445e1023d1c12761d67126c436de5002e30598a831df4a06ecbd'
         '09676f21f9b2821f7fb789fde98f1825f53d1df64ab74932ec2117f6cf06985bc5795ea7a016d90e9318035b2dd7c2f9706dccf44eb4cd092e4268a5f4760a26'
-        '7f534aaca67e3a8d9aa2ee1302f7285da00caec9411443c49119c06ba98532b606da80d2422d398c737d43faae588c3d9d84a1cdc1c2b53dc3f4c0b13cf2d3fa'
+        '6778015636c498f343cac254a87f4bdb2f08201b2377a79dd0437a326617211f2ceb232867b771df2fd0b08fe5946a57be7f5c65f8aca599f196acb1623adeae'
         '9abc47ecba54f83a1e318d12ef7e4262ce1aeef6933d95eda069e60fcec0c880802841aff268fe56e47a6a69253b409d7079687d2d8b7293f62e0034c3e3a9a7'
         'fd694d647fe06c439026f1a570fba288fb51bf41fe76de60af1e911255e4692b5a3cae1a8c279ed77a4990618b957591b79b6f152728374af97bea1189691014'
         'bf76f34c64e272831da98a3642f827b159582fafb3918db9f7334ed7ed9eace747148d6f0f863d2a5f1e751b7d43f109e35a8ac7ee1985c09d7ea90b73a40455')
 
 verify() {
+    cd "$SRCDEST"
     openssl x509 -pubkey -noout -in $_name-certificate.pem > kiro-pubkey.pem
-    openssl dgst -sha256 -verify kiro-pubkey.pem -signature $_name-$_timestamp-signature.bin \
-        $_name-$_timestamp.tar.gz
+    openssl dgst -sha256 -verify kiro-pubkey.pem -signature $_name-$pkgver-signature.bin \
+        $_name-$pkgver.tar.gz
 }
 
 package() {

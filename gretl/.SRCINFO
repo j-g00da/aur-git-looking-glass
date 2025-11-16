@@ -1,8 +1,8 @@
 pkgbase = gretl
 	pkgdesc = A cross-platform software package for econometric analysis, written in the C programming language
-	pkgver = 2025b
+	pkgver = 2025c
 	pkgrel = 1
-	url = http://gretl.sourceforge.net/
+	url = https://gretl.sourceforge.net/
 	arch = x86_64
 	license = GPL-3.0-only
 	depends = gtksourceview3
@@ -17,7 +17,7 @@ pkgbase = gretl
 	optdepends = JSON-GLib: provides for parsing of data from various websites
 	optdepends = openmpi: provides means for dividing labor among multiple nodes
 	options = !makeflags
-	source = https://downloads.sourceforge.net/project/gretl/gretl/2025b/gretl-2025b.tar.xz
-	sha256sums = 0d6d105d66f1d273164df8f13b5e59191fc3b2f14cede79ed030ecaab9b9bc73
+	source = https://downloads.sourceforge.net/project/gretl/gretl/2025c/gretl-2025c.tar.xz
+	sha256sums = 8e35cf39b5400f13787b4edacc7e67b30bda568447b320932e5b4348043cabf4
 
 pkgname = gretl

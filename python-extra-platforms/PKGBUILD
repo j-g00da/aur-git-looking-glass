@@ -3,17 +3,17 @@
 
 pkgname=python-extra-platforms
 _name=${pkgname#python-}
-pkgver=3.2.3
+pkgver=5.0.0
 pkgrel=1
 pkgdesc='Detect platforms and group them by family'
 url='https://github.com/kdeldycke/extra-platforms'
 makedepends=(uv)
-depends=(python python-boltons python-distro)
+depends=(python python-distro)
 #checkdepends=(python-pytest python-pytest-cov python-pytest-randomly)
 license=('GPL2')
 arch=('any')
 source=("${pkgname}-${pkgver}.tar.gz::https://github.com/kdeldycke/${_name}/archive/refs/tags/v${pkgver}.tar.gz")
-sha512sums=('7931864158d66f2fe7f6f999336c95d1b126972ce27d43454d73e631a9a7da0b805d36188df75952e03912d131339700ce9a631da52c3f295cff0562f2eca09f')
+sha512sums=('297baea5e84becd727d481d0e7afa197e265fdd9c3d858948eb60bbb5fb55fc54d92541c63bcce6f700fb08a3f78dda74671ee38165ef8234706dbc39d711b19')
 
 build() {
     cd "$srcdir/$_name-$pkgver"

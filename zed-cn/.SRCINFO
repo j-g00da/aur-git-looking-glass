@@ -1,6 +1,6 @@
 pkgbase = zed-cn
 	pkgdesc = zed-loc (Zed 汉化) github-TC999/zed-loc
-	pkgver = 20251108
+	pkgver = 20251115
 	pkgrel = 1
 	url = https://github.com/TC999/zed-loc
 	arch = x86_64
@@ -8,7 +8,7 @@ pkgbase = zed-cn
 	provides = zed-cn
 	conflicts = zed-cn
 	options = !debug
-	source = zed-cn-20251108.tar.gz::https://github.com/TC999/zed-loc/releases/download/20251108/zed-linux-x86_64.tar.gz
-	sha512sums = 01805a5a330bc1a651393d238542aef43606317867872bc1a51ac0e910d2c9e799eeda669a7b433642a228d691d91a58aaef76414ce8f72406273b1059ba712d
+	source = zed-cn-20251115.tar.gz::https://github.com/TC999/zed-loc/releases/download/20251115/zed-linux-x86_64.tar.gz
+	sha512sums = 5e539b09fb7e1806e12c23b531570f63f00326337d175e40fc4cd9085f213f67f5d6c446f2c154238516445834c43e6a803ba666fa53ab183f9651ca43a0df42
 
 pkgname = zed-cn

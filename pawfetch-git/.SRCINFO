@@ -1,0 +1,17 @@
+pkgbase = pawfetch-git
+	pkgdesc = hyfetch with little mods
+	pkgver = 2.0.7
+	pkgrel = 1
+	url = https://git.pawlickers.org/nataliawolf/pawfetch
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = cargo
+	makedepends = git
+	depends = gcc-libs
+	provides = pawfetch
+	conflicts = pawfetch
+	source = git+https://git.pawlickers.org/nataliawolf/pawfetch.git
+	sha256sums = SKIP
+
+pkgname = pawfetch-git

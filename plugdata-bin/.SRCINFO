@@ -25,8 +25,8 @@ pkgbase = plugdata-bin
 	source = plugdata-bin-0.9.2.tar.gz::https://github.com/plugdata-team/plugdata/releases/download/v0.9.2/plugdata-Debian-x64.tar.xz
 	source = plugdata.desktop
 	source = plugdata.png
-	sha512sums = SKIP
-	sha512sums = 1a64e0abbc5e2e9417bf3e2d7f0186b8137a92cebf2123adff550dba53468588c46200f5f40056fad745d583282e1bdd903da14dc064846f91309dc570bc25e3
-	sha512sums = 6ed1228803ea10d51e793f6c8f008b87465314a1f6484121745e42f84fe7b443a8319fcdba862b17af2a1a8b04b7275c0d69eb7a07d0841676f671d25e0790b4
+	sha256sums = 1088c2439e29ee4d38c474226b4b749d9909c0077cf8bcaf084d3cc086956f99
+	sha256sums = 22cdffc139b070f9c1ada241068eef8d88c5b25fc16c4a2cd67582660c98e922
+	sha256sums = 6e583e7cf952a3b5a587ff85567406c9f3cb0d3516494368b89bc7af6871f869
 
 pkgname = plugdata-bin

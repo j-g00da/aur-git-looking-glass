@@ -5,7 +5,7 @@
 
 # Maintainer: PragmaTwice <twice.mliu@gmail.com>
 pkgname=kvrocks
-pkgver=2.10.1
+pkgver=2.13.0
 pkgrel=1
 epoch=
 pkgdesc="A distributed key value NoSQL database that uses RocksDB as storage engine and compatible with Redis protocol"
@@ -26,7 +26,7 @@ install=
 changelog=
 source=("$pkgname-$pkgver.tar.gz::https://github.com/apache/kvrocks/archive/refs/tags/v$pkgver.tar.gz")
 noextract=()
-sha256sums=('1dc60ef0c9e92ce2d881ec16ecca14fa8ec057aba4e002098de6160bc2d1c03b')
+sha256sums=('6153af397deeb56af98e78cdbe093727dc6c62040467381c92eb7d1b694d1177')
 validpgpkeys=()
 
 prepare() {

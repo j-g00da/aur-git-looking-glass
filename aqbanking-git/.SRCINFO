@@ -1,0 +1,20 @@
+pkgbase = aqbanking-git
+	pkgdesc = A library for online banking and financial applications
+	pkgver = 6.7.7beta+6+g98ad900a
+	pkgrel = 2
+	url = https://www.aquamaniac.de/rdm/projects/aqbanking
+	install = aqbanking-git.install
+	arch = x86_64
+	license = GPL-2.0-only OR GPL-3.0-only
+	makedepends = git
+	depends = bash
+	depends = glibc
+	depends = gmp
+	depends = gwenhywfar-git
+	provides = aqbanking=6.7.7
+	conflicts = aqbanking
+	options = !makeflags
+	source = git+https://git.aquamaniac.de/git/aqbanking
+	sha256sums = SKIP
+
+pkgname = aqbanking-git

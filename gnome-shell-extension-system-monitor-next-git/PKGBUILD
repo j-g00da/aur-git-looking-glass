@@ -1,7 +1,7 @@
 # Maintainer: Simon Hayessen <simon@lnqs.io>
 
 pkgname=gnome-shell-extension-system-monitor-next-git
-pkgver=r1365.7958f01e5c
+pkgver=r1373.771f9b5
 pkgrel=1
 pkgdesc="Display system information in GNOME Shell status bar (next fork)"
 arch=('any')
@@ -26,5 +26,5 @@ package() {
 
 pkgver() {
   cd "$_reponame"
-  printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+  printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short=7 HEAD)"
 }
