@@ -1,0 +1,15 @@
+pkgbase = phantom-wallet-bin
+        pkgdesc = A crypto wallet reimagined for DeFi & NFTs
+        pkgver = 25.43.3
+        pkgrel = 1
+        url = https://phantom.com
+        arch = x86_64
+        license = MIT
+        depends = hicolor-icon-theme
+        optdepends = fuse2: for direct AppImage execution
+        optdepends = fuse3: for direct AppImage execution
+        options = !strip
+        source =
+        sha256sums = df3c2011918e747bbc3bc66fc7c5e312a16dbe732d821a2b64ac2d012d1f2ce0
+
+pkgname = phantom-wallet-bin

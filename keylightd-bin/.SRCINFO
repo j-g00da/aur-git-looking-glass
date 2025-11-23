@@ -1,16 +1,20 @@
 pkgbase = keylightd-bin
 	pkgdesc = Daemon and CLI tool for managing HTTP-based Key Lights, including Elgato models
-	pkgver = 0.0.24
+	pkgver = 0.0.46
 	pkgrel = 1
 	url = https://github.com/jmylchreest/keylightd
-	license = MIT
-	conflicts = keylightd
-	provides = keylightd
 	arch = aarch64
-	source_aarch64 = https://github.com/jmylchreest/keylightd/releases/download/v0.0.24/keylightd_0.0.24_linux_arm64.tar.gz
-	sha256sums_aarch64 = 556a38b17bbdac4f2aaa57e3ee1b81051b05db5ca311210b713ae2798642b9b6
 	arch = x86_64
-	source_x86_64 = https://github.com/jmylchreest/keylightd/releases/download/v0.0.24/keylightd_0.0.24_linux_amd64.tar.gz
-	sha256sums_x86_64 = 235f3decf59649e96981d1b6df7042c5ede956f0c2dcb7b2bcd7c66fc688e4d6
-	
+	license = MIT
+	provides = keylightd
+	conflicts = keylightd
+	source_aarch64 = keylightd-bin_0.0.46_aarch64.tar.gz::https://github.com/jmylchreest/keylightd/releases/download/v0.0.46/keylightd_0.0.46_linux_arm64.tar.gz
+	source_aarch64 = keylightd-bin_0.0.46_aarch64_sbom.spdx.json::https://github.com/jmylchreest/keylightd/releases/download/v0.0.46/keylightd_0.0.46_linux_arm64_sbom.spdx.json
+	sha256sums_aarch64 = 815a5c722c96563e4fffecea01f5738c722d515d4c11274a720ca17646743268
+	sha256sums_aarch64 = cc2f9d8293a67d2e5fbfae40f17bfb6bccfb8d8e47c89d70d5da22a961fd4cce
+	source_x86_64 = keylightd-bin_0.0.46_x86_64.tar.gz::https://github.com/jmylchreest/keylightd/releases/download/v0.0.46/keylightd_0.0.46_linux_amd64.tar.gz
+	source_x86_64 = keylightd-bin_0.0.46_x86_64_sbom.spdx.json::https://github.com/jmylchreest/keylightd/releases/download/v0.0.46/keylightd_0.0.46_linux_amd64_sbom.spdx.json
+	sha256sums_x86_64 = 8b19170920996bbc508c08ba8d14f20507057c809577bdb6db6cd32651701e7c
+	sha256sums_x86_64 = 9a8ff2b82c683fb3b1cb5f1819c54f86935c80159d7dbe32f9de410b49e9ef75
+
 pkgname = keylightd-bin

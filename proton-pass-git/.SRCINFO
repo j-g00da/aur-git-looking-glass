@@ -1,0 +1,26 @@
+pkgbase = proton-pass-git
+	pkgdesc = Proton official password manager
+	pkgver = 1.32.11.r51486.66b7aad
+	pkgrel = 1
+	url = https://proton.me/pass
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = git
+	makedepends = jq
+	makedepends = nodejs-lts-jod
+	makedepends = npm
+	makedepends = rustup
+	makedepends = yarn
+	depends = bash
+	depends = electron37
+	depends = hicolor-icon-theme
+	provides = proton-pass
+	conflicts = proton-pass
+	source = ProtonWebClients::git+https://github.com/ProtonMail/WebClients.git
+	source = proton-pass.desktop
+	source = proton-pass.sh
+	b2sums = SKIP
+	b2sums = 8c98df9532c76667ee88211be72b14b233f9fb84e921bfb045ae6f9d74dc314489a9917452246018c1923e9d99fb5e195cf137f656e1f1d17bd8d22f9369c054
+	b2sums = 84235372e9f8b9f5a8129c46e6fa75a9b7de66dce0b66e91ebfed25001d8c4ba3b62e7f186fcffc13c8344d33e0c7f7472405ac4b963ae0ab7fc59d9195e925e
+
+pkgname = proton-pass-git

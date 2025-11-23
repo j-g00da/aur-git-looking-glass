@@ -1,0 +1,19 @@
+pkgbase = mct
+	pkgdesc = A lightweight and simple text editor
+	pkgver = 1.2
+	pkgrel = 1
+	url = https://git.meowcat.site/meowcat/meowcats-text-editor
+	arch = any
+	license = custom
+	depends = java-runtime
+	depends = libxi
+	depends = libxrender
+	depends = libxrandr
+	depends = libxtst
+	depends = libxinerama
+	source = mct.jar::https://files.meowcat.site/aur-files/mct1.5/mct.jar
+	source = mct
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = mct

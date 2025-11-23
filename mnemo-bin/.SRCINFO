@@ -1,6 +1,6 @@
 pkgbase = mnemo-bin
 	pkgdesc = Note-taking app designed to enhance the retention of information.
-	pkgver = 0.2.1
+	pkgver = 0.2.4
 	pkgrel = 1
 	url = https://github.com/lemueldls/mnemo
 	arch = x86_64
@@ -16,7 +16,7 @@ pkgbase = mnemo-bin
 	depends = webkit2gtk-4.1
 	options = !strip
 	options = !emptydirs
-	source_x86_64 = https://github.com/lemueldls/mnemo/releases/download/mnemo-v0.2.1/Mnemo_0.2.1_amd64.deb
-	sha256sums_x86_64 = 0f1825f1ba7c5fb62bf6bfdf47dd2ae3f67ddc08e21ca8c8c4f5ed80b6bc8ee2
+	source_x86_64 = https://github.com/lemueldls/mnemo/releases/download/mnemo-v0.2.4/Mnemo_0.2.4_amd64.deb
+	sha256sums_x86_64 = 5342e5193e190806681fa3c0e37e189c1f101573381a0c9fa83f4c05adedc4cb
 
 pkgname = mnemo-bin

@@ -1,0 +1,14 @@
+pkgbase = earctl
+	pkgdesc = A Rust API/CLI that allows every device on your network to control your Nothing earbuds
+	pkgver = 0.1.2
+	pkgrel = 1
+	url = https://github.com/DaanHessen/earctl
+	arch = x86_64
+	license = AGPL-3.0-or-later
+	makedepends = cargo
+	depends = dbus
+	options = !lto
+	source = earctl-0.1.2.tar.gz::https://github.com/DaanHessen/earctl/archive/v0.1.2.tar.gz
+	sha256sums = cec6834f6694fb4412eba1ea788f708778ce4dff14358ce45c924653d55c043f
+
+pkgname = earctl

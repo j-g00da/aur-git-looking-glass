@@ -1,0 +1,26 @@
+pkgbase = swisstag-git
+	pkgdesc = Automated music tagger using Genius and MusicBrainz
+	pkgver = 5.0.r0.g1234567
+	pkgrel = 1
+	url = https://github.com/doromiert/swisstag
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = git
+	depends = python
+	depends = python-mutagen
+	depends = python-musicbrainzngs
+	depends = python-levenshtein
+	depends = python-requests
+	depends = python-unidecode
+	depends = python-pillow
+	depends = python-lyricsgenius
+	depends = python-thefuzz
+	depends = python-syncedlyrics
+	depends = python-rapidfuzz
+	depends = chromaprint
+	provides = swisstag
+	conflicts = swisstag
+	source = git+https://github.com/doromiert/swisstag
+	sha256sums = SKIP
+
+pkgname = swisstag-git

@@ -3,7 +3,7 @@
 pkgname='plugdata-git'
 _name='plugdata'
 pkgdesc='Plugin wrapper around Pure Data with a new JUCE GUI, allowing patching in DAWs'
-pkgver=r8921.2787bd8
+pkgver=r9807.11b5050
 pkgrel=1
 groups=('vst-plugins' 'lv2-plugins' 'vst3-plugins' 'pro-audio')
 depends=('freetype2' 'libx11' 'libxrandr' 'libxext' 'libxinerama' 'webkit2gtk' 'libxrender' 'libxinerama' 'libxcursor' 'alsa-lib' 'curl')
@@ -29,6 +29,10 @@ pkgver() {
 prepare() {
   cd "${srcdir}/${_name}"
   git submodule update --init --recursive --depth=1
+
+  # Disable VDPAU in FFmpeg to avoid linking issues
+  sed -i 's/--disable-vaapi/--disable-vaapi --disable-vdpau/' \
+    Libraries/pd-else/Source/Shared/ffmpeg/build_ffmpeg.sh
 }
 
 build() {

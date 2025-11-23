@@ -1,6 +1,6 @@
 pkgbase = mkinitcpio-hook-neoshy
 	pkgdesc = Custom mkinitcpio hook to mount container file from block device before running encrypt-hook
-	pkgver = 1.1
+	pkgver = 1.2
 	pkgrel = 1
 	url = https://github.com/andr31ab/mkinitcpio-hook-neoshy
 	arch = any
@@ -12,9 +12,9 @@ pkgbase = mkinitcpio-hook-neoshy
 	source = README.md
 	source = README-ru.md
 	source = CHANGELOG.md
-	sha256sums = 61c0a720e08c2d7af3639c691d95e3e3fe607c576346c2aa294c25383e86f121
-	sha256sums = 9031dc358ae5ac9f79117afa9735b4ae318eeeda63c9a8f46b154bdc6c4b369c
-	sha256sums = 18f616624687fcfda5e107481af418ea61ebbf331d1c83a3c317645cf545aaac
+	sha256sums = ee2565a266693e3d17daafcb6b9b45af997f892d1d3b1e00cae85c14b00c2d2c
+	sha256sums = 3414397af335d5073e8bc479f1f163e6367aab0f5aad334f799f3c6cf315f0c5
+	sha256sums = d0bd4ce9a9ae94f83b0eb4742c32b2aefbfecccdcdb168fcc619b850eaa796f9
 	sha256sums = 18c5effa27400a07e40433d86f3eb0f313f8ad1879f56ca932db04b19d18666a
 	sha256sums = 2753a088d3c423ff550947a060d8c68d4fcb49a7eafc58f05921781a4a00e482
 

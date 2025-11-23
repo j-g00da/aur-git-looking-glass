@@ -1,12 +1,11 @@
 # Maintainer: Jason Go <jasongo@jasongo.net>
-# Contributor:
 
 _rust_version='nightly-2025-09-23'
 _sdk='std-sdk'
 _suffix="$( [ "$_sdk" == "std-sdk" ] && echo "" || echo "-$_sdk" )"
 pkgname="llrt$_suffix"
 pkgver=0.7.0beta
-pkgrel=25
+pkgrel=27
 pkgdesc='Lightweight JavaScript runtime, compiler, REPL, and test runner (STANDARD @aws-sdk bundled)'
 arch=('x86_64' 'aarch64')
 url='https://github.com/awslabs/llrt'
@@ -31,7 +30,7 @@ sha256sums_aarch64=('5270159a87dba69a48df112ac833172c1269b6242da478d95245317de98
 _carch="$( [ "$CARCH" == "aarch64" ] && echo "arm64" || echo "x64" )"
 
 prepare() {
-  cd llrt
+  cd llrt || exit 1
 
   # Use bsdtar instead of zip
   sed -i "s#zip -j#bsdtar -s ',^.*/,,g' -caf#g" Makefile
@@ -46,15 +45,16 @@ prepare() {
   chmod +x "$_pnpm"
 
   echo "Downloading..."
-  parallel --halt now,fail=1 --keep-order --latest-line --link --tagstring '{1}:' '{2}' \
+  parallel --halt now,fail=1 --line-buffer --link --tagstring '\033[1;{2}m{1}:' '{3} && echo "Done!"' \
     ::: '      Git submodules' '   Rust dependencies' 'AWS SDK dependencies' \
-    ::: 'git submodule update --init --checkout && echo "Done!"' \
-        "rustup toolchain install $_rust_version --target $CARCH-unknown-linux-musl && make stdlib-$_carch && cargo fetch --target $CARCH-unknown-linux-musl --color never && echo 'Done!'" \
-        "$_pnpm install && echo 'Done!'"
+    ::: 33 34 32 \
+    ::: 'git submodule update --init --checkout' \
+        "rustup toolchain install $_rust_version --target $CARCH-unknown-linux-musl && make stdlib-$_carch && cargo +$_rust_version fetch --target $CARCH-unknown-linux-musl --color never" \
+        "$_pnpm install"
 }
 
 build() {
-  cd llrt
+  cd llrt || exit 1
   make "libs-$_carch"
   make "llrt-linux-$_carch$_suffix.zip"
 }

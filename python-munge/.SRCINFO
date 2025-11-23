@@ -1,6 +1,6 @@
 pkgbase = python-munge
 	pkgdesc = Data manipulation client/library
-	pkgver = 1.3.0
+	pkgver = 1.4.0
 	pkgrel = 1
 	url = https://github.com/20c/munge
 	changelog = CHANGELOG.md
@@ -10,13 +10,13 @@ pkgbase = python-munge
 	checkdepends = python-toml
 	makedepends = python-build
 	makedepends = python-installer
-	makedepends = python-poetry-core
+	makedepends = python-hatchling
 	depends = python-requests
 	depends = python-click
 	optdepends = python-toml
 	optdepends = python-tomlkit
 	optdepends = python-yaml
-	source = munge-1.3.0.tar.gz::https://github.com/20c/munge/archive/1.3.0.tar.gz
-	sha512sums = 40abfd618931f97ac59722cf065159a5dfa854c3515670e0f24f7d617bf47e47ab259339796a25d269128c96de77e8a365fe21ee63a41150bbacb7f47159e143
+	source = munge-1.4.0.tar.gz::https://github.com/20c/munge/archive/v1.4.0.tar.gz
+	sha512sums = 39b7bc6278a31edc70747deec157274754333bdbdde8d8cc90348b3ddb2e77af73f64e31139be9e5577f73a442097426ce393112a9a8b246faca75cf4a59409c
 
 pkgname = python-munge

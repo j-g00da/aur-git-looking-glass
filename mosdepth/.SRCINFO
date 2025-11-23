@@ -1,6 +1,6 @@
 pkgbase = mosdepth
 	pkgdesc = Fast BAM/CRAM depth calculation for WGS, exome, or targeted sequencing
-	pkgver = 0.3.11
+	pkgver = 0.3.12
 	pkgrel = 1
 	url = https://github.com/brentp/mosdepth
 	arch = x86_64
@@ -8,7 +8,7 @@ pkgbase = mosdepth
 	makedepends = git
 	makedepends = nim
 	depends = htslib
-	source = mosdepth-0.3.11.tar.gz::https://github.com/brentp/mosdepth/archive/v0.3.11.tar.gz
-	sha256sums = 4becd1e74a81ed590588ed2745ef7f1443d0a5aad35f9880a2d452d56a7227ff
+	source = mosdepth-0.3.12.tar.gz::https://github.com/brentp/mosdepth/archive/v0.3.12.tar.gz
+	sha256sums = 8047865fb446b7b4da3dc11226febf00e8dfdaf4e203972a53aeb5fb037bdb4d
 
 pkgname = mosdepth

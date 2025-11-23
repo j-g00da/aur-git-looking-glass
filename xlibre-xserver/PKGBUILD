@@ -2,7 +2,7 @@
 
 pkgbase="xlibre-xserver"
 pkgname=("${pkgbase}"{,-bootstrap,-common,-devel,-xephyr,-xnest,-xvfb})
-pkgver=25.0.0.15
+pkgver=25.0.0.16
 pkgrel=1
 arch=('aarch64' 'x86_64')
 url="https://github.com/x11libre/xserver"
@@ -22,7 +22,7 @@ options=('!emptydirs')
 _pkgsrc="xserver-xlibre-xserver-${pkgver}"
 source=("${_pkgsrc}.tar.gz::${url}/archive/refs/tags/xlibre-xserver-${pkgver}.tar.gz"
         "xvfb-run"{,.1}) # with updates from FC master
-b2sums=('cca8aa5208566c16089700ca7b103e6e5cd9b95926068631b1fb8040aef712c87057760ce73cbb848266a7189880d23dec244c4e38241b5c76fc1857040b1cac'
+b2sums=('9c3f599e97b2726afb1b54eb62b6af07d5123e471793494831741a835ab683c0733103a7291e413a1c99e68dc718d3d00f4de03b3ea13fa3df6300ecd8863159'
         '58c48ed893be841d14d3a09c9e1092a6da7bcb7fb773e1bf634c50a12e51ea3ad4aeba3843164a2834ee9f8ea95a7bca8b3ce8196a5328ce782724c082cb416f'
         '0e3738e099ee2b958df3e5a5adbdfcbd1150ad64645fdae70d74b50123c3f3d43f9f95f5e4bac82bf5c72b3deb978655b8c3177d37de0bd0a2a6e0e343863511')
 
@@ -122,7 +122,7 @@ package_xlibre-xserver-common() {
   arch=('any')
   depends=('xkeyboard-config' 'xorg-setxkbmap' 'xorg-xkbcomp')
   provides=('xorg-server-common' 'xlibre-server-common')
-  conflicts=('xorg-server-common' 'xlibre-server-common')
+  conflicts=('xorg-server-common' 'xlibre-server-common' "xorg-server<$pkgver")
 
   cd "${srcdir}"
   meson install -C "${_pkgsrc}/build" --destdir "${pkgdir}"

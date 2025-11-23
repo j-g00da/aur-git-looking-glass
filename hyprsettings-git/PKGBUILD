@@ -1,6 +1,6 @@
 # Maintainer: Paul Harvey <hed-phsuarnaba@smu.edu.ph>
 pkgname=hyprsettings-git
-pkgver=0.0.0   # placeholder; real version set by pkgver()
+pkgver=0.6.1   # placeholder; real version set by pkgver()
 pkgrel=1
 pkgdesc="Configurator for Hyprland (alpha, development version, git snapshot)"
 arch=('x86_64')
@@ -15,17 +15,14 @@ md5sums=('SKIP')
 
 pkgver() {
   cd "$srcdir/$pkgname"
+  git fetch --tags
   local desc tag ver rev commit
-  if desc=$(git describe --tags --long --match 'v*' --abbrev=7 2>/dev/null); then
-    # Example: v0.1.6alpha-20-ge8ad6b7
-    tag=${desc%%-*}                      # v0.1.6alpha
-    rev=${desc#*-}; rev=${rev%%-*}       # 20
-    commit=${desc##*-}; commit=${commit#g}  # e8ad6b7
-    ver=${tag#v}                         # 0.1.6alpha
-    printf "%s.r%s.g%s" "$ver" "$rev" "$commit"
-  else
-    printf "0.0.0.r%s.g%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
-  fi
+  desc=$(git describe --tags --long --abbrev=7)
+  tag=${desc%%-*}
+  rev=${desc#*-}; rev=${rev%%-*}
+  commit=${desc##*-}; commit=${commit#g}
+  ver=$tag
+  printf "%s.r%s.g%s" "$ver" "$rev" "$commit"
 }
 
 package() {

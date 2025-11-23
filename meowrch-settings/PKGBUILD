@@ -1,11 +1,11 @@
 # Maintainer: dimflix <dimflix.official@gmail.com>
 # Updated with automatic SHA256 hash calculation
 pkgname=meowrch-settings
-pkgver=2.0.0
-pkgrel=9
+pkgver=3.0
+pkgrel=1
 pkgdesc="System optimization settings for Meowrch distribution with dconf integration"
 arch=('any')
-url="https://github.com/meowrch/meowrch"
+url="https://github.com/meowrch/meowrch-settings"
 license=('MIT')
 depends=('systemd' 'zram-generator' 'pipewire' 'earlyoom' 'pciutils' 'dconf')
 optdepends=('nvidia-utils: for NVIDIA GPU optimizations'
@@ -13,11 +13,11 @@ optdepends=('nvidia-utils: for NVIDIA GPU optimizations'
             'intel-ucode: for Intel CPU microcode'
             'hdparm: for HDD performance optimizations')
 install=meowrch-settings.install
-source=("meowrch-settings-2.0.0-9.tar.gz::$url/archive/refs/heads/v3.0.tar.gz")
-sha256sums=('d76ea0985d68d45d03349bd0f8a2ba87d8ac82966e597e95307d1c55ba8e13dd')
+source=("$url/archive/refs/tags/v$pkgver.tar.gz")
+sha256sums=('4ebd6818eef538d72dc29ddadfbb0e15e322077a0d01df68bad3689d50eb5cdf')
 
 package() {
-    cd "$srcdir/meowrch-3.0/aur-packages/meowrch-settings"
+    cd "$srcdir/meowrch-settings-$pkgver"
     
     # Copy organized structure
     cp -r "etc" "$pkgdir/"

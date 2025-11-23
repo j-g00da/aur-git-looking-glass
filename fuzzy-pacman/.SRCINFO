@@ -1,0 +1,18 @@
+pkgbase = fuzzy-pacman
+	pkgdesc = Fuzzy pacman wrapper using skim (sk). Provides interactive package and system management via subcommands.
+	pkgver = 2.0.0
+	pkgrel = 1
+	url = https://github.com/brunos3d/fuzzy-pacman
+	arch = any
+	license = MIT
+	depends = bash
+	depends = pacman
+	depends = skim
+	depends = systemd
+	optdepends = git: improves some file lookup operations
+	source = fpm
+	source = fpm.1
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = fuzzy-pacman

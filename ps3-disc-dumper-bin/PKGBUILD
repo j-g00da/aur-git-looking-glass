@@ -1,6 +1,6 @@
 # Maintainer: Viraaj Basi <viraajbasi@gmail.com>
 pkgname=ps3-disc-dumper-bin
-pkgver=4.3.9
+pkgver=4.4.0
 pkgrel=1
 pkgdesc="A handy utility to make decrypted PS3 disc dumps"
 arch=('x86_64')
@@ -16,8 +16,8 @@ source=(
 	"ps3-disc-dumper.desktop"
 )
 b2sums=(
-	'718d8c089db1aa43c5703f7944e12412c11e5e915d02c4a4bcc18ef69d1afd850edca3b8c936e90bf15a6ffd80a641c9121dd4db81499d2b87dbb7266dc9bb1d'
-	'19eb4568705f57e2d1c687c54bebec7ec4f54889a3af82b720534d01a8d5cbb34136acdbe5f11cd9e07db5ea9fe08bf63c5b976da7d9a47dcde86e14e5d192f3'
+	'b953820e3cc8efa9d526faeb756fac9fc08522399657ef7a7e2ff590640f06ba17f3f84a4c92f330e6299c3f954f5538fb558c3bd8bf4b276322f6bc5e96d0a4'
+	'78636ff31ba10b36744b0458d5c6abaa633dc604411cd1f0d271f13169a6b6819f1fa5c0a88a3557228b3605c81d7edd9b63d86544449624bdf712b414e413d4'
 	'06b17f6705cd3e82e3d6cade872e25464346c00624fce88f1f5a3d3ebc1d163a4a5d0f73ba1fe07e0f5f372c7510f054976bd416bcb1088fb4b05487fcaba0d7'
 )
 

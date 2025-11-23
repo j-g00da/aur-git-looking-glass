@@ -1,0 +1,17 @@
+pkgbase = pda-git
+	pkgdesc = personal digital assistant! a key-value store with rich template support
+	pkgver = 2025.47
+	pkgrel = 2
+	url = https://github.com/llywelwyn/pda
+	arch = x86_64
+	license = MIT
+	makedepends = go
+	makedepends = git
+	provides = pda
+	conflicts = pda
+	options = !debug
+	options = strip
+	source = pda-git::git+https://github.com/llywelwyn/pda.git
+	sha256sums = SKIP
+
+pkgname = pda-git

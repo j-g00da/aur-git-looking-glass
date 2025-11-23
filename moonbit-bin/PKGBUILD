@@ -1,5 +1,5 @@
 pkgname=moonbit-bin
-pkgver=0.1.20251111
+pkgver=0.1.20251117
 pkgrel=1
 pkgdesc="Intelligent developer platform for Cloud and Edge using WASM"
 arch=('x86_64')
@@ -10,9 +10,16 @@ provides=("moonbit")
 conflicts=("moonbit")
 options=('!debug')
 _origin="https://cli.moonbitlang.com"
-source=("https://cli.moonbitlang.cn/binaries/latest/moonbit-linux-x86_64.tar.gz"
-        "https://cli.moonbitlang.cn/cores/core-latest.tar.gz"
-        "moon.sh")
+# Save downloads with a versioned local filename to avoid reusing an older
+# file that happens to have the same remote name (e.g. "latest/*.tar.gz").
+# This uses the URL fragment "#filename=" supported by makepkg.
+source=("https://cli.moonbitlang.cn/binaries/latest/moonbit-linux-x86_64.tar.gz#filename=${pkgname}-${pkgver}-linux-x86_64.tar.gz"
+  "https://cli.moonbitlang.cn/cores/core-latest.tar.gz#filename=moonbit-core-${pkgver}.tar.gz"
+  "moon.sh")
+
+# NOTE: After updating `pkgver`, update the corresponding `sha256sums`.
+# If a cached file with the old name exists in the build `src/` directory,
+# remove it (or run `makepkg -C`) so makepkg downloads the new file.
 
 package() {
   # Install main runtime binary (kept under /usr/lib so the wrapper can live in /usr/bin)
@@ -61,6 +68,6 @@ package() {
     cp -a "${srcdir}/bin/internal" "${pkgdir}/usr/share/moonbit/internal/"
   fi
 }
-sha256sums=('6619094a3577ced3f78f2f3765adf7d494407842f9c172c2472fdea4715c9a59'
-            '748b6fb89c1f16bc09adf6153a7e567b3871d8dc891735db8dea8ae6f082baa9'
+sha256sums=('50aba43ffda027d0a211df86b346a8b67ff870577f7f52a9771922a51b838871'
+            '6b15031a291e7ea37b7d57bd85984f90ec99f8a1adb209a830d1b68562ecac60'
             'a7ba404eb6995d8573e81fbe6c302fa5de96081585dc0420d29e4b419056c6a3')

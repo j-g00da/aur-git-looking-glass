@@ -1,6 +1,6 @@
 pkgname=atproto-pds
 pkgver=0.4.193
-pkgrel=1
+pkgrel=2
 pkgdesc='AT Protocol PDS (Personal Data Server)'
 url='https://github.com/bluesky-social/pds'
 license=(MIT Apache-2.0)
@@ -30,12 +30,12 @@ backup=(etc/pds.env)
 
 build() {
   cd "$srcdir/pds/service"
-  # Patch newer better-sqlite3 for Node.js 24.x support
+  # Patch newer better-sqlite3 for Node.js 25.x support
   head -n-1 package.json >package.json.tmp
   cat >>package.json.tmp <<EOF
   ,"overrides": {
     "@atproto/pds": {
-      "better-sqlite3": "^12.0.0"
+      "better-sqlite3": "^12.4.5"
     }
   }
 EOF

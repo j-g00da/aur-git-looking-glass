@@ -1,6 +1,6 @@
 pkgbase = bar-lobby-git
 	pkgdesc = The new - stil Work_In_Progres lobby, for the RTS game Beyond All Reason (Github version).
-	pkgver = 0.15.0.r83.g9f83ed82
+	pkgver = VERSION
 	pkgrel = 1
 	url = https://beyond-all-reason.github.io/bar-lobby/
 	install = bar-lobby.install
@@ -21,13 +21,13 @@ pkgbase = bar-lobby-git
 	depends = electron37
 	depends = devil
 	depends = python-py7zr
-	optdepends = recoil_engine
+	optdepends = recoil-engine-rc
 	provides = bar-lobby-git
 	source = bar-lobby::git+https://github.com/beyond-all-reason/bar-lobby.git
 	source = bar-lobby.sh
 	source = bar-lobby.install
 	sha256sums = SKIP
-	sha256sums = db54cc94fe78ebee246f2eb57e3eb4152772fde136a316e89cb595b13518491d
-	sha256sums = 12727ff1a9df0deda4637f54b903107f133d76f03dad3e4c61d32369c81df619
+	sha256sums = a2fc4b255be99cb528864e8af6351deba9a373a453f7ad453aa2749c2a285e03
+	sha256sums = ac8154641054d406626a2ff2e0a55ddf533007435d7bf472fd2df98ebc9779fd
 
 pkgname = bar-lobby-git

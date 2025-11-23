@@ -7,7 +7,7 @@ url="http://llvm.org/"
 license=('Apache-2.0 WITH LLVM-Exception')
 depends=("mlir>=${pkgver%%.*}" "clang" "llvm-libs")
 makedepends=('cmake' 'python' 'llvm')
-options=(staticlibs)
+options=(staticlibs !debug)
 _source_base=https://github.com/llvm/llvm-project/releases/download/llvmorg-$pkgver
 source=($_source_base/flang-$pkgver.src.tar.xz{,.sig}
         $_source_base/cmake-$pkgver.src.tar.xz{,.sig}
@@ -38,6 +38,7 @@ build() {
   cmake \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_INSTALL_PREFIX=/usr \
+    -DCMAKE_POSITION_INDEPENDENT_CODE=TRUE \
     -DCLANG_DIR=/usr/lib/cmake/clang/ \
     -DMLIR_TABLEGEN_EXE=/usr/bin/mlir-tblgen \
     -DFLANG_INCLUDE_TESTS=OFF \
@@ -49,8 +50,10 @@ build() {
   cmake \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_INSTALL_PREFIX=/usr \
+    -DCMAKE_POSITION_INDEPENDENT_CODE=TRUE \
     -DCMAKE_Fortran_COMPILER="$srcdir"/flang-$pkgver.src/build/bin/flang \
     -DCMAKE_Fortran_COMPILER_WORKS=yes \
+    -DCMAKE_Fortran_FLAGS="" \
     -DFLANG_RT_INCLUDE_TESTS=OFF \
     -DLLVM_ENABLE_RUNTIMES="flang-rt" \
     -B build -S "$srcdir"/llvm-project-$pkgver.src/runtimes

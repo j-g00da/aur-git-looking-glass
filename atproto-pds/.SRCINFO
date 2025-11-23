@@ -1,7 +1,7 @@
 pkgbase = atproto-pds
 	pkgdesc = AT Protocol PDS (Personal Data Server)
 	pkgver = 0.4.193
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/bluesky-social/pds
 	install = atproto-pds.install
 	arch = x86_64

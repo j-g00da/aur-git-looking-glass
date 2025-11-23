@@ -1,0 +1,14 @@
+pkgbase = tradingview-bin-latest
+	pkgdesc = TradingView desktop client (prebuilt .deb, minimal installation, symlinked binary)
+	pkgver = 2.14.0_1
+	pkgrel = 1
+	url = https://www.tradingview.com
+	arch = x86_64
+	license = LicenseRef-TradingView
+	depends = gtk3
+	depends = nss
+	options = !debug
+	source = https://tvd-packages.tradingview.com/ubuntu/stable/latest/jammy/tradingview_amd64.deb
+	sha256sums = SKIP
+
+pkgname = tradingview-bin-latest

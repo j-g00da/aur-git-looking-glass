@@ -1,6 +1,6 @@
 pkgbase = clockify-desktop
 	pkgdesc = Truly free time tracker for teams, Desktop App
-	pkgver = 2.5.4
+	pkgver = 2.5.5
 	pkgrel = 1
 	url = https://clockify.me
 	arch = x86_64
@@ -31,7 +31,7 @@ pkgbase = clockify-desktop
 	depends = nss
 	depends = pango
 	depends = systemd-libs
-	source = clockify-desktop-2.5.4.deb::https://clockify.me/downloads/Clockify_Setup_x64.deb
-	sha512sums = eca7a9ce6684f65f47fc82064ff4ee82f59ec8bf5b4dabf9b21656c6ac7e6db77dd821f1f4ff04e0d7f87004047605950787121ad9398f6f862031796b828a6a
+	source = clockify-desktop-2.5.5.deb::https://clockify.me/downloads/Clockify_Setup_x64.deb
+	sha512sums = 3c46f58e8cb2699eacfd0971c069cbfb78413adc898da5cfe1b1ab1bf690e336608673257907498daa96d7fad980ca5cc2d2e9aca69f974e2e6aec7c57cf85a9
 
 pkgname = clockify-desktop

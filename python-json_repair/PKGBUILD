@@ -1,7 +1,7 @@
 # Maintainer: Iyán Méndez Veiga <me (at) iyanmv (dot) com>
 _name=json_repair
 pkgname=python-$_name
-pkgver=0.53.0
+pkgver=0.54.1
 pkgrel=1
 pkgdesc="A python module to repair invalid JSON, commonly used to parse the output of LLMs"
 arch=(any)
@@ -16,7 +16,7 @@ makedepends=(
 )
 checkdepends=(python-pytest)
 source=($_name-$pkgver.tar.gz::https://github.com/mangiucugna/$_name/archive/refs/tags/v$pkgver.tar.gz)
-b2sums=('25d4d761ca989ea010fbe0bbd6768f193a29dc6b88babfe772e001ed117a2a84efcca0406ca4ccbb6b3c21e5ea3d142076f04097cd109abeeca0f36e3f9320f2')
+b2sums=('61d606a524ad6141eb8fe81bd42843de1ca0f5c7991a3d3787421b059e44a1f8064a1bab2f057ca013ba137df7c874b9cf8ab99887eabedcd9a9152ad63cc068')
 
 build() {
     cd $_name-$pkgver

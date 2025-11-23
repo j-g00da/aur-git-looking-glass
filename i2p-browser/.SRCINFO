@@ -1,0 +1,18 @@
+pkgbase = i2p-browser
+	pkgdesc = I2P Browser Bundle for Linux (Firefox ESR with I2P routing integration)
+	pkgver = 2.5.0
+	pkgrel = 1
+	url = https://geti2p.net
+	arch = x86_64
+	license = GPL3
+	makedepends = unzip
+	depends = glibc
+	depends = bash
+	source = i2p-browser.tar.xz::https://download.i2p2.de/releases/i2pbrowser/2.5.0/i2p-browser-linux64-2.5.0.tar.xz
+	source = i2p-browser.tar.xz::https://mirror.cyberbits.eu/i2p/releases/i2pbrowser/2.5.0/i2p-browser-linux64-2.5.0.tar.xz
+	source = i2p-browser.tar.xz::https://mirror2.i2p2.no/releases/i2pbrowser/2.5.0/i2p-browser-linux64-2.5.0.tar.xz
+	source = i2p-browser.sh
+	source = i2p-browser.desktop
+	sha256sums = SKIP
+
+pkgname = i2p-browser

@@ -1,6 +1,6 @@
 pkgbase = fluffychat-bin
 	pkgdesc = Open. Nonprofit. Cute. Easy to use (matrix) messenger. Secure and decentralized.
-	pkgver = 2.2.0
+	pkgver = 2.3.1
 	pkgrel = 1
 	url = https://fluffychat.im/
 	arch = x86_64
@@ -10,9 +10,10 @@ pkgbase = fluffychat-bin
 	depends = libsecret
 	depends = xdg-user-dirs
 	depends = zenity
+	depends = webkit2gtk-4.1
 	provides = fluffychat
 	conflicts = fluffychat
-	source_x86_64 = fluffychat-v2.2.0_x86_64.tar.gz::https://github.com/krille-chan/fluffychat/releases/download/v2.2.0/fluffychat-linux-x64.tar.gz
-	sha256sums_x86_64 = b8a15b804a82299a85248be667b8ddafc99e8dd8e63b57dfc8b5501033a76691
+	source_x86_64 = fluffychat-v2.3.1_x86_64.tar.gz::https://github.com/krille-chan/fluffychat/releases/download/v2.3.1/fluffychat-linux-x64.tar.gz
+	sha256sums_x86_64 = e5f54a2697b742af9fde06b3a785faeb514b83f5ac49438a723f24673030b664
 
 pkgname = fluffychat-bin

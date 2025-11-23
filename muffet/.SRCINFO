@@ -1,13 +1,13 @@
 pkgbase = muffet
 	pkgdesc = Fast website link checker
-	pkgver = 2.10.9
+	pkgver = 2.11.1
 	pkgrel = 1
 	url = https://github.com/raviqqe/muffet
 	arch = x86_64
 	license = MIT
 	makedepends = go
 	depends = glibc
-	source = muffet-2.10.9.tar.gz::https://github.com/raviqqe/muffet/archive/v2.10.9.tar.gz
-	sha512sums = 99cce5cd1e152a81f6314d2a641aaa640c2692bb25c7b0d2a5d958916ed0b489139fe5138d81edcc5726716cbdd26651385972a0dffd79901089d4db6e0c87aa
+	source = muffet-2.11.1.tar.gz::https://github.com/raviqqe/muffet/archive/v2.11.1.tar.gz
+	sha512sums = 15cba5e6ecfad2ada62d59346619874c015d40fa9e63cec72b65623763481f85cc8100c677fda8e2557f9c71b272d0106737cea583f5314f13545b8f8d7c6cce
 
 pkgname = muffet

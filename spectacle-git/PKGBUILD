@@ -5,8 +5,9 @@
 
 _pkgname="spectacle"
 pkgname="$_pkgname-git"
-pkgver=24.08.0.r10.gc7de07d
+pkgver=6.5.2.r31.g7f6745a
 pkgrel=1
+epoch=1
 pkgdesc='KDE screenshot capture utility'
 url='https://invent.kde.org/graphics/spectacle'
 license=('GPL-2.0-or-later')
@@ -32,7 +33,7 @@ makedepends=(
   'plasma-wayland-protocols'
 )
 
-provides=("$_pkgname=${pkgver%%.r*}")
+provides=("$_pkgname")
 conflicts=("$_pkgname")
 
 _pkgsrc="$_pkgname"
@@ -41,16 +42,17 @@ sha256sums=('SKIP')
 
 pkgver() {
   cd "$_pkgsrc"
-  local _regex='^\s+<release version="([0-9]+\.[0-9]+(\.[0-9]+)?)".*>$'
-  local _file='desktop/org.kde.spectacle.appdata.xml'
+  local _regex _file _line _line_num _version _commit _revision _hash
+  _regex='^\s+<release version="([0-9]+\.[0-9]+(\.[0-9]+)?)".*>$'
+  _file='desktop/org.kde.spectacle.appdata.xml'
 
-  local _line=$(grep -E "$_regex" "$_file" | head -1)
-  local _line_num=$(grep -Ensm1 "$_regex" "$_file" | cut -d':' -f1)
+  _line=$(grep -E "$_regex" "$_file" | head -1)
+  _line_num=$(grep -Ensm1 "$_regex" "$_file" | cut -d':' -f1)
 
-  local _version=$(sed -E "s@$_regex@\1@" <<< "$_line")
-  local _commit=$(git blame -L $_line_num,+1 -- "$_file" | awk '{print $1;}')
-  local _revision=$(git rev-list --count --cherry-pick "$_commit"...HEAD)
-  local _hash=$(git rev-parse --short=7 HEAD)
+  _version=$(sed -E "s@$_regex@\1@" <<< "$_line")
+  _commit=$(git blame -L $_line_num,+1 -- "$_file" | awk '{print $1;}')
+  _revision=$(git rev-list --count --cherry-pick "$_commit"...HEAD)
+  _hash=$(git rev-parse --short=7 HEAD)
 
   printf '%s.r%s.g%s' "${_version:?}" "${_revision:?}" "${_hash:?}"
 }

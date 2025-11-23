@@ -1,0 +1,25 @@
+pkgbase = thrive-launcher-bin
+	pkgdesc = Thrive Launcher for installing and automatically updating Thrive.
+	pkgver = 2.2.1
+	pkgrel = 2
+	url = https://revolutionarygamesstudio.com
+	arch = x86_64
+	license = custom
+	license = MIT
+	depends = glibc
+	depends = zlib
+	depends = libxi
+	depends = libxinerama
+	depends = libxrender
+	depends = libxcursor
+	depends = libxext
+	depends = libglvnd
+	depends = libxrandr
+	depends = libx11
+	provides = thrive-launcher
+	conflicts = thrive-launcher
+	options = !strip
+	source_x86_64 = https://github.com/Revolutionary-Games/Thrive-Launcher/releases/download/v2.2.1/ThriveLauncher_2.2.1_linux_standalone.7z
+	sha256sums_x86_64 = cea449864e82ea35e7abb692da6e3733bdf93f90257f011536b0274addde6850
+
+pkgname = thrive-launcher-bin

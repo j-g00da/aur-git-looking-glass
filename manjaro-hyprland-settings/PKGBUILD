@@ -1,9 +1,9 @@
 # Maintainer: Michał Lisowski <lisu at riseup dot net>
 
 pkgname=manjaro-hyprland-settings
-pkgver="20251115"
-_commit='b5a2f5cdf80f48ea12dc5b5ebad40f9535308ab4'
-pkgrel=3
+pkgver="20251119"
+_commit='aa2998b9a581d759f34303b01dd4c491b4acc477'
+pkgrel=2
 arch=('any')
 url="https://github.com/lisuml/${pkgname}"
 license=('GPL')
@@ -23,6 +23,7 @@ package() {
 
   depends=(
     'beautyline'
+    'brightnessctl'
     'cliphist'
     'emote'
     'foot'

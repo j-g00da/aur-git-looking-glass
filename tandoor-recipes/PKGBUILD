@@ -2,15 +2,15 @@
 # Contributor: Bjoern Franke <bjo+aur@schafweide.org>
 # Contributor: Jérôme de Courval <decje9@gmail.com>
 pkgname=tandoor-recipes
-pkgver=2.3.3
-pkgrel=1
+pkgver=2.3.5
+pkgrel=2
 pkgdesc="Application for managing recipes, planning meals, building shopping lists and much much more."
 arch=('any')
 url="https://github.com/TandoorRecipes/recipes"
 license=('GPL')
 groups=()
 depends=('python-virtualenv')
-makedepends=('nodejs' 'python-virtualenv' 'yarn')
+makedepends=('nodejs' 'yarn')
 provides=("tandoor-recipes")
 conflicts=("tandoor-recipes")
 replaces=()
@@ -19,19 +19,17 @@ backup=(
 )
 options=(!strip)
 install=tandoor.install
-source=("https://github.com/TandoorRecipes/recipes/archive/refs/tags/$pkgver.tar.gz"
+source=("${pkgname}-${pkgver}.tar.gz::https://github.com/TandoorRecipes/recipes/archive/refs/tags/$pkgver.tar.gz"
 	'tandoor.service'
 	'tandoor.socket'
 	'tandoor-sysuser.conf'
 	'tandoor-directory.conf'
 )
-sha512sums=(
-  'e033ea93f51361de4a00c5ce2ef35bd6baeb929cb3981652103f2cb503c7569978782aebbc56cda2386c6c61e57b9c0fe596407862cb0de2e00863d4c18e7136'
-  '95dae7231412d20007f949536731dad9a95d82d208aa409698bf0ee81a5921fa893584747d2e0881eeb640198fb3c657447179707e27b0b0b6da1e15e06ceca0'
-  '51e62f35632d709398bac39c11afcf452200a9ccfe55be5d0e6cf7f5f164a9bbd6bca0faebf3eb544017943e5d4597513ca0dfa0ee88de765b2f1b202341316c'
-  '45fdbf45419a8619a5c04cb3c1327a57d080418a86596eac80da73bce13e4404595383bc1e77e21b86678d398c0c024fe06c4640219d23a39d945b0628bf8379'
-  'feb8d5f02fa92d030ebb36aff15151e40e274b16e7d883ffee1aed92fe9546b3422aa584105aa05781623a7fddfda6d21898fb272f5a3e640ee5590f482fca19'
-)
+sha512sums=('841b3a79172d686544374ecf160be2ad0fee43f492ef6878ac77d922c37876b15d5dc8a59284ee987e9e28c31cf4944930c578410cde8011a2d2bbda18fcded6'
+            '95dae7231412d20007f949536731dad9a95d82d208aa409698bf0ee81a5921fa893584747d2e0881eeb640198fb3c657447179707e27b0b0b6da1e15e06ceca0'
+            '51e62f35632d709398bac39c11afcf452200a9ccfe55be5d0e6cf7f5f164a9bbd6bca0faebf3eb544017943e5d4597513ca0dfa0ee88de765b2f1b202341316c'
+            '45fdbf45419a8619a5c04cb3c1327a57d080418a86596eac80da73bce13e4404595383bc1e77e21b86678d398c0c024fe06c4640219d23a39d945b0628bf8379'
+            'feb8d5f02fa92d030ebb36aff15151e40e274b16e7d883ffee1aed92fe9546b3422aa584105aa05781623a7fddfda6d21898fb272f5a3e640ee5590f482fca19')
 
 
 
@@ -43,18 +41,19 @@ build() {
 
 
 package() {
-	cd "$srcdir"
 	python -m venv "$pkgdir/usr/share/tandoor/venv"
 	source "$pkgdir/usr/share/tandoor/venv/bin/activate"
 	pip install --isolated --require-virtualenv --cache-dir "$srcdir/pip-cache" --disable-pip-version-check -r "$srcdir/recipes-$pkgver/requirements.txt"
-	find "$pkgdir/usr/share/tandoor/venv" -name __pycache__ -type d -exec rm -rf {} +
-	find "$pkgdir/usr/share/tandoor/venv/bin" -type f -exec sed -i "s|$pkgdir||g" {} \;
 
+	find "$pkgdir/usr/share/tandoor/venv" -name __pycache__ -type d -exec rm -rf {} +
+	find "$pkgdir/usr/share/tandoor/venv" -type f -exec sed -i "s|$pkgdir||g" {} \;
+
+	cd "$srcdir"
 	install -Dm644 -t "$pkgdir/usr/lib/systemd/system/" tandoor.service tandoor.socket
 	install -Dm644 tandoor-sysuser.conf "$pkgdir/usr/lib/sysusers.d/tandoor.conf"
 	install -Dm644 tandoor-directory.conf "$pkgdir/usr/lib/tmpfiles.d/tandoor.conf"
 
-	cd recipes-$pkgver
+	cd "$srcdir/recipes-$pkgver"
 	install -Dm644 .env.template "$pkgdir/etc/tandoor/tandoor.conf"
 	mkdir -p "$pkgdir/usr/share/tandoor"
 	rm -rf "$srcdir/recipes/vue3/node_modules/.cache"

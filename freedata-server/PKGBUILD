@@ -1,7 +1,7 @@
 # Maintainer: Petr Kracik <petrkr@petrkr.net>
 
 pkgname=freedata-server
-pkgver=0.17.7
+pkgver=0.17.8
 pkgrel=1
 pkgdesc="FreeDATA is an open-source HF communication platform using Codec2 data modes for global digital messaging. It offers a server-client architecture, REST API and a messaging system."
 arch=('x86_64')
@@ -34,7 +34,7 @@ source=("freedata.install"
 sha256sums=('7d9b5e2cca9c7f2ee2c6beada910c0e0e0362879a10cba671e9a80247456af1d'
             '3fe415e43c909c21af1128cf2b5892d9ee3c2f39557644b228432f5d6e62da8a'
             'f6c2ab5e77ae21306337094eda4f4d4c251845a4152b50a3938750fccacd61c4'
-            'd37095df8c97a8e90dc399597f0a514cb19d7539cce39003c5c73508c2a28778'
+            'de5c6159dddfe8ca3c4de82b16bc95ebe336d925c38714a49e993dc9ff781ee9'
             '40ede4f9240d6082c49483ccfa6a7f616c09d52a3715bd837f30563301c45e42')
 
 
