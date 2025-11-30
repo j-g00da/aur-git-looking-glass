@@ -2,7 +2,7 @@
 
 pkgname=clipse-git
 _pkgname=clipse
-pkgver=r261.d21e265
+pkgver=r263.53f91d4
 pkgrel=1
 pkgdesc="Configurable TUI clipboard manager for Unix"
 arch=("any")
@@ -12,6 +12,7 @@ depends=(
     "glibc"
     "libx11"
     "libxfixes"
+    "libxtst"
 )
 makedepends=(
     "go"

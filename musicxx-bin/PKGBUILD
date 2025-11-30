@@ -1,7 +1,7 @@
 # Maintainer: Coffee Bean <beanc904@gmail.com>
 pkgname=musicxx-bin
 _pkgname=musicxx
-pkgver=0.81.7
+pkgver=0.82.7
 pkgrel=1.0
 pkgdesc="Audio and video player"
 arch=(x86_64)
@@ -12,7 +12,7 @@ depends=('gtk3' 'util-linux' 'xz' 'mpv' 'ffmpeg' 'libkeybinder3' 'libayatana-app
 install=.install
 # source=("$_pkgname-$pkgver.tar.gz")
 source=("${_pkgname}-${pkgver}.tar.gz::${_url}/releases/download/v${pkgver}/${_pkgname}-${pkgver}.tar.gz")
-sha256sums=(d766905698fabb55d34d57224a7b5420854ce9b5e01c7a5047c4eb61b0b1683c)
+sha256sums=(ef739b7a7e4515c2cc4130fb5fa6f6a2568a2ddb1824c046831b1e79bde9b1ea)
 
 package() {
   mkdir -p ${pkgdir}/opt

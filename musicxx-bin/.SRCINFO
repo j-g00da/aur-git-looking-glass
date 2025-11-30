@@ -1,6 +1,6 @@
 pkgbase = musicxx-bin
 	pkgdesc = Audio and video player
-	pkgver = 0.81.7
+	pkgver = 0.82.7
 	pkgrel = 1.0
 	url = https://github.com/coolight7/musicxx
 	install = .install
@@ -14,7 +14,7 @@ pkgbase = musicxx-bin
 	depends = libkeybinder3
 	depends = libayatana-appindicator
 	depends = ayatana-ido
-	source = musicxx-0.81.7.tar.gz::https://github.com/beanc904/musicxx-arch/releases/download/v0.81.7/musicxx-0.81.7.tar.gz
-	sha256sums = d766905698fabb55d34d57224a7b5420854ce9b5e01c7a5047c4eb61b0b1683c
+	source = musicxx-0.82.7.tar.gz::https://github.com/beanc904/musicxx-arch/releases/download/v0.82.7/musicxx-0.82.7.tar.gz
+	sha256sums = ef739b7a7e4515c2cc4130fb5fa6f6a2568a2ddb1824c046831b1e79bde9b1ea
 
 pkgname = musicxx-bin

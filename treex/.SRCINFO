@@ -1,0 +1,12 @@
+pkgbase = treex
+	pkgdesc = TreeX - directory lister with color and summary features
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/herdem09/treex
+	arch = any
+	license = MIT
+	depends = python
+	source = treex-1.0.0.tar.gz::https://github.com/herdem09/treex/archive/main.tar.gz
+	sha256sums = cc49e55b6d18eda54fd5a8962a32263fab94102e33491eed9726dba6218baa1a
+
+pkgname = treex

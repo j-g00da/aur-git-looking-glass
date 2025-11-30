@@ -1,6 +1,6 @@
 pkgbase = python-niapy
 	pkgdesc = Python micro framework for building nature-inspired algorithms
-	pkgver = 2.5.2
+	pkgver = 2.6.1
 	pkgrel = 1
 	url = https://NiaPy.org
 	arch = any
@@ -12,7 +12,7 @@ pkgbase = python-niapy
 	depends = python-pandas
 	depends = python-matplotlib
 	depends = python-openpyxl
-	source = NiaPy-2.5.2.tar.gz::https://github.com/NiaOrg/NiaPy/archive/v2.5.2.tar.gz
-	sha512sums = 033bfa3847c29b68e2682aa11db5bccd200d07335ea4aa8e6ebbec12fa057728c503036d1101d5a332d524c6c36645fb1e92d43beec4fc3d89428cfb3b3aca08
+	source = NiaPy-2.6.1.tar.gz::https://github.com/NiaOrg/NiaPy/archive/v2.6.1.tar.gz
+	sha512sums = 668b1d19a6cc4c7dde3ae139662177c100f5c7f9e0ba91a80a2e69ce4d89e021e81a8c124400d9a9d2753ad1fcc40616dd52d57a58363c17b54afe7b4e9d6c2e
 
 pkgname = python-niapy

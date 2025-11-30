@@ -1,0 +1,22 @@
+pkgbase = i686-elf-gcc-baremetal
+	pkgdesc = GCC for cross-compiler to i686-elf (bare metal)
+	pkgver = 15.2.0
+	pkgrel = 2
+	url = https://gcc.gnu.org/
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = gmp
+	makedepends = libmpc
+	makedepends = mpfr
+	makedepends = libisl
+	depends = i686-elf-binutils-baremetal
+	provides = i686-elf-gcc
+	conflicts = i686-elf-gcc
+	options = !debug
+	source = https://ftp.gnu.org/gnu/gcc/gcc-15.2.0/gcc-15.2.0.tar.xz
+	source = https://ftp.gnu.org/gnu/gcc/gcc-15.2.0/gcc-15.2.0.tar.xz.sig
+	validpgpkeys = D3A93CAD751C2AF4F8C7AD516C35B99309B5FA62
+	sha256sums = 438fd996826b0c82485a29da03a72d71d6e3541a83ec702df4271f6fe025d24e
+	sha256sums = SKIP
+
+pkgname = i686-elf-gcc-baremetal

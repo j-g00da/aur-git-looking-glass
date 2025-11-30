@@ -1,11 +1,14 @@
 pkgbase = evcolors
 	pkgdesc = Ev color themes
-	pkgver = 1.0.0
+	pkgver = 1.1.1
 	pkgrel = 1
 	arch = any
 	license = MIT
 	optdepends = btop: using the btop theme
+	optdepends = starship: use theme with "export STARSHIP_CONFIG=/usr/share/evcolors/starship.theme"
 	source = evcolors.theme
+	source = starship.toml
 	sha256sums = d0a2f1649a5998381df25d8a5c14ca2f2ecfcb6db538affc92095cb5aa1ddc44
+	sha256sums = 391f49afc19b9f235181949f6b27e4a4857bb6e62deb82ccd388d91fd738c603
 
 pkgname = evcolors

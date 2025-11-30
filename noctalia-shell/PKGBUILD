@@ -1,22 +1,22 @@
 # Maintainer: Kevin <github@kev314.dev>
 # Co-Maintainer: Lysec <itslysec@gmail.com>
 pkgname=noctalia-shell
-pkgver=3.2.0
+pkgver=3.4.0
 pkgrel=1
 pkgdesc="A sleek and minimal desktop shell thoughtfully crafted for Wayland, built with Quickshell."
 arch=('any')
 url="https://github.com/noctalia-dev/noctalia-shell"
 license=('MIT')
+makedepends=('git')
 depends=(
   'quickshell'
-  'ttf-roboto'
-  'inter-font'
+  'imagemagick'
   'gpu-screen-recorder'
   'brightnessctl'
 )
 optdepends=(
   'cliphist: For clipboard history support'
-  'matugen-bin: Material You color scheme generation'
+  'matugen: Material You color scheme generation'
   'cava: Audio visualizer component'
   'wlsunset: For supporting NightLight'
   'power-profiles-daemon: For power profile management'
@@ -25,7 +25,7 @@ optdepends=(
 conflicts=('noctalia-shell-git')
 install="${pkgname}.install"
 source=("git+$url.git#tag=v$pkgver")
-sha256sums=('c1bd86c8da6c3c088f1bd1f5823732b3d51cf3e3885ae83772fe9249fd56d9d6')
+sha256sums=('854be5ca1daff0eb82d1a728f67107e4b99b747bc1fd7bb17c7b129bb40dbf99')
 
 package() {
   cd "$srcdir/$pkgname"

@@ -6,11 +6,10 @@
 # Contributor: Eothred <yngve.levinsen@gmail.com>
 
 pkgname=spotify
-pkgver='1.2.74.477'
-
+pkgver='1.2.77.358'
 epoch=1
-_commit=g3be53afe
-pkgrel=2
+_commit=g4339a634
+pkgrel=1
 pkgdesc='A proprietary music streaming service'
 arch=('x86_64')
 license=('custom')
@@ -35,7 +34,7 @@ source=("${pkgname}-${pkgver}-${_commit}-x86_64.deb::http://repository.spotify.c
         "${pkgname}-${pkgver}-${pkgrel}-Release::http://repository.spotify.com/dists/testing/Release"
         "${pkgname}-${pkgver}-${pkgrel}-Release.sig::http://repository.spotify.com/dists/testing/Release.gpg"
         "${pkgname}-${pkgver}-${pkgrel}-x86_64-Packages::http://repository.spotify.com/dists/testing/non-free/binary-amd64/Packages")
-sha512sums=('c002c778dd98d3c9425de921a69c630bbab8f6fd5a4b2edd1ac04d76f10a57c92f2f3d6a93a3ff3fb60f2ec911059c20bfc7f7a18a5aa472538932d49e6d666f'
+sha512sums=('069db1a79ccf7a52ebce20342a77bc446ca5ad5b1377c7986f2a6386e8c75cc479425ad3299e8c6864d22c870e37243217a819fdd4a7048618c3167bb8877071'
             'da48b628a4ea925dd8521133ebf364b261b11aed252d264dde6605d915cdb631919ffe672c58534bcdb60869e5d87a49a60a8198780b99517123f0031e83fdb1'
             '999abe46766a4101e27477f5c9f69394a4bb5c097e2e048ec2c6cb93dfa1743eb436bde3768af6ba1b90eaac78ea8589d82e621f9cbe7d9ab3f41acee6e8ca20'
             '2e16f7c7b09e9ecefaa11ab38eb7a792c62ae6f33d95ab1ff46d68995316324d8c5287b0d9ce142d1cf15158e61f594e930260abb8155467af8bc25779960615'
@@ -44,8 +43,8 @@ sha512sums=('c002c778dd98d3c9425de921a69c630bbab8f6fd5a4b2edd1ac04d76f10a57c92f2
             'SKIP')
 
 # Import key with:
-# curl -sS https://download.spotify.com/debian/pubkey_C85668DF69375001.gpg | gpg --import -
-validpgpkeys=('B420FD3777CCE3A7F0076B55C85668DF69375001') # Spotify Public Repository Signing Key <tux@spotify.com>
+# curl -sS https://download.spotify.com/debian/pubkey_5384CE82BA52C83A.gpg | gpg --import -
+validpgpkeys=('E1096BCBFF6D418796DE78515384CE82BA52C83A') # Spotify Public Repository Signing Key <tux@spotify.com>
 # Old Keys:
 # 63CBEEC9006602088F9B19326224F9941A8AA6D1
 # E27409F51D1B66337F2D2F417A3A762FAFD4A51F
@@ -53,6 +52,7 @@ validpgpkeys=('B420FD3777CCE3A7F0076B55C85668DF69375001') # Spotify Public Repos
 # 8FD3D9A8D3800305A9FFF259D1742AD60D811D58
 # 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90
 # 2EBF997C15BDA244B6EBF5D84773BD5E130D1D45
+# B420FD3777CCE3A7F0076B55C85668DF69375001
 
 prepare() {
     # Validate hashes from the PGP signed "Release" file

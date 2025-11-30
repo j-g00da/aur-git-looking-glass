@@ -1,0 +1,22 @@
+pkgbase = mactahoe-icon-theme-git
+	pkgdesc = MacOS Tahoe icon theme for Linux
+	pkgver = 2025.10.16.r1.9669dfee
+	pkgrel = 1
+	url = https://github.com/vinceliuice/MacTahoe-icon-theme
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = git
+	depends = gtk-update-icon-cache
+	depends = hicolor-icon-theme
+	options = !strip
+	source = git+https://github.com/vinceliuice/MacTahoe-icon-theme.git
+	sha256sums = SKIP
+
+pkgname = mactahoe-icon-theme-git
+	provides = mactahoe-icon-theme
+	conflicts = mactahoe-icon-theme
+
+pkgname = mactahoe-cursor-theme-git
+	pkgdesc = MacOS Tahoe like cursor theme for Linux desktops (based on Qogir cursors)
+	provides = mactahoe-cursor-theme
+	conflicts = mactahoe-cursor-theme

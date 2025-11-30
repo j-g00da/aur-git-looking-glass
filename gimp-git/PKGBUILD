@@ -10,7 +10,7 @@ _pkgname=${pkgname%-git}
 provides=(gimp)
 conflicts=(gimp)
 epoch=2
-pkgver=3.1.5.r538.b962bdbddd
+pkgver=3.2.0.RC1.r52.7737fc27c8
 pkgrel=1
 pkgdesc="GNU Image Manipulation Program"
 arch=('i686' 'x86_64')
@@ -45,6 +45,7 @@ makedepends+=('git' 'intltool>=0.40.1'
              'libheif' 'libwebp' 'libmng' 'iso-codes' 'aalib' 'zlib'
              'gjs' 'python-gobject' 'python-packaging' 'luajit' 'meson'
              'glib2-devel'
+             'libbacktrace' 'gi-docgen' 'cfitsio'
              )
 checkdepends=('xorg-server-xvfb')
 optdepends=('gutenprint: for sophisticated printing only as gimp has built-in cups print support'
@@ -61,6 +62,8 @@ optdepends=('gutenprint: for sophisticated printing only as gimp has built-in cu
             'zlib: Compression routines'
             'gjs: JavaScript scripting support'
             'luajit: LUA scripting support'
+            'cfitsio: for FITS support'
+            'gvfs: for HTTP/S support (and many other schemes)'
             )
 source=('git+https://gitlab.gnome.org/GNOME/gimp.git'
         "gimp-data::git+https://gitlab.gnome.org/GNOME/gimp-data"

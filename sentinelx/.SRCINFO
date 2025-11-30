@@ -1,0 +1,22 @@
+pkgbase = sentinelx
+	pkgdesc = Tu Guardián de Red para Linux. Simple. Potente. Inteligente. (Compila desde fuente)
+	pkgver = 1.4.5
+	pkgrel = 1
+	url = https://github.com/AnabasaSoft/SentinelX
+	arch = x86_64
+	license = LGPL3
+	makedepends = git
+	makedepends = python-pip
+	makedepends = python-setuptools
+	makedepends = base-devel
+	depends = python
+	depends = polkit
+	depends = clamav
+	depends = hicolor-icon-theme
+	provides = sentinelx
+	conflicts = sentinelx
+	conflicts = sentinelx-bin
+	source = git+https://github.com/AnabasaSoft/SentinelX.git#tag=v1.4.5
+	sha256sums = 5cdf4c42b8e4a8e5f2562213568fbf34ebafd1f9ba75e9b0243c91a03ea6b07f
+
+pkgname = sentinelx

@@ -1,14 +1,16 @@
 pkgbase = intel-real-ucode-git
 	pkgdesc = Actually provides the latest CPU microcode for Intel
-	pkgver = 20231021.ba8eaf5
+	pkgver = 20251117.2bd1bd0
 	pkgrel = 1
+	url = https://github.com/platomav/CPUMicrocodes
 	arch = any
 	license = custom
 	makedepends = iucode-tool
 	makedepends = git
 	provides = intel-ucode
 	conflicts = intel-ucode
-	source = CPUMicrocodes::git+https://github.com/platomav/CPUMicrocodes
+	replaces = microcode_ctl
+	source = git+https://github.com/platomav/CPUMicrocodes
 	sha256sums = SKIP
 
 pkgname = intel-real-ucode-git

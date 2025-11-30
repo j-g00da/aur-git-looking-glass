@@ -1,0 +1,26 @@
+pkgbase = cfait-git
+	pkgdesc = A powerful, simple, elegant, and lightweight CalDAV tasks / TODO manager (TUI & GUI, git version)
+	pkgver = v0.2.2.r0.g06e69db
+	pkgrel = 1
+	url = https://github.com/trougnouf/cfait
+	arch = x86_64
+	license = GPL3
+	makedepends = cargo
+	makedepends = git
+	depends = fontconfig
+	depends = libx11
+	depends = libxcursor
+	depends = libxi
+	depends = libxrandr
+	depends = libxcb
+	depends = vulkan-driver
+	provides = cfait
+	conflicts = cfait
+	replaces = rustycal
+	replaces = rustache
+	replaces = fairouille
+	options = !lto
+	source = cfait::git+https://github.com/trougnouf/cfait.git
+	sha256sums = SKIP
+
+pkgname = cfait-git

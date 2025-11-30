@@ -9,7 +9,7 @@
 
 pkgname=sonic-pi
 pkgver=4.6.0
-pkgrel=4
+pkgrel=5
 pkgdesc="The Live Coding Music Synth for Everyone"
 arch=(x86_64)
 url="https://sonic-pi.net/"
@@ -17,12 +17,12 @@ license=(CC-BY-SA-4.0 LGPL-2.1-only GPL-2.0-only GPL-3.0-only MIT CC0-1.0 BSL-1.
 groups=(pro-audio)
 depends=(
   'ruby-rugged>=1.9.0' 'ruby-i18n>=1.14.7' 'ruby-kramdown>=2.1.0' 'ruby-multi_json>=1.9.2' 'ruby-memoist>=0.16.2'
-  'ruby-tomlrb>=2.0.0' # devendored
+  'ruby-tomlrb>=2.0.0' 'ruby-wavefile>=0.8.1' # devendored
   aubio ruby ruby-racc supercollider
   qscintilla-qt6 qt6-base qt6-svg qt6-wayland which
 )
 makedepends=(
-  'boost>=1.74.0' 'ruby-gettext>=3.4.4'  # devendored
+  'boost>=1.74.0' 'ruby-gettext>=3.4.4' 'ruby-ruby-beautify2>=0.92.2' # devendored
   erlang-asn1 erlang-public_key erlang-ssl erlang-parsetools erlang-sasl
   elixir git cmake gendesk chrpath qt6-tools
   ruby-prime ruby-erb ruby-rexml
@@ -51,7 +51,7 @@ sha512sums=(
 
 prepare() {
   cd $pkgname-$pkgver
-  gendesk -n \
+  gendesk -f -n \
           --pkgname $pkgname \
           --pkgdesc "$pkgdesc" \
           --name "Sonic Pi" \
@@ -110,6 +110,13 @@ prepare() {
   # Remove locale (will be pulled in automatically by ruby-gettext)
   rm -rf app/server/ruby/vendor/locale-*
 
+  # Devendor wavefile - use system ruby-wavefile package
+  printf "Removing vendored wavefile gem\n"
+  rm -rf app/server/ruby/vendor/wavefile-*
+
+  # printf "Removing vendored ruby-beautify gem\n"
+  rm -rf app/server/ruby/vendor/ruby-beautify
+
   # Remove test-only and unused gems
   printf "Removing vendored minitest gem\n"
   rm -rf app/server/ruby/vendor/minitest-*
@@ -125,20 +132,11 @@ prepare() {
   rm -rf app/server/ruby/vendor/rouge
 
   # Could not devendor:
-  #     'ruby-wavefile>=0.8.1' - too old
-  #     'ruby-titleize>=1.4.1' - not on Arch/AUR?
-  #     'ruby-ruby-beautify2-git>=0.92.2' is an AUR package >_<, security?
-
-  # Devendor wavefile - use system ruby-wavefile package
-  # printf "Removing vendored wavefile gem\n"
-  # rm -rf app/server/ruby/vendor/wavefile-*
+  #     'ruby-titleize>=1.4.1' - not on AUR, not updated in 9 years, probably no point
 
   # Devendor titleize - use system ruby-titleize package
   # printf "Removing vendored titleize gem\n"
   # rm -rf app/server/ruby/vendor/titleize-*
-
-  # printf "Removing vendored ruby-beautify gem\n"
-  # rm -rf app/server/ruby/vendor/ruby-beautify
 
   # printf "Removing all contents of vendor except .keep\n"
   # find app/server/ruby/vendor -mindepth 1 ! -name .keep -exec rm -rf {} +
@@ -149,10 +147,8 @@ prepare() {
   # TODO: devendor benchmark-ips-2.3.0
   # TODO: devendor interception (bin)
   # TODO: devendor rubame
-  # TODO: devendor ruby-beautify
   # TODO: devendor ruby-prof-0.15.8
   # TODO: devendor thread_safe
-  # TODO: devendor wavefile-0.8.1
   # TODO: devendor websocket-ruby-1.2.8
 
   # devendor gems requiring compilation:
@@ -166,9 +162,8 @@ build() {
   ./app/linux-build-all.sh
 
   # patch app/server/ruby/lib/sonicpi/util.rb to set proper paths to external components
-  # NOTE: this can only be done after running
-  # app/server/ruby/bin/compile-extensions.rb, as ruby-wavefile uses a
-  # hardcoded location of a file (move to prepare() after devendoring more ruby gems)
+  # NOTE: this can only be done after the build system has created the necessary directories and files
+  # app/server/ruby/bin/compile-extensions.rb
   patch -Np1 -i "../$pkgname-$pkgver-ruby_paths.patch"
 }
 

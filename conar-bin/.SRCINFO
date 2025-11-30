@@ -1,6 +1,6 @@
 pkgbase = conar-bin
 	pkgdesc = AI-powered tool for working with Postgres.
-	pkgver = 0.23.0
+	pkgver = 0.23.3
 	pkgrel = 1
 	url = https://github.com/wannabespace/conar
 	arch = x86_64
@@ -31,7 +31,7 @@ pkgbase = conar-bin
 	depends = hicolor-icon-theme
 	options = !strip
 	options = !emptydirs
-	source_x86_64 = https://github.com/wannabespace/conar/releases/download/v0.23.0/Conar-Linux-0.23.0.deb
-	sha256sums_x86_64 = 07cdcf27c9a765440fa5718a5fd842533020e48ab5e960275db5d118dd483bb8
+	source_x86_64 = https://github.com/wannabespace/conar/releases/download/v0.23.3/Conar-Linux-0.23.3.deb
+	sha256sums_x86_64 = 98b5168a6ecfba7ae2b779960d9fb8fd6cedb87b698744ab462248fe8d36a61f
 
 pkgname = conar-bin

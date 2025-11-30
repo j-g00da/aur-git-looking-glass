@@ -1,6 +1,6 @@
 pkgbase = rime-wanxiang-dict-nightly
 	pkgdesc = 万象词库——每日构建版
-	pkgver = 13.4.6+r20251122.223235
+	pkgver = 13.5.2+r20251129.234515
 	pkgrel = 1
 	url = https://github.com/amzxyz/rime_wanxiang
 	arch = any
@@ -20,7 +20,7 @@ pkgbase = rime-wanxiang-dict-nightly
 	noextract = pro-flypy-fuzhu-dicts.zip
 	noextract = pro-wubi-fuzhu-dicts.zip
 	noextract = pro-hanxin-fuzhu-dicts.zip
-	source = https://github.com/amzxyz/rime_wanxiang/archive/refs/tags/v13.4.6.tar.gz
+	source = https://github.com/amzxyz/rime_wanxiang/archive/refs/tags/v13.5.2.tar.gz
 	source = build.sh
 	source = https://github.com/amzxyz/rime_wanxiang/releases/download/dict-nightly/pro-shouyou-fuzhu-dicts.zip
 	source = https://github.com/amzxyz/rime_wanxiang/releases/download/dict-nightly/pro-zrm-fuzhu-dicts.zip
@@ -30,26 +30,26 @@ pkgbase = rime-wanxiang-dict-nightly
 	source = https://github.com/amzxyz/rime_wanxiang/releases/download/dict-nightly/pro-flypy-fuzhu-dicts.zip
 	source = https://github.com/amzxyz/rime_wanxiang/releases/download/dict-nightly/pro-wubi-fuzhu-dicts.zip
 	source = https://github.com/amzxyz/rime_wanxiang/releases/download/dict-nightly/pro-hanxin-fuzhu-dicts.zip
-	b2sums = fbd215a4e06b99c6916ec2aff15c16003a0009e1b229991f695f90cba56369044754c20e81d569e3bed0cc5a465f8b703e3354bab4e5cbbada67564942e7f45e
+	b2sums = a5784bbad6a9231ef0278477406c2f94c608362f81207a9f99c638a06371b370c6d9f1c2e8f3a154b173719e6c0383ea863168c2a8081e3c7049dd8fc6318116
 	b2sums = e1c0a4adf4a6175ac1343c9d94d5deb6d3e134b5258111849cc714893bb1fb70d308ffb900969e510087c59489318678a3e4ad88c8a134f03d90722a1202a672
-	b2sums = 40115a1551cabe4d88e650dd96d003b4e3a827c4f0de56151cc292fa0ae50e9e5873c62c6379c3ba2908ef3045c290a93e3c664f0a762b376fc96d772201268a
-	b2sums = 2fe3f55af3c90ace410e63b1421152b4da73fd8446c5e3d2ae7321ff20600dcd55dfa0bf7684868aad7d6f88b1aa208f4bdd0aae564439edd75b4f82eee499bc
-	b2sums = bfb0da6694cdb698e2e1ed3df352a0957db763bfab27487055de28e5a0f07a1e08339efeee248f77ccdf33fdcbe9df4633e96af5d010400ff4d854051106e1ad
-	b2sums = de34ee2f352454408eab7fe3d3d611cb55c5d14a7c041a7dd7004b44470a83e91b5a1ea1e36fbda774bd4fe5ae855311b8b284fad2fe0085856edda03449a1a8
-	b2sums = d808e3c4e333076402d5692d2dfd122c4e7920070707099f9afde43fdcd9fdfdfb8787fbb6300f8ce23660e1d9b9a62a54078452438f4df889b404d31ed3b759
-	b2sums = e8e203b82222a6da8b66fa5f4d0f8e470af676d522a789bb32c56db5e6abfcf38b432a12aca42467ec91652f75d9b79957c58ebf5b0913591cf09a5afeaca2ea
-	b2sums = 5418fe198e869b9f7e81e841328919f8f761e216cbb83551b75bd045f0beacaa546a795a3364a75d91e6cc535aba83b4dadd7fb6b8211aebac30f98b55c14bf1
-	b2sums = 6a96d33517287ddd86f7277dcf84a062436dbae1b92a2b433304d80d487330df98ff990f8592696bd5a57f2254a9e34103fee17326679e3c4d54d2e60df3a76d
+	b2sums = 4d0a4ce0d69bfb466a00d51eba026bd460b59e7dc2ddf080f0cb0b2dd0d263b57ed70aa1175e0ef8ded47a77b5867d885e1c777df24dfcb7cfa0b2a22f3ae6bc
+	b2sums = af5cea2cd6f380c3dce7230abb41715e61c5dcafe54505e974fb58ff8c4dfaa369690db5a7e6d1c9aa26b52047e901002ed45dec6a527bc696b977d6a39001db
+	b2sums = eda6cb1a7b30ab8c115d2bb36b521a1cf870a63ed7288a9fadf873495072d182be8e3c27657380b76e09ad0a18f1ea2c14644ff0122bd5cf6781d4f057a89f0f
+	b2sums = d205bddd6f18473bbbcd000c08185f4f3e97c95e7d69ece542b402d31418854fbb6ac2f1b752ccffa6380e0e964eb2486b8188e7a29c76e8cf7b554fdb088f26
+	b2sums = 627de0dfa924372002ac671f9091baae40c1d4df69d4641b2019697de68c6a203a1a92c74b4d6b3d05f614ae557dc8f8076864a0ecdbfb1fd560dfdfd7b38d63
+	b2sums = c531ea00c6dac57c180b570bece1dd162b2defda0d741bdfb21061f0c72f6a4b29333a0019bc482edae578917000d1b850d26deb4651623db160a926eab18b6c
+	b2sums = a4465145f27c756f10e206a1da3a91bce7793a1ba2b69a7ed95ad04009c7840004a81d84d17f30486913c11c6e9228a1764df29b4ca460686a2e170655615868
+	b2sums = af2b3207b37bf140dc4f17c6a6a3e310caaa265c75a6d5d41653f3beee12f9c8f8ebd0a3e8dbb83ce452a03fa5111b603207674fbe682616dec1068a9fc4defa
 
 pkgname = rime-wanxiang-dict-nightly
 	pkgdesc = 万象拼音词库基础数据——每日构建版
-	provides = rime-wanxiang-dict=13.4.6
+	provides = rime-wanxiang-dict=13.5.2
 	conflicts = rime-wanxiang-dict
 	replaces = rime-wanxiang-dict-zh-nightly
 
 pkgname = rime-wanxiang-pro-dict-nightly
 	pkgdesc = 万象拼音双拼辅助码版词库基础数据——每日构建版
-	provides = rime-wanxiang-pro-dict=13.4.6
+	provides = rime-wanxiang-pro-dict=13.5.2
 	conflicts = rime-wanxiang-dict
 	conflicts = rime-wanxiang-dict-nightly
 	conflicts = rime-wanxiang-pro-dict
@@ -58,7 +58,7 @@ pkgname = rime-wanxiang-pro-dict-nightly
 pkgname = rime-wanxiang-dict-zrm-nightly
 	pkgdesc = 万象拼音标准版词库——每日构建版（自然码方案）
 	depends = rime-wanxiang-dict-nightly
-	provides = rime-wanxiang-dict-zrm=13.4.6
+	provides = rime-wanxiang-dict-zrm=13.5.2
 	conflicts = rime-wanxiang-dict-zrm
 	conflicts = rime-wanxiang-dict-ziguang
 	conflicts = rime-wanxiang-dict-ziguang-nightly
@@ -76,7 +76,7 @@ pkgname = rime-wanxiang-dict-zrm-nightly
 pkgname = rime-wanxiang-dict-ziguang-nightly
 	pkgdesc = 万象拼音标准版词库——每日构建版（紫光双拼方案）
 	depends = rime-wanxiang-dict-nightly
-	provides = rime-wanxiang-dict-ziguang=13.4.6
+	provides = rime-wanxiang-dict-ziguang=13.5.2
 	conflicts = rime-wanxiang-dict-zrm
 	conflicts = rime-wanxiang-dict-zrm-nightly
 	conflicts = rime-wanxiang-dict-ziguang
@@ -94,7 +94,7 @@ pkgname = rime-wanxiang-dict-ziguang-nightly
 pkgname = rime-wanxiang-dict-flypy-nightly
 	pkgdesc = 万象拼音标准版词库——每日构建版（小鹤双拼方案）
 	depends = rime-wanxiang-dict-nightly
-	provides = rime-wanxiang-dict-flypy=13.4.6
+	provides = rime-wanxiang-dict-flypy=13.5.2
 	conflicts = rime-wanxiang-dict-zrm
 	conflicts = rime-wanxiang-dict-zrm-nightly
 	conflicts = rime-wanxiang-dict-ziguang
@@ -112,7 +112,7 @@ pkgname = rime-wanxiang-dict-flypy-nightly
 pkgname = rime-wanxiang-dict-mspy-nightly
 	pkgdesc = 万象拼音标准版词库——每日构建版（微软双拼方案）
 	depends = rime-wanxiang-dict-nightly
-	provides = rime-wanxiang-dict-mspy=13.4.6
+	provides = rime-wanxiang-dict-mspy=13.5.2
 	conflicts = rime-wanxiang-dict-zrm
 	conflicts = rime-wanxiang-dict-zrm-nightly
 	conflicts = rime-wanxiang-dict-ziguang
@@ -130,7 +130,7 @@ pkgname = rime-wanxiang-dict-mspy-nightly
 pkgname = rime-wanxiang-dict-pinyin-nightly
 	pkgdesc = 万象拼音标准版词库——每日构建版（全拼方案）
 	depends = rime-wanxiang-dict-nightly
-	provides = rime-wanxiang-dict-pinyin=13.4.6
+	provides = rime-wanxiang-dict-pinyin=13.5.2
 	conflicts = rime-wanxiang-dict-zrm
 	conflicts = rime-wanxiang-dict-zrm-nightly
 	conflicts = rime-wanxiang-dict-ziguang
@@ -148,7 +148,7 @@ pkgname = rime-wanxiang-dict-pinyin-nightly
 pkgname = rime-wanxiang-dict-abc-nightly
 	pkgdesc = 万象拼音标准版词库——每日构建版（智能ABC方案）
 	depends = rime-wanxiang-dict-nightly
-	provides = rime-wanxiang-dict-abc=13.4.6
+	provides = rime-wanxiang-dict-abc=13.5.2
 	conflicts = rime-wanxiang-dict-zrm
 	conflicts = rime-wanxiang-dict-zrm-nightly
 	conflicts = rime-wanxiang-dict-ziguang
@@ -166,7 +166,7 @@ pkgname = rime-wanxiang-dict-abc-nightly
 pkgname = rime-wanxiang-dict-sogou-nightly
 	pkgdesc = 万象拼音标准版词库——每日构建版（搜狗双拼方案）
 	depends = rime-wanxiang-dict-nightly
-	provides = rime-wanxiang-dict-sogou=13.4.6
+	provides = rime-wanxiang-dict-sogou=13.5.2
 	conflicts = rime-wanxiang-dict-zrm
 	conflicts = rime-wanxiang-dict-zrm-nightly
 	conflicts = rime-wanxiang-dict-ziguang
@@ -184,7 +184,7 @@ pkgname = rime-wanxiang-dict-sogou-nightly
 pkgname = rime-wanxiang-pro-dict-shouyou-fuzhu-nightly
 	pkgdesc = 万象拼音双拼辅助码词库——每日构建版（首右辅助）
 	depends = rime-wanxiang-pro-dict-nightly
-	provides = rime-wanxiang-pro-dict-shouyou-fuzhu=13.4.6
+	provides = rime-wanxiang-pro-dict-shouyou-fuzhu=13.5.2
 	conflicts = rime-wanxiang-dict-shouyou
 	conflicts = rime-wanxiang-dict-shouyou-nightly
 	conflicts = rime-wanxiang-dict-zrm
@@ -203,7 +203,7 @@ pkgname = rime-wanxiang-pro-dict-shouyou-fuzhu-nightly
 pkgname = rime-wanxiang-pro-dict-zrm-fuzhu-nightly
 	pkgdesc = 万象拼音双拼辅助码词库——每日构建版（自然码辅助）
 	depends = rime-wanxiang-pro-dict-nightly
-	provides = rime-wanxiang-pro-dict-zrm-fuzhu=13.4.6
+	provides = rime-wanxiang-pro-dict-zrm-fuzhu=13.5.2
 	conflicts = rime-wanxiang-dict-shouyou
 	conflicts = rime-wanxiang-dict-shouyou-nightly
 	conflicts = rime-wanxiang-dict-zrm
@@ -222,7 +222,7 @@ pkgname = rime-wanxiang-pro-dict-zrm-fuzhu-nightly
 pkgname = rime-wanxiang-pro-dict-tiger-fuzhu-nightly
 	pkgdesc = 万象拼音双拼辅助码词库——每日构建版（虎码首末辅助）
 	depends = rime-wanxiang-pro-dict-nightly
-	provides = rime-wanxiang-pro-dict-tiger-fuzhu=13.4.6
+	provides = rime-wanxiang-pro-dict-tiger-fuzhu=13.5.2
 	conflicts = rime-wanxiang-dict-shouyou
 	conflicts = rime-wanxiang-dict-shouyou-nightly
 	conflicts = rime-wanxiang-dict-zrm
@@ -241,7 +241,7 @@ pkgname = rime-wanxiang-pro-dict-tiger-fuzhu-nightly
 pkgname = rime-wanxiang-pro-dict-moqi-fuzhu-nightly
 	pkgdesc = 万象拼音双拼辅助码词库——每日构建版（墨奇辅助）
 	depends = rime-wanxiang-pro-dict-nightly
-	provides = rime-wanxiang-pro-dict-moqi-fuzhu=13.4.6
+	provides = rime-wanxiang-pro-dict-moqi-fuzhu=13.5.2
 	conflicts = rime-wanxiang-dict-shouyou
 	conflicts = rime-wanxiang-dict-shouyou-nightly
 	conflicts = rime-wanxiang-dict-zrm
@@ -260,7 +260,7 @@ pkgname = rime-wanxiang-pro-dict-moqi-fuzhu-nightly
 pkgname = rime-wanxiang-pro-dict-flypy-fuzhu-nightly
 	pkgdesc = 万象拼音双拼辅助码词库——每日构建版（小鹤辅助）
 	depends = rime-wanxiang-pro-dict-nightly
-	provides = rime-wanxiang-pro-dict-flypy-fuzhu=13.4.6
+	provides = rime-wanxiang-pro-dict-flypy-fuzhu=13.5.2
 	conflicts = rime-wanxiang-dict-shouyou
 	conflicts = rime-wanxiang-dict-shouyou-nightly
 	conflicts = rime-wanxiang-dict-zrm
@@ -279,7 +279,7 @@ pkgname = rime-wanxiang-pro-dict-flypy-fuzhu-nightly
 pkgname = rime-wanxiang-pro-dict-wubi-fuzhu-nightly
 	pkgdesc = 万象拼音双拼辅助码词库——每日构建版（五笔前2辅助）
 	depends = rime-wanxiang-pro-dict-nightly
-	provides = rime-wanxiang-pro-dict-wubi-fuzhu=13.4.6
+	provides = rime-wanxiang-pro-dict-wubi-fuzhu=13.5.2
 	conflicts = rime-wanxiang-dict-shouyou
 	conflicts = rime-wanxiang-dict-shouyou-nightly
 	conflicts = rime-wanxiang-dict-zrm
@@ -298,7 +298,7 @@ pkgname = rime-wanxiang-pro-dict-wubi-fuzhu-nightly
 pkgname = rime-wanxiang-pro-dict-hanxin-fuzhu-nightly
 	pkgdesc = 万象拼音双拼辅助码词库——每日构建版（汉心辅助）
 	depends = rime-wanxiang-pro-dict-nightly
-	provides = rime-wanxiang-pro-dict-hanxin-fuzhu=13.4.6
+	provides = rime-wanxiang-pro-dict-hanxin-fuzhu=13.5.2
 	conflicts = rime-wanxiang-dict-shouyou
 	conflicts = rime-wanxiang-dict-shouyou-nightly
 	conflicts = rime-wanxiang-dict-zrm

@@ -1,10 +1,11 @@
 pkgbase = pandoc-plantuml-filter-py
 	pkgdesc = Pandoc filter for PlantUML code blocks, python version
 	pkgver = 0.1.5
-	pkgrel = 2
+	pkgrel = 3
 	url = https://pypi.org/project/pandoc-plantuml-filter
 	arch = any
 	license = MIT
+	makedepends = python-setuptools-scm
 	depends = python
 	depends = python-pandocfilters
 	optdepends = pandoc-cli: using the filter

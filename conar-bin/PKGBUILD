@@ -1,6 +1,6 @@
 # Maintainer: Bouteiller a2n Alan <hi@a2n.dev>
 pkgname=conar-bin
-pkgver=0.23.0
+pkgver=0.23.3
 pkgrel=1
 pkgdesc="AI-powered tool for working with Postgres."
 arch=('x86_64')
@@ -34,7 +34,7 @@ depends=(
 )
 options=('!strip' '!emptydirs')
 source_x86_64=("${url}/releases/download/v"${pkgver}"/Conar-Linux-"${pkgver}".deb")
-sha256sums_x86_64=('07cdcf27c9a765440fa5718a5fd842533020e48ab5e960275db5d118dd483bb8')
+sha256sums_x86_64=('98b5168a6ecfba7ae2b779960d9fb8fd6cedb87b698744ab462248fe8d36a61f')
 package() {
   # Extract the .deb file
   ar -x "${srcdir}/Conar-Linux-${pkgver}.deb"
@@ -51,4 +51,3 @@ package() {
     sed -i 's|/opt/Conar/Conar|conar|g' "${pkgdir}/usr/share/applications/conar.desktop"
   fi
 }
-

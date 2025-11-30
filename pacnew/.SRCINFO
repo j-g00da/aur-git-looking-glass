@@ -1,0 +1,18 @@
+pkgbase = pacnew
+	pkgdesc = an interactive tool to help manage .pacnew files
+	pkgver = 1.1
+	pkgrel = 1
+	url = https://github.com/larsch/pacnew
+	arch = any
+	license = Unlicense
+	depends = diffutils
+	depends = bash
+	depends = coreutils
+	depends = findutils
+	depends = grep
+	depends = sed
+	conflicts = pacnew-git
+	source = pacnew-v1.1.tar.gz::https://github.com/larsch/pacnew/archive/refs/tags/v1.1.tar.gz
+	sha256sums = 8793f74fa51a6aad61058a990fa2e9ebbaa53725b449b2ed09dd62e16230d174
+
+pkgname = pacnew

@@ -1,6 +1,6 @@
 # Maintainer: Rafael Dominiquini <rafaeldominiquini at gmail dot com>
 
-_upstreamver='0.15.7'
+_upstreamver='0.17.1'
 _upstreamver_regex='^[0-9]+\.[0-9]+\.[0-9]+$'
 _source_type='pypi-releases'
 _pypi_package='pipelex'
@@ -16,10 +16,10 @@ license=('MIT')
 
 provides=("${_pypi_package}")
 makedepends=('python-setuptools' 'python-wheel' 'python-build' 'python-installer')
-depends=('python' 'python-aiofiles' 'python-markdown' 'python-filetype' 'python-yaml' 'python-jinja' 'python-google-auth' 'python-openai' 'python-rich' 'python-networkx' 'python-posthog' 'python-pillow' 'python-google-genai' 'python-pydantic' 'python-tomlkit' 'python-anthropic' 'python-click' 'python-aioboto3' 'python-typing_extensions' 'python-boto3' 'python-pytest' 'python-tomli' 'python-httpx' 'python-mistralai' 'python-dotenv' 'python-typer' 'python-shortuuid' 'python-polyfactory' 'python-json2html' 'python-yattag' 'python-instructor' 'python-pypdfium2' 'python-kajson')
+depends=('python' 'python-shortuuid' 'python-pydantic-core' 'python-posthog' 'python-strenum' 'python-anthropic' 'python-pydantic' 'python-fal-client' 'python-yaml' 'python-httpx' 'python-google-auth' 'python-rich' 'python-instructor' 'python-tomli' 'python-kajson' 'python-markdown' 'python-typing_extensions' 'python-dotenv' 'python-aiobotocore' 'python-aioboto3' 'python-filetype' 'python-typer' 'python-yattag' 'python-pillow' 'python-tomlkit' 'python-openai' 'python-json2html' 'python-click' 'python-google-genai' 'python-polyfactory' 'python-boto3' 'python-aiofiles' 'python-pytest' 'python-jinja' 'python-pypdfium2' 'python-mistralai' 'python-networkx')
 
 source=("${_pypi_package}-${_upstreamver}.tar.gz::${url}/archive/refs/tags/v${pkgver}.tar.gz")
-sha256sums=('b5ee49aad89e38d9aeffe3f926e463f7c3fa579e5bcf00bd556201b406ebeef7')
+sha256sums=('e38b07e344234e287445d0aeaea2a058aeee396160690efbdb96530101558077')
 
 build() {
     cd "${srcdir}/${_pypi_package}-${pkgver}/"
@@ -35,9 +35,9 @@ package() {
     install -Dm644 "LICENSE" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 
     install -Dm644 "README.md" "${pkgdir}/usr/share/doc/${pkgname}/README.md"
-    install -Dm644 "AGENTS.md" "${pkgdir}/usr/share/doc/${pkgname}/AGENTS.md"
+    install -Dm644 "CLA.md" "${pkgdir}/usr/share/doc/${pkgname}/CLA.md"
     install -Dm644 "CLAUDE.md" "${pkgdir}/usr/share/doc/${pkgname}/CLAUDE.md"
-    install -Dm644 "MANIFESTO.md" "${pkgdir}/usr/share/doc/${pkgname}/MANIFESTO.md"
+    install -Dm644 "AGENTS.md" "${pkgdir}/usr/share/doc/${pkgname}/AGENTS.md"
     install -Dm644 "CONTRIBUTING.md" "${pkgdir}/usr/share/doc/${pkgname}/CONTRIBUTING.md"
     install -Dm644 "CODE_OF_CONDUCT.md" "${pkgdir}/usr/share/doc/${pkgname}/CODE_OF_CONDUCT.md"
 }
