@@ -1,0 +1,19 @@
+pkgbase = i686-elf-pcc-libs-git
+	pkgdesc = Libraries for the Portable C Compiler.
+	pkgver = 20250703
+	pkgrel = 1
+	url = https://github.com/PortableCC/
+	arch = i686
+	arch = x86_64
+	arch = aarch64
+	license = custom
+	makedepends = git
+	provides = i686-elf-pcc-libs
+	conflicts = i686-elf-pcc-libs
+	options = !lto
+	source = i686-elf-pcc-libs-git::git+https://github.com/PortableCC/pcc-libs.git
+	source = license
+	md5sums = SKIP
+	md5sums = 51f6cc02b26af53f26cfe87494ca5c87
+
+pkgname = i686-elf-pcc-libs-git

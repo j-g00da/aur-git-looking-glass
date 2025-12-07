@@ -1,23 +1,30 @@
 # Maintainer: Coffee Bean <beanc904@gmail.com>
 pkgname=musicxx-bin
 _pkgname=musicxx
-pkgver=0.82.7
+pkgver=0.83.3
 pkgrel=1.0
 pkgdesc="Audio and video player"
 arch=(x86_64)
 url="https://github.com/coolight7/musicxx"
 _url="https://github.com/beanc904/musicxx-arch"
 license=('MIT')
-depends=('gtk3' 'util-linux' 'xz' 'mpv' 'ffmpeg' 'libkeybinder3' 'libayatana-appindicator' 'ayatana-ido')
-install=.install
-# source=("$_pkgname-$pkgver.tar.gz")
-source=("${_pkgname}-${pkgver}.tar.gz::${_url}/releases/download/v${pkgver}/${_pkgname}-${pkgver}.tar.gz")
-sha256sums=(ef739b7a7e4515c2cc4130fb5fa6f6a2568a2ddb1824c046831b1e79bde9b1ea)
+depends=('gtk3' 'util-linux-libs' 'xz')
+makedepends=('7zip')
+options=('!strip')
+# install=.install
+# source=("$_pkgname-$pkgver.appimage")
+source=("${_pkgname}-${pkgver}.appimage::${_url}/releases/download/v${pkgver}/${_pkgname}-${pkgver}.appimage")
+sha256sums=(9ec4d2e1ee4ed4827b29f42c2a171e0cadad61f8e0ac1da1e734caae3eea6ffe)
 
-package() {
-  mkdir -p ${pkgdir}/opt
-  install -Dm644 "${_pkgname}-${pkgver}/run.bool.musicxx.desktop" \
-    "${pkgdir}/usr/share/applications/run.bool.musicxx.desktop"
-  mv "${_pkgname}-${pkgver}" ${pkgdir}/opt/${_pkgname}
+prepare () {
+  chmod +x "${_pkgname}-${pkgver}.appimage"
+  7z x ${srcdir}/${_pkgname}-${pkgver}.appimage -o${srcdir}/squashfs-root
+  sed -i -E "s|Exec=musicxx|Exec=/opt/musicxx/${_pkgname}|g" "${srcdir}/squashfs-root/run.bool.${_pkgname}.desktop"
+  sed -i -E "s|Icon=musicxx|Icon=/opt/musicxx/${_pkgname}.png|g" "${srcdir}/squashfs-root/run.bool.${_pkgname}.desktop"
 }
 
+package () {
+  install -d "${pkgdir}/opt/${_pkgname}"
+  cp -a "${srcdir}/squashfs-root/." "${pkgdir}/opt/${_pkgname}"
+  install -Dm644 "${srcdir}/squashfs-root/run.bool.${_pkgname}.desktop" "${pkgdir}/usr/share/applications/run.bool.${_pkgname}.desktop"
+}

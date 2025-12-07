@@ -2,9 +2,9 @@
 # Contributor: Daniel Bermond <dbermond@archlinux.org>
 # Contributor: Mikalai Ramanovich < narod.ru: nikolay.romanovich >
 pkgname=onlyoffice
-pkgver=9.1.0
+pkgver=9.2.0
 pkgrel=1
-pkgdesc="An office suite that combines text, spreadsheet and presentation editors allowing to create, view and edit local documents "
+pkgdesc="An office suite that combines text, spreadsheet and presentation editors allowing to create, view and edit local documents"
 arch=(x86_64)
 url="https://www.onlyoffice.com/desktop.aspx"
 license=('AGPL-3.0-only')
@@ -45,7 +45,7 @@ options=(
 )
 _url=https://github.com/ONLYOFFICE
 # The tag used for sumodules
-_tag=v9.1.0.173
+_tag=v9.2.0.102
 # ICU: scripts/core_common/modules/icu.py
 _icu_major=74
 _icu_minor=2
@@ -84,15 +84,15 @@ source=(
     system-heif{,-0}.diff
     "fix-QDesktopWidget-include.diff"
 )
-sha256sums=('7c810005c46219a83c1985a0e4b6cd844680a44af18c448e0412e80b087eb8d8'
-            'acacd9dc6a11a3d5aa37f0d2d8df02bba4b0651ff7e30621d0beb8015f4e55a5'
-            '73fb1729159f316ca1e094a3caa0a4e01819ad6a16198b07df31b66df67826d1'
-            '9384413401dd6ab3f6096abf9f3f30f7f60ef52101870b09ed1d2f1acd86e94f'
+sha256sums=('44e133e174426fbf7b998e379edc73740cb5ea55a370518181f14cbfb9996ba3'
+            'a0f51ae6ebe0bdbc0eb561ad4b1fc238172ba69c71a59628573cdf29564e8ef5'
+            '100d1b25f316272539376754c1393faf70928074a6e83d5e44cc0c7589d670e0'
+            '1de7e1b133ca497f914a48bde13d04f54da220d7954076d6b1006c7898058b2e'
             '62dc945a78f38ab87e9d0a1a0cfefe0ddee29ba9de4e48468f7047d0aac4e645'
-            '26b898c7b7b06ecb4f8bd61317543d0938b90564e0e313dfe7b7e42c501ccf66'
-            'efe061e6dd34051b045ac5d35c2d3878c8650fe4c9343c8f3253888b55d74e5d'
-            'e3035fabab1b801b17ea2bb53cbe34c17ccf301ba1cb18dcd919dd62feaea1c2'
-            'bb6a71876ba7243dd138f7e55b23b50a713bcb55ce503bc40e939ab04e1cfe81'
+            '654d33d3163d95b33eb20cb1ea8afe0002faeccf7387e6e5689ecb99f4ea0ebe'
+            '486b5d37ecbbd68d0b3724724ee0bb2146b39cadd8a5e72d498ef8ddf733ba16'
+            'ee186d380736673fda48a14e48c6d3e51185dc9729b8ae555ad6193533b7577c'
+            '444c596bef0fffdb102ce3dee819a8f99ce3817bd4405adfbcd63082a4f3024b'
             '55c1d70a8bdd8f818af8e4c784bfc03f0569fcb863cc6797f888b749153ed720'
             '1a9ddf334ee246bcd4f412475f91dd2a70408521998f358dbcae18976f861e56'
             'SKIP'

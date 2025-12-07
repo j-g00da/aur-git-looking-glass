@@ -1,6 +1,6 @@
 pkgbase = opencloud-desktop
 	pkgdesc = opencloud desktop application
-	pkgver = 3.0.1
+	pkgver = 3.0.2
 	pkgrel = 1
 	url = https://github.com/opencloud-eu/desktop
 	arch = x86_64
@@ -18,7 +18,7 @@ pkgbase = opencloud-desktop
 	depends = qtkeychain-qt6
 	depends = sqlite
 	depends = zlib
-	source = opencloud-desktop-3.0.1.tar.gz::https://github.com/opencloud-eu/desktop/archive/refs/tags/v3.0.1.tar.gz
-	sha256sums = 45cb87d5a77510a6831b17c267265dc660224c97e3916275a0451ae7078854fa
+	source = opencloud-desktop-3.0.2.tar.gz::https://github.com/opencloud-eu/desktop/archive/refs/tags/v3.0.2.tar.gz
+	sha256sums = 9993d47e3718ab3c3936e430fe302f9c44336cc26146aba33e069f5a3d6977fb
 
 pkgname = opencloud-desktop

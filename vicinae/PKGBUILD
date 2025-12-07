@@ -2,7 +2,7 @@
 # Maintainer: Arjix <me@arjix.dev>
 
 pkgname=vicinae
-pkgver=0.16.10
+pkgver=0.16.12
 pkgrel=1
 pkgdesc="A focused launcher for your desktop — native, fast, extensible"
 arch=('x86_64')
@@ -18,6 +18,7 @@ depends=(
   'libqalculate'
   'minizip'
   'qtkeychain-qt6'
+  'libxml2'
 )
 makedepends=(
   'git'
@@ -34,8 +35,8 @@ source=(
   "vicinae.hook"
 )
 
-sha256sums=('308d028c6ac648ad0aadc744bd25edca0fb7aad33712087d46868ba7a8ff7bdc'
-            '0b3b0ba82bc57aed5fd99b191deb65880a31a5ce7373a111a0ac63ff7f7e624d'
+sha256sums=('cebcb730042de98b981c81b7889145e1f514364af5ff13eb7f256469137d06f9'
+            '0a2992824999d55ee9c9aeca725f4434c765e730d21a56f1707a33a44b6cbbff'
             '870f29cb68436deaaed2b87dff89bc753afdef8dcbfd1ec35c070bc39efe10a5')
 
 build() {
@@ -62,6 +63,9 @@ package() {
 
   # Desktop entry
   install -Dm644 "$srcdir/$pkgname-$pkgver/extra/$pkgname.desktop" "$pkgdir/usr/share/applications/$pkgname.desktop"
+  
+  # Deeplink handler
+  install -Dm644 "$srcdir/$pkgname-$pkgver/extra/$pkgname-url-handler.desktop" "$pkgdir/usr/share/applications/$pkgname-url-handler.desktop"
 
   # Systemd Service
   install -Dm644 "$srcdir/$pkgname-$pkgver/extra/$pkgname.service" "$pkgdir/usr/lib/systemd/user/$pkgname.service"

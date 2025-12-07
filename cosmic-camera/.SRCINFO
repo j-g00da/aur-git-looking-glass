@@ -1,0 +1,24 @@
+pkgbase = cosmic-camera
+	pkgdesc = Camera application for the COSMIC™ desktop environment
+	pkgver = 0.1.17
+	pkgrel = 1
+	url = https://github.com/cosmic-utils/camera
+	arch = x86_64
+	arch = aarch64
+	license = GPL-3.0-or-later
+	makedepends = cargo
+	makedepends = just
+	depends = gst-plugin-pipewire
+	depends = gst-plugins-bad
+	depends = gst-plugins-base
+	depends = gst-plugins-good
+	depends = gst-plugins-ugly
+	depends = gstreamer
+	depends = libinput
+	depends = libxkbcommon
+	depends = seatd
+	depends = systemd-libs
+	source = camera-0.1.17.tar.gz::https://github.com/cosmic-utils/camera/archive/refs/tags/v0.1.17.tar.gz
+	sha256sums = 96e991692dd7642db7002c23fcee0a5ae10a1e9773645f815199212558da9f0d
+
+pkgname = cosmic-camera

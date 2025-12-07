@@ -1,8 +1,8 @@
 # Maintainer: Your Name <your.email@example.com>
 pkgname=lzc-client-desktop-bin
-pkgver=1.6.0
-pkgrel=1
-pkgdesc='Lazy Cat microservice desktop client'
+pkgver=1.6.2
+pkgrel=2
+pkgdesc='懒猫微服客户端 Lazy Cat microservice desktop client'
 arch=('x86_64')
 url='https://lazycat.cloud/'
 license=('custom')
@@ -33,8 +33,10 @@ depends=(
 )
 makedepends=('zstd')
 install="${pkgname}.install"
-source=("lzc-client-desktop_${pkgver}.tar.zst::https://dl.lazycat.cloud/client/desktop/stable/lzc-client-desktop_v${pkgver}.tar.zst")
-sha256sums=('23ae44472ba72bc7a722b04995c781b3e1073f0324ab02e47cc4e4304904a2ac')
+source=("lzc-client-desktop_${pkgver}.tar.zst::https://dl.lazycat.cloud/client/desktop/stable/lzc-client-desktop_v${pkgver}.tar.zst"
+        "image.png")
+sha256sums=('19e1fb1c5bd5757c2097c383669ebd78bb6687c93e7ed9e79a81256b641ff239'
+            'cf462ea972a91a51d277d8bb8fd20647a10f8b9de2ac558b3a5cb3fc238711f4')
 
 # Disable compression for faster testing during development
 # Remove this line before publishing to AUR
@@ -77,28 +79,18 @@ EOF
     install -Dm644 "$_appdir/lzc-client.desktop" \
       "$pkgdir/usr/share/applications/lzc-client-desktop.desktop"
 
-    # Patch Exec path to use /usr/bin wrapper
+    # Patch Exec and Icon paths
     sed -i \
       -e 's|^Exec=.*|Exec=/usr/bin/lzc-client-desktop|g' \
+      -e 's|^Icon=.*|Icon=lzc-client-desktop|g' \
       -e 's|HOMEDIR|/usr/lib/lzc-client-desktop|g' \
       "$pkgdir/usr/share/applications/lzc-client-desktop.desktop"
   fi
 
-  # 4. Install icon if present
+  # 4. Install icon
   msg "Installing icon..."
-  # Try common icon locations and names
-  for icon_path in \
-    "$_appdir/icon.png" \
-    "$_appdir/lzc-client-desktop.png" \
-    "$_appdir/resources/icon.png" \
-    "$_appdir/share/icons/lzc-client-desktop.png"
-  do
-    if [ -f "$icon_path" ]; then
-      install -Dm644 "$icon_path" \
-        "$pkgdir/usr/share/pixmaps/lzc-client-desktop.png"
-      break
-    fi
-  done
+  install -Dm644 "$srcdir/image.png" \
+    "$pkgdir/usr/share/pixmaps/lzc-client-desktop.png"
 
   # 5. Install polkit policy if present
   msg "Installing polkit policy..."

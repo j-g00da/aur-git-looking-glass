@@ -13,13 +13,13 @@ name=cloudcompare
 #_fragment="#branch="
 options=('!strip') # strip would also remove plugins, for some reason
 pkgname=${name}-git
-pkgver=2.13.1.r65.g32a2e2435
+pkgver=2.13.1.r280.g8ddc7062a
 pkgrel=1
 pkgdesc="A 3D point cloud (and triangular mesh) processing software"
 arch=('i686' 'x86_64')
-url="http://www.danielgm.net/cc/"
+url="https://www.cloudcompare.org"
 license=('GPL2')
-depends=('cgal' 'fbx-sdk' 'ffmpeg4.4' 'glew' 'glu' 'mesa' 'mpir' 'pcl' 'pdal' 'laszip' 'qt5-base' 'qt5-tools' 'qt5-svg' 'qt5-websockets' 'shapelib' 'tbb' 'opencv' 'gdal')
+depends=('cgal' 'fbx-sdk' 'ffmpeg4.4' 'glew' 'glu' 'mesa' 'mpir' 'pcl' 'pdal' 'laszip' 'qt6-base' 'qt6-tools' 'qt6-svg' 'qt6-websockets' 'shapelib' 'tbb' 'opencv' 'gdal')
 #fix pcl:>vtk:>vtkm:>openmp missing deps
 depends+=(openmpi)
 depends+=(nlohmann-json fmt jsoncpp)
@@ -31,13 +31,13 @@ source=("${name}::git+https://github.com/CloudCompare/CloudCompare.git${_fragmen
         "${name}-cork::git+https://github.com/CloudCompare/cork.git"
         CloudCompare.desktop
         ccViewer.desktop
-        vtk_jsoncpp.patch
         )
 sha256sums=('SKIP'
             'SKIP'
             '14096df9cf7aca3099d5df1585d1cf669544e9b10754dce3d2507100dd7034fe'
             '821ac2540e1196774e26f8033946ce7b36223dae7a2a7c78f4a901b4177f68cc'
-            '3b5c8361cd7ceb2b1e9bebe2f1684749a2a28f8f8cfdd244cd362c6b428f7338'
+            'SKIP'
+            'SKIP'
             'SKIP'
             'SKIP'
             'SKIP'
@@ -59,8 +59,6 @@ pkgver() {
 
 prepare() {
   prepare_submodule
-  git -C "${srcdir}"/cloudcompare apply -v "${srcdir}"/vtk_jsoncpp.patch
-# sed "/CXX_STANDARD/s/14/17/" -i "${srcdir}/${name}"/cmake/CMakeSetCompilerOptions.cmake
 }
 
 build() {
@@ -159,20 +157,23 @@ package() {
 # Call prepare_submodule in prepare() function
 
 prepare_submodule() {
-  git -C "$srcdir/CCCoreLib" config submodule.extern/nanoflann.url "$srcdir/nanoflann"
   git -C "$srcdir/cloudcompare" config submodule.plugins/core/IO/qE57IO/extern/libE57Format.url "$srcdir/libE57Format"
   git -C "$srcdir/cloudcompare" config submodule.extern/CCCoreLib.url "$srcdir/CCCoreLib"
   git -C "$srcdir/cloudcompare" config submodule.plugins/core/Standard/qPoissonRecon/extern/PoissonRecon.url "$srcdir/PoissonRecon"
   git -C "$srcdir/cloudcompare" config submodule.plugins/core/Standard/qMPlane.url "$srcdir/mplane-plugin"
   git -C "$srcdir/cloudcompare" config submodule.plugins/core/Standard/qColorimetricSegmenter.url "$srcdir/ptrans"
   git -C "$srcdir/cloudcompare" config submodule.plugins/core/Standard/qMasonry.url "$srcdir/masonry-cc"
-  git -C "$srcdir/cloudcompare" config submodule.plugins/core/Standard/qJSonRPCPlugin.url "$srcdir/JSonRPCPlugin"
+  git -C "$srcdir/cloudcompare" config submodule.plugins/core/Standard/qJSonRPCPlugin.url "$srcdir/qJSonRPCPlugin"
   git -C "$srcdir/cloudcompare" config submodule.plugins/core/Standard/qCanupo/contrib/dlib.url "$srcdir/dlib"
   git -C "$srcdir/cloudcompare" config submodule.plugins/core/Standard/cc-treeiso-plugin.url "$srcdir/cc-treeiso-plugin"
+  git -C "$srcdir/cloudcompare" config submodule.plugins/core/Standard/q3DMASC.url "$srcdir/q3DMASC"
   git -C "$srcdir/cloudcompare" config submodule.libs/CCAppCommon/QDarkStyleSheet.url "$srcdir/QDarkStyleSheet"
   git -C "$srcdir/cloudcompare" config submodule.plugins/core/Standard/qVoxFall.url "$srcdir/qVoxFall"
-  git -C "$srcdir/cloudcompare" config submodule.plugins/core/Standard/q3DMASC.url "$srcdir/q3DMASC"
-  git -C "$srcdir/libE57Format" config submodule.test/extern/googletest.url "$srcdir/googletest"
+  git -C "$srcdir/cloudcompare" config submodule.plugins/core/Standard/qG3Point.url "$srcdir/qG3Point"
+  git -C "$srcdir/cloudcompare" config submodule.plugins/core/IO/qPhotoscanIO/extern/quazip.url "$srcdir/quazip"
+  git -C "$srcdir/cloudcompare" -c protocol.file.allow=always submodule update --init
+  git -C "$srcdir/cloudcompare/libs/qCC_db/extern/CCCoreLib/" config submodule.extern/nanoflann.url "$srcdir/nanoflann"
+  git -C "$srcdir/cloudcompare/plugins/core/IO/qE57IO/extern/libE57Format/test/extern/googletest" config submodule.test/extern/googletest.url "$srcdir/googletest"
   git -C "$srcdir/cloudcompare" -c protocol.file.allow=always submodule update --init --recursive
 }
 source+=(
@@ -183,12 +184,15 @@ source+=(
   "mplane-plugin::git+https://github.com/hvs-ait/mplane-plugin"
   "ptrans::git+https://gitlab.univ-nantes.fr/E164955Z/ptrans"
   "masonry-cc::git+https://github.com/CyberbuildLab/masonry-cc"
-  "JSonRPCPlugin::git+https://gitlab.com/theadib/JSonRPCPlugin"
+  "qJSonRPCPlugin::git+https://github.com/CloudCompare/qJSonRPCPlugin"
   "dlib::git+https://github.com/davisking/dlib"
   "cc-treeiso-plugin::git+https://github.com/truebelief/cc-treeiso-plugin"
   "q3DMASC::git+https://github.com/dgirardeau/q3DMASC"
-  "googletest::git+https://github.com/google/googletest"
   "QDarkStyleSheet::git+https://github.com/ColinDuquesnoy/QDarkStyleSheet"
   "qVoxFall::git+https://github.com/farmakis/qVoxFall"
+  "qG3Point::git+https://github.com/p-leroy/qG3Point"
+  "quazip::git+https://github.com/stachenov/quazip"
+  "googletest::git+https://github.com/google/googletest"
 )
+
 # vim:set sw=2 ts=2 et:

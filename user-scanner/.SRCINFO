@@ -1,0 +1,21 @@
+pkgbase = user-scanner
+	pkgdesc = Check username availability across multiple popular platforms
+	pkgver = 1.0.6.0
+	pkgrel = 1
+	url = https://github.com/kaifcodec/user-scanner
+	arch = any
+	license = MIT
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	makedepends = python-build
+	makedepends = python-installer
+	depends = python
+	depends = python-colorama
+	depends = python-httpx
+	provides = user-scanner
+	conflicts = python-user-scanner
+	replaces = python-user-scanner
+	source = https://files.pythonhosted.org/packages/source/u/user_scanner/user_scanner-1.0.6.0.tar.gz
+	sha256sums = 0b6330c4219d093b17dcccd0273c106d17665a993e656f35c80cffb09dd7c1c1
+
+pkgname = user-scanner

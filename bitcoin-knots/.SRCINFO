@@ -1,0 +1,23 @@
+pkgbase = bitcoin-knots
+	pkgdesc = enhanced Bitcoin node/wallet software
+	pkgver = 29.2.knots20251110
+	pkgrel = 1
+	url = https://bitcoinknots.org
+	arch = x86_64
+	groups = bitcoin
+	license = MIT
+	checkdepends = python3
+	makedepends = boost
+	makedepends = cmake
+	depends = gcc-libs
+	depends = sqlite
+	depends = libevent
+	depends = glibc
+	conflicts = bitcoin
+	options = !debug
+	backup = etc/bitcoin/bitcoin.conf
+	source = https://bitcoinknots.org/files/29.x/29.2.knots20251110/bitcoin-29.2.knots20251110.tar.gz
+	validpgpkeys = DAED928C727D3E613EC46635F5073C4F4882FFFC
+	sha256sums = 668150b2b35290815d4a48b0317eb85275ad8d566efa0fbae0057b3a3b427012
+
+pkgname = bitcoin-knots

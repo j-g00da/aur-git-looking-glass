@@ -1,0 +1,27 @@
+pkgbase = slskdn-bin
+	pkgdesc = 🔋 The batteries-included Soulseek web client. A feature-rich fork of slskd with wishlist, smart ranking, tabbed browsing & more
+	pkgver = 0.24.1.slskdn.18
+	pkgrel = 1
+	url = https://github.com/snapetech/slskdn
+	arch = x86_64
+	license = AGPL-3.0-or-later
+	makedepends = unzip
+	optdepends = docker: for containerized deployment
+	provides = slskd
+	provides = slskd-bin
+	conflicts = slskd
+	conflicts = slskd-bin
+	replaces = slskd
+	replaces = slskd-bin
+	options = !strip
+	backup = etc/slskd/slskd.yml
+	source = https://github.com/snapetech/slskdn/releases/download/0.24.1-slskdn.18/slskdn-0.24.1-slskdn.18-linux-x64.zip
+	source = slskd.service
+	source = slskd.yml
+	source = slskd.sysusers
+	sha256sums = 3a3edc2aff3e6616fc44ee6bb8ee38d7a5d26b3c24b16625497ca0dbdbce1268
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = slskdn-bin

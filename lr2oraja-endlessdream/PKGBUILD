@@ -1,8 +1,8 @@
 # Maintainer: Pfych <contact at pfy dot ch>
 pkgname=lr2oraja-endlessdream
-pkgver=0.3.0
+pkgver=0.4.0
 _basever=0.8.8
-pkgrel=6
+pkgrel=1
 url="https://github.com/seraxis/lr2oraja-endlessdream"
 pkgdesc="A featureful fork of beatoraja."
 arch=('x86_64')
@@ -18,7 +18,7 @@ source=(
   'lr2oraja-endlessdream.desktop'
 )
 sha256sums=(
-  'c77719e5be5f650755297e837f8e26df998662d066334153c63e219bc03a851d' # lr2oraja-endlessdream.jar
+  '5623cca355e1c350c5e7bef4d512b875d3fb700c73e60e2289c9a0ad5ef7d28e' # lr2oraja-endlessdream.jar
   '7a70d90d449fc9d91026c54e1d08303242749475ad20b30b5bfa45fc93f18043' # philburk/portaudio-java
   '11d0069581c81026aa016cf5452c7fd3c1812d220b827b0674ebfa1bbbaaeb83' # bokutachiIR
   '0246f27a70159da8a068e9613cd6d858e6dd546acde5e58ee93e564e5af5f5f5' # lr2oraja-endlessdream.sh

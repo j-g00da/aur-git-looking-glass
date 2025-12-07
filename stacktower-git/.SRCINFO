@@ -1,0 +1,18 @@
+pkgbase = stacktower-git
+	pkgdesc = Generates a dependency graph in the style of XKCD #2347
+	pkgver = r5.4dc88ae
+	pkgrel = 1
+	url = https://github.com/matzehuels/stacktower
+	arch = x86_64
+	arch = armv7h
+	arch = aarch64
+	license = Apache-2.0
+	makedepends = go
+	makedepends = make
+	makedepends = git
+	provides = stacktower
+	conflicts = stacktower
+	source = StackTower::git+https://github.com/matzehuels/stacktower.git
+	sha256sums = SKIP
+
+pkgname = stacktower-git

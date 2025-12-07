@@ -1,7 +1,7 @@
 # Maintainer: Maxr1998 <aur@maxr1998.de>
 pkgname=alistral
 _reponame=Alistral
-pkgver=0.6.0
+pkgver=0.6.3
 pkgrel=2
 pkgdesc="Power tools for Listenbrainz"
 arch=('x86_64')
@@ -10,7 +10,7 @@ license=('MIT')
 depends=('glibc' 'gcc-libs' 'openssl' 'bzip2' 'xz')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/RustyNova016/$_reponame/archive/refs/tags/v$pkgver.tar.gz")
-b2sums=('67b9574e1eb995ca6b47d96b23a5c5f96256502b686cc087a6da618e4deb04dd59f155c0af81f9bb80d3868b3f906d9de96bd29935b0b6cbd224972264ed67ed')
+b2sums=('7735e1a7355a7900e302bc0152d99efc9abac511b1c341a44329976dc17a72b4aed82bffe5f660a6af1d3caa0f8dcaac9b5cccb03efe8f2e9080bc88c017026b')
 
 prepare() {
     cd "$_reponame-$pkgver"
@@ -41,4 +41,13 @@ package() {
 
     install -Dm644 "README.md" -t "$pkgdir/usr/share/doc/$pkgname/"
     install -Dm644 "LICENSE" -t "$pkgdir/usr/share/licenses/$pkgname/"
+
+    # Generate completions
+    for comp in bash fish zsh; do
+        "$pkgdir/usr/bin/$pkgname" --generate $comp > $comp
+    done
+
+    install -Dm644 bash -T "$pkgdir/usr/share/bash-completion/completions/$pkgname"
+    install -Dm644 fish -T "$pkgdir/usr/share/fish/vendor_completions.d/$pkgname.fish"
+    install -Dm644 zsh  -T "$pkgdir/usr/share/zsh/site-functions/_$pkgname"
 }

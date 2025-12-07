@@ -1,9 +1,9 @@
 # Maintainer: Kainoa Kanter <kainoa@t1c.dev>
 
 pkgname=eigenwallet-developertools-bin
-_pkgver="3.3.7"
+_pkgver="3.5.0"
 pkgver=${_pkgver/-beta./.}
-pkgrel=2
+pkgrel=1
 epoch=
 pkgdesc="λ eigenwallet developer tools are command-line tools for debugging purposes or to run a a maker (to provide liquidity) for eigenwallet's XMR<>BTC atomic swaps"
 arch=('x86_64')
@@ -26,11 +26,11 @@ source=(
 	"https://github.com/eigenwallet/core/releases/download/${_pkgver}/orchestrator_${_pkgver}_Linux_x86_64.tar"
 	"https://github.com/eigenwallet/core/releases/download/${_pkgver}/rendezvous-node_${_pkgver}_Linux_x86_64.tar"
 )
-sha256sums=('40d7b90a0d560fc01666cecd53840c32e700aaa537e070de0bb75c0cb2b8cc2f'
-            '6f523fa34b3cf8616e63a31b13b9965fb3b978b497fc0a629ad653d9f9b6ed5e'
-            '248bc7569d44a38a425edee1ebfce8077db7c016536d0053f2b6fd6b4fee2983'
-            'e9d5b0a80a47ec8c5866b48fe4cde70bd00eb982e55b18a4cbff53cf6ea4996c'
-            '516cd9f295e632077097ebfd31b6d6cb865fdb9ca7625d10801405921438693b')
+sha256sums=('88a2f99987aad2fcb4d6a237b7de3a49f75f209892b71f6dc1fc33d7d5ee4dca'
+            '6ee1ff33989b1c50102a1d01ea652d73342f22a95043ad68e827de88565a4171'
+            '37fd18425d5f2bc8e9327b258dbf1d34fa18d0174fc84590154f2ff5520a459a'
+            'f676ffb7a5f4b17bf9d8fa0c35ffa4b224f73d9f902d37d5a217e53301c67abb'
+            '06358bada22d6e5124c3092de7c8da18d901c8ed303a2bd0129fa5084c456092')
 validpgpkeys=()
 install="$pkgname.install"
 

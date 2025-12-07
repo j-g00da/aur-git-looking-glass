@@ -1,0 +1,14 @@
+pkgbase = iloader
+	pkgdesc = User-friendly sideloader
+	pkgver = 1.1.4
+	pkgrel = 2
+	url = https://github.com/nab138/iloader
+	arch = x86_64
+	license = MIT
+	noextract = iloader-linux-amd64.AppImage
+	options = !strip
+	options = !debug
+	source = https://github.com/nab138/iloader/releases/download/v1.1.4/iloader-linux-amd64.AppImage
+	sha256sums = 3bf27878516de1488e30cdb2a049c7094efccc9c3c8bee464481f754f9033c87
+
+pkgname = iloader-appimage

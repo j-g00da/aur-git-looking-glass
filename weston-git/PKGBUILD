@@ -6,7 +6,7 @@
 
 _basename=weston
 pkgname="$_basename-git"
-pkgver=14.0.0.r448.g3f81d2f
+pkgver=14.0.0.r754.gb44cf1b
 pkgrel=1
 pkgdesc='Reference implementation of a Wayland compositor'
 arch=('x86_64')
@@ -17,11 +17,11 @@ depends=('fontconfig' 'glibc' 'wayland' 'libxkbcommon' 'libinput' 'libunwind' 'p
          'mesa' 'libegl' 'libevdev' 'libgles' 'glib2' 'pango' 'lcms2' 'mtdev' 'libx11'
          'libxcb' 'dbus' 'libva' 'libxcursor' 'colord' 'seatd'
          'gstreamer' 'gst-plugins-base-libs')
-makedepends=('wayland-protocols-git' 'meson' 'ninja' 'freerdp2' 'neatvnc' 'libpipewire'
+makedepends=('wayland-protocols-git' 'meson' 'ninja' 'freerdp' 'neatvnc' 'libpipewire'
              'xorg-xwayland' 'xcb-util-cursor' 'libdisplay-info' 'vulkan-headers' 'git')
 optdepends=('xorg-xwayland: support x11 backend'
             'libpipewire: support pipewire backend'
-            'freerdp2: support rdp backend'
+            'freerdp: support rdp backend'
             'neatvnc: support vnc backend'
             'libdisplay-info: support drm backend')
 conflicts=("$_basename")

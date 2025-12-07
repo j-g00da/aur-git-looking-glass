@@ -1,0 +1,38 @@
+pkgbase = python-rapidocr
+	pkgdesc = Cross-runtime OCR library
+	pkgver = 3.4.2
+	pkgrel = 2
+	url = https://github.com/RapidAI/RapidOCR
+	arch = any
+	license = Apache-2.0
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	depends = python>=3.6
+	depends = python-pyclipper>=1.2.0
+	depends = python-opencv>=4.5.1.48
+	depends = python-numpy>=1.19.5
+	depends = python-numpy<3.0.0
+	depends = python-six>=1.15.0
+	depends = python-shapely>=1.7.1
+	depends = python-yaml
+	depends = python-pillow
+	depends = python-tqdm
+	depends = python-omegaconf
+	depends = python-requests
+	depends = python-colorlog
+	optdepends = python-onnxruntime: Recommended runtime
+	optdepends = python-onnxruntime-cpu: Faster than GPU-accelerated onnxruntime (https://github.com/microsoft/onnxruntime/issues/13198)
+	optdepends = python-openvino: Supported runtime
+	optdepends = python-paddlepaddle: Supported runtime
+	optdepends = python-pytorch: Supported runtime
+	source = https://github.com/RapidAI/RapidOCR/archive/v3.4.2.tar.gz
+	source = https://github.com/RapidAI/RapidOCR/releases/download/v1.1.0/required_for_whl_v3.0.0.zip
+	source = https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.4.0/resources/fonts/FZYTK.TTF
+	source = setup.py.patch
+	sha256sums = f5802814571beadbb19620adc61e39d9ccc8dfa31737168787f9fe4f21bc479f
+	sha256sums = e050aa8cf29cdbea04550204336859069dcbf7bb86761112d2008ae93db13296
+	sha256sums = 4065a23df6823c8e2b69a0e76d02f02a6470b8774a5e91086609701ad95cc33f
+	sha256sums = ebfa9ac2f957378702f1ec6d07e8ca7b2a3f1c66e8194fc63bc8a35dfcebb5ca
+
+pkgname = python-rapidocr

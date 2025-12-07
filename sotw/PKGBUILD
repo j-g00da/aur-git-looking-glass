@@ -1,9 +1,9 @@
 #Maintainer: Larzid <juanitocampamocha@gmail.com>
 pkgname=sotw
 pkgver=1.8.4
-pkgrel=4
+pkgrel=8
 epoch=
-pkgdesc="Shadow Of The Wyrm by Julian Day - Development branch."
+pkgdesc="Shadow Of The Wyrm, a traditional roguelike by Julian Day."
 arch=('x86_64')
 url="http://www.shadowofthewyrm.org/"
 license=('MIT')
@@ -12,7 +12,7 @@ depends=('sdl2' 'sdl2_mixer' 'sdl2_image' 'xerces-c' 'zlib' 'ncurses' 'lua51' 'b
 makedepends=('premake' 'git')
 checkdepends=()
 provides=(sotw)
-conflicts=(sotw)
+conflicts=(sotw-dev)
 replaces=()
 backup=()
 options=()
@@ -20,13 +20,14 @@ install=post.install
 changelog=
 source=('git+https://github.com/prolog/shadow-of-the-wyrm.git' 'https://www.shadowofthewyrm.org/assets/ShadowOfTheWyrm-assets.zip')
 noextract=()
-md5sums=('SKIP' '52976400bb40914727117018c4038950')
+md5sums=('SKIP' '06c5a2aa55ac864721cee9d178d48157')
 validpgpkeys=()
 
 build() {
  	cd shadow-of-the-wyrm
  	# Put the assets in the right folder
  	cp -R ../assets ./
+ 	sed -i 's/"boost_system",//g' ${srcdir}/shadow-of-the-wyrm/premake5.lua
 	premake5 --lua_include=/usr/include/lua5.1 --lua_link=lua5.1 gmake
 	make config=release
 }

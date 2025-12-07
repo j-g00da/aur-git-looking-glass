@@ -1,9 +1,10 @@
-# Maintainer: fordprefect <fordprefect@dukun.de>
-# Contributor: jhass <me@jhass.eu>
+# Maintainer: whiteman808 <whiteman808 at paraboletancza dot org>
+# Contributor: fordprefect <fordprefect at dukun dot de>
+# Contributor: jhass <me at jhass dot eu>
 pkgname=luaunbound
 pkgver=1.0.0
 epoch=1
-pkgrel=1
+pkgrel=2
 pkgdesc="drop-in replacement for Prosodys internal DNS library with a binding to libunbound"
 url="https://www.zash.se/luaunbound.html"
 arch=('i686' 'x86_64')

@@ -1,31 +1,32 @@
 # Maintainer: xi-ve <zunavs@gmail.com>
 pkgname=openvr-space-calibrator-linux
 pkgver=1.5.1
-pkgrel=4
+pkgrel=5
 pkgdesc="Linux port of OpenVR-SpaceCalibrator - synchronize multiple VR playspaces in SteamVR. Requires SteamVR to be installed (provides OpenVR headers)."
 arch=('x86_64')
 url="https://github.com/xi-ve/openvr-space-calibrator-linux"
 license=('MIT')
 install="${pkgname}.install"
 depends=('glfw-x11' 'mesa' 'libx11' 'libxrandr' 'libxinerama' 'libxcursor' 'libxi')
-makedepends=('cmake' 'base-devel' 'eigen' 'pkgconf')
-source=("${pkgname}-${pkgver}.tar.gz::https://github.com/xi-ve/openvr-space-calibrator-linux/archive/main.tar.gz"
+makedepends=('cmake' 'base-devel' 'eigen' 'pkgconf' 'git')
+source=("git+https://github.com/xi-ve/openvr-space-calibrator-linux.git#branch=main"
         "openvr-headers.tar.gz::https://github.com/ValveSoftware/openvr/archive/master.tar.gz"
-        "imgui.tar.gz::https://github.com/ocornut/imgui/archive/refs/heads/master.tar.gz"
         "eigen.tar.gz::https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.gz"
         "openvr-space-calibrator-install.sh")
 sha256sums=('SKIP'
             'SKIP'
             'SKIP'
-            'SKIP'
             'SKIP')
 
 prepare() {
-  cd "${srcdir}/${pkgname}-main"
+  cd "${srcdir}/openvr-space-calibrator-linux"
   
   if [ -d "build" ]; then
     rm -rf build
   fi
+  
+  echo "Initializing git submodules..."
+  git submodule update --init --recursive
   
   if [ ! -d "../lib/openvr/headers" ]; then
     echo "Extracting OpenVR headers..."
@@ -46,18 +47,6 @@ prepare() {
     fi
   fi
   
-  if [ ! -d "../WindowsEdition/OpenVR-SpaceCalibrator/lib/imgui" ]; then
-    echo "Extracting ImGui..."
-    mkdir -p ../WindowsEdition/OpenVR-SpaceCalibrator/lib
-    if [ -d "${srcdir}/imgui-master" ]; then
-      mv "${srcdir}/imgui-master" ../WindowsEdition/OpenVR-SpaceCalibrator/lib/imgui
-    else
-      tar -xzf "${srcdir}/imgui.tar.gz" -C ../WindowsEdition/OpenVR-SpaceCalibrator/lib --strip-components=1 imgui-master 2>/dev/null || \
-      tar -xzf "${srcdir}/imgui.tar.gz" -C ../WindowsEdition/OpenVR-SpaceCalibrator/lib --strip-components=0 2>/dev/null && \
-      mv ../WindowsEdition/OpenVR-SpaceCalibrator/lib/imgui-master ../WindowsEdition/OpenVR-SpaceCalibrator/lib/imgui 2>/dev/null || true
-    fi
-  fi
-  
   if [ ! -d "../WindowsEdition/OpenVR-SpaceCalibrator/lib/Eigen" ]; then
     echo "Extracting Eigen..."
     mkdir -p ../WindowsEdition/OpenVR-SpaceCalibrator/lib
@@ -72,7 +61,7 @@ prepare() {
 }
 
 build() {
-  cd "${srcdir}/${pkgname}-main"
+  cd "${srcdir}/openvr-space-calibrator-linux"
   
   export CFLAGS="${CFLAGS//-ffile-prefix-map=* /} -Wno-format-security"
   export CXXFLAGS="${CXXFLAGS//-ffile-prefix-map=* /} -Wno-format-security"
@@ -81,7 +70,7 @@ build() {
   cd build
   
   OPENVR_HEADERS=""
-  PROJECT_ROOT="${srcdir}/${pkgname}-main"
+  PROJECT_ROOT="${srcdir}/openvr-space-calibrator-linux"
   
   for path in \
     "${PROJECT_ROOT}/../lib/openvr/headers" \
@@ -140,7 +129,7 @@ build() {
 }
 
 package() {
-  cd "${srcdir}/${pkgname}-main"
+  cd "${srcdir}/openvr-space-calibrator-linux"
   
   # Install register-overlay utility if built
   if [ -f build/bin/register-overlay ]; then

@@ -1,6 +1,6 @@
 pkgbase = python313-freethreaded
 	pkgdesc = Major release 3.13 of the Python high-level programming language (freethreading version without GIL)
-	pkgver = 3.13.9
+	pkgver = 3.13.11
 	pkgrel = 1
 	url = https://www.python.org/
 	arch = x86_64
@@ -23,12 +23,12 @@ pkgbase = python313-freethreaded
 	optdepends = tk: for tkinter
 	optdepends = xz: for lzma
 	options = !emptydirs
-	source = https://www.python.org/ftp/python/3.13.9/Python-3.13.9.tar.xz
-	source = https://www.python.org/ftp/python/3.13.9/Python-3.13.9.tar.xz.asc
+	source = https://www.python.org/ftp/python/3.13.11/Python-3.13.11.tar.xz
+	source = https://www.python.org/ftp/python/3.13.11/Python-3.13.11.tar.xz.asc
 	validpgpkeys = 7169605F62C751356D054A26A821E680E5FA6305
-	md5sums = 516aabdf3de01eeefb6de1aacf9df810
+	md5sums = 4c3517dd8b1fd76377dcb3e5e8f71ad6
 	md5sums = SKIP
-	sha256sums = ed5ef34cda36cfa2f3a340f07cac7e7814f91c7f3c411f6d3562323a866c5c66
+	sha256sums = 16ede7bb7cdbfa895d11b0642fa0e523f291e6487194d53cf6d3b338c3a17ea2
 	sha256sums = SKIP
 
 pkgname = python313-freethreaded

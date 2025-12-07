@@ -1,6 +1,6 @@
 pkgbase = fortress
 	pkgdesc = A command-line file explorer written in modern Fortran with cd-on-exit
-	pkgver = 0.9.99
+	pkgver = 1.0.1
 	pkgrel = 1
 	url = https://github.com/FortranGoingOnForty/fortress
 	install = fortress.install
@@ -13,7 +13,7 @@ pkgbase = fortress
 	depends = gcc-libs
 	depends = fzf
 	depends = git
-	source = fortress-0.9.99.tar.gz::https://github.com/FortranGoingOnForty/fortress/archive/v0.9.99.tar.gz
-	sha256sums = 5eb08ae980e3e4d3469510eda0c5d325db831ab8f3ac3146befd51efa929245f
+	source = fortress-1.0.1.tar.gz::https://github.com/FortranGoingOnForty/fortress/archive/v1.0.1.tar.gz
+	sha256sums = 8d0d70e89272c626f9108a071dbce234c8c1ce07752066b13652e73fbad26b65
 
 pkgname = fortress

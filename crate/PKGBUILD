@@ -1,7 +1,7 @@
 # Maintainer: Andrew O'Neill <andrew at haunted dot sh>
 
 pkgname=crate
-pkgver=6.0.3
+pkgver=6.1.1
 pkgrel=1
 pkgdesc='Shared nothing, fully searchable, document oriented cluster datastore'
 arch=('x86_64')
@@ -15,7 +15,7 @@ source=("${pkgname}-${pkgver}.tar.gz::https://github.com/${pkgname}/${pkgname}/a
         "${pkgname}.env")
 backup=('etc/crate/crate.yml'
         'etc/crate/logging.yml')
-sha256sums=('d2d1636d8e83a078ddcc5f629b44c2231407973961b98692efe2908f66c86a39'
+sha256sums=('93a076f8e010d54e0399911691ef92040aba00b088d421f5355a0982a4f1a536'
             '04b36b561498332b1b569e49b42d0bedf04141de07b7b16ff1b06072673cfd21'
             '6182b8d527d52de4fc80023827518b2e8d873afdda873ef6bd2ed92b91982f75')
 

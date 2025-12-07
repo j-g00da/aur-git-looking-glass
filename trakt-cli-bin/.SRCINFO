@@ -1,0 +1,20 @@
+pkgbase = trakt-cli-bin
+	pkgdesc = A CLI for trakt.tv
+	pkgver = 1.2.2
+	pkgrel = 1
+	url = https://github.com/angristan/trakt-cli
+	arch = x86_64
+	arch = i686
+	arch = aarch64
+	license = MIT
+	depends = glibc
+	provides = trakt-cli
+	conflicts = trakt-cli
+	source_x86_64 = trakt-cli-x86_64-1.2.2.tgz::https://github.com/angristan/trakt-cli/releases/download/v1.2.2/trakt-cli_1.2.2_linux_amd64.tar.gz
+	sha256sums_x86_64 = 35257e1517a6c70a966f4a0c208994aedce8c87a508c3504a957cd576a3acd35
+	source_i686 = trakt-cli-i686-1.2.2.tgz::https://github.com/angristan/trakt-cli/releases/download/v1.2.2/trakt-cli_1.2.2_linux_386.tar.gz
+	sha256sums_i686 = c36b6b5c6afd543f2086d2858665e049a5d2cf3475577e6b38d1e87d5409c54b
+	source_aarch64 = trakt-cli-aarch64-1.2.2.tgz::https://github.com/angristan/trakt-cli/releases/download/v1.2.2/trakt-cli_1.2.2_linux_arm64.tar.gz
+	sha256sums_aarch64 = adead05ce64bef48f02c447603008f95cd1ce355e522b51a202ce2d9dbc2e163
+
+pkgname = trakt-cli-bin

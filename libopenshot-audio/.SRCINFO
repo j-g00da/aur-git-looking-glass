@@ -1,0 +1,28 @@
+pkgbase = libopenshot-audio
+	pkgdesc = A high-quality audio editing and playback library used by libopenshot.
+	pkgver = 0.4.0
+	pkgrel = 1
+	url = https://github.com/openshot/libopenshot-audio
+	arch = x86_64
+	license = GPL3
+	makedepends = alsa-lib
+	makedepends = cmake
+	makedepends = doxygen
+	makedepends = freetype2
+	makedepends = libx11
+	makedepends = python
+	makedepends = zlib
+	source = https://github.com/openshot/libopenshot-audio/archive/v0.4.0/libopenshot-audio-v0.4.0.tar.gz
+	sha512sums = 38dd62f24d6e9aaffe5f1ac51e374263cbc98a51f9e1391ab4ede2290fc67bfb7f29e525e986a8cbbbdde25a343bcd085e1269427dcc72f04ef7031991310ed2
+	b2sums = 0b6ac4bb57587df52daaf64d4b260a869a7aa0156ab7c863aac844e1ea72b24c11d1d8bb881df8b23d5ed2c70fed410aa34634a6f497c103e12dc6e67bc436a5
+
+pkgname = libopenshot-audio
+	depends = alsa-lib
+	depends = gcc-libs
+	depends = glibc
+	depends = zlib
+	optdepends = libopenshot-audio-docs: for documentation
+	provides = libopenshot-audio.so
+
+pkgname = libopenshot-audio-docs
+	pkgdesc = A high-quality audio editing and playback library used by libopenshot. - documentation

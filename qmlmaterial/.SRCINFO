@@ -1,0 +1,18 @@
+pkgbase = qmlmaterial
+	pkgdesc = Material Design 3 for QML
+	pkgver = 0.1.4
+	pkgrel = 2
+	url = https://github.com/hypengw/QmlMaterial
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = git-lfs
+	makedepends = cmake
+	depends = qt6-base
+	depends = qt6-declarative
+	depends = qt6-shadertools
+	provides = libqml_material.so
+	source = git+https://github.com/hypengw/QmlMaterial.git#tag=v0.1.4
+	sha256sums = 2382534d8be7f4ca74395d60aff3c69a2adee718ed0f2c6fbf67e54633bd1cd6
+
+pkgname = qmlmaterial

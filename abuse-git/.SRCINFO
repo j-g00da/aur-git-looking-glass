@@ -1,0 +1,21 @@
+pkgbase = abuse-git
+	pkgdesc = Side-scroller action game that pits you against ruthless alien killers
+	pkgver = 2025.1.0
+	pkgrel = 1
+	url = http://abuse.zoy.org/
+	arch = x86_64
+	license = custom
+	license = GPL
+	makedepends = gendesk
+	makedepends = glu
+	makedepends = mesa
+	makedepends = cmake
+	makedepends = git
+	depends = libglvnd
+	depends = sdl2_mixer
+	provides = abuse
+	conflicts = abuse
+	source = abuse::git+https://github.com/apancik/Abuse_2025
+	b2sums = SKIP
+
+pkgname = abuse-git

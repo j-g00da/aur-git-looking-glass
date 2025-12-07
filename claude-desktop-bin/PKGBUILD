@@ -3,7 +3,7 @@
 # AUR Package Repository: https://github.com/patrickjaja/claude-desktop-bin
 
 pkgname=claude-desktop-bin
-pkgver=1.0.1307
+pkgver=1.0.1768
 pkgrel=1
 pkgdesc="Claude AI Desktop Application (Official Binary - Linux Compatible)"
 arch=('x86_64')
@@ -14,8 +14,8 @@ makedepends=('p7zip' 'wget' 'asar' 'python')
 optdepends=('claude-code: Claude Code CLI for agentic coding features (npm i -g @anthropic-ai/claude-code)')
 provides=('claude-desktop')
 conflicts=('claude-desktop')
-source_x86_64=("Claude-Setup-x64-${pkgver}.exe::https://downloads.claude.ai/releases/win32/x64/1.0.1307/Claude-1ed8835ce5539ba2a894ab752752be672a17c0d8.exe")
-sha256sums_x86_64=('4e6b99a9bd2d0f9e42048608b7f2a36fcf3224c97400564299c8a60b0b04196f')
+source_x86_64=("Claude-Setup-x64-${pkgver}.exe::https://downloads.claude.ai/releases/win32/x64/1.0.1768/Claude-67d01376d0e9d08b328455f6db9e63b0d603506a.exe")
+sha256sums_x86_64=('c7be906afdfcc9adce6e9588ab7743a30a3bf4b82f56ab8c7da65e1fc3352d49')
 options=('!strip')
 
 prepare() {
@@ -470,12 +470,14 @@ def patch_quick_entry_position(filepath):
         failed = True
 
     # Patch 2: In fallback display lookup
-    # Pattern matches: r||(r=ELECTRON.screen.getPrimaryDisplay())
-    pattern2 = rb'r\|\|\(r=(\w+)\.screen\.getPrimaryDisplay\(\)\)'
+    # Pattern matches: VAR||(VAR=ELECTRON.screen.getPrimaryDisplay())
+    # Variable name changes between versions (r, n, etc.), so use backreference
+    pattern2 = rb'(\w)\|\|\(\1=(\w+)\.screen\.getPrimaryDisplay\(\)\)'
 
     def replacement2_func(m):
-        electron_var = m.group(1).decode('utf-8')
-        return f'r||(r={electron_var}.screen.getDisplayNearestPoint({electron_var}.screen.getCursorScreenPoint()))'.encode('utf-8')
+        var_name = m.group(1).decode('utf-8')
+        electron_var = m.group(2).decode('utf-8')
+        return f'{var_name}||({var_name}={electron_var}.screen.getDisplayNearestPoint({electron_var}.screen.getCursorScreenPoint()))'.encode('utf-8')
 
     content, count2 = re.subn(pattern2, replacement2_func, content)
     if count2 > 0:

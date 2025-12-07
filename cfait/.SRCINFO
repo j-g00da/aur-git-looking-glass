@@ -1,8 +1,8 @@
 pkgbase = cfait
-	pkgdesc = A simple, elegant, and lightweight CalDAV task / TODO manager (TUI & GUI)
-	pkgver = 0.2.2
+	pkgdesc = A powerful, simple, elegant, and lightweight CalDAV tasks / TODO manager (TUI & GUI)
+	pkgver = 0.2.7
 	pkgrel = 1
-	url = https://github.com/trougnouf/cfait
+	url = https://codeberg.org/trougnouf/cfait
 	arch = x86_64
 	license = GPL3
 	makedepends = cargo
@@ -17,7 +17,7 @@ pkgbase = cfait
 	replaces = rustache
 	replaces = fairouille
 	options = !lto
-	source = cfait-0.2.2.tar.gz::https://github.com/trougnouf/cfait/archive/v0.2.2.tar.gz
-	sha256sums = a53229cecd356493e51abd09c4626f9e7227e3804ea7af282f299851be03ebec
+	source = cfait-source-v0.2.7.tar.gz::https://codeberg.org/trougnouf/cfait/releases/download/v0.2.7/cfait-source-v0.2.7.tar.gz
+	sha256sums = 4f1de3304252fb574c86d210d7a2731531b3c6c4660b665e688c47aec48409d1
 
 pkgname = cfait
