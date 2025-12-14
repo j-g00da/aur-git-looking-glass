@@ -2,7 +2,7 @@
 # Maintainer: rsteube <rsteube@users.noreply.github.com>
 
 pkgname='carapace-bin'
-pkgver=1.5.5
+pkgver=1.5.7
 pkgrel=1
 pkgdesc='A multi-shell completion binary'
 url='https://github.com/carapace-sh/carapace-bin'
@@ -10,16 +10,16 @@ arch=('aarch64' 'i686' 'x86_64')
 license=('MIT')
 provides=('carapace')
 conflicts=('carapace')
-optdepends=('carapace-aws: for enriched aws completion')
+optdepends=('carapace-aws-bin: for enriched aws completion')
 
-source_aarch64=("${pkgname}_${pkgver}_aarch64.tar.gz::https://github.com/carapace-sh/carapace-bin/releases/download/v1.5.5/carapace-bin_1.5.5_linux_arm64.tar.gz")
-sha256sums_aarch64=('c89579baa76a4a69d73dae638e2c0d75b34cc708b4e4f99aeb0f6a8043d2bb85')
+source_aarch64=("${pkgname}_${pkgver}_aarch64.tar.gz::https://github.com/carapace-sh/carapace-bin/releases/download/v${pkgver}/carapace-bin_${pkgver}_linux_arm64.tar.gz")
+sha256sums_aarch64=('591d616f57b9d96de3925514ed95fede9fd754c7731278a50d8b1933619838c5')
 
-source_i686=("${pkgname}_${pkgver}_i686.tar.gz::https://github.com/carapace-sh/carapace-bin/releases/download/v1.5.5/carapace-bin_1.5.5_linux_386.tar.gz")
-sha256sums_i686=('9fb9085c5e75f679f000265ee49c30ea9853864fbc86f846f37d323b2a5ad274')
+source_i686=("${pkgname}_${pkgver}_i686.tar.gz::https://github.com/carapace-sh/carapace-bin/releases/download/v${pkgver}/carapace-bin_${pkgver}_linux_386.tar.gz")
+sha256sums_i686=('243e1e48d3b6a66edb35114397776ea60bb77b10e875f85c52ba73ded30b5592')
 
-source_x86_64=("${pkgname}_${pkgver}_x86_64.tar.gz::https://github.com/carapace-sh/carapace-bin/releases/download/v1.5.5/carapace-bin_1.5.5_linux_amd64.tar.gz")
-sha256sums_x86_64=('368ae1c53cc17289616fc7475b1208603db8ea08ab89423ad7161f5548030126')
+source_x86_64=("${pkgname}_${pkgver}_x86_64.tar.gz::https://github.com/carapace-sh/carapace-bin/releases/download/v${pkgver}/carapace-bin_${pkgver}_linux_amd64.tar.gz")
+sha256sums_x86_64=('5daf51d5867b0995aad94faa07c783fb083aa00723d2b9a31b177c21f197306f')
 
 package() {
   install -Dm755 "./carapace" "${pkgdir}/usr/bin/carapace"

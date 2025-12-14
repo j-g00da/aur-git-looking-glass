@@ -1,9 +1,9 @@
 # Maintainer: Matteo Giordano <mail at matteogiordano dot me>
 # Contributor: <agustinballesteros04@gmail.com>
 pkgname=kew
-pkgver=3.6.4
+pkgver=3.7.1
 pkgrel=1
-pkgdesc="A terminal music player"
+pkgdesc="Music for the Shell."
 arch=('x86_64')
 url="https://github.com/ravachol/kew"
 license=('GPL-2.0-only')
@@ -12,7 +12,7 @@ replaces=('cue-music-command')
 conflicts=('kew-git')
 
 source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/v${pkgver}.tar.gz")
-sha512sums=('9039237634b2cd7c3df63c3fdfdffae2840c5587b4792e50faf3d86c7d1ca80cbc360f5b2f33fd13486f3dbbb9e557248cda5853d00aadd945e5f2587c6862ae')
+sha512sums=('35e78138790acb2a8e21522f378d719e8f894a5d928730887e468fb61a0e74c637e4a12fa8cc1cd15aa33486bd9f32c43c9964c38bc60f501d4e02d2d5418eac')
 
 build() {
     cd "$pkgname-$pkgver"
@@ -21,10 +21,5 @@ build() {
 
 package() {
     cd "$pkgname-$pkgver"
-    install -Dm755 kew "$pkgdir/usr/bin/kew"
-    install -Dm644 "LICENSE" "$pkgdir/usr/share/licenses/${pkgname}/LICENSE"
-    install -Dm644 "docs/AUTHORS.md" "$pkgdir/usr/share/doc/${pkgname}/AUTHORS.md"
-    install -Dm644 "docs/CHANGELOG.md" "$pkgdir/usr/share/doc/${pkgname}/CHANGELOG.md"
-    install -Dm644 "README.md" "$pkgdir/usr/share/doc/${pkgname}/README.md"
-    install -Dm644 "docs/kew.1" "$pkgdir/usr/share/man/man1/kew.1"
+    make PREFIX="$pkgdir/usr" LANGDIRPREFIX="$pkgdir/usr" install
 }

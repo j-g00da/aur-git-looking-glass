@@ -1,0 +1,14 @@
+pkgbase = vanish
+	pkgdesc = Modern safe file deletion tool with recovery - Never lose files again! Beautiful TUI, pattern restore, themes.
+	pkgver = 0.9.2
+	pkgrel = 1
+	url = https://github.com/nurysso/vanish
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = go
+	makedepends = make
+	source = vanish-0.9.2.tar.gz::https://github.com/nurysso/vanish/archive/v0.9.2.tar.gz
+	sha256sums = 41f34d0f786acacc83d8bf8fdb10db7017adff6895ad12996f2f3fd1eb670880
+
+pkgname = vanish

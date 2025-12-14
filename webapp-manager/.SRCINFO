@@ -1,6 +1,6 @@
 pkgbase = webapp-manager
 	pkgdesc = Run websites as if they were apps
-	pkgver = 1.4.3
+	pkgver = 1.4.5
 	pkgrel = 1
 	url = https://github.com/linuxmint/webapp-manager
 	arch = any
@@ -13,7 +13,8 @@ pkgbase = webapp-manager
 	depends = python-setproctitle
 	depends = python-tldextract
 	depends = xapp
-	source = webapp-manager-1.4.3.tar.gz::https://github.com/linuxmint/webapp-manager/archive/refs/tags/1.4.3.tar.gz
-	sha256sums = bac8ead7f2a00914e389ab1a0d6b57ce7449f16d2e12b11e4cbcc35861ff085c
+	depends = xapp-symbolic-icons
+	source = webapp-manager-1.4.5.tar.gz::https://github.com/linuxmint/webapp-manager/archive/refs/tags/1.4.5.tar.gz
+	sha256sums = 4f1cd0d1dc7c79140d3a7b0c589d8acf91315c72428f56e37fadf0618286e32d
 
 pkgname = webapp-manager

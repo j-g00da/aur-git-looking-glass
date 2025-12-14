@@ -1,0 +1,20 @@
+pkgbase = st-fl-git
+	pkgdesc = Simple terminal with flash jump support
+	pkgver = 0.9.3.r330.e14cfd7
+	pkgrel = 1
+	url = https://github.com/DreamMaoMao/st-fl.git
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = ncurses
+	makedepends = libxext
+	makedepends = git
+	depends = libxft
+	depends = pcre2
+	provides = st
+	conflicts = st
+	options = zipman
+	source = st-fl::git+https://github.com/DreamMaoMao/st-fl.git
+	sha256sums = SKIP
+
+pkgname = st-fl-git

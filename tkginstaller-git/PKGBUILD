@@ -1,5 +1,5 @@
 # -----------------------------------------------------------------------------
-# author : damachine (christkue79@gmail.com)
+# author : damachine (damachin3 at proton dot me)
 # website: https://github.com/damachine
 #          https://github.com/damachine/tkginstaller
 # -----------------------------------------------------------------------------
@@ -43,12 +43,12 @@
 #       run: tkginstaller help
 # -----------------------------------------------------------------------------
 pkgname=tkginstaller-git
-pkgver=0.27.8
+pkgver=0.28.3
 pkgrel=1
 provides=('tkginstaller')
 replaces=('tkginstaller')
 conflicts=('tkginstaller')
-pkgdesc="AIO helper for the TKG packages from the Frogging-Family repositories"
+pkgdesc="AIO installer for the TKG packages from the Frogging-Family repositories"
 arch=('x86_64')
 url="https://github.com/damachine/tkginstaller"
 license=('MIT')
@@ -61,7 +61,7 @@ optdepends=('bat: for syntax highlighting'
             'wdiff: for comparing config files')
 install=tkginstaller.install
 source=("tkginstaller::https://raw.githubusercontent.com/damachine/tkginstaller/refs/heads/master/tkginstaller")
-sha256sums=('91d8f4cb0aeb3fb54fe3cb2cb89200568f4e74579b67fbdc8db527425462d8ba')
+sha256sums=('SKIP')
 
 package() {
     install -Dm755 "$srcdir/tkginstaller" "$pkgdir/usr/bin/tkginstaller"

@@ -1,0 +1,47 @@
+pkgbase = fcitx-mozc
+	pkgdesc = Fcitx Module of A Japanese Input Method for Chromium OS, Windows, Mac and Linux (the Open Source Edition of Google Japanese Input)
+	pkgver = 2.26.4360.102.gca82d39
+	pkgrel = 3
+	url = https://github.com/google/mozc
+	arch = x86_64
+	license = custom
+	makedepends = pkg-config
+	makedepends = python
+	makedepends = curl
+	makedepends = mesa
+	makedepends = subversion
+	makedepends = ninja
+	makedepends = git
+	makedepends = clang
+	makedepends = python-six
+	depends = qt5-base
+	depends = fcitx
+	conflicts = mozc
+	conflicts = mozc-server
+	conflicts = mozc-utils-gui
+	conflicts = mozc-fcitx
+	conflicts = fcitx5-mozc
+	replaces = mozc-fcitx
+	source = git+https://github.com/fcitx/mozc.git#commit=ca82d39
+	source = https://osdn.ip-connect.vn.ua/storage/g/p/po/ponsfoot-aur/mozc/jigyosyo-202104.zip
+	source = https://osdn.ip-connect.vn.ua/storage/g/p/po/ponsfoot-aur/mozc/x-ken-all-202104.zip
+	source = git+https://chromium.googlesource.com/breakpad/breakpad#commit=216cea7
+	source = git+https://github.com/google/googletest.git#commit=703bd9c
+	source = git+https://chromium.googlesource.com/external/gyp#commit=caa6002
+	source = git+https://github.com/hiroyuki-komatsu/japanese-usage-dictionary.git#commit=e5b3425
+	source = git+https://github.com/open-source-parsers/jsoncpp.git#commit=11086dd
+	source = git+https://github.com/google/protobuf.git#commit=fde7cf7
+	source = git+https://github.com/abseil/abseil-cpp.git#commit=0f3bb46
+	validpgpkeys = 2CC8A0609AD2A479C65B6D5C8E8B898CBF2412F9
+	sha512sums = SKIP
+	sha512sums = cadb43138597371d13d21a2766ba38f0940a73bd961a1142f3713f700d1b8e75bdb6ccc0600ea57518ad5bf1931eed329cd11faeb87b191aa460e379ed1fed93
+	sha512sums = b473bda282e12c448ec10522306035b10b566d7ebfb051602e287a7890405db9189ce60189ed47cc130d15a196cd8c7440c6cbb2aaacc7e8cd62b90e50bcb1d9
+	sha512sums = SKIP
+	sha512sums = SKIP
+	sha512sums = SKIP
+	sha512sums = SKIP
+	sha512sums = SKIP
+	sha512sums = SKIP
+	sha512sums = SKIP
+
+pkgname = fcitx-mozc

@@ -1,0 +1,18 @@
+pkgbase = ffstudio-bin
+	pkgdesc = Node-based FFmpeg frontend
+	pkgver = 0.2.4
+	pkgrel = 1
+	url = https://github.com/Draver93/ff-studio
+	arch = x86_64
+	license = GPL3
+	depends = ffmpeg
+	depends = webkit2gtk-4.1
+	depends = gtk3
+	depends = hicolor-icon-theme
+	provides = ffstudio
+	conflicts = ffstudio
+	options = !debug
+	source = https://github.com/Draver93/ff-studio/releases/download/v0.2.4/FFStudio_0.2.4_amd64.deb
+	sha256sums = ebab262617bf87a4e1ddbabbbc61f6d68d652f204b4095f040ca4a7002a24ae8
+
+pkgname = ffstudio-bin

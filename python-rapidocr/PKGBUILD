@@ -1,7 +1,7 @@
 # Maintainer: aliu <AA RON LIU <GMAIL.COM> >
 pkgname=python-rapidocr
 pkgver=3.4.2
-pkgrel=2
+pkgrel=3
 pkgdesc='Cross-runtime OCR library'
 arch=('any')
 license=('Apache-2.0')
@@ -50,14 +50,18 @@ prepare() {
 	cd rapidocr
     echo "from .rapidocr.main import RapidOCR, VisRes" > __init__.py
 
-    rm -r rapidocr/rapidocr/  # no idea why\ {this happens,only under makepkg}
+	if [[ -e rapidocr/rapidocr ]]; then
+		rm -r rapidocr/rapidocr/  # no idea why\ {this happens,only under makepkg}
+	fi
 }
 
 build() {
 	cd "${srcdir}/RapidOCR-${pkgver}/python"
 	python setup.py build
 
-    rm -r build/lib/rapidocr/rapidocr/  # no idea why\ {this happens,only under makepkg}
+	if [[ -e build/lib/rapidocr/rapidocr ]]; then
+		rm -r build/lib/rapidocr/rapidocr/  # no idea why\ {this happens,only under makepkg}
+	fi
     install "$srcdir/FZYTK.TTF" build/lib/rapidocr/models/
 }
 

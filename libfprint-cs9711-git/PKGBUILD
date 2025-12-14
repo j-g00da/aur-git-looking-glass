@@ -6,7 +6,7 @@
 
 pkgname=libfprint-cs9711-git
 _pkgname=libfprint
-pkgver=1.94.9+28.r1839.20250829.152cc367
+pkgver=1.94.9+42.r1853.20251208.a1a301a1
 pkgrel=1
 pkgdesc="libfprint with proprietary FPC match on host device CS9711Fingprint driver"
 url="https://fprint.freedesktop.org/"
@@ -83,6 +83,8 @@ prepare() {
   git config remote.sigfm.url >&- || git remote add sigfm $srcdir/sigfm
   git fetch sigfm makepkg
   git merge sigfm/makepkg --no-edit
+  # Revert "libfprint: Use fatal-warnings on g-i-scanner" to fix build
+  sed -i '/fatal_warnings: true,/d' libfprint/meson.build
   sed -i 's|import shutil|import shutil\n    import traceback|g' tests/virtual-image.py
   for patch in $srcdir/*.patch; do
     git apply $patch

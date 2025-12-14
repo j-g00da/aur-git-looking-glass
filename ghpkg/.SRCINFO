@@ -1,13 +1,14 @@
 pkgbase = ghpkg
-	pkgdesc = An indev package manager, using github repos, to build from source.
-	pkgver = 0.3
+	pkgdesc = Indev package manager
+	pkgver = 1.2.0
 	pkgrel = 1
-	url = https://github.com/Frothy7650/ghpkg
+	url = https://github.com/Frothy7650/ghpkg/
 	arch = any
 	license = MIT
+	makedepends = vlang
 	depends = git
-	depends = vlang
-	source = git+https://github.com/Frothy7650/ghpkg.git
-	sha256sums = SKIP
+	options = !debug
+	source = https://github.com/Frothy7650/ghpkg/archive/refs/tags/v1.2.0.tar.gz
+	sha256sums = 41b47909c5e3790c7003d8b1db74bf908a463f4fcbca9dabae9ec7c4aebc9bc0
 
 pkgname = ghpkg

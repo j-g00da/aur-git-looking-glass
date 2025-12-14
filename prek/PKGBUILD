@@ -2,8 +2,8 @@
 # Contributor:
 
 pkgname=prek
-pkgver=0.2.19
-pkgrel=3
+pkgver=0.2.21
+pkgrel=2
 pkgdesc="⚡ Better 'pre-commit', re-engineered in Rust"
 arch=('x86_64')
 url='https://github.com/j178/prek'
@@ -12,7 +12,7 @@ depends=('gcc-libs')
 makedepends=('git' 'rust' 'libxml2')
 checkdepends=('cargo-nextest')
 options=('!lto')
-_commit='bdc40e36aa85f868ed9a8ddbbde1e3d6372cfa75'
+_commit='6dcab879a873f612f9d3f32620be60a138386d25'
 source=("$pkgname::git+$url.git#commit=$_commit")
 md5sums=('SKIP')
 
@@ -25,10 +25,7 @@ pkgver() {
 prepare() {
   cd "$pkgname" || exit
 
-  # download dependencies
-  # NOTE: async_zip's latest tag is non-semver complaint and requires the git provider.
-  CARGO_NET_GIT_FETCH_WITH_CLI=true \
-    cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
 }
 
 build() {
@@ -50,7 +47,7 @@ package() {
   cd "$pkgname" || exit
 
   # binary
-  install -vDm755 -t "$pkgdir/usr/bin" "target/release/$pkgname"
+  install -Dm755 -t "$pkgdir/usr/bin" "target/release/$pkgname"
 
   # shell completion
   install -Dm644 <(env PATH="$pkgdir/usr/bin" COMPLETE=bash "$pkgname") \
@@ -61,8 +58,8 @@ package() {
     "$pkgdir/usr/share/fish/vendor_completions.d/$pkgname.fish"
 
   # documentation
-  install -vDm644 -t "$pkgdir/usr/share/doc/$pkgname" README.md
+  install -Dm644 -t "$pkgdir/usr/share/doc/$pkgname" README.md
 
   # license
-  install -vDm644 -t "$pkgdir/usr/share/licenses/$pkgname" LICENSE
+  install -Dm644 -t "$pkgdir/usr/share/licenses/$pkgname" LICENSE
 }

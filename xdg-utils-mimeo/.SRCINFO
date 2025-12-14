@@ -1,7 +1,7 @@
 pkgbase = xdg-utils-mimeo
 	pkgdesc = Command line tools that assist applications with a variety of desktop integration tasks; patched to use mimeo
 	pkgver = 1.2.1
-	pkgrel = 2
+	pkgrel = 3
 	url = https://www.freedesktop.org/wiki/Software/xdg-utils/
 	arch = any
 	license = MIT
@@ -11,8 +11,6 @@ pkgbase = xdg-utils-mimeo
 	makedepends = git
 	depends = sh
 	depends = file
-	depends = xorg-xset
-	depends = xorg-xprop
 	optdepends = kde-cli-tools: for KDE Plasma5 support in xdg-open
 	optdepends = exo: for Xfce support in xdg-open
 	optdepends = pcmanfm: for LXDE support in xdg-open
@@ -20,6 +18,8 @@ pkgbase = xdg-utils-mimeo
 	optdepends = perl-file-mimeinfo: for generic support in xdg-open
 	optdepends = perl-net-dbus: Perl extension to dbus used in xdg-screensaver
 	optdepends = perl-x11-protocol: Perl X11 protocol used in xdg-screensaver
+	optdepends = xorg-xset: for X11 support in xdg-screensaver
+	optdepends = xorg-xprop: for X11 support in xdg-screensaver
 	provides = xdg-utils
 	conflicts = xdg-utils
 	source = git+https://gitlab.freedesktop.org/xdg/xdg-utils.git#tag=v1.2.1

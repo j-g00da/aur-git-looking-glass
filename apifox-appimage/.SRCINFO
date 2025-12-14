@@ -1,0 +1,20 @@
+pkgbase = apifox-appimage
+	pkgdesc = Apifox - API documentation, debugging, mocking, and testing tool (AppImage in Zip)
+	pkgver = 2.7.48
+	pkgrel = 1
+	url = https://apifox.com
+	arch = x86_64
+	license = Proprietary
+	depends = fuse2
+	depends = zlib
+	depends = hicolor-icon-theme
+	depends = desktop-file-utils
+	provides = apifox
+	conflicts = apifox
+	conflicts = apifox-bin
+	conflicts = apifox-appimage
+	options = !strip
+	source = https://file-assets.apifox.com/download/Apifox-linux-latest.zip
+	sha256sums = SKIP
+
+pkgname = apifox-appimage

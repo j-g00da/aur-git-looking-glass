@@ -1,15 +1,13 @@
 # Maintainer: Fabian Maurer <dark.shadow4@web.de>
 pkgname="rimsort-git"
-pkgver=r2040.ee163f7a
+pkgver=r2084.33b70b7c
 pkgrel=1
 pkgdesc="A Mod Manager For Rimworld game"
 arch=("x86_64")
 url="https://github.com/RimSort/RimSort"
 license=("GPL3")
-makedepends=(python git uv)
-depends=(
-    "python"
-)
+makedepends=(git)
+depends=(python uv)
 source=("git+https://github.com/RimSort/RimSort.git"
         "RimSort.desktop"
         "RimSort.sh")
@@ -27,12 +25,20 @@ pkgver() {
 
 build() {
     cd "$srcdir/RimSort"
+    rm -rf .venv
     uv sync --group build
     git submodule update --init --recursive
 }
 
 package() {
     cd "$srcdir/RimSort"
+
+    # Force .venv to not depend on local python
+    target=$(readlink ".venv/bin/python")
+    targetDir=$(dirname "$target")
+    targetLib="$targetDir/../lib"
+    cp -r "$targetLib"/* .venv/lib
+    cp --remove-destination "$(readlink ".venv/bin/python")" ".venv/bin/python"
 
     # Main Files
     install -dm755 "$pkgdir/opt/rimsort/"
@@ -41,6 +47,12 @@ package() {
     cp -r app "$pkgdir/opt/rimsort/"
     cp -r themes "$pkgdir/opt/rimsort/"
     cp pyproject.toml "$pkgdir/opt/rimsort/"
+    mkdir "$pkgdir/opt/rimsort/libs"
+    cp -r libs/*.so "$pkgdir/opt/rimsort/libs/"
+    cp steam_appid.txt "$pkgdir/opt/rimsort/"
+
+    # Add missing steam symlink
+    ln -s SteamworksPy_x86_64.so "$pkgdir/opt/rimsort/libs/SteamworksPy.so"
 
     # Icon
     install -Dm644 "./themes/default-icons/AppIcon_a.png" "$pkgdir/usr/share/pixmaps/RimSort.png"

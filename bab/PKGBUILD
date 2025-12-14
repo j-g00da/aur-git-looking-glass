@@ -2,7 +2,7 @@
 # Maintainer: Sebastian Stepper <sebastian-stepper@gmx.de>
 
 pkgname='bab'
-pkgver=0.3.4
+pkgver=0.4.1
 pkgrel=1
 pkgdesc='Custom commands for every project'
 url='https://github.com/bab-sh/bab'
@@ -12,11 +12,9 @@ provides=('bab')
 conflicts=('bab-bin')
 depends=('glibc')
 makedepends=('go' 'git')
-source=("${pkgname}_${pkgver}.tar.gz::https://github.com/bab-sh/bab/archive/refs/tags/v${pkgver}.tar.gz")
-sha256sums=('b46bcbe64b1e0ecdf21c6722a0c40a6a51ff924a04a43b6125bb272c9cce653f')
+source=("${pkgname}_${pkgver}.tar.gz::https://github.com/bab-sh/bab/releases/download/v${pkgver}/bab-${pkgver}.tar.gz")
+sha256sums=('b2af2c8b0d33cf309dd70702072ef4a4b30673f7d36cc785c4c10db8bc682fcf')
 build() {
-  cd "${pkgname}-${pkgver}"
-  export CGO_ENABLED=0
   export CGO_CPPFLAGS="${CPPFLAGS}"
   export CGO_CFLAGS="${CFLAGS}"
   export CGO_CXXFLAGS="${CXXFLAGS}"
@@ -26,20 +24,18 @@ build() {
   go build \
   -ldflags="-s -w -buildid='' -linkmode=external \
   -X github.com/bab-sh/bab/internal/version.Version=${pkgver} \
-  -X github.com/bab-sh/bab/internal/version.Commit=afddf97977915bead13f5fd8cfb6cd074303403b \
-  -X github.com/bab-sh/bab/internal/version.Date=2025-12-05T23:11:02Z \
+  -X github.com/bab-sh/bab/internal/version.Commit=ada01302fab135828946b41d1937288a460e7660 \
+  -X github.com/bab-sh/bab/internal/version.Date=2025-12-12T17:59:19Z \
   -X github.com/bab-sh/bab/internal/version.BuiltBy=aur" \
   -o bab .
 
   # Generate shell completions
   mkdir -p completions
-  ./bab completion bash > completions/bab.bash
-  ./bab completion zsh > completions/bab.zsh
-  ./bab completion fish > completions/bab.fish
+  ./bab --completion bash > completions/bab.bash
+  ./bab --completion zsh > completions/bab.zsh
+  ./bab --completion fish > completions/bab.fish
 }
 package() {
-  cd "${pkgname}-${pkgver}"
-
   # Binary
   install -Dm755 ./bab "${pkgdir}/usr/bin/bab"
 

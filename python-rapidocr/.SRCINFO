@@ -1,7 +1,7 @@
 pkgbase = python-rapidocr
 	pkgdesc = Cross-runtime OCR library
 	pkgver = 3.4.2
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/RapidAI/RapidOCR
 	arch = any
 	license = Apache-2.0

@@ -1,6 +1,6 @@
 pkgbase = antigravity
 	pkgdesc = An agentic development platform from Google, evolving the IDE into the agent-first era.
-	pkgver = 1.11.14
+	pkgver = 1.11.17
 	pkgrel = 1
 	url = https://antigravity.google/
 	arch = x86_64
@@ -32,10 +32,10 @@ pkgbase = antigravity
 	depends = systemd-libs
 	options = !strip
 	options = !debug
-	source = antigravity-1.11.14.tar.gz::https://edgedl.me.gvt1.com/edgedl/release2/j0qc3/antigravity/stable/1.11.14-5763785964257280/linux-x64/Antigravity.tar.gz
+	source = antigravity-1.11.17.tar.gz::https://edgedl.me.gvt1.com/edgedl/release2/j0qc3/antigravity/stable/1.11.17-6639170008514560/linux-x64/Antigravity.tar.gz
 	source = antigravity.desktop
 	source = antigravity-url-handler.desktop
-	b2sums = 654df78b7c62e06028de0b346a2825b93653a2e876145dd45940e002a7e050c01db04fa0f16857b07fde7282e93e421a17cf095f57e3ce95624f62b37e077a32
+	b2sums = ae36bd135c6a125c6169ecc9c894a4c9a9d4c5335bb4879e92355e62edcd7e88e5bf03b63374d7c22371c0cc24640fa37aa3656c4703fa2bb4b19baa7bdec2f9
 	b2sums = 59dc67f1cb2f06e77aa1e3496ebcdfc7b8182f94b6cec53f727c8644486b5259ac6683cc7db61dfa4ce5d468e96737290256529e44cc171adcd8dc4e106b3dbb
 	b2sums = 99042366cd8f3a4da093234903d755106ed895afafbe203c253927322126c70cfe75f28ca0bfb345688478f786f22f33e1e58c5e14479030f9babf32193c9071
 

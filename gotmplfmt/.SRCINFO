@@ -1,0 +1,19 @@
+pkgbase = gotmplfmt
+	pkgdesc = Formatter for Go HTML templates.
+	pkgver = 1.0.22
+	pkgrel = 1
+	url = https://github.com/miekg/gotmplfmt
+	arch = x86_64
+	arch = i686
+	arch = pentium4
+	arch = arm
+	arch = armv7h
+	arch = aarch64
+	arch = riscv64
+	license = GPL-3.0
+	makedepends = go>=1.24
+	depends = glibc
+	source = gotmplfmt-1.0.22.tar.gz::https://github.com/miekg/gotmplfmt/archive/v1.0.22.tar.gz
+	sha256sums = 5b2daa692fe3b0c0e512470ad2c83f904629e27ea6c3a12ffaa8fb802da53916
+
+pkgname = gotmplfmt

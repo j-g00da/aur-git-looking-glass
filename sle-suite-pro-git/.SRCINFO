@@ -1,0 +1,18 @@
+pkgbase = sle-suite-pro-git
+	pkgdesc = Advanced tool for SLE cards
+	pkgver = 0.0.3.r4.ge55939a
+	pkgrel = 1
+	url = https://github.com/wikilift/sle-suite-pro
+	arch = any
+	license = NCL
+	depends = pyside6
+	depends = python-pyscard
+	depends = hicolor-icon-theme
+	provides = sle-suite-pro
+	conflicts = sle-suite-pro
+	source = git+https://github.com/wikilift/sle-suite-pro.git
+	source = sle-suite-pro.desktop
+	sha256sums = SKIP
+	sha256sums = 1202793fa26b061309defe4240b8b65334486959b7e5a7537babac036278d77a
+
+pkgname = sle-suite-pro-git

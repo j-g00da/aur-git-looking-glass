@@ -1,0 +1,16 @@
+pkgbase = mingw-w64-qhull
+	pkgdesc = A general dimension code for computing convex hulls and related structures (mingw-w64)
+	pkgver = 2020.2
+	pkgrel = 1
+	url = http://www.qhull.org/
+	arch = any
+	license = custom
+	makedepends = mingw-w64-cmake
+	depends = mingw-w64-crt
+	options = !buildflags
+	options = !strip
+	options = staticlibs
+	source = http://www.qhull.org/download/qhull-2020-src-8.0.2.tgz
+	sha256sums = b5c2d7eb833278881b952c8a52d20179eab87766b00b865000469a45c1838b7e
+
+pkgname = mingw-w64-qhull

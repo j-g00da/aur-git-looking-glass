@@ -1,6 +1,6 @@
 pkgbase = julia-git
 	pkgdesc = High-level, high-performance, dynamic programming language
-	pkgver = 1.11.3.r56940.gd63adeda50d
+	pkgver = 1.12.3.r58961.g949412520e2
 	pkgrel = 1
 	url = https://julialang.org/
 	arch = x86_64
@@ -16,12 +16,13 @@ pkgbase = julia-git
 	depends = fftw
 	depends = libblastrampoline
 	depends = libgit2
+	depends = libnghttp2
 	depends = libunwind
 	depends = libutf8proc
 	depends = lld
 	depends = llvm-julia-libs
-	depends = mbedtls2
 	depends = openlibm
+	depends = openssl
 	depends = 7zip
 	depends = pcre2
 	depends = suitesparse
@@ -30,19 +31,11 @@ pkgbase = julia-git
 	conflicts = julia
 	options = !lto
 	backup = etc/julia/startup.jl
-	source = git+https://github.com/JuliaLang/julia.git#branch=release-1.11
+	source = git+https://github.com/JuliaLang/julia.git#branch=release-1.12
 	source = c12e8515.patch
 	source = julia-hardcoded-libs.patch
-	source = julia-libgit2-1.8.patch
-	source = julia-libgit2-1.9.patch
-	source = julia-metainfo.patch
-	source = julia-curl-1.10.patch
 	sha256sums = SKIP
 	sha256sums = 2cc294b63e601d50341979fb936826bdba59de2165a5929eae927e152652f367
-	sha256sums = e981ce26bb2394333c83512a607e8aa48ae0d66ec40e0f0b6d97ec70b6baa39f
-	sha256sums = 3ba9a85464e874c8ac4caeba155a217e34c3e78e85eccaeb3c2a331ed83882b3
-	sha256sums = 6b4a88fdfddd4c78c23cd8c26f5db1ca89ed6f1ae5558cf458a40482f6c64f98
-	sha256sums = 074690d913b9544bef11468454fbf5f52005b2a12160123340cfacc91d4daf9f
-	sha256sums = f9953782524471c5a8ce819bf00bd47f8272cea17058d15f24522d01b5e827e5
+	sha256sums = 120c3b77a1aecfdb045ac64902164210ea8dd139d2fb8e8b098155b344a8e1fb
 
 pkgname = julia-git

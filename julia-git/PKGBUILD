@@ -9,9 +9,8 @@
 # With contributions from many kind people at https://aur.archlinux.org/packages/julia-git/
 
 _pkgbase=julia
-pkgbase=${_pkgbase}-git
 pkgname=${_pkgbase}-git
-pkgver=1.11.3.r56940.gd63adeda50d
+pkgver=1.12.3.r58961.g949412520e2
 pkgrel=1
 arch=(x86_64)
 pkgdesc='High-level, high-performance, dynamic programming language'
@@ -21,12 +20,13 @@ depends=(blas64-openblas
          fftw
          libblastrampoline
          libgit2
+         libnghttp2
          libunwind
          libutf8proc
          lld
          llvm-julia-libs
-         mbedtls2
          openlibm
+         openssl
          7zip
          pcre2
          suitesparse)
@@ -38,21 +38,13 @@ makedepends=(cmake
              patchelf
              python)
 optdepends=('gnuplot: If using the Gaston Package from julia')
-source=(git+https://github.com/JuliaLang/julia.git#branch=release-1.11
+source=(git+https://github.com/JuliaLang/julia.git#branch=release-1.12
         c12e8515.patch
-        julia-hardcoded-libs.patch
-        julia-libgit2-1.8.patch
-        julia-libgit2-1.9.patch
-        julia-metainfo.patch
-        julia-curl-1.10.patch)
+        julia-hardcoded-libs.patch)
 backup=(etc/julia/startup.jl)
 sha256sums=('SKIP'
             '2cc294b63e601d50341979fb936826bdba59de2165a5929eae927e152652f367'
-            'e981ce26bb2394333c83512a607e8aa48ae0d66ec40e0f0b6d97ec70b6baa39f'
-            '3ba9a85464e874c8ac4caeba155a217e34c3e78e85eccaeb3c2a331ed83882b3'
-            '6b4a88fdfddd4c78c23cd8c26f5db1ca89ed6f1ae5558cf458a40482f6c64f98'
-            '074690d913b9544bef11468454fbf5f52005b2a12160123340cfacc91d4daf9f'
-            'f9953782524471c5a8ce819bf00bd47f8272cea17058d15f24522d01b5e827e5')
+            '120c3b77a1aecfdb045ac64902164210ea8dd139d2fb8e8b098155b344a8e1fb')
 options=(!lto)
 provides=('julia')
 conflicts=('julia')
@@ -72,25 +64,12 @@ prepare() {
   git submodule init
   git submodule update
 
-# Update metadata install path
-  patch -p1 -i ../julia-metainfo.patch
 # Revert test that depends on patched gmp
   patch -Rp1 -i ../c12e8515.patch
-# libgit2 1.8 compatibility
-  patch -p1 -i ../julia-libgit2-1.8.patch
-# libgit2 1.9 compatibility
-  patch -p1 -i ../julia-libgit2-1.9.patch
 # Don't hardcode library names
   patch -p1 -i ../julia-hardcoded-libs.patch
-# Fix segfaults with curl 1.10
-  #cd stdlib/srccache
-  #_SAsha=89d3c7dded535a77551e763a437a6d31e4d9bf84
-  #tar -xzf Downloads-$_SAsha.tar.gz
-  #patch -d JuliaLang-Downloads.jl-${_SAsha:0:7} -p1 < "$srcdir"/julia-curl-1.10.patch
-  #rm Downloads-$_SAsha.tar.gz
-  #tar -czf Downloads-$_SAsha.tar.gz JuliaLang-Downloads.jl-${_SAsha:0:7}
-  #md5sum Downloads-$_SAsha.tar.gz | cut -d ' ' -f 1 > ../../deps/checksums/Downloads-$_SAsha.tar.gz/md5
-  #sha512sum Downloads-$_SAsha.tar.gz | cut -d ' ' -f 1 > ../../deps/checksums/Downloads-$_SAsha.tar.gz/sha512
+# The msys2 related fixes cause build errors ("multiple target patterns. Stop.")
+  git revert -n 89c2a4e6922574ed86bf3fc0373626737a8c33ab
 }
 
 _make() {
@@ -118,8 +97,9 @@ _make() {
     USE_SYSTEM_UTF8PROC=1
     USE_SYSTEM_LIBGIT2=1
     USE_SYSTEM_LIBSSH2=1
-    USE_SYSTEM_MBEDTLS=1
-    USE_SYSTEM_CURL=0
+    USE_SYSTEM_OPENSSL=1
+    USE_SYSTEM_NGHTTP2=1
+    USE_SYSTEM_CURL=1
     USE_SYSTEM_PATCHELF=1
     USE_SYSTEM_ZLIB=1
     USE_SYSTEM_P7ZIP=1
@@ -129,19 +109,20 @@ _make() {
     LIBBLASNAME=libblas64
     LIBLAPACK=-llapack64
     LIBLAPACKNAME=liblapack64
-    MARCH=x86-64
-    JULIA_CPU_TARGET="generic;sandybridge,-xsaveopt,clone_all;haswell,-rdrnd,base(1)"
     VERBOSE=1
-    JLDFLAGS="$LDFLAGS -lLLVM-16jl"
+    JLDFLAGS="$LDFLAGS -lLLVM-18jl"
     LLVM_CONFIG=/usr/lib/llvm-julia/bin/llvm-config
   )
 
-  LD_LIBRARY_PATH="/usr/lib/mbedtls2" make "${make_options[@]}" "$@"
+  [[ ${CARCH} == 'aarch64' ]] && make_options+=(MARCH=armv8.2-a JULIA_CPU_TARGET="generic;armv8.2-a,crypto,fullfp16,lse,rdm")
+  [[ ${CARCH} == 'x86_64' ]] &&  make_options+=(MARCH=x86-64 JULIA_CPU_TARGET="generic;sandybridge,-xsaveopt,clone_all;haswell,-rdrnd,base(1)")
+
+  make "${make_options[@]}" "$@"
 }
 
 build() {
   cd $_pkgbase
-  PATH="$PATH:/usr/lib/llvm-julia/bin/" \
+  PATH="/usr/lib/llvm-julia/bin/:$PATH" \
   _make release
 }
 
@@ -154,18 +135,20 @@ check() {
     --skip errorshow \
     --skip Downloads \
     --skip Sockets \
+    --skip Profile \
     --skip channels \
     --skip nghttp2_jll \
     --skip GMP_jll \
     --skip LibCURL \
     --skip LibSSH2_jll \
-    --skip MbedTLS_jll \
+    --skip OpenSSL_jll \
     --skip MPFR_jll \
     --skip OpenBLAS_jll \
     --skip SuiteSparse_jll \
     --skip PCRE2_jll \
     --skip LibGit2_jll \
-    --skip Zlib_jll
+    --skip Zlib_jll \
+    --skip precompile # https://github.com/JuliaLang/julia/issues/59887
   find ../stdlib \( -name \*.cov -o -name \*.mem \) -delete
   rm -fr ../stdlib/Artifacts/test/artifacts
 }

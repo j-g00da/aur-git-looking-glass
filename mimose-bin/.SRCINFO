@@ -1,6 +1,6 @@
 pkgbase = mimose-bin
 	pkgdesc = Mimose – App that combines Spotify, Soundcloud, VK and Deezer.
-	pkgver = 1.8.8
+	pkgver = 1.9.6
 	pkgrel = 1
 	url = https://mimose.site
 	arch = x86_64
@@ -36,7 +36,7 @@ pkgbase = mimose-bin
 	depends = util-linux-libs
 	depends = xdg-utils
 	options = !strip
-	source = https://github.com/0xhkamori/mimose-binaries/releases/download/v1.8.8-20251207-020308/mimose-1.8.8-1-x86_64.pkg.tar.zst
-	sha256sums = 23ba64966fe3d22b844116715cfc26f4898808a75e061815a37192bfe050f260
+	source = https://github.com/0xhkamori/mimose-binaries/releases/download/v1.9.6-20251211-173322/mimose-1.9.6-1-x86_64.pkg.tar.zst
+	sha256sums = b511b860c5b5033fbdca0f1e3b7b89c522df820885e46e6aa2756868c44aeafa
 
 pkgname = mimose-bin

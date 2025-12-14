@@ -1,6 +1,6 @@
 pkgbase = netpad-vnext-bin
 	pkgdesc = A cross-platform C# editor and playground (vNext - Rust-based shell)
-	pkgver = 0.10.0
+	pkgver = 0.11.0
 	pkgrel = 1
 	url = https://github.com/tareqimbasher/NetPad
 	arch = x86_64
@@ -8,7 +8,7 @@ pkgbase = netpad-vnext-bin
 	depends = dotnet-runtime>=9.0
 	provides = netpad-vnext
 	conflicts = netpad-vnext
-	source = https://github.com/tareqimbasher/NetPad/releases/download/v0.10.0/netpad_vnext-0.10.0-linux-amd64.deb
+	source = https://github.com/tareqimbasher/NetPad/releases/download/v0.11.0/netpad_vnext-0.11.0-linux-amd64.deb
 	sha256sums = SKIP
 
 pkgname = netpad-vnext-bin

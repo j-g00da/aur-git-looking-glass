@@ -1,6 +1,6 @@
 pkgbase = windsurf-next
 	pkgdesc = Windsurf-next - Next version of the Windsurf editor
-	pkgver = 1.12.157_next.10ebfa84f4
+	pkgver = 1.12.163_next.d0990613a6
 	pkgrel = 1
 	url = https://windsurf.com
 	arch = x86_64
@@ -18,10 +18,10 @@ pkgbase = windsurf-next
 	provides = windsurf-next
 	conflicts = windsurf-next
 	options = !strip
-	source = windsurf-next_1.12.157_next.10ebfa84f4_linux-x64::https://windsurf-stable.codeiumdata.com/linux-x64/next/10ebfa84f4e8b018ef2459063f0293b8e9ac01da/Windsurf-linux-x64-1.12.157+next.10ebfa84f4.tar.gz
+	source = windsurf-next_1.12.163_next.d0990613a6_linux-x64::https://windsurf-stable.codeiumdata.com/linux-x64/next/d0990613a64d637c6ddbb36236b7662de941a6b7/Windsurf-linux-x64-1.12.163+next.d0990613a6.tar.gz
 	source = windsurf-next.desktop
 	source = windsurf-next-url-handler.desktop
-	sha256sums = 1ce3afc1589a9498dfecd58bb4e632625513245fb43d814a2836e28da10a29be
+	sha256sums = f083313aa138fbc8be442bf1d6cfb6be122f68f96295906cee1e14fb57180ea0
 	sha256sums = 0561a3546b31291d43138b1f51e9696d889b37d0e88966c9bd32307d4536f91a
 	sha256sums = 7bcdc177ae93096a04076ddf519b836dddf3a11a49e19bfca80f6bf5e60f91b2
 

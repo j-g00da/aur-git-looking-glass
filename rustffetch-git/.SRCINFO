@@ -1,0 +1,14 @@
+pkgbase = rustffetch-git
+	pkgdesc = Simple, fast and flexible neofetch-like information manager.
+	pkgver = 0.1.0.r2.gb928ea2
+	pkgrel = 1
+	url = https://github.com/tempik25/rustffetch
+	arch = x86_64
+	license = GPLv3.0-or-later
+	makedepends = git
+	depends = rustup
+	depends = cargo
+	source = git+https://github.com/tempik25/rustffetch.git
+	sha256sums = SKIP
+
+pkgname = rustffetch-git

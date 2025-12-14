@@ -1,0 +1,22 @@
+pkgbase = ripvid
+	pkgdesc = Beautiful desktop app for downloading videos from YouTube, X/Twitter, TikTok, and 1000+ sites
+	pkgver = 2.2.9
+	pkgrel = 1
+	url = https://github.com/BurgessTG/ripVID
+	arch = x86_64
+	license = MIT
+	depends = webkit2gtk-4.1
+	depends = gtk3
+	depends = libsoup3
+	depends = cairo
+	depends = gdk-pixbuf2
+	depends = glib2
+	depends = hicolor-icon-theme
+	optdepends = libappindicator-gtk3: system tray support
+	provides = ripvid
+	conflicts = ripvid-bin
+	conflicts = ripvid-git
+	source = ripvid-2.2.9.deb::https://github.com/BurgessTG/ripVID/releases/download/v2.2.9/ripVID_2.2.9_amd64.deb
+	sha256sums = SKIP
+
+pkgname = ripvid

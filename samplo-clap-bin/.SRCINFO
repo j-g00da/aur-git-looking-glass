@@ -1,0 +1,12 @@
+pkgbase = samplo-clap-bin
+	pkgdesc = Headless Rust CLAP sfz instrument loader
+	pkgver = 1.2.4
+	pkgrel = 1
+	url = https://github.com/mlm-games/samplo-clap
+	arch = x86_64
+	license = MIT
+	depends = glibc
+	source = Samplo-1.2.4.clap::https://github.com/mlm-games/samplo-clap/releases/download/v1.2.4/Samplo-linux.clap
+	sha256sums = 3e4479e7754c5830473b8f456f67d616c760716b8b018182e035545c92a61b59
+
+pkgname = samplo-clap-bin

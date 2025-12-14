@@ -1,6 +1,6 @@
 pkgbase = xlibre-video-intel
 	pkgdesc = XLibre Intel i810/i830/i915/945G/G965+ video driver
-	pkgver = 3.0.0.4
+	pkgver = 3.0.0.6
 	pkgrel = 1
 	url = https://github.com/X11Libre/xf86-video-intel
 	arch = aarch64
@@ -49,7 +49,7 @@ pkgbase = xlibre-video-intel
 	replaces = xf86-video-intel-uxa
 	replaces = xf86-video-intel-sna
 	options = !lto
-	source = xf86-video-intel-xlibre-xf86-video-intel-3.0.0.4.tar.gz::https://github.com/X11Libre/xf86-video-intel/archive/refs/tags/xlibre-xf86-video-intel-3.0.0.4.tar.gz
-	b2sums = 0b696b27818d496bb8f73e5c2e46813552b493286e85be2b31239a69298a77bce6a0992eb0c5ce8b2d1136efd99202aec87a8ab077b0047092dce657b37a5512
+	source = xf86-video-intel-xlibre-xf86-video-intel-3.0.0.6.tar.gz::https://github.com/X11Libre/xf86-video-intel/archive/refs/tags/xlibre-xf86-video-intel-3.0.0.6.tar.gz
+	b2sums = 6189ea74f8106c3b0b863d2097110be3339df6e16c8a7513d0d90ad354f9ee3f15c2ffc75137427eaf9250286dc19b4a919a5c9746faef459b734f12d6745a70
 
 pkgname = xlibre-video-intel

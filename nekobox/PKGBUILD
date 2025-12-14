@@ -1,15 +1,15 @@
 # Maintainer: qr243vbi
 pkgname=(nekobox nekobox-core)
-pkgver=5.8.26
+pkgver=5.9.10
 pkgrel=1
 pkgdesc="Cross-platform GUI proxy utility (Empowered by sing-box)"
 arch=('x86_64')
 url="https://github.com/qr243vbi/nekobox"
 license=('GPL-3.0-or-later')
-makedepends=('bash' 'gcc-libs' 'glibc' 'libx11' 'qt6-base' 'qt6-declarative' 'qt6-grpc')
-makedepends+=('cmake' 'gendesk' 'go' 'protobuf' 'qt6-tools' 'vulkan-headers' 'cpio' 'upx')
+makedepends=('bash' 'gcc-libs' 'glibc' 'libx11' 'qt6-base' 'qt6-declarative' 'thrift' 'boost')
+makedepends+=('cmake' 'gendesk' 'go' 'qt6-tools' 'vulkan-headers' 'cpio' 'upx' 'boost-libs')
 source=("https://github.com/qr243vbi/nekobox/releases/download/${pkgver}/nekobox-unified-source-${pkgver}.tar.xz")
-sha256sums=("7bd9e4e0cd46eb9a7539976af372daf9847022cb998ceb3d7f3a9dcac098f422")
+sha256sums=("1c97eba8742e935456e66fe5a8daa90513d71dabd5d918d42fa93404717740fa")
 
 
 prepare() {
@@ -52,7 +52,7 @@ package_nekobox-core() {
 }
 
 package_nekobox() {
-    depends=('bash' 'gcc-libs' 'glibc' 'libx11' 'qt6-base' 'qt6-declarative' 'nekobox-core')
+    depends=('bash' 'gcc-libs' 'glibc' 'libx11' 'qt6-base' 'qt6-declarative' 'nekobox-core' 'thrift' 'boost-libs')
 
     install -Dm755 "$DEST"/nekobox -t "${pkgdir}/usr/lib/NekoBox"
     upx "${pkgdir}/usr/lib/NekoBox/nekobox"

@@ -1,0 +1,26 @@
+pkgbase = python-librelane
+	pkgdesc = An infrastructure for implementing chip design flows (successor to OpenLane) - DEVELOPMENT VERSION.
+	pkgver = 3.0.0.dev45
+	pkgrel = 1
+	url = https://github.com/librelane/librelane
+	arch = any
+	license = Apache-2.0
+	makedepends = python-setuptools
+	makedepends = python-pip
+	depends = python
+	depends = python-psutil
+	depends = python-semver
+	depends = python-cloup
+	depends = python-pyyaml
+	depends = python-lxml
+	depends = python-deprecated
+	depends = python-httpx
+	depends = python-ciel
+	depends = python-rapidfuzz
+	depends = python-rich
+	depends = tk
+	depends = klayout
+	source = librelane-3.0.0.dev45.tar.gz::https://github.com/librelane/librelane/archive/refs/tags/3.0.0.dev45.tar.gz
+	sha256sums = e54b5e60e8e3e4ff639ed288d66f12d07d577f23f038a07c9303ad2e4fea2d27
+
+pkgname = python-librelane

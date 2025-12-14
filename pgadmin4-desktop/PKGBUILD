@@ -1,8 +1,8 @@
 # Maintainer: bko <aur at bil dot co dot ua>
 
 pkgname=pgadmin4-desktop
-pkgver=9.10
-pkgrel=2
+pkgver=9.11
+pkgrel=1
 pkgdesc='The desktop user interface for pgAdmin. pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.'
 arch=('x86_64')
 license=('PostgreSQL')
@@ -11,7 +11,7 @@ depends=("pgadmin4-server>=${pkgver}-1" 'xdg-utils' 'python-dbus')
 makedepends=("nodejs" "corepack" "npm" "wget" "unzip" "syft")
 provides=('pgadmin4-desktop')
 source=("pgadmin4-${pkgver}.tar.gz::https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v${pkgver}/source/pgadmin4-${pkgver}.tar.gz")
-sha256sums=('479b7b34b25be53b28174d3b688cebf91869204bec75752e06f7de1634c41507')
+sha256sums=('8f394156662843440b86a5c73995e14b366d8b0056f69c2aa0b00a3268570a54')
 
 build() {
   cd "$srcdir/pgadmin4-${pkgver}"
