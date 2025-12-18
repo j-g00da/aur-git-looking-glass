@@ -32,5 +32,5 @@ jobs:
       - name: Test
         run: |
           cd alpm
-          cargo run -p dev-scripts -- test-files test -t ../testing src-info
+          cargo run --release -p dev-scripts -- test-files -c ../testing test src-info
           
