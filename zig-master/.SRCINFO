@@ -1,0 +1,25 @@
+pkgbase = zig-master
+	pkgdesc = General-purpose programming language and toolchain for maintaining robust, optimal, and reusable software
+	pkgver = 0.16.0dev.1484+d0ba6642b
+	pkgrel = 3
+	url = https://ziglang.org
+	arch = x86_64
+	license = MIT
+	makedepends = cmake>=3.15
+	makedepends = curl
+	makedepends = git
+	makedepends = jq
+	makedepends = llvm>=21
+	depends = gcc-libs
+	depends = glibc
+	depends = clang>=21
+	depends = lld>=21
+	depends = llvm-libs>=21
+	options = !lto
+	options = !strip
+	source = zig::git+https://codeberg.org/ziglang/zig.git
+	source = zig_skip_futex2_test.patch
+	sha256sums = SKIP
+	sha256sums = eb30e0eb00e6ced4c99383f0658a0351f42882e303300ed1828d162d27171cd0
+
+pkgname = zig-master

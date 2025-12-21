@@ -1,4 +1,5 @@
-# Maintainer: Yuri Pieters <magejohnyjtp+archlinux@gmail.com>
+# Maintainer: Louis Jenncka <louis@waffle.tech>
+# Contributor: Yuri Pieters <magejohnyjtp+archlinux@gmail.com>
 # Contributor: Ray Powell <ray+archlinux@xphoniexx.net>
 # Contributor: Joe Davison <joedavison.davison@gmail.com>
 
@@ -8,7 +9,7 @@
 pkgname=wxlauncher-git
 
 pkgver=0.12.0.rc3.r18.ga204abb
-pkgrel=1
+pkgrel=2
 
 pkgdesc="A cross-platform launcher for the FreeSpace 2 Open engine - Git version"
 # NOTE: architectures other than x86_64 have not been tested. However, all the hard dependencies
@@ -19,7 +20,7 @@ license=(GPL2)
 
 depends=(
   'sdl2' 
-  'wxwidgets'
+  'wxwidgets-gtk3'
 )
 makedepends=(
   'cmake' 
@@ -39,10 +40,13 @@ conflicts=('wxlauncher')
 source=(
   "git+https://github.com/scp-fs2open/wxLauncher.git"
   "wxwidgets-3.2-compatibility.patch"
+  "cmake-changes.patch"
 )
 
 sha256sums=('SKIP'
-            '704efd1e3404fc800e001811b579b82a3045330ea9513b15025fe5db1c71abb9')
+            '704efd1e3404fc800e001811b579b82a3045330ea9513b15025fe5db1c71abb9'
+            '56be3cc80d3faf13e470d76111daa12930d3efb0a08497659c038f89fb5c8607'
+)
 
 pkgver() {
   cd wxLauncher || exit
@@ -52,6 +56,7 @@ pkgver() {
 prepare() {
   cd wxLauncher || exit
   patch --forward --strip=1 --input="../wxwidgets-3.2-compatibility.patch"
+  patch --forward --strip=1 --input="../cmake-changes.patch"
 }
 
 build() {

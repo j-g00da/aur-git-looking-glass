@@ -1,11 +1,12 @@
 pkgbase = qdmr
 	pkgdesc = A GUI application for configuring and programming cheap DMR radios
 	pkgver = 0.13.2
-	pkgrel = 1
+	pkgrel = 3
 	url = https://github.com/hmatuschek/qdmr
 	arch = x86_64
 	license = GPL-3.0-or-later
 	makedepends = cmake
+	makedepends = librsvg
 	depends = libusb
 	depends = qt6-tools
 	depends = qt6-serialport

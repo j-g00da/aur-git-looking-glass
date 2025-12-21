@@ -1,9 +1,9 @@
 # Maintainer: Luke Arms <luke@arms.to>
 
-_electron_version=38
+_electron_version=39
 pkgname=stretchly-git
 _pkgname=${pkgname%-git}
-pkgver=1727.668633cf
+pkgver=1805.758cd0f1
 pkgrel=1
 pkgdesc="The break time reminder app"
 arch=('i686' 'x86_64')

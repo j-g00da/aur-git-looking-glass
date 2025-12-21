@@ -1,19 +1,22 @@
 pkgbase = bab-bin
-	pkgdesc = Custom commands for every project
-	pkgver = 0.4.1
+	pkgdesc = Task runner for defining project commands in YAML
+	pkgver = 0.6.1
 	pkgrel = 1
 	url = https://github.com/bab-sh/bab
 	license = MIT
+	optdepends = bash-completion: for bash completions
+	optdepends = zsh: for zsh completions
+	optdepends = fish: for fish completions
 	conflicts = bab
 	provides = bab
 	arch = aarch64
 	source_aarch64 = https://github.com/bab-sh/bab/releases/download/v${pkgver}/bab_${pkgver}_Linux_arm64.tar.gz
-	sha256sums_aarch64 = 6b9aaa383c893a3cca0de75633b904df89a96a988ac3ec063859e0a4be9c02c8
+	sha256sums_aarch64 = 3f830008280c04f8cdebc9340ed42bfcb55e90f053143c729de29ef832be26ae
 	arch = armv7h
 	source_armv7h = https://github.com/bab-sh/bab/releases/download/v${pkgver}/bab_${pkgver}_Linux_armv7.tar.gz
-	sha256sums_armv7h = 6ae9fca2d9e006fd3b0f7be441e340520814c731fa34fc9d79f9ff4d4d848dee
+	sha256sums_armv7h = e7c3e720d0f25d7682c27d5b69c246f8c7a3e2fbff782ecab96847e0a9f958f9
 	arch = x86_64
 	source_x86_64 = https://github.com/bab-sh/bab/releases/download/v${pkgver}/bab_${pkgver}_Linux_x86_64.tar.gz
-	sha256sums_x86_64 = 0daf414c6f8fdfb9686870124863a2a92edc67232047ca09a6f651b8e00f9dbe
+	sha256sums_x86_64 = e8c2f4b99b4873e9eadcb0b7dfb6729e80654ce30cfe47ac82916332dcc118a9
 	
 pkgname = bab-bin

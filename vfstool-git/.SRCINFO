@@ -1,8 +1,8 @@
 pkgbase = vfstool-git
 pkgdesc = Application for OpenMW modlists designed to allow introspecting into and creating virtual filesystems, even for other games.
-pkgver = 0.2.0
+pkgver = 0.2.5
 pkgrel = 1
-url = https://github.com/magicaldave/vfstool
+url = https://github.com/DreamWeave-MP/vfstool
 arch = i686
 arch = x86_64
 arch = armv6h
@@ -11,7 +11,7 @@ license = GPL
 makedepends = git
 makedepends = cargo
 provides = vfstool
-source = git+https://github.com/magicaldave/vfstool
+source = git+https://github.com/DreamWeave-MP/vfstool
 sha1sums = SKIP
 
 pkgname = vfstool-git

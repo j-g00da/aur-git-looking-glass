@@ -1,6 +1,6 @@
 pkgbase = tinct-plugin-keylightd-tray-bin
 	pkgdesc = keylightd-tray theme plugin for Tinct
-	pkgver = 0.1.11
+	pkgver = 0.1.17
 	pkgrel = 1
 	url = https://github.com/jmylchreest/tinct
 	license = MIT
@@ -9,12 +9,12 @@ pkgbase = tinct-plugin-keylightd-tray-bin
 	provides = tinct
 	arch = aarch64
 	source_aarch64 = https://github.com/jmylchreest/tinct/releases/download/v${pkgver}/tinct-plugin-keylightd-tray_${pkgver}_Linux_arm64.tar.gz
-	sha256sums_aarch64 = 75a20d1806b489020f13ed295e99e4d2c407249ff6fe3dd6e0e7a900b98d6a92
+	sha256sums_aarch64 = 71f8b3d83bb7f061e2c6ca69768e99e278f0c2e0fa2fdd55e0f2c92e6dbd757f
 	arch = armv7h
 	source_armv7h = https://github.com/jmylchreest/tinct/releases/download/v${pkgver}/tinct-plugin-keylightd-tray_${pkgver}_Linux_armv7.tar.gz
-	sha256sums_armv7h = 5afd923143c04c8842d27d94a05669754ba9926481df82603a4646fdfc021efd
+	sha256sums_armv7h = f645d6c83dff47aa724fc2893c9a5e3e8e3a67d7391395ec9bf051f24da2fb41
 	arch = x86_64
 	source_x86_64 = https://github.com/jmylchreest/tinct/releases/download/v${pkgver}/tinct-plugin-keylightd-tray_${pkgver}_Linux_x86_64.tar.gz
-	sha256sums_x86_64 = 23a568567b3a736768e3b91a6f2536fe9fc6d8c8b01eefc3f299c908803e5a1b
+	sha256sums_x86_64 = 436abb1c55508d26adfdc11d39133df6b91752473fd4b10805689d1a13911c23
 	
 pkgname = tinct-plugin-keylightd-tray-bin

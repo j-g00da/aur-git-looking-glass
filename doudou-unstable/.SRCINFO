@@ -1,0 +1,15 @@
+pkgbase = doudou-unstable
+	pkgdesc = Stream your music with ease and style (unstable/development version). Source: https://gitlab.com/Openlyst/doudou
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://gitlab.com/Openlyst/doudou
+	arch = x86_64
+	license = GPL3
+	makedepends = curl
+	makedepends = jq
+	depends = mpv
+	depends = gtk3
+	depends = libmpv.so
+	options = !strip
+
+pkgname = doudou-unstable

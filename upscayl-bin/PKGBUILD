@@ -7,12 +7,12 @@
 _pkgname=upscayl
 pkgname=$_pkgname-bin
 pkgver=2.15.0
-pkgrel=6
+pkgrel=8
 pkgdesc='Free and Open Source AI Image Upscaler'
 url='https://github.com/upscayl/upscayl'
 license=('AGPL-3.0-only')
 arch=('x86_64')
-depends=('libvips' 'openjpeg2' 'electron36' 'nodejs' 'vulkan-driver')
+depends=('libvips' 'openjpeg2' 'electron39' 'nodejs' 'vulkan-driver')
 makedepends=('unzip')
 provides=($_pkgname)
 conflicts=($_pkgname)
@@ -27,7 +27,7 @@ source=(
 
 sha512sums=(
   '2500a453c8eb9014d958a278ad8557c34085ce80dd2fce112b12e1643a1c37469ec09914c8ad06795cbf6ad23bd30ba6cb4290f0933b1cd37cc1a8724ac61553'
-  'df86c8a66330079820865175c472965dae488e35c64472361d5a400bcec0353ad2c2039161177fc9784fb567c13017bf2a143782770f72e1cead617f9080a6df'
+  'd2c825f204bc6986b209143363c915419caf42d310cb06b9628af083e5b99d32a199afcc9c4eeb73359862e1363a01f5ecbf576d8b2a92e807b8b9236b402635'
   '51387f42e9b389a599c17690ce2004c51292a4732642fe0c1f6347baecdac719ef88c1fd66b24a5999b13282d3834c75d4047f34fda8ef5783c9e82ed261240e'
 )
 

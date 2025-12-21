@@ -1,7 +1,7 @@
 # Maintainer: Coffee Bean <beanc904@gmail.com>
 pkgname=musicxx-bin
 _pkgname=musicxx
-pkgver=0.83.3
+pkgver=0.83.5
 pkgrel=1.0
 pkgdesc="Audio and video player"
 arch=(x86_64)
@@ -14,7 +14,7 @@ options=('!strip')
 # install=.install
 # source=("$_pkgname-$pkgver.appimage")
 source=("${_pkgname}-${pkgver}.appimage::${_url}/releases/download/v${pkgver}/${_pkgname}-${pkgver}.appimage")
-sha256sums=(9ec4d2e1ee4ed4827b29f42c2a171e0cadad61f8e0ac1da1e734caae3eea6ffe)
+sha256sums=(5a787c46e25e728e490c4087be2a4608952822f8faf32f2934b5b0d36e60ece9)
 
 prepare () {
   chmod +x "${_pkgname}-${pkgver}.appimage"

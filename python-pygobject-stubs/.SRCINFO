@@ -1,6 +1,6 @@
 pkgbase = python-pygobject-stubs
 	pkgdesc = PEP 561 Typing Stubs for PyGObject.
-	pkgver = 2.14.0
+	pkgver = 2.16.0
 	pkgrel = 1
 	url = https://github.com/pygobject/pygobject-stubs
 	arch = any
@@ -10,7 +10,7 @@ pkgbase = python-pygobject-stubs
 	makedepends = python-wheel
 	makedepends = python-setuptools
 	depends = python
-	source = https://github.com/pygobject/pygobject-stubs/archive/refs/tags/v2.14.0.tar.gz
-	sha512sums = fdc24d72f6562b636e41960b98796f4cbb149a5a88f0e01caef7070e46000c13918220e6275873c4911c2b2828651992086f65b443a7817aafbcea84edd6166d
+	source = https://github.com/pygobject/pygobject-stubs/archive/refs/tags/v2.16.0.tar.gz
+	sha512sums = 476ddc623da19bf7ec917e2339ff10d26d5e7e49faae4cb70545c7383c24b34e9e44e4112719fec695b14dfc98baacdc6b891287c8fbb6bf4c325e1ea754379c
 
 pkgname = python-pygobject-stubs

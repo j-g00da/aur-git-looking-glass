@@ -1,55 +1,95 @@
 # Maintainer: pakrohk <pakrohk@gmail.com>
 pkgname=qoder-gui-bin
 pkgver=latest
-pkgrel=1
+pkgrel=2
 pkgdesc="Qoder Agentic Coding App (GUI) - AI-powered code editor from Alibaba (Linux Beta, proprietary)"
+url="https://qoder.com"
 arch=('x86_64')
-url="https://qoder.com/download"
 license=('proprietary')
-# Runtime dependencies (common for Electron/Chromium-based apps - install if GUI crashes)
-depends=('gtk3' 'libappindicator-gtk3' 'libxss' 'nss' 'alsa-lib' 'at-spi2-core')
-# Build-time dependency: required for RPM extraction
-makedepends=('rpm-tools')  # Provides rpm2cpio and cpio - makepkg will handle it automatically
+
+# Comprehensive runtime dependencies for VS Code/Electron-based applications on Arch
+depends=(
+  'alsa-lib'
+  'at-spi2-core'
+  'cairo'
+  'dbus'
+  'expat'
+  'glib2'
+  'gtk3'
+  'libcups'
+  'libdrm'
+  'libxss'
+  'mesa'
+  'nspr'
+  'nss'
+  'pango'
+)
+
+# bsdtar is built-in - no extra tools needed
 options=('!strip')
 
 _source_url="https://download.qoder.com/release/latest/qoder_x86_64.rpm"
 
 prepare() {
-  # Download latest RPM if not present
-  if [ ! -f "${srcdir}/qoder_x86_64.rpm" ]; then
-    echo "Downloading latest Qoder IDE RPM from official source..."
-    curl -L -O "${_source_url}" || {
-      echo "Download failed! Visit https://qoder.com/download and place the RPM manually."
-      exit 1
-    }
+  cd "${srcdir}"
+
+  if [ ! -f "qoder_x86_64.rpm" ]; then
+    echo "================================================================================"
+    echo "Downloading latest Qoder GUI RPM from official source..."
+    echo "URL: ${_source_url}"
+    echo "================================================================================"
+    curl -L -O "${_source_url}" || exit 1
+  else
+    echo "================================================================================"
+    echo "Using existing qoder_x86_64.rpm from source directory"
+    echo "================================================================================"
   fi
 
-  echo "Extracting contents from RPM package..."
-  rpm2cpio qoder_x86_64.rpm | cpio -idmv
+  echo "Extracting RPM package using bsdtar..."
+  bsdtar -xf qoder_x86_64.rpm
 
-  echo "Note: No official checksums provided by Qoder. Verify manually if security-critical."
+  echo "================================================================================"
+  echo "NOTE: Qoder does not provide official checksums."
+  echo "      Verify the downloaded file manually if security is critical."
+  echo "================================================================================"
 }
 
 package() {
-  # Copy extracted files (typical structure: opt/qoder)
-  if [ -d opt/qoder ]; then
-    mkdir -p "${pkgdir}/opt"
-    cp -r opt/qoder "${pkgdir}/opt/"
-  elif [ -d usr ]; then
-    cp -r usr/* "${pkgdir}/usr/"
+  cd "${srcdir}"
+
+  echo "================================================================================"
+  echo "Installing Qoder GUI files (standard /usr hierarchy from RPM)..."
+  echo "================================================================================"
+
+  # Copy the entire extracted 'usr/' directory hierarchy (preserves symlinks, permissions)
+  if [ -d "usr" ]; then
+    cp -a usr "${pkgdir}/"
+    echo "Full /usr hierarchy installed from RPM"
   else
-    echo "Warning: Unexpected RPM structure. Manual path adjustment may be required."
+    echo "ERROR: No 'usr/' directory found after extraction!"
+    exit 1
   fi
 
-  # Symlink main executable
-  find "${pkgdir}/opt/qoder" -type f -executable -name 'qoder*' -exec install -Dm755 {} "${pkgdir}/usr/bin/qoder-ide" \; 2>/dev/null
+  # Ensure reliable executable symlink (overwrites if needed)
+  mkdir -p "${pkgdir}/usr/bin"
+  ln -sf /usr/share/qoder/bin/qoder "${pkgdir}/usr/bin/qoder-gui"
+  echo "Executable symlink created: qoder-gui → /usr/share/qoder/bin/qoder"
 
-  # Install .desktop file if exists
-  find . -name '*.desktop' -exec install -Dm644 {} "${pkgdir}/usr/share/applications/" \; 2>/dev/null
+  # Optional tunnel tool symlink
+  if [ -f "${pkgdir}/usr/share/qoder/bin/qoder-tunnel" ]; then
+    ln -sf /usr/share/qoder/bin/qoder-tunnel "${pkgdir}/usr/bin/qoder-tunnel"
+    echo "qoder-tunnel symlink created"
+  fi
 
-  # Copy icons if present
-  find . -type d -name 'icons' -exec cp -r {} "${pkgdir}/usr/share/" \; 2>/dev/null
-
-  echo "Qoder IDE installed successfully!"
-  echo "Launch with 'qoder-ide' or from the application menu."
+  echo "================================================================================"
+  echo "Qoder GUI installation completed successfully!"
+  echo ""
+  echo "Launch commands:"
+  echo "  • qoder-gui          # Main application"
+  echo "  • qoder-tunnel       # If available"
+  echo "  • Or search 'Qoder' in your application menu"
+  echo ""
+  echo "First run: Sign in with pakrohk@gmail.com"
+  echo "Enjoy agentic coding! 🚀"
+  echo "================================================================================"
 }

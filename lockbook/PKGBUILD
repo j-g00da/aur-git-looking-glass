@@ -1,7 +1,7 @@
 
 pkgname='lockbook'
 _pkgname="lockbook"
-pkgver=25.12.1
+pkgver=25.12.15
 pkgrel=1
 arch=('any')
 url="https://github.com/lockbook/lockbook"
@@ -17,7 +17,7 @@ options=(!lto)
 
 pkgver() {
   cd $srcdir/lockbook/clients/cli
-  echo "25.12.1"
+  echo "25.12.15"
 }
 
 build() {

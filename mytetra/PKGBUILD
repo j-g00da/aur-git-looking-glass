@@ -2,35 +2,37 @@
 # Contributor: cyberxndr <cyberxndr@gmail.com>
 
 pkgname=mytetra
-pkgver=1.44.160
-pkgrel=2
+pkgver=1.44.183
+pkgrel=1
 pkgdesc="Personal manager for data memorization and structuring notes"
 arch=('x86_64')
 url="https://github.com/xintrea/mytetra_dev"
-license=('GPL3')
-depends=('hicolor-icon-theme' 'qt5-base')
+license=('GPL-3.0-only')
+depends=('hicolor-icon-theme' 'qt5-base' 'qt5-svg')
 source=(
-	"https://github.com/xintrea/mytetra_dev/archive/refs/tags/v.${pkgver}.tar.gz"
-	'p1.patch'
+  "https://github.com/xintrea/mytetra_dev/archive/refs/tags/v.${pkgver}.tar.gz"
+  'p1.patch'
 )
 
-sha256sums=(
-	'301c297bc359197e07afa2302841a0f7e24c5589ea0b0f5e13b9c2ff6806a562'
-	'8cb3ba6defeb12da6a7cada7e633752de79e0d4eb91a298d07c07a25789be574'
+b2sums=(
+  'd5c2cfcc462a32572f525a72aea7637101590dc0e6d8e82ce0689c8470121e85ad9ab7774265b572678689e66f80fe10c02efdb5c4ad94bb9d0e7084ec877f22'
+  'f86d56aaeb83a5a40f76b219e38352e91860c9dce06afa7bde9cb8342172a5c318f2424160deba48878dd983382a5edcae23178c0e301163ec7a128a85d3ddeb'
 )
 
 build(){
-    cd "mytetra_dev-v.${pkgver}"
-    patch thirdParty/mimetex/mimetex.c ../p1.patch
-    qmake
-    make
+  cd "mytetra_dev-v.${pkgver}"
+  patch thirdParty/mimetex/mimetex.c ../p1.patch
+  sed -i 's/QMAKE_CFLAGS += -DAA/QMAKE_CFLAGS += -DAA -std=gnu17/' thirdParty/mimetex/mimetex.pro
+  qmake
+  make
 }
 
 
 package(){
-	cd "mytetra_dev-v.${pkgver}/app"
-	make install INSTALL_ROOT="${pkgdir}"
-	mkdir -p "${pkgdir}/usr/bin/"
-	mv "${pkgdir}/mytetra" "${pkgdir}/usr/bin/"
+  cd "mytetra_dev-v.${pkgver}/app"
+  make install INSTALL_ROOT="${pkgdir}"
+  mkdir -p "${pkgdir}/usr/bin/"
+  mv "${pkgdir}/usr/local/bin/mytetra" "${pkgdir}/usr/bin/"
+  rm -r "${pkgdir}/usr/local"
 }
 

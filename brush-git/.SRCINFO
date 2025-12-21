@@ -1,6 +1,6 @@
 pkgbase = brush-git
 	pkgdesc = Bash compatible shell implemented in Rust
-	pkgver = 0.2.23.35.gbd6cbc9
+	pkgver = 0.3.0.69.g30584b9
 	pkgrel = 1
 	url = https://github.com/reubeno/brush
 	arch = x86_64

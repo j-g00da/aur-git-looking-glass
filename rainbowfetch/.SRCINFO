@@ -1,0 +1,14 @@
+pkgbase = rainbowfetch
+	pkgdesc = Run fastfetch with automatic logo and colorized output using lolcat
+	pkgver = 1.0.1
+	pkgrel = 1
+	url = https://github.com/Stamer-programer/RainbowFetch
+	arch = any
+	license = MIT
+	depends = bash
+	depends = fastfetch
+	depends = lolcat
+	source = rainbowfetch-1.0.1.tar.gz::https://github.com/Stamer-programer/RainbowFetch/archive/refs/tags/v1.0.1.tar.gz
+	sha256sums = 45790e6df4a3542f21e3dedce17c4a26a829a443d435bd1616dfd43a4c54acc1
+
+pkgname = rainbowfetch

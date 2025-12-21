@@ -1,0 +1,12 @@
+pkgbase = outertune
+	pkgdesc = OuterTune-style YouTube Music desktop client
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://aur.archlinux.org/packages/outertune
+	arch = x86_64
+	license = MIT
+	depends = webkit2gtk
+	depends = libappindicator-gtk3
+	depends = playerctl
+
+pkgname = outertune

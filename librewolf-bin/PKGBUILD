@@ -4,7 +4,7 @@ pkgname=librewolf-bin
 provides=(${pkgname//-bin/""})
 conflicts=(${pkgname//-bin/""})
 epoch=1
-pkgver=146.0.0_2
+pkgver=146.0.1_1
 _fixedfirefoxver="${pkgver%_*}" # Version of Firefox this LibreWolf version is based on, but the Firefox patch number is always included
 _librewolfver="${pkgver#*_}"
 _firefoxver="${_fixedfirefoxver%.0}" # Removes ".0" from the end. For "136.0.0" this will result in "136.0" but for "136.0.1" won't do anything.
@@ -22,7 +22,7 @@ depends=(
   nss
   ttf-font
   libpulse
-  ffmpeg4.4
+  ffmpeg
   hicolor-icon-theme
   libxdamage
   libxi
@@ -76,12 +76,12 @@ source=(
 )
 source_aarch64=("${_uploadpath_aarch64}" "${_uploadpath_sig_aarch64}")
 source_x86_64=("${_uploadpath_x86_64}" "${_uploadpath_sig_x86_64}")
-sha256sums=('c7206bf8c644463d9c5a9772ea2536e55c46736a3f632c86ebe0dcf22bd934d9'
+sha256sums=('1520a2f4e0f862b6d1df27bddf29f4b6ce499bb5538b331730050e019fdec970'
             '959c94c68cab8d5a8cff185ddf4dca92e84c18dccc6dc7c8fe11c78549cdc2f1'
             '7d01d317b7db7416783febc18ee1237ade2ec86c1567e2c2dd628a94cbf2f25d')
-sha256sums_x86_64=('0f61943f4a3d423c3eb4ad9ed3218887e441f34f2aa443f742f1b132de317aec'
+sha256sums_x86_64=('a51a521c090b42983cd2939f501bc606e8ebe1f0c3838c2996d548c3dc2b9411'
                    'SKIP')
-sha256sums_aarch64=('1b4bf9d934d53ef7b7da0f48c5682fffc9e2b88f21733f3ff0a73bec248ff69c'
+sha256sums_aarch64=('053ab3040a21cbe91c5a8bb658a4ada00ca472a5750d87cb44d6e3505fd34c86'
                     'SKIP')
 
 package() {

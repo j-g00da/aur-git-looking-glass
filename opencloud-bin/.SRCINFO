@@ -1,6 +1,6 @@
 pkgbase = opencloud-bin
 	pkgdesc = secure and private way to store, access, and share your files - upstream built binary
-	pkgver = 4.0.0
+	pkgver = 4.1.0
 	pkgrel = 1
 	url = https://github.com/opencloud-eu/opencloud
 	install = opencloud.install
@@ -19,9 +19,9 @@ pkgbase = opencloud-bin
 	sha512sums = af6b2e80ebaf130fb3e8f6038580bea4db811499d06f2962604941f75d1f8ef0dd3692bf21e54c0611864c49217c8fa457cb6773775a1aa47c7254330f83ba7f
 	sha512sums = 3fa38aba73ffea0e559cf20af9f12b85321a97b41d48aad5c7cea81e9ab7d35c08d7a495c62e6a9fdf6ac7c494a4926805d89171dca0d822d922902188babed3
 	sha512sums = e4b8c5bfda8214d6493055c996010b385c3be62a861dbcb3564c68aa03851bb6f23cd269f1b869fe4eeec6396ca9943888628c2a46215a7bd3c02c2a8f000742
-	source_aarch64 = opencloud-4.0.0-aarch64::https://github.com/opencloud-eu/opencloud/releases/download/v4.0.0/opencloud-4.0.0-linux-arm64
-	sha512sums_aarch64 = 683e9d203ebe53ccfd52d64f8c7e492df59bb4af51a7e223e7f8eb6c6402cc629f3dc2edb6bcdfea5f470e86febc1959983e470c8d341c8946e8b0b1bcf523d0
-	source_x86_64 = opencloud-4.0.0-x86_64::https://github.com/opencloud-eu/opencloud/releases/download/v4.0.0/opencloud-4.0.0-linux-amd64
-	sha512sums_x86_64 = 32accc1acc05aff6104571268cc95ecc47653fce10d0ff86d6ff4441a9a4945fe0e1cd0d314931635a5253fa5df9c5e0ba07d1123405cba759babf1159470d16
+	source_aarch64 = opencloud-4.1.0-aarch64::https://github.com/opencloud-eu/opencloud/releases/download/v4.1.0/opencloud-4.1.0-linux-arm64
+	sha512sums_aarch64 = 1bb543da8909e490f2db3a9bf6897fc1fe441292d3ba91619859e21a1c1ab146e7d58da70aa7a7e2dd6626a0e9ebc4d5adbc427fd96274d5b4c6e1cbc254ea1e
+	source_x86_64 = opencloud-4.1.0-x86_64::https://github.com/opencloud-eu/opencloud/releases/download/v4.1.0/opencloud-4.1.0-linux-amd64
+	sha512sums_x86_64 = 72adb6b2c56e4b40d589abda3b6917b643b0b0a0011d47bb4965672d6975036306ca5c1f99dfd03c496b2d6536d5359520244d3277b124e5338e4ce88b768bc0
 
 pkgname = opencloud-bin

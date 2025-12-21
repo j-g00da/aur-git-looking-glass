@@ -2,7 +2,7 @@
 # Maintainer : bartus <arch-user-repoᘓbartus.33mail.com>
 
 pkgname=makepkg-git-lfs-proto
-pkgver=1
+pkgver=3
 pkgrel=1
 pkgdesc='Add Git-lfs support to makepkg. Use "git-lfs+" as protocol specifier in source url.'
 arch=('any')
@@ -10,7 +10,7 @@ license=('GPL')
 url='https://github.com/bartoszek/AUR-makepkg-git-lfs-proto'
 depends=('pacman' 'git-lfs')
 source=(git-lfs.sh.in)
-sha256sums=('e5a344a5fb196f5263bea00b3f9e208d68a1a2d7eb2ceb6c632f88dcba06bf9b')
+sha256sums=('18c00ffd81f2216acbe6a1cac47b2a3a648cdfa029c6fd07e60eb43a3e9c7adb')
 
 prepare() {
   # How to check for the unlikely possiblity that the directory was changed?

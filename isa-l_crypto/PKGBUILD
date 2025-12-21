@@ -3,7 +3,7 @@
 
 pkgname=isa-l_crypto
 pkgver=2.25.0
-pkgrel=1
+pkgrel=2
 pkgdesc="A collection of optimized low-level functions targeting storage applications"
 arch=(x86_64)
 url="https://github.com/intel/${pkgname}"
@@ -14,6 +14,7 @@ b2sums=('18328b404a2686718fc8cf9bc596816e4521ec85440e8aad2bb40d32eabc606807617fc
 
 build() {
     cd "${srcdir}/${pkgname}-${pkgver}"
+    export CFLAGS="${CFLAGS} -fno-strict-aliasing"
     ./autogen.sh
     ./configure
     make

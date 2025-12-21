@@ -1,6 +1,6 @@
 pkgbase = musicxx-bin
 	pkgdesc = Audio and video player
-	pkgver = 0.83.3
+	pkgver = 0.83.5
 	pkgrel = 1.0
 	url = https://github.com/coolight7/musicxx
 	arch = x86_64
@@ -10,7 +10,7 @@ pkgbase = musicxx-bin
 	depends = util-linux-libs
 	depends = xz
 	options = !strip
-	source = musicxx-0.83.3.tar.gz::https://github.com/beanc904/musicxx-arch/releases/download/v0.83.3/musicxx-0.83.3.appimage
-	sha256sums = 9ec4d2e1ee4ed4827b29f42c2a171e0cadad61f8e0ac1da1e734caae3eea6ffe
+	source = musicxx-0.83.5.appimage::https://github.com/beanc904/musicxx-arch/releases/download/v0.83.5/musicxx-0.83.5.appimage
+	sha256sums = 5a787c46e25e728e490c4087be2a4608952822f8faf32f2934b5b0d36e60ece9
 
 pkgname = musicxx-bin

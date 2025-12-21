@@ -1,7 +1,7 @@
 # Maintainer: Andrew O'Neill <andrew at haunted dot sh>
 
 pkgname=crate
-pkgver=6.1.1
+pkgver=6.1.2
 pkgrel=1
 pkgdesc='Shared nothing, fully searchable, document oriented cluster datastore'
 arch=('x86_64')
@@ -10,12 +10,13 @@ license=('Apache-2.0')
 depends=('python')
 makedepends=('maven' 'java-environment-openjdk>=11')
 install='crate.install'
+options=('!debug')
 source=("${pkgname}-${pkgver}.tar.gz::https://github.com/${pkgname}/${pkgname}/archive/refs/tags/${pkgver}.tar.gz"
         "${pkgname}.service"
         "${pkgname}.env")
 backup=('etc/crate/crate.yml'
         'etc/crate/logging.yml')
-sha256sums=('93a076f8e010d54e0399911691ef92040aba00b088d421f5355a0982a4f1a536'
+sha256sums=('012dd1968a9a0812d2bfcfb580ee02e135119549ecebccc52f4aa90b14211a93'
             '04b36b561498332b1b569e49b42d0bedf04141de07b7b16ff1b06072673cfd21'
             '6182b8d527d52de4fc80023827518b2e8d873afdda873ef6bd2ed92b91982f75')
 

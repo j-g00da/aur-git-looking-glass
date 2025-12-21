@@ -7,6 +7,7 @@ pkgbase = qdmr-git
 	license = GPL-3.0-or-later
 	makedepends = cmake
 	makedepends = git
+	makedepends = librsvg
 	depends = libusb
 	depends = qt6-tools
 	depends = qt6-serialport

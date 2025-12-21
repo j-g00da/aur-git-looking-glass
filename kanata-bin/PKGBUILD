@@ -1,6 +1,6 @@
 # Maintainer: Breno Ramalho Lemes <breno@br-lemes.net>
 pkgname=kanata-bin
-pkgver=1.10.0
+pkgver=1.10.1
 pkgrel=1
 pkgdesc='Improve keyboard comfort and usability with advanced customization'
 arch=('x86_64')
@@ -9,11 +9,11 @@ license=('LGPL-3.0-only')
 provides=('kanata')
 depends=('gcc-libs' 'glibc')
 source=(
-	"https://github.com/jtroo/kanata/releases/download/v${pkgver//_/-}/linux-binaries-x64-v${pkgver//_/-}.zip"
+	"https://github.com/jtroo/kanata/releases/download/v${pkgver//_/-}/kanata-linux-binaries-v${pkgver//_/-}-x64.zip"
 	'https://github.com/jtroo/kanata/raw/main/LICENSE'
 )
 sha256sums=(
-	'fe6ba3768c1a7a60d94628a613f168f464b7ab88d34077e26896a7d3967e5eb6'
+	'f755a4bdeb26821893ef954732db34eda845dcecd421c6f06a8b4b280ea38a39'
 	'a5681bf9b05db14d86776930017c647ad9e6e56ff6bbcfdf21e5848288dfaf1b'
 )
 

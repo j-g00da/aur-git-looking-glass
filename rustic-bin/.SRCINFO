@@ -1,0 +1,17 @@
+pkgbase = rustic-bin
+	pkgdesc = Fast, encrypted, deduplicated backups powered by Rust (reads and writes restic repos) (arm binaries)
+	pkgver = 0.10.2
+	pkgrel = 1
+	url = https://github.com/rustic-rs/rustic
+	arch = aarch64
+	arch = armv7h
+	license = Apache-2.0
+	license = MIT
+	provides = rustic
+	conflicts = rustic
+	source_aarch64 = https://github.com/rustic-rs/rustic/releases/download/v0.10.2/rustic-v0.10.2-1-aarch64-unknown-linux-gnu.tar.gz
+	b2sums_aarch64 = ecd4ab886fe12748367b7e263443da11c169391d8b3aaeff8a19f7df5eb68bb6a7b7d1fcb8ee2fa549381401f9749b1b48fb40b3b19b2d7c93150365a32ab992
+	source_armv7h = https://github.com/rustic-rs/rustic/releases/download/v0.10.2/rustic-v0.10.2-1-armv7-unknown-linux-gnueabihf.tar.gz
+	b2sums_armv7h = f7e69e3d43e3f4cb9c29d2061a77e0f69ccca8d4209d449efa164038a53daa9fcd26eebd68e0dbe32a81d68e07c585b658174f98eaf6210a272e1bdb6c9fbc9a
+
+pkgname = rustic-bin

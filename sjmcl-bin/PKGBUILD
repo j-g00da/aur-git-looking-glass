@@ -4,14 +4,14 @@
 
 pkgname=sjmcl-bin
 pkgdesc='🌟 A Minecraft launcher from @SJMC-Dev'
-pkgver=0.6.3
+pkgver=0.6.5
 pkgrel=1
 arch=(x86_64)
 license=(GPL-3.0,custom:LICENSE.EXTRA)
 url='https://github.com/UNIkeEN/SJMCL'
 source=("https://github.com/UNIkeEN/SJMCL/releases/download/v${pkgver}/SJMCL_${pkgver}_linux_x86_64.deb"
         'LICENSE.EXTRA')
-sha512sums=('b2e5e190b7fd5b63218e1ab49f46934d37c4206ac7934374803d1646e7887d71b33c849886a0702f6a7a045c57325afbde854117b503329ae4cf80f2353b1556'
+sha512sums=('ec387d5cbf13af91a5110a82e204cd9936e4d5e54fca8a9a6ec0beaf57862d158bfeb6089b147523528fa3bcdb7e20ed8678ae108ec79a185e1fb9f63bb5d75f'
             '5556b520002a8ed21b890e19364b3f9a640eca5e9170a90b70ad7ab519d505fd12d1b2306643b5cf73d56cb0d7530de1a4aa81c6ef165146c6460661bd5114ba')
 depends=('cairo' 'desktop-file-utils' 'gdk-pixbuf2' 'glib2' 'gtk3' 'hicolor-icon-theme' 'libsoup' 'pango' 'webkit2gtk-4.1')
 options=('!strip' '!emptydirs')

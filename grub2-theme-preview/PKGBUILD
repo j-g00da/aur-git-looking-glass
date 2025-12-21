@@ -1,4 +1,5 @@
-# Maintainer: Shira Nguyen <sn3446409@gmail.com>
+# Maintainer: Harsh Narayan Jha <harshnj at proton dot me>
+# Contributor: Shira Nguyen <sn3446409@gmail.com>
 # Contributor: Nathan Doyle <natetronn <at> Gmail-DOT-Com>
 # Contributor: American_Jesus <american.jesus.pt AT gmail DOT com>
 pkgname=grub2-theme-preview
